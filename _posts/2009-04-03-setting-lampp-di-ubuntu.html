@@ -1,0 +1,64 @@
+---
+layout: post
+title: Setting LAMPP di Ubuntu
+date: 2009-04-03 17:27:43.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- joomla
+- lampp
+- linux-opensource
+- ubuntu
+- web
+- webserver
+---
+<p>Waktu lagi ngerjain proyek bikin web sekolah (mudahan kelar), Windows ngadat berat, nggak bisa copy file dan buka gambar. Bikin kesel minta ampun. akhirnya saya libas partisi windows tanpa belas kasihan dan langsung di merge ke Ubuntu. bagaimana saya ngerjain web berbasis joomla di ubuntu? Saya sudah install php apache mysql dan tetek bengeknya, tetep nggak bisa. Lalu saya dikasih tahu sama ketua seumur hidup KPLI NTB, mas Amrinz, kalo tutorial webserver tu ada di situs yang dikelolanya, <a href="http://linuxindo.web.id">linuxindo.web.id.</a> setelah ngenet berjam-jam buat donlot paketnya (maklum, fakir benwit. waa....), akhirnya bisa juga. Tutorial aslinya bahasa inggris, ini sudah saya terjemahin amburadul.</p>
+<p>Donlot xampp di http://apachefriends.org. ekstrak di /opt/lampp atau di /root</p>
+<p>sudo tar xvzf lampp-xxx.tar.gz /opt</p>
+<p>Lakukan di direktori home dengan permission root</p>
+<p>mkdir webserver</p>
+<p>tar xvzf lampp-xxx.tar.gz</p>
+<p>Dan sebagai root buat simbolik link dan letakkan di /opt</p>
+<p>ls -s /home/amrinz/website/lampp /opt/lampp</p>
+<p>Tetapi menurut saya lebih baik diinstall langsung ke /opt, karena bila memakai link, kadang mysqlnya tidak jalan.</p>
+<p>Sekarang kita sudah selesai install xampp</p>
+<p>Dapatkan root lalu ketik /opt/lampp/lampp start</p>
+<p>Coba di firefox, ketik di address barnya : localhost. kalo nggak bisa, mungkin mode work offline-nya masih aktif, ilangin centangnya di menu file.</p>
+<p>Perintah LAMPP<br />
+untuk mengakses webserver, anda harus menjalankan secara manual. format perintah xampp/lampp sebagai berikut :<br />
+/opt/lampp/lampp &lt;perintah&gt;</p>
+<p>contoh untuk menjalankan lampp</p>
+<p>/opt/lampp/lampp start</p>
+<p>dan untuk berhenti ketik</p>
+<p>/opt/lampp/lampp stop</p>
+<p>option lain :<br />
+startapache        only start apache2<br />
+startssl        only start ssl support<br />
+startsql        only start mysql<br />
+startftp        only start proftp</p>
+<p>option pengganti start yang lain : stop,reload,restart,php5,php4,security,phpstatus,backup,panel</p>
+<p>MEMBUAT VIRTUAL HOST<br />
+Virtual host membuat web kita punya url beneran seperti sudah dibeliin domain komersil, seperti www.smandamataram.com.<br />
+caranya edit /opt/lampp/etc/http.conf</p>
+<p>Hanya menambah baris ini di baris terakhir</p>
+<p>include /home/username/website/extra-httpd.conf</p>
+<p>Dan sebagai user biasa, buka gedit dan edit baris ini</p>
+<p>&lt;VirtualHos&gt;<br />
+ServerName www.smandamataram.com<br />
+DocumentRoot /home/padfoot/webserver/ www.smandamataram.com<br />
+&lt;Directory /home/padfoot/webserver/ www.smandamataram.com&gt;<br />
+AllowOverride All<br />
+Options All<br />
+&lt;/Directory&gt;<br />
+&lt;/VirtualHost&gt;</p>
+<p>Simpan sebagai extra-httpd.conf sebagaimana didefinisikan di httpd.conf</p>
+<p>Kita harus punya IP Address untuk ditulis di /etc/hosts file. hanya dengan menambah :</p>
+<p>127.0.1.2 www.smandamataram.com</p>
+<p>Di ubuntu, Anda bisa menggunakan menu network&gt;system/administrations/network. ganti tabs ke host, klik add, masukkan IP dan servername</p>
+<p>Langkah terakhir smandamataram.com folder dibawah /home/padfoot/webserver.</p>
+<p>Sekarang Anda bisa menggunakan alamat virtual itu sebagaimana alamat beneran di internet.</p>
+<p>Jika ingin menambah virtualhost, hanya mengulangi tiga langkah tadi, memasukan IP, servername, dan direktori webnya.</p>
+<p>Selamat mencoba!</p>

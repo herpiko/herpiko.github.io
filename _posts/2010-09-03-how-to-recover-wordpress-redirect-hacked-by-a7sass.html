@@ -1,0 +1,205 @@
+---
+layout: post
+title: how to recover wordpress-redirect-hacked-by-a7sass
+date: 2010-09-03 20:31:23.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- kehidupan
+- linux-opensource
+- pikiran
+- tong sampah
+tags:
+- A7sass
+- hack
+- hacked
+- hek
+- recovery
+- redirect
+- wordpress
+- wordpress password
+meta:
+  _edit_last: '7761285'
+  _wp_old_slug: ''
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>alkisah, web milik seorang kawan kena hack. screenshoot :</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/09/hek.jpg"><img class="aligncenter size-medium wp-image-1402" title="hek" src="{{ site.baseurl }}/assets/hek.jpg?w=300" alt="" width="300" height="186" /></a>kondisi :</p>
+<ul>
+<li>webnya pakai wordpress</li>
+<li>halaman dialihkan ke halaman klaim hek blablabla.</li>
+<li>user dan password berubah.</li>
+</ul>
+<p>kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.</p>
+<p><strong>1.</strong> rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.</p>
+<p><strong>2.</strong> mengembalikan user dan password wordpress.</p>
+<p>saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!</p>
+<p>mencoba masuk dashboard. berhasil.</p>
+<p><strong>3.</strong> saya ingin tahu apakah file pengalihannya ada di direktori hosting atau link ke luar.</p>
+<p>mungkin ada cara cepat lain, tapi berhubung ini cara saya (agak buang-buang waktu), hanya karena ingin tahu. saya membackup semua home directory berikut database mysql, dibawa pulang buat dicoba di komputer sendiri yang tentunya offline. lebih baik membackup mysql lewat phpmyadmin dari pada pakai fasilitas backupwizard cpanel (saya coba backupwizard sering error saat di-import). setelah semua dibangun ulang, saya buka. jika halaman pengalihan itu berbuah 404 not found, berarti file halaman tersebut ada di luar belantara inet, kalau masih muncul, berarti file itu ada di dalam CMS. wow, ternyata muncul!</p>
+<p><strong>4.</strong> berburu bisul.</p>
+<p>sayangnya, saya tidak tahu dimana file tersebut (dan awalnya juga tidak tahu cara mencarinya dengan cepat). awalnya, saya membuka file php dan html satu persatu. benar-benar buang2 waktu. eh, teringat sama grep. ^^</p>
+<p>isi source halaman redirect tersebut adalah ini :</p>
+<p>[sourcecode]<br />
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;<br />
+&lt;html dir=&quot;rtl&quot;&gt;<br />
+&lt;head&gt;<br />
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;&gt;<br />
+&lt;!-- saved from url=(0025)http://www.google.com/ --&gt;<br />
+&lt;!-- BEGIN TEMPLATE: FORUMHOME --&gt;&lt;HTML dir=rtl&gt;&lt;HEAD&gt;&lt;TITLE&gt;# ~{ Own3d by<br />
+dr.a7sass }~ #&lt;/TITLE&gt;<br />
+&lt;META http-equiv=Content-Type content=&quot;text/html; charset=windows-1256&quot;&gt;<br />
+&lt;STYLE type=text/css&gt;BODY {<br />
+	SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #000000; FONT-FAMILY: Verdana; SCROLLBAR-DARKSHADOW-COLOR: #ffffff<br />
+}<br />
+.Estilo10 {<br />
+	COLOR: #ffffff; FONT-FAMILY: Haettenschweiler<br />
+}<br />
+.Estilo8 {<br />
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Haettenschweiler<br />
+}<br />
+S {<br />
+	FONT-FAMILY: Tahoma; TEXT-DECORATION: none<br />
+}<br />
+.000000 {<br />
+	COLOR: #000000<br />
+}<br />
+.3D0008 {<br />
+	COLOR: #3d0008<br />
+}<br />
+.A90016 {<br />
+	COLOR: #a90016<br />
+}<br />
+.AF0017 {<br />
+	COLOR: #af0017<br />
+}<br />
+.AA0014 {<br />
+	COLOR: #aa0014<br />
+}<br />
+.A80015 {<br />
+	COLOR: #a80015<br />
+}<br />
+.A80016 {<br />
+	COLOR: #a80016<br />
+}<br />
+.A60016 {<br />
+	COLOR: #a60016<br />
+}<br />
+.A40015 {<br />
+	COLOR: #a40015<br />
+}<br />
+.A50016 {<br />
+	COLOR: #a50016<br />
+}<br />
+.A50015 {<br />
+	COLOR: #a50015<br />
+}<br />
+.A20014 {<br />
+	COLOR: #a20014<br />
+}<br />
+.A10014 {<br />
+	COLOR: #a10014<br />
+}<br />
+.A20015 {<br />
+	COLOR: #a20015<br />
+}<br />
+.A00015 {<br />
+	COLOR: #a00015<br />
+}<br />
+.A30417 {<br />
+	COLOR: #a30417<br />
+}<br />
+.A31118 {<br />
+	COLOR: #a31118<br />
+}<br />
+.A61D1B {<br />
+	COLOR: #a61d1b<br />
+}<br />
+.A52118 {<br />
+	COLOR: #a52118<br />
+}<br />
+.A42115 {<br />
+	COLOR: #a42115<br />
+}<br />
+.page<br />
+{<br />
+	background: #000000;<br />
+	color: #ACACAC;<br />
+	font: bold 12pt arial,verdana,helvetica,sans-serif;<br />
+}<br />
+.tborder<br />
+{<br />
+	background: #000000;<br />
+}<br />
+.alt1<br />
+{<br />
+	background: #1D1D1D;<br />
+	color: #ACACAC;<br />
+}<br />
+&lt;/STYLE&gt;</p>
+<p>&lt;META content=&quot;A7sass HaCkEr&quot; name=description&gt;<br />
+&lt;META content=&quot;MSHTML 6.00.2900.3157&quot; name=GENERATOR&gt;&lt;/HEAD&gt;<br />
+&lt;BODY text=#ffffff bgColor=#000000&gt;<br />
+&lt;DIV dir=ltr align=center&gt;&lt;SPAN<br />
+style=&quot;FILTER: blur(add=1,direction=270,strength=30); HEIGHT: 30px&quot;&gt;<br />
+	&lt;SPAN<br />
+style=&quot;FILTER: blur(add=1,direction=270,strength=30)&quot;&gt;</p>
+<p>&lt;DIV align=center&gt;<br />
+&lt;TABLE id=table1<br />
+style=&quot;BORDER-RIGHT: #808080 1px dotted; BORDER-TOP: #808080 1px dotted; BORDER-LEFT: #808080 1px dotted; BORDER-BOTTOM: #808080 1px dotted&quot;<br />
+cellPadding=0 width=625 border=0&gt;<br />
+  &lt;TBODY&gt;<br />
+  &lt;TR&gt;<br />
+    &lt;TD&gt;</p>
+<p>&lt;body bgcolor=&quot;#000000&quot; background=&quot;http://xa.yimg.com/kq/groups/37369449/sn/1559609306/name/16.jpg&quot;&gt;</p>
+<p>          &lt;td valign=&quot;top&quot;&gt;<br />
+          &lt;img border=&quot;0&quot; src=&quot;http://xa.yimg.com/kq/groups/37369449/sn/664898476/name/3.jpg&quot; width=&quot;270&quot; height=&quot;385&quot;&gt;&lt;/td&gt;</p>
+<p>          &lt;td&gt;</p>
+<p>	&lt;p align=&quot;center&quot;&gt;&lt;b&gt;&lt;font color=&quot;#FF0000&quot; size=&quot;6&quot; face=&quot;Traditional Arabic&quot;&gt;<br />
+0wn3d By&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</p>
+<p>&lt;p align=&quot;center&quot;&gt;<br />
+&lt;b&gt;<br />
+&lt;font face=&quot;Aharoni&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFF8C6&quot;&gt;dr.a7sass&lt;/font&gt;</p>
+<p>&lt;p align=&quot;center&quot;&gt;<br />
+&lt;b&gt;<br />
+&lt;font face=&quot;Aharoni&quot;&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;font size=&quot;5&quot;&gt;&lt;/font&gt; &lt;font color=&quot;#FFF8C6&quot;&gt;&lt;font size=&quot;4&quot;&gt;^_*&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;</p>
+<p>&lt;p align=&quot;center&quot;&gt;<br />
+  &lt;img height=&quot;100&quot; src=&quot;http://xa.yimg.com/kq/groups/37369449/sn/1007772901/name/e5s69icvy.jpg&quot; width=&quot;180&quot; border=&quot;0&quot;&gt;</p>
+<p>&lt;p align=&quot;center&quot;&gt;<br />
+&lt;span style=&quot;font-weight: 700&quot;&gt;<br />
+&lt;font face=&quot;Garamond&quot; size=&quot;4&quot; color=&quot;#66CCFF&quot;&gt;<br />
+&lt;font color=&quot;#FFFF00&quot;&gt;A-7sass@HoTmaiL.CoM&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/span&gt;</p>
+<p>&lt;link rel=&quot;alternate&quot; type=&quot;text/xml&quot; title=&quot;RSS&quot; href=&quot;../../../Public/rss.php&quot;&gt;<br />
+&lt;link rel=&quot;stylesheet&quot; href=&quot;../../../Public/styles/paper/&quot;  type=&quot;text/css&quot;&gt;<br />
+&lt;script type=&quot;text/javascript&quot; src=&quot;../../../Public/includes/function.js&quot;&gt;&lt;/script&gt;<br />
+&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;<br />
+	&lt;p align=&quot;center&quot;&gt;&lt;font face=&quot;verdana&quot;&gt;&lt;span lang=&quot;en-us&quot;&gt;<br />
+&lt;object classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot; width=&quot;7&quot; height=&quot;14&quot;&gt;</p>
+<p>  &lt;param name=&quot;movie&quot; value=&quot;http://llevill.persiangig.ir/audio/Era_The_Mass(studiomusic.blogfa.com).swf&quot;&gt;</p>
+<p>  &lt;param name=&quot;quality&quot; value=&quot;high&quot;&gt;</p>
+<p>  &lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;&gt;<br />
+  &lt;param name=&quot;wmode&quot; value=&quot;transparent&quot;&gt;<br />
+     &lt;embed src=&quot;http://llevill.persiangig.ir/audio/Era_The_Mass(studiomusic.blogfa.com).swf&quot; quality=&quot;high&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; allowscriptaccess=&quot;always&quot; width=&quot;7&quot; height=&quot;14&quot;&gt;<br />
+&lt;/object&gt;<br />
+&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;</p>
+<p>&lt;title&gt;# Own3d By A7sass HaCkEr # - (Powered By MySmartBB)&lt;/title&gt;<br />
+[/sourcecode]</p>
+<p>hmm, saya ambil string "A7sass" sajalah, tinggal saya grep saja. :)</p>
+<blockquote><p>grep -r A7sass /var/www/situs/</p></blockquote>
+<p>toeng! ternyata letaknya di /var/www/situs/wp-content/themes/sketchpad/index.php</p>
+<p>setelah dibuka, ternyata memang itu. saya hapus. kopi index.php dari theme lain ke sini.</p>
+<p>sampai di sini, saya rename kembali index.php wordpress-nya.</p>
+<p><strong>5.</strong> mengganti tema.</p>
+<p>yah, tinggal login ke dashboard, terus ganti tema. beres. atau kalau mau tetap pakai tema itu, tinggal download lagi, terus copy index.html yang original.</p>
+<p>setelah saya googling, ternyata banyak juga web yang kena hack sama si A7sass. ah, peduli amat. mission completed.</p>

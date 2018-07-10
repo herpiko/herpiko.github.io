@@ -1,0 +1,38 @@
+---
+layout: post
+title: memindahkan database mysql dengan kopas
+date: 2010-12-19 23:28:59.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- pikiran
+tags:
+- mysql
+- server
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>kondisi : sebuah komputer spesifikasi tinggi milik pemerintah dengan sistem operasi windows 2000 server, di dalamnya terinstall wamp server (windows-apache-mysql-php) dan diatasnya berjalan aplikasi cms milik pemerintah, yaitu pendataan warga keluarga berencana seluruh indonesia, namanya BKKBN. komputer ini bisa diakses via jaringan untuk memasukkan data dari komputer lain. nah, pendek kata, komputer ini rusak, blue screen dan ada pesan error not exist or corrupt blablabla. keren!</p>
+<p>nah, bagaimana cara memindahkan cms+databasenya di komputer lain dan jalan lancar? <em>bisakah langsung copy paste</em>? saya pikir tidak bisa ngasal begitu, tetapi ternyata bisa. perlu diingat, paket aplikasi yang digunakan di sini adalah wamp, bukan xamp (pakai xamp juga bisa). wamp tidak menyediakan phpmyadmin (meski ada folder bernama phpmyadmin di dalamnya) sehingga bagi saya yang masih awam soal mysql, kesulitan mengexport databasenya. jadi, yang kepikiran di otak saya adalah langsung kopas di komputer lain yang ada apache-mysql-php.</p>
+<p>karena pada akhirnya windows 2000 servernya tidak bisa dibooting, saya menggunakan slax via usb dan mengakses harddisknya.</p>
+<p>pertama, saya mencari letaknya folder wamp, aplikasi cms-nya pastilah ada di sana berikut databasenya. terletak di C:\wamp\ dan saya salin ke  media lain, misal flashdisk. di komputer lain, saya menyalin wamp di tempat yang sama, yaitu C:\wamp\.</p>
+<p>kemudian saya cari file yang bisa dieksekusi untuk menginstall service apache dan mysql. filenya bernama install_service_auto.bat. setelah dijalankan dan selesai, akan ada dua service baru di windows, bisa dilihat dengan klik kanan my computer &gt; manage. cari service. cari apache dan mysql, jalankan kedua service tersebut.</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/12/3.jpg"><img class="aligncenter size-medium wp-image-1803" title="3" src="{{ site.baseurl }}/assets/3.jpg?w=300" alt="" width="300" height="225" /></a><a href="http://pikopages.files.wordpress.com/2010/12/2.jpg"><img class="aligncenter size-medium wp-image-1804" title="2" src="{{ site.baseurl }}/assets/2.jpg?w=300" alt="" width="300" height="225" /></a></p>
+<p>sekarang tinggal cek di browser, http://localhost. bisa! :D<br />
+cek apakah cms dan databasenya jalan, di sini, cmsnya bernama mdk, http://localhost/mdk/. bisa juga! :D</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/12/5.jpg"><img class="aligncenter size-medium wp-image-1805" title="5" src="{{ site.baseurl }}/assets/5.jpg?w=300" alt="" width="300" height="225" /></a><a href="http://pikopages.files.wordpress.com/2010/12/untitled.jpg"><img class="aligncenter size-medium wp-image-1806" title="untitled" src="{{ site.baseurl }}/assets/untitled.jpg?w=300" alt="" width="300" height="225" /></a></p>
+<p>nah, karena ini aplikasi berbasis web yang cross-platform, saya merencanakan untuk memasang linux sebagai server httpnya, disamping kehandalannya juga tidak mudah kena virus dan rusak. sayangnya, saat saya menawarkan ke orangnya, dia menolak dengan alasan takut tidak bisa mengontrol. tapi dia meminta instal dualboot. syukurlah. *ngupil</p>
+<p>btw, saya dapat kopian database, lebih dari seratus ribu data kepala keluarga, lengkap anak pinaknya juga. ehem2 &gt;:) *apasih, gak guna</p>

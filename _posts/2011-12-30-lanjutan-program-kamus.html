@@ -1,0 +1,58 @@
+---
+layout: post
+title: lanjutan program kamus
+date: 2011-12-30 01:42:31.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+tags:
+- programming
+- python
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>kode sudah disesuaikan untuk python3, sehingga bisa jalan langsung di kebanyakan OS linux modern.</p>
+<p>yoi, saya sudah menemukan cara agar apapun kata yang kita masukkan, indonesia maupun english, otomatis dicarikan. kelihatannya seperti mendeteksi kata, tetapi sebenarnya tidak. melainkan dengan menggabungkan berkas bahasa indonesia dan english ke dalam satu berkas dan pencarian dimulai dari awal sampai akhir, jika tidak ditemukan diberikan pesan 'kata yang dimaksud tidak ditemukan'</p>
+<p>ternyata ini mudah, cuma gegara rendahnya tingkat inteligensi dan sedikitnya waktu buat main-main, baru ketemu sekarang.</p>
+<p>berikut skrip.</p>
+<p>[sourcecode language="python"]<br />
+def terjemah(kata):<br />
+	hasil='tidakada'<br />
+	teks=open('universal.dict','r')<br />
+	for line in teks:<br />
+		x=line.split()<br />
+		y=x[0]<br />
+		if y == kata:<br />
+			hasil=(line)<br />
+	if hasil != 'tidakada':<br />
+		print(hasil)</p>
+<p>	else:<br />
+		print('tidak ada kata yang dimaksud')<br />
+inputkata=input('masukan kata : ')<br />
+katalowercase=inputkata.lower()<br />
+terjemah(katalowercase)<br />
+[/sourcecode]</p>
+<p>penjelasan :</p>
+<ol>
+<li>berkas universal.dict adalah berkas gabungan bahasa indonesia dan english. dalam setiap baris, kata pertama adalah kosakata, sedangkan kata kedua dan selanjutnya adalah terjemahannya.</li>
+<li>hasil='tidakada' adalah variabel yang membantu menunjukkan kondisi awal bahwa kata yang dimaksud tidak ada.</li>
+<li>berkas dibaca dan diperiksa, setiap baris dibagi ke dalam list dan diperiksa apakah list pertama dari setiap baris adalah kata yang dimaksud. bahasa inggris maupun indonesia semua diperiksa.</li>
+<li>jika sama, maka baris tersebut (kosakata + terjemahan) menggantikan nilai dari variabel hasil dan variabel tersebut ditampilkan. program selesai.</li>
+<li>jika tidak sama, maka akan ditampilkan pesan 'kata yang dimaksud tidak ditemukan'. program selesai.</li>
+<li>karena semua kata dalam berkas universal.dict adalah lowercase, digunakan fungsi lower() mengubah setiap karakter huruf besar menjadi huruf kecil.</li>
+</ol>
+<p>nah, kelemahannya, bagaimana kalau ada kosakata bahasa indonesia dan english yang sama? saya belum pikirkan kira-kira kosakata yang mana itu.</p>

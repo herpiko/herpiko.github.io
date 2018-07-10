@@ -1,0 +1,69 @@
+---
+layout: post
+title: Slackpkg
+date: 2012-03-22 23:58:25.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- PATH
+- PATH environment
+- repo
+- repository
+- slackpkg
+meta:
+  _edit_last: '7761285'
+  _oembed_738706646b27f744f9f56eb443489b81: '{{unknown}}'
+  geo_latitude: '-8.588990'
+  _wpas_skip_fb: '1'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _oembed_14cb0798b6e6ca38eb1a65e09a9095f1: '{{unknown}}'
+  _oembed_896e8085a9cfe1b16068822db8b8e8d7: '{{unknown}}'
+  _oembed_30057a91f2db1d4cd3ca0fc4a50c8e61: '{{unknown}}'
+  _oembed_4d3f9bb3880389042eb18b295c6f63ef: '{{unknown}}'
+  _oembed_f191677ed245018d54c894c2d633c39e: '{{unknown}}'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>Slackware tidak seburuk yang dibayangkan. Ada sisi mudahnya, salah satunya slackpkg, paket manajer semacam apt-get. Slackpkg ada di direktori slackware$arch/ap/. Pasang slackpkg.</p>
+<p>[code]#installpkg slackpkg*[/code]</p>
+<p>Sunting berkas /etc/slackpkg/mirrors dan masukkan server repositori yang ingin digunakan. saya menggunakan repo UKDW yang dikelola Mas Willy. Berikan simbol comment (#) di semua baris dan tambahkan baris ini.</p>
+<p>[code]# Indonesia,<br />
+ http://repo.ukdw.ac.id/slackware/slackware64t/[/code]</p>
+<p>Kemudian perbarui slackpkg anda. Hal ini mirip dengan 'apt-get update', untuk mendapatkan informasi paket terbaru. Sekarang tinggal pasang paket yang diinginkan.</p>
+<p>[code]#slackpkg install mozilla-firefox[/code]</p>
+<p>atau memperbarui paket</p>
+<p>[code]#slackpkg upgrade mozilla-firefox[/code]</p>
+<p>atau mencari nama paket bila anda bingung apa nama paket di repo slackpkg. Kadang-kadang nama paket berbeda di setiap disribusi.</p>
+<p>[code]#slackpkg search firefox<br />
+ Looking for firefox in package list. Please wait... DONE<br />
+ The list below shows all packages with name matching &quot;firefox&quot;.<br />
+ [ installed ] - mozilla-firefox-11.0-x86_64-1_slack13.37<br />
+ You can search specific files using &quot;slackpkg file-search file&quot;.[/code]</p>
+<p>Kalau update semua paket seperti pacman -Syu, gunakan :</p>
+<p>[code]#slackpkg upgrade-all[/code]</p>
+<p>Di Slackware, apakah saya akan kehilangan bahagia seperti saat setiap kali menjalankan pacman -Syu di Arch? Tidak. :)</p>
+<p>UPDATE :</p>
+<p>Oya, setelah fresh install, slackpkg , installpkg, pkgtool, dan lainnya tidak bisa dijalankan oleh user biasa. Masalahnya karena PATH environmentnya belum dimasukkan. Coba lihat dengan user root</p>
+<p>[code]#which slackpkg</p>
+<p>/usr/sbin/slackpkg</p>
+<p>#echo $PATH</p>
+<p>/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Sementara jika pakai user biasa,</p>
+<p>[code]$echo $PATH</p>
+<p>/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Yoi, path /usr/sbin tidak ada. Masukkan /usr/bin dan lihat lagi PATH environment-nya/</p>
+<p>[code]$export PATH=/usr/sbin:$PATH<br />
+$export PATH=/sbin:$PATH<br />
+$echo $PATH<br />
+/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Termasuk juga perintah reboot, halt, ifconfig dan perintah-perintah lainnya yang berkaitan dengan sistem</p>

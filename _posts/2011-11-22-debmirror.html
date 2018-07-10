@@ -1,0 +1,45 @@
+---
+layout: post
+title: debmirror
+date: 2011-11-22 12:48:52.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags: []
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>skrip debmirror yang saya gunakan untuk menyedot repository ubuntu oneiric dari kambing.ui.ac.id. gpgkeyring ubuntu tetap bisa dipasang dan digunakan di debian, tinggal cari *.deb-nya yang sesuai rilis.</p>
+<p>[sourcecode]<br />
+export GNUPGHOME=/home/piko/mirrorkeyring<br />
+arch=i386<br />
+section=main,restricted,universe,multiverse<br />
+release=oneiric,oneiric-updates,oneiric-security<br />
+server=archive.ubuntu.com<br />
+inPath=ubuntu<br />
+proto=http<br />
+outPath=/repository/repo/ubuntu/<br />
+debmirror       -a $arch \<br />
+                --no-source \<br />
+                -s $section \<br />
+                -h $server \<br />
+                -d $release \<br />
+                -r $inPath \<br />
+                --progress \<br />
+                -e $proto \<br />
+                $outPath</p>
+<p>[/sourcecode]</p>

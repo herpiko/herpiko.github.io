@@ -1,0 +1,36 @@
+---
+layout: post
+title: sinkron waktu di mikrotik dengan NTP
+date: 2011-12-20 10:06:41.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+- uncategorized
+tags: []
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>awalnya dari blokir fb dan socmed lain di kantor, tapi setiap mati lampu, jamnya ter-reset dan jadwal blokir fb jadi kacau. rekan kantor pada senyum kembang-kembang buka facebook. gobloknya saya ndak googling dulu, langsung bongkar mikrotiknya buat liat2 siapa tahu ada baterai jamnya (semacam baterai bios di PC), ternyata tidak. UPS juga tidak bisa bertahan lebih lama dari yang diharapkan.</p>
+<p>solusinya, pengaturan waktu di mikrotik bisa diatur agar sinkron dengan server NTP. dalam hal ini, saya menggunakan server NTP dari LIPI : ntp.kim.lipi.go.id</p>
+<p>berikut definisi NTP dari situs LIPI :</p>
+<blockquote><p>Secara umum, Network Time Protocol (NTP) adalah protocol untuk meng-sinkron-kan sistem waktu (clock) pada komputer terhadap sumber yang akurat, melalui jaringan intranet atau internet. Terdapat beberapa situs NTP "Stratum 1" (situs NTP dengan sumber waktu dari atomic clock) and "Stratum 2" (situs NTP dengan sumber waktu dari situs NTP lain, dengan sedikit penurunan tingkat akurasi) yang dapat digunakan oleh publik.</p>
+<p>Dalam aplikasinya, sebaiknya jaringan mempunyai satu (atau lebih) NTP server lokal (Stratum 2 atau 3) untuk semua work-station, yang di-sinkron-kan terhadap NTP server di luar jaringan. Konfigurasi ini lebih menjamin korelasi antar sistem-sistem yang terkait dalam jaringan yang bersangkutan.</p></blockquote>
+<p>di mikrotik, pergi ke system &gt; NTP client. akan muncul jendela pengaturan NTP client. pilih mode unicast dan isikan primary NTP server dengan ntp.kim.lipi.go.id yang nantinya akan berubah secara otomatis menjadi alamat IP. klik OK.</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/12/ntpclient.png"><img class="aligncenter size-full wp-image-2471" title="NTPclient" src="{{ site.baseurl }}/assets/ntpclient.png" alt="" width="500" height="379" /></a></p>
+<p>waktu dan jam di mikrotik akan mengikuti waktu yang diberikan oleh NTP server tersebut, jangan lupa pilih timzone yang benar. sekarang, meski mikrotik mati hidup karena listrik, waktu tetap akan sinkron otomatis begitu koneksi internet tersambung.</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/12/mikrotikclock.png"><img class="aligncenter size-full wp-image-2472" title="mikrotikclock" src="{{ site.baseurl }}/assets/mikrotikclock.png" alt="" width="404" height="223" /></a></p>

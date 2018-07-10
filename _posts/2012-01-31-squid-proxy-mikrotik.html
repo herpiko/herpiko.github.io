@@ -1,0 +1,72 @@
+---
+layout: post
+title: Squid Proxy + Mikrotik
+date: 2012-01-31 07:05:13.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+- networking
+tags:
+- cache
+- jaringan
+- mikrotik
+- networking
+- proxy
+- squid
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>I have installed a cache proxy to centos server and works with good TCP_HIT. i'm using centos 5.x. proxy took the data that we request from browsing activities and save it as cache. the second request will take from this cache, that means the connection uses full bandwith on the local network. we got two thing, reduce bandwith consumtion from the ISP and increase the speed. squid has other feature such as redirect, blocking, etc.</p>
+<p>on this case, the proxy's IP set to 192.168.168.12, the same level to client computers.</p>
+<p>install squid package from repository.</p>
+<p>[code]yum -y install[/code]</p>
+<p>edit /etc/squid/squid.conf</p>
+<p>change/add some.</p>
+<p>[code]#change the proxy port to 3128 and set as transparent. The transparent parameter means, this proxy can be used over the IP with port redirect.<br />
+ http_port 3128 transparent<br />
+ #add the hostname<br />
+ visible_hostname proxyserver<br />
+ #the TCP_HIT quantities depends on the refresh pattern parameter.<br />
+ refresh_pattern ^ftp:        1440    20%    10080<br />
+ refresh_pattern ^gopher:        1440    0%    1440<br />
+ refresh_pattern ^http:        720    90%    432000<br />
+ refresh_pattern -i (/cgi-bin/|\?) 0    0%    0<br />
+ refresh_pattern (Release|Package(.gz)*)$    0    20%    2880<br />
+ refresh_pattern -i \.(gif|png|jpg|jpeg|ico)$ 10080 90% 43200 override-expire ignore-no-cache ignore-private<br />
+ refresh_pattern -i \.(iso|avi|wav|mp3|mp4|mpeg|mpg|swf|flv|x-flv)$ 43200 90% 432000 override-expire ignore-no-cache ignore-private<br />
+ refresh_pattern -i \.(deb|rpm|exe|ram|bin|pdf|ppt|doc|tiff)$ 10080 90% 43200 override-expire ignore-no-cache ignore-private<br />
+ refresh_pattern -i \.(zip|gz|arj|lha|lzh|tar|tgz|cab|rar)$ 10080 95% 43200 override-expire ignore-no-cache ignore-private<br />
+ refresh_pattern -i \.(html|htm|css|js|php|asp|aspx|cgi) 1440 40% 40320<br />
+ refresh_pattern .        0    20%    4320[/code]</p>
+<p>save the file. then, create a swap directory</p>
+<p>[code]/usr/sbin/squid -z #swap[/code]</p>
+<p>Check squid configuration. If there is an output, something wrong with squid.config, otherwise, all's ok.</p>
+<p>[code]/usr/sbin/squid -k parse[/code]</p>
+<p>start squid service</p>
+<p>[code]/etc/rc.d/init.d/squid start[/code]</p>
+<p>use chkconfig to set squid to load on boot.</p>
+<p>[code]/sbin/chkconfig squid on[/code]</p>
+<p>now, configure browser's proxy to IP port 3128. open some static webpages and check log file.</p>
+<p>[code]tail /var/log/squid/access.log[/code]</p>
+<p>if success, the webpage will loaded and squid will generate TCP_MISS to the logfile. we need to check again. give attention to logfile. clear the browser cache or use other computer to load the same pages. if TCP_HIT appears on the log, then your squid server is working fine. TCP_MISS means the data is not exist on cache and proxy server will load it from the internet. You will get TCP_HIT when data is exists and client load it from cache. the more you get TCP_IP, the more browsing speed increased for lots of data.</p>
+<p>this is not yet complete. we need to enable the proxy server on router and setup it to redirect to 192.168.168.12:3128 using parent-proxy parameter.</p>
+<p>[code]set enabled=yes src-address=0.0.0.0 port=3328 parent-proxy=192.168.168.12 parent-proxy-port=3128[/code]</p>
+<p>then, add a nat rule to force all request to router's proxy (port 3328). strike the command bellow.</p>
+<p>[code]chain=dstnat action=redirect to-ports=3328 protocol=tcp src-address=!192.168.168.12 dst-port=80[/code]</p>
+<p>voila. :)</p>
+<p>NB : ini tulisan pertama dengan bahasa inggris. saya harap banyak yang salah dan seseorang memberitahu sehingga saya bisa belajar dari itu.</p>

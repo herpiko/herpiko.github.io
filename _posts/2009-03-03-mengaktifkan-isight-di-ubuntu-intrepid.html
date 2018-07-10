@@ -1,0 +1,36 @@
+---
+layout: post
+title: Mengaktifkan iSight di Ubuntu Intrepid
+date: 2009-03-03 01:50:55.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- mac
+tags:
+- apple
+- isight
+- mac
+- macbook
+- ubuntu
+---
+<p>Mungkin komputer terbaik di dunia adalah produk Apple (hehehe...mentang2 pakek Mac). Sudah jadi rahasia umum produk Apple selalu menetapkan standar sendiri yang berbeda dengan vendor hardware maupun software lain. Lihat saja sebuah Macbook atau Powerbook. Anda tidak akan melihat yang namanya 'BIOS'. Aneh sekali kan, komputer tanpa bios? Hardware di mesin mac juga dikhususkan untuk mac os, meski beberapa bisa untuk os lain. Nah, ini ada sedikit info cara mengaktifkan isight, webcam bawaan macbook, sistem operasi Linux Ubuntu. Sampai matipun tidak akan ketemu driver khusus untuk windows atau linux, kecuali mengambil file driver asli isight di Mac OSX, dan driver ini untungnya sudah disediakan di internet. Kalau punya Mac OSX, mungkin tidak terlalu sulit, bagaimana kalau tidak punya Mac OSX? Seperti saya....</p>
+<p>Ok. Pertama donlot dulu drivernya :</p>
+<p>http://download232.mediafire.com/ysx20cdde2yg/81xtkqyttjt/AppleUSBVideoSupport</p>
+<p>Install isight-firmware.</p>
+<p>apt-get install isight-firmware-tools</p>
+<p>Jika isight-firmware tools sudah terinstall, copy file AppleUSBVideoSupport ke /lib/firmware/<br />
+jalankan</p>
+<p>ift-extract -a /lib/firmware/AppleUSBVideoSupport</p>
+<p>kita akan melihat baris-baris ini :</p>
+<p>** Message: Found Mac OS X.4 intel driver<br />
+** Message: Firmware extracted successfully in /lib/firmware/isight.fw<br />
+** Message: Apply patch 0 : Fix video control interface descriptor<br />
+** Message: Apply patch 1 : Fix video streaming interface descriptor<br />
+** Message: Apply patch 2 : Fix video streaming device qualifier<br />
+** Message: Firmware patched successfully</p>
+<p>Sejauh ini Anda boleh jingkrak2. shutdown ubuntu (bukan restart) lalu nyalakan kembali<br />
+install dan jalankan cheese</p>
+<p>apt-get install cheese</p>
+<p>Wajah bloon Anda akan nongol di layar. Jangan sampe kena narsis syndrom tingkat 5.</p>

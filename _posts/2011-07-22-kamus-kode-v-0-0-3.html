@@ -1,0 +1,57 @@
+---
+layout: post
+title: kamus kode v.0.0.3
+date: 2011-07-22 17:25:37.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+tags:
+- kamus
+- kode
+- morse
+- program
+- programming
+- python
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:7:"7761285";s:7:"blog_id";s:7:"5468064";s:9:"mod_stamp";s:19:"2011-07-22
+    09:34:00";}
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>[code]<br />
+def morse(input):<br />
+	end='0'<br />
+	v=str<br />
+	x=str<br />
+	kata=input+end<br />
+	katalist=list(input)<br />
+	nol=0<br />
+	dict={' ':' ','a':'.-','b':'-...','c':'-.-.','d':'-..','e':'.','f':'..-.','g':'--.','h':'....','i':'..','j':'.---','k':'-.-','l':'.-..','m':'--','n':'-.','o':'---','p':'.--.','q':'--.-','r':'.-.','s':'...','t':'-','u':'..-','v':'...-','w':'.--','x':'-..-','y':'-.--','z':'--..'}<br />
+	while kata[nol] is not '0' :<br />
+	    v=kata[nol]<br />
+	    x=dict[v]<br />
+	    katalist[nol]=x<br />
+	    nol += 1<br />
+	hasil=' ' .join(katalist)<br />
+	print hasil<br />
+inputkata=raw_input ('masukan kata atau kalimat : ')<br />
+hurufkecil=inputkata.lower()<br />
+morse(hurufkecil)<br />
+[/code]</p>
+<p>sekarang saya sudah pakai def (fungsi), yang ternyata ini berguna sekali untuk memanggil bagian perintah tertentu. oya sekarang juga sudah bisa huruf besar maupun huruf kecil. :)</p>
+<p>oya kemarin saya belum sempat jelasin alur program ini.</p>
+<p>setiap input akan ditambahkan sebuah karakter, yakni angka 0. misal input yang dimasukkan adalah helloworld, maka ditambahkan menjadi helloworld0. setelah itu diperiksa dari karakter pertama (variabel[0]) sampai karakter terakhir dari inputan tersebut. bila karakter tersebut ditemukan angka 0, maka pemeriksaan berhenti. pada pemeriksaan tersebut, input dijadikan data list dan setiap karakternya digantikan dengan karakter yang ada di dict, masing2 sudah ada keywordnya yaitu setiap karakter dari a-z.</p>
+<p>hedeh, bingung juga jelasin. pokoke program ini jalan lancar. :)</p>

@@ -1,0 +1,54 @@
+https://keybase.io/herpiko
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pdft.net
+  * I am herpiko (https://keybase.io/herpiko) on keybase.
+  * I have a public key ASBGEViXx6m439tWrXTJ7fPfxE0k6uqqWaaLNOzu7d1rQQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019fe87f4bdd2fee90b9b821861342429f4853dffb22c9ce6ea7bac3e157d0f7120a",
+      "host": "keybase.io",
+      "kid": "012046115897c7a9b8dfdb56ad74c9edf3dfc44d24eaeaaa59a68b34eceeeddd6b410a",
+      "uid": "3200cb1ca10bdca922d433a3752c7219",
+      "username": "herpiko"
+    },
+    "merkle_root": {
+      "ctime": 1505867104,
+      "hash": "4f39c57fa6cc8d4b906d01ed46bf59b1fd9146f887e14876bd3a2424f5c34e6097bdb3cf35b153fffce7aff952e118b5fb93019d55452e4ea03637b80da20843",
+      "hash_meta": "a2eaa1430334a984f05bdff18936e69268f0d0fb6ef7022c15c39a3651527a22",
+      "seqno": 1423438
+    },
+    "service": {
+      "hostname": "pdft.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505867131,
+  "expire_in": 504576000,
+  "prev": "0a1a5f861a8ce14c9656f7bac059f9f365c24c88471ffbf15de978e5943c2db6",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRhFYl8epuN/bVq10ye3z38RNJOrqqlmmizTs7u3da0EKp3BheWxvYWTFAz97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWZlODdmNGJkZDJmZWU5MGI5YjgyMTg2MTM0MjQyOWY0ODUzZGZmYjIyYzljZTZlYTdiYWMzZTE1N2QwZjcxMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDYxMTU4OTdjN2E5YjhkZmRiNTZhZDc0YzllZGYzZGZjNDRkMjRlYWVhYWE1OWE2OGIzNGVjZWVlZGRkNmI0MTBhIiwidWlkIjoiMzIwMGNiMWNhMTBiZGNhOTIyZDQzM2EzNzUyYzcyMTkiLCJ1c2VybmFtZSI6ImhlcnBpa28ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDU4NjcxMDQsImhhc2giOiI0ZjM5YzU3ZmE2Y2M4ZDRiOTA2ZDAxZWQ0NmJmNTliMWZkOTE0NmY4ODdlMTQ4NzZiZDNhMjQyNGY1YzM0ZTYwOTdiZGIzY2YzNWIxNTNmZmZjZTdhZmY5NTJlMTE4YjVmYjkzMDE5ZDU1NDUyZTRlYTAzNjM3YjgwZGEyMDg0MyIsImhhc2hfbWV0YSI6ImEyZWFhMTQzMDMzNGE5ODRmMDViZGZmMTg5MzZlNjkyNjhmMGQwZmI2ZWY3MDIyYzE1YzM5YTM2NTE1MjdhMjIiLCJzZXFubyI6MTQyMzQzOH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJwZGZ0Lm5ldCIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzAifSwiY3RpbWUiOjE1MDU4NjcxMzEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMGExYTVmODYxYThjZTE0Yzk2NTZmN2JhYzA1OWY5ZjM2NWMyNGM4ODQ3MWZmYmYxNWRlOTc4ZTU5NDNjMmRiNiIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECPgVIRiIzLFVgqXSXXqjK25YZ3urxHkyMeXIcgQA6FEHMWdwiXfdTJcioEd0oL/q0BpzOnSCAqZanzc9puubMAqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgvWgl6X+Q0+DpH42TtQearBqqZ7X6FmRNSmMYRxisCPWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/herpiko
+
+

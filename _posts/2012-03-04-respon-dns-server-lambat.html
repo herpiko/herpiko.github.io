@@ -1,0 +1,28 @@
+---
+layout: post
+title: respon dns server lambat?
+date: 2012-03-04 00:13:11.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- uncategorized
+tags: []
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>saya sudah menemukan 2 kasus untuk DNS server di jaringan lokal.</p>
+<p>pertama karena masalah IPV6 terutama di versi lawas Bind. balasan ping ke domain bahkan sampai ribuan ms. disable IPV6 baik di konfigurasi network maupun named/bind. di versi lama (&lt;0.9.2) ini dikenali sebagai bug, mengupdate bind adalah ide yang baik. (just googling it, saya tulis di sini sebagai catatan penting. maaf kalau setengah2 :D )</p>
+<p>kedua karena IP dns tidak tepat di sisi klien. balasan ping cepat, namun direspon sangat lama untuk permintaan pertama. dari sini kita bisa menebak bahwa dnsnya dobel, pencarian domain dibawa keliling dulu sebelum mencapai IP DNS buatan kita. misal di kasus saya, menggunakan Blankon Pattimura yang membawa dns nawala sebagai default. edit berkas /etc/resolv.conf, hapus IP DNS lama atau ganti urutan IP DNSnya, letakkan IP DNS buatan kita sebagai yang pertama.</p>

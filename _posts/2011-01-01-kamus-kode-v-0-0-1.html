@@ -1,0 +1,52 @@
+---
+layout: post
+title: kamus kode v.0.0.1
+date: 2011-01-01 05:52:59.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+- uncategorized
+tags:
+- postaday2011
+- programming
+- python
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>belajar jadi uler. gegara ndak pernah belajar dan buka buku lupa lagi sama python. main-main sebentar, terlintas ide buat kamus morse. memang sudah banyak aplikasi penerjemahnya (googling sebentar nemu banyak), tapi bagaimana kalau buat sendiri pakai algoritma sendiri? :)</p>
+<p>in baru permulaan, masih main-main.</p>
+<p>morse.py</p>
+<p>[code]<br />
+input=raw_input('kamus kode v.0.0.1, masukkan huruf (a-j): ')<br />
+jumlah=len(input)<br />
+if jumlah &amp;gt; 1 :<br />
+	print 'masukkan satu huruf saja'<br />
+else :<br />
+	dict={'a':'.-','b':'-...','c':'-.-.','d':'-..','e':'.','f':'..-.','g':'--.','h':'....','i':'..','j':'.---'}<br />
+	print dict[input]<br />
+[/code]</p>
+<p>fitur :</p>
+<p>&nbsp;</p>
+<ul>
+<li>menerjemahkan satu huruf dari a sampai j (hurup kecil tok) ke kode morse. KOK SATU HURUF? ya pelan-pelan dululah. :D</li>
+<li>mendeteksi kalau inputnya lebih dari satu huruf.</li>
+</ul>
+<p>thing to do :</p>
+<ul>
+<li> menerjemahkan kata, bahkan kalimat</li>
+<li> mendeteksi input angka.</li>
+<li>bisa huruf besar kecil.</li>
+</ul>

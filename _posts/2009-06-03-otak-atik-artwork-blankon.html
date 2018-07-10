@@ -1,0 +1,50 @@
+---
+layout: post
+title: Otak-atik Artwork BlankOn
+date: 2009-06-03 16:33:06.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- BlankOn
+- gdm theme
+- GPL
+- ikon
+- indonesia
+- linux-opensource
+- modifikasi
+- tema blankon
+- ubuntu
+- usplash blankon
+- utak-atik
+---
+<p>Saya baru mengerti sekarang dan merasakan betul apa itu arti free dalam filosofi GNU/Linux. Benar-benar menyenangkan. Saya melakukan sendiri : memodifikasi karya orang lain yang berlisensi GPL. Meski hanya sedikit coding dan sebagian besar mengolah gambar, saya senang bisa memodifikasi dan mendistribusikan kembali dengan 'legal'. Ini hanya intro.</p>
+<p>Meski saya pakai blankon, orang lain akan menyangka saya sedang pakai ubuntu. Ya, saya sedang mencoba membohongi diri sendiri. Mulai dari ikon sampai usplash, saya menggunakan artwork ubuntu asli. Why? Apakah rasa ke-indonesia-an saya kurang?</p>
+<p>Tidak, meski kelihatan begitu. Saya sebenarnya kagum dengan artwork BlankOn Meuligo, terutama tema gulali-hitam di versi minimalis dan juga gambar usplash. Hanya saja, saya kurang suka warna-warna yang mencolok. Saya lebih suka hal-hal yang tidak menarik perhatian, yang menurut orang lain bodoh tetapi begitu berarti buat saya.</p>
+<p>Tapi akhirnya, saya mencoba untuk merasa bangga menggunakan BlankOn. nah, saya mencoba mengutak-atik alias memodifikasi artwork BlankOn agar sesuai dengan selera saya. Saya menyediakan link donlotnya, siapa tahu selera anda cocok dengan saya. Berikut skrinsut-nya.</p>
+<p><img class="alignnone size-full wp-image-329" title="usplash-blankon-abu" src="{{ site.baseurl }}/assets/usplash-blankon-abu1.png" alt="usplash-blankon-abu" width="600" height="375" /></p>
+<p>Yang di atas ini adalah usplash versi versi abu... donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-usplash-standar.tar.gz">di sini</a> untuk layar rasio 4:3 dan satu lagi <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-usplash-widescreen.tar.gz">di sini</a> untuk wide screen.</p>
+<p>Usplash ini diambil dari gambar usplash meuligo. Saya mendonlot source-nya dalam bentuk svg di dev.blankonlinux.or.id lalu mengeditnya. Saya suka tekstur kanvasnya yang dibuat dengan gimp. Saya menghilangkan codename meuligo agar terlihat universal, jadi tidak perlu ganti-ganti lagi kalau naik versi ke nanggar.</p>
+<p><img class="alignnone size-full wp-image-330" title="usplash-peta-wide" src="{{ site.baseurl }}/assets/usplash-peta-wide.png" alt="usplash-peta-wide" width="600" height="375" /></p>
+<p>Yang di atas ini usplash versi peta, saya lebih suka pake ini. Lebih indonesia... donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/usplash-peta.so">di sini</a>. untuk sementara hanya bisa buat layar widescreen, kalo layar biasa, letak petanya masih mencong ke kiri (masih beta :(  )</p>
+<p>Usplash? ya, yang jadi progres bar adalah peta indonesia. ngerti kan? Tapi sayang saya kesulitan buat latar belakangnya lebih bercorak... Tapi saya pikir ini lebih bagus dari yang pertama...</p>
+<p>Cara pasang yang repot : dengan hak root Anda harus mengkopi file blankon-abu.so ke /usr/lib/usplash/. lalu membuat link-nya ke /etc/alternative/usplash-artwork.so. kemudian membuat link lagi dari file link barusan ke /usr/lib/usplash/usplash-artwork.so. kemudian coba reboot.</p>
+<p>Cara pasang yang mudah : install startup manager. Jalankan 'sudo apt-get install startup-manager' (tanpa tanda petik) untuk menginstall jika belum diinstall. Lalu buka System &gt; Administration &gt; Startup-Manager. Masukkan password bila diminta. Klik tab Appearance, pilih manage usplash theme. Tambah file blankon-abu.so. Klik close, kemudian pilih blankon-abu.so sebagai usplash default. Klik close untuk menerapkan. Kemudian coba reboot.</p>
+<p><img class="alignnone size-full wp-image-331" title="blankon-login" src="{{ site.baseurl }}/assets/blankon-login.png" alt="blankon-login" width="600" height="450" /></p>
+<p>Yang di atas ini GDM theme buat login. donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-gdm-standar.tar.gz">di sini</a> untuk layar standar, dan <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-gdm-widescreen.tar.gz">di sini</a> untuk layar wide.</p>
+<p>GDM Theme, diambil dari gdmtheme blueswirl yang disediakan di repository ubuntu. Saya hanya mengganti latar belakang aslinya dengan gambar usplash tadi, tulisan GNOME Desktop menjadi Linux Book (maksudnya gantiin macbook saya, hehehe), logo gnome menjadi logo blankon hitam. Saya rasa itu sudah cukup keren. Jadi, usplash yang pertama dan gdm sama dong? Ya, mengikuti opensuse (opensuse mencoba membuat proses dari booting sampai loading desktop manager hingga desktopnya sebagai satu progress bar, tapi selalu diganggu ketika X dijalankan, yaitu muncul screen hitam sebentar).</p>
+<p>Cara pasang, ekstrak filenya di suatu tempat. Anda akan mendapatkan folder gdm-blankon-abu. Buka terminal dan jalankan 'sudo nautilus' (tanpa tanda petik). Masukkan password bila diminta. Lalu kopi folder tadi ke /usr/share/gdm/themes/. Ubah permission folder beserta isinya sampai subfoldernya agar bisa dibaca semua user. Buka System &gt; Administration &gt; Login Window, gdm-blankon-abu akan muncul di sana. Pilih dan coba logout untuk melihat.</p>
+<p>Wallpaper diambil dari gambar latar gdm. gak banyak diedit, supaya serasi saja :D . donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/abu-standar.png">abu-standar.png</a> untuk layar standar dan <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/abu-widescreen.png">abu-widescreen.png</a> untuk widescreen.</p>
+<p><img class="alignnone size-full wp-image-332" title="desktop-theme-abu" src="{{ site.baseurl }}/assets/desktop-theme-abu.png" alt="desktop-theme-abu" width="600" height="375" /></p>
+<p>ini temanya, aslinya dari gulali-hitam, donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-tema.tar.gz">di sini.</a></p>
+<p>Gulali-hitam modifikasi, hehehe.... Sebenarnya saya berencana mengedit tema ubuntu-studio yang lumayan keren, tapi saya juga menginginkan motif batik di gulali-hitam. Saya mengubah warna batiknya menjadi abu, juga motif batik yang biasa muncul di toolbar.</p>
+<p>Cara pasang, klik kanan di desktop dan pilih Change Desktop Background. Pilih tab Theme. Lalu buka nautilus dengan window unmaximize (jendela tidak memenuhi layar). lalu drag filenya ke kotak putih di tab theme. Klik ok atau close bila diminta konfirmasi. Klik Customize, cari dan pilih tema blankon-abu di Controls dan Window Border. Catatan : tema ini akan tersimpan di /home/namauser/.themes/ bukan di /usr/share/themes/.</p>
+<p>Kemungkinan sekali temanya tidak akan berjalan baik pada aplikasi-aplikasi dengan hak root seperti synaptic dan lainnya. Untuk mengatasinya, jalankan 'sudo nautilus', kopi folder temanya ke /usr/share/themes/ dan ubah permissionnya agar bisa dibaca semua user. Jadi aplikasi-aplikasi dengan hak root akan menerapkan tema ini, demikian juga user yang lain.</p>
+<p><img class="alignnone size-full wp-image-333" title="Gambar-Layar" src="{{ site.baseurl }}/assets/gambar-layar.png" alt="Gambar-Layar" width="600" height="375" /></p>
+<p>Ikon-nya donglot <a href="http://piko.esc-webhosting.co.cc/files/paket-blankon-abu/blankon-abu-icon.tar.gz">di sini.</a></p>
+<p>Ikon menggunakan ikon rae yang keren. Terutama saya suka ikon foldernya. Saya berusaha mengubah semua yang hijau menjadi abu-abu. Menu-menu utama di menu Applications yang berbentuk kotak-kotak hijau dengan sudut bundar saya ganti dengan ikon standar gnome.</p>
+<p>Cara pasangnya sama seperti memasang tema. Anda perlu men-drag-nya ke tab theme, lalu cari di Customize lalu di tab Icons. Kalau Anda ingin ikon ini berlaku universal, kopi ke /usr/share/icons/ dan ubah permissionnya agar bisa dibaca semua user.</p>
+<p>Apalagi ya? Saya rasa saya perlu menyemprot si macbook dengan pilox abu-abu agar serasi. :)</p>
+<p>Maaf saja kalau saya tidak menyediakan paketnya dalam bentuk deb karena saya masih dalam tahap belajar.</p>

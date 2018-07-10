@@ -1,0 +1,46 @@
+---
+layout: post
+title: file transfer over ssh
+date: 2011-08-29 03:20:29.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+tags:
+- jaringan
+- komputer
+- linux
+- scp
+- ssh
+- transfer file over ssh
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _oembed_107accdeb327c5d80efdf86e2a42c975: '{{unknown}}'
+  _oembed_327f50e799d46b4f9b3b113d538bf800: '{{unknown}}'
+  _oembed_4bfb36576a34cdc8095bdcf02c751285: '{{unknown}}'
+  _oembed_ec014b1e13764ada5296724568f5c65a: '{{unknown}}'
+  _oembed_b9b3fd2f6d7148efb0881567b55d1008: '{{unknown}}'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.</p>
+<p>mentrasfer berkas dari komputer remot ke komputer lokal</p>
+<p>scp user@hostname:/path/ /path/</p>
+<p>user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)</p>
+<p>scp -r user@hostname:/path/ /path/</p>
+<p>penambahan parameter -r agar bisa menyalin folder. jika tidak, scp akan menampilkan pesan kesalahan untuk transaksi folder.</p>
+<p>scp file.txt user@hostname:/path/</p>
+<p>mengunggah berkas file.txt ke komputer remote.</p>
+<p>scp user@hostname:/path/ user@hostname2:/path</p>
+<p>transfer file di antara dua komputer remote.</p>

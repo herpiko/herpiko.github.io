@@ -1,0 +1,48 @@
+---
+layout: post
+title: Install Slax ke USB Flashdisk
+date: 2009-01-27 05:16:52.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- flashdisk
+- komputer
+- linux-opensource
+- livecd
+- pendrivelinux
+- slax
+- usb
+---
+<p>Install linux ke harddisk? Itu sih udah biasa. Bagaimana kalau ke USB Flashdisk? Kebanyakan orang sudah tahu tetapi tidak ada salahnya mencoba. Slax adalah distribusi linux turunan Slackware yang dikustomasi untuk live system. Dibanding distro lain, saya berani bertaruh menginstall slax ke USB paling mudah. O ya, hanya komputer yang mendukung booting USB yang bisa menjalankan slax di flashdisk kita. Ok, langsung saja.</p>
+<p>Yang diperlukan :<br />
+a. Flashdisk minimal 256 MB, file-file slax keseluruhan sebesar 200 MB.<br />
+b. Sebuah file iso slax, atau CD live Slax.<br />
+c. Camilan.<br />
+d. Semangat open source.</p>
+<p>Langkah-langkah menginstall dari Linux :<br />
+a. Booting CD live Slax atau linux di harddisk kalau memang sudah terinstal. Colokin flashdisk ke komputer, juga CD live Slax. kalau anda punya iso-nya, ekstrak ke sebuah folder di harddisk.<br />
+b. Kopi isi cd atau hasil ekstrak iso (berisi dua folder, boot dan slax) ke flashdisk.<br />
+c. Misal flashdisk adalah sda1<br />
+# cd /mnt/sda1/boot/<br />
+# ./bootinst.sh<br />
+Ikuti petunjuknya sampai selesai. /mnt bisa juga /media, tergantung distronya.<br />
+d. Masih di bawah folder boot, buka slax.cfg. Pada baris APPEND ubah<br />
+autoexec=xconf:telinit~4 menjadi autoexec=telinit~4<br />
+ini maksudnya agar slax ini selalu kompatibel, terutama bila dibooting di komputer dengan vga dan monitor yang tidak begitu bagus.<br />
+masih pada baris itu tambahkan nocd. Ada empat pilihan boot di sana, lakukan hal ini pada keempatnya. Anda bisa mengganti nama Slax menjadi nama lain, misal Pikoslax.<br />
+e. Masih di bawah folder boot, ubahlah file slax.png sesuka anda. Gunakan GIMP untuk hasil yang bagus. Gambar file ini ditampilkan sebelum booting. Ingat, ukurannya harus 640x480 pixel.<br />
+f. reboot komputer dan atur BIOS agar booting ke USB Flashdisk terlebih dahulu. Nikmati slax rasa flashdisk.</p>
+<p>Langkah-langkah menginstall dari Windows:<br />
+a. Colokin flashdisk ke komputer, juga CD live Slax. kalau anda punya iso-nya, ekstrak ke sebuah folder di harddisk.<br />
+b. Kopi isi cd atau hasil ekstrak iso (berisi dua folder, boot dan slax) ke flashdisk.<br />
+c. Di flashdisk, buka folder boot, jalankan bootinst.bat. Ikuti petunjuknya sampai selesai (hanya tekan enter sebanyak dua kali).<br />
+d. Masih di bawah folder boot, buka slax.cfg. Pada baris APPEND ubah<br />
+autoexec=xconf:telinit~4 menjadi autoexec=telinit~4<br />
+ini maksudnya agar slax ini selalu kompatibel, terutama bila dibooting di komputer dengan vga dan monitor yang tidak begitu bagus.<br />
+masih pada baris itu tambahkan nocd. Ada empat pilihan boot di sana, lakukan hal ini pada keempatnya. Anda bisa mengganti nama Slax menjadi nama lain, misal Pikoslax.<br />
+e. Masih di bawah folder boot, ubahlah file slax.png sesuka anda. gambar file ini ditampilkan sebelum booting. Ingat, ukurannya harus 640x480 pixel.<br />
+f. reboot komputer dan atur BIOS agar booting ke USB Flashdisk terlebih dahulu. Nikmati slax rasa flashdisk.</p>
+<p>Sebenarnya mengubah file slax.cfg tidak begitu perlu, hanya untuk kompatibilitas, agar bisa dipastikan slax usb kita bisa dijalankan di semua komputer. Penambahan parameter nocd dimaksudkan agar pencarian file livecd.sgn tidak mengarah ke cd device karena akan memakan waktu lama, meski cd devicenya kosong. Untuk mount cd, buat sebuah folder bernama cdrom di bawah mnt. Kalau sudah, jalankan mount /dev/hda /mnt/cdrom. Apa-apa yang anda ubah di desktop slax (KDE) akan tersimpan di /slax/changes, otomatis diload kalau dibooting lagi. Selamat mencoba!</p>

@@ -1,0 +1,47 @@
+---
+layout: post
+title: masalah mysql di XAMPP 1.7.3 for mac
+date: 2011-08-06 02:27:02.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+- mac
+tags:
+- apple
+- mac
+- macintosh
+- mysql
+- service
+- webserver
+- xampp
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)</p>
+<p>nah, salah satu yang saya pasang adalah XAMPP for mac versi 1.7.3, meski lawas dan tidak diupdate sejak lama, saya hanya ingin sistem mac ini paling tidak ada webservernya buat main2. setelah unduh dan pasang (hanya drag, so simple), ternyata service mysql tidak bisa dijalankan.</p>
+<p>seperti ini xamppcontrol versi mac. (btw dicapture setelah mysql berhasil jalan)<a href="http://pikopages.files.wordpress.com/2011/08/xamppcontrol.jpg"><img class="aligncenter size-full wp-image-2308" title="xamppcontrol" src="{{ site.baseurl }}/assets/xamppcontrol.jpg" alt="" width="215" height="149" /></a></p>
+<p>kita bisa menjalankan versi CLInya di /Application/XAMPP/xamppfiles/xampp</p>
+<p>[code]</p>
+<p>$sudo ./xampp startmysql</p>
+<p>XAMPP: Starting MySQL.../Applications/XAMPP/xamppfiles/xampp: line 150: /Applications/XAMPP/xamppfiles//bin/mysql.server: No such file or directory</p>
+<p>[/code]</p>
+<p>benarkah berkas mysql.server tidak ada? mari kita cek.</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/08/mysql-server.png"><img class="aligncenter size-full wp-image-2309" title="mysql.server" src="{{ site.baseurl }}/assets/mysql-server.png" alt="" width="500" height="194" /></a>ternyata adalah sebuah symbolic link.</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/08/symboliclink.jpg"><img class="aligncenter size-full wp-image-2310" title="symboliclink" src="{{ site.baseurl }}/assets/symboliclink.jpg" alt="" width="281" height="320" /></a>meski linkingnya sudah dibuat ulang tetap tidak bisa. nah, kita bisa mengakalinya dengan mengganti parameter di baris ke 150 (lihat pesan error) dan baris ke 259 (untuk stop service) dengan path file yang asli. buka berkas /Application/XAMPP/xamppfiles/xampp dengan penyunting berkas teks. itu adalah file skrip, bukan binari.</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/08/edit.jpg"><img class="aligncenter size-full wp-image-2311" title="edit" src="{{ site.baseurl }}/assets/edit.jpg" alt="" width="500" height="93" /></a>dan coba jalankan lagi service mysql. tada!</p>
+<p><img class="aligncenter size-full wp-image-2312" title="berhasil" src="{{ site.baseurl }}/assets/berhasil.jpg" alt="" width="500" height="82" />start servicenya lewat terminal saja, soalnya program GUInya masih ngikutin symboliclink. kalau sudah ok via terminal, indikatornya jadi hijau juga.</p>

@@ -1,0 +1,50 @@
+---
+layout: post
+title: kamus menggunakan dict (python2.x)
+date: 2011-12-20 23:37:43.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+- uncategorized
+tags:
+- programming
+- python
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:7:"7761285";s:7:"blog_id";s:7:"5468064";s:9:"mod_stamp";s:19:"2011-12-22
+    01:46:36";}
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>cara sebelumnya, saya menggunakan perulangan untuk mencari kata di setiap baris pada berkas id.dict (id.dict adalah berkas kamus, kata pertama adalah sebuah karakter atau kata dalam bahasa indonesia, kata-kata selanjutnya dalam baris yang sama adalah terjemahannya. berkas ini bisa didapatkan dari program gkamus)</p>
+<p>bagaimana kalau menggunakan dict? barangkali pencariannya bisa lebih cepat karena tinggal print key (kata) untuk mendapatkan value (terjemahan). tapi sebenarnya lebih lambat, karena mengkonvers sebuah berkas teks kamus ke bentuk dict benar-benar memakan waktu. kali ini juga pakai perulangan untuk membuat dict dari setiap baris berkas.</p>
+<p>#!/usr/bin/python2<br />
+kamus= {}<br />
+for line in open ("id.dict"):<br />
+x=line.split()<br />
+y=x[0]<br />
+z=list(x)<br />
+del z[0]<br />
+kamus.update({y:z})<br />
+kata=raw_input('masukkan kata yang akan diterjemahkan : ')<br />
+print kamus[kata]</p>
+<p>cara kerjanya, program akan memisahkan setiap baris menjadi list, kemudian memeriksa dan memasukkan kata pertama dari setiap baris di berkas tersebut sebagai key dari kamus={}. dibuat lagi sebuah list dan mengurangi kata pertama, sehingga list kedua ini hanya berisi terjemahan, kemudian list ini dimasukkan sebagai value untuk setiap key.</p>
+<p>keluarannya masih berbentuk list. lagi males. :P</p>
+<p>kedepannya mungkin saya akan masukkan dict yang baku dan sudah jadi ke dalam berkas program, sehingga tidak memakan waktu untuk membaca dan membuat dict dari awal setiap skrip dijalankan dan berkas id.dict tidak diperlukan lagi. kemudian tentu saja, memperbaiki bentuk keluarannya. dan mungkin menerapkan argument parsing sehingga hasilnya kira-kira sebagai berikut :</p>
+<p>./terjemahkan.py pagi<br />
+pagi : morning</p>
+<p>update :</p>
+<p>ternyata pakai cara ini benar-benar lambat dan memakan proses lebih banyak saat menjalankan berkas skrip. :(</p>
+<p>skip.</p>

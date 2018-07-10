@@ -1,0 +1,36 @@
+---
+layout: post
+title: menambah loop device di debian
+date: 2010-12-09 22:36:12.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- add device loop
+- debian
+- device loop
+- foss
+- linux
+- menambah device loop
+- mount
+meta:
+  _edit_last: '7761285'
+  _wp_old_slug: menambah-device-loop-di-debian
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>on progress, migrasi ke debian. jadi saya mengunduh 30 keping CD (baru selesai setengahnya). tapi saat mencoba mount semua file iso tersebut (akan dijadikan sebagai repositori), hanya 8 file yang bisa di-mount. ternyata karena loop device-nya dibatasi segitu. nah?</p>
+<p>cari file /etc/modules dan tambahkan</p>
+<blockquote><p>loop max_loop=64</p></blockquote>
+<p>reboot. :)</p>

@@ -1,0 +1,61 @@
+---
+layout: post
+title: Hack Wireless Billing Hotspot dengan MacChanger di BlankOn
+date: 2009-05-25 05:57:29.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- pikiran
+tags:
+- hack billing hotspot
+- hack wireless
+- ngoprek
+---
+<p>Satu hal, saya bukan heker (meski judul postingnya 'hack', 'hack', 'hack') tapi cuma orang yang mencoba belajar.</p>
+<p>Korban : Warnet milik Badan Perpustakaan Daerah NTB, access point "warintek1", 00:22:6B:54:04:F2.<br />
+(saya sengaja terang-terangan supaya admin warinteknya kalo baca ini jadi nyadar dan perbaiki jaringannya supaya lebih aman).<br />
+Pelaku : Anggota Badan Perpustakaan sendiri, nama disensor (kode etik pers)<br />
+BB (barang bukti) pelaku : mekbuk+blankon, dvd repo ubuntu (buat nginstal2 aplikasi tambahan), cd backtrack, dan kopi baru seduh.<br />
+Senjata spesifik : aircrack-ng + macchanger</p>
+<p>Kisahnya begini. Di tempat saya ada banyak AP yang berkeliaran. Hanya satu yang terbuka dan bisa akses internet, yaitu milik tetangga sebelah. Sayang, jadwalnya nggak tentu jadi bikin kesel dan boring. Nah, di sebelah tempat saya, berdiri gedung besar milik Perpustakaan Provinsi. Ada dua Access Point dari gedung tersebut. Setelah sedikit survey, saya tahu kalau dua AP itu terhalang sekitar dua sampai tiga tembok ke tempat saya berada, tapi sinyalnya cukup buat chipset atheros ini. Awalnya, dua AP ini diproteksi, satu dengan WEP, satu dengan WPA. Saya sudah coba-coba dengan aircrack, di WEP mekbuk saya malah heng. Kalo WPA, proses brute attack lama sekali selesainya, duluan batere habis.</p>
+<p>Setelah beberapa minggu, tiba-tiba secara mengejutkan, proteksi WEP-nya hilang dan konsepnya berganti wujud menjadi "Billing hotspot". Waw... Rupanya si admin warintek mencoba berganti teknik, dari enkripsi WEP menjadi redirect via web.</p>
+<p>Maksudnya begini. Kita bisa saja konek dan tersambung ke share foldernya, siapapun yang mencoba pasti bisa karena memang tidak diprotek. Tapi ketika buka halaman web dengan web browser manapun, halaman akan dialihkan ke server hotspot. Yaitu sebuah halaman login dengan user dan password. Toeng!</p>
+<p>Pada kasus ini, halaman dialihkan ke http://192.168.3.1/iblogin.php--blablablabla-&lt;mac_address&gt;. Mac addressnya tentu saja terisi mac address saya. Berikut skrinsutnya, saya coba buka google.</p>
+<p><img class="alignnone size-medium wp-image-308" title="billinghotspot" src="{{ site.baseurl }}/assets/billinghotspot1.png?w=300" alt="billinghotspot" width="300" height="187" /></p>
+<p>Hebat deh... saya menduga pasti pakai apache... coba http://192.168.3.1/</p>
+<p><img class="alignnone size-full wp-image-310" title="itworks" src="{{ site.baseurl }}/assets/itworks1.png" alt="itworks" width="344" height="248" /></p>
+<p>Itu adalah tulisan khas server apache. It works! It works! Joget pisang.</p>
+<p>Setelah mondar-mandir, ternyata ketemu, mac address saya tercatat di sana. 00-1B-63-08-62-4D</p>
+<p><img class="alignnone size-full wp-image-311" title="mac" src="{{ site.baseurl }}/assets/mac.png" alt="mac" width="505" height="124" /></p>
+<p>Saya mencoba nama2 direktori-direktori di bawah /var/www yang mungkin. Ternyata dapat, yaitu http://192.168.3.1/billing/. Isinya adalah form login untuk kustomisasi billing hotspot.</p>
+<p><img class="alignnone size-full wp-image-312" title="login" src="{{ site.baseurl }}/assets/login.png" alt="login" width="469" height="345" /></p>
+<p>Hmmm, dia bilang... 'melindungi password anda dari brute attack'... lumayan...</p>
+<p>Saya coba-coba user passwdnya sampe boring semaput, kagak ketemu. teknik bodoh ini saya tinggalkan.</p>
+<p>Analisis (alah..) : karena mac address saya dicatat di address bar ketika buka google.com, saya kira 'token' (istilah saya untuk semacam kredensial pengenal) ada di mac address, bukan di cookies login di web browser. Artinya, hotspot ini menggunakan mac filtering. Hanya mac address yang pernah sah konek ke sana atau yang didaftarkan yang bisa melewati proteksi billing. Jadi, saya harus mencoba konek dengan mac address yang 'pernah' konek ke AP ini.<br />
+Nah, bagaimana mendapatkan mac address ini?<br />
+TOENG! aircrack-ng!. Aplikasi hebat ini bisa menampilkan semua mac address client maupun access point, dan menunjukkan siapa sedang berhubungan dengan siapa. Pakai Backtrack3 Final, atau install aircrack</p>
+<p><em>sudo apt-get install aircrack-ng</em></p>
+<p>Sebagai contoh, saya pakai bactrack</p>
+<p>ketik :</p>
+<p><em>airmon-ng start wifi0</em></p>
+<p>(wifi0 bisa diganti dengan device wireless anda yang sesuai, bisa wlan0 atau ath0)<br />
+Saya kira maksud perintah ini adalah menjalankan kloning monitor, dan kita dapatkan ath1 (monitor mode enable)</p>
+<p><em>airodump-ng ath1</em></p>
+<p>perintah ini untuk memonitor sinyal wireless di sekeliling kita.</p>
+<p><img class="alignnone size-full wp-image-313" title="airmon" src="{{ site.baseurl }}/assets/airmon.png" alt="airmon" width="622" height="195" /></p>
+<p>Toeng! Got it!</p>
+<p><img class="alignnone size-full wp-image-314" title="airodump" src="{{ site.baseurl }}/assets/airodump.png" alt="airodump" width="757" height="306" /></p>
+<p>Penjelasan :<br />
+Yang tertulis di kolom BSSID di bagian atas adalah mac address Access Point yang tersedia di sekeliling anda. kolom BSSID di bagian bawah adalah mac address Access Point yang sedang konek dengan klien. Nah, kliennya itu ada di sampingnya, yaitu di kolom STATION.<br />
+Kita jadi tahu bahwa leptop yang sedang konek dengan hotspot warintek1 (00:22:6B:54:04:F2) adalah 00-1B-63-08-62-4D (ini punya saya) dan 00:21:00:94:5A:09 (ini klien yang jadi korban). Catat maknyus..<br />
+Sekarang giliran macchanger beraksi. Install dulu kalo belum diinstall.</p>
+<p><em><br />
+sudo apt-get install macchanger</em></p>
+<p>Saatnya menyamar....</p>
+<p><img class="alignnone size-full wp-image-315" title="macchanger" src="{{ site.baseurl }}/assets/macchanger.png" alt="macchanger" width="432" height="116" /></p>
+<p>Voila! Sekarang ID(pengenal) leptop saya sudah berubah dari yang semula menjadi 00:21:00:94:5a:09, yaitu mac address milik leptop yang sudah dikenal oleh access point. Secara logika, kalau saya coba konek, maka pemilik mac address tadi akan terputus, bila dia coba konek, saya akan terputus. Tidak efektif memang, tapi saat si klien korban sudah boring dan pulang, giliran saya yang ngenet. Joget pisang...<br />
+Coba disable wireless, kemudian aktifkan lagi. Lalu coba konek. mungkin gagal untuk beberapa kali (ini kalau pemilik mac address masih di tempat), coba terus sampai akhirnya bisa. Terus buka halaman gogel.</p>
+<p><img class="alignnone size-medium wp-image-316" title="google" src="{{ site.baseurl }}/assets/google.png?w=300" alt="google" width="300" height="187" /></p>
+<p>Tadaaaaaaaaaaaaaaa! Billing hotspot sudah tersingkir, dadah. Toeng! Toeng!</p>

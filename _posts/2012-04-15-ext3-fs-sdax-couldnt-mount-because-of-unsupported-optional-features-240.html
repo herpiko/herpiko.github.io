@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'EXT3-fs: sdaX couldn''t mount because of unsupported optional features (240)'
+date: 2012-04-15 16:55:59.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- slackware
+tags:
+- boot
+- ext3
+- filesystem
+- lilo
+- slackware
+- unsupported optional feature
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+  _oembed_7d7ae297fc1d926ff0d011964b6c917e: '{{unknown}}'
+  _oembed_18f23cff40276ca9eda28e4dc7faab1e: '{{unknown}}'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>Pesan galat ini muncul di awal booting, tetapi bisa diabaikan dan masih bisa masuk sistem. Tapi tidak enak juga melihat pesan galat seperti itu setiap booting. Saya temukan solusinya di sini : <a href="http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/">http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/</a>.</p>
+<p>Hal ini terjadi karena kernel mendahulukan ext2 dan ext3 sebelum ext4. Tambahkan rootfstype=ext4 di baris append di /etc/lilo.conf</p>
+<p>[code]append=&quot;quiet vt.default_utf8=0 rootfstype=ext4&quot;[/code]</p>
+<p>Kemudian tulis konfigurasi lilo ke MBR.</p>
+<p>[code]sudo lilo[/code]</p>

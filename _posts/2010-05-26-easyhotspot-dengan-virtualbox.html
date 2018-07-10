@@ -1,0 +1,70 @@
+---
+layout: post
+title: 'easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot'
+date: 2010-05-26 18:54:16.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+- uncategorized
+tags:
+- easyhotspot
+- free
+- hotspot
+- internet
+- linux
+- mikrotik
+- ubuntu
+- virtualbox
+- wireless
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  twitter_cards_summary_img_size: a:7:{i:0;i:1366;i:1;i:768;i:2;i:2;i:3;s:25:"width="1366"
+    height="768"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>halo kawan.</p>
+<p>kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.</p>
+<p>setelah googling untuk cari alternatif, saya temukan easyhotspot. <a href="http://easyhotspot.inov.asia">silakan kemari.</a> easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.</p>
+<p>nah, kendalanya, rasanya sayang sekali menambah satu komputer untuk dijadikan server billing hotspot ini, maka saya mencobanya secara virtual di atas PC bersistem operasi Windos. pertama saya coba dengan vmware tapi gagal, dan kedua dengan virtualbox, dan masih gagal. :P</p>
+<p>tapi ujung-ujungnya berhasil kok. :)</p>
+<p><strong>kondisi</strong></p>
+<p>berikut kondisi saya :</p>
+<ul>
+<li>sebuah komputer server bililing warnet biasa pake windos, prosesor dan ram mencukupi untuk menjalankan OS virtual dengan vmware maupun virtualbox.</li>
+<li>sebuah modem (koneksi speedy) dan access point yang jadi satu (bawaan paket speedy, tp-link w8101g). bisa juga dengan modem dan AP terpisah.</li>
+</ul>
+<p>jadi, tutorial ini mengikuti kondisi di atas, yaitu untuk modem ASDL.</p>
+<p><strong>install</strong> <strong>dan konfigurasi</strong></p>
+<p>install eashotspot di virtualbox (instalasinya sama persis seperti instalasi ubuntu, silakan merujuk ke tutorial instalasi ubuntu), tambahkan dua kartu jaringan.</p>
+<ul>
+<li>NIC 1 = nantinya di ubuntu menjadi eth0, pada virtualbox, atur sebagai NAT.</li>
+<li>NIC 2 - nantinya di ubuntu menjadi eth1, pada virtualbox, atur sebagai bridged.</li>
+</ul>
+<p>nah, jika anda memperhatikan, saat virtualbox di install, ada network tambahan di windows anda, yaitu virtualbox-host-only (control panel &gt; network). klik kanan&gt; properties. ganti IP addressnya menjadi IP yang sah di jaringan nyata anda, dan jangan lupa gateway-nya juga (IP modem).</p>
+<p>kembali ke ubuntu (asumsi sudah terinstall). klik network manager &gt; edit connection. pilih eth1, dan atur IP-nya agar sama persis dengan virtualbox-host-only. eth0-nya biarkan pakai DHCP. restart network.</p>
+<p>sekarang, aturlah agar DHCP di Access Pointnya dimatikan. kenapa dimatikan? awalnya saya juga bertanya-tanya. ternyata, pengurusan dhcp dialihkan ke kartu jaringan virtua kedua (eth1), nanti si ubuntu yang ngasih IP buat yang minta konek.</p>
+<p><strong>testing</strong></p>
+<p>anda bisa testing langsung pakai laptop, atau jika tidak ada laptop, pakai komputer biasa juga bisa (atur IPnya otomatis). kalau sudah konek, buka command line dan ketikan "ipconfig", tanpa tanda ketik. jika di samping DNS suffix ada tulisan key.chillispot.info, berarti memang sudah benar. secara default, IPnya akan mengikuti 192.168.182.x.</p>
+<p>bukalah browser dan masuk ke google.com. halaman akan dialihkan ke sebuah halaman login warna putih, akan ada tulisan easyhotspot login (anda bisa mengubah tampilan login ini sesuai selera anda). jika sampai di sini, selamat. :)</p>
+<p><strong>easyhotspot - dead simple opensource hotspot management system<br />
+</strong></p>
+<p>sekarang, mari bermain sebentar dengan ubuntu virtual. jalankan browser, buka http://localhost/easyhotspot. akan muncul halaman login. masukkan user : admin, password : admin123. anda bisa menggantinya nanti.</p>
+<p>setelah masuk, kita bisa mengkonfigurasi easyhotspot, antara lain pengaturan postpaid, paket hotspot, chillispot (sebaiknya pengaturan chillispot dibiarkan default), dan pengaturan user. tampilan antar mukanya cukup mudah untuk dimengerti, karenanya saya tidak menjelaskan dengan detail.</p>
+<p>buatlah dan atur akun user biasa (nantinya sebagai operator). user dan password hotspot loginnya bisa di-generate dengan akun ini.</p>
+<p>jika sudah dapatkan user dan password hotspot login, silakan dicoba. :D</p>
+<p>tanpa skrinsut adalah hoax. :D</p>
+<p>[caption id="attachment_1101" align="alignnone" width="570" caption="easyhotspot"]<a href="http://pikopages.files.wordpress.com/2010/05/easyhotspot.jpg"><img class="size-full wp-image-1101" title="easyhotspot" src="{{ site.baseurl }}/assets/easyhotspot.jpg" alt="easyhotspot" width="570" height="320" /></a>[/caption]</p>
+<p>untuk informasi lebih lanjut mengenai easyhotspot silakan merujuk ke <a href="http://easyhotspot.inov.asia">situs resminya</a>.</p>

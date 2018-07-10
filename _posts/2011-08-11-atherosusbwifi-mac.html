@@ -1,0 +1,50 @@
+---
+layout: post
+title: cara bodoh koneksi wifi TP-LINK WN322G di Mac OS X Snow Leopard
+date: 2011-08-11 23:00:16.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- mac
+tags:
+- bodoh
+- ICS
+- internet
+- mac
+- wifi
+meta:
+  _edit_last: '7761285'
+  _wp_old_slug: tp
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>saya punya mesin mac dan sebuah adapter usb wireless TPLINKWN322G (atheros ath9k). adapter wireless ini tidak terdeteksi di mac. kextnya dicari-cari ke ujung dunia tidak ketemu. nah. jadi saya punya beberapa opsi yaitu sebagai berikut :</p>
+<p>1. menggunakan komputer atau laptop lain yang punya wifi dan bekerja baik di sistem operasinya kemudian membagi akses internetnya (internet connection sharing, di windows atau linux ini bekerja dengan baik) ke mesin mac via LAN.</p>
+<p>2. menggunakan virtualbox/vmware dan memasang ubuntu. adapter wirelessnya dipasangkan ke ubuntu, kemudian dari ubuntu sharing akses internet ke host (mac)</p>
+<p>3. menggunakan virtualbox/vmware dan memasang ubuntu, adapter wirelessnya dipasangkan ke ubuntu, kemudian dari ubuntu sharing akses internet melalui LAN fisik (bridge), kemudian dari LAN pertama disambungkan dengan kabel UTP cross ke LAN kedua.</p>
+<p>4. membeli PCI wifi baru yang kompatibel.</p>
+<p>cara pertama, ini benar2 merepotkan. masa sih harus numpang kayak parasit gitu.</p>
+<p>cara kedua, ini sepertinya sulit diimplementasikan karena perangkat virtual (vmnet1 dan vmnet8 di vmware, begitu juga di vbox), tidak bisa dipasangkan gateway. keduanya masih bisa diganti IP addressnya dengan mengganti parameter di /Library/Application Support/VMware Fusion/location, networking, vmnet1, dan vmnet8. kedua ethernet virtual itu bisa digantikan IP-nya mengikuti 10.42.43.xx, yang mana merupakan IP default untuk ICS di ubuntu. tapi gatewaynya? saya tidak menemukan cara, bahkan sampai googling semaput. ada yang bilang bisa pakai route, tetapi itu tetap tidak berhasil (atau saya yang goblok).</p>
+<p>cara ketiga, it works.</p>
+<p>cara keempat, ah males keluar uang. nanti tanggal tua gag bisa makan.</p>
+<p>nah, berikut detil cara ketiga. saya menggunakan vmware fusion (dan saya akui ini bajakan, termasuk macosx-nya juga &gt;.&lt; ). saya tidak menggunakan virtualbox karena tidak mendeteksi usb dengan baik di guest OS, usb not recognized kalau di windows, dan tidak respon lsusb kalau di linux.  saya menggunakan blankon 7 pattimura dan adapter usb wifi itu langsung dikenali dengan baik. LAN vmware-nya saya setting bridged ke LAN fisik pertama (en0). setelah berhasil koneksi dengan dunia luar via wifi, saya membagi aksesnya. caranya bisa dilihat di sini. nantinya, LAN milik ubuntu akan mempunyai IP 10.42.43.1 secara default.</p>
+<p>nah, di mac, di LAN fisik kedua saya isikan IP 10.42.43.2 dan gateway 10.42.43.1. seharusnya bisa via DHCP tapi entah kenapa itu tidak bekerja.</p>
+<p>lalu saya memotong kabel UTP sepanjang 15cm, pendek bro. dan RJ45 dicrimping cross. colok dan tada!</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/08/dsc_0003.png"><img class="aligncenter size-full wp-image-2334" title="DSC_0003" src="{{ site.baseurl }}/assets/dsc_0003.png" alt="" width="500" height="332" /></a>tanpa skrinsut adalah hoax.</p>
+<p>&nbsp;</p>
+<p><a href="http://pikopages.files.wordpress.com/2011/08/screen-shot-2011-08-22-at-3-19-37-am.png"><img class="aligncenter size-full wp-image-2336" title="Screen shot 2011-08-22 at 3.19.37 AM" src="{{ site.baseurl }}/assets/screen-shot-2011-08-22-at-3-19-37-am.png" alt="" width="500" height="281" /></a>UPDATE :</p>
+<p>ternyata, bahkan tanpa NIC kedua kita masih bisa konek. buang NIC kedua dan kabel UTP cross. hanya dengan menyambung via bridging, LAN fisik kita sudah dianggap sebagai LAN virtual yang mana sudah nyambung inet dari dalam. :)</p>
+<p>begonya saya. (doh)</p>
+<p>&nbsp;</p>

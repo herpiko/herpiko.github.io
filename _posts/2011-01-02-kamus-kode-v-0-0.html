@@ -1,0 +1,68 @@
+---
+layout: post
+title: kamus kode v.0.0.2
+date: 2011-01-02 01:49:53.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+- uncategorized
+tags:
+- algoritma
+- alur logika
+- dictionary
+- morse
+- pemograman
+- postaday2011
+- program
+- programming
+- python
+- source code
+- string
+- translator
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>huff. pantaslah para programmer disanjung tinggi, ternyata mikir sebagai programmer itu sulit! (keluar dari mulut orang goblok).</p>
+<p>nah, setelah saya mikir seharian duduk di depan layar monitor sambil corat-coret, akhirnya saya nemu algoritma yang tepat untuk mentranslasi karakter ke karakter lain. sebagai catatan, saya ndak nyontek lho, tapi mikir sendiri alur logikanya dari kemarin sore. kelamaan ya? namanya juga orang bego.</p>
+<p>[code]<br />
+input=raw_input('<br />
+&lt;pre&gt;kamus kode v.0.0.2, silakan ketik kata atau kalimat, karakter huruf saja : ')<br />
+&lt;/pre&gt;<br />
+end='0'<br />
+v=str<br />
+x=str<br />
+kata=input+end<br />
+katalist=list(input)<br />
+nol=0<br />
+dict={' ':'  ','a':'.-','b':'-...','c':'-.-.','d':'-..','e':'.','f':'..-.','g':'--.','h':'....','i':'..','j':'.---','k':'—.—','l':'.—..','m':'--','n':'-.','o':'---','p':'.--.','q':'--.-','r':'.-.','s':'...','t':'-','u':'..-','v':'...-','w':'.--','x':'-..-','y':'-.--','z':'--..'}<br />
+while kata[nol] is not '0' :<br />
+v=kata[nol]<br />
+x=dict[v]<br />
+katalist[nol]=x<br />
+nol += 1<br />
+hasil=' ' .join(katalist)<br />
+print hasil<br />
+[/code]</p>
+<p>fitur :</p>
+<ul>
+<li>menerjemahkan huruf, kata, bahkan kalimat dalam jumlah tak terbatas ke dalam kode morse. selain huruf dilarang masuk.</li>
+</ul>
+<p>thing to do :</p>
+<ul>
+<li>bisa huruf besar kecil</li>
+<li>mendeteksi input angka</li>
+<li>menerapkan GUI</li>
+</ul>

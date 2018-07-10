@@ -1,0 +1,155 @@
+---
+layout: post
+title: Perintah Dasar di Shell Linux
+date: 2008-12-25 12:09:05.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags: []
+meta:
+  _edit_last: '5716084'
+author:
+  login: snivelus
+  email: severussnape@mail.org
+  display_name: piko
+  first_name: piko
+  last_name: aguno
+---
+<p>Untuk generasi sekarang (kebanyakan), menggunakan Windows tidak harus bisa menggunakan DOS (Disk Operating System, bukan Denial of Service), yang hampir ditinggalkan. Kesan orang tentang : 'Wah, kuno', 'Susah', 'Apaan tuh?'. Kita memang tidak perlu mempelajari DOS kecuali bagi advanced user. Ilmu itu kan bebas.<br />
+Bagaimana dengan Linux. Linux ada DOS-nya nggak? Ada dong, lingkungan prompt di Linux namanya shell. Dan satu hal yang perlu diingat, kebanyakan kasus, menggunakan Linux adalah mutlak menguasai perintah-perintah shell. Kalau Linux anda diinstall di PC (bukan server) maka anda sendirilah root atau administratornya. Mutlak bagi administrator Linux untuk mengenal perintah dasar Shell. Karena kalau systemnya bermasalah, administrator (anda sendiri) harus bertanggung jawab membereskan. Di sini letak keasyikannya, kita akan meninggalkan GUI (general user interface) untuk sementara waktu. Diasumsikan anda sudah menginstal Linux distro apa saja yang sekiranya terinstall paket-paket yang standar. Saya pake Blankon 4 Meuligo sebagai contoh, sebuah distro Linux yang dikembangkan anak negeri (bangga dong!).<br />
+Shell dalam Linux ada banyak jenisnya tapi yang paling populer dan sering dijadikan default shell dalam banyak distro adalah Bash (bourne again shell). Jadi, di tutorial ini kita pake Bash. Tinggalkan sepenuhnya mode X anda. Caranya restart lalu edit (kalo pake GRUB) option GRUB, tambahin single, maka kita masuk ke root, masukan password bila diminta. Atau su root, masukin password, kemudian berikan perintah init 1 atau telinit 1. Yah...jadi seperti DOS deh. Atau kalau males meninggalkan GUI, pake konsole atau terminal (cari aja yang iconnya gambar monitor tok).</p>
+<p>Cara memberikan perintah dalam Shell</p>
+<blockquote><p>$ command &lt;option&gt; [argumen] &lt;enter&gt;</p></blockquote>
+<p><!--more--></p>
+<p>$ maksudnya menunjukan status user. Kalo anda dalam posisi root, tandanya #.<br />
+command diganti dengan nama perintah. Option ya option, biasanya diawali awalan -. Argumen diisi parameter yang akan diproses. Apa bila nama parameter ada spasinya tambahkan kutip satu (') di awal dan akhir parameter.<br />
+&lt;enter&gt; maksudnya tekan enter. Jalan deh tu perintah.</p>
+<p><em><strong>System</strong></em></p>
+<p><strong>who : mencari tahu siapa saja yang login</strong></p>
+<blockquote><p>anda@localhost:/home/anda$who<br />
+root    tty0<br />
+anda    tty1</p></blockquote>
+<p><strong>whoami : mencari tahu dengan account siapa anda login</strong></p>
+<blockquote><p>anda@localhost:/home/anda$whoami</p>
+<p>anda</p></blockquote>
+<p><strong>hostname : melihat nama hostname</strong></p>
+<blockquote><p>anda@localhost:/home/anda$hostname<br />
+localhost</p></blockquote>
+<p><strong>passwd : mengganti password</strong></p>
+<blockquote><p>anda@localhost:/home/anda$passwd<br />
+(current) password :<br />
+enter new UNIX password :<br />
+retype new UNIX pasword :<br />
+password succesfully canged<br />
+anda@localhost:/home/anda$</p></blockquote>
+<p>Anda tidak akan melihat karakter yang anda ketik, ini salah satu ciri keamanan linux. Jadi hati-hati salah ketik.</p>
+<p><strong>su : mengganti user</strong><br />
+Misal anda login sebagai anda, ingin menggunakan root.</p>
+<blockquote><p>anda@localhost:/home/anda$su root</p>
+<p>atau</p>
+<p>anda@localhost:/home/anda$su</p></blockquote>
+<p>Masukkan password bila diminta. Ini bukti bahwa linux adalah komputer multiuser.<br />
+<strong><br />
+sudo : melakukan perintah atas kuasa root.</strong></p>
+<blockquote><p>anda@localhost:/home/anda$sudo rm /root/file_punya_root.txt</p></blockquote>
+<p>Masukkan password root ketika diminta, tekan enter dan perintah akan dieksekusi.<br />
+<strong><br />
+top : melihat proses</strong></p>
+<blockquote><p>anda@localhost:/home/anda$top</p></blockquote>
+<p>Lihat aja hasilnya sendiri.</p>
+<p><strong>kill : membunuh proses</strong></p>
+<blockquote><p>anda@localhost:/home/anda$kill nomorPID</p></blockquote>
+<p>Dapatkan nomor PID dari perintah top.<br />
+<strong><br />
+date : informasi waktu</strong></p>
+<blockquote><p>anda@localhost:/home/anda$date<br />
+Thu Dec 25 17:16:47 CIT 2008</p></blockquote>
+<p><strong>! : history perintah shell</strong></p>
+<blockquote><p>anda@localhost:/home/anda$!<br />
+ls<br />
+cd<br />
+who</p></blockquote>
+<p>ketik !5 jika ingin mengeksekusi perintah kelima sebelumnya dari sekarang.</p>
+<p><strong>alias : membuat alias</strong><br />
+Kita bisa mengindonesiakan perintah shell. Lihat contoh.</p>
+<blockquote><p>anda@localhost:/home/anda$alias hapus='rm'<br />
+anda@localhost:/home/anda$hapus puisiku.txt</p></blockquote>
+<p>Berikan alias saja untuk melihat daftar alias yang sudah ada. Gunakan unalias untuk menghilangkan alias</p>
+<p><em><strong><br />
+Pengelolaan Direktori dan File</strong></em></p>
+<p><strong>pwd : melihat di direktori mana kita berada.</strong> Kalau kita ada di /home/anda/ maka hasilnya</p>
+<blockquote><p>$pwd<br />
+/home/anda</p></blockquote>
+<p>tapi biasanya tertulis di depan tanda $, misal</p>
+<blockquote><p>anda@localhost:/home/anda$</p></blockquote>
+<p><strong>cd : mengganti direktori</strong></p>
+<p>misal kita mau pindah ke direktori /etc</p>
+<blockquote><p>anda@localhost:/home/anda$cd /etc<br />
+anda@localhost:/etc$</p></blockquote>
+<p>atau kalau direktori yang ingin dituju ada dalam direktori dimana kita berada,langsung saja tulis nama direktorinya, tanpa menulis path yang lengkap. Misal nama direktorinya</p>
+<blockquote><p>anda@localhost:/home/anda$cd pictures<br />
+anda@localhost:/home/anda/pictures$</p></blockquote>
+<p>Kalau kita ingin kembali ke direktori home kita sedang kita berada di direktori lain dan kita malas menulis path /home/anda, maka berikan perintah</p>
+<blockquote><p>anda@localhost:/media/sda3$cd ~</p></blockquote>
+<p>cd ~ artinya pindah ke direktori home kita sendiri. ~ ada dibawah tanda escape [esc].</p>
+<p><strong>mkdir : membuat direktori</strong></p>
+<blockquote><p>anda@localhost:/home/anda$ls<br />
+documents/    pictures/    musics/<br />
+anda@localhost:/home/anda$mkdir coba<br />
+anda@localhost:/home/anda$ls</p>
+<p>documents/    pictures/    musics/    /coba</p></blockquote>
+<p>yah, muncul tuh direktori buatan kita.<br />
+<strong><br />
+rmdir : menghapus direktori</strong><br />
+direktorinya harus kosong, kalau tidak tambahkan option -f (force) atau –ignore-fail-on-non-empty</p>
+<blockquote><p>anda@localhost:/home/anda$rmdir pictures</p></blockquote>
+<p><strong>ls : melihat direktori dimana kita berada</strong></p>
+<blockquote><p>anda@localhost:/home/anda$ls<br />
+document/        pictures/        musics/<br />
+peterpan.ogg        doraemon.png</p></blockquote>
+<p>nama yang berakhiran / berarti sebuah direktori. Di beberapa distro direktori biasanya ditulis tebal atau berwarna biru.</p>
+<p>Option perintah ls :<br />
+-a berarti all, menampilkan semua file dan direktori, termasuk file dan direktori hidden (file dan direktori hidden biasanya diawali titik, misal .rahasia. Secara default tidak terlihat di shell. Ada banyak file hidden di bawah direktori home kita, coba saja telusuri)<br />
+-l berarti long, menampilkan isi direktori secara lengkap termasuk permission (hak akses), tanggal pembuatan, pemilik, dan lainnya<br />
+-s berarti size, menampilkan isi ditambah informasi ukurannya dalam kilobyte.<br />
+-R berarti recursive, menampilkan seluruh isi direktori berikut sub direktorinya.<br />
+-d berarti direktori. Menampilkan direktori saja.</p>
+<p><strong>cat : melihat isi file</strong><br />
+cat di sini bukan berarti kucing, tapi concatenate. File yang dimaksud di sini hanyalah file txt karena pada zaman purba, file txt merupakan format dokumen paling populer.</p>
+<p>Misal anda punya sebuah puisi yang ditulis dalam puisiku.txt dan diletakkan di bawah direktori /home/anda. Kita coba lihat isinya.</p>
+<blockquote><p>anda@localhost:/home/anda$cat puisiku.txt<br />
+akulah binatang jalang<br />
+dari kumpulan yang terbuang<br />
+wah...lupa...</p></blockquote>
+<p>Kalau ingin kembali ke shell, tekan ctrl+d.</p>
+<p>Perintah cat juga bisa digunakan untuk melihat dua file sekaligus dengan menggabungkannya. Misal anda punya file bernama passwordroot.txt</p>
+<blockquote><p>anda@localhost:/home/anda$cat puisiku.txt passwordroot.txt</p>
+<p>atau menggabungkannya</p>
+<p>anda@localhost:/home/anda$cat puisiku.txt passwordroot.txt &gt; gabungan.txt</p></blockquote>
+<p><strong>more : melihat isi file</strong><br />
+<strong>less : melihat isi file</strong><br />
+Keduanya sama saja hanya more lebih interaktif karena bisa menggeser halaman ke atas sementara less tidak. Coba sendiri.<br />
+<strong><br />
+touch : membuat file kosong</strong><br />
+format file disini adalah txt. Tak mesti memberi ekstensi .txt karena system akan mengenalnya dengan otomatis</p>
+<blockquote><p>anda@localhost:/home/anda$touch namafile</p></blockquote>
+<p>Bisa juga mendefinisikan tanggal pembuatan file, tambahkan option -t 200805231102 sebelum nama file. Formatnya yyyymmddhhmm (year-month-day-hour-minute).<br />
+<strong><br />
+cp : menyalin file</strong><br />
+cp berarti copy. Caranya :</p>
+<blockquote><p>anda@localhost:/home/anda$cp fileasli filesalinan</p></blockquote>
+<p><strong>mv :mengganti nama file atau direktori</strong></p>
+<blockquote><p>anda@localhost:/home/anda$mv puisiku.txt puisi_jelek.txt</p></blockquote>
+<p><strong>mv :memindahkan file atau direktori</strong></p>
+<blockquote><p>anda@localhost:/home/anda$mv puisiku.txt  /home/anda/document/puisiku.txt</p></blockquote>
+<p><strong>rm : menghapus file</strong></p>
+<blockquote><p>anda@localhost:/home/anda$rm puisiku.txt<br />
+remove puisiku.txt? &lt;tekan y&gt;<br />
+anda@localhost:/home/anda$</p></blockquote>
+<p><strong>find : mencari file</strong></p>
+<blockquote><p>anda@localhost:/home/anda$find /home/anda/ -name puisiku.txt</p></blockquote>
+<p>/home/anda/ maksudnya area pencarian dilakukan di bawah direktori tersebut<br />
+-name maksudnya dicari berdasarkan nama puisiku.txt.<br />
+Cukup deh sampai di sini. Sebenarnya perintahnya banyak sekali tapi cuma segini aja yang saya inget.  Kalau ingin mengetahui lebih lanjut tentang sebuah perintah, ketik 'namaperintah –help'. Kalau ada yang salah, mohon komplain. Semoga berguna.</p>

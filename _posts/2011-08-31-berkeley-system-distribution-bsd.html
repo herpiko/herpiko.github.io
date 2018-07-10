@@ -1,0 +1,82 @@
+---
+layout: post
+title: Berkeley System Distribution (BSD)
+date: 2011-08-31 03:25:50.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- berkeley system distribution
+- bsd
+- komputer
+- operating system
+- sistem operasi
+- unix
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>Ada banyak sekali tulisan-tulisan yang membahas tentang BSD, baik tulisan mengenai sejarah, system administrasi, sampai penggunaan BSD kepada end-user sebagai desktop. Tulisan ini memperkenalkan BSD sebagai alternatif lain dari Linux untuk memenuhi kebutuhan akan UNIX-like operating system di Indonesia. Dalam tulisan ini pula, dibahas mengenai beberapa hal yang membedakan antara Linux dan BSD, namun tidak memutuskan mana yang paling baik, karena untuk menentukan mana operating system yang paling baik digunakan adalah Anda sendiri.</p>
+<p>Sejarah</p>
+<p>Hampir semua orang telah mendengar Linux saat ini. Namun apa itu BSD? BSD adalah singkatan dari Berkeley Software Distribution. BSD pertama kali dibangun dan dikembangkan oleh Computer System Research Group (CSRG) di University of California at Berkeley (UCB), BSD pertama kali keluar pada akhir 1977 sebagai paket tambahan dan patch dari AT&amp;T UNIX version 6, yang mana waktu itu beroperasi pada mesin PDP-11 minicomputer.</p>
+<p>BSD pada akhirnya banyak memberikan kontribusi berharga pada pengembangan UNIX secara umum. Ada banyak fitur yang pertama kali diperkenalkan oleh BSD dan beberapa diadopsi dari AT&amp;T dan vendor-vendor lainnya.</p>
+<p>BSD dibuat, dikembangkan, dan digunakan secara BEBAS sebagai perlawanan terhadap lisensi UNIX yang dimiliki oleh AT&amp;T dan oleh karena itu BSD mempunyai lisensi tersendiri yang memungkinkan setiap orang bebas melakukan pengembangan, dan menggunakan source code BSD. Pada tahun 1993, 4.4BSD dirilis sebagai sebuah Operating System yang utuh. Untuk sejarah lengkap BSD di CSRG, mulai sejarah dari jaman kuda, motivasi orang-orang yang pertama kali mengerjakannya, sampai perseteruan lisensi dan hak cipta dengan AT&amp;T, saya mereferensikan Anda untuk membaca tulisan yang dibuat oleh Kirk McKusick , “Twenty Years of Berkeley Unix“.</p>
+<p>Saat ini, BSD tersedia secara bebas, dan memiliki fungsi utuh dari UNIX operating system.</p>
+<p>Distribusi Varian BSD</p>
+<p>Semenjak CSRG tidak lagi aktif, beberapa turunan 4.4BSD muncul, dan beberapa diantaranya menjadi produk komersial.<br />
+BSD/OS</p>
+<p>Berkeley Software Design, Inc., didirikan oleh beberapa pendiri awal developer CSRG sebagai kelanjutan dari pengembangan BSD dalam sisi komersial. BSD/OS telah mendukung untuk banyak platform, seperti i386 dan sparc, yang biasanya dipasarkan dengan memasukkan beberapa applikasi Internet.</p>
+<p>Pada tahun 2000, BSDI bergabung dengan Walnut Creek CDROM, sebuah perusahaan yang secara finansial mendukung juga OS FreeBSD . BSD/OS akan dilanjutkan sebagai sebuah produk yang terpisah, namun seperti yang diharapkan, BSD/OS dan FreeBSd source tree akan digabungkan.<br />
+DarwinOS</p>
+<p>DarwinOS adalah bagian penting open-source operating system baru Apple, Mac OS X. Darwin mengimplementasikan kepribadian 4.4BSD dan userland pada sebuah mikrokernel Mach, dengan FreeBSD sebagai referensi utama. Walaupun ditujukan pada platforn pps Apple, namun system ini juga sedang dikembangkan untuk platform i386.</p>
+<p>FreeBSD</p>
+<p>FreeBSD mengoptimalkan penggunaan platform PC. FreeBSD menyediakan kemudahan installasi dan dukungan yang luas terhadap hardware PC. FreeBSD mendukung arsitektur i386 dan alpha, dan pengembangan FreeBSD pada beberapa platform juga telah dilakukan. FreeBSD juga digunakan pada server-server yang memiliki traffic dan kinerja yang cukup tinggi untuk service WWW dan FTP seperti www.yahoo.com dan ftp.cdrom.com.</p>
+<p>NetBSD</p>
+<p>NetBSD memfokuskan pengembangan pada penyediaan operating system untuk banyak platforms, dari sebuah palmtop sampai server alpha yang besar. NetBSD berjalan pada hampir semua mesin dimana orang menginginkan UNIX sebagai Operating Systemnya.</p>
+<p>OpenBSD</p>
+<p>OpenBSD memfokuskan pengembangan pada security dan cryptography. Proyek pengembangan ini terpisah dari proyek NetBSD pada tahun 1995 sebagai akibat perselisihpahaman antara Theo de Raadt dengan NetBSD core team lainnya. OpenBSD saat ini setidaknya telah mendukung lebih dari 10 platforms, dengan beberapa proses pengembangan lebih terstruktur. Tim OpenBSD juga telah menghasilkan sebuah applikasi OpenSSH , sebuah implementasi untuk memenuhi kebutuhan Secure Shell untuk pekerjaan secara remote.Lalu, seberapa besar perbedaan FreeBSD , NetBSD , dan OpenBSD ? Secara praktis, tidak banyak bedanya. Namun dari ketiganya justru berbeda jauh jika dibandingkan dengan distribusi Linux, yang mungkin bisa dipersempit dari sisi sudut pandang pengguna, dan sysadmin. Dan dari ketiga distribusi BSD tersebut terdapat sharing source code antar proyek dengan memfasilitasi lisensi yang sama.</p>
+<p>Model Pengembangan</p>
+<p>Sangat kontra dengan beberapa advokasi Linux, pengembangan BSD tidak mengikuti sebuah model katedral (piramid??). Secara hirarki terorganisir namun tidak tertutup. Terdapat tiga tingkatan dalam developer BSD, yaitu:</p>
+<p>Contributor</p>
+<p>Contributor adalah developer yang menulis code, patch, atau dokumentasi namun tidak memiliki hak untuk menulis atau membuat sebuah file dalam source tree. Jika pekerjaan yang mereka lakukan ingin dimasukkan, maka harus diperiksa terlebih dahulu oleh seorang commiter atau dengan persetujuan beberapa orang commiter.</p>
+<p>Commiter</p>
+<p>Commiter adalah developer yang memiliki hak menulis dan mengakses source tree, dalam lingkup CVS, memiliki hak commit. Secara tipikal, seorang commiter bekerja hanya pada bagian-bagian terpilih dari keseluruhan project.</p>
+<p>Core Team</p>
+<p>Core Team membimbing secara keseluruhan arah dan tujuan proyek, dan membuat keputusan akhir dalam kasus perselisihpahaman antar developer mengenai source code atau hal-hal lainnya. ( OpenBSD tidak mempunyai core team secara formal, namun Theo de Raadt betugas sebagai pemimpin proyek.)</p>
+<p>Setiap orang dapat menjadi contributor, dengan mengirimkan patch, atau membenarkan kesalahan-tulis dalam sebuah halaman manual. Orang-orang yang mengkontribusikan banyak hal, atau berkompeten dalam sebuah area proyek akan dipromosikan menjadi commiter, hal ini ditujukan untuk menjagai commiter yang lain memeriksa terlalu banyak hal pada waktu yang sama.</p>
+<p>Integrasi System</p>
+<p>Kunci perbedaan antara BSD dan Linux yang dapat disimpulkan adalah integrasi, yang berarti sebuah proses dan hasil dari proses tersebut. Setiap distribusi BSD adalah sebuah proyek tunggal. Sedangkan distribusi Linux dengan kata lain adalah mengkombinasikan beberapa proyek, dan banyak diantaranya tidak spesifik pada proyek Linux itu sendiri. Ada sebuah proyek pembangunan kernel yang dipimpin oleh Linus Torvalds, ada proyek pembangunan dan pengembangan library C, namun ada juga proyek yang tidak berhubungan dengan Linux seperti GNU yang menyediakan berbagai variasi tool, dan lain-lain.</p>
+<p>Di BSD, para developer adalah sang integrator. Katakanlah seseorang ingin mengubah output, ps -ax, maka dia harus bertanggungjawab untuk menjaga semua script yang bergantung pada format output ps(1) yang akan diadaptasi. Dalam dunia Linux, system integrator yang menggabungkan banyak proyek yang berbeda-beda menjadi sebuah distribusi biasanya bukan developer dari proyek tersebut. Sebagai hasil dari system integrasi BSD sangat kecil, halaman-halaman manual semakin lengkap, program-program beroperasi lebih baik, dan ada banyak perubahaan yang lebih baik pada system.</p>
+<p>Seringkali disebutkan perbedaan-perbedaan antara BSD dan Linux adalah hasi dari penyatuan BSD sebagai proyek tunggal. Sebuah base dari system BSD dimasukkan kedalam sebuah CVS tree, sehingga semua perubahan dapat terkontrol secara langsung, dan dari sana, sebuah source tree dapat diambil dan dikompilasikan dengan satu kali proses kerja. Hal ini yang dikenal sebagai proses make world, dari sebuah proses tunggal yang membangun ulang semua system.</p>
+<p>Aplikasi di BSD</p>
+<p>Sebagai implementasi kelengkapan sebuah distribusi, terdapat sebuah aturan dalam memfasilitasi installasi sebuah software kedalam distribusi BSD. Banyak software yang secara tipikal berkaitan erat dengan system Linux, namun ternyata tidak spesifik dibuat khusus untuk Linux, dapat dibangun pada system UNIX apapun, termasuk BSD. BSD memiliki ports dan packages yang diperkenalkan pertama kali di FreeBSD , yang kemudian diadaptasi oleh NetBSD dan OpenBSD . ( NetBSD mencoba menghindari kerancuan istilah “port” karena dalam system NetBSD , porting adalah pekerjaan membuat atau memodifikasi system terhadap suatu arsitektur atau platform tertentu, NetBSD menyebutnya sebagai “packages” dan “pre-compiled packages”).</p>
+<p>Sebuah package adalah software yang telah dicompile dan siap dijalankan, kira-kira sepadan dengan package yang digunakan oleh distribusi Linux (sebagai contoh RPM). Secara teknis, package tersebut dibundel manjadi sebuah kompresi tarball (.tgz), yang menyertakan file-file yang akan diinstall, ditambah dengan beberapa informasi penting lainnya berkenaan dengan software yang diinstall tersebut.<br />
+Package diinstall kedalam ${PREFIX} yang sudah terkonfigurasikan, dan secara default adalah /usr/local,/usr/ X11R6 , atau pada system NetBSD /usr/pkg. Installasi didaftarkan pada sebuah direktori database /var/db/package/nama_package. Pengaturan package dilakukan dengan berbagai tools pkg_*, seperti pkg_add (1), pkg_delete(1), dan pkg_info(1).Sebuah port adalah kerangka kerja untuk membuat sebuah package. Secara fungsional, sebuah port sama dengan SPRM, namun bagaimanapun, port tidak menyertakan source tarball dari software. Biasanya kumpulan port disimpan pada direktory /usr/port/kategori, atau pada NetBSD disimpan pada /usr/pkgsrc. Sebuah port terdiri dari sebuah directory tree dengan beberapa file.</p>
+<p>BSD tidak membuat sebuah tool seperti rpm(1) untuk membangun sebuah port, melainkan dengan sebuah infrastuktur berbasis make(1). Sebuah Makefile adalah kunci utama sebuah port, ada sangat banyak variable dalam sebuah makefile yang memungkinkan melakukan tindakan build dengan lebih cermat dan pada umumnya terdapat 2000 sampai 3000 baris dalam sebuah makefile, oleh karena itu dalam lingkungan BSD, makefile tersebut disertakan dalam file bsd.port.mk, sedangkan Makefile yang ada pada port hanya berisi variable yang ingin disertakan menjadi sebuah package.</p>
+<p>System Administrasi</p>
+<p>Seperti operating system lainnya, BSD memiliki gaya/style tersendiri. BSD tidak menyediakan sebuah tool administrasi seperti SMIT pada AIX, SAM pada HP-UX, atau YaST pada SuSE . Konfigurasi dari system ditanggani dengan mengedit file teks dalam direktori /etc, dan ada banyak konfigurasi pada saat startup dikumpulkan pada sebuah file /etc/rc.conf seperti:</p>
+<p>— console: font, keymap, screensaver — network: interface, firewall, NAT — daemon: sendmail, lpd, ntp</p>
+<p>Walaupun BSD system menyertakan sebuah kernel default, namun sangat disarankan untuk membuat sebuah custom kernel dengan tujuan membuat perampingan pada system, menggunakan hanya driver yang benar-benar dibutuhkan, mempercepat waktu loading, dan menghemat memory. Berikut adalah cara untuk membuat kernel custom:</p>
+<p>— membuat atau mengedit konfigurasi kernel berdasarkan kernel GENERIC di /sys/arch/`arch`/conf/NAMA_KERNEL ( FreeBSD : /sys/`arch`/conf) — jalankan config(8), dan make(1).</p>
+<p>BSD menyediakan sebuah cara professional untuk melakukan report dan melacak permasalahan yang ada, serta mengumpulkan feedback dari pengguna. Dengan menggunakan send-pr(1) ( OpenBSD : sendbug) yang akan memberikan penjelasan detail permasalahan yang dihadapi, dan mengisi formulir yang dapat dikirimkan via e-mail pada GNATS bug tracking system, mengumpulkannya dalam sebuah database, dan kemudian akan ada developer yang menangani masalah yang dihadapi.<br />
+File System</p>
+<p>BSD memiliki format partisi tersendiri, dan BSD tidak menggunakan partisi IBM/Microsoft seperti Linux, sehingga harddisk harus diset dengan format BSD. FreeBSD menyebut bagian ini dengan “slice”, dan dalam slice tersebut partisi BSD dibuat. Secara umum, a adalah partisi boot, b adalah partisi swap, dan c adalah partisi bayangan yang memuat sebuah bagian dari disk.</p>
+<p>BSD memilih partisi asli untuk disk adalah FFS (Berkeley Fast File System), yang mendukung filesystem sampai dengan 16TB, tergantung dengan sejumlah parameter, file dapat menjadi beberapa terabytes. 64-bit file offset, seperti contoh file-file yang lebih besar dari 2GB, dalam platform 32-bit yang didukung 4.4BSD. BSD FFS dan Linux ext2fs pada umumnya serupa, tidak heran mengingat konsep ext2fs didesain dengan ffs sebagai pertimbangan. FFS diperkenalkan sebagai implementasi modern UNIX file system, yang lebih memberikan banyak pilihan dimana setting sebuah file dapat dihapus, tidak dapat diedit, dan lain-lain. Beberapa pilihan tersebut juga tersedia pada Linux ext2fs.</p>
+<p>Lain-lain</p>
+<p>Dalam banyak FAQ (frequently asked questions) terdapat pertanyaan yang sering diutarakan yaitu, dimana dokumentasi mengenai BSD dapat ditemukan. Pertanyaan ini sangat mudah ditemukan jawabannya dan berikut menjawab pertanyaan tersebut: — BSD menyertakan halaman-halaman manual dalam setiap distribusinya. — Setiap distribusi BSD mempunyai sebuah FAQ atau beberapa, dalam website resminya. — FreeBSD documentation project telah menghasilkan FreeBSD Handbook, sebuah tutorial dan referensi yang juga dapat diterapkan pada NetBSD dan OpenBSD . — Sebuah tulisan. The Design and Implementation of the 4.4BSD Operating System, karangan Marshall Kirk McKusick , dapat dijadikan patokan untuk melakukan pengembangan atau pemahaman mengenai system BSD secara lebih lanjut. — Sebuah tulisan lain mengenai BSD, The Complete FreeBSD , karangan Greg Lehey, juga mengangkat masalah serupa. — Search engine juga dapat membantu mencari jawaban setiap pertanyaan yang berkaitan dengan BSD. — Arsip mailing-list yang berkaitan dengan distribusi BSD secara lebih spesifik yang dapat dicari tahu pada website resminya.</p>
+<p>Kesimpulan</p>
+<p>BSD adalah implementasi langsung dari sebuah UNIX operating system, dimana mungkin ada banyak perbedaan dengan Linux, namun perlu ditegaskan kembali bahwa perbedaan tersebut justru bukan untuk membandingkan mana yang terbaik atau mana yang terburuk, karena setiap distribusi baik BSD maupun Linux mempunyai tujuannya masing-masing. Tulisan ini juga tidak dimaksudkan untuk membuka holy-war operating system, karena tulisan ini dibuat untuk membahas beberapa perbedaan operating system dengan basis BSD, dan Linux sehingga diharapkan setelah Anda membaca tulisan ini, setidaknya ada pilihan baru yaitu BSD ketika Anda hendak memilih operating system, dan setelah mencoba, Anda sendiri yang akan menentukan operating system mana yang cocok untuk Anda.</p>
+<p>Copyright © 2004-2006. dhawir tukanginternet@airpost.net</p>
+<p>disadur dari http://netlog.wordpress.com/category/sejarah-openbsd/</p>

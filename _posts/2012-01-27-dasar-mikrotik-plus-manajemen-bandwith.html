@@ -1,0 +1,59 @@
+---
+layout: post
+title: Dasar Mikrotik Plus Manajemen Bandwith
+date: 2012-01-27 02:09:34.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- networking
+tags:
+- bandwith management
+- jaringan
+- mikrotik
+- networking
+- router
+- routing
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:7:"7761285";s:7:"blog_id";s:7:"5468064";s:9:"mod_stamp";s:19:"2012-01-26
+    18:09:34";}
+  _wpas_skip_fb: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>ditulis sebagai catatan pengingat. asumsi, menggunakan modem speedy (192.168.1.1) dan jaringan lokal 192.168.10.xx. salah satu client yang diatur bandwithnya adalah 192.168.10.2</p>
+<p>1. Menambahkan password<br />
+[code]$/password<br />
+ old password:<br />
+ new password:*****<br />
+ retype password:******[/code]</p>
+<p>2. Memberi nama pada interface<br />
+[code]/interface set 0 name=speedy<br />
+ /interface set 1 name=local[/code]</p>
+<p>3. Memberi nama hostname<br />
+[code]/system identity set name=routermikrotik[/code]</p>
+<p>4. Set IP Address<br />
+[code]/ip address add interface=speedy address 192.168.1.2 netmask 255.255.255.0<br />
+ /ip address add interface=local address 192.168.10.1 netmask 255.255.255.0[/code]</p>
+<p>5.Set Gateway<br />
+[code]/ip route add gateway=192.168.1.1[/code]</p>
+<p>6. Set NAT<br />
+[code]/ip firewall nat add chain=srcnat action=masquerade out-interface=speedy[/code]</p>
+<p>7. DNS server<br />
+[code]/ip dns set primary-dns=8.8.8.8 allow-remoterequests=yes[/code]</p>
+<p>8. Manajemen Bandwith<br />
+[code]/ip firewall mangle add chain=prerouting src-address=192.168.10.2 dst-address=0.0.0.0/0 action=mark-connection new-connection-mark=client01-con passthrough=yes<br />
+ /ip firewall mangle add chain=prerouting action=mark-packet new-packet-mark=client01 passthrough=yes connection-mark=client01-con<br />
+ /queue tree add name=client01-up parent=speedy packet-mark=client01 limit-at=64k max-limit=512k<br />
+ /queue tree add name=client01-down parent=local packet-mark=client01 limit-at=64k max-limit=512k[/code]</p>
+<p>4 perintah diatas diulang untuk alamat IP lain dengan penyesuaian.</p>

@@ -1,0 +1,35 @@
+---
+layout: post
+title: broadcom 4312 for macosx86
+date: 2010-12-28 01:57:21.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- uncategorized
+tags: []
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _oembed_303b79c9a85d3d721836f328c034c839: '{{unknown}}'
+  _oembed_3d3ef5ce47ec6cce507d4476936144d4: '{{unknown}}'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>unduh dulu : <a href="https://docs.google.com/leaf?id=0BzPKgqlVcCTaMDc2MmJlMzMtMTIwNC00ODg2LTlhNGQtMTk0Mzg1MGZkYjJh&amp;hl=en">https://docs.google.com/leaf?id=0BzPKgqlVcCTaMDc2MmJlMzMtMTIwNC00ODg2LTlhNGQtMTk0Mzg1MGZkYjJh&amp;hl=en</a></p>
+<p>sebenarnya ini langsung jalan, tinggal ./bcm43xx_enabler.sh enter enter reboot. tapi ndak mau karena :</p>
+<p>AppleAirPortBrcm4311.kext ada di dalam IO80211.kext. pindahin dulu AppleAirPortBrcm4311.kext ke /System/Library/Extensions/</p>
+<blockquote><p>cp /System/Library/Extensions/IO80211.kext/Content/PlugIns/AppleAirPortBrcm4311.kext/ /System/Library/Extensions/AppleAirPortBrcm4311.kext/</p></blockquote>
+<p>ke folder tempat skrip enabler.</p>
+<blockquote><p>./bcm43xx_enabler.sh</p></blockquote>
+<p>ketik path yang baru disalin : /System/Library/Extensions/AppleAirPortBrcm4311.kext/</p>
+<p>enter + reboot.</p>
+<p>tada!</p>

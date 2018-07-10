@@ -1,0 +1,45 @@
+---
+layout: post
+title: perang netcut
+date: 2010-07-19 16:58:30.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+tags:
+- easyhotspot
+- hotspot
+- IP address
+- jaringan
+- netcut
+- subnet
+- ubuntu
+- warnet
+- windows
+meta:
+  _edit_last: '7761285'
+  _wp_old_slug: ''
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :</p>
+<ul>
+<li>komputernya banyak ngadat &amp; deepfreezenya kebobol &gt; <span style="text-decoration:line-through;">install linux</span> install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.</li>
+<li>ada komputer yang sama sekali ndak konek &gt; ganti konektor RJ45</li>
+<li>banyak yang netcut &gt; bingung euy.</li>
+</ul>
+<p>sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.</p>
+<p>nah, ceritanya gini, ada orang yang sudah diduga berat sering netcut. setiap datang hotspotan, selalu saja semua jadi putus, ndak bisa ping-pingan apalagi <span style="text-decoration:line-through;">pesbukan</span> browsing. hotspotnya tidak memakai mikrotik, untuk pengamanan, hanya memakai password dari access point dan password ini diganti setiap harinya. so weak.</p>
+<p>jadi saya <a href="http://pikopages.wordpress.com/2010/05/26/easyhotspot-dengan-virtualbox/">pasangin easyhotspot</a>. dhcp di access point dimatikan, dialihkan ke ubuntu (easyhotspot). setelah semua selesai. orang itu mencoba konek dan masuk via easyhotspot (pake login). ketika dia jalanin netcut (saya lihat layar), dia cuma temukan 2 buah IP, keduanya adalah IP milik server easyhotspot. hahaha. kapok deh, mau ngapain lu?</p>
+<p>eh, ternyata. dia langsung buka network connection dan ganti IP-nya dengan IP sah jaringan nyata yang kira2 tidak dipakai. dia buka netcut lagi dan dapatkan semua IP server dan klien warnet. wadoooh! ndak guna bener dah.</p>
+<p>satu-satunya jalan adalah, tidak membolehkan komputer lain (yang hotspotan) mengatur IP address secara manual. itu berarti IP harus dari easyhotspot, IP address yang mau dipakai manual harus sudah dipakai oleh komputer lain. saya harus mengisi penuh IP-nya dari 1-254 atau mengganti subnet untuk 14 atau 30 IP (jadi lebih sedikit mengisi IP lagi, cara memilih subnet silakan pakai <a href="http://www.subnet-calculator.com/">subnet-calculator</a>. saya memilih yang pertama karena mengganti subnet di setiap klien benar2 menyita waktu karena dideepfreeze.</p>
+<p>saya memilih server untuk diisi IP-IP tersebut (lebih dari 200 IP). caranya, di jendela pengaturan IP (network connection : klik kanan &gt; properties : TCP/IP &gt; properties), klik advanced, tambahkan semua IP yang tersisa di sana. beres.</p>
+<p>pelaku hanya bisa saling netcut dengan hotspoter lain, tidak bisa masuk ke jaringan warnet di dalam.</p>
+<p>mungkin ada cara lain (mikrotik mungkin atau apalah), tapi inilah yang kepikir waktu itu. saya masih awam untuk bidang jaringan tapi ini lancar dan bekerja dengan baik.</p>
+<p style="text-align:center;"><a href="http://pikopages.files.wordpress.com/2010/07/hotspot.jpg"><img class="aligncenter size-full wp-image-1264" title="HOTSPOT" src="{{ site.baseurl }}/assets/hotspot.jpg" alt="" width="499" height="708" /></a></p>

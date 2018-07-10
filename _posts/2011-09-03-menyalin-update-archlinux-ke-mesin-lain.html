@@ -1,0 +1,33 @@
+---
+layout: post
+title: menyalin update archlinux ke mesin lain
+date: 2011-09-03 05:26:33.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- linux-opensource
+tags:
+- arch
+- arch linux
+- archlinux
+- linux
+- pacman
+- pacman -Syu
+- update
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>pasti menyebalkan jika harus memelihara dua sistem archlinux selalu terupdate dengan koneksi pas-pasan (sebuah mesin desktop dan sebuah laptop). nah, saya menemukan cara yang praktis, hemat waktu dan bandwith. salah satu mesin terkoneksi internet, misal laptop, jalankan update pacman -Syu sampai selesai. kemudian salinlah /var/cache/pacman/pkg/* ke direktori yang sama ke mesin lain. komputer desktop juga mesti konek internet untuk mengunduh sisa-sisa yang mungkin tertinggal atau baru muncul updatenya. jalankan pacman -Syu dan komputer desktop akan menggunakan paket yang sudah ada di cache tadi dan mengunduh sisanya yang sedikit.</p>
+<p>selesai sudah, sekali unduh untuk dua komputer. :)</p>

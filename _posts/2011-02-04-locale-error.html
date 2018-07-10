@@ -1,0 +1,33 @@
+---
+layout: post
+title: locale error
+date: 2011-02-04 18:27:25.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- how to
+- linux-opensource
+- uncategorized
+tags:
+- postaday2011
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>ada suatu ketika terminal saya jadi agak menjengkelkan. saya biasa menggunakan tab untuk operasi terminal yang efektif. nah, kali ini muncul error setelah menekan tombol tab : warning: setlocale: LC_CTYPE: blabla en_US.UTF-8</p>
+<p>saya lupa lengkapnya pesan error tersebut karena sudah berhasil dipecahkan. caranya :</p>
+<p></p>
+<p>$ sudo locale-gen en_US.UTF-8$ sudo update-locale LANG=en_US.UTF-8</p>
+<p></p>
+<p>habis itu reboot. tada!</p>

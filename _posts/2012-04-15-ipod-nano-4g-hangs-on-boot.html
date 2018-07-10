@@ -1,0 +1,54 @@
+---
+layout: post
+title: iPod Nano 4G hangs on boot.
+date: 2012-04-15 16:49:17.000000000 +07:00
+type: post
+published: true
+status: publish
+categories:
+- mac
+- uncategorized
+tags:
+- apple
+- disk mode
+- hang
+- ipod
+- logo
+- restore
+meta:
+  _edit_last: '7761285'
+  geo_latitude: '-8.588990'
+  geo_longitude: '116.130400'
+  geo_accuracy: '206'
+  geo_address: mataram
+  geo_public: '1'
+  _oembed_6ee7cf78d474ea512693ed6b709b74a7: '{{unknown}}'
+  _oembed_e90470c928f219ad6c0a3e40a0a01760: '{{unknown}}'
+author:
+  login: pdft
+  email: padfoot.tgz@gmail.com
+  display_name: piko
+  first_name: herpiko
+  last_name: dwi aguno
+---
+<p>Malam ini saya tepok jidat karena salah memperlakukan iPod kesayangan (nano 4G). iPod ini baru balik dari pinjaman dan tidak bisa dideteksi oleh iTunes, baik di Mac maupun di Windows, malah iTunes-nya freeze. Partisinya masih terbaca, saya mencoba memformatnya dan gagal, akibatnya fatal, hasilnya seperti judul tulisan ini.</p>
+<p>Solusi pertama jika iPod nano saya bermasalah adalah menekan tombol menu dan ok selama sekitar 6-7 detik. Proses ini disebut reboot. Solusi kedua? Saya belum tahu solusi kedua sampai masalah ini terjadi. Saya pernah mencoba Diagnosis Mode dengan menahan tombol ok dan rew setelah logo apple muncul saat boot. Ternyata ada referensi lain : <a href="http://support.apple.com/kb/HT1363">http://support.apple.com/kb/HT1363</a>. Kombinasi tombol lain yaitu ok dan play sesaat setelah reboot. iPod akan masuk ke disk mode.</p>
+<p style="text-align:center;"><a href="https://pikopages.files.wordpress.com/2012/04/2.png"><img class="aligncenter  wp-image-2643" title="2" src="{{ site.baseurl }}/assets/2.png" alt="" width="299" height="400" /></a></p>
+<p>Setelah masuk ke disk mode, bisa terdeteksi oleh iTunes dan tinggal merestore sistem iPod.</p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled.png"><img class="aligncenter size-full wp-image-2644" title="Untitled" src="{{ site.baseurl }}/assets/untitled.png" alt="" width="500" height="244" /></a></p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled1.png"><img class="aligncenter size-full wp-image-2645" title="Untitled1" src="{{ site.baseurl }}/assets/untitled1.png" alt="" width="500" height="321" /></a></p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled3.png"><img class="aligncenter size-full wp-image-2646" title="Untitled3" src="{{ site.baseurl }}/assets/untitled3.png" alt="" width="500" height="165" /></a></p>
+<p>iPod tidak akan bisa booting jika file system untuk data bukan primary FAT32.  Jangan gunakan Gparted, entah mengapa membuat iPod tidak bisa booting.</p>
+<p>[code]sudo fdisk /dev/sdb</p>
+<p>d (hapus semua partisi)</p>
+<p>1 (nomor partisi yang dipilih)</p>
+<p>n (buat partisi baru)</p>
+<p>p (pilih partisi primary)</p>
+<p>enter (dari sektor pertama)</p>
+<p>enter (sampai sektor terakhir)</p>
+<p>w (tulis tabel partisi baru ke iPod)</p>
+<p>q (keluar)</p>
+<p>[/code]</p>
+<p>tinggal format</p>
+<p>[code]mkfs.vfat -F 32 -n &quot;iPod&quot; /dev/sdb1[/code]</p>
+<p>&nbsp;</p>
