@@ -10,4 +10,4 @@ categories:
 tags: [random]
 ---
 
-Shutting down my blog is the stupidest thing I ever done.
+Shutting down my blog is the stupidest thing I ever did.
