@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nanti Sajalah
-date: 2018-08-13 00:01:00.000000000 +07:00
+date: 2018-08-20 00:01:00.000000000 +07:00
 type: post
 published: true
 status: publish
