@@ -15,11 +15,11 @@ Yang dikirim padanya namun bukan untuknya<br>
 Yang mengusiknya saban malam
 
 Ibuku bilang itu puisi-puisi di bawah bantal<br>
-Yang tak sempat dihantarkan juga padamu<br>
+Yang tak sempat kuhantarkan juga padamu<br>
 Yang membuatnya ketawa runyam<br>
 
 Ibuku bilang itu puisi-puisi di bawah bantal<br>
-Yang tak ada nyali buat dibacakan padamu<br>
+Yang tak ada nyali buat kubacakan padamu<br>
 Yang kadang makna ia tak paham<br>
 
 Kalut ia punya anak lanang pengecut<br>
