@@ -10,7 +10,7 @@ categories:
 tags: [minimalist]
 ---
 
-In my childhood back then, I’ve similiar fondness toward minimalist with my brother. We named it, “idaman polos” principle. We love anything that simple, plain and minimalist. Even we debated about how plain should be the colour of our saroong. But, we grew up in no minimalist style. Our shared room are not minimalist at all. We’ve bunch of junks as our hobbies need them. We’ve complete electronic tool set and all the geeky things. We love to break things and see the inner working of them (it means more junks, hah!). We rarely throw them away as we think these parts may be useful in the future (but most of them are not).
+In my childhood back then, I shared similiar fondness toward minimalist with my brother. We named it, “idaman polos” principle. We love anything that simple, plain and minimalist. Even we debated about how plain should be the colour of our saroong. But, we grew up in no minimalist style. Our shared room are not minimalist at all. We’ve bunch of junks as our hobbies need them. We’ve complete electronic tool set and all the geeky things. We love to break things and see the inner working of them (it means more junks, hah!). We rarely throw them away as we think these parts may be useful in the future (but most of them are not).
 
 Then we parted. He married a beautiful woman and moved away. I struggled with my own life then moved to Bogor. That’s the time where I rethinked about how I should live and trying to be a minimalist as possible (and failed). I’ve moved five times since 2014 and the moving still not to represent a minimalist life style. Too much things to carry.
 
