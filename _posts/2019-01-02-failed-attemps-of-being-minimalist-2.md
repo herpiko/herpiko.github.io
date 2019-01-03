@@ -23,9 +23,9 @@ Few weeks after reading Fumio Sasaki's books and decluttered 2 huge bag of junks
 
 But, from time to time I found myself dumbly doing nothing in my room. I just sit in the floor and relaxed, don't know what to do as there is no stuff to do with. There is a weird feeling occured and forced me to rethinking, what I want to do with my life? Is there anything important to do? Why am I still sitting here? It's a good feeling, that weird feeling, a weird starting point to have a productive day.
 
-So, one of the reason that I failed (see previous post) is I still see minimalist as a goal. Minimalist itself is not a goal. It's a starting point, a way. One of the main goal of being a minimalist is happiness. I've to answer to this type of question : Is the stuff I bought makes me happy? Unfornatunately the answer is, yes. So there is no need to be a minimalist?
+So, one of the reason that I failed (see previous post) is I still see minimalist as a goal. Minimalist itself is not a goal. It's a starting point, a way. One of the main goal of being a minimalist is happiness. I've to answer to this type of question : Is the stuff I bought makes me happy? Unfornatunately the answer is, yes. So there is no need to be a minimalist? Again, is the stuff I bought makes me happy? Yes.
 
-Again, is the stuff I bought makes me happy? Yes. I still can buy things I love, but fewer and only the important one. Marie Kondo called it, spark of joy. Now it's not about whether I need to be a minimalist or not. It's about live our life and pursuing the happiness, in this case,  using minimalist as a way. Being minimalist needs time and it may be a lifelong doing. I may keep decluttering things for the rest of my life.
+I still can buy things I love, but fewer and only the important one. Marie Kondo called it, spark of joy. Now it's not about whether I need to be a minimalist or not. It's about live my life and pursuing the happiness. Being minimalist (it is not a goal!) needs time and it may be a lifelong doing. I may keep decluttering things for the rest of my life.
 
 In the next post I'll share how I decluttering things, what hold me to do so, what makes me easy to do it, etc.
 
