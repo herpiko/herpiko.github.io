@@ -69,8 +69,11 @@ Mengecewakan sekali tidak ada slot SDCard.
 
 <img src="/assets/x1.jpg">
 
-### No pic is hoax
-
-- 2017-08-28 : Mesin X1 Carbon ini layarnya telah mati tanpa alasan yang jelas. Sekarang, 3 dari 5 X1 yang dibeli telah rusak. Saya sedang menunggu barangnya balik dari proses garansi. Tidak sesuai iklan dan image Thinkpad selama ini. :))
-
 Gambar diambil oleh @sdmoko saat saya pertama kali menyentuh X1 Carbon di Sevel Pocin Margonda.
+
+### Update
+
+- 2017-08-28 : Mesin X1 Carbon ini layarnya telah mati tanpa alasan yang jelas. Sekarang, 3 dari 5 X1 yang dibeli telah rusak. Saya sedang menunggu barangnya balik dari proses garansi. Tidak sesuai iklan dan image Thinkpad selama ini. :)
+- 2017-10-02 : Layarnya sudah diganti, sesuai garansi.
+- 2019-01-22 : Mesin ini masih hidup, tangguh dan bekerja sesuai ekspektasi. Saya mempergunakannya agak sembarangan dan kurang hati-hati, tapi masih bertahan sesuai iklan. :D
+
