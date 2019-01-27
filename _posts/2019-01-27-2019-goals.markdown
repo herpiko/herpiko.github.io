@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "2019 Goals"
+date:   2019-01-21 23:09:34 +0700
+categories: life
+---
+
+I've few things to be achieved this year.
+
+### Plastic
+
+I'll focus on reduce and reuse. For recent years, I've been always say no when a cashier offers plastic bag. Easy peasy. It still far away from a level that I want to be : buy things with no/less plastic, stainless straw, dedicated water bottle, etc.
+
+### Privacy
+
+I started to consider more secure and privacy oriented digital life. I began to use physical security key (a cheap Yubikey clone? Will write about this later), more complex yet rememberable passwords and passphrases, privacy concerned setup on softwares and devices. I've permanently deleted my Facebook and IG account althought there is Twitter account with no tweet. I let it alives just for pwned userame :P. For some reasons, I still a plurker. I still thinking of several ways to protect my data and privacy on some services. Sure, Gmail is the hardest part.
+
+### Read more books
+
+I failed to finish my 2018 goal. 76 read out of 150 books. This year I setup more reasonable goal, 100 books.
+
+### Stay minimalist
+
+Minimalist is not my goal. Simple and happy living is it. I still owe 'Failed Attemps of Being Minimalist' posts, will complete it soon.
+
+### Giving more to the limited number of communities.
+
+I reduced the communities that I contributed in for trade-off with more real and fairly good contributions. I still hacking on BlankOn project in my spare time, encouraging the Lombok Dev meetups, and actively helping Yogyakarta book club (even thought I'm not living in Yogyakarta).
