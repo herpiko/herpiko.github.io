@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2019 Goals"
-date:   2019-01-21 23:09:34 +0700
+date:   2019-01-27 23:09:34 +0700
 categories: life
 ---
 
