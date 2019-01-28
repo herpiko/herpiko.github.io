@@ -10,7 +10,7 @@ Hi,
 
 I'm a software engineer. I love bicycling, currently using an upgraded <a href="http://www.doppelganger.jp/product/fx05/">Doppelganger FX05</a>. I also love reading books, my oldest collection is a copy of <a href="http://www.pprize.com/BookDetail.php?bk=10">Thornton Wilder's The Bridge of San Luis Rey</a> that printed in 1928.
 
-I can be reached at herpiko [at] gmail [dot] com.
+I can be reached at herpiko [at] lavabit [dot] com.
 
 If you want to send an encrypted message, here are my public keys :
 
