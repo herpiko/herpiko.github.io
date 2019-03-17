@@ -13,7 +13,7 @@ So, I bought a 64GB USB flashdisk, backup the entire CCTV video record of three 
 
 ffmpeg can automate this task. Thanks to <a href="https://stackoverflow.com/questions/35675529/using-ffmpeg-how-to-do-a-scene-change-detection-with-timecode">StackOverflow </a>. I'm using ffmpeg version 3.2.4 where the specific command from these link above still can be running. You may compile and install it manually, grab the tarball from <a href="https://www.videohelp.com/software/ffmpeg/old-versions">here</a>.
 
-ffmpeg has internal filters like select and showinfo. What we will do is filtering the frames that has scene detection score more than a value that ranged from 0.0 to 1.0. We can set this value manually. The showinfo help to add more info into ffmpeg verbose output, like pts timestamp so we can see when the scene happened. Even, we can generate the thumbnails of these detected scene to a directory.
+ffmpeg has internal filters like select and showinfo. What we will do is filtering the frames that has scene detection score more than a value (ranged from 0.0 to 1.0). We can set this value manually, e.g. `0.1`. Nearer to the zero means it will be more sensitive to the scene changes. The showinfo help to add more info into ffmpeg verbose output, like pts timestamp so we can see when the scene happened. Even, we can generate the thumbnails of these detected scene to a directory.
 
 ```
 $ tree
