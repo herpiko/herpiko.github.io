@@ -104,6 +104,8 @@ Submit to Phabricator (YES/No/Always)?
 
 *Yes*-in aja dulu. Setelah terdorong, `moz-phab` akan memberikan tautan *diff* yang kita dorong. Contoh *diff* saya, <a href="https://phabricator.services.mozilla.com/D35686">https://phabricator.services.mozilla.com/D35686</a>.
 
+## *Review*
+
 Setelah masuk ke Phabricator, *reviewer* akan melihat *patch* kita dalam antrian mereka. Barangkali ada beberapa komentar atau saran dan kita bisa belajar suatu hal dari mereka. Diskusi di sini bisa jadi berjalan lambat. Waktu yang dibutuhkan dari saya berkomentar di tiket kutu sampai *patch* diterima adalah hampir seminggu. Jadi santai saja.
 
 Bagaimana kalau kita diminta untuk merevisi *diff*? Langsung sunting kode, namun saat *commit*, lakukan dengan,
