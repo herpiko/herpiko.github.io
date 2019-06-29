@@ -21,9 +21,9 @@ Siapkan ukuran diska yang agak lega dan pastikan akses internet lancar. Saat men
 $ python bootstrap.py
 ```
 
-Dan voila! Selain membantu memasangkan perkakas tambahan untuk membangun aplikasi, kita akan diminta untuk menentukan dimana sumber kode akan diletakkan, apakah akan membangun secara penuh (mulai dari core sampai frontend) atau frontendnya saja.
+Dan voila! Selain membantu memasangkan perkakas tambahan untuk membangun aplikasi, kita akan diminta untuk menentukan dimana sumber kode akan diletakkan, apakah akan membangun secara penuh (mulai dari *core* sampai *frontend*) atau (*frontend*-nya saja, dan lainnya.
 
-Jika berjalan lancar, kita akan punya perkakas bernama `mach` yang akan membantu proses *build*. Mirip-mirip `make`. `mach` memang berarti *make* dalam bahasa Jerman.
+Jika berjalan lancar, kita akan punya perkakas bernama `mach` yang akan membantu proses *build*. Mirip-mirip `make`. `mach` berasal dari bahasa Jerman yang memang berarti *make*.
 
 ```
 $ du -hs firefox-source
@@ -60,11 +60,11 @@ Produk atau komponen yang nampak di sini masih terbagi-bagi lagi. Misalnya Firef
 
 <img src="/assets/Screenshot from 2019-06-28 21-05-28.png">
 
-Kalau kita coba buka Disability Access (favorit saya), di dalamnya ada ratusan tiket. Yang merah adalah kutu, yang hijau adalah usulan fitur.
+Kalau kita coba buka *Disability Access* (favorit saya), di dalamnya ada ratusan tiket. Yang merah adalah kutu, yang hijau adalah usulan fitur.
 
 <img src="/assets/Screenshot from 2019-06-28 21-07-41.png">
 
-Paling aman sebenarnya, cari apa yang menurut kita kurang di peramban ini dan ingin kita perbaiki. Misal, saya agak kesal dengan kutu yang melibatkan manajemen fokus pada komponen UI di DevTools. Jadi saya coba cari kutu itu. Ternyata ada lalu saya coba reproduksi di lokal. Pastikan kutu yang ingin kita sikat sedang tidak dikerjakan oleh orang lain dengan memperhatikan *Assignee* dari tiket terkait. Jika *assignee*-nya `nobody` atau `nobody@mozilla.org`, maka tiket tersebut sedang lowong dan bisa kita comot.
+Paling aman sebenarnya, cari apa yang menurut kita kurang di peramban ini dan ingin kita perbaiki. Misal, saya agak kesal dengan kutu yang melibatkan manajemen fokus pada komponen UI di DevTools. Jadi saya coba cari kutu itu. Ternyata ada lalu saya coba reproduksi di lokal. Pastikan kutu yang ingin kita sikat sedang tidak dikerjakan oleh orang lain dengan memperhatikan *assignee* dari tiket terkait. Jika *assignee*-nya `nobody` atau `nobody@mozilla.org`, maka tiket tersebut sedang lowong dan bisa kita comot.
 
 <img src="/assets/Screenshot from 2019-06-28 21-19-07.png">
 
@@ -89,9 +89,9 @@ Ada pola tertentu yang mesti kita ikuti saat membuat pesan *commit*:
 - `Bug 1548076.` - String ini mewakili nomor tiket yang sedang kita kerjakan
 - `Let the devtools gain focus even if the click hits an empty area on UI.` - Pesan *commit*. Saran 7 aturan untuk ini bisa dibaca-baca di <a href="https://chris.beams.io/posts/git-commit/">https://chris.beams.io/posts/git-commit/
 </a>
-- `r=jdescottes` - Adalah orang yang akan me-*review* *patch* kita
+- `r=jdescottes` - `jdescottes` adalah orang yang akan me-*review* *commit* ini.
 
-Di mana mencari para *reviewer*? Nama-nama mereka sudah dikelompokkan di sini, <a href="https://wiki.mozilla.org/Modules/All">https://wiki.mozilla.org/Modules/All</a>. Kita tinggal comot yang sesuai dengan komponen yang sedang saya kerjakan. Misal, karena tiket yang saya ambil terkait dengan DevTools, saya mengambil nama dari <a href="https://wiki.mozilla.org/Modules/All#DevTools">https://wiki.mozilla.org/Modules/All#DevTools</a>.
+Di mana mencari para *reviewer*? Nama-nama mereka sudah dikelompokkan di sini, <a href="https://wiki.mozilla.org/Modules/All">https://wiki.mozilla.org/Modules/All</a>. Kita tinggal comot yang sesuai dengan komponen yang sedang kita kerjakan. Misal, karena tiket yang saya ambil terkait dengan DevTools, saya mengambil nama dari <a href="https://wiki.mozilla.org/Modules/All#DevTools">https://wiki.mozilla.org/Modules/All#DevTools</a>.
 
 Setelah melakukan *commit*, kita tidak melakukan *push* seperti di Git, meskipun di Mercurial juga ada *push*. Yang kita lakukan adalah mendorong *diff* dari *patch* kita ke sistem *review* kode Phabricator di infrastrukturnya Mozilla, yaitu <a href="https://phabricator.services.mozilla.com/">https://phabricator.services.mozilla.com/</a>. Mozilla sudah menyediakan perkakas khusus untuk kebutuhan ini, yaitu `moz-phab` (yang mestinya sudah tersedia di sistem kita setelah menjalankan `python bootstrap`). Saat pertama menjalankan moz-phab, kita akan diminta untuk menyetel otentikasi dengan Phabricator. Kalau sudah terotentikasi, mari dorong!
 
