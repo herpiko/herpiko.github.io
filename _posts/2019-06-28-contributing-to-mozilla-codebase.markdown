@@ -116,6 +116,8 @@ $ hg commit --amend
 
 Perintah tersebut akan menggabungkan perubahan yang ada dengan *commit* kita yang sebelumnya. Tinggal dorong lagi dengan `moz-phab submit`. `moz-phab` akan mendeteksi nomor *Differential* kita yang sudah ada di Phabricator.
 
+## *Landing*
+
 Jika *reviewer* sudah akur dengan dengan revisi kita, mereka akan mendaratkan *patch* kita. Contoh, <a href="https://hg.mozilla.org/integration/autoland/rev/a22e6caaafe1">https://hg.mozilla.org/integration/autoland/rev/a22e6caaafe1</a>.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Co_OLl4zlYA?controls=0&amp;start=58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -124,7 +126,9 @@ Jika *reviewer* sudah akur dengan dengan revisi kita, mereka akan mendaratkan *p
 
 Tinggal diulangi lagi siklus kontribusinya. Selamat berburu!
 
+Bagaimana bila tidak/belum bisa menulis kode? Coba kemari, <a href="https://whatcanidoformozilla.org/">https://whatcanidoformozilla.org/</a>
+
 
 ### Referensi
 
-- <a href="https://wiki.mozilla.org/Contribute">https://hg.mozilla.org/integration/autoland/rev/a22e6caaafe1</a>
+- <a href="https://wiki.mozilla.org/Contribute">https://wiki.mozilla.org/Contribute/Coding</a>
