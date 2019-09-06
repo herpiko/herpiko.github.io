@@ -4,13 +4,21 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/selfportrait.jpeg" width="250">
+<img src="/assets/images/author.jpg">
 
 Hi,
 
-I'm a software engineer. I love bicycling, currently using an upgraded <a href="http://www.doppelganger.jp/product/fx05/">Doppelganger FX05</a>. I also love reading books, my oldest collection is a copy of <a href="http://www.pprize.com/BookDetail.php?bk=10">Thornton Wilder's The Bridge of San Luis Rey</a> that printed in 1928.
+I'm a software engineer who passionate about free and open source software. I currently work for a secure data transaction start up and I'm still hacking on BlankOn projects.
 
-I can be reached at herpiko [at] lavabit [dot] com.
+I occasionally gave talks at events :
+
+- BlankOn Installer - GNOME Asia 2015 Depok, 2015 (2015)
+- <a href="https://github.com/kodekreatif/pkiwebsdk" target="_blank">PKIWebSDK</a>: Pustaka JavaScript untuk Aplikasi berbasis PKI - IDSECONF 2016 (2016)
+- <a href="https://github.com/kodekreatif/happy-crud" target="_blank">Happy-CRUD</a> - JakartaJS (2016)
+- Revolusi Kultur Devops - Lombok Dev Meetup, 2017 (2017)
+- Monorepo - Lombok Dev Meetup, 2019 (2019)
+
+I can be reached at herpiko [at] aguno [dot] xyz
 
 If you want to send an encrypted message, here are my public keys :
 
