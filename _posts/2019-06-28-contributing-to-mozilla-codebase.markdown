@@ -124,6 +124,10 @@ Jika *reviewer* sudah akur dengan dengan revisi kita, mereka akan mendaratkan *p
 
 ## Selamat!
 
+Tambalan yang saya kirim akhirnya masuk ke Firefox Nightly per bulan Juli: https://blog.nightly.mozilla.org/2019/07/12/these-weeks-in-firefox-issue-60/.
+
+<img src="/assets/64476089-60195900-d17a-11e9-9f02-0cc61f4b28b6.png">
+
 Tinggal diulangi lagi siklus kontribusinya. Selamat berburu!
 
 Bagaimana bila tidak/belum bisa menulis kode? Coba kemari, <a href="https://whatcanidoformozilla.org/">https://whatcanidoformozilla.org/</a>
