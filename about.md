@@ -10,7 +10,7 @@ Hi,
 
 I'm a software engineer who passionate about free and open source software. I currently work for a secure data transaction start up and I'm still hacking on BlankOn projects.
 
-I occasionally gave talks at events :
+I occasionally give talks to events. Some of them were :
 
 - BlankOn Installer - GNOME Asia 2015 Depok, 2015 (2015)
 - <a href="https://github.com/kodekreatif/pkiwebsdk" target="_blank">PKIWebSDK</a>: Pustaka JavaScript untuk Aplikasi berbasis PKI - IDSECONF 2016 (2016)
