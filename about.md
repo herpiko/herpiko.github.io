@@ -17,6 +17,7 @@ I occasionally give talks to events. Some of them were :
 - <a href="https://github.com/kodekreatif/happy-crud" target="_blank">Happy-CRUD</a> - JakartaJS (2016)
 - Revolusi Kultur Devops - Lombok Dev Meetup, 2017 (2017)
 - Monorepo - Lombok Dev Meetup, 2019 (2019)
+- <a href="https://events.opensuse.org/conferences/summitasia19/schedule" target="_blank">IRGSH</a> - OpenSUSE Asia Summit 2019 @ Bali (2019)
 
 I can be reached at herpiko [at] aguno [dot] xyz
 
