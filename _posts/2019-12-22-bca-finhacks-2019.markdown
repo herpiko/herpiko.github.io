@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "BCA Finhacks 2019 #blockchainnovation"
+date:   2019-12-22 00:00:00 +0700
+categories: algorithm
+---
+
+That was a fast and steep journey for me. 
+
+Thanks to:
+
+- Aldi for the help on the mobile app
+- Asep who loves to talk about ideas
+- My wife who lets me hacking on my portable computer while we are still on our honeymoon.
+
+<img src="/assets/finhacks2019.jpg">
+
