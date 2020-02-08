@@ -29,4 +29,6 @@ If you want to send an encrypted message, here are my public keys :
 
 My current unique avatar is made by <a href="https://www.plurk.com/lukmandisini" target="_blank">https://www.plurk.com/lukmandisini</a>.
 
+I took some photographs, you can look it <a target="_blank" href="/photographs">here</a>
+
 And this is what Gandalf said in An Unexpected Party, The Hobbit, "I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone."
