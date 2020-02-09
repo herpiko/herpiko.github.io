@@ -11,7 +11,11 @@ fs.readdir(directoryPath, function(err, files) {
   let photos = []
   async.eachSeries(files, (file, cb) => {
 		console.log(file);
-    photos.push({src: '/photos/' + file});
+    if (file.indexOf('DS_Store') > -1) {
+      cb();
+      return;
+    }
+    photos.push({src: '/photos/' + file, height:3, width:4});
 		cb();
   }, (err) => {
   	if (err) {
