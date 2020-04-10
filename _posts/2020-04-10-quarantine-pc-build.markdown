@@ -110,6 +110,6 @@ Once I got a case, there was an apple sticker as I was dreaming of owning a Mac 
 
 ### Conclusion
 
-If you're planning to build a PC, take a look at https://pcpartpicker.com/. It'll help you to find the compatibility information and also the estimated watt needed for your build. Also take some precautions while handling the packages and components. Wash your hand frequently.
+If you're planning to build a PC, take a look at https://pcpartpicker.com/. It'll help you to find the compatibility information and also the estimated watt needed for your build. Do not forget take some precautions while handling the packages and components. Wash your hand frequently.
 
 
