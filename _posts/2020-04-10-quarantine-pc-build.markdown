@@ -6,7 +6,9 @@ categories: personal computer, pc, build
 ---
 
 
-My wife has an old wish: a gaming platform to play both old games (e.g. Heroes of Annihilated Empires) and new games (e.g. The Witcher 3). I’ve tried to set up a trial version VMWare Fusion on his Macbook Air to let her play HoAE there. Even that old game does not run smoothly under VMWare DirectX 11 driver. Our Nintendo 3DS is not with us for now, our old Xbox 360 has been dead for a while (but the controllers still alive well). On the other hand, self-quarantine easily get us bored.
+My wife has an old wish: a gaming platform to play both old games (e.g. Heroes of Annihilated Empires) and new games (e.g. The Witcher 3). I’ve  setup a trial version VMWare Fusion on her Macbook Air to let her playing HoAE there but that old game does not run smoothly under VMWare DirectX 11 driver. Our Nintendo 3DS is not with us for now and our old Xbox 360 has been dead for a while (but the controllers still run well). On the other hand, self-quarantine easily gets us bored.
+
+We already considered to buy a new gaming console but after some researches we reached a conclusion. It's still cheaper to gaming on PC platfrom instead of console.
 
 So I thought about building a budget PC gaming for her during this coronavirus quarantine period. PC Master Race subreddit call this Quarantine Build. The PC is mainly for my wife but sometimes I can use it. My goals are:
 
@@ -20,9 +22,9 @@ Let’s dive into the detail.
 
 <img src="/assets/ryzen53400g.jpg" width="450">
 
-After doing research on CPU and GPU, I decided to pick a Ryzen processor with iGPU. Radeon name still sounds great for me. If I buy a discrete GPU it'll add at least another 4 millions to the budget. I'll not make it. The CPU has 4 cores with 8 threads and 3.7Ghz base frequency. Some reviews said that this iGPU can run The Witcher 3 smoothly on low or medium settings. Should be ok for her. The CPU package provides stock CPU cooler named Wraith Spire.
+After doing research on CPU and GPU, I decided to pick a Ryzen processor with iGPU. Radeon name still sounds great for me. If I bought a discrete GPU it'll add at least another 4 millions to the budget. I'll not make it. The CPU has 4 cores with 8 threads and 3.7Ghz base frequency. Some reviews said that this iGPU can run The Witcher 3 smoothly on low or medium settings. Should be ok for her. The CPU package provides stock CPU cooler named Wraith Spire.
 
-The motherboard has a 3 years warranty from EMD.
+Its price was almost at the same level as Ryzen 5 2500X (same core, thread and frequency), but with integrated GPU. The CPU has a 3 years warranty from EMD.
 
 ### Motherboard: ASUS Prime A320M-K
 
@@ -112,4 +114,29 @@ Once I got a case, there was an apple sticker as I was dreaming of owning a Mac 
 
 If you're planning to build a PC, take a look at https://pcpartpicker.com/. It'll help you to find the compatibility information and also the estimated watt needed for your build. Do not forget take some precautions while handling the packages and components. Wash your hand frequently.
 
+### Update: 2020/04/19
 
+It was an early birthday present from my wife. It's a bit silly to have two-but-not-scalable GPUs in one system but I'm happy with them. The Ryzen GPU can be used as spare if this discrete GPU gone wrong. At the time of this writing, 1660Ti is the latest GTX of NVidia. It has Turing architecture but without ray tracing feature (RTX). Any AAA games run well.
+
+<img src="/assets/1660ti_1.jpg"/>
+<img src="/assets/1660ti_2.jpg"/>
+<img src="/assets/1660ti_3.jpg"/>
+
+### Update: 2020/04/29
+
+#### My Dream PC
+
+So I thought about what if I got a huge amount of cash to build my dream PC. Then it should be consist of:
+
+- Motherboard: ASUS ROG Strix AMD AM4 X570 Mini-ITX
+- CPU: Ryzen 9 3950X (3.5 GHz,105 Watt,64M L3 Cache,16 Cores)
+- GPU: AMD Radeon 5700 XT
+- HSF: Noctua NH-D15
+- RAM: G.Skill Trident Z RGB 32GB (16gb x 2) 3200mhz
+- Storage 1: Samsung 970 EVO NVMe M.2 SSD 500GB
+- Storage 2: Samsung 860 Pro 2TB x 2 (RAID 1/Mirroring)
+- PSU: Corsair CX650M 650 Watt 80+ Bronze
+- Monitor: Dell UltraSharp 25 inch U2518D x 2 
+- Keyboard: Ultimate Hacking Keyboard Blue Switch with trackpad module.
+- Mouse: Logitech G304
+- Case: NZXT H200 - Mini-ITX
