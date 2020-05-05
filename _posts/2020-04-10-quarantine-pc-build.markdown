@@ -118,10 +118,6 @@ If you're planning to build a PC, take a look at https://pcpartpicker.com/. It'l
 
 It was an early birthday present from my wife. It's a bit silly to have two-but-not-scalable GPUs in one system but I'm happy with them. The Ryzen GPU can be used as spare if this discrete GPU gone wrong. At the time of this writing, 1660Ti is the latest GTX of NVidia. It has Turing architecture but without ray tracing feature (RTX). Any AAA games run well.
 
-<img src="/assets/1660ti_1.jpg"/>
-<img src="/assets/1660ti_2.jpg"/>
-<img src="/assets/1660ti_3.jpg"/>
-
 ### Update: 2020/04/29
 
 #### My Dream PC

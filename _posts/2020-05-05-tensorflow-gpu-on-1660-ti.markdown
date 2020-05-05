@@ -5,6 +5,9 @@ date:   2020-05-05 00:00:00 +0700
 categories: tech, machine learning
 ---
 
+
+<img src="/assets/1660ti_1.jpg"/>
+
 Although my GPU <a href="https://developer.nvidia.com/cuda-gpus#compute">is not listed here</a>, I can confirm that 1660 Ti works. The machine learning training is now significantly faster than using CPU.
 
 ```
@@ -112,4 +115,4 @@ GPU=1 python train.py  7,73s user 2,09s system 109% cpu 8,959 total
 
 The setup is quite complex with various errors and version missmatches. I let myself to symlink different version of CUDA/cuDNN libraries.
 
-If you're planning to buy a GPU to support your machine learning project, pick a RTX graphics card. It's tremendously faster. Unlimited budget? <a href="https://www.nvidia.com/en-us/data-center/dgx-station/">Here you go</a>.
+If you're planning to buy a GPU to support your machine learning project, pick a RTX graphics card. It's tremendously faster with built-in tensor cores. Unlimited budget? <a href="https://www.nvidia.com/en-us/data-center/dgx-station/">Here you go</a>.
