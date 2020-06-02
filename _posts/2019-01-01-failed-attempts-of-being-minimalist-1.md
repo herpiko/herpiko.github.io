@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Failed Attemps of Being Minimalist (1)
+title: Failed Attempts of Being Minimalist (1)
 date: 2019-01-01 00:01:00.000000000 +08:00
 type: post
 published: true
@@ -16,6 +16,6 @@ Then we parted. He married a beautiful woman and moved away. I struggled with my
 
 I thought I’m succeeded to stay away from extravagant life style. I’m not attracted to new smartphone or fancy clothes like people around me. I’m known for my plain and mediocre appearance and I’m proud of it. But, I falled easily on books and computer stuff, tech things. I bought and read a lot of books. I owned few laptops but used just one of them. Sometimes I bought techie things like raspberry, arduino, etc and hacking on them needs specific tool set. So I bought another things again. And so on. I also bought a mechanical keyboard (it really helps to reduced the pain) but not using it all the time (the switch is blue, the most hated and noisy). I still bought the mountaineering stuff even if I rarely do a hiking again.
 
-Pretty fail, isn’t? Four years of failed attemps.
+Pretty fail, isn’t? Four years of failed attempts.
 
 (to be continued)

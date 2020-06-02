@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Failed Attemps of Being Minimalist (2)
+title: Failed Attempts of Being Minimalist (2)
 date: 2019-01-02 00:01:00.000000000 +08:00
 type: post
 published: true
@@ -10,7 +10,7 @@ categories:
 tags: [minimalist]
 ---
 
-You can read the previous post <a href="/2018/failed-attemps-of-being-minimalist-1/">here</a>.
+You can read the previous post <a href="/2018/failed-attempts-of-being-minimalist-1/">here</a>.
 
 I often requestioned myself whether I still need to be a minimalist or not. In the middle of 2018, I got these books that help me to answer the question.
 
