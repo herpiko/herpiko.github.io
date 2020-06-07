@@ -7,7 +7,7 @@ categories: mechanical keyboard, keyboard, repair, diy
 
 My main keyboard was a <a href="http://www.vortexgear.tw/vortex2_2.asp?kind=47&kind2=224&kind3=&kind4=1033">Vortex Core</a>. After my wife keep complaining about the noises (now you know it's the blue one), I bought a Vortex Tab 75 with Cherry brown switches (she approved the new typing sounds). It's just a few weeks before I made an accidental disaster to the keyboard.
 
-I was programming on some stuff while snacking <a href="https://www.google.com/search?q=dua%20kelinci%20mixnut%20toples">Dua Kelinci</a> peanuts. The peanuts are in a small plastic jar on the left of my keyboard. Also, there is a cup of coffee near there. I eat the peanuts by pouring them to my hand, then forwarded the peanuts to my mouth. These actions were done above the keyboard. Then I unconsciously grab the coffee cup and do the same as I thought it's the peanut jar. So I just literally poured my hand with coffee and the fluid flood the keyboard!
+I was programming on some stuff while snacking <a href="https://www.google.com/search?q=dua%20kelinci%20mixnut%20toples">Dua Kelinci</a> peanuts. The peanuts were in a small plastic jar on the left of my keyboard. Also, there is a cup of coffee near there. I eat the peanuts by pouring them to my hand, then forwarded the peanuts to my mouth. These actions were done above the keyboard. Then I unconsciously grab the coffee cup and do the same as I thought it's the peanut jar. So I just literally poured my hand with coffee and the fluid flood the keyboard!
 
 What I've done to solve this:
 
