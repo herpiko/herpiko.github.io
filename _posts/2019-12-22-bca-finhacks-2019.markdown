@@ -9,6 +9,7 @@ That was a fast and steep journey for me.
 
 Thanks to:
 
+- MDAMT for his critics on the early architecture.
 - Aldi for the help on the mobile app
 - Asep who loves to talk about ideas
 - My wife who lets me hacking on my portable computer while we are still on our honeymoon.
