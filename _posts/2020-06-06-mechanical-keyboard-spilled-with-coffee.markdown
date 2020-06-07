@@ -13,7 +13,7 @@ What I've done to solve this:
 
 ### Go to forums and read some advices
 
-Most of the sources I found were from https://www.reddit.com/r/mechanicalkeyboard/.
+Most of the sources I found were from https://www.reddit.com/r/MechanicalKeyboards/.
 
 ### Prepare some stuff
 
