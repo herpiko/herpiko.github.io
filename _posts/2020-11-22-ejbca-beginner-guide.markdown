@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EJBCA Beginner Guide"
+title:  "EJBCA Beginner Guide: From CA to Certificate Enrollment"
 date:   2020-11-22 00:00:00 +0700
 categories: x509, PKI, EJBCA
 ---
