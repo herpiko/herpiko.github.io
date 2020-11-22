@@ -38,6 +38,19 @@ services:
       - db
 ```
 
+`.env`:
+```
+# EJBCA
+TLS_SETUP_ENABLED=simple
+DATABASE_USER=postgres
+DATABASE_PASSWORD=kLTPk5Ty9K3JHykCS38YBHDTVwXkVCgjsQs7HaT8wwT5VcY5G54tMbSNt6uCEztM
+DATABASE_JDBC_URL=jdbc:postgresql://db/postgres
+
+# DB
+POSTGRES_PASSWORD=kLTPk5Ty9K3JHykCS38YBHDTVwXkVCgjsQs7HaT8wwT5VcY5G54tMbSNt6uCEztM
+PGDATA="/data"
+```
+
 Spin them up with `docker-compose up -d --force-recreate`. It'll take some minutes until EJBCA is ready to serve you.
 
 Some notes:
