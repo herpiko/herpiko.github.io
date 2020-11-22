@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EJBCA Beginner Guide"
-date:   2020-011-22 00:00:00 +0700
+date:   2020-11-22 00:00:00 +0700
 categories: x509, PKI, EJBCA
 ---
 
