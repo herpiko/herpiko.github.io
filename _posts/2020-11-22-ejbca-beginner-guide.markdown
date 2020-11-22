@@ -5,7 +5,7 @@ date:   2020-11-22 00:00:00 +0700
 categories: x509, PKI, EJBCA
 ---
 
-X509 is a complicated thing and EJBCA makes it easier to grasp. But you may find EJBCA is complicated too. This post will guide you to specific case as example: 
+X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example: 
 
 ```
 CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification.
