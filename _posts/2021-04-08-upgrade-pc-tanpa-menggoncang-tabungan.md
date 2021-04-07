@@ -37,14 +37,14 @@ Kurang dalam 2 minggu penjualan, ditambah hasil penjualan spare part PC yang mau
 
 Jika ditambahkan dengan nilai dari sebelum di-upgrade, totalnya Rp 16.301.000. Lumayan juga, tapi saya cukup senang dengan hasil ini.
 
-### Dari rig lama, pembelian 2020
+Dari rig lama, pembelian 2020:
 
 - AMD Ryzen 5 3400G, Rp. 2.080.000
 - Zotac NVidia 1660 Ti AMP, Rp. 4.000.000
 - Nvme M2 SSD Intel 660P 512GB, Rp 1.507.000
 
 
-### Upgrade 2021
+Upgrade 2021:
 
 - Gigabyte B450 I Aorus Pro Wifi, Rp 2.158.000
 - RAM G.SKILL F4-3200C16D-16GFX FlareX 16GB (2x8GB) DDR4 3200Mhz, Rp. 1.363.000
@@ -55,5 +55,6 @@ Jika ditambahkan dengan nilai dari sebelum di-upgrade, totalnya Rp 16.301.000. L
 - Mini ITX Wifi & Bluetooth Antenna RP-SMA Female, Rp. 65.000
 - Audio Splitter Combiner, Rp. 21.000
 
+### Penampakan
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/v4EvnUl" data-context="false" ><a href="//imgur.com/a/v4EvnUl"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
