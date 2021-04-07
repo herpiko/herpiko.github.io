@@ -55,3 +55,5 @@ Jika ditambahkan dengan nilai dari sebelum di-upgrade, totalnya Rp 16.301.000. L
 - Mini ITX Wifi & Bluetooth Antenna RP-SMA Female, Rp. 65.000
 - Audio Splitter Combiner, Rp. 21.000
 
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/v4EvnUl" data-context="false" ><a href="//imgur.com/a/v4EvnUl"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
