@@ -20,7 +20,7 @@ I occasionally give talks to events. Some of them were :
 - <a href="https://events.opensuse.org/conferences/summitasia19/schedule" target="_blank">IRGSH</a> - OpenSUSE Asia Summit 2019 @ Bali (2019)
 - <a href="https://github.com/herpiko/2020-talks/blob/master/moztalk-opensource-day-at-mozspace-jakarta/ngoprek-mozilla-firefox.pdf" target="_blank">Ngoprek Mozilla Firefox, Siklus kontribusi kode ke Mozilla Firefox dari ujung ke ujung</a> - Moztalk Opensource Day @ MozSpace Jakarta 2020
 
-I can be reached at herpiko [at] aguno [dot] xyz
+I can be reached at herpiko [at] gmail [dot] com .
 
 If you want to send an encrypted message, here are my public keys :
 
