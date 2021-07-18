@@ -11,7 +11,7 @@ Namun saya tidak akan mendapatkan mainan yang saya inginkan begitu saja. Orang t
 
 Saya tentu mendapatkan sepeda sendiri seperti anak-anak lain supaya saya dapat berkelana untuk bermain kapanpun saya mau dari jam pulang sekolah sampai sore.
 
-Saya masih mungkin mendapatkan buku-buku cerita yang dinilai baik oleh bapak saya (seperti fabel Aesop atau cerita wayang) tapi saya tidak akan mendapatkan komik, Harry Potter, Goosebumps atau Animorphs (yang saya curi baca di perpustakaan provinsi). Ibu saya tidak menyukai saya membaca, terutama komik, apa lagi koran, apa lagi buku-buku filsafat bapak saya. Tapi itu tidak masalah karena saya tinggal mampir ke perpustakaan.
+Saya masih mungkin mendapatkan buku-buku cerita yang dinilai baik oleh bapak saya (seperti fabel Aesop, Hikayat Kalilah dan Dimnah atau cerita wayang) tapi saya tidak akan mendapatkan komik, Harry Potter, Goosebumps atau Animorphs (yang saya curi baca di perpustakaan provinsi). Ibu saya tidak menyukai saya membaca, terutama komik, apa lagi koran, apa lagi buku-buku filsafat bapak saya. Tapi itu tidak masalah karena saya tinggal mampir ke perpustakaan.
 
 Saya masih bisa bersyukur.
 
