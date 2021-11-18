@@ -11,6 +11,7 @@ After a year of having mining-capable GPU for gaming and despite the EIP 1559 pl
 - Some miners began to sell their GPUs while the GPU prices spiked again
 - There is a difficulity bomb in Ethereum that will be dropped in December (but maybe get postponed https://ambcrypto.com/ethereum-developers-propose-to-postpone-difficulty-bomb-until-may-2022/)
 - It is not something that can leave unmonitored. Sometimes issues occured. Also I still worry about the safety.
+- https://www.fi.se/en/published/presentations/2021/crypto-assets-are-a-threat-to-the-climate-transition--energy-intensive-mining-should-be-banned/
 - Want to focus to another side hustle
 
 I learned a lot in the process. The profit exceeded my expectation. Big portion of it goes into investment portofolio and I bought myself a steering wheel as selfreward. When in doubt, flat out!
