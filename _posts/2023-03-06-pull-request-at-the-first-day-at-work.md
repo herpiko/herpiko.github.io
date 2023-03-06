@@ -55,5 +55,5 @@ I am supposed to balance the textual onboarding vs in-person onboarding.
 
 ## The First Pull Request
 
-I did nothing special. I picked the easiest among the first three tasks. Once I got the Gitlab access, I scanned the repositories and guessed which is the right repo that related to the task, then started digging into the codebase. It's a fronted one, I spend around 15 to try to understand the codebase structures then gogoingtraight to the file that I need to modify. Sure, I got questions/minor issues and asked directly to the person that gogovernshe domain. They are all very responsive and helpful. At the end of the day, I submitted a pull request. That's it.
+I did nothing special. I picked the easiest among the first three tasks. Once I got the Gitlab access, I scanned the repositories and guessed which is the right repo that related to the task, then started digging into the codebase. It's a fronted one, I spend around 15 to try to understand the codebase structures then gogoingtraight to the file that I need to modify. Sure, I got questions/minor issues and asked directly to the person that governs the domain. They are all very responsive and helpful. At the end of the day, I submitted a pull request. That's it.
 
