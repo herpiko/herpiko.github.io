@@ -11,6 +11,7 @@ The performance tracing implementation is done by:
 
 The yellow-colored parts are the ones that you need to setup,
 
+<img src="/assets/Screen Shot 2023-03-07 at 22.17.33.png"/>
 
 ## Examples
 
@@ -27,7 +28,7 @@ docker run -d --cgroupns host \
               gcr.io/datadoghq/agent:latest
 ```
 
-This is the basic example of ddtrace implementation for go-chi,
+This is the basic example of `ddtrace` implementation for `go-chi`,
 ```
 package main
 
@@ -53,13 +54,19 @@ func main() {
 }
 ```
 
-Then run the service by pointing out the agent through DD_AGENT_HOST envar,
+Then run the service by pointing out the agent through `DD_AGENT_HOST` envar,
 ```
 $ DD_AGENT_HOST=localhost go run single/main.go
+```
+
 If you try to hit http://localhost:8000/hello  several times, the traced data will be shown in Datadog APM dashboard.
-[Image]
-Custom Instrument
-Custom instruments allow us to get deep insight into the performance of our service. Imagine the /hello endpoint has to call another function like this
+
+<img src="/assets/Screen Shot 2023-03-07 at 22.17.55.png"/>
+
+### Custom Instrument
+
+Custom instruments allow us to get deep insight into the performance of our service. Imagine the `/hello` endpoint has to call another function like this
+```
 func functionA() {
         time.Sleep(60 * time.Millisecond)
         return
@@ -77,7 +84,7 @@ I did intentionally put some delays to simulate bottlenecked situations.
 
 ### Nested flamegraph
 
-At the code below I put tracer.StartSpanFromContext at the start of the function. You can see r.Context() is passed to another function. This context contains important tracing metadata like process-id and runtime-id that helped Datadog to build visual flamegraph of your performance profiling later.
+At the code below I put `tracer.StartSpanFromContext` at the start of the function. You can see `r.Context()` is passed to another function. This context contains important tracing metadata like `process-id` and r`untime-id` that helped Datadog to build visual flamegraph of your performance profiling later.
 ```
 func functionA(ctx context.Context) {
         span, _ := tracer.StartSpanFromContext(ctx, "functionA", tracer.ResourceName("someParam"))
@@ -96,10 +103,11 @@ func welcome(w http.ResponseWriter, r *http.Request) {
 
 If you try to hit the endpoint, you'll see the functionA() bottlenecked our /hello endpoint:
 
+<img src="/assets/Screen Shot 2023-03-07 at 22.18.12.png"/>
 
 ### Synchronous execution
 
-The sibling process in flamegraph is also possible, assuming that functionA() and functionB() are executed in sync and functionC() is nested under functionB(), consider this example code,
+The sibling process in flamegraph is also possible, assuming that `functionA()` and `functionB()` are executed in sync and `functionC()` is nested under `functionB()`, consider this example code,
 ```
 func functionA(ctx context.Context) {
         span, _ := tracer.StartSpanFromContext(ctx, "functionA", tracer.ResourceName("someParam"))
@@ -132,7 +140,9 @@ func welcome(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-You can see that r.Context is passed  twice, then it passes again under functionB() to functionC(). This kind of context-passing will build a flamegraph like this:
+You can see that `r.Context` is passed  twice, then it passes again under `functionB()` to `functionC()`. This kind of context-passing will build a flamegraph like this:
+
+<img src="/assets/Screen Shot 2023-03-07 at 22.18.24.png"/>
 
 ### Database performance
 
@@ -152,12 +162,12 @@ Then instead of executing a query like this,
         db.Query(statement)
 ```
 
-Now you have to append Context to the function name and pass the context.Context object. 
+Now you have to append `Context` to the function name and pass the `context.Context` object. 
 ```
         db.QueryContext(ctx, statement)
 ```
 
-Also applied to other database functions (QueryRow() to QueryRowContext(), Exec() to ExecContext() and so on)
+Also applied to other database functions (`QueryRow()` to `QueryRowContext()`, `Exec()` to `ExecContext()` and so on)
 
 ### Distributed Tracing
 
@@ -191,12 +201,13 @@ func hello(w http.ResponseWriter, r *http.Request) {
 
 This inter-service propagated context passing will let Datadog build flamegraph like this:
 
-
+<img src="/assets/Screen Shot 2023-03-07 at 22.18.46.png"/>
 
 If there is something sit between the services (e.g. a proxy or gateway), this something must support context propagation. Some known proxy that have this feature/plugin/extension are Nginx and EnvoyProxy.
 
 ## Impact to the codebase
 
+<img src="/assets/Screen Shot 2023-03-07 at 22.19.09.png"/>
 
 
 You have to get used to using context.Context and always consider each time you write a function, whether you want to trace the performance or not.
