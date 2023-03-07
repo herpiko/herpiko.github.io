@@ -1,6 +1,6 @@
 ---
 title: 'How I created a pull request on my first day at work'
-date:   2022-03-23 00:00:00Z
+date:   2023-03-06 00:00:00Z
 categories: overclock
 --- 
 
