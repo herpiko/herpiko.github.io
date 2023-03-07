@@ -49,7 +49,9 @@ Happy hacking.
 
 HR will handle the company-wide onboarding then the rest is up to me. So as Product and Engineering Lead, it's on me to design the onboarding process for my team did try to put myself in the perspective of a new employee, but it was not deep enough. One thing is for sure, I improved the process bit a bit by asking for feedback from the new employees about the onboarding process. You're lucky if they are honest enough to point out the missing things or the pain points of your onboarding process.
 
-One of the honest feedback I received is about how people have different ways and paces to adapt. This particular new employee said that the long wiki page that I wrote is useless, "No one will read this wiki page" he said. Before I could counter his argument, he added that he was used to talking in person instead of reading boring texts and he need someone to sit down beside him for prolonged hours because he got a lot of questions in his head. He was right. I put too much effort on the wiki documentation but spent less on preparing the onboarding **in person**. I was enforcing RTFM culture unwittingly.
+One of the honest feedback I received is about how people have different ways and paces to adapt. This particular new employee said that the long wiki page that I wrote is useless, "No one will read this wiki page" he said. Before I could counter his argument, he added that he was used to talking in person instead of reading boring texts and he need someone to sit down beside him for prolonged hours because he got a lot of questions in his head. I don't think that I want to sit for hours beside him but he was right to some degree. 
+
+I put too much effort on the wiki documentation but spent less on preparing the onboarding **in person**. I was enforcing RTFM culture unwittingly.
 
 I am supposed to balance the textual onboarding vs in-person onboarding.
 
