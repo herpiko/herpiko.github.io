@@ -1,3 +1,9 @@
+---
+title: 'Datadog APM Tracing in Golang'
+date:   2023-03-07 00:00:00Z
+categories: opentracing, cloudnative, datadog, SRE
+--- 
+
 ## Motivation and Concept
 
 APM (Application Performance Monitoring) tools like Datadog are important for our system because they provide valuable insights into the  performance, behavior, and security of our applications. They allow us  to identify performance issues in real-time, improve application  performance, troubleshoot problems, plan capacity, and identify security  vulnerabilities.
