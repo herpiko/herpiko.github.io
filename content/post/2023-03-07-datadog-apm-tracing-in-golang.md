@@ -2,10 +2,12 @@
 title: Datadog APM Tracing in Golang
 date:   2023-03-07 00:00:00Z
 tags:
-  - opentracing
-  - cloudnative
-  - datadog
+  - Opentracing
+  - CloudNative
+  - Datadog
   - SRE
+categories:
+  - Tech
 ---
 
 ## Motivation and Concept
