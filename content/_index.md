@@ -5,7 +5,7 @@ description: "The personal writings and expressions of Herpiko. It is a loving a
 
 ## Hi,
 
-I'm a software engineer who passionate about free and open source software. I currently work for a web3 start up and I'm still hacking on BlankOn projects.
+I'm a software engineer who passionate about free and open source software. I currently work for <a href="https://play3.gg/">a web3 start up</a> and I'm still hacking on <a href="https://github.com/blankon/">BlankOn projects</a>.
 
 I occasionally give talks to events. Some of them were :
 
