@@ -13,6 +13,8 @@ I'm not talking about myself regarding the pull request (okay, I'll talk about i
 
 I want to talk about how a smooth and comprehensive onboarding process could let me create a pull request on the first day at work. All of these onboarding processes were done in less than 4 hours. Kudos for the people who helped me!
 
+![First day at work](/images/2023-03-06-first-day-at-work.jpg)
+
 ## The Onboarding Flow
 
 ### 1. Company-wide onboarding by people management

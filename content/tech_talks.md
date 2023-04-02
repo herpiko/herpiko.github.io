@@ -1,8 +1,7 @@
 ---
+title: Tech Talks
 type: page
 ---
-
-I occasionally give talks to events. Some of them were :
 
 - BlankOn Installer - GNOME Asia 2015 Depok, 2015 (2015)
 - <a href="https://github.com/kodekreatif/pkiwebsdk" target="_blank">PKIWebSDK</a>: Pustaka JavaScript untuk Aplikasi berbasis PKI - IDSECONF 2016 (2016)

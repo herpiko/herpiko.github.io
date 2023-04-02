@@ -5,7 +5,7 @@ googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 languageCode = "en-us"
 theme = "hugo-classic"
-title = "blogs"
+title = "Blog"
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -27,14 +27,6 @@ tabWidth = 4
 post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 1
-[[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 2
-[[menu.main]]
 name = "Tech_Talks"
 url = "/tech_talks/"
 weight = 3
@@ -49,4 +41,4 @@ url = "/index.xml"
 [params]
 custom_css = ["css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."
-footer = "[Github](https://github.com/herpiko)"
+footer = "[Github](https://github.com/herpiko) | [LinkedIn](https://www.linkedin.com/in/herpiko/)"

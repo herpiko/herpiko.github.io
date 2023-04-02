@@ -102,6 +102,11 @@ output:
   margin-bottom: 20px;
 }
 
+.article-meta-info {
+  color: grey !important;
+  font-size: 2em;
+}
+
 .terms { font-size: .9em; }
 .menu, footer { text-align: center; }
 .title { font-size: 1.0em; }
@@ -174,9 +179,6 @@ img, iframe, video {
 
 main, .article-meta {
   hyphens: auto;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
   line-height: 1.7em;
   hyphens: auto;
   display: block;

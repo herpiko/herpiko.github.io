@@ -23,7 +23,7 @@ The performance tracing implementation is done by:
 
 The yellow-colored parts are the ones that you need to setup,
 
-![Datadog APM concept](/images/20230307-datadog-apm-concept.png 'Datadog APM concept')
+![Datadog APM concept](/images/2023-03-07-datadog-apm-concept.png 'Datadog APM concept')
 
 ## Examples
 
@@ -73,7 +73,7 @@ $ DD_AGENT_HOST=localhost go run single/main.go
 
 If you try to hit http://localhost:8000/hello  several times, the traced data will be shown in Datadog APM dashboard.
 
-![](/images/20230307-datadog-apm-items.png)
+![](/images/2023-03-07-datadog-apm-items.png)
 
 ### Custom Instrument
 
@@ -115,7 +115,7 @@ func welcome(w http.ResponseWriter, r *http.Request) {
 
 If you try to hit the endpoint, you'll see the functionA() bottlenecked our /hello endpoint:
 
-![](/images/20230307-datadog-nested-flamegraph.png)
+![](/images/2023-03-07-datadog-nested-flamegraph.png)
 
 ### Synchronous execution
 
@@ -154,7 +154,7 @@ func welcome(w http.ResponseWriter, r *http.Request) {
 
 You can see that `r.Context` is passed  twice, then it passes again under `functionB()` to `functionC()`. This kind of context-passing will build a flamegraph like this:
 
-![](/images/20230307-datadog-sync-execution.png)
+![](/images/2023-03-07-datadog-sync-execution.png)
 
 ### Database performance
 
@@ -213,13 +213,13 @@ func hello(w http.ResponseWriter, r *http.Request) {
 
 This inter-service propagated context passing will let Datadog build flamegraph like this:
 
-![](/images/20230307-datadog-distributed-tracing-1.png)
+![](/images/2023-03-07-datadog-distributed-tracing-1.png)
 
 If there is something sit between the services (e.g. a proxy or gateway), this something must support context propagation. Some known proxy that have this feature/plugin/extension are Nginx and EnvoyProxy.
 
 ## Impact to the codebase
 
-![](/images/20230307-datadog-impact-to-codebase.png)
+![](/images/2023-03-07-datadog-impact-to-codebase.png)
 
 
 You have to get used to using context.Context and always consider each time you write a function, whether you want to trace the performance or not.
