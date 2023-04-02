@@ -34,6 +34,14 @@ weight = 1
 name = "Tags"
 url = "/tags/"
 weight = 2
+[[menu.main]]
+name = "Tech_Talks"
+url = "/tech_talks/"
+weight = 3
+[[menu.main]]
+name = "Photographs"
+url = "/photographs/"
+weight = 4
 [[menu.feed]]
 name = "Subscribe"
 url = "/index.xml"
