@@ -17,15 +17,12 @@ I occasionally give talks to events. Some of them were :
 - <a href="https://events.opensuse.org/conferences/summitasia19/schedule" target="_blank">IRGSH</a> - OpenSUSE Asia Summit 2019 @ Bali (2019)
 - <a href="https://github.com/herpiko/2020-talks/blob/master/moztalk-opensource-day-at-mozspace-jakarta/ngoprek-mozilla-firefox.pdf" target="_blank">Ngoprek Mozilla Firefox, Siklus kontribusi kode ke Mozilla Firefox dari ujung ke ujung</a> - Moztalk Opensource Day @ MozSpace Jakarta 2020
 
-I can be reached at herpiko [at] gmail [dot] com .
+Beside my writing, I've not much to tell about myself: My current unique avatar is made by <a href="https://www.plurk.com/lukmandisini" target="_blank">https://www.plurk.com/lukmandisini</a>. I took <a target="_blank" href="/photographs">some photographs</a>. I do some <a target="_blank" href="https://github.com/herpiko">open source projects</a>. I was once <a href="https://ww1.worldcubeassociation.org/persons/2010AGUN01">a speedcuber</a> but I quit quietly after realizing <a href="https://ww1.worldcubeassociation.org/results/rankings/333/single">how fast kids these days</a>. I <a href="/images/books.jpg">love books</a> and this is what Gandalf said in An Unexpected Party, The Hobbit, "I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone."
 
-My current unique avatar is made by <a href="https://www.plurk.com/lukmandisini" target="_blank">https://www.plurk.com/lukmandisini</a>.
+<img src="/images/partywizard.gif" style="height:50px;">
 
-I took <a target="_blank" href="/photographs">some photographs</a>. I do some <a target="_blank" href="https://github.com/herpiko">open source projects</a>
+I can be reached at herpiko [at] aguno [dot] xyz.
 
-And this is what Gandalf said in An Unexpected Party, The Hobbit, "I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone."
-
-<img src="/images/partywizard.gif">
 
 ---
 
