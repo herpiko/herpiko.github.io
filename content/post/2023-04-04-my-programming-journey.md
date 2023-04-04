@@ -54,7 +54,7 @@ It was a small company that consists of 5 people and I'm their sole programmer b
 
 At this point I was able to design and build web system from scratch, independently. Apart from my fondness on the web stuff, I joined a company that demand me to learning the mother of programming language: C. Then C++. Then Qt. At the beginning I was struggling hard for these ones but really enjoyed the challenges until the end. I also learned how to read and understand complex specification document like RFC then implement it in C/C++. <a href="https://www.rfc-editor.org/rfc/rfc5280">RFC 5280</a> was my holy scripture at that time.
 
-### 2018-2022 - Golang, React, Dart
+### 2018-2022 - Golang, React, Dart, Lisp and Rust
 
 TO BE WRITTEN
 
