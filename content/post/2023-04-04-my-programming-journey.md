@@ -60,4 +60,4 @@ TO BE WRITTEN
 
 ### What now?
 
-I'm keen to learning about designing and building scaled and reliable system that could handle tremendously high amount of traffic. Fortunately the company that I recently joined is able to provide such journey.
+I'm keen to learning about designing and building scaled and reliable system that could handle tremendously high amount of traffic. Fortunately the company that I recently joined is able to provide such journey. It's already beyond programming language choices, I'm going to take any language to pursue this path.
