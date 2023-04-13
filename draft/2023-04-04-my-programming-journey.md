@@ -50,6 +50,8 @@ In the end of this era, I picked programming as my future path because it's the 
 
 It was a small company that consists of 5 people and I'm their sole programmer besides the CTO. I was introduced and mentored to the most popular stack at that time: MEAN (MongoDB, ExpressJS, AngularJS, NodeJS). The transition to the language was the easiest for me because I was experienced with ActionScript which is also based on ECMAScript. The hardest part was about learning how to write good code.
 
+I don't know what to say about my achievement in JavaScript but I already experienced <a href="https://auth0.com/blog/how-to-manage-javascript-fatigue/" target="_blank">JavaScript Fatigue</a> at the time.
+
 ### 2016-2018 - C, C++
 
 At this point I was able to design and build web system from scratch, independently. Apart from my fondness on the web stuff, I joined a company that demand me to learning the mother of programming language: C. Then C++. Then Qt. At the beginning I was struggling hard for these ones but really enjoyed the challenges until the end. I also learned how to read and understand complex specification document like RFC then implement it in C/C++. <a href="https://www.rfc-editor.org/rfc/rfc5280">RFC 5280</a> was my holy scripture at that time.
