@@ -39,7 +39,7 @@ Golang has `pprof`, a powerfull tool for profiling resource consumption. Its imp
 
 This will open some endpoints in the service for debug purpose under `/debug/*`. Since this case is about memory allocation, I'll focus on `allocs`.
 
-I immediately planted `pprof`, fetched the state dump of the service then display it localy by using this command
+I immediately planted `pprof`, fetched the state dump of the service then display it locally by using this command
 
 ~~~go
 go tool pprof -http=":8080" http://foobar/debug/pprof/allocs
