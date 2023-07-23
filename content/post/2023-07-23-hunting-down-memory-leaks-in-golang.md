@@ -96,7 +96,6 @@ So if the file size is bigger than the `maxMemory`, the rest of it will be saved
 Because I don't want to messing up with this system, I am using Growthbook's feature flag to control the value. If something goes wrong after the deployment, I could revert the value back to 32MB.
 
 ~~~go
-	gb := growthbook.NewGrowthBook(growthbook.GBFeatures, "")
 	parseMultiForm := gb.Feature("request-parse-multipart-form").GetValueWithDefault(32.0).(float64)
 	c.Request.ParseMultipartForm(int64(parseMultiForm) << 20)
 	defer c.Request.MultipartForm.RemoveAll()
