@@ -135,10 +135,10 @@ At this time, you are right. For every Kafka writer that initiated, there was no
 
 ~~~go
 writer := kafka.NewWriter(kafka.WriterConfig{
-Brokers:  messagebroker.Brokers,
-Balancer: &kafka.Hash{},
-Dialer:   messagebroker.Dialer,
-Topic:    "statusNew",
+	Brokers:  messagebroker.Brokers,
+	Balancer: &kafka.Hash{},
+	Dialer:   messagebroker.Dialer,
+	Topic:    "statusNew",
 })
 defer writer.Close() // This is missing
 ~~~
