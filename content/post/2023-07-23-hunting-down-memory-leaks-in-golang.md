@@ -20,7 +20,7 @@ Turn out it is not always the case.
 
 ## The characteristics of the service
 
-The main purpose of this service is to upload files. Almost ten thousand files uploaded in a day or about 15GB/day. Total files uploaded up until I write this post is about 14,56TB. The service was hosted in AWS ECS. They said each restart takes up to 15 minutes and when it happened, complaints bombardment coming from their users.
+The main purpose of this service is to upload files. Almost ten thousand files uploaded in a day or about 15GB/day. Total files uploaded up until I write this post is about 14,56TB. The service was hosted in AWS ECS. They said each restart takes up to 15 minutes and when it happened, complaints bombardment coming from their users. At some points, they have to upgrade the instance to the one with bigger RAM just to buy more time before the system crashed again.
 
 ![](/images/hunting-down-memory-leaks-in-golang-2.png)
 
@@ -53,7 +53,7 @@ It'll open web browser to show you the data.
 
 ![](/images/hunting-down-memory-leaks-in-golang-5.png)
 
-## MultipartForm
+## ParseMultipartForm
 
 Since the service is mainly about uploading files, I proceed to reproduce prod-like situation by spinning up a local instance, bypassing the authentication then start to upload file (1.3MB, repeated 100x).
 
@@ -95,7 +95,7 @@ Because I don't want to messing up with this system, I am using Growthbook's fea
 ~~~
 
 Consideration in this case:
-- The instance should have more than 15GB free disk space to accommodate this
+- The instance should have more than 15GB free disk space to accommodate this, just in case.
 - Use `defer c.Request.MultipartForm.RemoveAll()` to make sure the temporary files get removed we go out of scope.
 - Compare the latency. In my case, the upload performance is only 10% slower than by using default `maxMemory` value (32MB), which is okay.
 - Monitor the disk pressure after the deployment
