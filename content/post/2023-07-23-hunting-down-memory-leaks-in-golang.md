@@ -14,7 +14,7 @@ So I encountered with a service that has to be restarted in every few hours or s
 
 
 
-Ha, Golang is garbage collector language, so we just need to add `*.Close()` to every opened thing, right?
+Hmm. Golang is garbage collector language, so we just need to add `*.Close()` to every opened thing, right?
 
 Turn out it is not always the case.
 
@@ -119,7 +119,7 @@ It improved but still did not meet my expectations. At least no need to restart 
 
 So what else is left in the memory? We turned on the `pprof` in production. Is it okay to do performance profiling in production? [Absolutely yes](https://medium.com/google-cloud/continuous-profiling-of-go-programs-96d4416af77b).
 
-## Kafka Writter
+## Kafka Writer
 
 This child-nodes graph showed up under Kafka related nodes.
 
