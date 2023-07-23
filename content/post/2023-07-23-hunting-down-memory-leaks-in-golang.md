@@ -143,7 +143,7 @@ Topic:    "statusNew",
 defer writer.Close() // This is missing
 ~~~
 
-Get this deployed then memory consumption got flattened near zero.
+Pushed this to production then memory consumption got flattened near zero.
 
 ![](/images/hunting-down-memory-leaks-in-golang-11.png)
 
