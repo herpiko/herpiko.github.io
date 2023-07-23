@@ -31,6 +31,14 @@ This is indeed an interesting problem.
 Golang has `pprof`, a powerfull tool for profiling resource consumption. Its implementations are available in popular frameworks like `chi` or `gin`. This is a super easy example of how to implement pprof for a `gin` engine by using `github.com/gin-contrib/pprof` package:
 
 ~~~go
+import (
+	...
+	"github.com/gin-contrib/pprof"
+	...
+)
+
+...
+
 	isProfilingEnabled, _ := strconv.ParseBool(os.Getenv("PPROF"))
 	if isProfilingEnabled {
 		pprof.Register(engine)
@@ -124,7 +132,7 @@ Let me repeat this question.
 
 > Golang is garbage collector language, so we just need to add `*.Close()` to every opened things, right?
 
-At this time, you are right. For every Kafka writer that initiated, there is no `Close` being called.
+At this time, you are right. For every Kafka writer that initiated, there is no `Close` being called. Let's fix this.
 
 ~~~go
 writer := kafka.NewWriter(kafka.WriterConfig{
