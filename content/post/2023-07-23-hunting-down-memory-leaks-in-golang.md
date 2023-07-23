@@ -119,14 +119,14 @@ It improved but still did not meet my expectations. At least no need to restart 
 
 So what else is left in the memory? We turned on the `pprof` in production. Is it okay to do performance profiling in production? [Absolutely yes](https://medium.com/google-cloud/continuous-profiling-of-go-programs-96d4416af77b).
 
+## Kafka Writter
+
 This child-nodes graph showed up under Kafka related nodes.
 
 ![](/images/hunting-down-memory-leaks-in-golang-10.png)
 
 
 Before this, I just skimmed the codebase and focused on uploading-related stuff. I don't know if this service is involving Kafka.
-
-## Kafka Writter
 
 Let me repeat this question.
 
