@@ -131,7 +131,7 @@ Let me repeat this question.
 
 > Golang is garbage collector language, so we just need to add `*.Close()` to every opened things, right?
 
-At this time, you are right. For every Kafka writer that initiated, there is no `Close` being called. Let's fix this.
+At this time, you are right. For every Kafka writer that initiated, there was no `Close()` being called. Let's fix this.
 
 ~~~go
 writer := kafka.NewWriter(kafka.WriterConfig{
