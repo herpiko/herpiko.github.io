@@ -24,7 +24,7 @@ Before you starting, you need to install few softwares. Some of them are ready t
 
 ## 1. FlatPak
 
-Supposedly, this blog series will ended with packagin the app to Snap then publishing to Snapcraft, but Flatpak become important here to support your development chain. To install Flatpak in Ubuntu, simply run,
+Supposedly, this blog series will ended with packaging the app into a Snap package then publishing it to Snapcraft, but Flatpak become important here to support your development tool chain. To install Flatpak in Ubuntu, simply run,
 
 ~~~bash
 
@@ -37,7 +37,7 @@ Then restart your computer.
 
 ## 2. GNOME Builder
 
-GNOME Builder is an IDE (Integrated Development Environment) for crafting software in Linux environment. Unlike other advanced IDE like Android Studio, Eclipse, JetBrains, etc, GNOME Builder is a lot simpler. So simple that, if you have experience with these advanced IDE, you may found that GNOME Builder is not satisfying since it has less feature. But fear not, the simplicity of the GNOME Builder will not hold you back from writing a beautiful GNOME native app.
+GNOME Builder is an IDE (Integrated Development Environment) for crafting software in Linux environment. Unlike other advanced IDE like Android Studio, Eclipse, JetBrains, etc, GNOME Builder is a lot simpler. So simple that, if you have experience with these advanced IDE, you may found that GNOME Builder is not satisfying since it has less features. But fear not, the simplicity of the GNOME Builder will not hold you back from writing a beautiful GNOME native app.
 
 You can install GNOME Builder from Ubuntu repository but it's recommended to install from Flatpak to get the latest version.
 
@@ -53,7 +53,10 @@ By default, GNOME Builder will target your host system. If your system is using 
 
 ~~~bash
 flatpak install org.gnome.Platform/x86_64/43
+flatpak install org.gnome.Sdk/x86_64/43
 ~~~
+
+The GNOME 43 SDK and Platform will appear in the GNOME Builder build target option.
 
 ## 3. The UI Designer: Glade vs Cambalache
 
