@@ -7,10 +7,10 @@ tags:
   - GNOME
 ---
 
-
 # Introduction
 
 This blog series are intended to be a follow up of my tech talk in UbuCon Asia 2023 (LOUCA 2023). The articles will be divided into 4 parts:
+
 - Preparation
 - Ideation
 - Development
@@ -26,35 +26,32 @@ Before you starting, you need to install few softwares. Some of them are ready t
 
 Supposedly, this blog series will ended with packaging the app into a Snap package then publishing it to Snapcraft, but Flatpak become important here to support your development tool chain. To install Flatpak in Ubuntu, simply run,
 
-~~~bash
-
+```bash
 sudo apt install flatpak
-~~~
+```
 
 Then restart your computer.
-
-
 
 ## 2. GNOME Builder
 
 GNOME Builder is an IDE (Integrated Development Environment) for crafting software in Linux environment. Unlike other advanced IDE like Android Studio, Eclipse, JetBrains, etc, GNOME Builder is a lot simpler. So simple that, if you have experience with these advanced IDE, you may found that GNOME Builder is not satisfying since it has less features. But fear not, the simplicity of the GNOME Builder will not hold you back from writing a beautiful GNOME native app.
 
-You can install GNOME Builder from Ubuntu repository but it's recommended to install from Flatpak to get the latest version.
+You can install GNOME Builder from Ubuntu repository or Flatpak but it's recommended to install from Ubuntu repository (version 42) because it's compatible with the latest version of Cambalache.
 
-~~~bash
-flatpak install flathub org.gnome.Builder
-~~~
+```bash
+sudo apt install gnome-builder
+```
 
-At the time I wrote this blog post, I got version 45. Far newer than version from Ubuntu repository, which is still in 42.
+
 
 ### The target system of the GNOME Builder
 
 By default, GNOME Builder will target your host system. If your system is using GNOME 40, then it will target GNOME 40 as well and using the existing SDK and Platform. If you want to target more modern system, let's say 45, then this is where Flatpak come in handy. You can just install a different target here. Let's say that you want to target GNOME 43, so be it.
 
-~~~bash
+```bash
 flatpak install org.gnome.Platform/x86_64/43
 flatpak install org.gnome.Sdk/x86_64/43
-~~~
+```
 
 The GNOME 43 SDK and Platform will appear in the GNOME Builder build target option.
 
@@ -72,12 +69,11 @@ The last choice is that you have to write the XML file manually by hand.
 
 My recommendation is to use the latest version of Cambalache. If it fails to meet your need, then you have to modify the XML file manually. At least, Cambalache will help you to design the base layout and as a reference of the supported GTK components.
 
-You can install Cambalache through Flatpak as well,
+You can install Cambalache through Flatpak:
 
-~~~bash
+```bash
 flatpak install flathub ar.xjuan.Cambalache
-~~~
-
+```
 
 ## 4. Snapcraft
 
@@ -85,20 +81,19 @@ Snap is a package manager from Cannonical and is already built in Ubuntu distrib
 
 You can install Snapcraft by using this command,
 
-~~~bash
+```bash
 sudo snap install snapcraft --classic
-~~~
-
+```
 
 Snapcraft depends itself on LXD or MultiPass. Both of them are container technologies, like Docker. Snapcarft will build your app in the container and make sure it's an isolated environment. I suggest you to install LXD instead because it's more simple.
 
-~~~bash
+```bash
 snap install lxd --channel=latest/stable
-~~~
+```
 
 In my first attempt on building the Snap package, it fail because the container could not connect to the internet. If that happen to you, you may need to do a workaround:
 
-~~~bash
+```bash
 sudo ufw allow in on lxdbr0
 sudo ufw route allow in on lxdbr0
 sudo ufw route allow out on lxdbr0
@@ -107,14 +102,10 @@ lxc network set lxdbr0 ipv6.firewall false
 lxc network set lxdbr0 ipv4.firewall false
 
 sudo iptables -I DOCKER-USER -j ACCEPT
-~~~
+```
 
-To test out whether your LXC container could connect to the internet,
+Then make sure that your LXC container could connect to the internet by run a bare container, sneak into it then ping some domain. If you got some reply, then you are good to go.
 
-~~~bash
-lxc launch ubuntu:22.04 test
-
-~~~
 
 ## 5. Your favourite programming language*
 
@@ -133,6 +124,5 @@ But if you have a different goal, like "I want to reach as many user as possible
 Audience matters. Equality matters. Diversity matters. The competition that happen here, Flatpak vs Snap, is good for us. The way Snap integrated to Ubuntu Software, in one of the most popular Linux distribution, is already a major factor on acquiring your users.
 
 Actually, my original reason to include Snap in my talk is to increase the chance of my subbmission being approved by the UbuCon commitee. But along the way when I preparing my talk and playing around with Snapcraft, I learned a lot about Snap and admit that Snap is also playing an important role in the Linux ecosystem and community.
-
 
 See you in the next part!

@@ -17,7 +17,6 @@ Basically, software is a tool to solve certain kind of problem, right? You don't
 
 So this is the problem that I have before: there is no stopwatch app in Linux environment that behave like StackMat timer. StackMat timer is a device that used to measure time in official Stack Speeds and twist puzzle competition. The Stackmat work by touching your hand to the pad, once you raise your hand, the timer will start to counting. It will stop if you touch the pad again.
 
-
 ## Define the basic function (and/or feature) to solve the problem
 
 Based on the problem, I want my app have this functions at the minimum:
@@ -31,6 +30,8 @@ Based on the problem, I want my app have this functions at the minimum:
 Once you have the basic function of your app, it's time to draw some wireframe or mockup. You can use any software you like. Figma, Excalidraw, anything that works for you. The main goal here is to have a visual reference while you are developing the app.
 
 Here is my wireframe that I designed by using Excalidraw:
+
+<img src="/images/louca23part2-wireframe.png"/>
 
 
 
