@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine learning on Blog</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in Machine learning on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0700</lastBuildDate><atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tensorflow GPU on Nvidia 1660 Ti</title>
+      <link>/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</guid>
+      <description>Although my GPU is not listed here, I can confirm that 1660 Ti works. The machine learning training is now significantly faster than using CPU.
+➜ imagerec git:(updated-deps) ✗ nvidia-smi Tue May 5 15:00:40 2020 +-----------------------------------------------------------------------------+ | NVIDIA-SMI 440.33.01 Driver Version: 440.33.01 CUDA Version: 10.2 | |-------------------------------+----------------------+----------------------+ | GPU Name Persistence-M| Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap| Memory-Usage | GPU-Util Compute M. | |===============================+======================+======================| | 0 GeForce GTX 166.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>EJBCA Beginner Guide: From CA to Certificate Enrollment | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">EJBCA Beginner Guide: From CA to Certificate Enrollment</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2020/11/22</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/x509">x509</a>, 
+        <a href="/tags/pki">PKI</a>, 
+        <a href="/tags/ejbca">EJBCA</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example:</p>
+<blockquote>
+CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification.
+</blockquote>
+<p>This post is not the best practice example but it can introduce you to how EJBCA works. Let&rsquo;s go.</p>
+<h2 id="ejbca-preparation-on-local-environment">EJBCA Preparation on local environment</h2>
+<p><code>docker-compose.yaml</code>:</p>
+<pre tabindex="0"><code>version: &#39;3&#39;
+
+services:
+  db:
+    image: postgres:13-alpine
+    env_file: .env
+    restart: always
+    volumes:
+     - ./data:/data
+
+  ejbca:
+    image: primekey/ejbca-ce:6.15.2.6
+    env_file: .env
+    restart: always
+    ports:
+      - 80:8080
+      - 443:8443
+    depends_on:
+      - db
+</code></pre><p><code>.env</code>:</p>
+<pre tabindex="0"><code># EJBCA
+TLS_SETUP_ENABLED=simple
+DATABASE_USER=postgres
+DATABASE_PASSWORD=kLTPk5Ty9K3JHykCS38YBHDTVwXkVCgjsQs7HaT8wwT5VcY5G54tMbSNt6uCEztM
+DATABASE_JDBC_URL=jdbc:postgresql://db/postgres
+
+# DB
+POSTGRES_PASSWORD=kLTPk5Ty9K3JHykCS38YBHDTVwXkVCgjsQs7HaT8wwT5VcY5G54tMbSNt6uCEztM
+PGDATA=&#34;/data&#34;
+</code></pre><p>Spin them up with <code>docker-compose up -d --force-recreate</code>. It&rsquo;ll take some minutes until EJBCA is ready to serve you.</p>
+<p>Some notes:</p>
+<ul>
+<li>Add <code>127.0.0.1 ejbca</code> to your <code>/etc/hosts</code> as the ejbca declared itself on <code>ejbca</code> hostname/domain.</li>
+<li>Make sure you can access <code>https://ejbca/ejbca/adminweb/</code> without problem.</li>
+</ul>
+<h2 id="issuing-root-ca">Issuing Root CA</h2>
+<ul>
+<li>On EJBCA Admin Web interface, go to CA Functions -&gt; Certificate Authorities.</li>
+<li>On <code>Add CA</code> form, write your Root CA common name, e.g. <code>AgunoRootCA</code>, then click <code>Create</code></li>
+<li>You&rsquo;ll be redirected to complicated form of issuing CA.</li>
+<li>Leave the default values as is except for:
+<ul>
+<li>CA Serial Number Octet Size: 20</li>
+<li>Validity: set it to <code>10y</code></li>
+<li>Issuing Distribution Point on CRLs: Use</li>
+<li>Default CA defined validation data: click all <code>Generate</code> buttons in this section, then change  the <code>localhost</code> strings to <code>ejbca</code>.</li>
+<li>Monitor if CA active (healthcheck): Activate</li>
+</ul>
+</li>
+<li>Then click <code>Create</code> button.</li>
+<li>At this point, you have two CAs:
+<ul>
+<li>ManagementCA</li>
+<li>AgunoRootCA</li>
+</ul>
+</li>
+</ul>
+<h2 id="issuing-intermediate-ca">Issuing Intermediate CA</h2>
+<ul>
+<li>Do the same again as above except:
+<ul>
+<li>The CA name is <code>AgunoIntermediateCA</code></li>
+<li>Leave the default values but set some values as above and:
+<ul>
+<li>CA Certificate Data, Signed By: AgunoRootCA</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>At this point, you have three CAs:
+<ul>
+<li>ManagementCA</li>
+<li>AgunoRootCA</li>
+<li>AgunoIntermediateCA</li>
+</ul>
+</li>
+</ul>
+<h2 id="preparing-certificate-profiles">Preparing Certificate Profiles</h2>
+<p>Any attempt of issuing new certificate will require a certificate profile that define what kind of certificate that will be created. Let&rsquo;s assume that we want to create certificate profile for high education institutions and it will be used to signing <code>ijazah</code>. Let&rsquo;s name it HIGHEDUINSTITUTION.</p>
+<ul>
+<li>On EJBCA Admin Web interface, go to CA Functions -&gt; Certificate Profiles.</li>
+<li>At the end of the list, enter your profile name, <code>HIGHEDUINSTITUTION</code>, click <code>Add</code></li>
+<li>It&rsquo;ll be added to the list, now click <code>Edit</code> button as we need to modify some values. IMPORTANT NOTE: If you want to multiple select some values, press and hold Shift button or the previous selected values will be loss.</li>
+<li>Now please set some values on this field :
+<ul>
+<li>Available Key Algorithms: select ONLY <code>RSA</code>, we need to make it broadly compatible.</li>
+<li>Available Bit Lengths: select ONLY <code>4096 bits</code></li>
+<li>Validity or end date of the certificate: <code>5y</code></li>
+<li>Extended Key Usage: Use, Critical, select ONLY <code>PDF Signing</code></li>
+<li>Available CAs: select ONLY AgunoIntermediateCA</li>
+</ul>
+</li>
+<li>Click <code>Save</code> button</li>
+</ul>
+<h2 id="preparing-end-entity-profile">Preparing End Entity Profile</h2>
+<p>Certificate Profile defines the technical aspects of the certificate. On the other hand, EEP defines the entity aspects that related to identity.</p>
+<ul>
+<li>Go to RA Functions -&gt; End Entity Profiles</li>
+<li>On <code>Add Profile</code> form, type your profile name, e.g. <code>HIGHEDUINSTITUTION</code> (same as the certificate profile name), then click the <code>Add</code> button.</li>
+<li>After it added to the list, click the item then click <code>Edit End Entity Profile</code> button.</li>
+<li>You&rsquo;ll be redirected to (again) a complicated form. Leave it as is but modify some values:
+<ul>
+<li>Password: Required</li>
+<li>Other subject attributes: Remove all attributes</li>
+<li>Default Certificate Profile : <code>HIGHENDINSTITUTION</code></li>
+<li>Available Certificate Profiles: select ONLY <code>HIGHENDINSTITUTION</code></li>
+<li>Default CA: <code>AgunoIntermediateCA</code></li>
+<li>Available CAs: select ONLY <code>AgunoIntermediateCA</code></li>
+<li>Default Token: <code>P12</code></li>
+<li>Available Tokens: select ONLY <code>P12</code></li>
+</ul>
+</li>
+<li>Click save</li>
+<li>At this point, you have three CAs, a configured certificate profile and a configured entity profile. You&rsquo;re ready to enroll new certificate for education institutions.</li>
+</ul>
+<h2 id="lets-try-to-issuing-and-enrolling-a-new-certificate-for-education-institution">Let&rsquo;s try to issuing and enrolling a new certificate for education institution</h2>
+<ul>
+<li>On EJBCA Web Admin interface, go to RA Functions -&gt; Add End Entity</li>
+<li>On <code>End Entity Profile</code> field, select <code>HIGHEDUINSTITUTION</code>, the form will be adjusted according to our end entity profile configuration.</li>
+<li>Enter your entity information, e.g.:
+<ul>
+<li>Username: <code>ugmacid</code></li>
+<li>Password: enter the password for enrollment</li>
+<li>E-mail address <code>administration@ugm.ac.id</code></li>
+<li>CN/Common name <code>ugmacid</code></li>
+</ul>
+</li>
+<li>Leave other values as is.</li>
+<li>Click <code>Add</code> button.</li>
+</ul>
+<p>Let&rsquo;s enroll the certificate</p>
+<ul>
+<li>Go to https://ejbca/ejbca/, this is the public interface of the EJBCA instance.</li>
+<li>On <code>Enroll</code> section, click <code>Create Browser Certificate</code></li>
+<li>Enter the username and Enrollment code (password)</li>
+<li>You&rsquo;ll be asked for confirmation, click <code>Enroll</code> button</li>
+<li>A P12 file will be downloaded to your computer, it&rsquo;s protected by passphrase. Use the password as passphrase.</li>
+</ul>
+<p>At this point, you may check the new issued certificate against the certificate chain.</p>
+<h2 id="next-post">Next post</h2>
+<p>I&rsquo;ll write about authentication, roles and security on maintaining EJBCA instance.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

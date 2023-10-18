@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management on Blog</title>
+    <link>/tags/management/</link>
+    <description>Recent content in Management on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0700</lastBuildDate><atom:link href="/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab Productivity Tracking: Know How Your Team Breathing</title>
+      <link>/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</guid>
+      <description>How do I know if my team performs well? How to tell that with data? If we&amp;rsquo;re underperformed or didn&amp;rsquo;t meet the deadline, how to find the causes and tackle them? I was thinking about analyzing the entire activities in my team to get some insights, starting from GitLab issues.
+I put some filters to the issues:
+Has been assigned to someone Has mentioned in (at least one) a merge request Has been closed The entire time spent (from open to closed) is less than two weeks (some issues were created as reference or documentation which sometimes took a bit long to be resolved) For each, I fetch the:</description>
+    </item>
+    
+  </channel>
+</rss>

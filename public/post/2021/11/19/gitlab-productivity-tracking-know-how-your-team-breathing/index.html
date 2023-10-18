@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>GitLab Productivity Tracking: Know How Your Team Breathing | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">GitLab Productivity Tracking: Know How Your Team Breathing</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2021/11/19</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/productivity">Productivity</a>, 
+        <a href="/tags/management">Management</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>How do I know if my team performs well? How to tell that with data? If we&rsquo;re underperformed or didn&rsquo;t meet the deadline, how to find the causes and tackle them? I was thinking about analyzing the entire activities in my team to get some insights, starting from GitLab issues.</p>
+<p>I put some filters to the issues:</p>
+<ul>
+<li>Has been assigned to someone</li>
+<li>Has mentioned in (at least one) a merge request</li>
+<li>Has been closed</li>
+<li>The entire time spent (from open to closed) is less than two weeks (some issues were created as reference or documentation which sometimes took a bit long to be resolved)</li>
+</ul>
+<p>For each, I fetch the:</p>
+<ul>
+<li>Notes, contains activities of the issue, including comments, assignments, etc. There is a timestamp for each assignment activity.</li>
+<li>Merge requests to the particular issue. They contain the timestamp of created and merged events which are very useful to get insight from the dev side.</li>
+</ul>
+<p>From 500 issues sorted by the latest updated (by the boundaries above), they narrowed down to 113 issues.</p>
+<p>By using this data, I could aggregate it to get the duration of the activities for each issue:</p>
+<ul>
+<li>From opened to closed, which represents the lifetime of an issue.</li>
+<li>From opened to picked by/assigned to someone.</li>
+<li>From assigned to the first merge request, which represents how long devs finished their jobs.</li>
+<li>From merge request creation to a merged event, which represents how long peer to peer review process and revisions (if any) take time.</li>
+<li>From merged to issue get closed, which represents how long the QA took over the issue and test them.</li>
+</ul>
+<p>I wrote them into a single script: <a href="https://gist.github.com/herpiko/b5aa126e29f5f2ad15c4ff481bf5aee8">https://gist.github.com/herpiko/b5aa126e29f5f2ad15c4ff481bf5aee8</a>. There is a lot more area to explore. Of course, this setup has some inaccuracy as there were so many things that happened in the team but let&rsquo;s see the early insight first, shall we?</p>
+<img src="/images/2021-11-19-gitlab-productivity-tracking-median.png"/>
+<img src="/images/2021-11-19-gitlab-productivity-tracking-mean.png"/>
+<p>There were some bottlenecks:</p>
+<ul>
+<li>The developers took too long to get merge requests merged into our main branches. It&rsquo;s a bit tricky and has a trade-off. You can stop your coding session to help your coworker by reviewing their patches immediately then you get a costly context switch here. Or you can ignore it, let your job done first then take a look at the patches later which may impact the issue cycle a lot.</li>
+<li>QAs (which at the time they were also handling the other stuff) have a hard time testing it. The single issue should take less than an hour to test but the QAs have not picked it for days until they have time or until the deadline came nearer.</li>
+</ul>
+<p>In the last step, let&rsquo;s gather the team and talk.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

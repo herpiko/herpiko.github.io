@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opentracing on Blog</title>
+    <link>/tags/opentracing/</link>
+    <description>Recent content in Opentracing on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/opentracing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datadog APM Tracing in Golang</title>
+      <link>/post/2023/03/07/datadog-apm-tracing-in-golang/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/03/07/datadog-apm-tracing-in-golang/</guid>
+      <description>Motivation and Concept APM (Application Performance Monitoring) tools like Datadog are important for our system because they provide valuable insights into the performance, behavior, and security of our applications. They allow us to identify performance issues in real-time, improve application performance, troubleshoot problems, plan capacity, and identify security vulnerabilities.
+The performance tracing implementation is done by:
+Running an agent beside your service(s). One agent could be used by several services. The agent acts as gateway to send data to Datadog APIs.</description>
+    </item>
+    
+  </channel>
+</rss>

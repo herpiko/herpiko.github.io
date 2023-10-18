@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>x509 on Blog</title>
+    <link>/tags/x509/</link>
+    <description>Recent content in x509 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0700</lastBuildDate><atom:link href="/tags/x509/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EJBCA Beginner Guide: From CA to Certificate Enrollment</title>
+      <link>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</guid>
+      <description>X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example:
+CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification. This post is not the best practice example but it can introduce you to how EJBCA works.</description>
+    </item>
+    
+  </channel>
+</rss>

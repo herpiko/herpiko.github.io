@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptocurrency on Blog</title>
+    <link>/tags/cryptocurrency/</link>
+    <description>Recent content in Cryptocurrency on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0700</lastBuildDate><atom:link href="/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptocurrency Mining</title>
+      <link>/post/2021/10/11/cryptocurrency-mining/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2021/10/11/cryptocurrency-mining/</guid>
+      <description>After a year of having mining-capable GPU for gaming and despite the EIP 1559 plan, I decided to join the bandwagon in the end of April. Then I added some GPUs. Still, it&amp;rsquo;s a small rig. Quite late but I still got much profit. In this October I sold the rig and left with the 1660 Ti so I could continue to play video games. Some of the reasons:
+The daily profit is low in recent days Some miners began to sell their GPUs while the GPU prices spiked again There is a difficulity bomb in Ethereum that will be dropped in December (but maybe get postponed https://ambcrypto.</description>
+    </item>
+    
+  </channel>
+</rss>

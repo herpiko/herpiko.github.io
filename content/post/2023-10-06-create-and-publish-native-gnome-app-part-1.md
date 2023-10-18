@@ -1,5 +1,5 @@
 ---
-title: Create and Publish Your Native GNOME App - Part 1
+title: Create Your First Native GNOME App and Publish to Ubuntu Software - Part 1
 date:   2023-07-23 00:00:00Z
 categories:
   - Tech
@@ -125,4 +125,4 @@ Audience matters. Equality matters. Diversity matters. The competition that happ
 
 Actually, my original reason to include Snap in my talk is to increase the chance of my subbmission being approved by the UbuCon commitee. But along the way when I preparing my talk and playing around with Snapcraft, I learned a lot about Snap and admit that Snap is also playing an important role in the Linux ecosystem and community.
 
-See you in the next part!
+See you in <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/">the next part!</a>

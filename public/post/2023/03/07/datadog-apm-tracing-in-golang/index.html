@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Datadog APM Tracing in Golang | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Datadog APM Tracing in Golang</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2023/03/07</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/opentracing">Opentracing</a>, 
+        <a href="/tags/cloudnative">CloudNative</a>, 
+        <a href="/tags/datadog">Datadog</a>, 
+        <a href="/tags/sre">SRE</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <h2 id="motivation-and-concept">Motivation and Concept</h2>
+<p>APM (Application Performance Monitoring) tools like Datadog are important for our system because they provide valuable insights into the  performance, behavior, and security of our applications. They allow us  to identify performance issues in real-time, improve application  performance, troubleshoot problems, plan capacity, and identify security  vulnerabilities.</p>
+<p>The performance tracing implementation is done by:</p>
+<ul>
+<li>Running an agent beside your service(s). One agent could be used by several services. The agent acts as gateway to send data to Datadog APIs.</li>
+<li>Inject the tracer inside your app.
+<ul>
+<li>For monitoring a casual HTTP service, by default the tracer will watch each request that comes to the router.</li>
+<li>For deep performance monitoring, custom instrumentation is possible, deep down to SQL queries.</li>
+<li>Inter-service performance monitoring is also possible, see Distributed Tracing below.</li>
+</ul>
+</li>
+</ul>
+<p>The yellow-colored parts are the ones that you need to setup,</p>
+<p><img src="/images/2023-03-07-datadog-apm-concept.png" alt="Datadog APM concept" title="Datadog APM concept"></p>
+<h2 id="examples">Examples</h2>
+<p>First, get your DATADOG _API_KEY then run the agent,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d --cgroupns host <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              --pid host <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /var/run/docker.sock:/var/run/docker.sock:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /proc/:/host/proc/:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -p 127.0.0.1:8126:8126/tcp <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -e DD_API_KEY<span style="color:#f92672">=</span>&lt;DATADOG_API_KEY&gt; <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -e DD_APM_ENABLED<span style="color:#f92672">=</span>true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              gcr.io/datadoghq/agent:latest
+</span></span></code></pre></div><p>This is the basic example of <code>ddtrace</code> implementation for <code>go-chi</code>,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;net/http&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;github.com/go-chi/chi/v5&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;github.com/go-chi/chi/v5/middleware&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">ddchi</span> <span style="color:#e6db74">&#34;gopkg.in/DataDog/dd-trace-go.v1/contrib/go-chi/chi.v5&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">welcome</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">w</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#e6db74">&#34;Hello world!&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Start</span>() <span style="color:#75715e">// Start the tracer daemon
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">chi</span>.<span style="color:#a6e22e">NewRouter</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">ddchi</span>.<span style="color:#a6e22e">Middleware</span>()) <span style="color:#75715e">// Inject the tracer
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">middleware</span>.<span style="color:#a6e22e">Logger</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;/hello&#34;</span>, <span style="color:#a6e22e">welcome</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8000&#34;</span>, <span style="color:#a6e22e">r</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then run the service by pointing out the agent through <code>DD_AGENT_HOST</code> envar,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ DD_AGENT_HOST<span style="color:#f92672">=</span>localhost go run single/main.go
+</span></span></code></pre></div><p>If you try to hit http://localhost:8000/hello  several times, the traced data will be shown in Datadog APM dashboard.</p>
+<p><img src="/images/2023-03-07-datadog-apm-items.png" alt=""></p>
+<h3 id="custom-instrument">Custom Instrument</h3>
+<p>Custom instruments allow us to get deep insight into the performance of our service. Imagine the <code>/hello</code> endpoint has to call another function like this</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">functionA</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">welcome</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionA</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">w</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#e6db74">&#34;Hello world!&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I did intentionally put some delays to simulate bottlenecked situations.</p>
+<h3 id="nested-flamegraph">Nested flamegraph</h3>
+<p>At the code below I put <code>tracer.StartSpanFromContext</code> at the start of the function. You can see <code>r.Context()</code> is passed to another function. This context contains important tracing metadata like <code>process-id</code> and r<code>untime-id</code> that helped Datadog to build visual flamegraph of your performance profiling later.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">functionA</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpanFromContext</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#e6db74">&#34;functionA&#34;</span>, <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;someParam&#34;</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">welcome</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionA</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Context</span>())
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">w</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#e6db74">&#34;Hello world!&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>If you try to hit the endpoint, you&rsquo;ll see the functionA() bottlenecked our /hello endpoint:</p>
+<p><img src="/images/2023-03-07-datadog-nested-flamegraph.png" alt=""></p>
+<h3 id="synchronous-execution">Synchronous execution</h3>
+<p>The sibling process in flamegraph is also possible, assuming that <code>functionA()</code> and <code>functionB()</code> are executed in sync and <code>functionC()</code> is nested under <code>functionB()</code>, consider this example code,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">functionA</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpanFromContext</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#e6db74">&#34;functionA&#34;</span>, <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;someParam&#34;</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">functionB</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span>, <span style="color:#a6e22e">ctx</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpanFromContext</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#e6db74">&#34;functionA&#34;</span>, <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;someParam&#34;</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionC</span>(<span style="color:#a6e22e">ctx</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">functionC</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpanFromContext</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#e6db74">&#34;functionA&#34;</span>, <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;someParam&#34;</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">welcome</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionA</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Context</span>())
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionB</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Context</span>())
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Millisecond</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">w</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#e6db74">&#34;Hello world!&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can see that <code>r.Context</code> is passed  twice, then it passes again under <code>functionB()</code> to <code>functionC()</code>. This kind of context-passing will build a flamegraph like this:</p>
+<p><img src="/images/2023-03-07-datadog-sync-execution.png" alt=""></p>
+<h3 id="database-performance">Database performance</h3>
+<p>Tracing the database query performance is done by wrapping the database driver like this,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>        <span style="color:#a6e22e">sqltrace</span> <span style="color:#e6db74">&#34;gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">sqltrace</span>.<span style="color:#a6e22e">Register</span>(<span style="color:#e6db74">&#34;pq&#34;</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">pq</span>.<span style="color:#a6e22e">Driver</span>{}, <span style="color:#a6e22e">sqltrace</span>.<span style="color:#a6e22e">WithServiceName</span>(<span style="color:#e6db74">&#34;postgres&#34;</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">db</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sqltrace</span>.<span style="color:#a6e22e">Open</span>(<span style="color:#e6db74">&#34;postgres&#34;</span>, <span style="color:#a6e22e">args</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>                panic(<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Error</span>())
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div><p>Then instead of executing a query like this,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>        <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">Query</span>(<span style="color:#a6e22e">statement</span>)
+</span></span></code></pre></div><p>Now you have to append <code>Context</code> to the function name and pass the <code>context.Context</code> object.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>        <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">QueryContext</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">statement</span>)
+</span></span></code></pre></div><p>Also applied to other database functions (<code>QueryRow()</code> to <code>QueryRowContext()</code>, <code>Exec()</code> to <code>ExecContext()</code> and so on)</p>
+<h3 id="distributed-tracing">Distributed Tracing</h3>
+<p>Distributed tracing will provide inter-service flamegraph so you can inspect your services performance end to end through several services. To do this, you have to pass the context by using wrapped HTTP client and propagated context. Please take a look at this code of, let&rsquo;s say, serviceA:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>        <span style="color:#a6e22e">httptrace</span> <span style="color:#e6db74">&#34;gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">httpClient</span> = <span style="color:#a6e22e">httptrace</span>.<span style="color:#a6e22e">WrapClient</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Client</span>{})
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">NewRequest</span>(<span style="color:#e6db74">&#34;GET&#34;</span>, <span style="color:#e6db74">&#34;http://service-b/hello&#34;</span>, <span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">req</span> = <span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">WithContext</span>(<span style="color:#a6e22e">ctx</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">carrier</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">opentracing</span>.<span style="color:#a6e22e">HTTPHeadersCarrier</span>(<span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">Header</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">_</span> = <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Inject</span>(<span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Context</span>(), <span style="color:#a6e22e">carrier</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">httpClient</span>.<span style="color:#a6e22e">Do</span>(<span style="color:#a6e22e">req</span>)
+</span></span></code></pre></div><p>Then the HTTP handler in serviceB,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">hello</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Extract from propagated context
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">spanCtx</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Extract</span>(<span style="color:#a6e22e">opentracing</span>.<span style="color:#a6e22e">HTTPHeadersCarrier</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Header</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpan</span>(<span style="color:#e6db74">&#34;dummyhelloservice&#34;</span>, <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;/hello&#34;</span>), <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ChildOf</span>(<span style="color:#a6e22e">spanCtx</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;CONTEXT %+v&#34;</span>, <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Context</span>())
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">w</span>.<span style="color:#a6e22e">Write</span>([]byte(<span style="color:#e6db74">&#34;Hello World\n&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This inter-service propagated context passing will let Datadog build flamegraph like this:</p>
+<p><img src="/images/2023-03-07-datadog-distributed-tracing-1.png" alt=""></p>
+<p>If there is something sit between the services (e.g. a proxy or gateway), this something must support context propagation. Some known proxy that have this feature/plugin/extension are Nginx and EnvoyProxy.</p>
+<h2 id="impact-to-the-codebase">Impact to the codebase</h2>
+<p><img src="/images/2023-03-07-datadog-impact-to-codebase.png" alt=""></p>
+<p>You have to get used to using context.Context and always consider each time you write a function, whether you want to trace the performance or not.</p>
+<p>For system-wide implementation and to minimize the refactor effort, you can use helper like this,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * To get current function name from a function,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * heavily used by ddtrace implementation.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Usage:
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     pc, _, _, _ := runtime.Caller(0)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     log.Println(utils.GetFunctionName(pc))
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetFunctionName</span>(<span style="color:#a6e22e">pc</span> <span style="color:#66d9ef">uintptr</span>) <span style="color:#66d9ef">string</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">splitted</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Split</span>(<span style="color:#a6e22e">runtime</span>.<span style="color:#a6e22e">FuncForPC</span>(<span style="color:#a6e22e">pc</span>).<span style="color:#a6e22e">Name</span>(), <span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">functionName</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">splitted</span>[len(<span style="color:#a6e22e">splitted</span>)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">functionName</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then put these lines at the start of any functions that you want to trace,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">SomeFunction</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>, <span style="color:#a6e22e">foo</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">pc</span>, <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">runtime</span>.<span style="color:#a6e22e">Caller</span>(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">span</span>, <span style="color:#a6e22e">ctx</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">StartSpanFromContext</span>(
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">ctx</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">utils</span>.<span style="color:#a6e22e">GetFunctionName</span>(<span style="color:#a6e22e">pc</span>),
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">ResourceName</span>(<span style="color:#e6db74">&#34;someParam&#34;</span>),
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">span</span>.<span style="color:#a6e22e">Finish</span>()
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span></code></pre></div><p>Please remember to pass the context.Context as you need. Losing the context means losing the correct flamegraph representation.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embedded on Blog</title>
+    <link>/tags/embedded/</link>
+    <description>Recent content in Embedded on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMK Firmware in M1</title>
+      <link>/post/2023/04/02/qmk-firmware-in-m1/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/04/02/qmk-firmware-in-m1/</guid>
+      <description>Running ./util/qmk_install.sh won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:
+$ arch -x86_64 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; $ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk After that, qmk is accessible from anywhere, even from non-rosetta terminal session.
+This is UNK after being flashed directly from a M1 computer:
+Happy hacking!</description>
+    </item>
+    
+  </channel>
+</rss>

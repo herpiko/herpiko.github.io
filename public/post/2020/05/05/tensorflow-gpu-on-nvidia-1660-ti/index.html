@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Tensorflow GPU on Nvidia 1660 Ti | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Tensorflow GPU on Nvidia 1660 Ti</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2020/05/05</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/machine-learning">Machine learning</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <img src="/images/2020-05-05-1660ti.jpg"/>
+<p>Although my GPU <a href="https://developer.nvidia.com/cuda-gpus#compute">is not listed here</a>, I can confirm that 1660 Ti works. The machine learning training is now significantly faster than using CPU.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>➜  imagerec git:<span style="color:#f92672">(</span>updated-deps<span style="color:#f92672">)</span> ✗ nvidia-smi
+</span></span><span style="display:flex;"><span>Tue May  <span style="color:#ae81ff">5</span> 15:00:40 <span style="color:#ae81ff">2020</span>
+</span></span><span style="display:flex;"><span>+-----------------------------------------------------------------------------+
+</span></span><span style="display:flex;"><span>| NVIDIA-SMI 440.33.01    Driver Version: 440.33.01    CUDA Version: 10.2     |
+</span></span><span style="display:flex;"><span>|-------------------------------+----------------------+----------------------+
+</span></span><span style="display:flex;"><span>| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+</span></span><span style="display:flex;"><span>| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+</span></span><span style="display:flex;"><span>|<span style="color:#f92672">===============================</span>+<span style="color:#f92672">======================</span>+<span style="color:#f92672">======================</span>|
+</span></span><span style="display:flex;"><span>|   <span style="color:#ae81ff">0</span>  GeForce GTX 166...  On   | 00000000:01:00.0  On |                  N/A |
+</span></span><span style="display:flex;"><span>| 32%   35C    P8    12W / 130W |    293MiB /  5941MiB |      2%      Default |
+</span></span><span style="display:flex;"><span>+-------------------------------+----------------------+----------------------+
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+-----------------------------------------------------------------------------+
+</span></span><span style="display:flex;"><span>| Processes:                                                       GPU Memory |
+</span></span><span style="display:flex;"><span>|  GPU       PID   Type   Process name                             Usage      |
+</span></span><span style="display:flex;"><span>|<span style="color:#f92672">=============================================================================</span>|
+</span></span><span style="display:flex;"><span>|    <span style="color:#ae81ff">0</span>      <span style="color:#ae81ff">1549</span>      G   /usr/lib/xorg/Xorg                            18MiB |
+</span></span><span style="display:flex;"><span>|    <span style="color:#ae81ff">0</span>      <span style="color:#ae81ff">1953</span>      G   /usr/bin/gnome-shell                          48MiB |
+</span></span><span style="display:flex;"><span>|    <span style="color:#ae81ff">0</span>      <span style="color:#ae81ff">2592</span>      G   /usr/lib/xorg/Xorg                           108MiB |
+</span></span><span style="display:flex;"><span>|    <span style="color:#ae81ff">0</span>      <span style="color:#ae81ff">2725</span>      G   /usr/bin/gnome-shell                         114MiB |
+</span></span><span style="display:flex;"><span>+-----------------------------------------------------------------------------+
+</span></span><span style="display:flex;"><span>➜  imagerec git:<span style="color:#f92672">(</span>updated-deps<span style="color:#f92672">)</span> ✗ python
+</span></span><span style="display:flex;"><span>Python 3.7.7 <span style="color:#f92672">(</span>default, May  <span style="color:#ae81ff">5</span> 2020, 04:20:38<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>GCC 7.5.0<span style="color:#f92672">]</span> on linux
+</span></span><span style="display:flex;"><span>Type <span style="color:#e6db74">&#34;help&#34;</span>, <span style="color:#e6db74">&#34;copyright&#34;</span>, <span style="color:#e6db74">&#34;credits&#34;</span> or <span style="color:#e6db74">&#34;license&#34;</span> <span style="color:#66d9ef">for</span> more information.
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; from tensorflow.python.client import device_lib
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:16.900600: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libnvinfer.so.6
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:16.901543: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libnvinfer_plugin.so.6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; device_lib.list_local_devices<span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.071110: I tensorflow/core/platform/cpu_feature_guard.cc:142<span style="color:#f92672">]</span> Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.100259: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94<span style="color:#f92672">]</span> CPU Frequency: <span style="color:#ae81ff">3692985000</span> Hz
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.100906: I tensorflow/compiler/xla/service/service.cc:168<span style="color:#f92672">]</span> XLA service 0x55d1bb829330 initialized <span style="color:#66d9ef">for</span> platform Host <span style="color:#f92672">(</span>this does not guarantee that XLA will be used<span style="color:#f92672">)</span>. Devices:
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.100968: I tensorflow/compiler/xla/service/service.cc:176<span style="color:#f92672">]</span>   StreamExecutor device <span style="color:#f92672">(</span>0<span style="color:#f92672">)</span>: Host, Default Version
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.105053: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcuda.so.1
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.217053: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.217492: I tensorflow/compiler/xla/service/service.cc:168<span style="color:#f92672">]</span> XLA service 0x55d1bb8b7590 initialized <span style="color:#66d9ef">for</span> platform CUDA <span style="color:#f92672">(</span>this does not guarantee that XLA will be used<span style="color:#f92672">)</span>. Devices:
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.217525: I tensorflow/compiler/xla/service/service.cc:176<span style="color:#f92672">]</span>   StreamExecutor device <span style="color:#f92672">(</span>0<span style="color:#f92672">)</span>: GeForce GTX <span style="color:#ae81ff">1660</span> Ti, Compute Capability 7.5
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.217760: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.218479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555<span style="color:#f92672">]</span> Found device <span style="color:#ae81ff">0</span> with properties:
+</span></span><span style="display:flex;"><span>pciBusID: 0000:01:00.0 name: GeForce GTX <span style="color:#ae81ff">1660</span> Ti computeCapability: 7.5
+</span></span><span style="display:flex;"><span>coreClock: 1.86GHz coreCount: <span style="color:#ae81ff">24</span> deviceMemorySize: 5.80GiB deviceMemoryBandwidth: 268.26GiB/s
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.218590: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcudart.so.10.1
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.218654: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcublas.so.10
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.220646: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcufft.so.10
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.221035: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcurand.so.10
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.223176: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcusolver.so.10
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.224561: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcusparse.so.10
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.224651: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcudnn.so.7
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.224857: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.225935: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.226839: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697<span style="color:#f92672">]</span> Adding visible gpu devices: <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.226907: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span style="color:#f92672">]</span> Successfully opened dynamic library libcudart.so.10.1
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.443386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096<span style="color:#f92672">]</span> Device interconnect StreamExecutor with strength <span style="color:#ae81ff">1</span> edge matrix:
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.443435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102<span style="color:#f92672">]</span>      <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.443446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115<span style="color:#f92672">]</span> 0:   N
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.443650: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.444083: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981<span style="color:#f92672">]</span> successful NUMA node read from SysFS had negative value <span style="color:#f92672">(</span>-1<span style="color:#f92672">)</span>, but there must be at least one NUMA node, so returning NUMA node zero
+</span></span><span style="display:flex;"><span>2020-05-05 15:01:21.444563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241<span style="color:#f92672">]</span> Created TensorFlow device <span style="color:#f92672">(</span>/device:GPU:0 with <span style="color:#ae81ff">5176</span> MB memory<span style="color:#f92672">)</span> -&gt; physical GPU <span style="color:#f92672">(</span>device: 0, name: GeForce GTX <span style="color:#ae81ff">1660</span> Ti, pci bus id: 0000:01:00.0, compute capability: 7.5<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>name: <span style="color:#e6db74">&#34;/device:CPU:0&#34;</span>
+</span></span><span style="display:flex;"><span>device_type: <span style="color:#e6db74">&#34;CPU&#34;</span>
+</span></span><span style="display:flex;"><span>memory_limit: <span style="color:#ae81ff">268435456</span>
+</span></span><span style="display:flex;"><span>locality <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>incarnation: <span style="color:#ae81ff">7827239615455337760</span>
+</span></span><span style="display:flex;"><span>, name: <span style="color:#e6db74">&#34;/device:XLA_CPU:0&#34;</span>
+</span></span><span style="display:flex;"><span>device_type: <span style="color:#e6db74">&#34;XLA_CPU&#34;</span>
+</span></span><span style="display:flex;"><span>memory_limit: <span style="color:#ae81ff">17179869184</span>
+</span></span><span style="display:flex;"><span>locality <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>incarnation: <span style="color:#ae81ff">9475332420332566901</span>
+</span></span><span style="display:flex;"><span>physical_device_desc: <span style="color:#e6db74">&#34;device: XLA_CPU device&#34;</span>
+</span></span><span style="display:flex;"><span>, name: <span style="color:#e6db74">&#34;/device:XLA_GPU:0&#34;</span>
+</span></span><span style="display:flex;"><span>device_type: <span style="color:#e6db74">&#34;XLA_GPU&#34;</span>
+</span></span><span style="display:flex;"><span>memory_limit: <span style="color:#ae81ff">17179869184</span>
+</span></span><span style="display:flex;"><span>locality <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>incarnation: <span style="color:#ae81ff">11551463581523616297</span>
+</span></span><span style="display:flex;"><span>physical_device_desc: <span style="color:#e6db74">&#34;device: XLA_GPU device&#34;</span>
+</span></span><span style="display:flex;"><span>, name: <span style="color:#e6db74">&#34;/device:GPU:0&#34;</span>
+</span></span><span style="display:flex;"><span>device_type: <span style="color:#e6db74">&#34;GPU&#34;</span>
+</span></span><span style="display:flex;"><span>memory_limit: <span style="color:#ae81ff">5427691520</span>
+</span></span><span style="display:flex;"><span>locality <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  bus_id: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  links <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>incarnation: <span style="color:#ae81ff">634448236828243524</span>
+</span></span><span style="display:flex;"><span>physical_device_desc: <span style="color:#e6db74">&#34;device: 0, name: GeForce GTX 1660 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt;
+</span></span></code></pre></div><p>Using CPU,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python train.py  32,29s user 6,06s system 333% cpu 11,514 total
+</span></span></code></pre></div><p>Using GPU,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>GPU<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> python train.py  7,73s user 2,09s system 109% cpu 8,959 total
+</span></span></code></pre></div><p>The setup is quite complex with various errors and version missmatches. I let myself to symlink different version of CUDA/cuDNN libraries.</p>
+<p>If you&rsquo;re planning to buy a GPU to support your machine learning project, I suggest you to pick a RTX graphics card. It&rsquo;s tremendously faster with built-in tensor cores. Unlimited budget? <a href="https://www.nvidia.com/en-us/data-center/dgx-station/">Here you go</a>.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

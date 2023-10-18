@@ -1,5 +1,5 @@
 ---
-title: Create and Publish Your Native GNOME App - Part 3
+title: Create Your First Native GNOME App and Publish to Ubuntu Software - Part 3
 date:   2023-07-23 00:02:00Z
 categories:
   - Tech
@@ -7,7 +7,7 @@ tags:
   - GNOME
 ---
 
-This article is part 3 of my blog series on how to create and build your native GNOME app. If you are missing the previous part, please click here.
+This article is part 3 of my blog series on how to create and build your native GNOME app. If you are missing the previous parts, please visit the <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/">part 2</a> or <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/">part 1</a>
 
 In this third part, I will write about the development phase where you will interact with programming language.
 

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMK Firmware in M1</title>
+      <link>/post/2023/04/02/qmk-firmware-in-m1/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/04/02/qmk-firmware-in-m1/</guid>
+      <description>Running ./util/qmk_install.sh won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:
+$ arch -x86_64 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; $ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk After that, qmk is accessible from anywhere, even from non-rosetta terminal session.
+This is UNK after being flashed directly from a M1 computer:
+Happy hacking!</description>
+    </item>
+    
+    <item>
+      <title>Datadog APM Tracing in Golang</title>
+      <link>/post/2023/03/07/datadog-apm-tracing-in-golang/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/03/07/datadog-apm-tracing-in-golang/</guid>
+      <description>Motivation and Concept APM (Application Performance Monitoring) tools like Datadog are important for our system because they provide valuable insights into the performance, behavior, and security of our applications. They allow us to identify performance issues in real-time, improve application performance, troubleshoot problems, plan capacity, and identify security vulnerabilities.
+The performance tracing implementation is done by:
+Running an agent beside your service(s). One agent could be used by several services. The agent acts as gateway to send data to Datadog APIs.</description>
+    </item>
+    
+    <item>
+      <title>How I created a pull request on my first day at work</title>
+      <link>/post/2023/03/06/how-i-created-a-pull-request-on-my-first-day-at-work/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/03/06/how-i-created-a-pull-request-on-my-first-day-at-work/</guid>
+      <description>I&amp;rsquo;m not talking about myself regarding the pull request (okay, I&amp;rsquo;ll talk about it a bit at the end of this blog post), there is nothing special about it.
+I want to talk about how a smooth and comprehensive onboarding process could let me create a pull request on the first day at work. All of these onboarding processes were done in less than 4 hours. Kudos for the people who helped me!</description>
+    </item>
+    
+    <item>
+      <title>Memaksimalkan Ryzen 5 5600g untuk Video Game</title>
+      <link>/post/2022/03/23/memaksimalkan-ryzen-5-5600g-untuk-video-game/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2022/03/23/memaksimalkan-ryzen-5-5600g-untuk-video-game/</guid>
+      <description>Setelah menimbang-nimbang cukup lama, akhirnya saya menjual CPU dan GPU saya selagi harganya masih tidak masuk akal, yakni Ryzen 5 3400g di harga 2.5 juta rupiah (harga beli 2 juta rupiah di tahun 2020) dan GTX 1660 Ti di harga 6.6 juta rupiah (harga beli 4 juta rupiah di tahun 2020).
+Terus saya pakai apa, dong? Sesuai judul, saya comot 5600g di harga 3.2 juta rupiah dan tidak menggunakan discrete GPU sampai harga GPU kembali normal.</description>
+    </item>
+    
+    <item>
+      <title>GitLab Productivity Tracking: Know How Your Team Breathing</title>
+      <link>/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</guid>
+      <description>How do I know if my team performs well? How to tell that with data? If we&amp;rsquo;re underperformed or didn&amp;rsquo;t meet the deadline, how to find the causes and tackle them? I was thinking about analyzing the entire activities in my team to get some insights, starting from GitLab issues.
+I put some filters to the issues:
+Has been assigned to someone Has mentioned in (at least one) a merge request Has been closed The entire time spent (from open to closed) is less than two weeks (some issues were created as reference or documentation which sometimes took a bit long to be resolved) For each, I fetch the:</description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency Mining</title>
+      <link>/post/2021/10/11/cryptocurrency-mining/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2021/10/11/cryptocurrency-mining/</guid>
+      <description>After a year of having mining-capable GPU for gaming and despite the EIP 1559 plan, I decided to join the bandwagon in the end of April. Then I added some GPUs. Still, it&amp;rsquo;s a small rig. Quite late but I still got much profit. In this October I sold the rig and left with the 1660 Ti so I could continue to play video games. Some of the reasons:
+The daily profit is low in recent days Some miners began to sell their GPUs while the GPU prices spiked again There is a difficulity bomb in Ethereum that will be dropped in December (but maybe get postponed https://ambcrypto.</description>
+    </item>
+    
+    <item>
+      <title>EJBCA Beginner Guide: From CA to Certificate Enrollment</title>
+      <link>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</guid>
+      <description>X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example:
+CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification. This post is not the best practice example but it can introduce you to how EJBCA works.</description>
+    </item>
+    
+    <item>
+      <title>UNK rev1 Trackpoint Module</title>
+      <link>/post/2020/07/21/unk-rev1-trackpoint-module/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/07/21/unk-rev1-trackpoint-module/</guid>
+      <description>As a person who have been using Thinkpad computers for years, I was always missing the trackpoint feature. I want to type on mechanical keyboard but also I don&amp;rsquo;t willing to dismiss the nipple. There are few solution for this issue: UHK, Tex Yoda, Tex Shinobi. These all are expensive keyboard, the shipping cost alone is crazy.
+Trackpoint module is one of my goals while building UNK and I successfully build it.</description>
+    </item>
+    
+    <item>
+      <title>My First Custom Handwired Keyboard Build: UNK</title>
+      <link>/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</guid>
+      <description>More detail and build logs : https://github.com/herpiko/unk</description>
+    </item>
+    
+    <item>
+      <title>Vim&#39;s Native Multiple Cursors Feature</title>
+      <link>/post/2020/05/15/vims-native-multiple-cursors-feature/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/05/15/vims-native-multiple-cursors-feature/</guid>
+      <description>Sublime Text was my favourite text editor, I&amp;rsquo;ve been following it since its early days. The feature I most liked and can&amp;rsquo;t live without is the multiple cursors selection. Sublime Text lets you to select and edit string on multiple place at once based on pattern that you defined. I think it was a pain killer feature. The thing was that I always want to go back to Vim. The day I found this repository (https://github.</description>
+    </item>
+    
+    <item>
+      <title>Tensorflow GPU on Nvidia 1660 Ti</title>
+      <link>/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
+      
+      <guid>/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</guid>
+      <description>Although my GPU is not listed here, I can confirm that 1660 Ti works. The machine learning training is now significantly faster than using CPU.
+➜ imagerec git:(updated-deps) ✗ nvidia-smi Tue May 5 15:00:40 2020 +-----------------------------------------------------------------------------+ | NVIDIA-SMI 440.33.01 Driver Version: 440.33.01 CUDA Version: 10.2 | |-------------------------------+----------------------+----------------------+ | GPU Name Persistence-M| Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap| Memory-Usage | GPU-Util Compute M. | |===============================+======================+======================| | 0 GeForce GTX 166.</description>
+    </item>
+    
+  </channel>
+</rss>
