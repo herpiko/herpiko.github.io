@@ -21,6 +21,8 @@ tags:
 
 ### The trick
 
+The initial idea is to utilize X11 Forwarding feature from SSH daemon to launch an image viewer remotely on the Steam Deck.
+
 Edit your `/etc/ssh/sshd_config`. Look for this line then change the value from `no` to `yes`
 ```
 X11Forwarding yes
@@ -96,6 +98,8 @@ This is what I need precisely! Let's pull the trigger.
 ```
 (deck@steamdeck ~)$ steam-http-loader https://camo.githubusercontent.com/c0a7bbc3a17e2aecfc514ea0397d1c3241dd4676ac0a2506fdb9657fb36aa6e6/68747470733a2f2f692e7974696d672e636f6d2f76692f524e6f48635745387462512f6d617872657364656661756c742e6a7067
 ```
+
+I believe the Chromium Embbeded Framework (CEF) that used by Steam for its browser engine is capable to play video file as well. You may want to prepare the jumpscare content properly by using video with sound. Just make sure the file size is small so it could be loaded fast.
 
 My first and last victim is my wife. Sorry, dear.
 
