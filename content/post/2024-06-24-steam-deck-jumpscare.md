@@ -52,8 +52,9 @@ Export the main display:
 ```
 
 I was strugling to find an image viewer that is:
-- lightweight
-- not depend on huge library like Qt and GTK
+- Lightweight and fast, the image should be rendered immeadiately and simultaneously with the window decorator.
+- The window decoration is customizable, I want it open in full window/full screen.
+- Not depend on huge and bloated library like Qt and GTK.
 
 Modern Qt app has issue with X11 forwarding.
 ```
@@ -75,7 +76,7 @@ F: Not sharing "/esp" with sandbox: Ignoring blocking autofs path "/esp"
 (loupe:2): Gtk-WARNING **: 23:09:00.913: Failed to open display
 ```
 
-However, any Steam related binary are fine with X11 forwarding. When I typed `steam` then press tab key, a lot of steam-* executable binaries appears. One of them is very interesting.
+However, Steam-related binaries are fine with X11 forwarding. When I typed `steam` then press tab key, a lot of steam-* executable binaries appears. One of them is super interesting.
 
 ```
 (deck@steamdeck ~)$ steam-http-loader -h
