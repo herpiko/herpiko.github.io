@@ -51,7 +51,7 @@ Export the main display:
 (deck@steamdeck ~)$ export DISPLAY=:0
 ```
 
-I was strugling to find an image viewer that is:
+I was strugling to find an image viewer that fit the requirement below:
 - Lightweight and fast, the image should be rendered immeadiately and simultaneously with the window decorator.
 - The window decoration is customizable, I want it open in full window/full screen.
 - Not depend on huge and bloated library like Qt and GTK.
