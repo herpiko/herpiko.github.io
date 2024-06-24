@@ -17,7 +17,9 @@ tags:
 - Disclaimer: I am not responsible for anything. If you are following this guide, this is solely at your own risk.
 
 
-<img src="https://camo.githubusercontent.com/c0a7bbc3a17e2aecfc514ea0397d1c3241dd4676ac0a2506fdb9657fb36aa6e6/68747470733a2f2f692e7974696d672e636f6d2f76692f524e6f48635745387462512f6d617872657364656661756c742e6a7067" caption="The image is from https://github.com/Henry12116/hackee-jumpscare"/>
+<img src="https://camo.githubusercontent.com/c0a7bbc3a17e2aecfc514ea0397d1c3241dd4676ac0a2506fdb9657fb36aa6e6/68747470733a2f2f692e7974696d672e636f6d2f76692f524e6f48635745387462512f6d617872657364656661756c742e6a7067"/>
+
+Image source: https://github.com/Henry12116/hackee-jumpscare
 
 ### The trick
 
