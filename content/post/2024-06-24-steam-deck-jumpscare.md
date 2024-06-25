@@ -105,5 +105,5 @@ This works both in Gaming mode and Desktop mode.
 
 I believe the Chromium Embbeded Framework (CEF) that used by Steam for its browser engine is capable to play video file as well. You may want to prepare the jumpscare content properly by using video with sound. Just make sure the file size is small so it could be loaded fast.
 
-My first and last victim is my wife. Sorry, dear.
+My first and last victim is my dear wife.
 
