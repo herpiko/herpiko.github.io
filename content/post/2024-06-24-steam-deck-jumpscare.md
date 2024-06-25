@@ -58,9 +58,9 @@ Export the main display:
 I was strugling to find an image viewer that fit the requirement below:
 - Lightweight and fast, the image should be rendered immeadiately and simultaneously with the window decorator.
 - The window decoration is customizable, I want it open in full window/full screen.
-- Not depend on huge and bloated library like Qt and GTK.
+- Not depend on huge and bloated library like Qt or GTK.
 
-Modern Qt app has issue with X11 forwarding.
+Modern Qt apps have issue with X11 forwarding.
 ```
 (deck@steamdeck ~)$ gwenview
 qt.qpa.xcb: could not connect to display
@@ -72,7 +72,7 @@ Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, 
 Aborted (core dumped)
 ```
 
-GTK are not reliable either.
+GTK apps are not reliable either.
 ```
 (deck@steamdeck ~)$ org.gnome.Loupe
 F: Not sharing "/esp" with sandbox: Ignoring blocking autofs path "/esp"
