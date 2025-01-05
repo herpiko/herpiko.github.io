@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Blog</title>
+    <link>//localhost:1313/tags/golang/</link>
+    <description>Recent content in Golang on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hunting Down Memory Leaks in Golang Service</title>
+      <link>//localhost:1313/post/2023/07/23/hunting-down-memory-leaks-in-golang-service/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/07/23/hunting-down-memory-leaks-in-golang-service/</guid>
+      <description>&lt;p&gt;So I encountered with a service that has to be restarted in every few hours or so because their memory consumption trajectory is like SpaceX&amp;rsquo;s Falcon 9 being launched toward ISS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/hunting-down-memory-leaks-in-golang-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hmm. Golang is garbage collector language, so we just need to add &lt;code&gt;*.Close()&lt;/code&gt; to every opened thing, right?&lt;/p&gt;&#xA;&lt;p&gt;Turn out it is not always the case.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-characteristics-of-the-service&#34;&gt;The characteristics of the service&lt;/h2&gt;&#xA;&lt;p&gt;The main purpose of this service is to upload files. Almost ten thousand files uploaded in a day or about 15GB/day. Total files uploaded up until I write this post is about 14,56TB. The service was hosted in AWS ECS. They said each restart takes up to 15 minutes and when it happened, complaints bombardment coming from their users. At some points, they have to upgrade the instance to the one with bigger RAM just to buy more time before the system crashed again.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

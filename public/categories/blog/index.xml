@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>//localhost:1313/categories/blog/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taman Baca Kesiman</title>
+      <link>//localhost:1313/post/2018/07/11/taman-baca-kesiman/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2018/07/11/taman-baca-kesiman/</guid>
+      <description>&lt;p&gt;When I was struggling to find any comfort place for working remotely in Denpasar, a friend mentioned TB Kesiman. I thanked her. TB Kesiman is a home for many good books, some of them are considered rare and antique. Unlike Kineruku (will write about this soon), only about 1/3 of the books are fiction, but they are carefully curated and, as I said before, some of them are rare items. Rare enough to make me hate this small library.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

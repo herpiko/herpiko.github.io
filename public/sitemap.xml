@@ -2,126 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/random/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/steam-deck/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2024/06/24/steam-deck-jumpscare/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/tech/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/10/18/libreoffice-conf.asia-x-ubucon-asia-2023/</loc>
+    <lastmod>2023-10-18T00:03:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ubuntu/</loc>
+    <lastmod>2023-10-18T00:03:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-4/</loc>
+    <lastmod>2023-07-23T00:03:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/gnome/</loc>
+    <lastmod>2023-07-23T00:03:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-3/</loc>
+    <lastmod>2023-07-23T00:02:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/</loc>
+    <lastmod>2023-07-23T00:01:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/golang/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2023/07/23/hunting-down-memory-leaks-in-golang-service/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/apple/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/apple/</loc>
+    <loc>//localhost:1313/tags/embedded/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/tags/firmware/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/embedded/</loc>
+    <loc>//localhost:1313/tags/mechanical-keyboard/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/firmware/</loc>
+    <loc>//localhost:1313/tags/qmk/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mechanical-keyboard/</loc>
+    <loc>//localhost:1313/post/2023/04/02/qmk-firmware-in-m1/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/qmk/</loc>
-    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/2023/04/02/qmk-firmware-in-m1/</loc>
-    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/cloudnative/</loc>
+    <loc>//localhost:1313/tags/cloudnative/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/datadog/</loc>
+    <loc>//localhost:1313/tags/datadog/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2023/03/07/datadog-apm-tracing-in-golang/</loc>
+    <loc>//localhost:1313/post/2023/03/07/datadog-apm-tracing-in-golang/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/opentracing/</loc>
+    <loc>//localhost:1313/tags/opentracing/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/sre/</loc>
+    <loc>//localhost:1313/tags/sre/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2023/03/06/how-i-created-a-pull-request-on-my-first-day-at-work/</loc>
+    <loc>//localhost:1313/post/2023/03/06/how-i-created-a-pull-request-on-my-first-day-at-work/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/onboarding/</loc>
+    <loc>//localhost:1313/tags/onboarding/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/work/</loc>
+    <loc>//localhost:1313/tags/work/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/amd/</loc>
+    <loc>//localhost:1313/tags/amd/</loc>
     <lastmod>2022-03-23T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2022/03/23/memaksimalkan-ryzen-5-5600g-untuk-video-game/</loc>
+    <loc>//localhost:1313/post/2022/03/23/memaksimalkan-ryzen-5-5600g-untuk-video-game/</loc>
     <lastmod>2022-03-23T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/overclock/</loc>
+    <loc>//localhost:1313/tags/overclock/</loc>
     <lastmod>2022-03-23T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</loc>
+    <loc>//localhost:1313/post/2021/11/19/gitlab-productivity-tracking-know-how-your-team-breathing/</loc>
     <lastmod>2021-11-19T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/management/</loc>
+    <loc>//localhost:1313/tags/management/</loc>
     <lastmod>2021-11-19T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/productivity/</loc>
+    <loc>//localhost:1313/tags/productivity/</loc>
     <lastmod>2021-11-19T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/cryptocurrency/</loc>
+    <loc>//localhost:1313/tags/cryptocurrency/</loc>
     <lastmod>2021-10-11T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2021/10/11/cryptocurrency-mining/</loc>
+    <loc>//localhost:1313/post/2021/10/11/cryptocurrency-mining/</loc>
     <lastmod>2021-10-11T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/ethereum/</loc>
+    <loc>//localhost:1313/tags/ethereum/</loc>
     <lastmod>2021-10-11T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/mining/</loc>
+    <loc>//localhost:1313/tags/mining/</loc>
     <lastmod>2021-10-11T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/ejbca/</loc>
+    <loc>//localhost:1313/tags/ejbca/</loc>
     <lastmod>2020-11-22T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</loc>
+    <loc>//localhost:1313/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</loc>
     <lastmod>2020-11-22T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/pki/</loc>
+    <loc>//localhost:1313/tags/pki/</loc>
     <lastmod>2020-11-22T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/x509/</loc>
+    <loc>//localhost:1313/tags/x509/</loc>
     <lastmod>2020-11-22T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/hardware/</loc>
+    <loc>//localhost:1313/tags/hardware/</loc>
     <lastmod>2020-07-21T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2020/07/21/unk-rev1-trackpoint-module/</loc>
+    <loc>//localhost:1313/post/2020/07/21/unk-rev1-trackpoint-module/</loc>
     <lastmod>2020-07-21T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</loc>
+    <loc>//localhost:1313/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</loc>
     <lastmod>2020-06-27T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/vim/</loc>
+    <loc>//localhost:1313/tags/vim/</loc>
     <lastmod>2020-05-15T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2020/05/15/vims-native-multiple-cursors-feature/</loc>
+    <loc>//localhost:1313/post/2020/05/15/vims-native-multiple-cursors-feature/</loc>
     <lastmod>2020-05-15T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tags/machine-learning/</loc>
+    <loc>//localhost:1313/tags/machine-learning/</loc>
     <lastmod>2020-05-05T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</loc>
+    <loc>//localhost:1313/post/2020/05/05/tensorflow-gpu-on-nvidia-1660-ti/</loc>
     <lastmod>2020-05-05T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>/tech_talks/</loc>
+    <loc>//localhost:1313/categories/blog/</loc>
+    <lastmod>2018-07-11T00:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/random/</loc>
+    <lastmod>2018-07-11T00:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2018/07/11/taman-baca-kesiman/</loc>
+    <lastmod>2018-07-11T00:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tech_talks/</loc>
   </url>
 </urlset>

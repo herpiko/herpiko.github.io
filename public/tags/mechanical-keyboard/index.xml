@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mechanical keyboard on Blog</title>
-    <link>/tags/mechanical-keyboard/</link>
-    <description>Recent content in Mechanical keyboard on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Mechanical Keyboard on Blog</title>
+    <link>//localhost:1313/tags/mechanical-keyboard/</link>
+    <description>Recent content in Mechanical Keyboard on Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mechanical-keyboard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mechanical-keyboard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QMK Firmware in M1</title>
-      <link>/post/2023/04/02/qmk-firmware-in-m1/</link>
+      <link>//localhost:1313/post/2023/04/02/qmk-firmware-in-m1/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2023/04/02/qmk-firmware-in-m1/</guid>
-      <description>Running ./util/qmk_install.sh won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:
-$ arch -x86_64 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; $ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk After that, qmk is accessible from anywhere, even from non-rosetta terminal session.
-This is UNK after being flashed directly from a M1 computer:
-Happy hacking!</description>
+      <guid>//localhost:1313/post/2023/04/02/qmk-firmware-in-m1/</guid>
+      <description>&lt;p&gt;Running &lt;code&gt;./util/qmk_install.sh&lt;/code&gt; won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ arch -x86_64 /bin/bash -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, &lt;code&gt;qmk&lt;/code&gt; is accessible from anywhere, even from non-rosetta terminal session.&lt;/p&gt;&#xA;&lt;p&gt;This is &lt;a href=&#34;https://github.com/herpiko/unk&#34;&gt;UNK&lt;/a&gt; after being flashed directly from a M1 computer:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2023-04-02-unk.jpg&#34; alt=&#34;UNK&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Happy hacking!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>UNK rev1 Trackpoint Module</title>
-      <link>/post/2020/07/21/unk-rev1-trackpoint-module/</link>
+      <link>//localhost:1313/post/2020/07/21/unk-rev1-trackpoint-module/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/post/2020/07/21/unk-rev1-trackpoint-module/</guid>
-      <description>As a person who have been using Thinkpad computers for years, I was always missing the trackpoint feature. I want to type on mechanical keyboard but also I don&amp;rsquo;t willing to dismiss the nipple. There are few solution for this issue: UHK, Tex Yoda, Tex Shinobi. These all are expensive keyboard, the shipping cost alone is crazy.
-Trackpoint module is one of my goals while building UNK and I successfully build it.</description>
+      <guid>//localhost:1313/post/2020/07/21/unk-rev1-trackpoint-module/</guid>
+      <description>&lt;p&gt;As a person who have been using Thinkpad computers for years, I was always missing the trackpoint feature. I want to type on mechanical keyboard but also I don&amp;rsquo;t willing to dismiss the nipple. There are few solution for this issue: UHK, Tex Yoda, Tex Shinobi. These all are expensive keyboard, the shipping cost alone is crazy.&lt;/p&gt;&#xA;&lt;p&gt;Trackpoint module is one of my goals while building UNK and I successfully build it. Here is the video if you wonder how it looks/works.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My First Custom Handwired Keyboard Build: UNK</title>
-      <link>/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</link>
+      <link>//localhost:1313/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</guid>
-      <description>More detail and build logs : https://github.com/herpiko/unk</description>
+      <guid>//localhost:1313/post/2020/06/27/my-first-custom-handwired-keyboard-build-unk/</guid>
+      <description>&lt;img width=&#34;640&#34; src=&#34;//localhost:1313/images/2020-06-27-unk-finished.jpeg&#34;&gt;&#xA;&lt;p&gt;More detail and build logs : &lt;a href=&#34;https://github.com/herpiko/unk&#34;&gt;&lt;a href=&#34;https://github.com/herpiko/unk&#34;&gt;https://github.com/herpiko/unk&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNOME on Blog</title>
+    <link>//localhost:1313/tags/gnome/</link>
+    <description>Recent content in GNOME on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jul 2023 00:03:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 4</title>
+      <link>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-4/</link>
+      <pubDate>Sun, 23 Jul 2023 00:03:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-4/</guid>
+      <description>&lt;p&gt;This article is part 4 of my blog series on how to create and build your native GNOME app. If you are missing the previous parts, please visit the &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/&#34;&gt;part 3&lt;/a&gt; and  &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/&#34;&gt;part 2&lt;/a&gt; or &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/&#34;&gt;part 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;registering-your-app-to-snapcraftio&#34;&gt;Registering your app to Snapcraft.io&lt;/h2&gt;&#xA;&lt;p&gt;TO BE WRITTEN&lt;/p&gt;&#xA;&lt;h2 id=&#34;preparing-your-environment-for-snapcraft&#34;&gt;Preparing your environment for Snapcraft&lt;/h2&gt;&#xA;&lt;p&gt;TO BE WRITTEN&lt;/p&gt;&#xA;&lt;h2 id=&#34;snapcraft-manifest-file&#34;&gt;Snapcraft manifest file&lt;/h2&gt;&#xA;&lt;p&gt;TO BE WRITTEN&lt;/p&gt;&#xA;&lt;h2 id=&#34;build-the-snap-package&#34;&gt;Build the Snap package&lt;/h2&gt;&#xA;&lt;p&gt;TO BE WRITTEN&lt;/p&gt;&#xA;&lt;h2 id=&#34;upload-the-snap-package&#34;&gt;Upload the Snap package&lt;/h2&gt;&#xA;&lt;p&gt;TO BE WRITTEN&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 3</title>
+      <link>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-3/</link>
+      <pubDate>Sun, 23 Jul 2023 00:02:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-3/</guid>
+      <description>&lt;p&gt;This article is part 3 of my blog series on how to create and build your native GNOME app. If you are missing the previous parts, please visit the &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/&#34;&gt;part 2&lt;/a&gt; or &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/&#34;&gt;part 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this third part, I will write about the development phase where you will interact with programming language.&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-time-launching-the-gnome-builder&#34;&gt;First time launching the GNOME Builder&lt;/h2&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/louca23part3-gnome-builder-form.png&#34;/&gt;&#xA;&lt;p&gt;Once GNOME Builder opened, you will be asked whether you want to open the existing project, open the example project or c&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 2</title>
+      <link>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/</link>
+      <pubDate>Sun, 23 Jul 2023 00:01:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/</guid>
+      <description>&lt;p&gt;This article is part 2 of my blog series on how to create and build your native GNOME app. If you are missing the previous part, please &lt;a href=&#34;//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/&#34;&gt;click here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this second part, I will write about the ideation phase. If you already have a good idea and mockups, you can skip this part.&lt;/p&gt;&#xA;&lt;h2 id=&#34;define-the-problem-that-you-want-to-solve&#34;&gt;Define the problem that you want to solve&lt;/h2&gt;&#xA;&lt;p&gt;Basically, software is a tool to solve certain kind of problem, right? You don&amp;rsquo;t have to thinking about a good one to start with, especially if you are still learning on how to create an app. I will use my existing app (CubeTimer) as an example. The rest of the tutorial/blog series will stick to this example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 1</title>
+      <link>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;This blog series are intended to be a follow up of my tech talk in UbuCon Asia 2023 (LOUCA 2023). The articles will be divided into 4 parts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Preparation&lt;/li&gt;&#xA;&lt;li&gt;Ideation&lt;/li&gt;&#xA;&lt;li&gt;Development&lt;/li&gt;&#xA;&lt;li&gt;Publish&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you happen to attend my talk in UbuCon Asia 2023, then you may expect that I repeat the same thing here. Don&amp;rsquo;t worry, I&amp;rsquo;ve added a lot more contexts in my writing in detailed manner.&lt;/p&gt;&#xA;&lt;h1 id=&#34;preparation&#34;&gt;Preparation&lt;/h1&gt;&#xA;&lt;p&gt;Before you starting, you need to install few softwares. Some of them are ready to use after install, some other requires adjustment to make it work. At some point you will have to pick a choice. This tutorial is using Ubuntu 22.04 LTS. If you are using different system, please adjust accordingly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

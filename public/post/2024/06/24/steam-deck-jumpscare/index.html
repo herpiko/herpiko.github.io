@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Steam Deck Jumpscare | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Steam Deck Jumpscare</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2024/06/24</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>, 
+        <a href="/categories/random">Random</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/steam-deck">Steam Deck</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>I have write <a href="https://www.reddit.com/r/SteamDeck/comments/1dnibot/steam_deck_jumpscare/">this guide in a Reddit thread</a> but no one is interested until <a href="https://www.reddit.com/r/SteamDeck/comments/1gx6vhj/this_is_how_i_pranked_my_wife_with_a_jumpscare/">they saw the video</a>. :D</p>
+<h3 id="notes">Notes</h3>
+<ul>
+<li>A good prank is one that is light-hearted, harmless, and designed to amuse rather than to cause harm or distress. Please pick a suitable victim. Jumpscare could be dangerous for individuals with heart conditions or other health issues. In extreme cases, it could potentially trigger a cardiac event.</li>
+<li>Please protect your Steam Deck with a rugged case like JSAUX ModCase (<a href="https://jsaux.com/products/modcase-for-steam-deck-pc0104">https://jsaux.com/products/modcase-for-steam-deck-pc0104</a>) in case the victim suddenly throw it.</li>
+<li>Please make sure your victim and the Steam Deck is in safe position. Victim laying in bed while playing games is better than in sit or standing position. Imagine the victim throwing the device. At least there is a huge chance that the device is still on the bed instead of hitting the floor.</li>
+<li>Let the victim play for a while, lure them into the game, make him/her forget about the reality for once.</li>
+<li>Disclaimer: I am not responsible for anything. If you are following this guide, this is solely at your own risk.</li>
+</ul>
+<h3 id="the-trick">The trick</h3>
+<p>The initial idea is to utilize X11 Forwarding feature from SSH daemon to launch an image viewer remotely on the Steam Deck.</p>
+<p>Edit your <code>/etc/ssh/sshd_config</code>. Look for this line then change the value from <code>no</code> to <code>yes</code></p>
+<pre tabindex="0"><code>X11Forwarding yes
+</code></pre><p>Start the SSH daemon</p>
+<pre tabindex="0"><code>$ sudo systemctl start sshd
+</code></pre><p>Setup your password for Steam Deck</p>
+<pre tabindex="0"><code>$ passwd
+</code></pre><p>Find out your Steam Deck IP address</p>
+<pre tabindex="0"><code>$ ip a
+</code></pre><p>SSH into your device</p>
+<pre tabindex="0"><code>$ ssh -X deck@YOURDECKIP
+</code></pre><p>Export the main display:</p>
+<pre tabindex="0"><code>(deck@steamdeck ~)$ export DISPLAY=:0
+</code></pre><p>I was strugling to find an image viewer that fit the requirement below:</p>
+<ul>
+<li>Lightweight and fast, the image should be rendered immeadiately and simultaneously with the window decorator.</li>
+<li>The window decoration is customizable, I want it open in full window/full screen.</li>
+<li>Not depend on huge and bloated library like Qt or GTK.</li>
+</ul>
+<p>Modern Qt apps have issue with X11 forwarding.</p>
+<pre tabindex="0"><code>(deck@steamdeck ~)$ gwenview
+qt.qpa.xcb: could not connect to display
+qt.qpa.plugin: Could not load the Qt platform plugin &#34;xcb&#34; in &#34;&#34; even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+
+Aborted (core dumped)
+</code></pre><p>GTK apps are not reliable either.</p>
+<pre tabindex="0"><code>(deck@steamdeck ~)$ org.gnome.Loupe
+F: Not sharing &#34;/esp&#34; with sandbox: Ignoring blocking autofs path &#34;/esp&#34;
+
+(loupe:2): Gtk-WARNING **: 23:09:00.913: Failed to open display
+</code></pre><p>However, Steam-related binaries are fine with X11 forwarding. When I typed <code>steam</code> then press tab key, a lot of steam-* executable binaries appears. One of them is super interesting.</p>
+<pre tabindex="0"><code>(deck@steamdeck ~)$ steam-http-loader -h
+usage: steam-http-loader [-h] uri
+
+Launch a link in the steam browser.
+
+positional arguments:
+  uri
+
+options:
+  -h, --help  show this help message and exit
+(deck@steamdeck ~)$
+</code></pre><p>This is what I need precisely! Let&rsquo;s pull the trigger.</p>
+<pre tabindex="0"><code>(deck@steamdeck ~)$ steam-http-loader https://camo.githubusercontent.com/c0a7bbc3a17e2aecfc514ea0397d1c3241dd4676ac0a2506fdb9657fb36aa6e6/68747470733a2f2f692e7974696d672e636f6d2f76692f524e6f48635745387462512f6d617872657364656661756c742e6a7067
+</code></pre><p>This works both in Gaming mode and Desktop mode.</p>
+<p>I believe the Chromium Embbeded Framework (CEF) that used by Steam for its browser engine is capable to play video file as well. You may want to prepare the jumpscare content properly by using video with sound. Just make sure the file size is small so it could be loaded fast.</p>
+<p>My first and last victim is my dear wife. Enjoy the scream.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

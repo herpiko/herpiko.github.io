@@ -2,226 +2,214 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam Deck</title>
+      <link>//localhost:1313/tags/steam-deck/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/steam-deck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>//localhost:1313/tags/ubuntu/</link>
+      <pubDate>Wed, 18 Oct 2023 00:03:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GNOME</title>
+      <link>//localhost:1313/tags/gnome/</link>
+      <pubDate>Sun, 23 Jul 2023 00:03:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/gnome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>//localhost:1313/tags/golang/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/golang/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Apple</title>
-      <link>/tags/apple/</link>
+      <link>//localhost:1313/tags/apple/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/apple/</guid>
+      <guid>//localhost:1313/tags/apple/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Embedded</title>
-      <link>/tags/embedded/</link>
+      <link>//localhost:1313/tags/embedded/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/embedded/</guid>
+      <guid>//localhost:1313/tags/embedded/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Firmware</title>
-      <link>/tags/firmware/</link>
+      <link>//localhost:1313/tags/firmware/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/firmware/</guid>
+      <guid>//localhost:1313/tags/firmware/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Mechanical keyboard</title>
-      <link>/tags/mechanical-keyboard/</link>
+      <title>Mechanical Keyboard</title>
+      <link>//localhost:1313/tags/mechanical-keyboard/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mechanical-keyboard/</guid>
+      <guid>//localhost:1313/tags/mechanical-keyboard/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>QMK</title>
-      <link>/tags/qmk/</link>
+      <link>//localhost:1313/tags/qmk/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/qmk/</guid>
+      <guid>//localhost:1313/tags/qmk/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CloudNative</title>
-      <link>/tags/cloudnative/</link>
+      <link>//localhost:1313/tags/cloudnative/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cloudnative/</guid>
+      <guid>//localhost:1313/tags/cloudnative/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Datadog</title>
-      <link>/tags/datadog/</link>
+      <link>//localhost:1313/tags/datadog/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/datadog/</guid>
+      <guid>//localhost:1313/tags/datadog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Opentracing</title>
-      <link>/tags/opentracing/</link>
+      <link>//localhost:1313/tags/opentracing/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/opentracing/</guid>
+      <guid>//localhost:1313/tags/opentracing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SRE</title>
-      <link>/tags/sre/</link>
+      <link>//localhost:1313/tags/sre/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sre/</guid>
+      <guid>//localhost:1313/tags/sre/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Onboarding</title>
-      <link>/tags/onboarding/</link>
+      <link>//localhost:1313/tags/onboarding/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/onboarding/</guid>
+      <guid>//localhost:1313/tags/onboarding/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Work</title>
-      <link>/tags/work/</link>
+      <link>//localhost:1313/tags/work/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/work/</guid>
+      <guid>//localhost:1313/tags/work/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AMD</title>
-      <link>/tags/amd/</link>
+      <link>//localhost:1313/tags/amd/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/amd/</guid>
+      <guid>//localhost:1313/tags/amd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Overclock</title>
-      <link>/tags/overclock/</link>
+      <link>//localhost:1313/tags/overclock/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/overclock/</guid>
+      <guid>//localhost:1313/tags/overclock/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Management</title>
-      <link>/tags/management/</link>
+      <link>//localhost:1313/tags/management/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/management/</guid>
+      <guid>//localhost:1313/tags/management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Productivity</title>
-      <link>/tags/productivity/</link>
+      <link>//localhost:1313/tags/productivity/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/productivity/</guid>
+      <guid>//localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cryptocurrency</title>
-      <link>/tags/cryptocurrency/</link>
+      <link>//localhost:1313/tags/cryptocurrency/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/cryptocurrency/</guid>
+      <guid>//localhost:1313/tags/cryptocurrency/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ethereum</title>
-      <link>/tags/ethereum/</link>
+      <link>//localhost:1313/tags/ethereum/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/ethereum/</guid>
+      <guid>//localhost:1313/tags/ethereum/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mining</title>
-      <link>/tags/mining/</link>
+      <link>//localhost:1313/tags/mining/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/mining/</guid>
+      <guid>//localhost:1313/tags/mining/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EJBCA</title>
-      <link>/tags/ejbca/</link>
+      <link>//localhost:1313/tags/ejbca/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/ejbca/</guid>
+      <guid>//localhost:1313/tags/ejbca/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PKI</title>
-      <link>/tags/pki/</link>
+      <link>//localhost:1313/tags/pki/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/pki/</guid>
+      <guid>//localhost:1313/tags/pki/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>x509</title>
-      <link>/tags/x509/</link>
+      <title>X509</title>
+      <link>//localhost:1313/tags/x509/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/x509/</guid>
+      <guid>//localhost:1313/tags/x509/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hardware</title>
-      <link>/tags/hardware/</link>
+      <link>//localhost:1313/tags/hardware/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/hardware/</guid>
+      <guid>//localhost:1313/tags/hardware/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Vim</title>
-      <link>/tags/vim/</link>
+      <link>//localhost:1313/tags/vim/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/vim/</guid>
+      <guid>//localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Machine learning</title>
-      <link>/tags/machine-learning/</link>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/tags/machine-learning/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
+      <guid>//localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Random</title>
+      <link>//localhost:1313/tags/random/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/tags/random/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -2,19 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tech</title>
-      <link>/categories/tech/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/tech/</guid>
+      <title>Random</title>
+      <link>//localhost:1313/categories/random/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/random/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Tech</title>
+      <link>//localhost:1313/categories/tech/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>//localhost:1313/categories/blog/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/categories/blog/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

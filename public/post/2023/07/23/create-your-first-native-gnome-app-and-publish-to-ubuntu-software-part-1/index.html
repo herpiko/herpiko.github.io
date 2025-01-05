@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 1 | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Create Your First Native GNOME App and Publish to Ubuntu Software - Part 1</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2023/07/23</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/gnome">GNOME</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <h1 id="introduction">Introduction</h1>
+<p>This blog series are intended to be a follow up of my tech talk in UbuCon Asia 2023 (LOUCA 2023). The articles will be divided into 4 parts:</p>
+<ul>
+<li>Preparation</li>
+<li>Ideation</li>
+<li>Development</li>
+<li>Publish</li>
+</ul>
+<p>If you happen to attend my talk in UbuCon Asia 2023, then you may expect that I repeat the same thing here. Don&rsquo;t worry, I&rsquo;ve added a lot more contexts in my writing in detailed manner.</p>
+<h1 id="preparation">Preparation</h1>
+<p>Before you starting, you need to install few softwares. Some of them are ready to use after install, some other requires adjustment to make it work. At some point you will have to pick a choice. This tutorial is using Ubuntu 22.04 LTS. If you are using different system, please adjust accordingly.</p>
+<h2 id="1-flatpak">1. FlatPak</h2>
+<p>Supposedly, this blog series will ended with packaging the app into a Snap package then publishing it to Snapcraft, but Flatpak become important here to support your development tool chain. To install Flatpak in Ubuntu, simply run,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install flatpak
+</span></span></code></pre></div><p>Then restart your computer.</p>
+<h2 id="2-gnome-builder">2. GNOME Builder</h2>
+<p>GNOME Builder is an IDE (Integrated Development Environment) for crafting software in Linux environment. Unlike other advanced IDE like Android Studio, Eclipse, JetBrains, etc, GNOME Builder is a lot simpler. So simple that, if you have experience with these advanced IDE, you may found that GNOME Builder is not satisfying since it has less features. But fear not, the simplicity of the GNOME Builder will not hold you back from writing a beautiful GNOME native app.</p>
+<p>You can install GNOME Builder from Ubuntu repository or Flatpak but it&rsquo;s recommended to install from Ubuntu repository (version 42) because it&rsquo;s compatible with the latest version of Cambalache.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install gnome-builder
+</span></span></code></pre></div><h3 id="the-target-system-of-the-gnome-builder">The target system of the GNOME Builder</h3>
+<p>By default, GNOME Builder will target your host system. If your system is using GNOME 40, then it will target GNOME 40 as well and using the existing SDK and Platform. If you want to target more modern system, let&rsquo;s say 45, then this is where Flatpak come in handy. You can just install a different target here. Let&rsquo;s say that you want to target GNOME 43, so be it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install org.gnome.Platform/x86_64/43
+</span></span><span style="display:flex;"><span>flatpak install org.gnome.Sdk/x86_64/43
+</span></span></code></pre></div><p>The GNOME 43 SDK and Platform will appear in the GNOME Builder build target option.</p>
+<h2 id="3-the-ui-designer-glade-vs-cambalache">3. The UI Designer: Glade vs Cambalache</h2>
+<p>There are two ways to build UI for GNOME application: 1.) By using the GTK binding library to invoke the UI component, 2.) By using a separate XML file to define the UI components. The first option is okay to create a simple GUI app. But if you plan to create an app that is not so simple, the XML is the way. An UI designer software will help us to work with this XML file(s).</p>
+<p>Glade is the most rock-solid UI designer for GTK. Previously I always using Glade but unfortunately, Glade is not actively maintained anymore. It only supports GTK3 whereas the modern systems nowadays are already move on to GTK4.</p>
+<p>On the other hand, Cambalache is the successor of Glade by the same author. It support GTK4 but based on my experience, the feature is not that rich yet and a bit buggy.</p>
+<p>Then why GNOME Builder developer has not developing an integrated UI designer built in? They already have this thought, we have to patiently wait and support them.</p>
+<p>The last choice is that you have to write the XML file manually by hand.</p>
+<p>My recommendation is to use the latest version of Cambalache. If it fails to meet your need, then you have to modify the XML file manually. At least, Cambalache will help you to design the base layout and as a reference of the supported GTK components.</p>
+<p>You can install Cambalache through Flatpak:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install flathub ar.xjuan.Cambalache
+</span></span></code></pre></div><h2 id="4-snapcraft">4. Snapcraft</h2>
+<p>Snap is a package manager from Cannonical and is already built in Ubuntu distribution. To publish app in Snap, you will need another software: Snapcraft. Snapcarft will help you to build and upload your Snap package to Snapcraft.io, and eventulally will be published there.</p>
+<p>You can install Snapcraft by using this command,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo snap install snapcraft --classic
+</span></span></code></pre></div><p>Snapcraft depends itself on LXD or MultiPass. Both of them are container technologies, like Docker. Snapcarft will build your app in the container and make sure it&rsquo;s an isolated environment. I suggest you to install LXD instead because it&rsquo;s more simple.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>snap install lxd --channel<span style="color:#f92672">=</span>latest/stable
+</span></span></code></pre></div><p>In my first attempt on building the Snap package, it fail because the container could not connect to the internet. If that happen to you, you may need to do a workaround:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow in on lxdbr0
+</span></span><span style="display:flex;"><span>sudo ufw route allow in on lxdbr0
+</span></span><span style="display:flex;"><span>sudo ufw route allow out on lxdbr0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>lxc network set lxdbr0 ipv6.firewall false
+</span></span><span style="display:flex;"><span>lxc network set lxdbr0 ipv4.firewall false
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo iptables -I DOCKER-USER -j ACCEPT
+</span></span></code></pre></div><p>Then make sure that your LXC container could connect to the internet by run a bare container, sneak into it then ping some domain. If you got some reply, then you are good to go.</p>
+<h2 id="5-your-favourite-programming-language">5. Your favourite programming language*</h2>
+<p>GNOME Builder support a lot of programming languages. But in the context of creating GUI app, it&rsquo;s recommended to use a programming language that as good support on the GTK binding. The most supported ones are : C, Python, JS, Rust. In this tutorial, I will be using Python because it&rsquo;s the easiest among others and I want this blog series to be lowering be barrier for those who want to learn how to create apps. If you are using different programming language than the one I used here, don&rsquo;t worry. As long as we are using the same SDK version, the function name from the GTK binding library is not that different.</p>
+<hr>
+<h1 id="but-why-snap">But Why Snap?</h1>
+<p>I am not in a position to start a fire nor have intention to do that. I may compare them based on my experience but my goal is not to endorsing one. To be fair, I&rsquo;ll write the tutorial for publising app on Flathub as well.</p>
+<p>Few of my friends were asking the same question like &ldquo;Are you serious?&rdquo; or &ldquo;Why do you want ot talk about Snap despite its weakness, security flaw or propretary code?&rdquo;. I would not argue with them. Their opinion and argument are most likely technicaly correct.</p>
+<p>But if you have a different goal, like &ldquo;I want to reach as many user as possible&rdquo; or &ldquo;I want a lot of people to get benefit from my app&rdquo;, then Snap is worth a shot. Let&rsquo;s think about this. Maybe a mom out there is an Ubuntu user. She is happy with her Ubuntu computer. The thing is, she is not a technology savvy like us. She does not aware about Snap versus Flatpak or open source development like we used to be know. What she know is if she want to use certaint app, she simply open the Ubuntu Software then type the keywoard of the app that she want to use. As simple as that. This beautiful mom is deserved to get access to your app.</p>
+<p>Audience matters. Equality matters. Diversity matters. The competition that happen here, Flatpak vs Snap, is good for us. The way Snap integrated to Ubuntu Software, in one of the most popular Linux distribution, is already a major factor on acquiring your users.</p>
+<p>Actually, my original reason to include Snap in my talk is to increase the chance of my subbmission being approved by the UbuCon commitee. But along the way when I preparing my talk and playing around with Snapcraft, I learned a lot about Snap and admit that Snap is also playing an important role in the Linux ecosystem and community.</p>
+<p>See you in <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/">the next part!</a></p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

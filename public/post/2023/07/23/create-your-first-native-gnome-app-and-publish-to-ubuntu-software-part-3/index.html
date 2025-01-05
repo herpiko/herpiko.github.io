@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 3 | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Create Your First Native GNOME App and Publish to Ubuntu Software - Part 3</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2023/07/23</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/gnome">GNOME</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>This article is part 3 of my blog series on how to create and build your native GNOME app. If you are missing the previous parts, please visit the <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-2/">part 2</a> or <a href="/post/2023/07/23/create-your-first-native-gnome-app-and-publish-to-ubuntu-software-part-1/">part 1</a></p>
+<p>In this third part, I will write about the development phase where you will interact with programming language.</p>
+<h2 id="first-time-launching-the-gnome-builder">First time launching the GNOME Builder</h2>
+<img src="/images/louca23part3-gnome-builder-form.png"/>
+<p>Once GNOME Builder opened, you will be asked whether you want to open the existing project, open the example project or c</p>
+<p>Then pick your prefered programming language (in this case, Python) and license, then select GNOME Application as template. Once you click &ldquo;Create Project&rdquo;, you will be redirected to your working environment.</p>
+<p>After you get redirected to the main UI of the GNOME Builder for the first time, you may be asked to install or update few SDKs. Please follow the instruction to download the SDKs.</p>
+<img src="/images/louca23part3-gnome-builder-download-sdk.png"/>
+<p>It will download a few hundreds Megabytes of depedencies.</p>
+<h2 id="the-anatomy-of-gnome-builder">The anatomy of GNOME Builder</h2>
+<p>Basically, the GNOME Builder UI is divided into 5 parts:</p>
+<h3 id="1-the-top-bar-buttons">1. The top bar buttons</h3>
+<p>This your main command control. You can switch the surface mode, add new file, build and run (or configure the build), search and at the end of the top bar, you have GNOME Builder main menu.</p>
+<img src="/images/louca23part3-gnome-builder-top-pane.png"/>
+<h3 id="2-the-side-pane">2. The side pane</h3>
+<p>The side pane consist of the Project Tree, build status and the TODO list. In this area, most of the time you will focus on the Project Tree, especially the Files.</p>
+<img src="/images/louca23part3-gnome-builder-side-pane.png"/>
+<h3 id="3-the-text-editor">3. The text editor</h3>
+<p>This is the bigest part that occupy the UI. If you try to click on a file in the Project Tree (e.g. xyz.aguno.CubeTime), the file will be opened in this area. This is where you write the code. It does not have fancy feature like other advanced IDE but at least (if you are a Vim user) it supports Vim key binding.</p>
+<img src="/images/louca23part3-gnome-builder-editor-pane.png"/>
+<h3 id="4-the-bottom-pane">4. The bottom pane</h3>
+<p>The bottom pane are accessible by a button in the top bar. By default it will open a terminal emulator. It also has logger (for debugging) and search feature.
+<img src="/images/louca23part3-gnome-builder-bottom-pane.png"/></p>
+<h2 id="the-most-important-files-in-the-project-tree--files">The most important files in the Project Tree &gt; Files</h2>
+<p>In this tutorial, mainly you will be editing these three files:</p>
+<h3 id="1-srcmainpy">1. src/main.py</h3>
+<p>This is the first script to invoke your program. If you want to have command argument or have dependency injection from the root, this is the place.</p>
+<h3 id="2-srcwindowpy">2. src/window.py</h3>
+<p>This is where you will write the logic of your app. It tied heavily with src/window.ui. You will call and modify components, also receive events from the components (click, text input, etc).</p>
+<p>If you think it&rsquo;s better to separate the logic in different file, then please go ahead. Apply your best coding practices! However, in this blog post series, I&rsquo;ll focus on writing the logic in the window.py to simplicy the process.</p>
+<h3 id="3-srcwindowui">3. src/window.ui</h3>
+<p>This is actually an XML file where you could design the layout and UI components of your app. Either you edit the file directy or open it with external app like Glade or Cambalache.</p>
+<h2 id="working-with-cambalache-and-creating-the-basic-layout">Working with Cambalache and creating the basic layout</h2>
+<p>Let&rsquo;s open the <code>src/window.ui</code> file with Cambalache and edit your first layout! You can simply right click the file then select <code>Open With...</code> then <code>External Programs...</code> then select <code>Cambalache</code>.</p>
+<img src="/images/louca23part3-gnome-builder-to-cambalache.png"/>
+<p>The Cambalache will be opened with your UI loaded and rendered. You will see a small window with <code>Hello, World!</code> label.</p>
+<img src="/images/louca23part3-cambalache.png"/>
+<p>Let&rsquo;s go back a bit to review our design. We will try to construct a grid with 3 rows then add label to each row. The first label is for the scramble notation, the second one is for the timer, and the last one is for the recorded solving time.</p>
+<img src="/images/louca23part3-basic-layout.png"/>
+<p>The first thing you need to do with Cambalache is to remove the existing component here, which is the label component.</p>
+<img src="/images/louca23part3-cambalache-delete-layout.png"/>
+<p>Then add a grid layout by typing the keyword <code>grid</code> and select <code>GtkGrid</code></p>
+<img src="/images/louca23part3-cambalache-add-grid.png"/>
+<p>To apply the layout component, you need to right click the parent component the click <code>Add object here...</code>.</p>
+<img src="/images/louca23part3-cambalache-apply-grid.png"/>
+<p>You need to the same thing for label component, but apply it under the GtkGrid component instead. So you will have this hierarchy of components.</p>
+<img src="/images/louca23part3-cambalache-apply-label.png"/>
+<p>At this point, Cambalache has played its part on helping us to put the basic layout, we will continue to modify the XML file manually to expand the grid into 3 rows with label in each row. If you need a reference of GTK components, you can always go back to Cambalache to explore.</p>
+<p>I know this is not an intuitive way to construct an UI design. In comparation, Glade and QtCreator is a lot better. But please remember the fact that Cambalache is newly born software.</p>
+<h2 id="expanding-the-basic-layout-manually">Expanding the basic layout manually</h2>
+<p>What we did in the Cambalache before is these lines of code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#960050;background-color:#1e0010">&lt;</span>/object
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>Since we need it to be expanded to 3 rows, we have to add more childrens to the grid. And for each child in the GtkLabel, let&rsquo;s set the label value and the row number. The row number start from 0, so we can set 1 for the second row and 2 for the third row.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;Scramble notation&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;Timer&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;1&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;Recorded solving time&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;2&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#960050;background-color:#1e0010">&lt;</span>/object
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>At this point, if you run the app through the <code>Play</code> button from the top bar of GNOME Builder window, you will get this.</p>
+<img src="/images/louca23part3-gnome-builder-preview-1.png"/>
+<p>Let&rsquo;s expand it again to be more proportional and a sleek look! We add a lot of properties here. Short explanation of them:</p>
+<ul>
+<li><code>id</code> - to add the identifier so that we could connect this component to some function, e.g. for event handler like click or text input.</li>
+<li><code>margin-top</code> and <code>margin-bottom</code> - to add specific margin around the component.</li>
+<li><code>hexpand</code> and <code>hexpand-set</code> - to expand the component horizontaly.</li>
+<li><code>vexpand</code> and <code>vexpand-set</code> - to expand the component verticaly.</li>
+<li><code>&lt;style&gt;</code> and <code>&lt;class&gt;</code> tag - to define the CSS style. Yes, we will be using CSS here! Feel like a web development, right?</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ScrambleNotation&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;Scramble Notation&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-top&#34;</span>&gt;30&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-bottom&#34;</span>&gt;15&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand&#34;</span>&gt;False&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;</span><span style="color:#f92672">class</span> <span style="color:#f92672">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;scramble-label&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Timer&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;focusable&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;00:00.00&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;</span><span style="color:#f92672">class</span> <span style="color:#f92672">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;timer&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;1&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PrevScrambleNotation&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-top&#34;</span>&gt;15&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand&#34;</span>&gt;False&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;</span><span style="color:#f92672">class</span> <span style="color:#f92672">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;prev-scramble-label&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;2&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Prev2ScrambleNotation&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-top&#34;</span>&gt;15&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand&#34;</span>&gt;False&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;</span><span style="color:#f92672">class</span> <span style="color:#f92672">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;prev-2-scramble-label&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;3&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Prev3ScrambleNotation&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;label&#34;</span>&gt;Usage: press and hold space bar, then release to start the timer.&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-top&#34;</span>&gt;15&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin-bottom&#34;</span>&gt;30&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand&#34;</span>&gt;False&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vexpand-set&#34;</span>&gt;True&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;</span><span style="color:#f92672">class</span> <span style="color:#f92672">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;prev-3-scramble-label&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;column&#34;</span>&gt;0&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;4&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">layout</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">child</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>At this point, your app will looks like this. This is enough for now. We will continue to write the CSS file.</p>
+<img src="/images/louca23part3-gnome-builder-preview-1.png"/>
+<p>From GNOME Builder template, we got Menu button and this menu button is the main/first focus of the window. We will manipulate this button later (disabling focus), so we need to add identifier for it. Let name it <code>Menu</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkMenuButton&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Menu&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon-name&#34;</span>&gt;open-menu-symbolic&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;menu-model&#34;</span>&gt;primary_menu&lt;/<span style="color:#f92672">property</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
+</span></span></code></pre></div><h2 id="strike-the-styles-through-css">Strike the styles through CSS</h2>
+<p>Let&rsquo;s add new file (<code>style.css</code>) under the src directory.</p>
+<img src="/images/louca23part3-gnome-builder-css.png"/>
+<p>And then fill it with this CSS code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">scramble-label</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">timer</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">70</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">timer-grey</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">timer-green</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">timer-orange</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">orange</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">timer-red</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">prev-scramble-label</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">prev-2-scramble-label</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">grey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">prev-3-scramble-label</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">lightgrey</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then we need to register this CSS file to the resource file in <code>src/cubetimer.gresource.xml</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;gresources&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;gresource</span> <span style="color:#a6e22e">prefix=</span><span style="color:#e6db74">&#34;/xyz/aguno/CubeTimer&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;file&gt;</span>style.css<span style="color:#f92672">&lt;/file&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;file&gt;</span>window.ui<span style="color:#f92672">&lt;/file&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;file&gt;</span>gtk/help-overlay.ui<span style="color:#f92672">&lt;/file&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/gresource&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;</span>/gresources
+</span></span></code></pre></div><p>If you run the app again, you will get a better look of the UI, styled with CSS. :D</p>
+<img src="/images/louca23part3-gnome-builder-preview-3.png"/>
+<p>Enough about the UI and style, let&rsquo;s manipulate a component!</p>
+<h2 id="manipulating-a-component-from-python-code">Manipulating a component from Python code</h2>
+<p>We already have a <code>timer-grey</code> CSS class in <code>style.css</code> and we want to set this class programmatically at the start time of the app. In <code>src/window.py</code>, you have this Python class.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+</span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span></code></pre></div><p>This is the class of your main window. To manipulate a GTK component, we need to call it by its identifier in the class, then manipulate it in the init function (if you want it to be triggered at start time). In this example, we will try to set two CSS classes to the component: <code>timer</code> and <code>timer-red</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+</span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>) <span style="color:#75715e"># Register the component by identifier</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>set_css_classes([<span style="color:#e6db74">&#39;timer&#39;</span>, <span style="color:#e6db74">&#39;timer-grey&#39;</span>]) <span style="color:#75715e"># Manipulate it</span>
+</span></span></code></pre></div><p>Then you will get the timer label colored in grey.</p>
+<img src="/images/louca23part3-gnome-builder-preview-4.png"/>
+<p>To connect with other components, you need to add them as well.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>)
+</span></span><span style="display:flex;"><span>    ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    PrevScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;PrevScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Prev2ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Prev2ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Prev3ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Prev3ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Menu <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Menu&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span></code></pre></div><h2 id="connecting-the-component-to-an-event-handler">Connecting the component to an event handler</h2>
+<p>Because we want to build a timer/stopwatch, we need to listen to keyboard keypress. We did few things here:</p>
+<ol>
+<li>To manipulate the focus of the window. The Timer label will get the focus anytime.</li>
+<li>We create a function (on_key_pressed) to manipulate the Timer label by changing it to red color</li>
+<li>We add event listener (key press) then connect it to the function (on_key_pressed)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+</span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>)
+</span></span><span style="display:flex;"><span>    ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    PrevScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;PrevScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Prev2ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Prev2ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Prev3ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Prev3ScrambleNotation&#34;</span>)
+</span></span><span style="display:flex;"><span>    Menu <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Menu&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Manipulate focus</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Menu<span style="color:#f92672">.</span>set_can_focus(<span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>set_can_focus(<span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>grab_focus()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Listen to the events</span>
+</span></span><span style="display:flex;"><span>        event_controller <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>EventControllerKey()
+</span></span><span style="display:flex;"><span>        event_controller<span style="color:#f92672">.</span>connect(<span style="color:#e6db74">&#34;key-pressed&#34;</span>, self<span style="color:#f92672">.</span>on_key_pressed)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>add_controller(event_controller)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>set_css_classes([<span style="color:#e6db74">&#39;timer&#39;</span>, <span style="color:#e6db74">&#39;timer-grey&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">on_key_pressed</span>(self, controller, keyval, keycode, state):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> keyval <span style="color:#f92672">==</span> Gdk<span style="color:#f92672">.</span>KEY_space:
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>set_css_classes([<span style="color:#e6db74">&#39;timer&#39;</span>, <span style="color:#e6db74">&#39;timer-red&#39;</span>])
+</span></span></code></pre></div><p>Let&rsquo;s run it and then press space bar, you will see the Timer label color get changed to red.</p>
+<img src="/images/louca23part3-gnome-builder-preview-5.png"/>
+<p>I think that is enough. If you know how to write the Python code, then you know how to expand this to something that is more sophiscated. If you are looking for how I wrote the CubeTimer code, please take a look at my spaghetti code here.</p>
+<p><a href="https://github.com/herpiko/cubetimer/blob/master/src/window.py">https://github.com/herpiko/cubetimer/blob/master/src/window.py</a></p>
+<p>See ya in the next part!</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

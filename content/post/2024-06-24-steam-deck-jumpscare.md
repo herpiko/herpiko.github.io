@@ -8,6 +8,8 @@ tags:
   - Steam Deck
 ---
 
+I have write <a href="https://www.reddit.com/r/SteamDeck/comments/1dnibot/steam_deck_jumpscare/">this guide in a Reddit thread</a> but no one is interested until <a href="https://www.reddit.com/r/SteamDeck/comments/1gx6vhj/this_is_how_i_pranked_my_wife_with_a_jumpscare/">they saw the video</a>. :D
+
 ### Notes
 
 - A good prank is one that is light-hearted, harmless, and designed to amuse rather than to cause harm or distress. Please pick a suitable victim. Jumpscare could be dangerous for individuals with heart conditions or other health issues. In extreme cases, it could potentially trigger a cardiac event.
@@ -15,11 +17,6 @@ tags:
 - Please make sure your victim and the Steam Deck is in safe position. Victim laying in bed while playing games is better than in sit or standing position. Imagine the victim throwing the device. At least there is a huge chance that the device is still on the bed instead of hitting the floor.
 - Let the victim play for a while, lure them into the game, make him/her forget about the reality for once.
 - Disclaimer: I am not responsible for anything. If you are following this guide, this is solely at your own risk.
-
-
-<img src="https://camo.githubusercontent.com/c0a7bbc3a17e2aecfc514ea0397d1c3241dd4676ac0a2506fdb9657fb36aa6e6/68747470733a2f2f692e7974696d672e636f6d2f76692f524e6f48635745387462512f6d617872657364656661756c742e6a7067"/>
-
-Image source: https://github.com/Henry12116/hackee-jumpscare
 
 ### The trick
 

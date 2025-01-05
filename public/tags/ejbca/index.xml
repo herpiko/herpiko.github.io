@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EJBCA on Blog</title>
-    <link>/tags/ejbca/</link>
+    <link>//localhost:1313/tags/ejbca/</link>
     <description>Recent content in EJBCA on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0700</lastBuildDate><atom:link href="/tags/ejbca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ejbca/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EJBCA Beginner Guide: From CA to Certificate Enrollment</title>
-      <link>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</link>
+      <link>//localhost:1313/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0700</pubDate>
-      
-      <guid>/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</guid>
-      <description>X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example:
-CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification. This post is not the best practice example but it can introduce you to how EJBCA works.</description>
+      <guid>//localhost:1313/post/2020/11/22/ejbca-beginner-guide-from-ca-to-certificate-enrollment/</guid>
+      <description>&lt;p&gt;X509 is a complicated thing and EJBCA makes it easier to grasp. Eww you may find EJBCA is complicated as well. This post will guide you to specific case as example:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;CA that can issuing certificates for high education instutution. High education institution as end user can signing PDF files for their student certification.&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This post is not the best practice example but it can introduce you to how EJBCA works. Let&amp;rsquo;s go.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
