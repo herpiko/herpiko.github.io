@@ -15,7 +15,7 @@ I learned that a community is like a living organism. It can evolve into either 
 
 To prevent such deformities, it is important to have a code of conduct that provides everyone—literally everyone—with a guarantee that they are free to speak, question, and contribute without fear and pressure as long as they remain within the boundaries of the code. If it is not intended for everyone, it is okay to state that explicitly so those who do not align with it can find another community or create a new one. Another bubble.
 
-There are always individuals who may act outside the boundaries, whether wittingly or unwittingly. Some may also attempt to forcibly create their own bubble within the existing one, seeking to influence the community to favor their group or make the community exclusive to a specific group of people. This is where moderation becomes essential to ensure the community stays within the boundaries of the code of conduct.
+There are always individuals who may act outside the boundaries, whether wittingly or unwittingly. Some may also attempt to forcibly create their own bubble within the existing one, seeking to influence the community to favor their group or make the community exclusive to a specific group of people. This is where moderation and regulation becomes essential to ensure the community stays within the boundaries of the code of conduct.
 
 The interesting part is that the code of conduct could also evolve over time. The values we hold today may differ 100 or 1,000 years from now—nobody knows.
 
