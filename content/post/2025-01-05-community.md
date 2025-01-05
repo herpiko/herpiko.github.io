@@ -17,7 +17,7 @@ To prevent such deformities, it is important to have a code of conduct that prov
 
 There are always individuals who may act outside the boundaries, whether wittingly or unwittingly. Some may also attempt to forcibly create their own bubble within the existing one, seeking to influence the community to favor their group or make the community exclusive to a specific group of people. This is where moderation and regulation becomes essential to ensure the community stays within the boundaries of the code of conduct.
 
-The interesting part is that the code of conduct could also evolve over time. The values we hold today may differ 100 or 1,000 years from now—nobody knows.
+The interesting part is that the code of conduct could also evolve over time. The values could be changed tomorrow, as the community learned over time, for the greater good. Or the otherwise. The values we hold today may differ 10 or 1,000 years from now—nobody knows.
 
 I am someone who will try to change what I believe needs to be changed before deciding to leave. When nothing more can be done, I am content and happy to leave, knowing that I have given my best to the community.
 
