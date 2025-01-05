@@ -7,7 +7,7 @@ tags:
   - Community
 ---
 
-Communities allow me to see different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.
+Communities allow me to see the world in different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.
 
 I grew up in communities. They filled the gaps left by my parents (who are still alive but were largely absent in their roles). Communities gave me what I was missing and shaped my skills and career by allowing me to contribute back in many ways. It even helped guide me toward the meaning of life.
 
