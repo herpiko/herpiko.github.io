@@ -13,6 +13,8 @@ A 5-minute lightning talk session is surprisingly difficult for me, so this blog
 
 Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali. Tidak penting siapa saya, yang lebih penting adalah apa yang akan saya sampaikan. 
 
+# Latar Belakang
+
 Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional. Tapi di satu sisi, saya sedih. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta sini karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan di sini.
 
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan/kelebihan yang dibawa oleh pertemuan tatap muka.
@@ -39,7 +41,7 @@ Selain itu jaringan orang-orang daerah Lombok yang merantau ke Jakarta dan kota 
 
 # Tantangan
 
-Menurut saya, lebih mudah untuk bikin tech event di Jakarta karena ekosistemnya lebih mendukung. Saya sendiri pernah aktif mengurus komunitas di Jabodetabek, yaitu GLiBogor (GNU/Linux Bogor). Tapi di daerah dan kota-kota kecil, tantangannya agak berbeda dan saya ingin bahas itu.
+Menurut saya, lebih mudah untuk bikin tech event di Jakarta karena ekosistemnya lebih mendukung. Saya sendiri pernah aktif mengurus komunitas di Jabodetabek, yaitu GLiBogor (GNU/Linux Bogor). Tapi di daerah dan kota-kota kecil, tantangannya agak berbeda dan saya ingin membahas itu.
 
 ## Tantangan pertama: Sponsorship dan dana
 
