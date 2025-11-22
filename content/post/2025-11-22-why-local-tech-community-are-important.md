@@ -21,7 +21,7 @@ Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik 
 
 # Aksi
 
-Tahun 2017, kami mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
+Tahun 2017, berdasarkan pengalaman yang didapat dari event-event di Jakarta, kami kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langsung.
 
 Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Ini di luar ekspektasi.
 
@@ -67,7 +67,7 @@ Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 4. Moderator
 5. Dokumentasi
 
-Dalam bentuk yang lebih lean sebenarnya cuma butuh 2 orang (Meetup kedua dieksekusi berdua oleh <a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri):
+Dalam bentuk yang lebih lean sebenarnya cuma butuh 2 orang (seperti yang terjadi di Meetup kedua Lombok Dev):
 1. Koordinator, Perlengkapan, Moderator
 2. Publikasi, Registrasi, Dokumentasi
 
