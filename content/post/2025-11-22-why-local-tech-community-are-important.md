@@ -31,9 +31,11 @@ Dampak dari acara tersebut besar sekali.
 
 Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. Komunitas ini juga membuka banyak kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok.
 
-Yang bikin bahagia adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas kecil lainnya di pulau Lombok.
+Yang tidak terduga adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas kecil lainnya di pulau Lombok.
 
 <img src="https://aguno.xyz/images/lombokdev-affiliations.png"/>
+
+Selain itu jaringan orang-orang daerah Lombok yang merantau ke Jakarta dan kota besar lainnya mulai terbentuk dan saling dukung untuk keberlangsungan komunitas di Lombok.
 
 # Tantangan
 
