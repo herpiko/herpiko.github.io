@@ -7,7 +7,7 @@ tags:
   - Community
 ---
 
-5-minutes lightning talk session is surprisingly difficult for me so this blogpost is a backup in case I can't properly deliver what I want to say. Thank you for reading!
+A 5-minute lightning talk session is surprisingly difficult for me, so this blog post serves as a backup in case I can’t properly deliver what I want to say. Thank you for reading!
 
 ---
 
@@ -32,13 +32,13 @@ Impact dari acara tersebut besar sekali. Temen-teman saya di lombok akhirnya bis
 
 Menurut saya, lebih mudah untuk bikin event tech di Jakarta, ekosistemnya sangat mendukung. Saya sendiri pernah aktif mengurus komunitas di Jabodetabek, yaitu GLiBogor (GNU/Linux Bogor). Tapi di daerah, tantangannya agak berbeda dan saya ingin bahas tantangan itu.
 
-## Tantangan pertama: Sponsorship
+## Tantangan pertama: Sponsorship dan dana
 
 Lebih sulit mencari sponsor di daerah. Hampir semua perusahaan teknologi berkantor di kota-kota besar. Dari sudut pandang bisnis, tidak begitu masuk akal mensponsori acara kecil dengan eksposur kecil di kota kecil.
 
 Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari mas Haidar dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
 
-Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
+Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
 
 ## Tantangan kedua: Orang-orang
 
@@ -46,13 +46,33 @@ Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita
 
 Untuk mengatasi ini, kita harus punya execution framework dalam bentuk SOP yang mudah banget untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Orang baru yang mau terjun kontribusi pun ikut hepi. Kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
 
-Dengan SOP ini, kita tidak perlu memanage orang-orang di komunitas. SOP lah yang memanage mereka.
+Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. framework lah yang memanage mereka.
 
-## Tantangan ketiga: Mencegah komunitas rusak
+Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
+1. Koordinator
+2. Publikasi
+2. Registrasi (including payment, call for speakers, feedback form)
+3. Perlengkapan/korlap (including managing venue)
+4. Moderator
+5. Dokumentasi
+
+Dalam bentuk yang lebih lean cukup butuh 2 orang:
+1. Koordinator, Perlengkapan, Moderator
+2. Publikasi, Registrasi, Dokumentasi
+
+Contoh execution framework di Lombok Dev: https://github.com/LombokDev/wiki/blob/master/event-organizing-guide.md
+
+Contoh reusable assets yang dikelola Lombok Dev: https://github.com/LombokDev/assets
+
+## Tantangan ketiga: Mencegah komunitas rusak dan mati
 
 Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik.
 
+<img src="https://aguno.xyz/images/lombokdev-coc.png"/>
+
 Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah.
+
+Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
 # Selamat berkomunitas!
 
@@ -61,5 +81,7 @@ Bagaimana kalau komunitas belum ada? Teman-teman bisa mulai dengan ngumpul ngopi
 Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi
 
 Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>!
+
+<img src="https://aguno.xyz/images/lombokdev-meetup013-coming-soon.png"/>
 
 Jadi pesan saya untuk teman-teman, selamat berkomunitas!
