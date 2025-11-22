@@ -49,13 +49,13 @@ Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri atau 
 
 Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
 
-## Tantangan kedua: Orang-orang
+## Tantangan kedua: Orang-orang yang bekerja secara sukarela untuk komunitas
 
 Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita pasti berharap ada yang mau menggantikan kita. Tapi bagaimana cara meyakinkan penerus kita? Di kota besar populasinya lebih padat dan kesempatan regenerasi lebih besar. Di kota kecil yang populasinya jauh lebih sedikit, adanya 4L. Lu Lagi Lu lagi!
 
 Untuk mengatasi ini, kita harus punya execution framework dalam bentuk SOP yang mudah dan jelas untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Orang baru yang mau terjun kontribusi pun ikut hepi. Kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
 
-Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. Execution framework lah yang memanage mereka. Orang-orang datang dan pergi namun framework acara selalu siap sedia untuk dibaca dan dieksekusi kembali.
+Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. Execution frameworklah yang memanage mereka. Orang-orang datang dan pergi namun framework acara selalu siap sedia untuk dibaca dan dieksekusi kembali.
 
 Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 1. Koordinator
@@ -78,9 +78,9 @@ Referensi:
 
 ## Tantangan ketiga: Mencegah komunitas rusak dan mati
 
-Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
+Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan tersebut akan memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
 
-Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
+Saya rasa ini adalah tantangan di semua komunitas, bukan hanya komunitas yang ada di daerah. Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
 Code of Conduct yang disepakati di Lombok Dev sejak 7 tahun yang lalu: https://github.com/LombokDev/wiki/blob/master/code-of-conduct.md
 
@@ -88,7 +88,7 @@ Code of Conduct yang disepakati di Lombok Dev sejak 7 tahun yang lalu: https://g
 
 # Selamat berkomunitas!
 
-Bagaimana kalau komunitas belum ada? Teman-teman bisa mulai dengan ngumpul ngopi-ngopi, ngobrol dengan kawan seprofesi. Cobain dulu sesering mungkin, lalu angkat topik soal menyelenggarakan event untuk berbagi seperti ini.
+Bagaimana kalau komunitas tech di daerah teman-teman belum ada? Teman-teman bisa mulai dengan ngumpul ngopi-ngopi, ngobrol dengan kawan seprofesi. Cobain dulu sesering mungkin, lalu angkat topik soal menyelenggarakan event sharing seperti ini.
 
 Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi ini, maka secara tidak langsung kita membantu mengangkat kapasitas SDM di Indonesia, terutama di kalangan pengrajin kode.
 
