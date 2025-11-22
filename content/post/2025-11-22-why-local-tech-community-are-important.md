@@ -102,4 +102,4 @@ Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank
 
 <img src="https://aguno.xyz/images/lombokdev-meetup013-coming-soon.png"/>
 
-Jadi pesan saya untuk teman-teman, selamat berkomunitas!
+Selamat berkomunitas!
