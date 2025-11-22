@@ -1,6 +1,6 @@
 ---
 title: IDSW 2015 Lightning Talk - Why Local Tech Communities are Important and How to Run Them
-date:   2025-07-11 00:00:00Z
+date:   2025-11-22 00:00:00Z
 categories:
   - Community
 tags:
@@ -18,7 +18,7 @@ Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya c
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan-keuntungan yang dibawa oleh pertemuan tatap muka.
 # Aksi
 
-Tahun 2017, saya mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta. Banyak pihak yang saya hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
+Tahun 2017, saya mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta. Banyak pihak yang saya hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
 
 Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Ini di luar ekspektasi.
 
@@ -60,6 +60,6 @@ Bagaimana kalau komunitas belum ada? Teman-teman bisa mulai dengan ngumpul ngopi
 
 Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi
 
-Bulan depan saya akan terbang ke Lombok untuk mendukung acara <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>!
+Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>!
 
 Jadi pesan saya untuk teman-teman, selamat berkomunitas!
