@@ -76,7 +76,7 @@ Referensi:
 
 ## Tantangan ketiga: Mencegah komunitas rusak dan mati
 
-Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah.
+Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
 
 Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
