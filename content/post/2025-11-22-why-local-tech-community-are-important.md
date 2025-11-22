@@ -49,11 +49,11 @@ Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisa
 
 ## Tantangan kedua: Orang-orang
 
-Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita pasti berharap ada yang mau menggantikan kita. Tapi bagaimana cara meyakinkan penerus kita? Di kota besar populasinya lebih padat dan kesempatan regenerasi lebih besar. Di kota kecil yang populasinya jauh lebih sedikit, adanya 4L. Lu lagi lu lagi.
+Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita pasti berharap ada yang mau menggantikan kita. Tapi bagaimana cara meyakinkan penerus kita? Di kota besar populasinya lebih padat dan kesempatan regenerasi lebih besar. Di kota kecil yang populasinya jauh lebih sedikit, adanya 4L. Lu lagi lu lagi!
 
 Untuk mengatasi ini, kita harus punya execution framework dalam bentuk SOP yang mudah banget untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Orang baru yang mau terjun kontribusi pun ikut hepi. Kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
 
-Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. framework lah yang memanage mereka. Orang-orang datang dan pergi namun framework untuk eksekusi event selalu siap sedia untuk dibaca kembali.
+Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. framework lah yang memanage mereka. Orang-orang datang dan pergi namun framework untuk eksekusi acara selalu siap sedia untuk dibaca dan dieksekusi kembali.
 
 Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 1. Koordinator
@@ -63,26 +63,24 @@ Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 4. Moderator
 5. Dokumentasi
 
-Dalam bentuk yang lebih lean sebenarnya cuma butuh 2 orang (meetup002 dieksekusi oleh saya dan <a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a>:
+Dalam bentuk yang lebih lean sebenarnya cuma butuh 2 orang (Meetup kedua dieksekusi berdua oleh saya dan <a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a>):
 1. Koordinator, Perlengkapan, Moderator
 2. Publikasi, Registrasi, Dokumentasi
 
 Referensi:
-- Execution framework di Lombok Dev: https://github.com/LombokDev/wiki/blob/master/event-organizing-guide.md
+- Execution framework kasar di Lombok Dev: https://github.com/LombokDev/wiki/blob/master/event-organizing-guide.md
 - Reusable assets yang dikelola Lombok Dev: https://github.com/LombokDev/assets
 - Daftar venue: https://github.com/LombokDev/wiki/blob/master/budget-venues-sponsor.md
 - Daftar penanggung jawab akun-akun yang berhubungan dengan komunitas: https://github.com/LombokDev/wiki/blob/master/community-credentials.md
-- Bentuk-bentuk event: https://github.com/LombokDev/wiki/tree/master/event-concepts
+- Bentuk-bentuk acara: https://github.com/LombokDev/wiki/tree/master/event-concepts
 
 ## Tantangan ketiga: Mencegah komunitas rusak dan mati
 
-Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik.
+Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah.
 
 Code of Conduct yang disepakati di Lombok Dev sejak 6 tahun yang lalu:
 
 <img src="https://aguno.xyz/images/lombokdev-coc.png"/>
-
-Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah.
 
 Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
@@ -90,9 +88,9 @@ Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/
 
 Bagaimana kalau komunitas belum ada? Teman-teman bisa mulai dengan ngumpul ngopi-ngopi, ngobrol dengan kawan seprofesi. Cobain dulu sesering mungkin, lalu angkat topik soal menyelenggarakan event untuk berbagi seperti ini.
 
-Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi
+Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi ini, maka secara tidak langsung kita membantu mengangkat kapasitas SDM di Indonesia, terutama di kalangan pengrajin kode.
 
-Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>!
+Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>.
 
 <img src="https://aguno.xyz/images/lombokdev-meetup013-coming-soon.png"/>
 
