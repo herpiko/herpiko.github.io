@@ -78,11 +78,11 @@ Referensi:
 
 Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Saya rasa ini adalah tantangan semua komunitas, bukan hanya komunitas yang ada di daerah.
 
-Code of Conduct yang disepakati di Lombok Dev sejak 6 tahun yang lalu:
+Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
+
+Code of Conduct yang disepakati di Lombok Dev sejak 7 tahun yang lalu: https://github.com/LombokDev/wiki/blob/master/code-of-conduct.md
 
 <img src="https://aguno.xyz/images/lombokdev-coc.png"/>
-
-Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
 # Selamat berkomunitas!
 
