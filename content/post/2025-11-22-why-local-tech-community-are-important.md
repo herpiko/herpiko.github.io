@@ -21,7 +21,7 @@ Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik 
 
 # Aksi
 
-Tahun 2017, saya mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang saya hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
+Tahun 2017, kami mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
 
 Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Ini di luar ekspektasi.
 
