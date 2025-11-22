@@ -1,5 +1,5 @@
 ---
-title: IDSW 2015 Lightning Talk - Why Local Tech Communities are Important and How to Run Them
+title: IDSW 2025 Lightning Talk - Why Local Tech Communities are Important and How to Run Them
 date:   2025-11-22 00:00:00Z
 categories:
   - Community
