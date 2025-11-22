@@ -16,6 +16,7 @@ Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya B
 Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional. Tapi di satu sisi, saya sedih. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta sini.
 
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan-keuntungan yang dibawa oleh pertemuan tatap muka.
+
 # Aksi
 
 Tahun 2017, saya mencoba untuk bikin event tech di Lombok yang saya manage secara remote dari Jakarta. Banyak pihak yang saya hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara saya terbang ke Lombok untuk mengurus acaranya secara langsung.
@@ -26,7 +27,13 @@ Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu a
 
 # Dampak
 
-Impact dari acara tersebut besar sekali. Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. Komunitas ini juga membuka banyak kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok.
+Dampak dari acara tersebut besar sekali.
+
+Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. Komunitas ini juga membuka banyak kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok.
+
+Yang bikin bahagia adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas kecil lainnya di pulau Lombok.
+
+<img src="https://aguno.xyz/images/lombokdev-affiliations.png"/>
 
 # Tantangan
 
@@ -46,7 +53,7 @@ Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita
 
 Untuk mengatasi ini, kita harus punya execution framework dalam bentuk SOP yang mudah banget untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Orang baru yang mau terjun kontribusi pun ikut hepi. Kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
 
-Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. framework lah yang memanage mereka.
+Dengan framework ini, kita tidak perlu memanage orang-orang di komunitas. framework lah yang memanage mereka. Orang-orang datang dan pergi namun framework untuk eksekusi event selalu siap sedia untuk dibaca kembali.
 
 Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 1. Koordinator
@@ -56,17 +63,22 @@ Dalam paket lengkap, tim eksekusi acara dapat dibagi menjadi:
 4. Moderator
 5. Dokumentasi
 
-Dalam bentuk yang lebih lean cukup butuh 2 orang:
+Dalam bentuk yang lebih lean sebenarnya cuma butuh 2 orang (meetup002 dieksekusi oleh saya dan <a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a>:
 1. Koordinator, Perlengkapan, Moderator
 2. Publikasi, Registrasi, Dokumentasi
 
-Contoh execution framework di Lombok Dev: https://github.com/LombokDev/wiki/blob/master/event-organizing-guide.md
-
-Contoh reusable assets yang dikelola Lombok Dev: https://github.com/LombokDev/assets
+Referensi:
+- Execution framework di Lombok Dev: https://github.com/LombokDev/wiki/blob/master/event-organizing-guide.md
+- Reusable assets yang dikelola Lombok Dev: https://github.com/LombokDev/assets
+- Daftar venue: https://github.com/LombokDev/wiki/blob/master/budget-venues-sponsor.md
+- Daftar penanggung jawab akun-akun yang berhubungan dengan komunitas: https://github.com/LombokDev/wiki/blob/master/community-credentials.md
+- Bentuk-bentuk event: https://github.com/LombokDev/wiki/tree/master/event-concepts
 
 ## Tantangan ketiga: Mencegah komunitas rusak dan mati
 
-Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik.
+Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan yang bisa memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik.
+
+Code of Conduct yang disepakati di Lombok Dev sejak 6 tahun yang lalu:
 
 <img src="https://aguno.xyz/images/lombokdev-coc.png"/>
 
