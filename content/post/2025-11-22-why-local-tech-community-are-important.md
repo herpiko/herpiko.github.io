@@ -11,7 +11,7 @@ A 5-minute lightning talk session is surprisingly difficult for me, so this blog
 
 ---
 
-Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali. Tidak penting siapa saya, yang lebih penting adalah apa yang akan saya sampaikan. 
+Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali.
 
 # Latar Belakang
 
