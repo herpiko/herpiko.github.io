@@ -42,9 +42,9 @@ Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisa
 
 ## Tantangan kedua: Orang-orang
 
-Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita pasti berharap ada yang mau menggantikan kita. Tapi bagaimana cara meyakinkan penerus kita? Di kota besar populasinya lebih padat. Di kota kecil yang populasinya jauh lebih sedikit, adanya 4L. Lu lagi lu lagi. Tantangan regenerasi lebih berat.
+Tidak setiap orang berkenan terus-terusan mengurus komunitas. Di satu titik kita pasti berharap ada yang mau menggantikan kita. Tapi bagaimana cara meyakinkan penerus kita? Di kota besar populasinya lebih padat dan kesempatan regenerasi lebih besar. Di kota kecil yang populasinya jauh lebih sedikit, adanya 4L. Lu lagi lu lagi.
 
-Untuk mengatasi ini, kita harus punya execution framework, SOP yang mudah banget untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Jadi kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
+Untuk mengatasi ini, kita harus punya execution framework dalam bentuk SOP yang mudah banget untuk dikerjain dan kalau dikerjain itu tidak terasa sebagai beban, melainkan jadi lebih hepi. Orang baru yang mau terjun kontribusi pun ikut hepi. Kalau yang muda-muda sedang capek, yang tua-tua terjun kembali mengurus komunitas pun masih gampang karena sudah ada petunjuk yang tinggal diikuti dan bahan-bahan yang siap dipakai ulang.
 
 Dengan SOP ini, kita tidak perlu memanage orang-orang di komunitas. SOP lah yang memanage mereka.
 
