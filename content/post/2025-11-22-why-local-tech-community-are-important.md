@@ -19,6 +19,10 @@ Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya c
 
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan/kelebihan yang dibawa oleh pertemuan tatap muka.
 
+<img src="https://aguno.xyz/images/lombok-is-here.png"/>
+
+^ In case you don't know where is Lombok.
+
 # Aksi
 
 Tahun 2017, berdasarkan pengalaman yang didapat dari event-event di Jakarta (terutama setelah saya mencoba mengisi tech talk di JakartaJS pada 2016), kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langsung.
