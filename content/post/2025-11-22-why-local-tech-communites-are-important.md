@@ -53,7 +53,13 @@ Menurut saya, lebih mudah untuk bikin tech event di Jabodetabek karena ekosistem
 
 Lebih sulit mencari sponsor di daerah. Hampir semua perusahaan teknologi berkantor di kota-kota besar. Dari sudut pandang bisnis, tidak begitu masuk akal mensponsori acara kecil dengan eksposur kecil di kota kecil.
 
-Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri dan/atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
+Ada 3 cara untuk mengatasi ini, yaitu :
+
+1. Dengan donasi dari kita-kita sendiri
+2. Dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
+3. Yang ketiga ini yang paling tidak terbayangkan tapi beneran dieksekusi oleh teman-teman di Lombok, yaitu bersama-sama menggarap proyekan rekayasa perangkat lunak dan sebagian kuntungannya disisihkan untuk kas komunitas. Usaha ini pertama kali diinisiasi oleh <a href="https://www.linkedin.com/in/hayinukman/" target="_blank">Hayi Nukman</a> dan hasilnya dapat membiayai beberapa acara.
+
+Sebenarnya masih banyak jalan lain untuk mendapatkan dana, yang penting kita saling dukung dan tidak membiarkan rekan-rekan kita di koumintas bekerja sendirian.
 
 Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
 
