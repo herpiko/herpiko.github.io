@@ -47,13 +47,13 @@ Selain itu jaringan orang-orang daerah Lombok yang merantau ke Jakarta dan kota 
 
 # Tantangan
 
-Menurut saya, lebih mudah untuk bikin tech event di Jakarta karena ekosistemnya lebih mendukung. Saya sendiri pernah aktif mengurus komunitas di Jabodetabek, yaitu GLiBogor (GNU/Linux Bogor). Tapi di daerah dan kota-kota kecil, tantangannya agak berbeda dan saya ingin membahas itu.
+Menurut saya, lebih mudah untuk bikin tech event di Jabodetabek karena ekosistemnya lebih mendukung. Saya sendiri pernah aktif mengurus komunitas di Jabodetabek, yaitu GLiBogor (GNU/Linux Bogor). Tapi di daerah dan kota-kota kecil, tantangannya agak berbeda dan saya ingin membahas itu.
 
 ## Tantangan pertama: Sponsorship dan dana
 
 Lebih sulit mencari sponsor di daerah. Hampir semua perusahaan teknologi berkantor di kota-kota besar. Dari sudut pandang bisnis, tidak begitu masuk akal mensponsori acara kecil dengan eksposur kecil di kota kecil.
 
-Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
+Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri dan/atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
 
 Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
 
