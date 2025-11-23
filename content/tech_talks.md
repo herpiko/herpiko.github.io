@@ -3,7 +3,8 @@ title: Tech Talks
 type: page
 ---
 
-- <a href="https://louca.id/sessions/?id=28" target="_blank">Crafting a native GNOME app for Ubuntu and ship it via Snap</a> - UbuCon Asia 2023 (LOUCA 2023) @ Surakarta, Indonesia (2023) - https://www.youtube.com/watch?v=zN3y83yc3Ok
+- <a href="https://www.linkedin.com/posts/herpiko_today-i-had-the-opportunity-to-speak-at-activity-7398381888949637120-TnES?utm_source=share&utm_medium=member_desktop&rcm=ACoAABja8BQBiqThk64zrdbHKIfPDh2CxveOjnE" target="_blank">Why Local Tech Communities are Important and How to Run Them</a> - Lightning Talk Session at <a href="https://idsw.dev/" target="_blank">IDSW 2025</a> @ Jakarta (2025)
+- <a href="https://louca.id/sessions/?id=28" target="_blank">Crafting a native GNOME app for Ubuntu and ship it via Snap</a> - UbuCon Asia 2023 (LOUCA 2023) @ Surakarta, Indonesia (2023) - <a href="https://www.youtube.com/watch?v=zN3y83yc3Ok" target="_blank">Youtube</a>
 - <a href="https://github.com/herpiko/2020-talks/blob/master/moztalk-opensource-day-at-mozspace-jakarta/ngoprek-mozilla-firefox.pdf" target="_blank">Ngoprek Mozilla Firefox, Siklus kontribusi kode ke Mozilla Firefox dari ujung ke ujung</a> - Moztalk Opensource Day @ MozSpace Jakarta, Indonesia (2020)
 - <a href="https://events.opensuse.org/conferences/summitasia19/schedule" target="_blank">IRGSH</a> - OpenSUSE Asia Summit 2019 @ Bali, Indonesia (2019)
 - <a href="https://lombokdev.github.io/Meetup006/#page3" target="_blank">Monorepo</a> - Lombok Dev Meetup 2019 @ Lombok, Indonesia (2019)
