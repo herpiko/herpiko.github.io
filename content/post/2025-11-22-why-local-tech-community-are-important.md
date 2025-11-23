@@ -21,13 +21,13 @@ Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik 
 
 <img src="https://aguno.xyz/images/lombok-is-here.png"/>
 
-^ In case you don't know where is Lombok.
+^ In case you don't know where Lombok is.
 
 # Aksi
 
-Tahun 2017, berdasarkan pengalaman yang didapat dari event-event di Jakarta (terutama setelah saya mencoba mengisi tech talk di JakartaJS pada 2016), kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langsung.
+Tahun 2017, berdasarkan pengalaman yang didapat dari event-event di Jakarta terutama setelah saya mencoba mengisi tech talk di JakartaJS pada 2016, kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. 
 
-Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Melebihi ekspektasi kami semua.
+Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langsung dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">acara itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Melebihi ekspektasi kami semua.
 
 <img src="https://lombokdev.github.io/assets/lombokdev/images/1.JPG"/>
 
@@ -35,7 +35,9 @@ Dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">event itu a
 
 Dampak dari acara tersebut besar sekali.
 
-Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. Komunitas ini juga membuka banyak kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok.
+Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. 
+
+Yang paling penting, komunitas ini membuka jalan bagi banyak orang, kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok. Dari tahun ke tahun, saya dapat menyaksikan orang-orang bertumbuh bersama-sama dengan komunitas ini.
 
 Yang tidak terduga adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas kecil lainnya di pulau Lombok.
 
@@ -82,7 +84,18 @@ Referensi:
 - Daftar penanggung jawab akun-akun yang berhubungan dengan komunitas: https://github.com/LombokDev/wiki/blob/master/community-credentials.md
 - Bentuk-bentuk acara: https://github.com/LombokDev/wiki/tree/master/event-concepts
 
-## Tantangan ketiga: Mencegah komunitas rusak dan mati
+## Tantangan ketiga: Emang siapa yang mau dateng?
+
+Sekali lagi, populasi di daerah atau kota kecil itu jauh lebih sedikit. Dulu sempat mikir, emang ada ya yang bakal datang? Tapi ternyata ada dan banyak. Di jaman sekarang pekerja remote sudah lumrah. Di Meetup007 tahun 2019, saya bertemu dengan Aziz, seorang pekerja remote di Lombok yang bekerja dengan perusahaan luar negeri dan berhasil menyakinkan beliau untuk ikut mengisi topik dengan judul "Lika-liku Pekerja Remote".
+
+Di daerah, kita perlu usaha lebih keras untuk mengumpulkan orang-orang dan membuat semuanya terhubung. Bagian publikasi perlu:
+
+1. Lakukan pendekatan dan tempel poster di kampus dan sekolah-sekolah ynag memiliki jurusan rekayasa perangkat lunak dan TKJ.
+2. Kelola akun-akun sosial media dan pastikan orang-orang yang terhubung selalu dikabari tentang acara.
+3. Pasang iklan di akun influencer lokal untuk memastikan informasi tentang acara menjangkau lebih banyak pihak.
+4. Bicarakan komunitas dan event ini dengan lebih banyak orang!
+
+## Tantangan keempat: Mencegah komunitas rusak dan mati
 
 Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan tersebut akan memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
 
