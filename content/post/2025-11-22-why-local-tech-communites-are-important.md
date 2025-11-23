@@ -107,7 +107,7 @@ Di daerah, kita perlu usaha lebih keras untuk mengumpulkan orang-orang dan membu
 
 ## Tantangan keempat: Mencegah komunitas rusak dan mati
 
-Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan tersebut akan memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
+Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas yang tidak sehat. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan tersebut akan memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
 
 Saya rasa ini adalah tantangan di semua komunitas, bukan hanya komunitas yang ada di daerah. Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
 
