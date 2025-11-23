@@ -90,10 +90,10 @@ Sekali lagi, populasi di daerah atau kota kecil itu jauh lebih sedikit. Dulu sem
 
 Di daerah, kita perlu usaha lebih keras untuk mengumpulkan orang-orang dan membuat semuanya terhubung. Bagian publikasi perlu:
 
-1. Lakukan pendekatan dan tempel poster di kampus dan sekolah-sekolah ynag memiliki jurusan rekayasa perangkat lunak dan TKJ.
+1. Lakukan pendekatan dan tempel poster di kampus dan sekolah-sekolah yang memiliki jurusan rekayasa perangkat lunak dan TKJ.
 2. Kelola akun-akun sosial media dan pastikan orang-orang yang terhubung selalu dikabari tentang acara.
 3. Pasang iklan di akun influencer lokal untuk memastikan informasi tentang acara menjangkau lebih banyak pihak.
-4. Bicarakan komunitas dan event ini dengan lebih banyak orang!
+4. Bicarakan komunitas dan event ini dengan lebih banyak orang.
 
 ## Tantangan keempat: Mencegah komunitas rusak dan mati
 
