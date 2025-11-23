@@ -61,9 +61,11 @@ Sejauh pengalaman kami, ada 3 cara untuk mengatasi ini, yaitu :
 
 Sebenarnya masih banyak jalan lain untuk mendapatkan dana, yang penting kita saling dukung dan tidak membiarkan rekan-rekan kita di komunitas bekerja sendirian.
 
-Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara.
+Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar.
 
-Dana-dana ini dikelola bersama-sama dengan pertanggungjawaban tercatat. Contoh: https://github.com/LombokDev/Meetup002/blob/master/keuangan.md
+Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara.
+
+Dana-dana ini perlu dikelola secara bersama-sama dengan pertanggungjawaban yang tercatat. Contoh: https://github.com/LombokDev/Meetup002/blob/master/keuangan.md
 
 ## Tantangan kedua: Orang-orang yang bekerja secara sukarela untuk komunitas
 
