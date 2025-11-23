@@ -111,8 +111,6 @@ Bagaimana kalau komunitas tech di daerah teman-teman belum ada? Teman-teman bisa
 
 Teman-teman kita di daerah punya tantangan-tantangan tersendiri. Mereka butuh dukungan kita untuk memastikan perkembangan-perkembangan di profesi kita ini bisa terdistribusi dengan baik, bahkan sampai ke Merauke. Kalau kita bisa mengatasi ini, maka secara tidak langsung kita membantu mengangkat kapasitas SDM di Indonesia, terutama di kalangan pengrajin kode.
 
-Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>.
+Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank" href="https://lombokdev.github.io/Meetup013/">Lombok Dev Meetup yang ke 13</a>. Selamat berkomunitas!
 
 <img src="https://aguno.xyz/images/lombokdev-meetup013-coming-soon.png"/>
-
-Selamat berkomunitas!
