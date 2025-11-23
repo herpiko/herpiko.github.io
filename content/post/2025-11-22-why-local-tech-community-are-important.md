@@ -15,7 +15,7 @@ Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya B
 
 # Latar Belakang
 
-Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional dan memberikan saya bermacam-macam opportunity. Tapi di satu sisi, saya sedih banget. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan.
+Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional dan memberikan saya bermacam-macam opportunity. Namun di sisi lain saya sedih banget. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan.
 
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan/kelebihan yang dibawa oleh pertemuan tatap muka.
 
@@ -25,7 +25,7 @@ Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik 
 
 # Aksi
 
-Tahun 2017, berdasarkan pengalaman yang didapat dari event-event di Jakarta terutama setelah saya mencoba mengisi tech talk di JakartaJS pada 2016, kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. 
+Tahun 2017, berdasarkan pengalaman yang didapat dari event-event teknologi di Jakarta terutama setelah saya mencoba mengisi tech talk di JakartaJS pada 2016, kami (<a href="https://www.linkedin.com/in/saeful-bahri-661272117/" target="_blank">Saeful Bahri</a> dan saya sendiri) mencoba untuk bikin event tech di Lombok yang dimanage secara remote dari Jakarta dengan menggerakkan komunitas lokal yang baru saja terbentuk di tahun sebelumnya. Banyak pihak yang kami hubungi via telepon satu per satu, mulai dari sponsor (perusahaan-perusahaan lokal di kota Mataram), venue (kafe-kafe kecil yang kira-kira berkenan menyewakan tempatnya di harga yang masuk akal), sampai teman-teman yang saya kenal di komunitas untuk saya ajak mereka berkontribusi sebagai pembicara. 
 
 Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langsung dan <a href="https://lombokdev.github.io/Meetup002/" target="_blank">acara itu akhirnya terwujud</a> dengan pesertanya mencapai 100 orang. Melebihi ekspektasi kami semua.
 
@@ -35,11 +35,11 @@ Sehari sebelum acara kami terbang ke Lombok untuk mengurus acaranya secara langs
 
 Dampak dari acara tersebut besar sekali.
 
-Temen-teman saya di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. 
+Temen-teman developer/engineer di lombok akhirnya bisa dapat gambaran seperti apa sih event tech yang proper dan bisa menjadi wadah yang nyaman untuk saling berbagi. Setelah acara selesai, saya balik ke Jakarta kemudian saya menyaksikan teman-teman saya di Lombok bisa melanjutkan kegiatan-kegiatan berkomunitas sampai saat ini. Mereka tidak perlu jauh-jauh ke Jakarta untuk menikmati apa yang sekarang kita nikmati. Malah yang terjadi kebalikannya, mereka kadang-kadang berhasil mengundang orang dari luar Lombok untuk ikut berpartisipasi di event mereka. Sejauh ini kami sudah menyelenggarakan 12 meetups, 2 workshop, sebuah bootcamp, beberapa virtual meetup saat pandemi, dan banyak kegiatan lainnya. 
 
-Yang paling penting, komunitas ini membuka jalan bagi banyak orang, kesempatan untuk berjejaring dan mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok. Dari tahun ke tahun, saya dapat menyaksikan orang-orang bertumbuh bersama-sama dengan komunitas ini.
+Yang paling penting, komunitas ini membuka jalan bagi banyak orang, kesempatan untuk berjejaring, mengembangkan kemampuan dan pengetahuan serta mendapatkan pekerjaan yang lebih baik untuk teman-teman di Lombok. Dari tahun ke tahun, saya menyaksikan sendiri orang-orang bertumbuh bersama-sama dengan komunitas ini.
 
-Yang tidak terduga adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas kecil lainnya di pulau Lombok.
+Yang tidak terduga adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas lainnya di pulau Lombok.
 
 <img src="https://aguno.xyz/images/lombokdev-affiliations.png"/>
 
@@ -53,7 +53,7 @@ Menurut saya, lebih mudah untuk bikin tech event di Jakarta karena ekosistemnya 
 
 Lebih sulit mencari sponsor di daerah. Hampir semua perusahaan teknologi berkantor di kota-kota besar. Dari sudut pandang bisnis, tidak begitu masuk akal mensponsori acara kecil dengan eksposur kecil di kota kecil.
 
-Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari mas Haidar dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
+Ada 2 cara untuk mengatasi ini, yaitu dengan donasi dari kita-kita sendiri atau dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
 
 Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara. 
 
