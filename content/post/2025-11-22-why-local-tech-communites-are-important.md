@@ -59,7 +59,7 @@ Sejauh pengalaman kami, ada 3 cara untuk mengatasi ini, yaitu :
 2. Dengan memungut biaya tiket dari peserta acara. Memungut tiket berbayar ini saya dapat inspirasinya dari BandungDev dan saya rasa itu adalah pendekatan yang paling sustainable.
 3. Yang ketiga ini yang paling tidak terbayangkan tapi beneran dieksekusi oleh teman-teman di Lombok, yaitu bersama-sama menggarap proyekan rekayasa perangkat lunak dan sebagian kuntungannya disisihkan untuk kas komunitas. Usaha ini pertama kali diinisiasi oleh <a href="https://www.linkedin.com/in/hayinukman/" target="_blank">Hayi Nukman</a> dan hasilnya dapat membiayai beberapa acara.
 
-Sebenarnya masih banyak jalan lain untuk mendapatkan dana, yang penting kita saling dukung dan tidak membiarkan rekan-rekan kita di koumintas bekerja sendirian.
+Sebenarnya masih banyak jalan lain untuk mendapatkan dana, yang penting kita saling dukung dan tidak membiarkan rekan-rekan kita di komunitas bekerja sendirian.
 
 Begitu kita punya dana yang cukup, kita bisa lebih percaya diri untuk bernegoisasi dengan pemilik tempat / venue dan memastikan acara dapat berjalan dengan lancar. Jika dana tidak cukup, jangan sungkan untuk bernegosiasi dengan kampus atau pemerintah setempat untuk mendapatkan dukungan dalam bentuk tempat penyelenggaraan acara.
 
