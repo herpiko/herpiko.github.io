@@ -7,6 +7,9 @@ tags:
   - Community
 ---
 
+
+<img src="https://aguno.xyz/images/2025-11-24-idsw2025-lightning-talk.jpg"/>
+
 A 5-minute lightning talk session is surprisingly difficult for me, so this blog post serves as a backup in case I can’t properly deliver what I want to say. Thank you for reading!
 
 ---
