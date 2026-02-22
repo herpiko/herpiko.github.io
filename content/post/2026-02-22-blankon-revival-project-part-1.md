@@ -1,6 +1,6 @@
 ---
 title: BlankOn Revival Project - Part 1
-date:   2025-02-22 00:00:00Z
+date:   2026-02-22 00:00:00Z
 categories:
   - Community
 tags:
