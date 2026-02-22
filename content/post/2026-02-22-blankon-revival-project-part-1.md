@@ -69,7 +69,7 @@ I had mixed feelings. I was happy that someone still remembered the golden days 
 
 AI really played a big part in my decision to revive the project. Everything is so much easier now.
 
-As I am writing this post, Praya ([https://github.com/BlankOn/praya-gnome-shell-extension](https://github.com/BlankOn/praya-gnome-shell-extension)) is already part of the BlankOn Linux ISO, and around 60–70% of the code was written with AI. It is written within days, something that would have taken months to finish five years ago.
+As I am writing this post, Praya ([https://github.com/BlankOn/praya-gnome-shell-extension](https://github.com/BlankOn/praya-gnome-shell-extension)) is already part of the BlankOn Linux ISO, and around 60–70% of the code was written with AI. It was written within days, something that would have taken months to finish five years ago.
 
 I have carefully designed the guardrail policy around AI: https://github.com/BlankOn/revival/blob/main/ArtificialIntelligencePolicy.md
 
