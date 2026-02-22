@@ -22,15 +22,15 @@ Even though I stepped down from my positions and left the community, I never sai
 
 # The Events
 
-The revival was triggered by a few important events. These events really moved me to think deeply about the future of BlankOn, even when I didn’t want to think about it.
+The revival was triggered by a few important events. These events really moved me to think deeply about the future of BlankOn, even when I didn't want to think about it.
 
-### 1. Slamet Santoso’s Visit (2024)
+### 1. Slamet Santoso's Visit (2024)
 
 Slamet Santoso visited me around 2024. We talked for hours about the project, the problems, the issues over the years, our mistakes, and is there any possible way to revive it.
 
 Our biggest mistake was believing that in order to run the project, we simply needed more contributors at any levels and that the easiest way to find them was by recruiting college students. They were abundant and accessible, but often still inexperienced. Once they joined, we invested so much effort and time in teaching and training them, hoping that some would eventually grow into core technical contributors. Unfortunately, this approach did not work as we expected. In hindsight, it was a naive strategy. Lesson learned, we should only accept people that come with true curiosity in their heart, not by blind invitation.
 
-At the end of the discussion, I refused to come back because I genuinely didn’t know what to do or how to do it. But that conversation became a starting point.
+At the end of the discussion, I refused to come back because I genuinely didn't know what to do or how to do it. But that conversation became a starting point.
 
 ### 2. The Telegram Discussion
 
@@ -45,7 +45,7 @@ A few weeks after that discussion, I kept asking myself: Why? Why now? Why does 
 
 I attended OpenInfra Summit 2025 and met one of the speakers, Iwan stwn, the initiator and maintainer of Kuliax. We talked about why the current generation seems different from us. Where are the young hackers who love tinkering? Where can we find them? Even if they are visible, how do we attract them to Indonesian Linux/open-source projects/initiatives? Or, are we just becoming irrelevant?
 
-We don’t think so. Maybe we just need to put more effort to find them, and adjust ourselves to match their generation's style.
+We don't think so. Maybe we just need to put more effort to find them, and adjust ourselves to match their generation's style.
 
 But even if they join us, how do we make them stay and happy with the project?
 
@@ -67,6 +67,9 @@ I had mixed feelings. I was happy that someone still remembered the golden days 
 
 ### 6. Artificial Intelligence
 
+AI really played a big part in my decision to revive the project. Everything is so much easier now.
+
+As I am writing this post, Praya ([https://github.com/BlankOn/praya-gnome-shell-extension](https://github.com/BlankOn/praya-gnome-shell-extension)) is already part of the BlankOn Linux ISO, and around 60–70% of the code was written with AI. It is something that would have taken months to finish five years ago.
 
 # The Problems
 
@@ -92,11 +95,11 @@ The most common question that people throw against BlankOn project is, "What is 
 
 Many BlankOn developers use this answer, including me sometimes, "The distro is just the bonuses. It is about people, leveraging their capabilities". While it is true to the root, these answer has potential misleading interpretation and could lead us to incorrect thinking about the product. IMHO, the last few BlankOn Linux releases were never perfect or production ready. Our proudness could not fix that reality. In Bekraf Habibi Festival, BlankOn get one booth and I have really mind changing discussion with one of the visitor, where he said that if the product was never been the main goal, we should not release it to public at all. There are real users out there, so there are responsibilities.
 
-We are fundamentally broken.
+We were fundamentally broken.
 
 ### Our model was not sustainable at all
 
-A developer could simply resign after a version was released. We cannot necessarily call that irresponsibility, because people come and go with different motivations. We did not pay them, so we had no authority to hold them accountable. When they left, the project’s implicit goal, leveraging people’s capabilities, was considered accomplished. No questions were asked.
+A developer could simply resign after a version was released. We cannot necessarily call that irresponsibility, because people come and go with different motivations. We did not pay them, so we had no authority to hold them accountable. When they left, the project's implicit goal, leveraging people's capabilities, was considered accomplished. No questions were asked.
 
 A server could break without anyone clearly responsible for fixing it, or without anyone capable of fixing it at all. A domain could expire because no one paid attention, especially when money was involved. Do we even have money?
 
