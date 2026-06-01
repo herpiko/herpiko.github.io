@@ -1,6 +1,6 @@
 ---
 title: When AI Makes Ordinary Life Feel Good
-date:   2026-07-01 00:00:00Z
+date: 2026-07-01 00:00:00Z
 categories:
   - AI
 tags:
