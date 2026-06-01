@@ -14,3 +14,5 @@ It is not a pleasant feeling or experience to work with multiple agents. You can
 But then I feel something different after months of fatigue from working with AI. Doing a single boring task feels pleasant: washing dishes, cooking, sketching, working on hardware, or fixing hardware. These activities now bring great relief.
 
 They don't provide the frequent, unhealthy dopamine hits that LLMs do, but once the task is done, the sense of reward feels much greater. It has made me think more deeply and appreciate life more.
+
+---
