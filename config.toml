@@ -27,6 +27,10 @@ tabWidth = 4
 post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
+name = "Now"
+url = "/now/"
+weight = 2
+[[menu.main]]
 name = "Tech_Talks"
 url = "/tech_talks/"
 weight = 3
