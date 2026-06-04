@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Random on Blog</title>
-    <link>//localhost:58191/categories/random/</link>
-    <description>Recent content in Random on Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:58191/categories/random/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Steam Deck Jumpscare</title>
-      <link>//localhost:58191/post/2024/06/24/steam-deck-jumpscare/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:58191/post/2024/06/24/steam-deck-jumpscare/</guid>
-      <description>&lt;p&gt;I have write &lt;a href=&#34;https://www.reddit.com/r/SteamDeck/comments/1dnibot/steam_deck_jumpscare/&#34;&gt;this guide in a Reddit thread&lt;/a&gt; but no one is interested until &lt;a href=&#34;https://www.reddit.com/r/SteamDeck/comments/1gx6vhj/this_is_how_i_pranked_my_wife_with_a_jumpscare/&#34;&gt;they saw the video&lt;/a&gt;. :D&lt;/p&gt;&#xA;&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A good prank is one that is light-hearted, harmless, and designed to amuse rather than to cause harm or distress. Please pick a suitable victim. Jumpscare could be dangerous for individuals with heart conditions or other health issues. In extreme cases, it could potentially trigger a cardiac event.&lt;/li&gt;&#xA;&lt;li&gt;Please protect your Steam Deck with a rugged case like JSAUX ModCase (&lt;a href=&#34;https://jsaux.com/products/modcase-for-steam-deck-pc0104&#34;&gt;https://jsaux.com/products/modcase-for-steam-deck-pc0104&lt;/a&gt;) in case the victim suddenly throw it.&lt;/li&gt;&#xA;&lt;li&gt;Please make sure your victim and the Steam Deck is in safe position. Victim laying in bed while playing games is better than in sit or standing position. Imagine the victim throwing the device. At least there is a huge chance that the device is still on the bed instead of hitting the floor.&lt;/li&gt;&#xA;&lt;li&gt;Let the victim play for a while, lure them into the game, make him/her forget about the reality for once.&lt;/li&gt;&#xA;&lt;li&gt;Disclaimer: I am not responsible for anything. If you are following this guide, this is solely at your own risk.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;the-trick&#34;&gt;The trick&lt;/h3&gt;&#xA;&lt;p&gt;The initial idea is to utilize X11 Forwarding feature from SSH daemon to launch an image viewer remotely on the Steam Deck.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random on Blog</title><link>/categories/random/</link><description>Recent content in Random on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/random/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam Deck Jumpscare</title><link>/post/2024/06/24/steam-deck-jumpscare/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>/post/2024/06/24/steam-deck-jumpscare/</guid><description>&lt;p&gt;I have write &lt;a href="https://www.reddit.com/r/SteamDeck/comments/1dnibot/steam_deck_jumpscare/"&gt;this guide in a Reddit thread&lt;/a&gt; but no one is interested until &lt;a href="https://www.reddit.com/r/SteamDeck/comments/1gx6vhj/this_is_how_i_pranked_my_wife_with_a_jumpscare/"&gt;they saw the video&lt;/a&gt;. :D&lt;/p&gt;
+&lt;h3 id="notes"&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A good prank is one that is light-hearted, harmless, and designed to amuse rather than to cause harm or distress. Please pick a suitable victim. Jumpscare could be dangerous for individuals with heart conditions or other health issues. In extreme cases, it could potentially trigger a cardiac event.&lt;/li&gt;
+&lt;li&gt;Please protect your Steam Deck with a rugged case like JSAUX ModCase (&lt;a href="https://jsaux.com/products/modcase-for-steam-deck-pc0104"&gt;https://jsaux.com/products/modcase-for-steam-deck-pc0104&lt;/a&gt;) in case the victim suddenly throw it.&lt;/li&gt;
+&lt;li&gt;Please make sure your victim and the Steam Deck is in safe position. Victim laying in bed while playing games is better than in sit or standing position. Imagine the victim throwing the device. At least there is a huge chance that the device is still on the bed instead of hitting the floor.&lt;/li&gt;
+&lt;li&gt;Let the victim play for a while, lure them into the game, make him/her forget about the reality for once.&lt;/li&gt;
+&lt;li&gt;Disclaimer: I am not responsible for anything. If you are following this guide, this is solely at your own risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="the-trick"&gt;The trick&lt;/h3&gt;
+&lt;p&gt;The initial idea is to utilize X11 Forwarding feature from SSH daemon to launch an image viewer remotely on the Steam Deck.&lt;/p&gt;</description></item><item><title>Parting with Wakijo</title><link>/post/2021/10/01/parting-with-wakijo/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0700</pubDate><guid>/post/2021/10/01/parting-with-wakijo/</guid><description>&lt;p&gt;He served me for almost eight years. Not very well but he did his job. Since COVID, I barely touch him and I believe my family could not get much advantage by having him around. So I let it go.&lt;/p&gt;
+&lt;p&gt;Wakijo passed to my old friend, his previous owner.&lt;/p&gt;</description></item><item><title>Music as a Time Capsule</title><link>/post/2021/09/28/music-as-a-time-capsule/</link><pubDate>Tue, 28 Sep 2021 00:00:00 +0700</pubDate><guid>/post/2021/09/28/music-as-a-time-capsule/</guid><description>&lt;p&gt;I&amp;rsquo;m not talking about music that takes you back to the year where it got popular. That is a shared experience among other people. What I&amp;rsquo;m talking about is the music that could bring you up a specific memory about specific place or event, about yourself, in one strong dose. I don&amp;rsquo;t know if it works for others but here is how it works for me.&lt;/p&gt;
+&lt;h3 id="over-and-over-again-almost-infinite"&gt;Over and over again, almost infinite&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s started with an album by Enno Lerian when I was still a kindergarten kid. I&amp;rsquo;ve to asked my dad to hook the cassette into stereo player every single time I want to dance with dudidam. I only want to hear dudidam and dismiss the rest of the album. Backward and forward buttons were my best fellow since there is no repeat feature back then.&lt;/p&gt;</description></item></channel></rss>

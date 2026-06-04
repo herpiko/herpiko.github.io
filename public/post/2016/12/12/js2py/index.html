@@ -1,0 +1,31 @@
+<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>js2py | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><div class=article-meta><h1><span class=title>js2py</span></h1><div style=font-size:.8em;color:grey;line-height:1.2em><span class=date>Date: 2016/12/12</span><br><span class=terms>Categories:
+<a href=/categories/blog>blog</a><br><br></span></div></div><div class=content-wrapper><main><img src=/assets/852117529_15526_8530221600962107958.jpg><p>This week I&rsquo;m playing with MPI and small Raspberry Pi cluster. Parallel coding was fun! The problem that I&rsquo;m trying to solve is a BFS pathfinding algorithm. I want to make the solution done in bi-directional finding with the help of parallel computing.</p><img src=/assets/bfs-pathfinding.gif><p>I&rsquo;ve wrote the code some years ago in Javascript and now need it run in Python with <code>mpi4py</code>. Since I&rsquo;m too lazy to port the code, I seek for an automate solution and found this <a href=https://github.com/PiotrDabkowski/Js2Py target=_blank>js2py</a> library. This is awesome.</p><pre tabindex=0><code>&gt;&gt; import js2py
+&gt;&gt; js2py.eval_js6(&#39;console.log(&#34;hello world&#34;)&#39;)
+</code></pre><p>Even it can transpile the entire JS file to Python</p><pre tabindex=0><code>&gt;&gt; js2py.translate_file(&#39;foo.js&#39;, &#39;foo.py&#39;)
+</code></pre><p>The transpiled code looks like this :</p><pre tabindex=0><code>    def PyJsHoisted_determine_path_(this, arguments, var=var):
+        var = Scope({u&#39;this&#39;:this, u&#39;arguments&#39;:arguments}, var)
+        var.registers([u&#39;yy&#39;, u&#39;aa&#39;, u&#39;xx&#39;, u&#39;bb&#39;, u&#39;zz&#39;])
+        pass
+        pass
+        pass
+        var.put(u&#39;xx&#39;, var.get(u&#39;target&#39;))
+        pass
+        var.put(u&#39;aa&#39;, (var.get(u&#39;pohon&#39;).get(u&#39;length&#39;)-Js(1.0)))
+        #for JS loop
+        var.put(u&#39;bb&#39;, var.get(u&#39;aa&#39;))
+        while (var.get(u&#39;bb&#39;)&gt;Js(0.0)):
+            try:
+                if (var.get(u&#39;pohon&#39;).get(var.get(u&#39;bb&#39;)).get(u&#39;anak&#39;)==var.get(u&#39;xx&#39;)):
+                    var.put(u&#39;xx&#39;, var.get(u&#39;pohon&#39;).get(var.get(u&#39;bb&#39;)).get(u&#39;ortu&#39;))
+                    var.get(u&#39;path&#39;).callprop(u&#39;push&#39;, var.get(u&#39;xx&#39;))
+            finally:
+                    (var.put(u&#39;bb&#39;,Js(var.get(u&#39;bb&#39;).to_number())-Js(1))+Js(1))
+        #for JS loop
+        var.put(u&#39;yy&#39;, Js(0.0))
+        while (var.get(u&#39;yy&#39;)&lt;var.get(u&#39;path&#39;).get(u&#39;length&#39;)):
+            try:
+                var.get(u&#39;land&#39;).get((var.get(u&#39;parseInt&#39;)(var.get(u&#39;path&#39;).get(var.get(u&#39;yy&#39;)))-Js(1.0))).put(u&#39;state&#39;, Js(u&#39;white&#39;))
+            finally:
+                    (var.put(u&#39;yy&#39;,Js(var.get(u&#39;yy&#39;).to_number())+Js(1))-Js(1))
+        var.get(u&#39;console&#39;).callprop(u&#39;log&#39;, (Js(u&#39;result : &#39;)+var.get(u&#39;path&#39;)))
+</code></pre><p>Hardly unnreadable, of course.</p><p>But,</p><p>The performance of the result script is too slow! And I ended up with porting the code manually for an hour. u_u</p><br><br><a href=/>>> Home</a></main></div><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>

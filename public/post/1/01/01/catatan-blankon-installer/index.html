@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Catatan BlankOn Installer | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Catatan BlankOn Installer</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 0001/01/01</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Sejak saat saya menawarkan diri untuk ngulik BlankOn Installer awal tahun lalu, ada banyak sekali yang telah saya pelajari. Proyek ini sempat saya tinggalkan selama beberapa bulan, dan saat kembali lagi, saya jadi bingung lagi. Catatan ini dibuat agar memudahkan saat terjun kembali ke proyek ini. Mudah-mudahan juga berguna buat siapa pun yang ingin ikut <em>ngulik</em>.</p>
+<h3 id="backend-dan-ui">Backend dan UI</h3>
+<p>BlankOn Installer terdiri dari dua bagian yang terpisah repositorinya, yaitu :</p>
+<ul>
+<li><code>blankon-installer</code>, memuat kode vala, bash dan UI HTML5 yang sudah siap. Sumber kode ini dapat dikompilasi dengan <code>./autogen.sh</code> (tentunya setelah dependensinya terpenuhi) menjadi executable yang dapat dijalankan dari <code>blankon-installer</code> dan <code>blankon-session-installer</code>.</li>
+<li><code>blankon-installer-ui</code>, memuat kode HTML5 dengan <em>framework</em> AngularJS. Kode ini dapat <em>dikompilasi</em> oleh <code>gulp</code>, <em>output</em>-nya diletakkan di direktori <code>dist</code>. Isi dari direktori <code>dist</code> ini yang akan dibawa ke direktori <code>system</code> di sumber kode <code>blankon-installer</code></li>
+</ul>
+<h3 id="lingkungan-pengembangan">Lingkungan pengembangan</h3>
+<p>Saya menyiapkan 2 buah komputer, salah satunya wajib virtual. Satu digunakan untuk mengetik kode, sistem operasi derivatif Debian yang repositori-nya mengikuti repositori utama BlankOn. BlankOn Installer harus dapat dikompilasi di sini. Satunya lagi adalah mesin virtual (bisa Virtualbox atau Qemu) dimana saya dapat menggonta-ganti dan mengubah periperal dari sistem secara bebas.</p>
+<h3 id="jahitan">Jahitan</h3>
+<p>Pengembangan BlankOn Installer terkait erat dengan jahitan-jahitan yang ditelurkan <code>pabrikcd</code> BlankOn. Pengujian BlankOn Installer harus dilakukan di atas jahitan-jahitan terbaru. Biasanya dapat ditarik dari <a href="http://cdimage.blankonlinux.or.id/blankon/livedvd-harian/current/">http://cdimage.blankonlinux.or.id/blankon/livedvd-harian/current/</a>.</p>
+<h3 id="siklus-pengembangan-di-lokal">Siklus pengembangan di lokal</h3>
+<h4 id="persiapan">Persiapan</h4>
+<ul>
+<li>Kloning <code>blankon-installer</code></li>
+<li>Kloning <code>blankon-installer-ui</code></li>
+<li>Kloning <code>blankon-installer</code> dari dev.boi, <code>bzr branch http://dev.blankonlinux.or.id/browser/tambora/blankon-installer blankon-installer-bzr</code></li>
+</ul>
+<p>Sekarang saya memiliki 3 direktori untuk bekerja</p>
+<ul>
+<li><code>blankon-installer</code></li>
+<li><code>blankon-installer-ui</code></li>
+<li><code>blankon-installer-bzr</code></li>
+</ul>
+<p>Yang terakhir hanya berisi sebuah direktori <code>debian</code> untuk membantu pemaketan di lokal.</p>
+<h4 id="siklus">Siklus</h4>
+<ul>
+<li>Jika ada sesuatu yang perlu dikerjakan yang terkait UI/UX, saya akan melakukannya di <code>blankon-installer-ui</code>, kemudian mengujinya dengan <code>gulp;(cd dist;python -m SimpleHTTPServer)</code> dan peramban.</li>
+<li>Setelah oke, perubahannya saya <em>commit</em> dan simpan di cabang tertentu. Kemudian saya pindah ke <code>blankon-installer</code> dan membuat cabang baru.</li>
+<li>Saya menyalin berkas-berkas di bawah <code>blankon-installer-ui/dist/</code> ke <code>system</code>. Kemudian perubahannya saya <em>commit</em>.</li>
+<li>Jika ada yang perlu saya lakukan dengan kode backend-nya, misal di vala atau bash, saya langsung melakukannya di sini, kemudian <em>commit</em>.</li>
+<li>Saatnya menguji. Saya perlu mengkompilasi dan memaketkannya. Saya membuat tarball dari cabang kerja saya. <code>git archive -o ../blankon-installer_X.X.orig.tar.gz</code>. <code>X.X</code> adalah versi.</li>
+<li>Lalu saya pindah ke <code>blankon-installer-bzr</code>. Saya membersihkan isi direktori tersebut terlebih dahulu, hanya membiarkan direktori <code>debian</code>. <code>rm -rf !(debian)</code>.</li>
+<li>Kemudian membongkar tarbal <code>orig</code> tadi ke sini. <code>tar -xvf ../blankon-installer_X.X.orig.tar.gz</code></li>
+<li>Kompilasi dan paketkan. <code>dpkg-buildpackage -rfakeroot</code></li>
+<li>Jika lancar dan tidak ada galat, paket *.deb dapat ditemukan di <code>../</code></li>
+<li>Paket ini yang akan saya bawa ke sebuah sistem <em>live</em> dari jahitan terbaru. Pada sistem <em>live</em> tersebut, paketnya saya pasang manual dengan <code>dpkg -i</code>, menimpa installer yang lama. BlankOn Installer siap diuji oleh pengetik kode sendiri.</li>
+</ul>
+<p>Pada tulisan selanjutnya, saya akan menjelaskan beberapa hal terkait infrastruktur BlankOn dan detil pengujian installer di mesin fisik maupun mesin virtual.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

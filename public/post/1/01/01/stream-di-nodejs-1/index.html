@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Stream di NodeJS (1) | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Stream di NodeJS (1)</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 0001/01/01</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Saya baru beberapa bulan bermain-main dengan NodeJS, namun baru belakangan dapat pencerahan mengenai apa dan bagaimana sih stream itu. Jadi mari saya tulis di sini supaya :</p>
+<ul>
+<li>Saya lupa dan kemudian cepat ingat</li>
+<li>Yang belum paham jadi cepat paham</li>
+</ul>
+<p>Misal kita punya dua ember : ember A dan ember B. Ember A posisinya lebih tinggi satu meter dari ember B, dan berjarak satu meter juga.</p>
+<pre>
+Ilustrasi
+
+| A |
+|___|
+
+
+
+       | B |
+       |___|
+</pre>
+<p>Ember A memiliki isi seliter air. Ember B kosong. Jika kita ingin ember B juga berisi setengah liter air, maka</p>
+<p><code>var b = a;</code></p>
+<p>Sampai di sini, urusan selesai.</p>
+<p>Etapi bagaimana misalnya jika Ember A itu sifatnya berkelanjutan, airnya dapat bertambah sewaktu-waktu dan kita ingin ember B langsung menerima airnya juga?</p>
+<p>####Stream
+Mari kita coba pakai selang air.</p>
+<pre>
+Ilustrasi
+
+| A |
+|___|
+	 \
+      \
+       \
+       | B |
+       |___|
+</pre>
+<p>Ember A disebut <em>source</em> atau <em>readable stream</em>. Disebut <em>readable</em> karena isinya (air) dapat diambil (dalam konteks data, dapat dibaca). Ember B disebut <em>destination</em> atau <em>writable stream</em>. Disebut <em>writable</em> karena wadahnya dapat diisi (dalam konteks data, dapat ditulisi. Selangnya adalah perumpamaan dari <code>pipe</code>.</p>
+<p>Anggap saja segelas air itu seperti sekelompok data. Jika ember A diisi seliter air, airnya akan mengalir dan mengisi ember B.</p>
+<p><code>readableStreamA.pipe(writableStreamB);</code></p>
+<p>Selain <em>readable</em> dan <em>writable</em>, sebuah stream juga bisa bersifat keduanya, atau <em>duplex</em>. Misal kita punya ember C, yang sifatnya <em>duplex</em>, dapat ditulisi sekaligus dibaca. Kita taruh ember C di tengah-tengah kedua ember tadi.</p>
+<pre>
+Ilustrasi
+
+| A |
+|___|
+	 \
+      \
+       \
+       | C |
+       |___|
+            \
+             \
+              \
+               | B |
+               |___|
+</pre>
+<p>Air yang masuk ke ember A mengalir terus sampai ember B.</p>
+<p><code>readableStreamA.pipe(duplexC).pipe(writableStreamB);</code></p>
+<p>Karena saya sedang mengurangi begadang, ya sampai di sini dulu. Mudahan nanti bisa menulis kelanjutannya, yaitu mengenai <em>event</em> dalam stream NodeJS.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

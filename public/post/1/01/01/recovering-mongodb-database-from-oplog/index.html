@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Recovering MongoDB Database from Oplog | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Recovering MongoDB Database from Oplog</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 0001/01/01</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Shit happens occasionally. Last week, a MongoDB replication pair (master-slave) on production losts its databases. According to the investigation result, it caused by power failure that happened too often which lead to storage corruption. If the power failure happens while the replication set still syncing the oplog (operation logs), the database will be corrupted and MongoDB will drop it, without confirmation. The last backup managed at May 2015. Quite scary.</p>
+<p>The log bellow is from master :</p>
+<pre tabindex="0"><code>Tue Jan 17 16:56:31.800 [conn997] end connection slave:54531 (2 connections now open)
+Tue Jan 17 16:56:31.813 [initandlisten] connection accepted from slave:54532 #998 (3 connections now open)
+Tue Jan 17 16:56:34.102 [initandlisten] connection accepted from 95.211.153.138:47214 #999 (4 connections now open)
+Tue Jan 17 16:56:36.381 [conn999] dropDatabase basisdata starting
+Tue Jan 17 16:56:36.383 [conn999] removeJournalFiles
+Tue Jan 17 16:56:36.933 [conn999] dropDatabase basisdata finished
+Tue Jan 17 16:56:36.940 [conn999] command basisdata.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 keyUpdates:0 locks(micros) W:558806 reslen:60 558ms
+Tue Jan 17 16:56:37.225 [conn999] dropDatabase local starting
+Tue Jan 17 16:56:37.261 [conn999] removeJournalFiles
+Tue Jan 17 16:56:37.327 [conn999] dropDatabase local finished
+Tue Jan 17 16:56:37.327 [conn999] command local.$cmd command: { dropDatabase: 1.0 } ntoreturn:1 keyUpdates:0 locks(micros) W:101854 reslen:56 101ms
+Tue Jan 17 16:56:37.958 [conn3] getMore: cursorid not found local.oplog.rs 65856224222618
+Tue Jan 17 16:56:37.976 [conn3] end connection slave:53578 (3 connections now open)
+Tue Jan 17 16:56:38.184 [FileAllocator] allocating new datafile /var/lib/mongodb/WARNING.ns, filling with zeroes...
+Tue Jan 17 16:56:38.184 [FileAllocator] creating directory /var/lib/mongodb/_tmp
+Tue Jan 17 16:56:38.235 [FileAllocator] done allocating datafile /var/lib/mongodb/WARNING.ns, size: 16MB,  took 0.016 secs
+Tue Jan 17 16:56:38.243 [FileAllocator] allocating new datafile /var/lib/mongodb/WARNING.0, filling with zeroes...
+Tue Jan 17 16:56:38.260 [FileAllocator] done allocating datafile /var/lib/mongodb/WARNING.0, size: 64MB,  took 0.017 secs
+Tue Jan 17 16:56:38.261 [FileAllocator] allocating new datafile /var/lib/mongodb/WARNING.1, filling with zeroes...
+Tue Jan 17 16:56:38.261 [conn999] build index WARNING.WARNING { _id: 1 }
+Tue Jan 17 16:56:38.269 [conn999] build index done.  scanned 0 total records. 0.008 secs
+Tue Jan 17 16:56:38.270 [conn999] Assertion: 13347:local.oplog.rs missing. did you drop it? if so restart server
+0xa6d3c6 0xa3fd3d 0xa23c4c 0x81cd2b 0x817bcd 0x7c3be1 0x7c8ed0 0x7ca5d6 0x5922ea 0xa544b1 0x7f0a5c5310a4 0x7f0a5a66c87d
+Tue Jan 17 16:56:38.299 [FileAllocator] done allocating datafile /var/lib/mongodb/WARNING.1, size: 128MB,  took 0.038 secs
+ /usr/bin/mongod(_ZN5mongo15printStackTraceERSo+0x26) [0xa6d3c6]
+ /usr/bin/mongod(_ZN5mongo10logContextEPKc+0xfd) [0xa3fd3d]
+ /usr/bin/mongod(_ZN5mongo11msgassertedEiPKc+0x9c) [0xa23c4c]
+ /usr/bin/mongod() [0x81cd2b]
+ /usr/bin/mongod(_ZN5mongo5logOpEPKcS1_RKNS_7BSONObjEPS2_Pbb+0x3d) [0x817bcd]
+ /usr/bin/mongod(_ZN5mongo14checkAndInsertEPKcRNS_7BSONObjE+0x131) [0x7c3be1]
+ /usr/bin/mongod(_ZN5mongo14receivedInsertERNS_7MessageERNS_5CurOpE+0x5e0) [0x7c8ed0]
+ /usr/bin/mongod(_ZN5mongo16assembleResponseERNS_7MessageERNS_10DbResponseERKNS_11HostAndPortE+0x1586) [0x7ca5d6]
+ /usr/bin/mongod(_ZN5mongo16MyMessageHandler7processERNS_7MessageEPNS_21AbstractMessagingPortEPNS_9LastErrorE+0xba) [0x5922ea]
+ /usr/bin/mongod(_ZN5mongo17PortMessageServer17handleIncomingMsgEPv+0x471) [0xa544b1]
+ /lib/x86_64-linux-gnu/libpthread.so.0(+0x80a4) [0x7f0a5c5310a4]
+ /lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f0a5a66c87d]
+Tue Jan 17 16:56:38.301 [conn999] insert WARNING.WARNING keyUpdates:0 exception: local.oplog.rs missing. did you drop it? if so restart server code:13347 locks(micros) w:147507 116ms
+</code></pre><p>And this is from slave :</p>
+<pre tabindex="0"><code>Tue Jan 17 16:55:36.957 [initandlisten] connection accepted from master:41189 #573081 (6 connections now open)
+Tue Jan 17 16:56:07.157 [conn573081] end connection master:41189 (5 connections now open)
+Tue Jan 17 16:56:07.169 [initandlisten] connection accepted from master:41191 #573082 (6 connections now open)
+Tue Jan 17 16:56:36.965 [repl writer worker 2] dropDatabase basisdata starting
+Tue Jan 17 16:56:37.040 [repl writer worker 2] removeJournalFiles
+Tue Jan 17 16:56:37.371 [conn573082] end connection master:41191 (5 connections now open)
+Tue Jan 17 16:56:37.388 [initandlisten] connection accepted from master:41192 #573083 (6 connections now open)
+Tue Jan 17 16:56:37.971 [rsBackgroundSync] repl: old cursor isDead, will initiate a new one
+Tue Jan 17 16:57:07.604 [conn573083] end connection master:41192 (5 connections now open)
+Tue Jan 17 16:57:07.616 [initandlisten] connection accepted from master:41193 #573084 (6 connections now open)
+Tue Jan 17 16:57:12.445 [repl writer worker 2] dropDatabase basisdata finished
+Tue Jan 17 16:57:12.446 [rsBackgroundSync] replSet syncing to: primer:27017
+Tue Jan 17 16:57:12.484 [rsBackgroundSync] replSet sync source problem: 1000 replSet source for syncing doesn&#39;t seem to be await capable -- is it an older version of mongodb?
+Tue Jan 17 16:57:12.503 [rsBackgroundSync] replSet syncing to: primer:27017
+</code></pre><p>The team splitted to two, investigation and recovery. I was in recovery part, alone.</p>
+<p>The first thing that flying in my mind when database got flushed and need to be recovered is stopping the service then finding any <code>big</code> files around. I simply do <code>du -hs /var/lib/mongodb</code> on both master and slave. The master has no hope but slave has quite huge size, around 22GB. They are files that named local.0, local.1, and so on. What is their purposes?</p>
+<p>I copied all the files under <code>var/lib/mongodb</code> to isolated environment (Docker). I managed to run an instance of MongoDB with the copied database files then enter the mongo shell.</p>
+<p>It has a database named local, with some collections. I counted the documents in each collections and <code>oplog.rs</code> has the most items, more than 900000 documents.</p>
+<p>The doc looks like this :</p>
+<pre tabindex="0"><code>{
+  &#34;ts&#34;: Timestamp(1462635333, 12646),
+  &#34;h&#34;: NumberLong(&#34;-9088484139601204321&#34;),
+  &#34;v&#34;: 2,
+  &#34;op&#34;: &#34;i&#34;,
+  &#34;ns&#34;: &#34;basisdata.import&#34;,
+  &#34;o&#34;: {
+    &#34;id&#34;: 1462635222048,
+    &#34;type&#34;: &#34;p&#34;,
+    &#34;data&#34;: {
+      &#34;NAMA_LGKP&#34;: &#34;-------------&#34;,
+      &#34;ALAMAT&#34;: &#34;-------------&#34;,
+    },
+    &#34;_id&#34;: ObjectId(&#34;572e0b3e1116738144bf45eb&#34;)
+  }
+}
+</code></pre><p>Nah, it&rsquo;s the data that we seeked. <code>op</code> in  the doc means operation, the are consist of insert, update and delete. Oplog is stands for operation log, where any operation in master  that needed to be synced in slave stored. All the slave replset has oplogs.</p>
+<p>Then I looked at to the range of timestamp :</p>
+<pre tabindex="0"><code>&gt; use local
+switched to db local
+&gt; db.oplog.rs.find().sort({ts : 1}).limit(1)
+{ &#34;ts&#34; : Timestamp(1462635333, 12646), &#34;h&#34; : NumberLong(&#34;-9088484139601204321&#34;), &#34;v&#34; : 2, &#34;op&#34; : &#34;i&#34;, &#34;ns&#34; : &#34;basisdata.import&#34;, &#34;o&#34; : { &#34;id&#34; : 1462635222048, &#34;type&#34; : &#34;p&#34;, &#34;data&#34; : { &#34;NAMA_LGKP&#34; : &#34;----&#34;) }, &#34;_id&#34; : ObjectId(&#34;572e0b3e1116738144bf45eb&#34;) } }
+&gt; db.oplog.rs.find().sort({ts : -1}).limit(1)
+{ &#34;ts&#34; : Timestamp(1485187231, 1), &#34;h&#34; : NumberLong(&#34;5020891137542662538&#34;), &#34;v&#34; : 2, &#34;op&#34; : &#34;u&#34;, &#34;ns&#34; : &#34;basisdata.epr&#34;, &#34;o2&#34; : { &#34;_id&#34; : ObjectId(&#34;5880d47321e1a19014389954&#34;) }, &#34;o&#34; : { &#34;id&#34; : 1484838001848, &#34;type&#34; : &#34;lp&#34;, &#34;subType&#34; : &#34;l&#34;, &#34;data&#34; : {  &#34;stage&#34; : &#34;done&#34; }, &#34;_id&#34; : ObjectId(&#34;5880d47321e1a19014389954&#34;), &#34;hps&#34; : 632.06 } }
+&gt;
+</code></pre><p>The timestamp (it&rsquo;s UNIX timestamp, do <code>(new Date(1485187231 * 1000)).toString()</code> in NodeJS to get the human-readable value) said it begins at Mei 2016 and ended at Januari 2017. Luckily, it matched with the last backup. So I just need to recover this that then merge it to the last backup.</p>
+<p>On normal condition, the oplog could be replayed using official MongoDB tools, but it gave error <code>oplog mode is only supported on full dumps</code>. I can&rsquo;t full-dump it since the master still being investigated. Both master and slave need to be up and connected when doing full-dump in replset.</p>
+<p>So I created a simple script to replay all the oplog. Just exclude the culprit ( <code>{ op : { dropDatabase : 1 } }</code> ).</p>
+<p>The script is in Javascript :</p>
+<pre tabindex="0"><code>const async = require(&#39;async&#39;);
+const Db = require(&#39;mongodb&#39;).Db, Server = require(&#39;mongodb&#39;).Server;
+var db1 = new Db(&#39;local&#39;, new Server(&#39;localhost&#39;, 27017));
+var db2 = new Db(&#39;basisdata&#39;, new Server(&#39;localhost&#39;, 27017));
+
+
+db1.open(function(err, db1) {
+  db2.open(function(err, db2) {
+
+    const oplog = db1.collection(&#39;oplog.rs&#39;);
+    var col = {}
+    col[&#39;import&#39;] = db2.collection(&#39;import&#39;);
+
+    var count = 0;
+    var q = async.queue((doc, cb) =&gt; {
+      count++;
+      var colName = doc.ns.split(&#39;.&#39;)[1];
+      console.log(count + &#39; : &#39; + doc.o._id + &#39; on &#39; + colName);
+      if (!col[colName]) {
+        console.log(&#39;Collection doesnt exist&#39;);
+        console.log(colName);
+        process.exit();
+      }
+      if (doc.op == &#39;i&#39;) {
+        col[colName].insert(doc.o, (err) =&gt; {
+          if (err &amp;&amp; err.message &amp;&amp; err.message.indexOf(&#39;E11000&#39;) &lt; 0 ) {
+            console.log(err);
+            process.exit();
+          }
+          cb();
+        })
+      } else if (doc.op == &#39;u&#39;) {
+        col[colName].findOneAndUpdate({_id : doc.o._id}, doc.o, (err) =&gt; {
+          if (err &amp;&amp; err.message &amp;&amp; err.message.indexOf(&#39;E11000&#39;) &lt; 0 ) {
+            console.log(err);
+            process.exit();
+          }
+          cb();
+        })
+      } else if (doc.op == &#39;d&#39;) {
+        col[colName].remove({_id : doc.o._id}, (err) =&gt; {
+          if (err &amp;&amp; err.message &amp;&amp; err.message.indexOf(&#39;E11000&#39;) &lt; 0 ) {
+            console.log(err);
+            process.exit();
+          }
+          cb();
+        })
+      } else {
+        cb();
+      }
+    }, Infinity)
+
+    q.drain = function() {
+      if (cursor.isClosed()) {
+        console.log(&#39;All items have been processed&#39;);
+        db1.close();
+        db2.close();
+      }
+    }
+
+    var limit = new Date(&#39;2016/05/10&#39;); // Tentukan limit waktunya
+
+    var ts = new require(&#39;mongodb&#39;).Timestamp(0, Math.floor(limit.getTime() / 1000))
+    var cursor = oplog.find ({ts : { &#39;$gte&#39; : ts  } });
+    cursor.each((err, doc) =&gt; {
+      if (err) throw err;
+      if (doc) q.push(doc);
+    })
+  })
+})
+</code></pre><p>The recovered database restored to prod then we sync it again from start.</p>
+<h3 id="lesson-learned">Lesson learned</h3>
+<p>Backup anything daily!</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

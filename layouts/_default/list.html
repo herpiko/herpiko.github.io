@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+<div class="content-wrapper">
+{{if not .IsHome }}
+  <h1>{{ .Title | markdownify }}</h1>
+  {{ end }}
+
+  {{ .Content }}
+
+  <ul>
+     {{ $pages := .Pages }}
+     {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+     {{ $drewLine := false }}
+     {{ range (where $pages "Section" "!=" "") }}
+     {{ if and (not $drewLine) (lt .Date.Year 2015) }}
+       {{ $drewLine = true }}
+       <div style="display: flex; align-items: center; margin: 0.8em 0; gap: 0.8em;">
+         <hr style="flex: 1; border: none; border-top: 1px solid #ccc; margin: 0;">
+         <span style="color: #aaa; font-size: 0.8em; white-space: nowrap;">↑ moved to Jakarta Greater Area, 2015</span>
+         <hr style="flex: 1; border: none; border-top: 1px solid #ccc; margin: 0;">
+       </div>
+       <p style="color: #aaa; font-size: 0.8em; text-align: center; margin: 0.2em 0 0.8em;">The writings below this line may look silly and embarrassing, but that was who I was, growing over time.</p>
+     {{ end }}
+     <li>
+       <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+       <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+     </li>
+     {{ end }}
+   </ul>
+</div>
+{{ partial "footer.html" }}

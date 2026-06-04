@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Random on Blog</title>
-    <link>//localhost:58191/tags/random/</link>
-    <description>Recent content in Random on Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0700</lastBuildDate>
-    <atom:link href="//localhost:58191/tags/random/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Taman Baca Kesiman</title>
-      <link>//localhost:58191/post/2018/07/11/taman-baca-kesiman/</link>
-      <pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate>
-      <guid>//localhost:58191/post/2018/07/11/taman-baca-kesiman/</guid>
-      <description>&lt;p&gt;When I was struggling to find any comfort place for working remotely in Denpasar, a friend mentioned TB Kesiman. I thanked her. TB Kesiman is a home for many good books, some of them are considered rare and antique. Unlike Kineruku (will write about this soon), only about 1/3 of the books are fiction, but they are carefully curated and, as I said before, some of them are rare items. Rare enough to make me hate this small library.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random on Blog</title><link>/tags/random/</link><description>Recent content in Random on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Aug 2018 00:01:00 +0000</lastBuildDate><atom:link href="/tags/random/index.xml" rel="self" type="application/rss+xml"/><item><title>7SR</title><link>/post/2018/08/13/7sr/</link><pubDate>Mon, 13 Aug 2018 00:01:00 +0000</pubDate><guid>/post/2018/08/13/7sr/</guid><description>&lt;img src="/assets/7sr.jpg"&gt;
+&lt;p&gt;Beberapa bulan yang lalu, saya membaca laporan wartawan Tempo, &amp;ldquo;Sejarah Tumbuh di Kampung Kami - Catatan dari Aceh, Jantung Zona Panas Tsunami&amp;rdquo; oleh Mardiyah Chamim. Bagi saya, buku yang saya peroleh dari kantor Yayasan Air Putih itu sangatlah emosional. Buku itu menceritakan tentang rumitnya distribusi bantuan logistik dan pengambilan keputusan di antara berbagai kepentingan dari pihak-pihak yang datang untuk membantu Aceh. Tak lupa juga sudut pandang dari korban-korban, baik yang terdampak secara langsung maupun tidak langsung, dikupas dengan lugas.&lt;/p&gt;</description></item><item><title>Taman Baca Kesiman</title><link>/post/2018/07/11/taman-baca-kesiman/</link><pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate><guid>/post/2018/07/11/taman-baca-kesiman/</guid><description>&lt;p&gt;When I was struggling to find any comfort place for working remotely in Denpasar, a friend mentioned TB Kesiman. I thanked her. TB Kesiman is a home for many good books, some of them are considered rare and antique. Unlike Kineruku (will write about this soon), only about 1/3 of the books are fiction, but they are carefully curated and, as I said before, some of them are rare items. Rare enough to make me hate this small library.&lt;/p&gt;</description></item><item><title>Hello Again</title><link>/post/2018/06/11/hello-again/</link><pubDate>Mon, 11 Jun 2018 00:01:00 +0000</pubDate><guid>/post/2018/06/11/hello-again/</guid><description>&lt;p&gt;Shutting down my blog is the stupidest thing I ever did.&lt;/p&gt;</description></item></channel></rss>

@@ -1,33 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Community on Blog</title>
-    <link>//localhost:58191/tags/community/</link>
-    <description>Recent content in Community on Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:58191/tags/community/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BlankOn Revival Project - Part 1</title>
-      <link>//localhost:58191/post/2026/02/22/blankon-revival-project-part-1/</link>
-      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:58191/post/2026/02/22/blankon-revival-project-part-1/</guid>
-      <description>&lt;p&gt;These are my personal notes on the BlankOn Revival Project. Although many of the ideas discussed here have been seriously considered by the BlankOn Foundation team, they do not necessarily represent the official views of the organization.&lt;/p&gt;&#xA;&lt;p&gt;Many of these reflections emerged from discussions with several individuals, not all of whom are mentioned here. I would like to sincerely thank them for their insights and contributions.&lt;/p&gt;&#xA;&lt;h1 id=&#34;step-down-twice&#34;&gt;Step Down, Twice&lt;/h1&gt;&#xA;&lt;img width=&#34;1428&#34; height=&#34;102&#34; alt=&#34;Screenshot 2026-02-16 at 18 36 10&#34; src=&#34;https://github.com/user-attachments/assets/beb74fae-6ba4-4117-bd94-1a01e080362d&#34; /&gt;&#xA;&lt;p&gt;There are many reasons behind this, but I do not intend to discuss them all one by one. Some of the reasons that are most relevant to the future of BlankOn will be addressed in the sections below.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IDSW 2025 Lightning Talk - Why Local Tech Communities are Important and How to Run Them</title>
-      <link>//localhost:58191/post/2025/11/22/idsw-2025-lightning-talk-why-local-tech-communities-are-important-and-how-to-run-them/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:58191/post/2025/11/22/idsw-2025-lightning-talk-why-local-tech-communities-are-important-and-how-to-run-them/</guid>
-      <description>&lt;img src=&#34;https://aguno.xyz/images/2025-11-24-idsw2025-lightning-talk.jpg&#34;/&gt;&#xA;&lt;p&gt;A 5-minute lightning talk session is surprisingly difficult for me, so this blog post serves as a backup in case I can’t properly deliver what I want to say. Thank you for reading!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali.&lt;/p&gt;&#xA;&lt;h1 id=&#34;latar-belakang&#34;&gt;Latar Belakang&lt;/h1&gt;&#xA;&lt;p&gt;Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional dan memberikan saya bermacam-macam opportunity. Namun di sisi lain saya sedih banget. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>//localhost:58191/post/2025/01/05/community/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:58191/post/2025/01/05/community/</guid>
-      <description>&lt;p&gt;Communities allow me to see the world in different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.&lt;/p&gt;&#xA;&lt;p&gt;I grew up in communities. They filled the gaps left by my parents (who are still alive but were largely absent in their roles). Communities gave me what I was missing and shaped my skills and career by allowing me to contribute back in many ways. It even helped guide me toward the meaning of life.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community on Blog</title><link>/tags/community/</link><description>Recent content in Community on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml"/><item><title>BlankOn Revival Project - Part 1</title><link>/post/2026/02/22/blankon-revival-project-part-1/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>/post/2026/02/22/blankon-revival-project-part-1/</guid><description>&lt;p&gt;These are my personal notes on the BlankOn Revival Project. Although many of the ideas discussed here have been seriously considered by the BlankOn Foundation team, they do not necessarily represent the official views of the organization.&lt;/p&gt;
+&lt;p&gt;Many of these reflections emerged from discussions with several individuals, not all of whom are mentioned here. I would like to sincerely thank them for their insights and contributions.&lt;/p&gt;
+&lt;h1 id="step-down-twice"&gt;Step Down, Twice&lt;/h1&gt;
+&lt;img width="1428" height="102" alt="Screenshot 2026-02-16 at 18 36 10" src="https://github.com/user-attachments/assets/beb74fae-6ba4-4117-bd94-1a01e080362d" /&gt;
+&lt;p&gt;There are many reasons behind this, but I do not intend to discuss them all one by one. Some of the reasons that are most relevant to the future of BlankOn will be addressed in the sections below.&lt;/p&gt;</description></item><item><title>IDSW 2025 Lightning Talk - Why Local Tech Communities are Important and How to Run Them</title><link>/post/2025/11/22/idsw-2025-lightning-talk-why-local-tech-communities-are-important-and-how-to-run-them/</link><pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate><guid>/post/2025/11/22/idsw-2025-lightning-talk-why-local-tech-communities-are-important-and-how-to-run-them/</guid><description>&lt;img src="/images/2025-11-24-idsw2025-lightning-talk.jpg"/&gt;
+&lt;p&gt;A 5-minute lightning talk session is surprisingly difficult for me, so this blog post serves as a backup in case I can’t properly deliver what I want to say. Thank you for reading!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali.&lt;/p&gt;
+&lt;h1 id="latar-belakang"&gt;Latar Belakang&lt;/h1&gt;
+&lt;p&gt;Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional dan memberikan saya bermacam-macam opportunity. Namun di sisi lain saya sedih banget. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan.&lt;/p&gt;</description></item><item><title>Community</title><link>/post/2025/01/05/community/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>/post/2025/01/05/community/</guid><description>&lt;p&gt;Communities allow me to see the world in different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.&lt;/p&gt;
+&lt;p&gt;I grew up in communities. They filled the gaps left by my parents (who are still alive but were largely absent in their roles). Communities gave me what I was missing and shaped my skills and career by allowing me to contribute back in many ways. It even helped guide me toward the meaning of life.&lt;/p&gt;</description></item></channel></rss>

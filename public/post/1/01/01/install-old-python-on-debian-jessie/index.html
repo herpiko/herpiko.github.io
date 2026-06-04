@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Install Old Python on Debian Jessie | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Install Old Python on Debian Jessie</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 0001/01/01</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>My partner and me, new comers at BlankOn project, still struggling with <code>irgsh</code>, which stand for <code>Insinyur Robot Gedek Sarjana Hukum</code>. I&rsquo;m really curious, how the most important sub project on BlankOn named like no other. <code>irgsh</code> is a package automation that rebrand and build packages for BlankOn Linux distribution.</p>
+<p>The first line of code has been commited since 6 years ago, crafted with Python 2.6. We are planning to deploy new instance of <code>irgsh</code> on new machine. Before that, we should have a Python 2.6 installed (in this case, Python version 2.6.6). After hours of digging on Google Search result, Stackoverflow and so on, I succeeded install old Python 2.6 on Debian Jessie with the following steps :</p>
+<h3 id="use-pythonbrew">Use pythonbrew</h3>
+<p><a href="https://github.com/utahta/pythonbrew">https://github.com/utahta/pythonbrew</a></p>
+<ul>
+<li><code>curl -kL http://xrl.us/pythonbrewinstall &gt; pythonbrewinstall.sh</code></li>
+<li><code>chmod a+x pythonbrewinstall.sh</code></li>
+<li><code>./pythonbrewinstall.sh</code></li>
+<li>Follow the <code>pythonbrew</code> instruction. We need to inject some lines to our <code>~/.bashrc</code></li>
+</ul>
+<h3 id="patch-the-dead-link">Patch the dead link</h3>
+<p>If you tried to install a version of Python now, you will get failed because of some dead link in the pythonbrew script. I found this patch <a href="https://github.com/pybank/pythonbrew/pull/7/files">https://github.com/pybank/pythonbrew/pull/7/files</a> which did not merged to the pythonbrew&rsquo;s upstream repository.</p>
+<p>Open <code>~/.pythonbrew/etc/config.cfg</code> with your favorite editor and change <code>http://python-distribute.org/distribute_setup.py</code> to <code>https://bitbucket.org/tarek/distribute/raw/default/distribute_setup.py</code>.</p>
+<h3 id="install-dependencies">Install dependencies</h3>
+<p>You need this following package :</p>
+<ul>
+<li><code>sudo apt-get install openssl libcrypt-openssl-rsa-perl libssl-dev libbz2-dev libpython-dbg ncurses-dev libsqlite3-dev</code></li>
+</ul>
+<p>Some of above packages are required specifically by <code>irgsh-node</code>, like the SSL libraries.</p>
+<h3 id="install-python-version-266-for-the-first-time">Install Python version 2.6.6 for the first time</h3>
+<ul>
+<li><code>pythonbrew install 2.6.6</code></li>
+</ul>
+<p>Whether you succeeded or not, let ignore it for now. If succeeded, we have a Python that does not support HTTPS (<code>irgsh-node</code> needed it). Since we already have the source (<code>~/.pythonbrew/pythons/dist/</code>), remove the binary.</p>
+<ul>
+<li><code>rm rf ~/.pythonbrew/pythons/Python-2.6.6</code></li>
+</ul>
+<h3 id="add-ssl-support">Add SSL support</h3>
+<ul>
+<li>Edit <code>~/.pythonbrew/pythons/dist/Python-2.6.6/Modules/Setup.dist</code>, uncomment lines that related to SSL.</li>
+</ul>
+<h3 id="install-again">Install again</h3>
+<ul>
+<li><code>pythonbrew install --configure=&quot;--with-zlib&quot; 2.6.6</code></li>
+</ul>
+<h3 id="virtualenv">Virtualenv</h3>
+<ul>
+<li><code>pythonbrew</code> does not provide <code>virtualenv</code>, instead, there is <code>pythonbrew venv</code> for managing virtualenv. It is actually a <code>virtualenv</code> but wrapped by <code>pythonbrew</code>. Please look at <code>pythonbrew</code>&rsquo;s README.md for further reading.</li>
+</ul>
+<h2 id="update">UPDATE</h2>
+<p>You should use <code>https://github.com/yyuu/pyenv</code> instead of <code>pythonbrew</code>. More simple, less bugs. (doh)</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

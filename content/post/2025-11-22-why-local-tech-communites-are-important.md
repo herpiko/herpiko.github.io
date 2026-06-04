@@ -8,7 +8,7 @@ tags:
 ---
 
 
-<img src="https://aguno.xyz/images/2025-11-24-idsw2025-lightning-talk.jpg"/>
+<img src="/images/2025-11-24-idsw2025-lightning-talk.jpg"/>
 
 A 5-minute lightning talk session is surprisingly difficult for me, so this blog post serves as a backup in case I can’t properly deliver what I want to say. Thank you for reading!
 
@@ -22,7 +22,7 @@ Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya c
 
 Misal saya tinggal di Lombok, apa iya saya harus beli tiket pesawat bolak-balik tiap bulan hanya untuk datang ke event-event tech yang ada di Jakarta dan sekitarnya. Itu tidak masuk akal buat siapa pun. Virtual meetup dengan Zoom atau Google Meet tidak dapat menggantikan keuntungan/kelebihan yang dibawa oleh pertemuan tatap muka.
 
-<img src="https://aguno.xyz/images/lombok-is-here.png"/>
+<img src="/images/lombok-is-here.png"/>
 
 ^ In case you don't know where Lombok is.
 
@@ -44,7 +44,7 @@ Yang paling penting, komunitas ini membuka jalan bagi banyak orang, kesempatan u
 
 Yang tidak terduga adalah gerakan di komunitas Lombok Dev tersebut mendorong terbentuknya komunitas-komunitas lainnya di pulau Lombok.
 
-<img src="https://aguno.xyz/images/lombokdev-affiliations.png"/>
+<img src="/images/lombokdev-affiliations.png"/>
 
 Selain itu jaringan orang-orang daerah Lombok yang merantau ke Jakarta dan kota besar lainnya mulai terbentuk dan saling dukung untuk keberlangsungan komunitas di Lombok.
 
@@ -112,11 +112,11 @@ Di daerah, kita perlu usaha lebih keras untuk mengumpulkan orang-orang dan membu
 
 Banyak komunitas mati bukan karena gagal regenerasi, tapi karena ada orang-orang yang memelihara sikap toxic, diskriminasi, harassment, abuse, exclusivity, dan senioritas yang tidak sehat. Sebuah komunitas harus punya guidelines atau code of conduct untuk mencegah semua itu terjadi dan orang-orangnya harus aktif untuk saling mengingatkan satu sama lain. Kumpulan aturan-aturan tersebut akan memastikan bahwa setiap orang punya kesempatan yang sama dan ruang mereka untuk kontribusi dilindungi dengan baik. Orang-orang datang dan pergi, aturan komunitas yang baik akan menjaga orang-orang terbaik untuk berkontribusi lebih lama.
 
-Saya rasa ini adalah tantangan di semua komunitas, bukan hanya komunitas yang ada di daerah. Baca renungan saya tentang topik ini di sini: https://aguno.xyz/post/2025/01/05/community/
+Saya rasa ini adalah tantangan di semua komunitas, bukan hanya komunitas yang ada di daerah. Baca renungan saya tentang topik ini di sini: /post/2025/01/05/community/
 
 Code of Conduct yang disepakati di Lombok Dev sejak 7 tahun yang lalu: https://github.com/LombokDev/wiki/blob/master/code-of-conduct.md
 
-<img src="https://aguno.xyz/images/lombokdev-coc.png"/>
+<img src="/images/lombokdev-coc.png"/>
 
 # Selamat berkomunitas!
 
@@ -128,4 +128,4 @@ Bulan depan saya akan terbang kembali ke Lombok untuk mengurus <a target="_blank
 
 Selamat berkomunitas!
 
-<img src="https://aguno.xyz/images/lombokdev-meetup013-coming-soon.png"/>
+<img src="/images/lombokdev-meetup013-coming-soon.png"/>

@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI on Blog</title>
-    <link>//localhost:58191/categories/ai/</link>
-    <description>Recent content in AI on Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:58191/categories/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>When AI Makes Ordinary Life Feel Good</title>
-      <link>//localhost:58191/post/2026/06/01/when-ai-makes-ordinary-life-feel-good/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:58191/post/2026/06/01/when-ai-makes-ordinary-life-feel-good/</guid>
-      <description>&lt;p&gt;I have never been able to focus on work with AI. Whenever I work with an AI agent, I always tend to multitask. Maybe this is part of the lowest spectrum of ADHD, a part of myself that I can&amp;rsquo;t avoid.&lt;/p&gt;&#xA;&lt;p&gt;It is not a pleasant feeling or experience to work with multiple agents. You can name a few best practices about how to work with AI. To some degree, they work. But what we can&amp;rsquo;t avoid is that they require high attention, which easily makes us very tired.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Blog</title><link>/categories/ai/</link><description>Recent content in AI on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="/categories/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>When AI Makes Ordinary Life Feel Good</title><link>/post/2026/06/01/when-ai-makes-ordinary-life-feel-good/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>/post/2026/06/01/when-ai-makes-ordinary-life-feel-good/</guid><description>&lt;p&gt;I have never been able to focus on work with AI. Whenever I work with an AI agent, I always tend to multitask. Maybe this is part of the lowest spectrum of ADHD, a part of myself that I can&amp;rsquo;t avoid.&lt;/p&gt;
+&lt;p&gt;It is not a pleasant feeling or experience to work with multiple agents. You can name a few best practices about how to work with AI. To some degree, they work. But what we can&amp;rsquo;t avoid is that they require high attention, which easily makes us very tired.&lt;/p&gt;</description></item></channel></rss>
