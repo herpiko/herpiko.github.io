@@ -33,7 +33,7 @@ Sampai di sini, urusan selesai.
 
 Etapi bagaimana misalnya jika Ember A itu sifatnya berkelanjutan, airnya dapat bertambah sewaktu-waktu dan kita ingin ember B langsung menerima airnya juga?
 
-####Stream
+#### Stream
 Mari kita coba pakai selang air.
 <pre>
 Ilustrasi

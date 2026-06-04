@@ -15,7 +15,7 @@ Ary tinggal di desa yang tidak memiliki akses internet dari Telkom. Akses intern
 
 Karena suatu kebutuhan, Ary pergi ke kota dan menyempatkan diri mampir ke warung internet. Di sana Ary membuka situs APT-Web, mengetik ``krita`` di kolom pencarian dan APT-Web akan memberikan Ary tautan unduh paket *deb. untuk aplikasi Krita, lengkap dengan paket ketergantungannya.
 
-######Catatan
+###### Catatan
 
 Berbeda dengan versi sebelumnya, Pak Fajran telah menulis ulang APT-Web versi 2 dengan Go dan Angular. Versi pertama (menggunakan PHP) bisa dilirik di https://github.com/fajran/apt-web/tree/v1.
 

@@ -8,7 +8,7 @@ categories:
 
 Mestinya, setelah ngoprek, saya menulis/mendokumentasikan. Tapi ini benar-benar sulit dilakukan. Saya akan menulis sepintas-sepinas apa yang saya oprek selama dua bulan ini :
 
-#####Javascript
+##### Javascript
 
 Setelah dulu nyaman di PHP, kemudian pindah ke Python karena ~~diolok-olok~~ dibujuk Deni Marswandi, sekarang sibuk main js.
 
@@ -63,7 +63,7 @@ Inilah yang disebut callbackhell. Kodenya jadi jorok sekali. :P
 
 Masalah ini bisa ditangani misalnya oleh promises.
 
-#####AngularJs
+##### AngularJs
 Saat masih main JQuery, saya malas sekali tengok-tengok AngularJs. Apaan sih? Katanya punya cara berbeda dalam menangani DOM. Dengar saja sudah bikin mual. Tapi sebenarnya ini keren banget.
 
 Tombol submit hanya akan muncul apa bila input teks diisi.
@@ -76,16 +76,16 @@ UPDATE : Karena ghost (blog) saya belum bisa tangani syntax html di dalam markdo
 
 Sederhana sekali bukan? Ketimbang pakai JQuery jadi berapa baris? Dan kerennya lagi, AngularJs memungkinkan kita bikin aplikasi komplit dengan MVC pattern hanya dalam 1 laman html!
 
-#####Git dan Github
+##### Git dan Github
 Dulu siklus saya cuma `git add --all` dan `git commit -m "foo"` doang. Tapi sebenarnya git jauh lebih berguna dari itu saja.
 
-######Mencabangkan
+###### Mencabangkan
 `git checkout -b cabangbaru`
 
-######Dorong cabang baru ke github
+###### Dorong cabang baru ke github
 `git push -u origin cabangbaru`
 
-######Perbarui git lokal dengan upstream
+###### Perbarui git lokal dengan upstream
 Tentukan upstream
 `git remote add upstream alamatgitupstream`
 
@@ -103,13 +103,13 @@ Menggabungkan commit sekaligus rebase
 
 PR adalah istilah untuk pull request, yang artinya kita mendorong perubahan kode kita ke upstream. Ini adalah bentuk kontribusi.
 
-#####Test Unit
+##### Test Unit
 
 Dulu saya belum kenal yang namanya test-driven. Di framework populer mana pun sebenarnya ada. Dengan unit test, kita bisa menguji API yang kita bikin tanpa harus menguji coba UI-nya. Kan capek kalau musti buka browesr, klik-klak-klik, ngisi form, terus ngulang lagi dengan nilai yang berbeda.
 
 Dengan unit test, semua ini di otomatisasi.
 
-#####MongoDB
+##### MongoDB
 Ini yang paling aneh dan bikin geli. Database NoSQL! Database tapi tidak pakai tabel. Bagi yang belum pernah dengar dan kuat main di SQL mungkin rada "Hah?".
 
 Databasenya berbasis objek, formatnya macam JSON.
@@ -128,10 +128,10 @@ Databasenya berbasis objek, formatnya macam JSON.
 
 Aneh sekali, bukan? Tapi ini cocok sekali dengan Js, keduanya dapat dipertemukan dengan mesra.
 
-#####Gearman
+##### Gearman
 Gearman sebenarnya anagram dari Manager, berfungsi sebagai server queue. API Gearman bisa dipakai di banyak bahasa, jadi fleksibel banget. Di depan bisa pakai bahasa X, workernya di belakang bisa pakai bahasa Y.
 
-#####Apa lagi ya
+##### Apa lagi ya
 Entahlah.
 
 Satu hal yang paling penting yang saya pelajari baru-baru ini adalah cara kita menangani hal baru. Bolehlah kita terengah-engah mengejar teknologi baru yang bermunculan bak jamur di musim penghujan, merasa tidak kuat dan putus asa, tapi jangan berhenti. Jangan berhenti sama sekali. Kunyah saja. Tidak ada yang sia-sia di sini :D

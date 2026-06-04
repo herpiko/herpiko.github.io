@@ -13,7 +13,7 @@ http://blog.johnny.io/how-to-get-ghost-running-on-heroku-for-free/
 
 Tulisan ini akan memandu anda bagaimana membangun blog berbasis Ghost dan menumpangkannya di Heroku. Gratis!
 
-####Apa itu Ghost?
+#### Apa itu Ghost?
 
 Tidak seperti platform blogging pada umumnya, Ghost bukan berbasis PHP, melainkan Node.Js. Node.Js adalah platform untuk membangun aplikasi real time, asynchronous, event-driven, menggunakan bahasa Javascript dan *engine* Javascript v8 dari Google Chrome.
 
@@ -21,10 +21,10 @@ Ghost sangat keren, dirancang untuk ngeblog, tidak yang lain. Salah satu fitur u
 
 {<1>}![](https://images.plurk.com/6NLecTWVnD4BppGNKkPNHb.jpg)
 
-####Dan apa pula itu Heroku?
+#### Dan apa pula itu Heroku?
 Heroku adalah web hosting berbasis cloud. Setiap aplikasi yang dikembangkan di Heroku berjalan di atas satu atau lebih dyno. Dyno adalah sebutan Heroku untuk unit virtual yang mem-*bekingi* aplikasi, mirip dengan gear di Openshift. Sebuah dyno mempengaruhi banyak hal, baik itu CPU, memory, maupun trafik. Akun gratis di Heroku mengizinkan penggunaan 1 dyno untuk setiap aplikasi.
 
-####Kebutuhan
+#### Kebutuhan
 
 Di praktik ini saya menggunakan Ubuntu 14.04. Karena perintah-perintah node pada umumnya sama meski beda sistem operasi, silakan menyesuaikan.
 
@@ -45,7 +45,7 @@ Minimal, anda memiliki pengetahuan dasar mengenai git.
 > * Akun gratis di Heroku hanya menyediakan 1 dyno. 1 dyno tidak cukup kuat untuk menahan trafik yang terlalu tinggi. Jika nantinya blog anda terlalu popluer dan butuh trafik lebih, pertimbangkan membeli beberapa dyno lagi.
 * Heroku hanya menerima tumpangan berkas yang bersifat statis, yaitu kode anda dan berkas-berkas statis lainnya. Selain itu bersifat sementara (temporary). Jika ingin mengunggah gambar, unggahlah di tempat lain seperti imgur (tapi ingat, imgur diblok Kominfo), atau lainnya, kemudian tinggal menautkan URL gambar.
 
-####Ghost di komputer lokal
+#### Ghost di komputer lokal
 
 Ada dua cara mengunduh Ghost : melalui Npm atau mengunduh langsung. Jika melalui Npm, ghost akan terpasang di ./node-modules/ghost/
 
@@ -66,7 +66,7 @@ Jalankan ghost :
 
 Sampai di sini, anda dapat mengecek blog baru anda di peramban dengan alamat localhost:2368.
 
-####Menumpangkan Ghost di Heroku
+#### Menumpangkan Ghost di Heroku
 
 Masih di direktori ghost, anda perlu membuat sebuah berkas yang akan menjelaskan ke Heroku, lingkungan seperti apa yang anda butuhkan. Berkas ini dinamai Procfile.
 
@@ -131,7 +131,7 @@ Kemudian unggah kode anda :
 
 Sampai di sini, anda dapat mengecek blog ghost anda yang sudah mengudara di internet dengan alamat namaanda-ghost.herokuapp.com
 
-####Menggunakan PostgreSQL sebagai basis data
+#### Menggunakan PostgreSQL sebagai basis data
 Secara bawaan, Ghost menggunakan SQLite sebagai basis data. Dan seperti yang sudah dijelaskan sebelumnya, tumpangan di Heroku hanya menerima berkas yang sifatnya statis. Jadi, bagaimanapun data diinput / modifikasi, nanti tetap balik seperti semula. Kita harus memindahkan basis datanya ke luar.
 
 Heroku menyediakan PostgreSQL untuk basis datanya, gratis. Mari manfaatkan.
@@ -196,7 +196,7 @@ Cek lagi blog anda yang sudah kembali mengudara dengan basis data postgres. Coba
 
 {<2>}![](https://images.plurk.com/3J0bpg3yVTSJwjIHrNoddc.jpg)
 
-#####Kalau ada galat?
+##### Kalau ada galat?
 
 Jika ada galat seperti di bawah ini :
 

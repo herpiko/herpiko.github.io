@@ -5,19 +5,19 @@ categories:
   - blog
 ---
 
-#####Persiapan alat tempur
+##### Persiapan alat tempur
 
 <pre>
 sudo aptitude install squashfs-tools genisoimage
 </pre>
 
-#####Symlink genisoimage
+##### Symlink genisoimage
 
 <pre>
 sudo ln -s /usr/bin/genisoimage /usr/bin/mkisofs
 </pre>
 
-#####Buat area kerja
+##### Buat area kerja
 
 <pre>
 mkdir ~/livecdtmp
@@ -25,7 +25,7 @@ mv berkas.iso ~/livecdtmp
 cd ~/livecdtmp
 </pre>
 
-#####Kaitkan berkas ISO Live CD
+##### Kaitkan berkas ISO Live CD
 <pre>
 mkdir mnt
 sudo mount -o loop berkas.iso mnt
@@ -35,22 +35,22 @@ Jika gagal mengkaitkan berkas ISO dengan pesan galat ```Unknown error -1```, pas
 modprobe loop
 </pre>
 
-#####Ekstrak isi citra ISO
+##### Ekstrak isi citra ISO
 <pre>
 mkdir extract-cd
 sudo rsync --exclude=/live/filesystem.squashfs -a mnt/ extract-cd
 </pre>
 
-#####Ekstrak SquashFS
+##### Ekstrak SquashFS
 <pre>
 sudo unsquashfs mnt/live/filesystem.squashfs
 sudo mv squashfs-root edit
 </pre>
 
-#####Kustom
+##### Kustom
 Sampai langkah ini, anda dapat memodifikasi Live CD (misal menambahkan berkas). Direktori untuk kustom ada di dalam direktori edit/
 
-#####Chroot
+##### Chroot
 Untuk modifikasi yang terkait erat dengan sistem (misal menambahkan paket), Anda perlu masuk ke dalam sistem yang sudah diekstrak tersebut, dengan ```chroot```.
 
 <pre>
@@ -72,25 +72,25 @@ export HOME=/root
 export LC_ALL=C
 </pre>
 
-#####Kompres SquashFs
+##### Kompres SquashFs
 <pre>
 sudo mksquashfs edit extract-cd/live/filesystem.squashfs
 </pre>
 
-#####Perbarui berkas filesystem.size
+##### Perbarui berkas filesystem.size
 <pre>
 sudo su
 printf $(sudo du -sx --block-size=1 edit | cut -f1) > extract-cd/live/filesystem.size
 exit
 </pre>
 
-#####Buat kembali berkas ISO
+##### Buat kembali berkas ISO
 <pre>
 cd extract-cd
 sudo mkisofs -o ../modifikasi.iso -b boot/grub/eltorito.img -c boot.catalog -no-emul-boot -boot-load-size 4 -boot-info-table -R -J -v -T -eltorito-alt-boot .
 </pre>
 
-#####Selesai
+##### Selesai
 
 Silakan ujicoba citra ISO yang sudah Anda buat
 <pre>
@@ -98,7 +98,7 @@ cd ../
 qemu -cdrom modifikasi.iso -boot d -m 1G
 </pre>
 
-######Kredit :
+###### Kredit :
 @dotovr
 
 http://pendekar.blankon.in/~dotovr/custom_live_cd_blankon.dotovr

@@ -9,7 +9,7 @@
 &lt;p&gt;Teman-teman, nama saya Piko. Saya lahir dan tumbuh di pulau Lombok, sebelahnya Bali.&lt;/p&gt;
 &lt;h1 id="latar-belakang"&gt;Latar Belakang&lt;/h1&gt;
 &lt;p&gt;Tahun 2015, saya pindah ke Jabodetabek. Setelah 1 tahun di sini, perasaan saya campur aduk. Di satu sisi saya senang banget karena di sini banyak sekali event-event tech yang bisa saya ikuti dan membantu saya bertumbuh kembang sebagai software engineer secara profesional dan memberikan saya bermacam-macam opportunity. Namun di sisi lain saya sedih banget. Saya mikir, kok yang kayak gini ga ada ya di daerah atau di kota-kota kecil (saat itu). Saya yakin teman-teman di daerah pun banyak yang berpotensi namun tumbuh kembang mereka bisa jadi tidak secepat kita-kita yang di Jakarta karena eksposur yang mereka dapatkan terkait perkembangan dalam bentuk tech sharing session tidak sebaik yang kita dapatkan.&lt;/p&gt;</description></item><item><title>Feedback</title><link>/post/2025/07/11/feedback/</link><pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate><guid>/post/2025/07/11/feedback/</guid><description>&lt;p&gt;I think the luckiest people are those who have people that care about them and know how to accept and appreciate that care properly. One of the shapes of caring is feedback, which sometimes is hard to swallow. Thus, delivering one requires specific skills just as important as receiving one.&lt;/p&gt;
-&lt;p&gt;When someone has concern about their friend, coworker, or even their favorite barista’s latte art skills, that concern often comes from a place of wanting them to do better, not from wanting to tear them down. But the way that concern is packaged matters—a lot.&lt;/p&gt;</description></item><item><title>Community</title><link>/post/2025/01/05/community/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>/post/2025/01/05/community/</guid><description>&lt;p&gt;Communities allow me to see the world in different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.&lt;/p&gt;
+&lt;p&gt;When someone has concern about their friend, coworker, or even their favorite barista’s latte art skills, that concern often comes from a place of wanting them to do better, not from wanting to tear them down. But the way that concern is packaged matters, a lot.&lt;/p&gt;</description></item><item><title>Community</title><link>/post/2025/01/05/community/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>/post/2025/01/05/community/</guid><description>&lt;p&gt;Communities allow me to see the world in different perspectives. They are like bubbles, but each contains portions of other kinds of bubbles. People from different backgrounds come and go, bringing diverse goals, intentions, opinions, and politics. Yet, we gather for the same domain or shared interest.&lt;/p&gt;
 &lt;p&gt;I grew up in communities. They filled the gaps left by my parents (who are still alive but were largely absent in their roles). Communities gave me what I was missing and shaped my skills and career by allowing me to contribute back in many ways. It even helped guide me toward the meaning of life.&lt;/p&gt;</description></item><item><title>Steam Deck Jumpscare</title><link>/post/2024/06/24/steam-deck-jumpscare/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>/post/2024/06/24/steam-deck-jumpscare/</guid><description>&lt;p&gt;I have write &lt;a href="https://www.reddit.com/r/SteamDeck/comments/1dnibot/steam_deck_jumpscare/"&gt;this guide in a Reddit thread&lt;/a&gt; but no one is interested until &lt;a href="https://www.reddit.com/r/SteamDeck/comments/1gx6vhj/this_is_how_i_pranked_my_wife_with_a_jumpscare/"&gt;they saw the video&lt;/a&gt;. :D&lt;/p&gt;
 &lt;h3 id="notes"&gt;Notes&lt;/h3&gt;
 &lt;ul&gt;
@@ -693,28 +693,28 @@ x.end.valueOf() == y.end.valueOf())
 &amp;ldquo;Aku tidak mencintaimu lagi&amp;rdquo;
 atau &amp;ldquo;Aku sudah lupa, semua ini hanya omong kosong&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Tapi Tuhan belum mengizinkan&lt;/p&gt;</description></item><item><title>Wakijo, Pengendara Sepeda Motor Tua dan Solidaritasnya</title><link>/post/2015/08/09/wakijo-pengendara-sepeda-motor-tua-dan-solidaritasnya/</link><pubDate>Sun, 09 Aug 2015 12:00:00 +0000</pubDate><guid>/post/2015/08/09/wakijo-pengendara-sepeda-motor-tua-dan-solidaritasnya/</guid><description>&lt;p&gt;Sebenarnya saya mau langsung cerita soal kejadian kemarin. Namun karena saya belum pernah menulis tentang Wakijo, mari saya perkenalkan sedikit.&lt;/p&gt;
-&lt;p&gt;#####Wakijo&lt;/p&gt;
+&lt;h5 id="wakijo"&gt;Wakijo&lt;/h5&gt;
 &lt;p&gt;Saat Blek menyarankan agar saya membeli sepeda motor, saya bilang &amp;ldquo;tidak&amp;rdquo;. Sepeda kayuh saya saja gampang raib, apa lagi sepeda motor. Kadang-kadang saya berargumen klise tentang sepeda, pengaruh lingkungan dan sebagainya dan sebagainya pokoknya tahulah kemana arahnya ini.&lt;/p&gt;
 &lt;p&gt;Namun ketika hati saya &lt;del&gt;sempat&lt;/del&gt; luluh, saya bertanya, sepeda motor macam apa?&lt;/p&gt;</description></item><item><title>Playing with Initramfs</title><link>/post/2015/08/08/playing-with-initramfs/</link><pubDate>Sat, 08 Aug 2015 12:00:00 +0000</pubDate><guid>/post/2015/08/08/playing-with-initramfs/</guid><description>&lt;p&gt;Both Virtualbox and Qemu has strange behaviour when we append &lt;code&gt;break=mount&lt;/code&gt; parameter to GRUB, as we want to enter an initramfs shell. They give us a blank black screen. I have tried this in newest Virtualbox version, but still no luck.&lt;/p&gt;
 &lt;p&gt;Fortunately, Qemu has flexible workaround for this.&lt;/p&gt;
 &lt;pre&gt;
 kvm -m 1024 -hda testing.vdi
 &lt;/pre&gt;
-&lt;p&gt;In this virtual system, we need to export the kernel and initrd file from the disk image which you play with.&lt;/p&gt;</description></item><item><title>Memodifikasi LiveCD BlankOn</title><link>/post/2015/08/07/memodifikasi-livecd-blankon/</link><pubDate>Fri, 07 Aug 2015 12:00:00 +0000</pubDate><guid>/post/2015/08/07/memodifikasi-livecd-blankon/</guid><description>&lt;p&gt;#####Persiapan alat tempur&lt;/p&gt;
+&lt;p&gt;In this virtual system, we need to export the kernel and initrd file from the disk image which you play with.&lt;/p&gt;</description></item><item><title>Memodifikasi LiveCD BlankOn</title><link>/post/2015/08/07/memodifikasi-livecd-blankon/</link><pubDate>Fri, 07 Aug 2015 12:00:00 +0000</pubDate><guid>/post/2015/08/07/memodifikasi-livecd-blankon/</guid><description>&lt;h5 id="persiapan-alat-tempur"&gt;Persiapan alat tempur&lt;/h5&gt;
 &lt;pre&gt;
 sudo aptitude install squashfs-tools genisoimage
 &lt;/pre&gt;
-&lt;p&gt;#####Symlink genisoimage&lt;/p&gt;
+&lt;h5 id="symlink-genisoimage"&gt;Symlink genisoimage&lt;/h5&gt;
 &lt;pre&gt;
 sudo ln -s /usr/bin/genisoimage /usr/bin/mkisofs
 &lt;/pre&gt;
-&lt;p&gt;#####Buat area kerja&lt;/p&gt;
+&lt;h5 id="buat-area-kerja"&gt;Buat area kerja&lt;/h5&gt;
 &lt;pre&gt;
 mkdir ~/livecdtmp
 mv berkas.iso ~/livecdtmp
 cd ~/livecdtmp
 &lt;/pre&gt;
-&lt;p&gt;#####Kaitkan berkas ISO Live CD&lt;/p&gt;
+&lt;h5 id="kaitkan-berkas-iso-live-cd"&gt;Kaitkan berkas ISO Live CD&lt;/h5&gt;
 &lt;pre&gt;
 mkdir mnt
 sudo mount -o loop berkas.iso mnt
@@ -723,12 +723,18 @@ sudo mount -o loop berkas.iso mnt
 &lt;pre&gt;
 modprobe loop
 &lt;/pre&gt;
-&lt;p&gt;#####Ekstrak isi citra ISO&lt;/p&gt;
+&lt;h5 id="ekstrak-isi-citra-iso"&gt;Ekstrak isi citra ISO&lt;/h5&gt;
 &lt;pre&gt;
 mkdir extract-cd
 sudo rsync --exclude=/live/filesystem.squashfs -a mnt/ extract-cd
 &lt;/pre&gt;
-&lt;p&gt;#####Ekstrak SquashFS&lt;/p&gt;</description></item><item><title>Ngesot Gunung Gede Pangrango</title><link>/post/2015/07/31/ngesot-gunung-gede-pangrango/</link><pubDate>Fri, 31 Jul 2015 12:00:00 +0000</pubDate><guid>/post/2015/07/31/ngesot-gunung-gede-pangrango/</guid><description>&lt;p&gt;Dulu saya sempat berpikir untuk berhenti naik gunung, jadi kerilnya saya kasihkan ke teman, tendanya saya gulung erat-erat. Tapi ternyata itu cuma omong kosong.&lt;/p&gt;
+&lt;h5 id="ekstrak-squashfs"&gt;Ekstrak SquashFS&lt;/h5&gt;
+&lt;pre&gt;
+sudo unsquashfs mnt/live/filesystem.squashfs
+sudo mv squashfs-root edit
+&lt;/pre&gt;
+&lt;h5 id="kustom"&gt;Kustom&lt;/h5&gt;
+&lt;p&gt;Sampai langkah ini, anda dapat memodifikasi Live CD (misal menambahkan berkas). Direktori untuk kustom ada di dalam direktori edit/&lt;/p&gt;</description></item><item><title>Ngesot Gunung Gede Pangrango</title><link>/post/2015/07/31/ngesot-gunung-gede-pangrango/</link><pubDate>Fri, 31 Jul 2015 12:00:00 +0000</pubDate><guid>/post/2015/07/31/ngesot-gunung-gede-pangrango/</guid><description>&lt;p&gt;Dulu saya sempat berpikir untuk berhenti naik gunung, jadi kerilnya saya kasihkan ke teman, tendanya saya gulung erat-erat. Tapi ternyata itu cuma omong kosong.&lt;/p&gt;
 &lt;p&gt;Halo lagi,&lt;/p&gt;
 &lt;p&gt;Ini pertama kalinya saya :&lt;/p&gt;
 &lt;ul&gt;
@@ -737,16 +743,16 @@ sudo rsync --exclude=/live/filesystem.squashfs -a mnt/ extract-cd
 &lt;li&gt;Mendaki satu tim dengan seorang wanita&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ini tentang gunung. Saya hanya pernah mendaki gunung Rinjani dan Tambora, jadi sudut pandang saya diambil dari pengalaman saya yang sedikit ini. Catatan ini ditulis dua bulan setelah pendakian tersebut, jadi ingatan saya tidak begitu jelas tentang beberapa hal, misal jarak tempuh dari titik A ke B itu berapa jam.&lt;/p&gt;</description></item><item><title>Tai</title><link>/post/2015/07/21/tai/</link><pubDate>Tue, 21 Jul 2015 12:00:00 +0000</pubDate><guid>/post/2015/07/21/tai/</guid><description>&lt;p&gt;Karena suatu hal dan hal lain, saya tidak menyebutkan nama tempat yang saya kunjungi kali ini. Biarlah tidak usah jadi mainstream. Biarlah tempat ini menjadi tidak ramai. Jika kamu merasa tahu tentang tempat ini, ya silakan menebak-nebak sendiri.&lt;/p&gt;
-&lt;p&gt;Tempat ini dikelola oleh Sembalun Development Community Center. Selain membayar restribusi, kami diberi kantong plastik untuk sampah dan beberapa peringatan lisan, tidak boleh ini dan itu. Sepertinya dikelola dengan baik. Terima kasih!&lt;/p&gt;</description></item><item><title>Buku-buku Tua</title><link>/post/2015/06/07/buku-buku-tua/</link><pubDate>Sun, 07 Jun 2015 12:00:00 +0000</pubDate><guid>/post/2015/06/07/buku-buku-tua/</guid><description>&lt;p&gt;Sejak pindah ke ibu kota, saya beberapa kali menyempatkan diri untuk membeli buku bekas di Pasar Senen. Butuh sekitar 3 jam dari Bogor untuk tiba di sana. Sampai saat ini, saya baru mengunjungi tiga tempat penjualan buku bekas. Di dekat stasiun Pondok Cina, Pasar Senen, dan Pasar Senen Impres. Buku-buku yang paling menarik rasanya ada di Pasar Senen Impres, sekaligus buku-buku yang paling mengenaskan kondisinya. Di beberapa lapak di sana, buku-buku tersebut ditumpuk di atas alas kayu, kemudian ditutupi terpal seadanya. Tanpa atap peneduh hujan dan bau kencing kucing. Saya mendapatkan salah satu buku favorit saya dari tempat seperti itu. Ada juga beberapa tempat di sosmed dimana kita bisa membeli buku-buku bekas berkualitas bagus. Tapi membongkar-bongkar buku berdebu di lapak beneran lebih seru. Lebih berseni!&lt;/p&gt;</description></item><item><title>Catatan mengenai qemu-kvm</title><link>/post/2015/05/15/catatan-mengenai-qemu-kvm/</link><pubDate>Fri, 15 May 2015 12:00:00 +0000</pubDate><guid>/post/2015/05/15/catatan-mengenai-qemu-kvm/</guid><description>&lt;p&gt;#####Siapkan
-Pasang &lt;code&gt;libvirt&lt;/code&gt; dan &lt;code&gt;qemu&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Tempat ini dikelola oleh Sembalun Development Community Center. Selain membayar restribusi, kami diberi kantong plastik untuk sampah dan beberapa peringatan lisan, tidak boleh ini dan itu. Sepertinya dikelola dengan baik. Terima kasih!&lt;/p&gt;</description></item><item><title>Buku-buku Tua</title><link>/post/2015/06/07/buku-buku-tua/</link><pubDate>Sun, 07 Jun 2015 12:00:00 +0000</pubDate><guid>/post/2015/06/07/buku-buku-tua/</guid><description>&lt;p&gt;Sejak pindah ke ibu kota, saya beberapa kali menyempatkan diri untuk membeli buku bekas di Pasar Senen. Butuh sekitar 3 jam dari Bogor untuk tiba di sana. Sampai saat ini, saya baru mengunjungi tiga tempat penjualan buku bekas. Di dekat stasiun Pondok Cina, Pasar Senen, dan Pasar Senen Impres. Buku-buku yang paling menarik rasanya ada di Pasar Senen Impres, sekaligus buku-buku yang paling mengenaskan kondisinya. Di beberapa lapak di sana, buku-buku tersebut ditumpuk di atas alas kayu, kemudian ditutupi terpal seadanya. Tanpa atap peneduh hujan dan bau kencing kucing. Saya mendapatkan salah satu buku favorit saya dari tempat seperti itu. Ada juga beberapa tempat di sosmed dimana kita bisa membeli buku-buku bekas berkualitas bagus. Tapi membongkar-bongkar buku berdebu di lapak beneran lebih seru. Lebih berseni!&lt;/p&gt;</description></item><item><title>Catatan mengenai qemu-kvm</title><link>/post/2015/05/15/catatan-mengenai-qemu-kvm/</link><pubDate>Fri, 15 May 2015 12:00:00 +0000</pubDate><guid>/post/2015/05/15/catatan-mengenai-qemu-kvm/</guid><description>&lt;h5 id="siapkan"&gt;Siapkan&lt;/h5&gt;
+&lt;p&gt;Pasang &lt;code&gt;libvirt&lt;/code&gt; dan &lt;code&gt;qemu&lt;/code&gt;.&lt;/p&gt;
 &lt;pre&gt;
 sudo apt-get install libvirt qemu
 &lt;/pre&gt;
-&lt;p&gt;#####Buat berkas harddisk&lt;/p&gt;
+&lt;h5 id="buat-berkas-harddisk"&gt;Buat berkas harddisk&lt;/h5&gt;
 &lt;pre&gt;
 qemu-img create hda.img 10G # buat hdd virtual ukuran 10GB, kosong
 &lt;/pre&gt;
-&lt;p&gt;#####Opsi qemu&lt;/p&gt;
+&lt;h5 id="opsi-qemu"&gt;Opsi qemu&lt;/h5&gt;
 &lt;pre&gt;
 -m 2048 # RAM
 -cdrom img.iso # berkas ISO
@@ -760,7 +766,8 @@ qemu-img create hda.img 10G # buat hdd virtual ukuran 10GB, kosong
 &lt;pre&gt;
 vncviewer :1 # akses vnc
 &lt;/pre&gt;
-&lt;p&gt;#####Komunikasi&lt;/p&gt;</description></item><item><title>git checkout --detach</title><link>/post/2015/04/10/git-checkout--detach/</link><pubDate>Fri, 10 Apr 2015 12:00:00 +0000</pubDate><guid>/post/2015/04/10/git-checkout--detach/</guid><description>&lt;p&gt;Coba perhatikan alur git berikut ini :&lt;/p&gt;
+&lt;h5 id="komunikasi"&gt;Komunikasi&lt;/h5&gt;
+&lt;p&gt;Jika ingin berkomunikasi dengan host, gunakan IP 10.0.2.2.&lt;/p&gt;</description></item><item><title>git checkout --detach</title><link>/post/2015/04/10/git-checkout--detach/</link><pubDate>Fri, 10 Apr 2015 12:00:00 +0000</pubDate><guid>/post/2015/04/10/git-checkout--detach/</guid><description>&lt;p&gt;Coba perhatikan alur git berikut ini :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;git fetch upstream&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git checkout upstream/master&lt;/code&gt;&lt;/li&gt;
@@ -790,7 +797,7 @@ Ilustrasi
  |___|
 &lt;/pre&gt;
 &lt;p&gt;Ember A memiliki isi seliter air. Ember B kosong. Jika kita ingin ember B juga berisi setengah liter air, maka&lt;/p&gt;</description></item><item><title>Mengapa Lebih Baik Menyimpan Waktu dalam UTC</title><link>/post/2015/03/25/mengapa-lebih-baik-menyimpan-waktu-dalam-utc/</link><pubDate>Wed, 25 Mar 2015 12:00:00 +0000</pubDate><guid>/post/2015/03/25/mengapa-lebih-baik-menyimpan-waktu-dalam-utc/</guid><description>&lt;p&gt;UTC adalah Coordinated Universal Time. &lt;a href="http://www.timeanddate.com/time/utc-abbreviation.html"&gt;Singkatannya kurang tepat ya, eh&lt;/a&gt;? UTC menjadi standar dunia dalam penetapan waktu secara universal, bukan zona waktu.&lt;/p&gt;
-&lt;p&gt;####Bukan UTC&lt;/p&gt;
+&lt;h4 id="bukan-utc"&gt;Bukan UTC&lt;/h4&gt;
 &lt;p&gt;Sekarang kamu ada di Bogor, menginput data suatu kejadian yang terjadi di Bogor (WIB) dalam informasi waktu seperti berikut :&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;2 Agustus 1992 Jam 05:00&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Kemudian, data tersebut dibuka di Sulawesi, yang muncul adalah&lt;/p&gt;
@@ -841,7 +848,7 @@ Ilustrasi
 &lt;li&gt;Kopi siap dinikmati.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Yang Saya Oprek dalam Dua Bulan Ini</title><link>/post/2014/12/26/yang-saya-oprek-dalam-dua-bulan-ini/</link><pubDate>Fri, 26 Dec 2014 12:00:00 +0000</pubDate><guid>/post/2014/12/26/yang-saya-oprek-dalam-dua-bulan-ini/</guid><description>&lt;p&gt;bulan sejak tulisan terakhir, saya menyia-nyiakan blog ini rupanya. Nah, mari saya tulis sesuatu.&lt;/p&gt;
 &lt;p&gt;Mestinya, setelah ngoprek, saya menulis/mendokumentasikan. Tapi ini benar-benar sulit dilakukan. Saya akan menulis sepintas-sepinas apa yang saya oprek selama dua bulan ini :&lt;/p&gt;
-&lt;p&gt;#####Javascript&lt;/p&gt;
+&lt;h5 id="javascript"&gt;Javascript&lt;/h5&gt;
 &lt;p&gt;Setelah dulu nyaman di PHP, kemudian pindah ke Python karena &lt;del&gt;diolok-olok&lt;/del&gt; dibujuk Deni Marswandi, sekarang sibuk main js.&lt;/p&gt;
 &lt;p&gt;Berbeda dengan kebanyakan bahasa pemograman, Js itu async, jika ada 3 baris kode yang sejajar, maka ketiga-tiganya dijalankan bersamaan. Tidak ada yang menjamin baris pertama selesai terlebih dahulu. Ini benar-benar memusingkan sekaligus menantang.&lt;/p&gt;</description></item><item><title>Pindah ke Ghost</title><link>/post/2014/11/02/pindah-ke-ghost/</link><pubDate>Sun, 02 Nov 2014 12:00:00 +0000</pubDate><guid>/post/2014/11/02/pindah-ke-ghost/</guid><description>&lt;p&gt;Sekalian sebagai hadiah ulang tahun untuk aktivitas &lt;em&gt;ngeblog&lt;/em&gt; (November 2008 - November 2014), akhirnya saya benar-benar pindah ke Ghost. Blog lama diletakkan di &lt;a href="http://pdft.net/wp/"&gt;pdft.net/wp/&lt;/a&gt;. Saya sengaja tidak mengimpor data dari wordpress ke sini karena hasilnya belum begitu sempurna, terutama bagaimana proses impornya mengabaikan bentuk paragraf dari wordpress. Belum ada waktu buat &lt;em&gt;ngoprekin&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Dan tujuan semula blog ini akhirnya ikut berubah. Bukan saja untuk catatan &lt;em&gt;ngoprek&lt;/em&gt;, tapi tentang apa saja.&lt;/p&gt;
@@ -849,7 +856,7 @@ Ilustrasi
 &lt;p&gt;Pada tulisan ini, saya &amp;ldquo;meng-Indonesia-kan&amp;rdquo; panduan yang tertulis di tautan berikut :&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://blog.johnny.io/how-to-get-ghost-running-on-heroku-for-free/"&gt;http://blog.johnny.io/how-to-get-ghost-running-on-heroku-for-free/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tulisan ini akan memandu anda bagaimana membangun blog berbasis Ghost dan menumpangkannya di Heroku. Gratis!&lt;/p&gt;
-&lt;p&gt;####Apa itu Ghost?&lt;/p&gt;
+&lt;h4 id="apa-itu-ghost"&gt;Apa itu Ghost?&lt;/h4&gt;
 &lt;p&gt;Tidak seperti platform blogging pada umumnya, Ghost bukan berbasis PHP, melainkan Node.Js. Node.Js adalah platform untuk membangun aplikasi real time, asynchronous, event-driven, menggunakan bahasa Javascript dan &lt;em&gt;engine&lt;/em&gt; Javascript v8 dari Google Chrome.&lt;/p&gt;
 &lt;p&gt;Ghost sangat keren, dirancang untuk ngeblog, tidak yang lain. Salah satu fitur unggulannya adalah menulis secara &lt;em&gt;live preview&lt;/em&gt; dengan Markdown.&lt;/p&gt;</description></item><item><title>Bimbang</title><link>/post/2014/10/27/bimbang/</link><pubDate>Mon, 27 Oct 2014 12:00:00 +0000</pubDate><guid>/post/2014/10/27/bimbang/</guid><description>&lt;p&gt;Ketemu sama teknologi baru, saya ini mudah bimbang. Sekarang lihatlah &lt;a href="http://ghost.org"&gt;Ghost&lt;/a&gt;, platform untuk ngeblog yang katanya &lt;strong&gt;Wordpress Killer&lt;/strong&gt;. Just a blogging platform, katanya? Bullshit itu, terlalu merendah. :D&lt;/p&gt;
 &lt;p&gt;Blog ini memang berjalan di atas ghost. Kelihatan biasa saja ya. Tunggu deh sampai lihat &lt;em&gt;dalemannya&lt;/em&gt; bagaimana. Dan saya pun bimbang, setelah ngeblog dengan Wordpress sejak tahun 2008 (sekarang &lt;a href="http://blog.pdft.net"&gt;blog.pdft.net&lt;/a&gt;), perlukah saya bermigrasi ke Ghost?&lt;/p&gt;

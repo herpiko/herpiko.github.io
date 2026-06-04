@@ -7,7 +7,7 @@ categories:
 
 UTC adalah Coordinated Universal Time. [Singkatannya kurang tepat ya, eh](http://www.timeanddate.com/time/utc-abbreviation.html)? UTC menjadi standar dunia dalam penetapan waktu secara universal, bukan zona waktu.
 
-####Bukan UTC
+#### Bukan UTC
 
 Sekarang kamu ada di Bogor, menginput data suatu kejadian yang terjadi di Bogor (WIB) dalam informasi waktu seperti berikut :
 
@@ -23,7 +23,7 @@ Seharusnya direpresentasikan dalam WITA sebagai
 
 Akhirnya tidak ada acuan dalam menggeser zona waktu ini.
 
-####Dalam UTC
+#### Dalam UTC
 
 Sekarang kamu ada di Bogor, menginput data suatu kejadian yang terjadi di Bogor (WIB) dalam informasi waktu seperti berikut :
 
@@ -37,11 +37,11 @@ Kemudian, data tersebut dibuka di Sulawesi.Dengan pustaka tertentu, data tersebu
 
 ``2 Agustus 1992 Jam 06:00``
 
-####Saat kapan digunakan?
+#### Saat kapan digunakan?
 
 Penyimpanan informasi waktu dalam UTC tidak selalu harus digunakan, misal pada perangkat lunak yang digunakan secara lokal saja. Tetapi lebih baik diterapkan sejak dini karena siapa sangka skalabilitasnya bertambah menjadi lintas zona waktu atau sudah menjadi aplikasi daring.
 
-####Pustaka
+#### Pustaka
 
 Contoh pustaka yang asyik digunakan untuk bermain-main dengan waktu (dalam javascript) adalah [moment.js](http://momentjs.com/). API-nya lengkap sekali.
 

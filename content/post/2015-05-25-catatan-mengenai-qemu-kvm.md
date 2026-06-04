@@ -5,16 +5,16 @@ categories:
   - blog
 ---
 
-#####Siapkan
+##### Siapkan
 Pasang ```libvirt``` dan ```qemu```.
 <pre>
 sudo apt-get install libvirt qemu
 </pre>
-#####Buat berkas harddisk
+##### Buat berkas harddisk
 <pre>
 qemu-img create hda.img 10G # buat hdd virtual ukuran 10GB, kosong
 </pre>
-#####Opsi qemu
+##### Opsi qemu
 <pre>
 -m 2048  # RAM
 -cdrom img.iso # berkas ISO
@@ -30,7 +30,7 @@ qemu-img create hda.img 10G # buat hdd virtual ukuran 10GB, kosong
 vncviewer :1 # akses vnc
 </pre>
 
-#####Komunikasi
+##### Komunikasi
 
 Jika ingin berkomunikasi dengan host, gunakan IP 10.0.2.2.
 
@@ -38,7 +38,7 @@ Masuk ke monitor mode : ```Ctrl ``` + ```Alt``` + ```2```
 
 https://en.wikibooks.org/wiki/QEMU/Monitor#sendkey_keys
 
-####Simulasi perangkat USB
+#### Simulasi perangkat USB
 
 Cari informasi ``vendorId`` dan ``deviceId`` dari perangkat USB.
 <pre>
