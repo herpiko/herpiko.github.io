@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58191&amp;path=livereload" data-no-instant defer></script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
@@ -28,7 +28,7 @@
     <title>Hunting Down Memory Leaks in Golang Service | Blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <link rel="stylesheet" href="//localhost:58191/css/theme-override.css">
     <header>
 
   <nav>
@@ -36,7 +36,7 @@
       
       
       <li class="pull-left ">
-        <a href="//localhost:1313/">~/blog</a>
+        <a href="//localhost:58191/">~/blog</a>
       </li>
       
       
@@ -117,21 +117,21 @@
 </span></span><span style="display:flex;"><span>	}
 </span></span></code></pre></div><p>This will open some endpoints in the service for debug purpose under <code>/debug/*</code>. Since this case is about memory allocation, I&rsquo;ll focus on <code>allocs</code>.</p>
 <p>I immediately planted <code>pprof</code>, fetched the state dump of the service then display it locally by using this command</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">go</span> <span style="color:#a6e22e">tool</span> <span style="color:#a6e22e">pprof</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">http</span>=<span style="color:#e6db74">&#34;:8080&#34;</span> <span style="color:#a6e22e">http</span>:<span style="color:#75715e">//foobar/debug/pprof/allocs
-</span></span></span></code></pre></div><p>It&rsquo;ll open web browser to show you the data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">go</span> <span style="color:#a6e22e">tool</span> <span style="color:#a6e22e">pprof</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">http</span>=<span style="color:#e6db74">&#34;:8080&#34;</span> <span style="color:#a6e22e">http</span>:<span style="color:#75715e">//foobar/debug/pprof/allocs</span>
+</span></span></code></pre></div><p>It&rsquo;ll open web browser to show you the data.</p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-3.png" alt=""></p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-4.png" alt=""></p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-5.png" alt=""></p>
 <h2 id="parsemultipartform">ParseMultipartForm</h2>
 <p>Since the service is mainly about uploading files, I proceed to reproduce prod-like situation by spinning up a local instance, bypassing the authentication then start to upload file (1.3MB, repeated 100x).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span></span><span style="display:flex;"><span>i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">[</span> $i -ne <span style="color:#ae81ff">100</span> <span style="color:#f92672">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>	i<span style="color:#f92672">=</span><span style="color:#66d9ef">$((</span>$i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span><span style="color:#66d9ef">))</span>
 </span></span><span style="display:flex;"><span>	curl --location <span style="color:#e6db74">&#39;http://localhost:8000/upload&#39;</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	--header <span style="color:#e6db74">&#39;Authorization: Bearer TOKEN&#39;</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	--form <span style="color:#e6db74">&#39;file=@&#34;/Users/herpiko/Downloads/foo.txt&#34;&#39;</span>
+</span></span></span><span style="display:flex;"><span>	--header <span style="color:#e6db74">&#39;Authorization: Bearer TOKEN&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>	--form <span style="color:#e6db74">&#39;file=@&#34;/Users/herpiko/Downloads/foo.txt&#34;&#39;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
 </span></span></code></pre></div><p>Let&rsquo;s see the <code>pprof</code> reports.</p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-6.png" alt=""></p>
@@ -176,8 +176,8 @@
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Dialer</span>:   <span style="color:#a6e22e">messagebroker</span>.<span style="color:#a6e22e">Dialer</span>,
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Topic</span>:    <span style="color:#e6db74">&#34;statusNew&#34;</span>,
 </span></span><span style="display:flex;"><span>})
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">writer</span>.<span style="color:#a6e22e">Close</span>() <span style="color:#75715e">// This is missing
-</span></span></span></code></pre></div><p>Pushed this to production then memory consumption got flattened near zero.</p>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">writer</span>.<span style="color:#a6e22e">Close</span>() <span style="color:#75715e">// This is missing</span>
+</span></span></code></pre></div><p>Pushed this to production then memory consumption got flattened near zero.</p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-11.png" alt=""></p>
 <p>As <a href="https://youtu.be/uYPbbksJxIg?t=93">Lieutenant General Leslie Richard Groves Jr</a> said,</p>
 <p><img src="/images/hunting-down-memory-leaks-in-golang-12.png" alt=""></p>

@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog</title>
-    <link>//localhost:1313/categories/</link>
+    <link>//localhost:58191/categories/</link>
     <description>Recent content in Categories on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:58191/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>//localhost:58191/categories/ai/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:58191/categories/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Community</title>
-      <link>//localhost:1313/categories/community/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/community/</guid>
+      <link>//localhost:58191/categories/community/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:58191/categories/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work</title>
+      <link>//localhost:58191/categories/work/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:58191/categories/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>//localhost:1313/categories/random/</link>
+      <link>//localhost:58191/categories/random/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/random/</guid>
+      <guid>//localhost:58191/categories/random/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>//localhost:1313/categories/tech/</link>
+      <link>//localhost:58191/categories/tech/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/tech/</guid>
+      <guid>//localhost:58191/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>//localhost:1313/categories/blog/</link>
+      <link>//localhost:58191/categories/blog/</link>
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0700</pubDate>
-      <guid>//localhost:1313/categories/blog/</guid>
+      <guid>//localhost:58191/categories/blog/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58191&amp;path=livereload" data-no-instant defer></script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
@@ -28,7 +28,7 @@
     <title>Create Your First Native GNOME App and Publish to Ubuntu Software - Part 3 | Blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <link rel="stylesheet" href="//localhost:58191/css/theme-override.css">
     <header>
 
   <nav>
@@ -36,7 +36,7 @@
       
       
       <li class="pull-left ">
-        <a href="//localhost:1313/">~/blog</a>
+        <a href="//localhost:58191/">~/blog</a>
       </li>
       
       
@@ -353,16 +353,16 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
 </span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
-</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span><span style="color:#a6e22e">__init__</span>(<span style="color:#f92672">**</span>kwargs)
 </span></span></code></pre></div><p>This is the class of your main window. To manipulate a GTK component, we need to call it by its identifier in the class, then manipulate it in the init function (if you want it to be triggered at start time). In this example, we will try to set two CSS classes to the component: <code>timer</code> and <code>timer-red</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
 </span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>) <span style="color:#75715e"># Register the component by identifier</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
-</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span><span style="color:#a6e22e">__init__</span>(<span style="color:#f92672">**</span>kwargs)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Timer<span style="color:#f92672">.</span>set_css_classes([<span style="color:#e6db74">&#39;timer&#39;</span>, <span style="color:#e6db74">&#39;timer-grey&#39;</span>]) <span style="color:#75715e"># Manipulate it</span>
 </span></span></code></pre></div><p>Then you will get the timer label colored in grey.</p>
@@ -393,8 +393,8 @@
 </span></span><span style="display:flex;"><span>    Prev3ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Prev3ScrambleNotation&#34;</span>)
 </span></span><span style="display:flex;"><span>    Menu <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Menu&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, <span style="color:#f92672">**</span>kwargs):
-</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__(<span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span><span style="color:#a6e22e">__init__</span>(<span style="color:#f92672">**</span>kwargs)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Manipulate focus</span>
 </span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>Menu<span style="color:#f92672">.</span>set_can_focus(<span style="color:#66d9ef">False</span>)

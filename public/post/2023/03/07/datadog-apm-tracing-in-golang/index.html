@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58191&amp;path=livereload" data-no-instant defer></script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
@@ -28,7 +28,7 @@
     <title>Datadog APM Tracing in Golang | Blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <link rel="stylesheet" href="//localhost:58191/css/theme-override.css">
     <header>
 
   <nav>
@@ -36,7 +36,7 @@
       
       
       <li class="pull-left ">
-        <a href="//localhost:1313/">~/blog</a>
+        <a href="//localhost:58191/">~/blog</a>
       </li>
       
       
@@ -114,14 +114,14 @@
 <h2 id="examples">Examples</h2>
 <p>First, get your DATADOG _API_KEY then run the agent,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d --cgroupns host <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              --pid host <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /var/run/docker.sock:/var/run/docker.sock:ro <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /proc/:/host/proc/:ro <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -p 127.0.0.1:8126:8126/tcp <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -e DD_API_KEY<span style="color:#f92672">=</span>&lt;DATADOG_API_KEY&gt; <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              -e DD_APM_ENABLED<span style="color:#f92672">=</span>true <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>              gcr.io/datadoghq/agent:latest
+</span></span></span><span style="display:flex;"><span>              --pid host <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -v /var/run/docker.sock:/var/run/docker.sock:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -v /proc/:/host/proc/:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -p 127.0.0.1:8126:8126/tcp <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -e DD_API_KEY<span style="color:#f92672">=</span>&lt;DATADOG_API_KEY&gt; <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              -e DD_APM_ENABLED<span style="color:#f92672">=</span>true <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>              gcr.io/datadoghq/agent:latest
 </span></span></code></pre></div><p>This is the basic example of <code>ddtrace</code> implementation for <code>go-chi</code>,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 </span></span><span style="display:flex;"><span>
@@ -138,10 +138,10 @@
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Start</span>() <span style="color:#75715e">// Start the tracer daemon
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">chi</span>.<span style="color:#a6e22e">NewRouter</span>()
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">ddchi</span>.<span style="color:#a6e22e">Middleware</span>()) <span style="color:#75715e">// Inject the tracer
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">middleware</span>.<span style="color:#a6e22e">Logger</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Start</span>() <span style="color:#75715e">// Start the tracer daemon</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">chi</span>.<span style="color:#a6e22e">NewRouter</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">ddchi</span>.<span style="color:#a6e22e">Middleware</span>()) <span style="color:#75715e">// Inject the tracer</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Use</span>(<span style="color:#a6e22e">middleware</span>.<span style="color:#a6e22e">Logger</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;/hello&#34;</span>, <span style="color:#a6e22e">welcome</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8000&#34;</span>, <span style="color:#a6e22e">r</span>)
 </span></span><span style="display:flex;"><span>}
@@ -239,8 +239,8 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">httpClient</span>.<span style="color:#a6e22e">Do</span>(<span style="color:#a6e22e">req</span>)
 </span></span></code></pre></div><p>Then the HTTP handler in serviceB,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">hello</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Extract from propagated context
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">spanCtx</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Extract</span>(<span style="color:#a6e22e">opentracing</span>.<span style="color:#a6e22e">HTTPHeadersCarrier</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Header</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Extract from propagated context</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">spanCtx</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tracer</span>.<span style="color:#a6e22e">Extract</span>(<span style="color:#a6e22e">opentracing</span>.<span style="color:#a6e22e">HTTPHeadersCarrier</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Header</span>))
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
 </span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
 </span></span><span style="display:flex;"><span>        }
