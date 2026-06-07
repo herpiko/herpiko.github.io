@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Komputer on Blog</title>
+    <link>//localhost:1313/tags/komputer/</link>
+    <description>Recent content in Komputer on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Sep 2011 01:53:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/komputer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Berkeley System Distribution (BSD)</title>
+      <link>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</link>
+      <pubDate>Wed, 31 Aug 2011 03:25:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</guid>
+      <description>&lt;p&gt;Ada banyak sekali tulisan-tulisan yang membahas tentang BSD, baik tulisan mengenai sejarah, system administrasi, sampai penggunaan BSD kepada end-user sebagai desktop. Tulisan ini memperkenalkan BSD sebagai alternatif lain dari Linux untuk memenuhi kebutuhan akan UNIX-like operating system di Indonesia. Dalam tulisan ini pula, dibahas mengenai beberapa hal yang membedakan antara Linux dan BSD, namun tidak memutuskan mana yang paling baik, karena untuk menentukan mana operating system yang paling baik digunakan adalah Anda sendiri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>file transfer over ssh</title>
+      <link>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</link>
+      <pubDate>Mon, 29 Aug 2011 03:20:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</guid>
+      <description>&lt;p&gt;namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.&lt;/p&gt;&#xA;&lt;p&gt;mentrasfer berkas dari komputer remot ke komputer lokal&lt;/p&gt;&#xA;&lt;p&gt;scp user@hostname:/path/ /path/&lt;/p&gt;&#xA;&lt;p&gt;user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara darurat booting via CD-ROM jadul</title>
+      <link>//localhost:1313/post/2011/07/31/cara-darurat-booting-via-cd-rom-jadul/</link>
+      <pubDate>Sun, 31 Jul 2011 20:18:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/31/cara-darurat-booting-via-cd-rom-jadul/</guid>
+      <description>&lt;p&gt;posisikan vertikal, kecepatan putaran akan bertambah.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Linux is Better | Mengapa Linux Lebih Baik</title>
+      <link>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</link>
+      <pubDate>Mon, 22 Mar 2010 22:05:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</guid>
+      <description>&lt;p&gt;disadur dari &lt;a href=&#34;http://www.whylinuxisbetter.net/index_id.php?lang=id&#34;&gt;http://www.whylinuxisbetter.net/index_id.php?lang=id&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;lupakan-tentang-virus&#34;&gt;Lupakan tentang virus.&lt;/h2&gt;&#xA;&lt;p&gt;Bila komputermu mati dengan sendirinya tanpa bertanya padamu, jika  sebuah jendela dengan teks yang tidak jelas dan segala jenis iklan  muncul tanpa kehendakmu, jika email terkirim ke seluruh kontak yang kamu  punyai tanpa sepengetahuanmu, maka kemungkinan besar komputermu sedang  terinfeksi virus. Alasan utamanya adalah karena sistem Windows berjalan  di komputermu.&lt;/p&gt;&#xA;&lt;p&gt;Linux hampir tidak memiliki virus. Dan itu bukan berarti &amp;ldquo;Yah,  sebenarnya sih tidak terlalu sering&amp;rdquo;, tetapi berarti &amp;ldquo;Jika kamu pernah  mendengar tentang virus Linux &lt;em&gt;betulan&lt;/em&gt;, beritahu saya&amp;rdquo;. Tentu  saja, bukan tidak mungkin Linux terserang virus. Hanya saja, Linux  membuatnya sangat sulit terjadi, karena beberapa alasan berikut:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ShipIt Ubuntu Intrepid Ibex : Nyampe Euy!</title>
+      <link>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</link>
+      <pubDate>Tue, 03 Feb 2009 06:13:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</guid>
+      <description>&lt;p&gt;Mungkin sudah termasuk telat menerima intrepid ibex karena jaunty bentar lagi kelar. Tapi saya tetap senang. Suatu hal yang sangat jarang saya terbangun dari tidur dalam keadaan gembira. Pagi itu saya terbangun karena hp yang bergetar. SMS dari kakak saya : ko, qta kaya raya, dpt kiriman dari belanda!. akh&amp;hellip;akh&amp;hellip; Dia kira itu hadiah apalah, dia kira kiriman hadiah uang atau emas batangan (emang otaknya cenderung kesitu). Tapi dalam sepersekian detik saya sudah sadar kalau itu kiriman dari Canonical. Saya pernah baca di sebuah milis, kalau shipit ubuntu itu dikirim dari Belanda. Dari situs resminya, katanya akan sampai rata-rata 6 minggu, tergantung daerah pengirimannya. Saya mengemis merequest di shipit tanggal 24 november 2008, dan sampai di saya tanggal 28 Januari 2009, itu hampir 2 bulan. Esoknya saya meluncur ke kantor pos untuk ambil barangnya. Di sana katanya bakal dimintai tanda pengenal apa saja dan uang lima ribu rupiah. Karena kartu pelajar saya hilang, semalam saya sibuk ngoprek pakek gimp di slax usb buat kartu pelajar palsu dan langsung diprint dengan laserjet. Jadi deh fotokopi pelajar palsu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Slax ke USB Flashdisk</title>
+      <link>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</link>
+      <pubDate>Tue, 27 Jan 2009 05:16:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</guid>
+      <description>&lt;p&gt;Install linux ke harddisk? Itu sih udah biasa. Bagaimana kalau ke USB Flashdisk? Kebanyakan orang sudah tahu tetapi tidak ada salahnya mencoba. Slax adalah distribusi linux turunan Slackware yang dikustomasi untuk live system. Dibanding distro lain, saya berani bertaruh menginstall slax ke USB paling mudah. O ya, hanya komputer yang mendukung booting USB yang bisa menjalankan slax di flashdisk kita. Ok, langsung saja.&lt;/p&gt;&#xA;&lt;p&gt;Yang diperlukan :&lt;/p&gt;&#xA;&lt;p&gt;a. Flashdisk minimal 256 MB, file-file slax keseluruhan sebesar 200 MB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alasan Mengapa Kita Musti Hijrah dari Windows ke Linux</title>
+      <link>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</link>
+      <pubDate>Sat, 03 Jan 2009 14:28:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</guid>
+      <description>&lt;p&gt;Kok Linux doang yang ditulis?&lt;/p&gt;&#xA;&lt;p&gt;Wekwekwek&amp;hellip;.Saya cuma ingin menyadarkan lebih banyak orang mengenai DOSA kita di sektor IT (dunia komputer maksudnya, mengutip istilah riyogarta). Kalau anda sekuler (mudahan tidak), mungkin anda pikir, &amp;lsquo;dosa di sektor IT&amp;rsquo; itu tidak valid. Mungkin berlebihan saya menyebutnya dosa. Namun, MENGINGAT sebagian besar masyarakat kita (Indonesia) menggunakan Windows bajakan atau tidak asli, saya rasa saya boleh menyebutnya dosa. Bukankah berdosa kalau kita membajak seperti itu? Membajak karya hak cipta adalah pelanggaran hukum dan anda bisa ditahan bertahun-tahun karenanya. Di sekitar lingkungan saya, tidak pernah saya temukan komputer yang terinstall Windows asli KECUALI perusahaan-perusahaan (seperti warnet kelas atas dan perusahaan IT, banyak lagi) dan komputer-komputer desktop dan laptotp yang built-up (biasanya otomatis sudah terinstall Windows asli). Komputer desktop dan laptop itu, sudah saya pastikan, bila rusak softwarenya entah terserang virus atau kenapa, pasti yang diinstall adalah Windows BAJAKAN alias tidak asli. Komputer-komputer rakitan, saya jamin juga, pasti terinstall Windows bajakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BlankOn 4 Meuligoe : Linux Untuk dan Oleh Anak Negeri</title>
+      <link>//localhost:1313/post/2008/12/23/blankon-4-meuligoe-linux-untuk-dan-oleh-anak-negeri/</link>
+      <pubDate>Tue, 23 Dec 2008 14:55:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/blankon-4-meuligoe-linux-untuk-dan-oleh-anak-negeri/</guid>
+      <description>&lt;p&gt;Pertama kali mendengar &amp;lsquo;pengembangan blankon&amp;rsquo; di wikipedia, saya agak heran. Saya pikir itu blangkon beneran, blangkon kok pake dikembang-kembangin. Ternyata BlankOn itu sebuah distro Linux yang dikembangkan oleh orang Indonesia, yaitu YPLI, dan pemerintah. Saya kira BlankOn tidak terlalu bagus, karena buatan anak negeri jadi kurang maju. Tapi seiring pemahaman saya mengenai Linux, ternyata bagusnya sebuah distro itu bukanlah dari penyusun distro itu sendiri, tapi dari paket-paket yang diinstall ke dalamnya. Saya bisa mengubah sebuah distro yang tidak terlalu besar macam BlankOn menjadi lebih baik dan lebih menyenangkan dari pada distro besar paling user friendly seperti Mandriva hanya dengan DVD Repository atau koneksi Internet ke server repository.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Makanya pake LINUX!</title>
+      <link>//localhost:1313/post/2008/12/23/makanya-pake-linux/</link>
+      <pubDate>Tue, 23 Dec 2008 14:48:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/makanya-pake-linux/</guid>
+      <description>&lt;p&gt;Pertama kali saya mengenal Linux adalah saat saya masih kelas 2 SMP. Waktu itu saya baru belajar chatting pakai YM. Di sebuah chatting room saya nyeletuk &amp;lsquo;komputku virusan trus&amp;hellip;&amp;rsquo;, seseorang membalas dengan huruf besar-besar ditambah smile icon &amp;lsquo;MAKANYA PAKE LINUX!&amp;rsquo;. Saya mengira Linux itu sebuah antivirus dan langsung googling untuk download Linux. Ternyata antivirus Linux itu file nya besar sekali, rata-rata seukuran 1 CD dan punya banyak nama. Pastilah antivirus hebat, pikir saya dan saya tidak tertarik lagi karena harddisk saya waktu itu hanya 6GB dan space tersisa tinggal 300MB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UN stress syndrome</title>
+      <link>//localhost:1313/post/2008/11/27/un-stress-syndrome/</link>
+      <pubDate>Thu, 27 Nov 2008 06:08:32 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/27/un-stress-syndrome/</guid>
+      <description>&lt;p&gt;Pagi ini saya benar-benar lesu. tugas-tugas sekolah yang menumpuk. Bayang-bayang ulangan semester. Catatan yang nggak lengkap. Lemes. Maunya main komputer terus. Mati. Mati.&lt;/p&gt;&#xA;&lt;p&gt;Benar-benar berat. Benar-benar berat rasanya bila harus mengurangi kegiatan di depan komputer. Tapi saya harus berbenah karena hasil Ujian Nasional menyangkut masa depan. Sudahlah. Komputer saya seperti permen saja, maunya diemut-emut terus. Mau dikata kerjain tugas pake komputer, eh, malah buka yang lain-lain. Susah benar. Mau dibuang tuh komputer, nggak tegaan. Mau dititip ke org lain, ntar kangenan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Komunikasi antar User dengan GNU/Linux</title>
+      <link>//localhost:1313/post/2008/11/26/komunikasi-antar-user-dengan-gnu/linux/</link>
+      <pubDate>Wed, 26 Nov 2008 09:10:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/26/komunikasi-antar-user-dengan-gnu/linux/</guid>
+      <description>&lt;p&gt;note : Mungkin ada beberapa perintah yang tidak dikenal sistem anda, tergantung distronya. Di tutorial ini digunakan damnsmalllinux, freeBSD, dan Knoppix 3.6.&#xA;Sorry buat yang udah expert kalau tulisan ini sudah basi. Ditujukan untuk newbie yang punya ketertarikan pada linux seperti snivelus.&#xA;Tidak seperti windows yang ditelurkan om bilgate dari redmon, sistem operasi linux selalu hadir dengan kelengkapan, bahkan saat linux masih dalam mode text/prompt, di dalamnya sudah ada program-program hebat yang tidak pernah terpikirkan oleh microsoft. Apa hebatnya DOS? DOS hampir tidak terlalu berguna bila belum ditambahkan program. Hal ini masih diikuti sang adik, serial windows, yang hadir hampir telanjang (maksudnya tidak ada program-program sering kita butuhkan). Program Officer seperti Ms. Office dijual terpisah, jadiah microsoft terkesan pelit. Beda dengan linux yang terbagi-bagi dalam banyak distro. Dalam satu distro, kamu bisa dapatkan banyak program luar biasa yang dikembangkan komunitas.&#xA;Dan dalam distro itu, ada program-program komunikasi yang tidak terpikirkan ada di windows. Sebagaimana dikenal luas, linux adalah operasi sistem multiuser. Bisakah windows menjalankan muliuser? Switch user mungkin jawabannya tapi itu tidak terlalu banyak berguna soalnya kita harus pura-pura logout supaya bisa login di user lain.&#xA;Ini contoh dalam damnsmalllinux, distro super mini. Dalam satu sesi desktop, snivelus login sebagai dua user, yaitu dsl (default user) dan root (super user). Pada jendela di belakang, tanda $ berarti kamu login sebagai user yang tergolong user biasa, limited user. Dalam hal ini, nama usernya dsl.&#xA;Lalu snivel buka prompt/terminal baru (jendela di depan), di awal baris masih berstatus $, limited user. Jalankan perintah ‘su’ (tanpa tanda petik) diikuti nama user untuk login ke user lain. Karena mau login sebagai root, ditulis su root atau cukup su . Masukan password ketika diminta. Apa yang kamu ketik di form password tidak akan terlihat jadi hati-hati (hal-hal kecil berbau keamanan seperti ini diperhatikan oleh varian unix, kalo windows?). Tekan enter dan snivelus bisa bekerja sebagai root dengan tanda #, misalnya melakukan echo seperti ini.&#xA;&lt;a href=&#34;http://pikopages.files.wordpress.com/2008/11/1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

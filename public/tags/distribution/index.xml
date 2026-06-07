@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distribution on Blog</title>
+    <link>//localhost:1313/tags/distribution/</link>
+    <description>Recent content in Distribution on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2011 04:32:11 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/distribution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNU/Linux Distribution Timeline</title>
+      <link>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</link>
+      <pubDate>Thu, 01 Dec 2011 04:32:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&#34;&gt;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

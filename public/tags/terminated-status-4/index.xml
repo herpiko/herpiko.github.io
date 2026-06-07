@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminated Status 4 on Blog</title>
+    <link>//localhost:1313/tags/terminated-status-4/</link>
+    <description>Recent content in Terminated Status 4 on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jan 2011 17:31:40 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/terminated-status-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>terminated status 4</title>
+      <link>//localhost:1313/post/2011/01/30/terminated-status-4/</link>
+      <pubDate>Sun, 30 Jan 2011 17:31:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/30/terminated-status-4/</guid>
+      <description>&lt;p&gt;oke, solusinya adalah menjalankan fsck. hasil mencari sana sini, jawabannya sederhana, fsck, itu saja. nah, kalau masalahnya tetap tidak terselesaikan?&lt;/p&gt;&#xA;&lt;p&gt;ternyata ada hal lain. bios-nya tereset dan otomatis pengaturan waktunya kembali ke jaman jadul, jadi sistem operasi kebingungan karena mengenali tanggal terakhir penulisan ke partisi, adalah tanggal di masa depan.&lt;/p&gt;&#xA;&lt;p&gt;yak, atur waktu di bios dan kembali jalankan fsck. done! :D&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

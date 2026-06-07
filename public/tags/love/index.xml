@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Love on Blog</title><link>/tags/love/</link><description>Recent content in Love on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 Jan 2010 10:30:31 +0000</lastBuildDate><atom:link href="/tags/love/index.xml" rel="self" type="application/rss+xml"/><item><title>l.o.v.e</title><link>/post/2010/01/02/l.o.v.e/</link><pubDate>Sat, 02 Jan 2010 10:30:31 +0000</pubDate><guid>/post/2010/01/02/l.o.v.e/</guid><description>&lt;p&gt;$ cd lovetarget&lt;/p&gt;
+&lt;p&gt;$ ls&lt;/p&gt;
+&lt;p&gt;othergirl&lt;/p&gt;
+&lt;p&gt;$ ls -a&lt;/p&gt;
+&lt;p&gt;.you othergirl&lt;/p&gt;
+&lt;p&gt;$ sudo vi ./my_heart&lt;/p&gt;
+&lt;p&gt;[sudo] password :&lt;/p&gt;
+&lt;p&gt;CENSORED &lt;coding the script&gt;&lt;complete&gt;&lt;saving&gt;&lt;leave vi&gt;&lt;/p&gt;
+&lt;p&gt;$ chmod +x my_heart&lt;/p&gt;
+&lt;p&gt;$ sudo chown -R .you ./my_heart&lt;/p&gt;
+&lt;p&gt;[sudo] password :&lt;/p&gt;
+&lt;p&gt;please wait&amp;hellip;&lt;/p&gt;
+&lt;p&gt;an error occured : failed to touch .you.&lt;/p&gt;
+&lt;p&gt;$ sudo chown -R .you ./my_heart&lt;/p&gt;
+&lt;p&gt;please wait&amp;hellip;&lt;/p&gt;
+&lt;p&gt;an error occured : failed to touch .you.&lt;/p&gt;
+&lt;p&gt;$ sudo chown -R .you ./my_heart&lt;/p&gt;
+&lt;p&gt;please wait&amp;hellip;&lt;/p&gt;
+&lt;p&gt;an error occured : failed to touch .you.&lt;/p&gt;</description></item></channel></rss>

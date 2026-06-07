@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Closed on Blog</title>
+    <link>//localhost:1313/tags/closed/</link>
+    <description>Recent content in Closed on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2011 10:25:15 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/closed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shipit has closed</title>
+      <link>//localhost:1313/post/2011/04/14/shipit-has-closed/</link>
+      <pubDate>Thu, 14 Apr 2011 10:25:15 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/14/shipit-has-closed/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/04/shipit.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/shipit.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ah telat. pantes sepuluh sepuluh kemarin tidak dateng2. makasih shipit. :)&lt;/p&gt;&#xA;&lt;p&gt;*diposting sebagai pengingat agar ndak mikir lagi buat ngemis di shipit&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

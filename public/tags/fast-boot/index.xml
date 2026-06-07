@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fast Boot on Blog</title>
+    <link>//localhost:1313/tags/fast-boot/</link>
+    <description>Recent content in Fast Boot on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Feb 2011 00:16:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/fast-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>instant-on linux di netbook hp</title>
+      <link>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</link>
+      <pubDate>Sat, 19 Feb 2011 00:16:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</guid>
+      <description>&lt;p&gt;oya, alkisah saya nemuin netbuk hape (baca hp:hewlet-packard) yang begitu dinyalakan langsung muncul interface yang bisa digunakan untuk browsing, multimedia dan lainnya. langsung muncul bok! gak ada proses booting! keren benar. kalau mau booting OS yang ada di hardis, tinggal klik di pojok kiri bawah.&lt;/p&gt;&#xA;&lt;p&gt;lumayan lengkap untuk kebutuhan akses cepat.&lt;/p&gt;&#xA;&lt;p&gt;nah, sistem operasi macam apa yang nyelonong paksa sebelum booting hardis ini? saya kira varian unix/linux karena :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ikonnya itu loh, rada familiar&lt;/li&gt;&#xA;&lt;li&gt;path dengan slash, bukan backslash, saat saya masukin UFD, bahkan ada tempat mountingnya, yaitu /media/UFD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;nah, hayo, apa lagi itu kalau bukan itu?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

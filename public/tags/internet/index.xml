@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Blog</title>
+    <link>//localhost:1313/tags/internet/</link>
+    <description>Recent content in Internet on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2011 23:00:16 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara bodoh koneksi wifi TP-LINK WN322G di Mac OS X Snow Leopard</title>
+      <link>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</link>
+      <pubDate>Thu, 11 Aug 2011 23:00:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</guid>
+      <description>&lt;p&gt;Saya punya mesin Mac dan sebuah adapter USB wireless TP-LINK WN322G (Atheros ath9k). Adapter wireless ini tidak terdeteksi di Mac. Kext-nya dicari-cari ke ujung dunia tidak ketemu. Nah. Jadi saya punya beberapa opsi yaitu sebagai berikut:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Menggunakan komputer atau laptop lain yang punya wifi dan bekerja baik di sistem operasinya, kemudian membagi akses internetnya (Internet Connection Sharing, di Windows atau Linux ini bekerja dengan baik) ke mesin Mac via LAN.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wireless Networking in the Developing World</title>
+      <link>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</link>
+      <pubDate>Mon, 18 Jul 2011 22:08:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://wndw.net/&#34;&gt;http://wndw.net/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>baladawajanbolik</title>
+      <link>//localhost:1313/post/2011/05/10/baladawajanbolik/</link>
+      <pubDate>Tue, 10 May 2011 14:19:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/10/baladawajanbolik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/05/untitled.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/untitled.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>internet sehat dengan DNS Nawala</title>
+      <link>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</link>
+      <pubDate>Wed, 11 Aug 2010 18:13:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya makin heran sama anak-anak kecil sekarang. setelah kemarin sempat &lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/uang.jpg&#34;&gt;dikerjain dengan uang palsu&lt;/a&gt; (uang mainan sialan, untung cuma 2000 rupiah), sekarang mereka malah rajin buka situs porno di warnet, padahal sudah bulan puasa. tulisan ini diposting sesaat setelah saya menegur dua anak-anak masih SD karena membuka konten porno. saya suruh pulang saja sekalian. sekali-kali jadi operator yang galak. hehe.&lt;/p&gt;&#xA;&lt;p&gt;jadi bagaimana? &lt;a href=&#34;http://nawala.org&#34;&gt;pakai DNS nawala!&lt;/a&gt; *halah, saya juga baru tauk. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;Nawala Nusantara adalah sebuah layanan yang bebas digunakan oleh   pengguna internet yang  membutuhkan saringan situs negatif. Nawala   Nusantara akan  membantu menapis jenis situs-situs negatif yang tidak   sesuai dengan peraturan  perundangan, nilai dan norma sosial, adat   istiadat dan kesusilaan bangsa  Indonesia seperti pornografi dan   perjudian. Selain itu, Nawala Nusantara juga akan menapis situs Internet   yang mengandung konten berbahaya  seperti malware, situs phising   (penyesatan) dan sejenisnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>yuhuuuuuuuuuuu!</title>
+      <link>//localhost:1313/post/2010/05/12/yuhuuuuuuuuuuu/</link>
+      <pubDate>Wed, 12 May 2010 19:36:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/12/yuhuuuuuuuuuuu/</guid>
+      <description>&lt;p&gt;modem nambah. capek ngoprek jaringan (windos sih :( ), crimping kabel UTP, bolak-balik, ping-ping, konfig-konfig, instlall-install, capek. tapi modem nambah satu, wireless pula, itu artinya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;:D :D :D&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1066&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;yuhuuuuuuuuuuuu&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/05/dsc01426.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc01426.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lagi... Ngenet Gretongan di Halaman Rumah</title>
+      <link>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</link>
+      <pubDate>Wed, 15 Apr 2009 05:22:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</guid>
+      <description>&lt;p&gt;Siapa sangka di halaman rumah sendiri ada access point yang tidak diproteksi? Saya tidak perlu lagi capek-capek ke XXX (yang saya ceritakan sebelumya). Hanya saja ap yang satu ini hanya aktif pada pukul 12 sampae 17.30. si frxs jadi sering-sering numpang di sini buat maling benwit dari pada dia pigi ke XXX yang rada jauh. Saya tidak bisa bercerita banyak, ntar ditau sama yang poenya.&lt;/p&gt;&#xA;&lt;p&gt;Ini skrinsut si frxs lagi maling benwit, diambil diam2 dari cctv di dalam celana.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

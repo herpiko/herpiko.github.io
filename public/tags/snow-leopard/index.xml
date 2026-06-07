@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snow Leopard on Blog</title>
+    <link>//localhost:1313/tags/snow-leopard/</link>
+    <description>Recent content in Snow Leopard on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Dec 2010 21:32:28 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>osx86 di emachines D720 (intel GMAX4500)</title>
+      <link>//localhost:1313/post/2010/12/23/osx86-di-emachines-d720-intel-gmax4500/</link>
+      <pubDate>Thu, 23 Dec 2010 21:32:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/23/osx86-di-emachines-d720-intel-gmax4500/</guid>
+      <description>&lt;p&gt;sukses lagi. gunakan snow leopard hazard. booting dvd dengan option -v cpus=1&lt;/p&gt;&#xA;&lt;p&gt;saat custom install pilih legacy kernel dan chameleon (bootloadernya salah satu). setelah selesai installasi akan ada kernel panic.&lt;/p&gt;&#xA;&lt;p&gt;solusi : hapus semua kext yang tidak diperlukan.&lt;/p&gt;&#xA;&lt;p&gt;booting macosx dengan option -s (single user)&lt;/p&gt;&#xA;&lt;p&gt;mount -uw /&lt;/p&gt;&#xA;&lt;p&gt;mv &lt;em&gt;GMAX3100&lt;/em&gt; ..&lt;/p&gt;&#xA;&lt;p&gt;kenapa mv bukan rm? agar nanti kelak bisa dipakai lagi, bekap gitu.&lt;/p&gt;&#xA;&lt;p&gt;asumsi sudah masuk desktop macosx, . unduh chameleon khusus : &lt;a href=&#34;http://www.multiupload.com/DQ49G457JL&#34;&gt;http://www.multiupload.com/DQ49G457JL&lt;/a&gt; , lalu pasang.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

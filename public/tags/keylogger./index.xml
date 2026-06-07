@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keylogger. on Blog</title>
+    <link>//localhost:1313/tags/keylogger./</link>
+    <description>Recent content in Keylogger. on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Nov 2010 19:34:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/keylogger./index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>yang saya lakukan jika bertemu keylogger di warnet</title>
+      <link>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</link>
+      <pubDate>Sat, 27 Nov 2010 19:34:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</guid>
+      <description>&lt;p&gt;terlambat dan saya panik karena sudah login dengan gmail. sampai keringat saya bercucuran dan jengkel sekali sambil sesekali melirik ke meja operator. keji benar. :(&lt;/p&gt;&#xA;&lt;p&gt;nah, apa yang saya lakukan?&lt;/p&gt;&#xA;&lt;p&gt;komputer tidak dideepfreeze maupun shadow. jelas, saya merusak windowsnya. saya menghapus ntldr, semua file di bawah system32 selain folder yang mungkin terhapus. membuat file .bat shutdown -r -t 00 dan memasang di startup all user via registry. mudahan saja diinstall ulang, amin. terakhir, mereset kasar PC-nya kemudian membayar billing dan tidak pernah muncul lagi di warnet itu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

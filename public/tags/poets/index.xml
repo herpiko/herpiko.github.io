@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poets on Blog</title>
+    <link>//localhost:1313/tags/poets/</link>
+    <description>Recent content in Poets on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Jan 2010 14:43:07 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/poets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>di sini</title>
+      <link>//localhost:1313/post/2010/01/09/di-sini/</link>
+      <pubDate>Sat, 09 Jan 2010 14:43:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/09/di-sini/</guid>
+      <description>&lt;p&gt;jangan, katamu?&lt;/p&gt;&#xA;&lt;p&gt;ini kertasku, bukan kertasmu&lt;/p&gt;&#xA;&lt;p&gt;ingat?&lt;/p&gt;&#xA;&lt;p&gt;pada temaram malam&lt;/p&gt;&#xA;&lt;p&gt;di sudut jalan ini aku berdiri&lt;/p&gt;&#xA;&lt;p&gt;bergumam menggenggam asa sisa kemarin&lt;/p&gt;&#xA;&lt;p&gt;menunggu rintik terakhir jatuh, awan mengabut&lt;/p&gt;&#xA;&lt;p&gt;jarang memang&lt;/p&gt;&#xA;&lt;p&gt;namun aku tetap ingat satu dua&lt;/p&gt;&#xA;&lt;p&gt;di sudut jalan ini aku bertahan&lt;/p&gt;&#xA;&lt;p&gt;di bawah lampu masa lalu yang menginjak setiap de javu&lt;/p&gt;&#xA;&lt;p&gt;toh aku melawan&lt;/p&gt;&#xA;&lt;p&gt;karena semua tak akan benar-benar terulang&lt;/p&gt;&#xA;&lt;p&gt;dan masih ada kertas kosong untuk dipena&lt;/p&gt;&#xA;&lt;p&gt;masih ada hujan yang selalu kembali&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

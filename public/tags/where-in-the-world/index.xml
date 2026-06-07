@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Where in the World on Blog</title>
+    <link>//localhost:1313/tags/where-in-the-world/</link>
+    <description>Recent content in Where in the World on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2010 02:23:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/where-in-the-world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>where in the world?</title>
+      <link>//localhost:1313/post/2010/12/15/where-in-the-world/</link>
+      <pubDate>Wed, 15 Dec 2010 02:23:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/15/where-in-the-world/</guid>
+      <description>&lt;p&gt;nah, ini game dari picassa. coba kalau punya akun gmail, login ke picassa terus masuk ke tab explore.&lt;/p&gt;&#xA;&lt;p&gt;atau klik ini &lt;a href=&#34;http://picasaweb.google.com/lh/explore#whereintheworld&#34;&gt;http://picasaweb.google.com/lh/explore#whereintheworld&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;di game ini, kita akan diperlihatkan sebuah foto dan kita menebak dimana foto itu diambil. keren kan? ada banyak cara untuk mengenalinya, misalnya dari arsitektur bangunan, tulisan teks yang ada di toko, wajahnya, dan lainnya. misalnya, ada sebuah tembok dengan tulisan blablabla verkenkt. eh, tinggal googling dan akhirnya kita tahu itu bahasa jerman yang artinya concealed. wah, pokoknya menyenangkan buat mengusir rasa bosan. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

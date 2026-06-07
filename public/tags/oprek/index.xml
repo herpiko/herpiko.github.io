@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oprek on Blog</title>
+    <link>//localhost:1313/tags/oprek/</link>
+    <description>Recent content in Oprek on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2012 01:45:19 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/oprek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>diafragma lensa macet</title>
+      <link>//localhost:1313/post/2012/01/12/diafragma-lensa-macet/</link>
+      <pubDate>Thu, 12 Jan 2012 01:45:19 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/12/diafragma-lensa-macet/</guid>
+      <description>&lt;p&gt;yah, saya baru dapat lensa fix nikkor 55mm dengan bukaan terbesar 2.8, jadul dan manual fokus. saat saya terima, kondisinya sangat buruk, kotor, jamuran, dan yang paling parah, diafragmanya macet di bukaan paling besar, yaitu 2.8.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2012/01/dsc_0030.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0030.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;awalnya saya tidak begitu peduli karena baru pertama kalinya pegang lensa bukaan besar. lensa dengan bukaan besar punya dof yang sempit dan bokeh lebih keras. tapi lama-lama jadi jengkel juga, bukaan 2.8 sangat sulit dapat fokus, mana manual pula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>oprek modem DT8 di ubuntu lucid</title>
+      <link>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</link>
+      <pubDate>Tue, 02 Nov 2010 23:59:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</guid>
+      <description>&lt;p&gt;alkisah, seorang teman dari seorang teman bernama mas isat datang bawa netbook acerone dan bilang modem GSM 3G (advan dt8 telkomsel flash) ndak mau konek, bahkan tidak terdeteksi di ubuntu lucidnya. mas isat ini teman dari mas ook (mas ook itu siapa ya? o yang itu).&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, dari sore sampai malam saya gagal oprekin. dengan merasa kalah dan malu berat,  saya bilang, agar modemnya saya bawa pulang karena masih penasaran kenapa ndak bisa dan supaya besok datang lagi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

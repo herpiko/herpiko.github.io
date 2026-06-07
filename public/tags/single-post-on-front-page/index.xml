@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Single Post on Front Page on Blog</title>
+    <link>//localhost:1313/tags/single-post-on-front-page/</link>
+    <description>Recent content in Single Post on Front Page on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jan 2011 17:46:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/single-post-on-front-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wp : single frontpage</title>
+      <link>//localhost:1313/post/2011/01/06/wp-single-frontpage/</link>
+      <pubDate>Thu, 06 Jan 2011 17:46:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/06/wp-single-frontpage/</guid>
+      <description>&lt;p&gt;ini buat wotpres yang dihosting di luar ye (org). setelah googling, sebagian besar ngasih cara yang sama, yaitu :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;buat sebuah page dengan judul home (atau semacam itu) dan diisi dengan tulisan untuk halaman depan.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;buat sebuah page lagi, dengan judul apasajalah, dan isinya kosong.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;di sini https://blablabla/wp-admin/options-reading.php, pilih static, frontpage : halaman home, post page : halaman kosong tadi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;nah, kendalanya untuk tema yang punya menu bar yang berbasis halaman, halaman2 itu akan muncul juga dan sangat mengganggu. gimana dong?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

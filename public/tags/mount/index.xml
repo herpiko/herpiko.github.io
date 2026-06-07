@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mount on Blog</title>
+    <link>//localhost:1313/tags/mount/</link>
+    <description>Recent content in Mount on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jun 2011 19:45:05 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mount/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mengatasi gagal mount di desktop slackware (setelah debian, lagi-lagi)</title>
+      <link>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</link>
+      <pubDate>Sun, 12 Jun 2011 19:45:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</guid>
+      <description>&lt;p&gt;ah, serasa debian dan slackware sama saja, setelah fresh install tidak bisa mount otomatis dari user biasa (masalah di debian kemarin karena ada entry salah di /etc/fstab).&lt;/p&gt;&#xA;&lt;p&gt;saya menggunakan slackware 13.37 dan desktop KDE. pada saat mencolokan removable storage, partisi gagal dimount dan di notifikasi ada pesan error yang saya lupa apa lengkapnya, berkaitan dengan HAL.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya menemukan solusinya di forum arch linux dan bekerja untuk slackware. yang perlu dilakukan adalah mengedit file /etc/dbus-1/system.d/hal.conf, tambahkan user kita di kelompok haldaemon&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>booting mac via grub dan mount rw partisi hfs</title>
+      <link>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</link>
+      <pubDate>Sun, 27 Mar 2011 01:06:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</guid>
+      <description>&lt;p&gt;btw, grub debian juga bisa ngedetek mac sepertihalnya ubuntu, dan bobroknya juga sama = mac-nya tetep ndak bisa dibooting. *ngapain detek kalau ndak bisa dibooting?&lt;/p&gt;&#xA;&lt;p&gt;di grub.cfg, baris entry mac yang panjang itu tinggal diganti :&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;menuentry &amp;ldquo;macosx&amp;rdquo; {&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;insmod hfsplus&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;set root=(hd0,X)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;multiboot /boot&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;}&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;X = lokasi partisi mac&lt;/p&gt;&#xA;&lt;p&gt;untuk mount rw partisi mac, hfsnya harus non journal. kalau sudah terlanjur ya di-disable. install paket hfsprogs, hfsutils, dan hfsplus. tinggal jalankan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>menambah loop device di debian</title>
+      <link>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</link>
+      <pubDate>Thu, 09 Dec 2010 22:36:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</guid>
+      <description>&lt;p&gt;on progress, migrasi ke debian. jadi saya mengunduh 30 keping CD (baru selesai setengahnya). tapi saat mencoba mount semua file iso tersebut (akan dijadikan sebagai repositori), hanya 8 file yang bisa di-mount. ternyata karena loop device-nya dibatasi segitu. nah?&lt;/p&gt;&#xA;&lt;p&gt;cari file /etc/modules dan tambahkan&lt;/p&gt;&#xA;&lt;p&gt;loop max_loop=64&lt;/p&gt;&#xA;&lt;p&gt;reboot. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

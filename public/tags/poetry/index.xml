@@ -1,9 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Poetry on Blog</title><link>/tags/poetry/</link><description>Recent content in Poetry on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 02 Mar 2018 00:01:00 +0000</lastBuildDate><atom:link href="/tags/poetry/index.xml" rel="self" type="application/rss+xml"/><item><title>Statis</title><link>/post/2018/03/02/statis/</link><pubDate>Fri, 02 Mar 2018 00:01:00 +0000</pubDate><guid>/post/2018/03/02/statis/</guid><description>&lt;p&gt;Aku hanya tak ingin kau lupa, sayang&lt;br&gt;
-Tentang debur ombak yang tenang&lt;br&gt;
-Bisik-bisik&lt;br&gt;
-Terik&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Aku hanya tak ingin kau pergi, sayang&lt;br&gt;
-Dari gandengan yang mengambang&lt;br&gt;
-Berlapis-lapis&lt;br&gt;
-Romantis&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Aku ingin kita, selirik, statis&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poetry on Blog</title>
+    <link>//localhost:1313/tags/poetry/</link>
+    <description>Recent content in Poetry on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Mar 2018 00:01:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statis</title>
+      <link>//localhost:1313/post/2018/03/02/statis/</link>
+      <pubDate>Fri, 02 Mar 2018 00:01:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2018/03/02/statis/</guid>
+      <description>&lt;p&gt;Aku hanya tak ingin kau lupa, sayang&lt;/p&gt;&#xA;&lt;p&gt;Tentang debur ombak yang tenang&lt;/p&gt;&#xA;&lt;p&gt;Bisik-bisik&lt;/p&gt;&#xA;&lt;p&gt;Terik&lt;/p&gt;&#xA;&lt;p&gt;Aku hanya tak ingin kau pergi, sayang&lt;/p&gt;&#xA;&lt;p&gt;Dari gandengan yang mengambang&lt;/p&gt;&#xA;&lt;p&gt;Berlapis-lapis&lt;/p&gt;&#xA;&lt;p&gt;Romantis&lt;/p&gt;&#xA;&lt;p&gt;Aku ingin kita, selirik, statis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mari, kawanku yang baik</title>
+      <link>//localhost:1313/post/2010/02/03/mari-kawanku-yang-baik/</link>
+      <pubDate>Wed, 03 Feb 2010 01:01:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/03/mari-kawanku-yang-baik/</guid>
+      <description>&lt;p&gt;tentang kehampaan hidup&#xA;dan rute yang salah&#xA;aku tidak ingkar&lt;/p&gt;&#xA;&lt;p&gt;kau pernah lihat ini&#xA;angin malam adalah saksi&#xA;jadi kita sepakat saja&#xA;telunjuk di depan bibir kita&#xA;biarlah menjelma teka-teki&#xA;dan lupakan bersama waktu&#xA;dua&#xA;atau tiga kali&#xA;tak akan terulang kembali&#xA;aku janji&lt;/p&gt;&#xA;&lt;p&gt;mari kita berdiri di sana&#xA;angkatlah tiraimu topengmu&#xA;ayo kita berlari kencang&#xA;dan tertawa lagi&#xA;tak apa terjatuh&#xA;akan kubantu bangkit&#xA;dua&#xA;atau tiga kali&#xA;tak akan terulang kembali&#xA;aku sumpah&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

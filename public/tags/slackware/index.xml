@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slackware on Blog</title>
+    <link>//localhost:1313/tags/slackware/</link>
+    <description>Recent content in Slackware on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2012 23:12:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Downgrade Slackware Current</title>
+      <link>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</link>
+      <pubDate>Mon, 07 May 2012 23:12:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</guid>
+      <description>&lt;p&gt;Konsekuensi menggunakan Slackware Current adalah paket bleeding edge dan belum tentu stabil. Seperti yang terjadi hari ini, setelah menjalankan slackpkg upgrade-all, (kalau tidak salah ingat beberapa paket berkaitan dengan X) keyboard dan mouse tidak berfungsi sama sekali. Saya tentunya punya waktu cari solusinya, tapi kalau butuh solusi cepat karena komputer mau dipakai buat kerja?&lt;/p&gt;&#xA;&lt;p&gt;Balik ke topik. Slackware bisa didowngrade bila kita punya repository lokal lengkap sebelumnya. Saya selalu pakai &lt;a href=&#34;http://www.slackware.com/~alien/tools/mirror-slackware-current.sh&#34;&gt;skrip dari Eric&lt;/a&gt; ketimbang langsung pakai slackpkg (yah, hari ini lupa, langsung slackpkg) dengan tujuan repositori tersebut bisa saya gunakan untuk PC di rumah yang notabene tidak punya akses internet. Beruntunglah karena siklus ini. Tinggal arahkan mirror slackpkg ke repository lokal. Slackpkg akan memberitahu bahwa repositori yang akan digunakan sekarang lebih lawas dari pada yang sebelumnya, tekan Y karena kita memang menggunakan repository yang lebih lawas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error Alsactl</title>
+      <link>//localhost:1313/post/2012/04/15/error-alsactl/</link>
+      <pubDate>Sun, 15 Apr 2012 21:00:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/error-alsactl/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #1 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #2 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #25 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #26 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;selalu muncul beberapa baris sebelum login. solusi di wiki Archlinux bekerja untuk Slackware&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EXT3-fs: sdaX couldn&#39;&#39;t mount because of unsupported optional features (240)</title>
+      <link>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</link>
+      <pubDate>Sun, 15 Apr 2012 16:55:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</guid>
+      <description>&lt;p&gt;Pesan galat ini muncul di awal booting, tetapi bisa diabaikan dan masih bisa masuk sistem. Tapi tidak enak juga melihat pesan galat seperti itu setiap booting. Saya temukan solusinya di sini : &lt;a href=&#34;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&#34;&gt;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hal ini terjadi karena kernel mendahulukan ext2 dan ext3 sebelum ext4. Tambahkan rootfstype=ext4 di baris append di /etc/lilo.conf&lt;/p&gt;&#xA;&lt;p&gt;[code]append=&amp;ldquo;quiet vt.default_utf8=0 rootfstype=ext4&amp;rdquo;[/code]&lt;/p&gt;&#xA;&lt;p&gt;Kemudian tulis konfigurasi lilo ke MBR.&lt;/p&gt;&#xA;&lt;p&gt;[code]sudo lilo[/code]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LXmed : Menu Editor untuk XFCE di Slackware 13.37</title>
+      <link>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</link>
+      <pubDate>Sat, 07 Apr 2012 01:39:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</guid>
+      <description>&lt;p&gt;Saat masih pakai arch, saya menggunakan openbox dan nyaman dengan obmenuconfig. Bagaimana dengan XFCE di slackware (64 multilib)? Yep, LXmed adalah piranti lunak untuk menyunting menu pada LXDE, sebuah desktop manager yang lebih ringan dari pada XFCE, dan juga bekerja untuk XFCE. Silakan unduh paketnya di &lt;a href=&#34;http://lxmed.sourceforge.net/&#34;&gt;http://lxmed.sourceforge.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ekstrak dan jalankan ./install.sh. mudah dan cepat, tetapi tidak berhenti sampai di sini. Kita membutuhkan gksu dan jre untuk bisa menjalankan lxmed. jre bisa diinstall dari dvd slackware, terletak di source/l/jre. Umm, yeah, normalnya pasang jre dulu. hehe. Sementara paket gksu (sesuaikan versi slackware dan arsitektur) bisa ditemukan di belantara internet dengan mudah, google always be our friend.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Router on Blog</title>
+    <link>//localhost:1313/tags/router/</link>
+    <description>Recent content in Router on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2012 02:09:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dasar Mikrotik Plus Manajemen Bandwith</title>
+      <link>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</link>
+      <pubDate>Fri, 27 Jan 2012 02:09:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</guid>
+      <description>&lt;p&gt;ditulis sebagai catatan pengingat. asumsi, menggunakan modem speedy (192.168.1.1) dan jaringan lokal 192.168.10.xx. salah satu client yang diatur bandwithnya adalah 192.168.10.2&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Menambahkan password&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]$/password&lt;/p&gt;&#xA;&lt;p&gt;old password:&lt;/p&gt;&#xA;&lt;p&gt;new password:*****&lt;/p&gt;&#xA;&lt;p&gt;retype password:******[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Memberi nama pada interface&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/interface set 0 name=speedy&lt;/p&gt;&#xA;&lt;p&gt;/interface set 1 name=local[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Memberi nama hostname&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/system identity set name=routermikrotik[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Set IP Address&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/ip address add interface=speedy address 192.168.1.2 netmask 255.255.255.0&lt;/p&gt;&#xA;&lt;p&gt;/ip address add interface=local address 192.168.10.1 netmask 255.255.255.0[/code]&lt;/p&gt;&#xA;&lt;p&gt;5.Set Gateway&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</title>
+      <link>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</link>
+      <pubDate>Thu, 26 Jan 2012 10:02:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</guid>
+      <description>&lt;p&gt;perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.&lt;/p&gt;&#xA;&lt;p&gt;jadi kondisinya begini.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya tidak punya routerboard&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

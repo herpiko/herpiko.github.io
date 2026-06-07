@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cantik on Blog</title>
+    <link>//localhost:1313/tags/cantik/</link>
+    <description>Recent content in Cantik on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2011 02:43:12 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cantik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cantik</title>
+      <link>//localhost:1313/post/2011/09/05/cantik/</link>
+      <pubDate>Mon, 05 Sep 2011 02:43:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/05/cantik/</guid>
+      <description>&lt;p&gt;Suatu hari, ada seorang guru bertanya pada muridnya.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;muridku,apa yang kau sukai dari seorang gadis?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;parasnya yang cantik.&amp;rdquo; jawab si murid.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;seandainya kau buta, kau tidak dapat melihat kecantikan parasnya. maka, apa yang kau sukai dari seorang gadis?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;jika aku tidak bisa melihat parasnya, maka aku akan mencari gadis yang merdu suaranya&amp;rdquo; jawab si murid lagi.&lt;/p&gt;&#xA;&lt;p&gt;untuk ketiga kalinya, sang guru kembali bertanya.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;jika kau tuli, maka kau tidak dapat mendengar suara gadis tersebut. maka, apa yang kau sukai dari seorang gadis?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Recovery on Blog</title>
+    <link>//localhost:1313/tags/windows-recovery/</link>
+    <description>Recent content in Windows Recovery on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2011 01:08:38 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/windows-recovery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>windows installer built-in acer e-recovery management</title>
+      <link>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</link>
+      <pubDate>Fri, 10 Jun 2011 01:08:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</guid>
+      <description>&lt;p&gt;baru tau. tombolnya adalah alt-shift-f10. ditulis di sini sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;update : dan ternyata bekerja juga untuk toshiba dan lainnya dan lainnya. blah.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pico on Blog</title>
+    <link>//localhost:1313/tags/pico/</link>
+    <description>Recent content in Pico on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Sep 2011 01:53:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pico/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

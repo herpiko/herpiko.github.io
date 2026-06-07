@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>how to recover wordpress-redirect-hacked-by-a7sass | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">how to recover wordpress-redirect-hacked-by-a7sass</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2010/09/03</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/kehidupan">kehidupan</a>, 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/pikiran">pikiran</a>, 
+        <a href="/categories/tong-sampah">tong sampah</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/a7sass">A7sass</a>, 
+        <a href="/tags/hack">hack</a>, 
+        <a href="/tags/hacked">hacked</a>, 
+        <a href="/tags/hek">hek</a>, 
+        <a href="/tags/recovery">recovery</a>, 
+        <a href="/tags/redirect">redirect</a>, 
+        <a href="/tags/wordpress">wordpress</a>, 
+        <a href="/tags/wordpress-password">wordpress password</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>alkisah, web milik seorang kawan kena hack. screenshoot :</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/09/hek.jpg"><img src="/assets/hek.jpg" alt=""></a>kondisi :</p>
+<ul>
+<li>webnya pakai wordpress</li>
+<li>halaman dialihkan ke halaman klaim hek blablabla.</li>
+<li>user dan password berubah.</li>
+</ul>
+<p>kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.</p>
+<p><strong>1.</strong> rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.</p>
+<p><strong>2.</strong> mengembalikan user dan password wordpress.</p>
+<p>saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!</p>
+<p>mencoba masuk dashboard. berhasil.</p>
+<p><strong>3.</strong> saya ingin tahu apakah file pengalihannya ada di direktori hosting atau link ke luar.</p>
+<p>mungkin ada cara cepat lain, tapi berhubung ini cara saya (agak buang-buang waktu), hanya karena ingin tahu. saya membackup semua home directory berikut database mysql, dibawa pulang buat dicoba di komputer sendiri yang tentunya offline. lebih baik membackup mysql lewat phpmyadmin dari pada pakai fasilitas backupwizard cpanel (saya coba backupwizard sering error saat di-import). setelah semua dibangun ulang, saya buka. jika halaman pengalihan itu berbuah 404 not found, berarti file halaman tersebut ada di luar belantara inet, kalau masih muncul, berarti file itu ada di dalam CMS. wow, ternyata muncul!</p>
+<p><strong>4.</strong> berburu bisul.</p>
+<p>sayangnya, saya tidak tahu dimana file tersebut (dan awalnya juga tidak tahu cara mencarinya dengan cepat). awalnya, saya membuka file php dan html satu persatu. benar-benar buang2 waktu. eh, teringat sama grep. ^^</p>
+<p>isi source halaman redirect tersebut adalah ini :</p>
+<p>[sourcecode]**</p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="rtl">
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0025)http://www.google.com/ -->
+<!-- BEGIN TEMPLATE: FORUMHOME --><HTML dir=rtl><HEAD><TITLE># ~{ Own3d by
+<p>dr.a7sass }~ #</TITLE></p>
+<META http-equiv=Content-Type content="text/html; charset=windows-1256">
+<STYLE type=text/css>BODY {
+
+	SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #000000; FONT-FAMILY: Verdana; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+
+}
+
+.Estilo10 {
+
+	COLOR: #ffffff; FONT-FAMILY: Haettenschweiler
+
+}
+
+.Estilo8 {
+
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Haettenschweiler
+
+}
+
+S {
+
+	FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+
+}
+
+.000000 {
+
+	COLOR: #000000
+
+}
+
+.3D0008 {
+
+	COLOR: #3d0008
+
+}
+
+.A90016 {
+
+	COLOR: #a90016
+
+}
+
+.AF0017 {
+
+	COLOR: #af0017
+
+}
+
+.AA0014 {
+
+	COLOR: #aa0014
+
+}
+
+.A80015 {
+
+	COLOR: #a80015
+
+}
+
+.A80016 {
+
+	COLOR: #a80016
+
+}
+
+.A60016 {
+
+	COLOR: #a60016
+
+}
+
+.A40015 {
+
+	COLOR: #a40015
+
+}
+
+.A50016 {
+
+	COLOR: #a50016
+
+}
+
+.A50015 {
+
+	COLOR: #a50015
+
+}
+
+.A20014 {
+
+	COLOR: #a20014
+
+}
+
+.A10014 {
+
+	COLOR: #a10014
+
+}
+
+.A20015 {
+
+	COLOR: #a20015
+
+}
+
+.A00015 {
+
+	COLOR: #a00015
+
+}
+
+.A30417 {
+
+	COLOR: #a30417
+
+}
+
+.A31118 {
+
+	COLOR: #a31118
+
+}
+
+.A61D1B {
+
+	COLOR: #a61d1b
+
+}
+
+.A52118 {
+
+	COLOR: #a52118
+
+}
+
+.A42115 {
+
+	COLOR: #a42115
+
+}
+
+.page
+
+{
+
+	background: #000000;
+
+	color: #ACACAC;
+
+	font: bold 12pt arial,verdana,helvetica,sans-serif;
+
+}
+
+.tborder
+
+{
+
+	background: #000000;
+
+}
+
+.alt1
+
+{
+
+	background: #1D1D1D;
+
+	color: #ACACAC;
+
+}
+
+</STYLE>
+<META content="A7sass HaCkEr" name=description>
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR></HEAD>
+<BODY text=#ffffff bgColor=#000000>
+<DIV dir=ltr align=center><SPAN
+<p>style=&ldquo;FILTER: blur(add=1,direction=270,strength=30); HEIGHT: 30px&rdquo;&gt;</p>
+<pre><code>&lt;SPAN
+</code></pre>
+<p>style=&ldquo;FILTER: blur(add=1,direction=270,strength=30)&quot;&gt;</p>
+<DIV align=center>
+<TABLE id=table1
+<p>style=&ldquo;BORDER-RIGHT: #808080 1px dotted; BORDER-TOP: #808080 1px dotted; BORDER-LEFT: #808080 1px dotted; BORDER-BOTTOM: #808080 1px dotted&rdquo;</p>
+<p>cellPadding=0 width=625 border=0&gt;</p>
+  <TBODY>
+  <TR>
+<pre><code>&lt;TD&gt;
+</code></pre>
+<body bgcolor="#000000" background="http://xa.yimg.com/kq/groups/37369449/sn/1559609306/name/16.jpg">
+<pre><code>      &lt;td valign=&quot;top&quot;&gt;
+
+      &lt;img border=&quot;0&quot; src=&quot;http://xa.yimg.com/kq/groups/37369449/sn/664898476/name/3.jpg&quot; width=&quot;270&quot; height=&quot;385&quot;&gt;&lt;/td&gt;
+
+      &lt;td&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;b&gt;&lt;font color=&quot;#FF0000&quot; size=&quot;6&quot; face=&quot;Traditional Arabic&quot;&gt;
+</code></pre>
+<p>0wn3d By</font></b></p></p>
+<p align="center">
+<b>
+<p><font face="Aharoni"><font size="5" color="#FFF8C6">dr.a7sass</font></p>
+<p align="center">
+<b>
+<p><font face="Aharoni"><font color="#FFFFFF"><font size="5"></font> <font color="#FFF8C6"><font size="4">^_*</font></font></font></p>
+<p align="center">
+  <img height="100" src="http://xa.yimg.com/kq/groups/37369449/sn/1007772901/name/e5s69icvy.jpg" width="180" border="0">
+<p align="center">
+<span style="font-weight: 700">
+<font face="Garamond" size="4" color="#66CCFF">
+<p><font color="#FFFF00"><a href="mailto:A-7sass@HoTmaiL.CoM">A-7sass@HoTmaiL.CoM</a></font></a></font></span></p>
+<link rel="alternate" type="text/xml" title="RSS" href="../../../Public/rss.php">
+<link rel="stylesheet" href="../../../Public/styles/paper/"  type="text/css">
+<script type="text/javascript" src="../../../Public/includes/function.js"></script>
+<p></span></span></div></p>
+<pre><code>&lt;p align=&quot;center&quot;&gt;&lt;font face=&quot;verdana&quot;&gt;&lt;span lang=&quot;en-us&quot;&gt;
+</code></pre>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="7" height="14">
+  <param name="movie" value="http://llevill.persiangig.ir/audio/Era_The_Mass(studiomusic.blogfa.com).swf">
+  <param name="quality" value="high">
+  <param name="allowScriptAccess" value="always">
+  <param name="wmode" value="transparent">
+<pre><code> &lt;embed src=&quot;http://llevill.persiangig.ir/audio/Era_The_Mass(studiomusic.blogfa.com).swf&quot; quality=&quot;high&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; allowscriptaccess=&quot;always&quot; width=&quot;7&quot; height=&quot;14&quot;&gt;
+</code></pre>
+</object>
+<p></span></font></p></p>
+<title># Own3d By A7sass HaCkEr # - (Powered By MySmartBB)</title>
+<p>[/sourcecode]</p>
+<p>hmm, saya ambil string &ldquo;A7sass&rdquo; sajalah, tinggal saya grep saja. :)</p>
+<p>grep -r A7sass /var/www/situs/</p>
+<p>toeng! ternyata letaknya di /var/www/situs/wp-content/themes/sketchpad/index.php</p>
+<p>setelah dibuka, ternyata memang itu. saya hapus. kopi index.php dari theme lain ke sini.</p>
+<p>sampai di sini, saya rename kembali index.php wordpress-nya.</p>
+<p>5.** mengganti tema.</p>
+<p>yah, tinggal login ke dashboard, terus ganti tema. beres. atau kalau mau tetap pakai tema itu, tinggal download lagi, terus copy index.html yang original.</p>
+<p>setelah saya googling, ternyata banyak juga web yang kena hack sama si A7sass. ah, peduli amat. mission completed.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alsactl on Blog</title>
+    <link>//localhost:1313/tags/alsactl/</link>
+    <description>Recent content in Alsactl on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 21:00:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/alsactl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Error Alsactl</title>
+      <link>//localhost:1313/post/2012/04/15/error-alsactl/</link>
+      <pubDate>Sun, 15 Apr 2012 21:00:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/error-alsactl/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #1 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #2 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #25 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #26 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;selalu muncul beberapa baris sebelum login. solusi di wiki Archlinux bekerja untuk Slackware&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

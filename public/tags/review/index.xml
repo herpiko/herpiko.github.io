@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Blog</title>
+    <link>//localhost:1313/tags/review/</link>
+    <description>Recent content in Review on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2011 22:40:30 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>verifikasi 2 langkah dari Google</title>
+      <link>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</link>
+      <pubDate>Sun, 20 Nov 2011 22:40:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</guid>
+      <description>&lt;p&gt;Suatu pagi, belum mandi dan sikat gigi, saya menemukan notifikasi aneh di halaman gmail saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Saya pikir menarik maka saya mencobanya. Verifikasi 2 langkah adalah cara baru dari Google untuk melindungi pengguna layanan akun Google (gmail, youtube, etc) dari pembajakan akun.  Cara bekerjanya adalah :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Jika kita ingin login, kita memasukkan username dan password seperti biasa, lalu Google akan mengirimi kita sms yang berisi kode verifikasi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kita dialihkan ke halaman verifikasi dan di ponsel kita telah tiba kodenya. kita tinggal memasukkan kode verifikasi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review : Laskar Pelangi The Movie</title>
+      <link>//localhost:1313/post/2008/12/07/review-laskar-pelangi-the-movie/</link>
+      <pubDate>Sun, 07 Dec 2008 14:29:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/07/review-laskar-pelangi-the-movie/</guid>
+      <description>&lt;p&gt;Ini pertama kalinya saya menonton film yang baru keluar dengan cara yang legal. Biasanya saya nonton dari dvd bajakan yang pinjam di teman. Tapi film ‘Laskar Pelangi’ ini saya tonton di semacam ‘bioskop&amp;rsquo;. Sebenarnya bukan bioskop, cuma auditorium Universitas Mataram yang disulap di sana sini. Lembaga yang mengadakan acara adalah pihak Pertamina, lagi promosiin oli fastronnya yang lengket, sekaligus sebagai sponsor. Berapa beli tiketnya? Oh, saya dapat gratis. Tiketnya diberi oleh Wakasek kesiswaan di sekolah saya, frxs juga dapat. Kata Bu Wakasek, tiket ini hadiah dari dirinya pribadi untuk kami karena berhasil di olimpiade teknik di Bali. Senang bukan main memang.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

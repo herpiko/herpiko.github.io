@@ -1,12 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm on Blog</title><link>/categories/algorithm/</link><description>Recent content in Algorithm on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0700</lastBuildDate><atom:link href="/categories/algorithm/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsessive Librarian</title><link>/post/2020/02/09/obsessive-librarian/</link><pubDate>Sun, 09 Feb 2020 00:00:00 +0700</pubDate><guid>/post/2020/02/09/obsessive-librarian/</guid><description>&lt;p&gt;This is my second attempt to write an algorithm problem for programming challenge. This time it&amp;rsquo;s written in Bahasa Indonesia.&lt;/p&gt;
-&lt;p&gt;Seorang pustakawan baru saja diterima bekerja di sebuah perpustakaan. Sebelumnya buku-buku di perpustakaan tersebut tidak dikelola dengan baik dan peletakkannya tidak sesuai dengan kategori yang telah distandarkan. Ia ingin mengatur ulang buku-buku tersebut sesuai standar. Karena ia seseorang yang sangat memperhatikan kerapian dan kesempurnaan melebihi kebanyakan orang pada umumnya, selain mengurutkan buku berdasarkan kategori, ia juga ingin mengurutkan tinggi buku. Selain itu ia hanya membolehkan maksimal 2 eksemplar buku yang sama berada di rak, selebihnya disimpan di gudang penyimpanan. Buku yang diprioritaskan untuk dipajang di rak adalah buku yang paling tinggi ukurannya.&lt;/p&gt;</description></item><item><title>The Ninja Path</title><link>/post/2020/01/31/the-ninja-path/</link><pubDate>Fri, 31 Jan 2020 00:00:00 +0700</pubDate><guid>/post/2020/01/31/the-ninja-path/</guid><description>&lt;p&gt;Inspired by Kodenesia (&lt;a href="https://web.archive.org/web/20140126112931/http://karima.web.id/index.html" target="_blank"&gt;written by Yanmarshus Bachtiar&lt;/a&gt;), this is my first attempt to write an algorithm problem for programming challenge.&lt;/p&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
-&lt;p&gt;Given the specific parameters (&lt;code&gt;size&lt;/code&gt;, &lt;code&gt;wall&lt;/code&gt;, &lt;code&gt;start&lt;/code&gt; and &lt;code&gt;target&lt;/code&gt;), you should build a virtual block map. If the &lt;code&gt;size&lt;/code&gt; is 10, then it will be a 10x10 blocks map. Each block is numbered sequentially from left to right, then top to bottom. The initial value for this sequence is 1.&lt;/p&gt;</description></item><item><title>BCA Finhacks 2019 #blockchainnovation</title><link>/post/2019/12/22/bca-finhacks-2019-%23blockchainnovation/</link><pubDate>Sun, 22 Dec 2019 00:00:00 +0700</pubDate><guid>/post/2019/12/22/bca-finhacks-2019-%23blockchainnovation/</guid><description>&lt;p&gt;That was a fast and steep journey for me.&lt;/p&gt;
-&lt;p&gt;Thanks to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MDAMT for his critics on the early architecture.&lt;/li&gt;
-&lt;li&gt;Aldi for the help on the mobile app&lt;/li&gt;
-&lt;li&gt;Asep who loves to talk about ideas&lt;/li&gt;
-&lt;li&gt;My wife who lets me hacking on my portable computer while we are still on our honeymoon.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img src="/assets/finhacks2019.jpg"&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on Blog</title>
+    <link>//localhost:1313/categories/algorithm/</link>
+    <description>Recent content in Algorithm on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsessive Librarian</title>
+      <link>//localhost:1313/post/2020/02/09/obsessive-librarian/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2020/02/09/obsessive-librarian/</guid>
+      <description>&lt;p&gt;This is my second attempt to write an algorithm problem for programming challenge. This time it&amp;rsquo;s written in Bahasa Indonesia.&lt;/p&gt;&#xA;&lt;p&gt;Seorang pustakawan baru saja diterima bekerja di sebuah perpustakaan. Sebelumnya buku-buku di perpustakaan tersebut tidak dikelola dengan baik dan peletakkannya tidak sesuai dengan kategori yang telah distandarkan. Ia ingin mengatur ulang buku-buku tersebut sesuai standar. Karena ia seseorang yang sangat memperhatikan kerapian dan kesempurnaan melebihi kebanyakan orang pada umumnya, selain mengurutkan buku berdasarkan kategori, ia juga ingin mengurutkan tinggi buku. Selain itu ia hanya membolehkan maksimal 2 eksemplar buku yang sama berada di rak, selebihnya disimpan di gudang penyimpanan. Buku yang diprioritaskan untuk dipajang di rak adalah buku yang paling tinggi ukurannya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Ninja Path</title>
+      <link>//localhost:1313/post/2020/01/31/the-ninja-path/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2020/01/31/the-ninja-path/</guid>
+      <description>&lt;p&gt;Inspired by Kodenesia (&lt;a href=&#34;https://web.archive.org/web/20140126112931/http://karima.web.id/index.html&#34; target=&#34;_blank&#34;&gt;written by Yanmarshus Bachtiar&lt;/a&gt;), this is my first attempt to write an algorithm problem for programming challenge.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Given the specific parameters (&lt;code&gt;size&lt;/code&gt;, &lt;code&gt;wall&lt;/code&gt;, &lt;code&gt;start&lt;/code&gt; and &lt;code&gt;target&lt;/code&gt;), you should build a virtual block map. If the &lt;code&gt;size&lt;/code&gt; is 10, then it will be a 10x10 blocks map. Each block is numbered sequentially from left to right, then top to bottom. The initial value for this sequence is 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BCA Finhacks 2019 #blockchainnovation</title>
+      <link>//localhost:1313/post/2019/12/22/bca-finhacks-2019-%23blockchainnovation/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2019/12/22/bca-finhacks-2019-%23blockchainnovation/</guid>
+      <description>&lt;p&gt;That was a fast and steep journey for me.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MDAMT for his critics on the early architecture.&lt;/li&gt;&#xA;&lt;li&gt;Aldi for the help on the mobile app&lt;/li&gt;&#xA;&lt;li&gt;Asep who loves to talk about ideas&lt;/li&gt;&#xA;&lt;li&gt;My wife who lets me hacking on my portable computer while we are still on our honeymoon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/finhacks2019.jpg&#34;&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justanotherpoem on Blog</title>
+    <link>//localhost:1313/tags/justanotherpoem/</link>
+    <description>Recent content in Justanotherpoem on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jan 2011 23:04:38 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/justanotherpoem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>senjang</title>
+      <link>//localhost:1313/post/2011/01/31/senjang/</link>
+      <pubDate>Mon, 31 Jan 2011 23:04:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/31/senjang/</guid>
+      <description>&lt;p&gt;di antara kita&lt;/p&gt;&#xA;&lt;p&gt;bukan persahabatan yang mengikat&lt;/p&gt;&#xA;&lt;p&gt;tetapi kebisuan tak berujung&lt;/p&gt;&#xA;&lt;p&gt;seperti paku-paku di dinding&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

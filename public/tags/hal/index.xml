@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HAL on Blog</title>
+    <link>//localhost:1313/tags/hal/</link>
+    <description>Recent content in HAL on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jun 2011 19:45:05 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mengatasi gagal mount di desktop slackware (setelah debian, lagi-lagi)</title>
+      <link>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</link>
+      <pubDate>Sun, 12 Jun 2011 19:45:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</guid>
+      <description>&lt;p&gt;ah, serasa debian dan slackware sama saja, setelah fresh install tidak bisa mount otomatis dari user biasa (masalah di debian kemarin karena ada entry salah di /etc/fstab).&lt;/p&gt;&#xA;&lt;p&gt;saya menggunakan slackware 13.37 dan desktop KDE. pada saat mencolokan removable storage, partisi gagal dimount dan di notifikasi ada pesan error yang saya lupa apa lengkapnya, berkaitan dengan HAL.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya menemukan solusinya di forum arch linux dan bekerja untuk slackware. yang perlu dilakukan adalah mengedit file /etc/dbus-1/system.d/hal.conf, tambahkan user kita di kelompok haldaemon&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

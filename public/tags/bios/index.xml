@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bios on Blog</title>
+    <link>//localhost:1313/tags/bios/</link>
+    <description>Recent content in Bios on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Nov 2011 15:10:43 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BIOS hilang?</title>
+      <link>//localhost:1313/post/2011/11/17/bios-hilang/</link>
+      <pubDate>Thu, 17 Nov 2011 15:10:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/17/bios-hilang/</guid>
+      <description>&lt;p&gt;begitu notebook dinyalakan, tidak muncul apa pun. di PC desktop, hal seperti ini biasanya disebabkan oleh RAM. tetapi RAMnya baik-baik saja ketika dicoba di notebook lain. konektor VGA pun tidak masalah.&lt;/p&gt;&#xA;&lt;p&gt;ketika dibawa ke toko/service kesana kemari, mereka semua menolak. notebook itu gag bakalan bisa diapa-apakan kalau ndak ada bios, begitu pendapat mereka, rusak pabriklah, atau apalah.&lt;/p&gt;&#xA;&lt;p&gt;hal seperti ini sudah 3 kali saya alami, pada toshiba, acer, dan dell. tetapi sebenarnya bukan biosnya hilang, tetapi entah bagaimana, bios tidak muncul karena suatu hal, mungkin data korup yang tersimpan di memori sementara (yang disupport oleh baterai bios). tetapi perlu diingat bahwa settingan default bios sudah ada di flash memory yang gag bakalan berubah bagaimana pun juga. jadi jalan keluarnya adalah reset bios, dan itu berhasil.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tong Sampah on Blog</title>
+    <link>//localhost:1313/categories/tong-sampah/</link>
+    <description>Recent content in Tong Sampah on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Mar 2012 18:00:40 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/tong-sampah/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In Memoriam : MekBuk</title>
+      <link>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</link>
+      <pubDate>Sat, 24 Mar 2012 18:00:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</guid>
+      <description>&lt;p&gt;Halo.&lt;/p&gt;&#xA;&lt;p&gt;Kemarin saya diundang resepsi pernikahan sepupu saya. Belum selesai saya berpikir tentang peledakan populasi di keluarga besar saya akibat perkawinan-perkawinan yang mendadak, saya melihat sebuah iBook G4 dipajang di samping sound system acara resepsi tersebut.&lt;/p&gt;&#xA;&lt;p&gt;Hahah, saya langsung terhenyak dan mengingat dengan cepat kenangan saya akan MacBook saya 3 tahun lalu. Well, saya bukan benar-benar Apple fanboy, saya tidak punya iMac besar, atau iPad atau kaos bergambar buah apel tergigit, tetapi saya sejujurnya saya mengagumi produk buatan mereka hampir dari segala segi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>verifikasi 2 langkah dari Google</title>
+      <link>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</link>
+      <pubDate>Sun, 20 Nov 2011 22:40:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</guid>
+      <description>&lt;p&gt;Suatu pagi, belum mandi dan sikat gigi, saya menemukan notifikasi aneh di halaman gmail saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Saya pikir menarik maka saya mencobanya. Verifikasi 2 langkah adalah cara baru dari Google untuk melindungi pengguna layanan akun Google (gmail, youtube, etc) dari pembajakan akun.  Cara bekerjanya adalah :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Jika kita ingin login, kita memasukkan username dan password seperti biasa, lalu Google akan mengirimi kita sms yang berisi kode verifikasi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kita dialihkan ke halaman verifikasi dan di ponsel kita telah tiba kodenya. kita tinggal memasukkan kode verifikasi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>seminggu dengan blender jilid 2</title>
+      <link>//localhost:1313/post/2011/11/17/seminggu-dengan-blender-jilid-2/</link>
+      <pubDate>Thu, 17 Nov 2011 15:58:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/17/seminggu-dengan-blender-jilid-2/</guid>
+      <description>&lt;p&gt;sebenarnya sih sekarang sudah sebulan dengan blender. tapi ini dibuat pada di minggu pertama, dan minggu selanjutnya saya nganggurin blender karena kesibukan (sok ae).&lt;/p&gt;&#xA;&lt;p&gt;lanjutan kemarin, sedikit permainan lighting.&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=YH06zVvFSB0]&lt;/p&gt;&#xA;&lt;p&gt;ternyata blender itu mudah. yang sulit adalah bagaimana menyelesaikan apa yang kita mulai. saya harap ada orang yang mahir blender  di sekitar saya sehingga kami bisa membentuk tim. membuat animasi dengan tim saya rasa lebih mudah. cukup satu orang memikirkan model dan yang lain sebagai animator (penggerak model). saya pikir menjadi animator jauh lebih sulit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BIOS hilang?</title>
+      <link>//localhost:1313/post/2011/11/17/bios-hilang/</link>
+      <pubDate>Thu, 17 Nov 2011 15:10:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/17/bios-hilang/</guid>
+      <description>&lt;p&gt;begitu notebook dinyalakan, tidak muncul apa pun. di PC desktop, hal seperti ini biasanya disebabkan oleh RAM. tetapi RAMnya baik-baik saja ketika dicoba di notebook lain. konektor VGA pun tidak masalah.&lt;/p&gt;&#xA;&lt;p&gt;ketika dibawa ke toko/service kesana kemari, mereka semua menolak. notebook itu gag bakalan bisa diapa-apakan kalau ndak ada bios, begitu pendapat mereka, rusak pabriklah, atau apalah.&lt;/p&gt;&#xA;&lt;p&gt;hal seperti ini sudah 3 kali saya alami, pada toshiba, acer, dan dell. tetapi sebenarnya bukan biosnya hilang, tetapi entah bagaimana, bios tidak muncul karena suatu hal, mungkin data korup yang tersimpan di memori sementara (yang disupport oleh baterai bios). tetapi perlu diingat bahwa settingan default bios sudah ada di flash memory yang gag bakalan berubah bagaimana pun juga. jadi jalan keluarnya adalah reset bios, dan itu berhasil.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rekoper tabel partisi</title>
+      <link>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</link>
+      <pubDate>Thu, 10 Nov 2011 01:45:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</guid>
+      <description>&lt;p&gt;pernah ndak ngalamin partisi hdd kita jadi aneh? saat mau diinstall sistem operasi, installernya (baik linux, mac, maupun windows) mendeteksi bawah hdd itu tidak punya partisi, kosong. padahal kalau booting ke sistem operasi yang sudah ada, partisinya masih ada, lengkap dengan data.&lt;/p&gt;&#xA;&lt;p&gt;yep, itu bisa diperbaiki hanya dengan memformat ulang salah satu partisi. mumpung masih bisa booting dan bisa dideteksi oleh sistem operasi, gunakan partisi manager (gparted, diskutility, maupun partition magic, semua bisa) dan format salah satu partisi yang ndak penting. kalau semua penting, backup salah satu kemudian format. saya kira itu akan mengembalikan informasi tabel partisi ke MBR. tapi bener kok, di saya masalahnya solved. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tes posting via wordpress for android.</title>
+      <link>//localhost:1313/post/2011/08/23/tes-posting-via-wordpress-for-android./</link>
+      <pubDate>Tue, 23 Aug 2011 10:34:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/23/tes-posting-via-wordpress-for-android./</guid>
+      <description>&lt;p&gt;Keren jugak. 8-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bagaimana seorang pengusaha memandang instansi pemerintah?</title>
+      <link>//localhost:1313/post/2011/05/22/bagaimana-seorang-pengusaha-memandang-instansi-pemerintah/</link>
+      <pubDate>Sun, 22 May 2011 17:55:03 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/22/bagaimana-seorang-pengusaha-memandang-instansi-pemerintah/</guid>
+      <description>&lt;p&gt;alkisah saya pergi ke sebuah toko yang memegang tender untuk pengadaan ATK di kantor saya. saya membutuhkan beberapa CD kosong jadi atasan saya menyuruh saya mengambil 1 paket CD kosong berisi 100 keping CD. dengan senang hati.&lt;/p&gt;&#xA;&lt;p&gt;di toko, saya langsung membuka segel dan mendapati bahwa CD-CD itu banyak yang berjamur, saya periksa satu per satu semuanya. ternyata lebih dari setengahnya sudah berjamur. saya langsung bilang ke pemilik toko, bisakah saya menukar paket CD ini dengan yang lebih baik, karena setengahnya sudah rusak, tidak mungkin bisa diburning lagi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>konfigurasi slackware</title>
+      <link>//localhost:1313/post/2011/05/21/konfigurasi-slackware/</link>
+      <pubDate>Sat, 21 May 2011 18:27:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/21/konfigurasi-slackware/</guid>
+      <description>&lt;p&gt;awal bulan kemarin saya memasang slackware. orang bilang masang slackware itu susah. ndak juga. yang susah itu kalau mau pasang paket dan berjibaku dengan dependensi, dan itu merupakan tantangan.&lt;/p&gt;&#xA;&lt;p&gt;awalnya saya pikir juga begitu, pasang slackware ribet, mungkin mirip2 arch. ternyata tidak. kalau teliti baca, pastilah sukses. dan pada saat pasang tidak ada progress barnya, jadi kita tidak bisa kira2 kapan instalasinya selesai. tapi cepat kok. 15 menit kelar.&lt;/p&gt;&#xA;&lt;p&gt;jadi, apa yang saya lakukan setelah slackware terpasang?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PNS dan DNS Nawala</title>
+      <link>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</link>
+      <pubDate>Fri, 20 May 2011 17:42:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya tidak bilang semua PNS tidak suka dengan DNS nawala. judul posting ini hanya gambaran secara umum yang saya temui di lingkungan kerja saya.&lt;/p&gt;&#xA;&lt;p&gt;jadi beginilah saya, kerja mengurusi komputer-komputer milik negara. menyenangkan memang, tapi selalu ada yang bikin muak.&lt;/p&gt;&#xA;&lt;p&gt;sudah dianggarkan, bahwa tahun ini akan didatangkan lisensi kaspersky untuk 50 client dan 10 server jangka waktu 2 tahun. bayangkan saja, saya tidak menyebutkan jumlah rupiah di sini, yang jelas itu teramat mahal hanya untuk menjaga agar komputer windows mereka aman. tetapi setidaknya itu buat pekerjaan saya lebih mudah dan terkontrol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lupa itu berkah</title>
+      <link>//localhost:1313/post/2011/02/24/lupa-itu-berkah/</link>
+      <pubDate>Thu, 24 Feb 2011 18:36:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/24/lupa-itu-berkah/</guid>
+      <description>&lt;p&gt;pernah tidak kawan-kawan ngambil baju atau celana dari lemari kemudian memakainya (dalam kasus saya, sering langsung dari jemuran XD ) dan menemukan sejumlah uang bau rinso yang sudah kering terlipat-lipat? saya menyebutnya keberuntungan. saya sering sekali mengalaminya dan mensyukuri kelupaan saya akan uang-uang itu. lah, kenapa cerita? karena kali ini jumlah yang tidak biasa dan saya bahkan tidak mengingatnya kalau saya kehilangan sejumlah itu. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BTS telkomsel</title>
+      <link>//localhost:1313/post/2011/02/13/bts-telkomsel/</link>
+      <pubDate>Sun, 13 Feb 2011 05:13:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/13/bts-telkomsel/</guid>
+      <description>&lt;p&gt;kemarin saya beruntung sekali, tak disangka diajak seorang kawan untuk jalan-jalan nengok salah satu BTS telkomsel. beliau bekerja sebagai teknisi perbaikan 24 jam siaga untuk telkomsel. apakah itu artinya saya akan ikut manjat tower yang tinggi itu?&lt;/p&gt;&#xA;&lt;p&gt;ternyata tidak, saya diajak masuk ke ruangan aneh dan super (menurut saya). ada tiga lapis pintu yang saling berjarak sekitar 1 meter. 3 pintu! gemboknya gede pula, apalagi rantainya, mirip rantai di pelabuhan kapal. di setiap pintu, bahkan pintu lemari mesin, ada pendeteksi, yang kalau dibuka, orang dari pusat tahu bahwa lemari itu sedang dibuka, yang berarti sedang ada yang maintenance. maling kampung gak bakalan bisa masuk dalam semalam. katanya, memang musti begini karena apa yang ada di dalam ruangan ini adalah barang mahal semua. kalau orang yang ndak kuat iman yang ngerjain, bakal lain perkara.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When teleportation is finally possible, where will you beam yourself first?</title>
+      <link>//localhost:1313/post/2011/02/11/when-teleportation-is-finally-possible-where-will-you-beam-yourself-first/</link>
+      <pubDate>Fri, 11 Feb 2011 16:24:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/11/when-teleportation-is-finally-possible-where-will-you-beam-yourself-first/</guid>
+      <description>&lt;p&gt;beh, karena ndak ada ide, saya mengambil satu poin dari dailypost. yang penting nulis.&lt;/p&gt;&#xA;&lt;p&gt;jika saya bisa berteleportasi, saya akan pergi ke museum louvre, mencuri benda-benda yang saya inginkan. haha, serius lho.&lt;/p&gt;&#xA;&lt;p&gt;dan jika ternyata teleportasi ini bisa dikembangkan, saya akan mengajari beberapa orang dan membuat perusahaan transportasi sekejap. pasti sukses. ;)&lt;/p&gt;&#xA;&lt;p&gt;btw saya jadi teringat sama hiro nakamura, selain bisa memanipulasi ruang, juga waktu. kalau itu memungkinkan, saya akan pergi ke masa dimana mata uang sekarang masih bisa dipergunakan dan membeli barang-barang yang masa sekarang lagi mahal-mahalnya. di masa depan pasti murah. seperti gadget android misalnya, saya mungkin akan mendapatkannya seharga ratusan ribu saja.*ngecek tabungan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>libxine1-ffmpeg</title>
+      <link>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</link>
+      <pubDate>Thu, 10 Feb 2011 16:30:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</guid>
+      <description>&lt;p&gt;sejak lama saya tidak menyukai kde hanya karena amarok tidak mau memutar mp3 setelah menginstall komplit kde. apa yang salah? saya menggunakan lucid dengan gnome bawaan, bukan kubuntu. meski sudah memasang semua codec gstreamer,tetap saja.&lt;/p&gt;&#xA;&lt;p&gt;ternyata oh ternyata, backend amarok adalah xine, bukan gstreamer, so?&lt;/p&gt;&#xA;&lt;p&gt;tinggal pasang nama paket yang judulnya tertera di atas. dan, tada! :D&lt;/p&gt;&#xA;&lt;p&gt;NB : btw, amarok dan rythmbox tidak bisa memutar lagu bersamaan, entah kenapa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>blah</title>
+      <link>//localhost:1313/post/2011/02/07/blah/</link>
+      <pubDate>Mon, 07 Feb 2011 00:00:45 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/07/blah/</guid>
+      <description>&lt;p&gt;hari ini kosong.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>asus p5rd1-vm, si mainboard aneh</title>
+      <link>//localhost:1313/post/2010/12/27/asus-p5rd1-vm-si-mainboard-aneh/</link>
+      <pubDate>Mon, 27 Dec 2010 00:02:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/27/asus-p5rd1-vm-si-mainboard-aneh/</guid>
+      <description>&lt;p&gt;alkisah dipanggil dadok sama koko, dateng2 dihadapin sama komputer yang tidak mendeteksi harddisk sata, padahal baru beli tuh 500GB. baru pertama kali lihat dan pegang mobo beginian. ada 4 colokan sata namun tidak mendeteksi harddisk sata apapun di biosnya. aneh? malah, sata-nya terdeteksi sebagai raid (setelah tekan CTRL + A) dan raid-nya tidak bisa dimatikan. jadi bagaimana kalau mau nginstall?&lt;/p&gt;&#xA;&lt;p&gt;silaken unduh : &lt;a href=&#34;http://www.mediafire.com/?1noykyy2moq&#34;&gt;http://www.mediafire.com/?1noykyy2moq&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ekstrak dan taruh di flashdisk. colokin dan booting installer windows 7 (misalnya). nanti pas milih partisi, pilih load driver dan cari di flashdisk). nanti partisinya terdeteksi. tinggal install. loh? kan tidak terdeteksi di bios, bagaimana mau booting? bootingnya lancar jaya kok. :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rapi-rapi macosx86</title>
+      <link>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</link>
+      <pubDate>Wed, 22 Dec 2010 18:06:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;resolusi layar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;nah, ini wajib. karena vga onboard saya tidak support qe ci, resolusi mentok 1024-768. tapi sebenarnya macosx dukung vesa. vesa bisa resolusi berapa saja asal rasio 4:3**. **nah, berhubung monitor butut saya (mesti dipukul2 biar warna yang muncul bener, kapan meledaknya ya?) rasionya 4:3 14 inchi, 1280x1024 adalah resolusi yang tepat.&lt;/p&gt;&#xA;&lt;p&gt;lihat di /Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/p&gt;&#xA;&lt;p&gt;tambahkan&lt;/p&gt;&#xA;&lt;p&gt;&lt;string&gt;graphic mode=1280x1024x32&lt;/string&gt;&lt;/p&gt;&#xA;&lt;p&gt;reboot dan tada!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ntfs readwrite&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;secara default, kita bisa mount ntfs tapi tidak bisa menulis di atasnya. macosx itu varian unix kan? apakah punya fstab? tentu punya :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>munafik</title>
+      <link>//localhost:1313/post/2010/12/18/munafik/</link>
+      <pubDate>Sat, 18 Dec 2010 19:30:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/18/munafik/</guid>
+      <description>&lt;p&gt;ini isi pikiran selang beberapa waktu lalu.&lt;/p&gt;&#xA;&lt;p&gt;saat itu ada trit yang tidak biasa di salah satu milis FOSS yang menanyakan tentang dimana mengunduh film pirate of silicon valley. bagi yang belum tahu, film ini mengisahkan tentang persaingan apple dan microsoft, ada bill gates, steve jobs, dan lainnya. geek wajib nonton ini. saya langsung membalas email ini dan menyarankan sebuah alamat. ada balasan email lain dari salah satu pengembang blankon yang mengingatkan agar jangan membajak film (mengunduh film secara ilegal). saya langsung malu dan meminta maaf.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>polisi dan wth?</title>
+      <link>//localhost:1313/post/2010/12/02/polisi-dan-wth/</link>
+      <pubDate>Thu, 02 Dec 2010 21:10:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/02/polisi-dan-wth/</guid>
+      <description>&lt;p&gt;pagi2 ada badut di tengah jalan. ada zebra, ada bebek. dan saya ndak ngerti kenapa polisi-polisi itu biarin badut-badut lompat-lompat di tengah jalan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/csc_0033.jpg&#34;&gt;*&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/bla.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/bla.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;NB : foto di ambil di depan POLDA NTB, mataram.*&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bongkar-bongkar kamera canon powershot a480</title>
+      <link>//localhost:1313/post/2010/12/01/bongkar-bongkar-kamera-canon-powershot-a480/</link>
+      <pubDate>Wed, 01 Dec 2010 00:01:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/01/bongkar-bongkar-kamera-canon-powershot-a480/</guid>
+      <description>&lt;p&gt;kamera punya si tamul rusak karena pas tidak sengaja dimatikan lensanya malah ditahan pakai tangannya (pinter benar). alhasil, meski dimati-nyalakan-rendamair-lemparsanasini-diteken tetap lensanya ndak mau masuk. nongol abadi. lens error. selamat!&lt;/p&gt;&#xA;&lt;p&gt;dengan berat senang hati kamera saya terima untuk dioprek bareng kakak. ini kamera canon lho, canon! tidak main-main! (secara saya pengguna nikon lho :D)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/11/dsc_0066.jpg&#34;&gt;*&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;setelah alat-alat disiapkan (hanya sebatang obeng), mulai buka-buka baut sana-sini akhirnya semua kebongkar juga, kecuali lensanya yang ternyata menyatu sama dinamo kecil dan sensor CMOS. banyak kabel fleksibel warna oreng. paket hardware itu ada di balik LCD, jadi LCD musti dilepas dulu. idenya, satu paket lensa-dinamo-sensor itu dibuka sedikit, gear-nya dilepas satu, kemudian diputar pelan-pelan untuk memundurkan lensanya, baru gear yang tadi dipasang lagi. nah, masang gir-nya ini setengah mati. salut sama si kakak yang tidak putus asa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>yang saya lakukan jika bertemu keylogger di warnet</title>
+      <link>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</link>
+      <pubDate>Sat, 27 Nov 2010 19:34:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</guid>
+      <description>&lt;p&gt;terlambat dan saya panik karena sudah login dengan gmail. sampai keringat saya bercucuran dan jengkel sekali sambil sesekali melirik ke meja operator. keji benar. :(&lt;/p&gt;&#xA;&lt;p&gt;nah, apa yang saya lakukan?&lt;/p&gt;&#xA;&lt;p&gt;komputer tidak dideepfreeze maupun shadow. jelas, saya merusak windowsnya. saya menghapus ntldr, semua file di bawah system32 selain folder yang mungkin terhapus. membuat file .bat shutdown -r -t 00 dan memasang di startup all user via registry. mudahan saja diinstall ulang, amin. terakhir, mereset kasar PC-nya kemudian membayar billing dan tidak pernah muncul lagi di warnet itu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bali Cube Day 2010</title>
+      <link>//localhost:1313/post/2010/11/24/bali-cube-day-2010/</link>
+      <pubDate>Wed, 24 Nov 2010 02:23:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/24/bali-cube-day-2010/</guid>
+      <description>&lt;p&gt;yak! BCD telah usai! (akhirnya ada bahan buat apdet blog jelek ini). simple but great official competition! terima kasih semua! terutama buat mas wicak sebagai delegasi WCA, Maria Oey, Jihan, teman-teman cuber bali yang ramah-ramah, dan banyak! ada 40 kompetitor, 2 dari malaysia (howard dan azlysha, keduanya sangat cepat!) dan 1 orang dari swedia (Anders L.)&lt;/p&gt;&#xA;&lt;p&gt;Result kompetisi : &lt;a href=&#34;http://www.worldcubeassociation.org/results/c.php?allResults=All+Results&amp;amp;competitionId=BaliCubeDay2010&#34;&gt;http://www.worldcubeassociation.org/results/c.php?allResults=All+Results&amp;amp;competitionId=BaliCubeDay2010&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;WCA ID yang saya dapatkan : &lt;a href=&#34;http://www.worldcubeassociation.org/results/p.php?i=2010AGUN01&#34;&gt;http://www.worldcubeassociation.org/results/p.php?i=2010AGUN01&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;**kabar baik **&lt;/p&gt;&#xA;&lt;p&gt;saya berhasil kejar target. sub 20 untuk PB (16.88) dan sub 20 untuk average di semifinal. (19.31). finalnya malah anjlok, jauh lebih gugup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara polisi edukasi masyarakat</title>
+      <link>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</link>
+      <pubDate>Tue, 19 Oct 2010 20:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0034.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0034.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0031.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0031.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tukang tilang</title>
+      <link>//localhost:1313/post/2010/10/05/tukang-tilang/</link>
+      <pubDate>Tue, 05 Oct 2010 03:30:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/05/tukang-tilang/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;hari ini, pagi-pagi saya sudah nongol di perempatan kompleks pemerintahan prov NTB dan Kota Mataram, mau hadiri acara Migrasi NTB Go Open Source (Akhirnya! diadakan oleh ristek, kerjasama dengan makara UI, ardelindo, dan POSS UI) sebagai asisten pendamping dari komunitas lokal (KPLI NTB). Tutornya mas Rizky, admin dari Kambing.ui.ac. Siapa sangka saya bisa ketemu sama admin server kambing? gudang terbesar dan tercepat repository linux di indonesia. :)&lt;/p&gt;&#xA;&lt;p&gt;di sana ada pos polisi, ketupang belum datang dan menunggulah saya di sana. lalu 3 polisi datang menempati dan mulai bertugas. saya asyik memperhatikan pohon super gede nan unik yang ada di perempatan itu (pohonnya adalah dua pohon berbeda yang sangat besar dan batangnya saling melilit, daramatis pokoke). tiba-tiba seorang pengendara motor dicegat karena ndak pakai helm. saya menahan diri untuk tidak mengeluarkan kamera.  saya hanya menonton sambil tersenyum dalam hati, sampai transaksi tilang selesai. si pengendara motor dipersilakan ngeloyor pergi sambil menyumpah-nyumpah. keras baget lho, sampai polisinya noleh.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how to recover wordpress-redirect-hacked-by-a7sass</title>
+      <link>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</link>
+      <pubDate>Fri, 03 Sep 2010 20:31:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</guid>
+      <description>&lt;p&gt;alkisah, web milik seorang kawan kena hack. screenshoot :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/hek.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/hek.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;kondisi :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;webnya pakai wordpress&lt;/li&gt;&#xA;&lt;li&gt;halaman dialihkan ke halaman klaim hek blablabla.&lt;/li&gt;&#xA;&lt;li&gt;user dan password berubah.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; mengembalikan user dan password wordpress.&lt;/p&gt;&#xA;&lt;p&gt;saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>internet sehat dengan DNS Nawala</title>
+      <link>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</link>
+      <pubDate>Wed, 11 Aug 2010 18:13:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya makin heran sama anak-anak kecil sekarang. setelah kemarin sempat &lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/uang.jpg&#34;&gt;dikerjain dengan uang palsu&lt;/a&gt; (uang mainan sialan, untung cuma 2000 rupiah), sekarang mereka malah rajin buka situs porno di warnet, padahal sudah bulan puasa. tulisan ini diposting sesaat setelah saya menegur dua anak-anak masih SD karena membuka konten porno. saya suruh pulang saja sekalian. sekali-kali jadi operator yang galak. hehe.&lt;/p&gt;&#xA;&lt;p&gt;jadi bagaimana? &lt;a href=&#34;http://nawala.org&#34;&gt;pakai DNS nawala!&lt;/a&gt; *halah, saya juga baru tauk. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;Nawala Nusantara adalah sebuah layanan yang bebas digunakan oleh   pengguna internet yang  membutuhkan saringan situs negatif. Nawala   Nusantara akan  membantu menapis jenis situs-situs negatif yang tidak   sesuai dengan peraturan  perundangan, nilai dan norma sosial, adat   istiadat dan kesusilaan bangsa  Indonesia seperti pornografi dan   perjudian. Selain itu, Nawala Nusantara juga akan menapis situs Internet   yang mengandung konten berbahaya  seperti malware, situs phising   (penyesatan) dan sejenisnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tindihan &gt; sleep paralys</title>
+      <link>//localhost:1313/post/2010/08/02/tindihan-sleep-paralys/</link>
+      <pubDate>Mon, 02 Aug 2010 22:00:56 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/02/tindihan-sleep-paralys/</guid>
+      <description>&lt;p&gt;pernah mengalami tindihan? dalam artian umum, ketika anda baru bangun tidur, badan tidak bisa digerakkan, sesak nafas dan semacam itu. orang-orang menyebutnya tindihan, badan kita ditindih sama mahluk halus.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya alami juga! saya cerita ke orang lain dan mereka rata-rata punya komentar yang sama, &amp;ldquo;ditindih hantu tu&amp;rdquo;, &amp;ldquo;kamarmu ada jinnya&amp;rdquo;, blablabla. saya jadi ragu.&lt;/p&gt;&#xA;&lt;p&gt;ceritanya begini. saya terbangun dengan posisi tengkurap dan kepala menghadap tembok. saat mata terbuka, saya tidak bisa gerakkan apapun. bahkan membuka mulut pun sulit, cuma bisa menggerakan kelopak mata, berkedip-kedip lihat tembok. dan ini berlangsung agak lama, 1-2 menit mungkin. saya benar-benar ketakutan saat itu. sulit menenangkan pikiran, benar-benar panik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>next atm project : dobsonian!</title>
+      <link>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</link>
+      <pubDate>Sat, 31 Jul 2010 20:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</guid>
+      <description>&lt;p&gt;sebelumnya, &lt;a href=&#34;http://pikopages.wordpress.com/2010/07/03/rancangan-mikroteleskop/&#34;&gt;proyek yang ini &lt;/a&gt;saya nyatakan selesai dan gagal. dalam artian, target tidak terpenuhi, perbesarannya memang bertambah, tapi saya sama sekali tidak bisa lihat kawah bulan dengan jelas. sebenarnya, saya harus menyalahkan lensa-lensa yang jelek ini.&lt;/p&gt;&#xA;&lt;p&gt;sekarang saatnya coba bentuk newtonian. dinamakan demikian karena sir newton yang temukan cara ini. tapi kok saya tulis dobsonian di atas? istilah itu merujuk ke desian inovatif dari teleskop newtonian yang easy made, low cost, and portable by john dobson. silakan baca wikipedia untuk keterangan lebih lanjut.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>24 wajah billy</title>
+      <link>//localhost:1313/post/2010/07/26/24-wajah-billy/</link>
+      <pubDate>Mon, 26 Jul 2010 11:12:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/26/24-wajah-billy/</guid>
+      <description>&lt;p&gt;saya pernah mampir ke sebuah toko buku dan melihat buku berjudul 24 wajah billy di etalase, sebuah novel yang diangkat dari kisah nyata oleh daniel keyes. harganya lumayan. tapi saya mengurungkan niat untuk membeli dan mencari ebook-nya di internet. yang saya temukan agak berbeda, berjudul pertarungan jiwa billy, pengarang yang sama. dilihat dari judul aslinya, dua buku ini jelas berbeda, mind of milligan dan the milligan wars&lt;/p&gt;&#xA;&lt;p&gt;silakan unduh &lt;a href=&#34;http://pikopages.wordpress.com/2010/07/25/ebook-daniel-keyes/&#34;&gt;ebook&lt;/a&gt;-nya kalo mau lihat-lihat&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>anti kantong plastik</title>
+      <link>//localhost:1313/post/2010/06/30/anti-kantong-plastik/</link>
+      <pubDate>Wed, 30 Jun 2010 17:53:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/30/anti-kantong-plastik/</guid>
+      <description>&lt;p&gt;kalau pergi kemana-mana, saya selalu lewat &amp;lsquo;jalan belakang&amp;rsquo;. artinya, dari titik A ke titik B, saya menghindari jalan besar atau jalan raya. saya suka lewat jalan2 kecil rumah penduduk, meski jalannya berkelok2 dan jadi lebih jauh. saya menghindari asap kendaraan bermotor.&lt;/p&gt;&#xA;&lt;p&gt;nah, setiap pulang pergi kerja, jalan yang saya pilih, melewati salah satu TPS (tempat pembuangan sementara), letaknya persis di samping jembatan di kota ampenan. bau? iya. bau tak masalah, saya bisa tahan nafas lewat sana. tapi yang bikin dada sesak, terlalu banyak sampah, terlalu banyak. kenapa terlalu banyak sampah? terlalu banyak manusia yang hidup kurangnya kesadaran masyarakat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>membuat mikroskop dengan teropong binokular</title>
+      <link>//localhost:1313/post/2010/06/29/membuat-mikroskop-dengan-teropong-binokular/</link>
+      <pubDate>Tue, 29 Jun 2010 17:40:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/29/membuat-mikroskop-dengan-teropong-binokular/</guid>
+      <description>&lt;p&gt;perhatian : yang saya lakukan adalah coba-coba, bisa jadi hasilnya berbeda jika anda yang lakukan.&lt;/p&gt;&#xA;&lt;p&gt;halo.&lt;/p&gt;&#xA;&lt;p&gt;kemarin, setelah keputusasaan saya dalam membuat teleskop refraktor buatan (berhasil, namun perbesarannya sangat mengecewakan, tidak jauh beda dengan teropong binokular saya, jadi saya bongkar lagi deh), saya mulai bermain-main lagi. kali ini tidak lagi coret-coret di kertas untuk hitung fokus, etc.&lt;/p&gt;&#xA;&lt;p&gt;saya hanya bermain-main dengan lensa dan mendapatkan gambar sejelas ini &amp;gt; (btw, jangan di-zoom lagi)  &lt;a href=&#34;http://www.gigapan.org/gigapans/28204/&#34;&gt;http://www.gigapan.org/gigapans/28204/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ngerusak IBM tingped</title>
+      <link>//localhost:1313/post/2010/06/19/ngerusak-ibm-tingped/</link>
+      <pubDate>Sat, 19 Jun 2010 16:17:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/19/ngerusak-ibm-tingped/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.thinkwiki.org/wiki/Category:365ED&#34;&gt;http://www.thinkwiki.org/wiki/Category:365ED&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;itu spesifikasi leptop jadul yang mampir ke kakak saya. yang punya bilang &amp;ldquo;ini leptop, bisa ndak diperbaikin, supaya bisa dipakai buat ngerjain tugas, nulis skripsi, etc. sudah lama sekali tidak dipakai&amp;rdquo;. ditambahkan,&amp;ldquo;ini dulu harganya empat belas juta rupiah. pernah dijadiin sandaran dipan (tempat tidur)&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;wow! kunooooo! tebel! tembem!&lt;/p&gt;&#xA;&lt;p&gt;kakak saya nyaman-nyaman saja terima si ting ped. saat dibuka, wow, LCDnya (btw, sebenarnya bukan LCD, tapi STN-super twisted nematic display) kecil, seukuran netbuk sekarang lah. ada pengatur kontras di sampingnya. permukaannya rada hancur dan terlihat hampir pecah. kami tebak, rusak.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>the S.I.G.I.T - provocateur</title>
+      <link>//localhost:1313/post/2010/06/13/the-s.i.g.i.t-provocateur/</link>
+      <pubDate>Sun, 13 Jun 2010 16:04:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/13/the-s.i.g.i.t-provocateur/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=pPLDL5-UEMU&amp;amp;feature=related]&lt;/p&gt;&#xA;&lt;p&gt;wuiii, banyak darah! :D&lt;/p&gt;&#xA;&lt;p&gt;saya ndak ngerti musik, tapi lihat apa yang saya temukan di bagian komen video ini.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/06/koment.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/koment.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kesetrum genset</title>
+      <link>//localhost:1313/post/2010/05/28/kesetrum-genset/</link>
+      <pubDate>Fri, 28 May 2010 21:11:35 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/28/kesetrum-genset/</guid>
+      <description>&lt;p&gt;halo kawan :(&lt;/p&gt;&#xA;&lt;p&gt;lebih dahulu, saya mau kasi tau penyebab semua ini : PLN sux!&lt;/p&gt;&#xA;&lt;p&gt;oke, jika untuk alasan penghematan, saya setuju pemadaman bergilir, tapi kalau pemadamannya **di luar jadwal dan 3 kali berturut-turut **dan jangka waktu sebentar, saya rasa itu tidak bisa ditoleransi.&lt;/p&gt;&#xA;&lt;p&gt;ceritanya begini. hari ini jadwalnya kota ampenan nyala, jadi warnet jalan terus dan saya ndak perlu ngurus genset. tapi, malam itu tiba-tiba mati lampu. dan genset pun saya nyalakan, 4 kali narik starternya yang lumayan berat. brrrr&amp;hellip;. brrrr&amp;hellip; (suara genset gitu ya?)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hey there</title>
+      <link>//localhost:1313/post/2010/04/11/hey-there/</link>
+      <pubDate>Sun, 11 Apr 2010 09:54:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/11/hey-there/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=wOtZfnWMCTg]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>the bird and the white rose</title>
+      <link>//localhost:1313/post/2010/04/06/the-bird-and-the-white-rose/</link>
+      <pubDate>Tue, 06 Apr 2010 18:53:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/06/the-bird-and-the-white-rose/</guid>
+      <description>&lt;p&gt;once upon a time a bird fell in love with a white rose. one day she, the bird, proposed to him, the white rose, but the white rose refused. white rose said &amp;ldquo;i don&amp;rsquo;t love you&amp;rdquo;. the bird came daily and proposed to the white rose. finally, the white rose said &amp;ldquo;when i will turn red, i will love you&amp;rdquo;. one day the bird came and cut her wings and spread her blood on the white rose and the rose turned red. then the rose realized how much the bird loved him but it was too late because the bird was dead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kok bisa?</title>
+      <link>//localhost:1313/post/2010/04/02/kok-bisa/</link>
+      <pubDate>Fri, 02 Apr 2010 16:42:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/02/kok-bisa/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=vUwCz_rJFU4&amp;amp;feature=player_embedded]&lt;/p&gt;&#xA;&lt;p&gt;orang ini solving rubik. bedanya, dia menuliskan terlebih dahulu waktu yang akan dia capai, baru solving, dan waktunya memang berhenti seperti yang dia inginkan, bahkan pada milidetiknya pun tepat. orangnya kidal. jam dinding itu menunjukkan bahwa video ini tidak diedit percepat atau diperlambat. bagaimana hal ini bisa dijelaskan?&lt;/p&gt;&#xA;&lt;p&gt;saya sendiri jengkel karena ndak nemu jawabannya. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>akhirnya... 8)</title>
+      <link>//localhost:1313/post/2010/03/11/akhirnya...-8/</link>
+      <pubDate>Thu, 11 Mar 2010 20:37:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/11/akhirnya...-8/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_910&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;hmm&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/03/foto003.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/foto003.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;setelah bertahan seminggu dalam kegelapan, akhirnya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;dan seperti biasa, silindernya nambah T____T&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>photoblog : DNF</title>
+      <link>//localhost:1313/post/2010/02/20/photoblog-dnf/</link>
+      <pubDate>Sat, 20 Feb 2010 17:36:27 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/20/photoblog-dnf/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_882&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;MRC-gath&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/24297_348478775198_605305198_5252356_6186689_n.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/24297_348478775198_605305198_5252356_6186689_n.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/cz47.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;**TIMED BY CCT Ver. 0.9.3&lt;/p&gt;&#xA;&lt;p&gt;**&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Best timer ever : 24.42&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;50/50 solve average : 36.57&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;32.30    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.67    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.98    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;33.92    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.91    N/A    35.17&lt;/p&gt;&#xA;&lt;p&gt;31.95    N/A    35.17&lt;/p&gt;&#xA;&lt;p&gt;37.48    N/A    35.27&lt;/p&gt;&#xA;&lt;p&gt;37.66    N/A    35.77&lt;/p&gt;&#xA;&lt;p&gt;32.75    N/A    35.38&lt;/p&gt;&#xA;&lt;p&gt;38.59    N/A    35.96&lt;/p&gt;&#xA;&lt;p&gt;36.25    N/A    37.13&lt;/p&gt;&#xA;&lt;p&gt;35.44    35.34    36.45&lt;/p&gt;&#xA;&lt;p&gt;38.58    35.96    36.76&lt;/p&gt;&#xA;&lt;p&gt;37.38    36.14    37.40&lt;/p&gt;&#xA;&lt;p&gt;36.09    36.15    36.57&lt;/p&gt;&#xA;&lt;p&gt;36.02    36.36    36.50&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ada yang ingat?</title>
+      <link>//localhost:1313/post/2010/02/15/ada-yang-ingat/</link>
+      <pubDate>Mon, 15 Feb 2010 21:05:15 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/15/ada-yang-ingat/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=z7kA9bzKkOY]&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=pkYPD9xje2E]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koleksi baru : mirror cube</title>
+      <link>//localhost:1313/post/2010/02/11/koleksi-baru-mirror-cube/</link>
+      <pubDate>Thu, 11 Feb 2010 16:08:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/11/koleksi-baru-mirror-cube/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_854&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;solved&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/picture-001.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/picture-001.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_855&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;scrambled&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/picture-002.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/picture-002.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;beli di &lt;a href=&#34;http://www.djiraf.com/&#34;&gt;djiraf&lt;/a&gt;. diberitahu kawan MRC, di djiraf ada di jual macam-macam twist puzzle. saya langsung ngiler tapi isi kantong belum menginjinkan. akhirnya cuma bisa ngiler terus. tiba-tiba kakak saya nongol bawa-bawa si perak ini, saya langsung muntah. yang saya herankan, harganya mudah sekali, cuma 45 ribu, beda dengan di e-shop lain yang di atas 100ribuan. mungkin kualitasnya patut ditanyakan, ah peduli apa, yang penting punya dulu. solvingnya gampang, tapi susah karena saya lemah dalam pandang ruang. woof&amp;hellip; woof&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>dua</title>
+      <link>//localhost:1313/post/2010/02/02/dua/</link>
+      <pubDate>Tue, 02 Feb 2010 14:11:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/02/dua/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_686&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;2&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/picture-008.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/picture-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ujung yang tak rata</title>
+      <link>//localhost:1313/post/2010/01/31/ujung-yang-tak-rata/</link>
+      <pubDate>Sun, 31 Jan 2010 00:59:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/31/ujung-yang-tak-rata/</guid>
+      <description>&lt;p&gt;kemarilah, dengar.&lt;/p&gt;&#xA;&lt;p&gt;buatlah aku mengerti, kawan, mengapa aku berdiri di ujung yang tak rata dan rentan patah ini? siapa yang membawaku kesini? mengapa?&lt;/p&gt;&#xA;&lt;p&gt;hanya kau yang tahu, dood. namun kenyataannya, aku tidak tahu atau pura-pura tidak tahu, atau&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;setiap pagi, atau mungkin siang, bahkan malam, aku terbangun dan selalu bertanya-tanya. mengapa aku masih hidup? mengapa aku bangun lagi? dan jika aku diharuskan mengulang hari-hari panjang, mengapa aku tidak boleh merubahnya sedikit saja? sedikit saja, kawan. hanya sedikit. sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rubiks Finger Syndrom</title>
+      <link>//localhost:1313/post/2010/01/27/rubiks-finger-syndrom/</link>
+      <pubDate>Wed, 27 Jan 2010 18:26:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/27/rubiks-finger-syndrom/</guid>
+      <description>&lt;p&gt;woof, blog&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;awal kisahnya, temen saya minjem rubik storebrought saya tersayang, si kotak bengkok (namanya memang demikian karena cubiesnya pada bengkok sering saya banting kalo solved, purak-purak pakek stacktimer gitu -_-). saat rubik mahal ini balik ke tangan saya, putarannya jadi keras sekali dan saya kira rusak. saya hampir marah. teman saya bilang si kotak bengkok dikasi WD40 dan dia heran kok malah jadi macet, bukannya tambah smooth putarannya. WD40 man! jogang kamu&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clue MatiBeku.com Stage 1</title>
+      <link>//localhost:1313/post/2010/01/23/clue-matibeku.com-stage-1/</link>
+      <pubDate>Sat, 23 Jan 2010 05:45:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/23/clue-matibeku.com-stage-1/</guid>
+      <description>&lt;p&gt;yah, mungkin sudah telat sekali, karena matibeku sudah lama sekali dibuat. tapi masih banyak pemain mayatbeku yang baru. :)&lt;/p&gt;&#xA;&lt;p&gt;awalnya saya main notpron, tapi langsung nyerah. terus main matigosong, langsung gosong. dan tempo hari, si anggarda kasi tahu soal matibeku.com. woof, saya cobain dan akhirnya  ketagihan. teka-tekinya menyenangkan bagi saya.&lt;/p&gt;&#xA;&lt;p&gt;Stage 1 sangat-sangat mudah dan menyenangkan. Tapi ujian naik kelasnya agak sedikit berbeda. Stage 2 lumayan dan lebih menyenangkan. Stage 3? Nah, disinilah saya stuck, mabok, matibeku total pada level 32. Untuk saat ini, clue stage 1 dulu. saya akan memberikan &lt;strong&gt;petunjuk yang mengarah pada cara mendapatkan jawaban,&lt;/strong&gt; bukan jawaban itu sendiri. ntar takut dimarah pak wangsa. hehehe. kalo belum pernah buka matibeku, coba dulu deh. ini sekilasnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interview with Nyet</title>
+      <link>//localhost:1313/post/2009/12/30/interview-with-nyet/</link>
+      <pubDate>Wed, 30 Dec 2009 12:05:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/30/interview-with-nyet/</guid>
+      <description>&lt;p&gt;ngobok-ngobok forum (lupa forum apaan), dapet dokumentasi wawancara ini.&lt;/p&gt;&#xA;&lt;p&gt;seorang wartawan mewawancarai satu-satunya penumpang yang selamat dari kecelakaan pesawat (seekor monyet sirkus yang bisa ngomong).&lt;/p&gt;&#xA;&lt;p&gt;m : monyet&lt;/p&gt;&#xA;&lt;p&gt;w : wartawan&lt;/p&gt;&#xA;&lt;p&gt;=================&lt;/p&gt;&#xA;&lt;p&gt;w: nyet, bisa cerita penyebab kecelakaan?&lt;/p&gt;&#xA;&lt;p&gt;m: bica.&lt;/p&gt;&#xA;&lt;p&gt;w: waktu pesawat take-off orang-orang ngapain aja?&lt;/p&gt;&#xA;&lt;p&gt;m: penumpang duduk-duduk, pramugari gerak-gerak (maksudnya lagi memperagakan cara menghadapi kecelakaan, termasuk cara memakai parasut), pilot pegang setir.&lt;/p&gt;&#xA;&lt;p&gt;w: kamu ngapain?&lt;/p&gt;&#xA;&lt;p&gt;m: aku ikut duduk-duduk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bukit Sahabat Sepi</title>
+      <link>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</link>
+      <pubDate>Fri, 11 Dec 2009 02:51:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_486&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;768&amp;rdquo; caption=&amp;ldquo;Bukit Sahabat Sepi&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2009/12/10122009601.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/10122009601.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

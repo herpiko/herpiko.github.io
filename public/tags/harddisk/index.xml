@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harddisk on Blog</title>
+    <link>//localhost:1313/tags/harddisk/</link>
+    <description>Recent content in Harddisk on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Nov 2011 01:45:43 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/harddisk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rekoper tabel partisi</title>
+      <link>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</link>
+      <pubDate>Thu, 10 Nov 2011 01:45:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</guid>
+      <description>&lt;p&gt;pernah ndak ngalamin partisi hdd kita jadi aneh? saat mau diinstall sistem operasi, installernya (baik linux, mac, maupun windows) mendeteksi bawah hdd itu tidak punya partisi, kosong. padahal kalau booting ke sistem operasi yang sudah ada, partisinya masih ada, lengkap dengan data.&lt;/p&gt;&#xA;&lt;p&gt;yep, itu bisa diperbaiki hanya dengan memformat ulang salah satu partisi. mumpung masih bisa booting dan bisa dideteksi oleh sistem operasi, gunakan partisi manager (gparted, diskutility, maupun partition magic, semua bisa) dan format salah satu partisi yang ndak penting. kalau semua penting, backup salah satu kemudian format. saya kira itu akan mengembalikan informasi tabel partisi ke MBR. tapi bener kok, di saya masalahnya solved. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>harddisk laptop ternyata memang kuat</title>
+      <link>//localhost:1313/post/2011/01/14/harddisk-laptop-ternyata-memang-kuat/</link>
+      <pubDate>Fri, 14 Jan 2011 04:27:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/14/harddisk-laptop-ternyata-memang-kuat/</guid>
+      <description>&lt;p&gt;ini beneran, saya ndak boong.&lt;/p&gt;&#xA;&lt;p&gt;saya beli adapter usb2ide portabel untuk hdd usang dari kakak saya, sebuah hdd laptop, PATA/IDE seagate 40GB 5400rpm. awalnya harddisk itu masih bisa digunakan, saya cek apakah ada badsector, dan syukurlah masih baik-baik saja. saya mengisinya dengan beberapa file yang saya kira penting untuk dibawa-bawa.&lt;/p&gt;&#xA;&lt;p&gt;besoknya saya colokin lagi ke komputer dan harddisk itu tidak terdeteksi, cuma bunyi &lt;em&gt;&amp;rsquo;ngung&amp;hellip; ngung&amp;hellip;&amp;rsquo;&lt;/em&gt;. saya jengkel sekali karena sudah buang uang untuk beli apadternya. karena jengkel yang tak bisa ditahan saya &lt;strong&gt;membenturkan hdd itu ke tembok&lt;/strong&gt; lalu dicoba lagi, siapa tahu bisa. (jangan ditiru). tetap saja tidak bisa dan saya terus membenturkannya berkali2 dan kadang2 menepukkan ke tangan. akhirnya saya &lt;strong&gt;membantingnya ke lantai&lt;/strong&gt;, keras. saya tinggal, tidak saya pungut.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

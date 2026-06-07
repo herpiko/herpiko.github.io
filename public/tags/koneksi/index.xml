@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koneksi on Blog</title>
+    <link>//localhost:1313/tags/koneksi/</link>
+    <description>Recent content in Koneksi on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 21:03:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/koneksi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

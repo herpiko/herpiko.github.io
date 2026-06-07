@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BIL on Blog</title>
+    <link>//localhost:1313/tags/bil/</link>
+    <description>Recent content in BIL on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Oct 2011 11:34:18 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BIL</title>
+      <link>//localhost:1313/post/2011/10/04/bil/</link>
+      <pubDate>Tue, 04 Oct 2011 11:34:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/10/04/bil/</guid>
+      <description>&lt;p&gt;Yah, kemarin sehari sebelum lepas landas resmi-nya, saya sempat ke Bandara Internasional Lombok (selanjutnya disebut BIL). Ada beberapa hal yang mengusik hati saya mengenai si BIL ini.&lt;/p&gt;&#xA;&lt;p&gt;BIL ini kecil. memang benar saya tidak pernah menginjakkan kaki di bandara yang lebih besar dari pada selaparang, tetapi saya sudah menonton banyak film dan tahu bagaimana seharusnya bandara internasional itu. Seharusnya ada mall besar seperti di The Terminal. (halah)&lt;/p&gt;&#xA;&lt;p&gt;BIL ini besar. Maksud saya, cakupan areanya. Bayangkan saja, dari pintu masuk ke Gedung bandaranya, harus memutar jauh sekali, apalagi sekedar mau ke tempat kargo, wah jauhnya. Bisa dibayangkan borosnya bensin bagi mobil yang rutin bolak-balik bandara-kargo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

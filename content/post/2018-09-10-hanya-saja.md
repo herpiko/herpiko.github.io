@@ -7,11 +7,14 @@ tags:
   - poem
   - puisi
 ---
+Sudah kukirim salam kemarin sore
 
-Sudah kukirim salam kemarin sore<br>
-Hanya saja silir-semilir bayu segan menghampirimu<br>
-Atau kau yang berpaling dari mereka yang mendamba<br>
+Hanya saja silir-semilir bayu segan menghampirimu
 
-Sudah kukirim pesan kemarin sore<br>
-Hanya saja bulir-bulir  hujan malu mengungkapkannya<br>
-Atau kau tak lagi mendengar mereka bersenandung<br>
+Atau kau yang berpaling dari mereka yang mendamba
+
+Sudah kukirim pesan kemarin sore
+
+Hanya saja bulir-bulir  hujan malu mengungkapkannya
+
+Atau kau tak lagi mendengar mereka bersenandung

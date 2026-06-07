@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Account on Blog</title>
+    <link>//localhost:1313/tags/account/</link>
+    <description>Recent content in Account on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2011 22:40:30 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>verifikasi 2 langkah dari Google</title>
+      <link>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</link>
+      <pubDate>Sun, 20 Nov 2011 22:40:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</guid>
+      <description>&lt;p&gt;Suatu pagi, belum mandi dan sikat gigi, saya menemukan notifikasi aneh di halaman gmail saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Saya pikir menarik maka saya mencobanya. Verifikasi 2 langkah adalah cara baru dari Google untuk melindungi pengguna layanan akun Google (gmail, youtube, etc) dari pembajakan akun.  Cara bekerjanya adalah :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Jika kita ingin login, kita memasukkan username dan password seperti biasa, lalu Google akan mengirimi kita sms yang berisi kode verifikasi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kita dialihkan ke halaman verifikasi dan di ponsel kita telah tiba kodenya. kita tinggal memasukkan kode verifikasi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

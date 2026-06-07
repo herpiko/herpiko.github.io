@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buku Panduan Linux on Blog</title>
+    <link>//localhost:1313/tags/buku-panduan-linux/</link>
+    <description>Recent content in Buku Panduan Linux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jul 2009 17:32:54 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/buku-panduan-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Panduan BlankOn 5.0 Nanggar</title>
+      <link>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</link>
+      <pubDate>Fri, 03 Jul 2009 17:32:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</guid>
+      <description>&lt;p&gt;Nyam&amp;hellip; hanya ingin bagi2 info. Tantangan BlankOn bagian dokumentasi telah diselesaikan dengan baik oleh Putu Wiramaswara dan Alit Sudarsana. Sekarang, buku panduan lengkap Nanggar sudah bisa diunduh dalam format pdf.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dev.blankonlinux.or.id/browser/dokumentasi/buku-panduan/buku-panduan.pdf&#34;&gt;silakan sedot di sini :D&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux-Opensource on Blog</title>
+    <link>//localhost:1313/tags/linux-opensource/</link>
+    <description>Recent content in Linux-Opensource on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Dec 2009 06:29:01 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/linux-opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pasang squirrelmail</title>
+      <link>//localhost:1313/post/2009/12/18/pasang-squirrelmail/</link>
+      <pubDate>Fri, 18 Dec 2009 06:29:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/18/pasang-squirrelmail/</guid>
+      <description>&lt;p&gt;ehem&amp;hellip; maaf kalo ini sudah basi. cuma mau sharing. :)&lt;/p&gt;&#xA;&lt;p&gt;karena penasaran dengan pengelolaan webmail, saya coba-coba menginstall salah satu aplikasi webmail, yakni squirrel si tupai&amp;hellip; (bener ndak?)&lt;/p&gt;&#xA;&lt;p&gt;to the point dah&amp;hellip; mula-mula, anda harus punya webserver yang jalan mulus, apache misalnya. langkah pertama, anda harus install paket-paket pendukung : POP3, IMAP, dan SMTP Server. saya mengabaikan hal pertama ini dan mendapatkan squirrelmail tanpa akun. tuh, bloon sekali saiah!&lt;/p&gt;&#xA;&lt;h1 id=&#34;apt-get-install-dovecot-common-dovecot-imapd-dovecot-pop3d-postfix-&#34;&gt;apt-get install dovecot-common dovecot-imapd dovecot-pop3d postfix \&lt;/h1&gt;&#xA;&lt;p&gt;squirrelmail squirrelmail-decode&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panduan BlankOn 5.0 Nanggar</title>
+      <link>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</link>
+      <pubDate>Fri, 03 Jul 2009 17:32:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</guid>
+      <description>&lt;p&gt;Nyam&amp;hellip; hanya ingin bagi2 info. Tantangan BlankOn bagian dokumentasi telah diselesaikan dengan baik oleh Putu Wiramaswara dan Alit Sudarsana. Sekarang, buku panduan lengkap Nanggar sudah bisa diunduh dalam format pdf.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dev.blankonlinux.or.id/browser/dokumentasi/buku-panduan/buku-panduan.pdf&#34;&gt;silakan sedot di sini :D&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versi PDF Wartalinuk</title>
+      <link>//localhost:1313/post/2009/06/28/versi-pdf-wartalinuk/</link>
+      <pubDate>Sun, 28 Jun 2009 16:47:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/28/versi-pdf-wartalinuk/</guid>
+      <description>&lt;p&gt;Hohoho, udah ada versi pdf dari wartalinuk, doakan tetap maju&amp;hellip;:D&lt;/p&gt;&#xA;&lt;p&gt;Setelah mempertimbangkan beberapa hal, kami memutuskan untuk merilis versi PDF dari setiap edisi yang bersangkutan. Untuk sementara ini, baru Wartalinux edisi perdana yang sudah dibuatkan PDF-nya. Edisi-edisi selanjutnya segera menyusul dan akan diupayakan versi PDF dirilis bersamaan versi single html-nya.&lt;/p&gt;&#xA;&lt;p&gt;Silakan unduh &lt;a href=&#34;http://www.ziddu.com/downloadlink/5354391/wartalinux-0.pdf&#34;&gt;versi PDF Wartalinux #0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kirimkan masukan saran dan kritik anda mengenai versi PDF ini ke &lt;a href=&#34;mailto:wartalinux@gmail.com&#34;&gt;wartalinux@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Redaksi,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repositori Ubuntu 9.04 Jaunty Jackalope di Indonesia</title>
+      <link>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</link>
+      <pubDate>Thu, 25 Jun 2009 06:28:19 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</guid>
+      <description>&lt;p&gt;Just Share!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo gedit /ect/apt/sources.list&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;tambahin daftar reponya, habis itu reload&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo apt-get update&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;nyedot dah sepuas-puasnya&amp;hellip; :D**&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.edu (UI, Telkom, Indosat, OpenIXP, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;ftp.itb.ac.id (ITB, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BlankOn 5 &#34;Nanggar&#34; Dirilis!</title>
+      <link>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</link>
+      <pubDate>Thu, 18 Jun 2009 09:56:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</guid>
+      <description>&lt;p&gt;Jakarta 16 Juni 2009 - Pada hari ini Pengembang BlankOn resmi meluncurkan BlankOn versi 5.0 dengan kode rilis Nanggar, budaya yang diangkat pada versi ini adalah budaya dari Batak, nama “Nanggar” diambil dari bahasa batak yang mempunyai arti “Palu”.&lt;/p&gt;&#xA;&lt;p&gt;Beberapa fitur khas baru yang dibawa oleh Nanggar di antaranya adalah Desktop Berkonteks yang dikembangkan oleh Tim Pengembang BlankOn, yang mampu mengganti tema serta gambar latar desktop sesuai jam komputer atau kondisi cuaca yang sedang berlaku saat itu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otak-atik Artwork BlankOn</title>
+      <link>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</link>
+      <pubDate>Wed, 03 Jun 2009 16:33:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</guid>
+      <description>&lt;p&gt;Saya baru mengerti sekarang dan merasakan betul apa itu arti free dalam filosofi GNU/Linux. Benar-benar menyenangkan. Saya melakukan sendiri : memodifikasi karya orang lain yang berlisensi GPL. Meski hanya sedikit coding dan sebagian besar mengolah gambar, saya senang bisa memodifikasi dan mendistribusikan kembali dengan &amp;rsquo;legal&amp;rsquo;. Ini hanya intro.&lt;/p&gt;&#xA;&lt;p&gt;Meski saya pakai blankon, orang lain akan menyangka saya sedang pakai ubuntu. Ya, saya sedang mencoba membohongi diri sendiri. Mulai dari ikon sampai usplash, saya menggunakan artwork ubuntu asli. Why? Apakah rasa ke-indonesia-an saya kurang?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shipit Kubuntu...oalah....</title>
+      <link>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</link>
+      <pubDate>Fri, 03 Apr 2009 17:31:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</guid>
+      <description>&lt;p&gt;Hmmm, kali ini request saya ke shipit direspon lebih cepat dari sebelumnya. Bahkan itu belum enam minggu, sudah sampai. Sayangnya, saya meminta 10 CD kubuntu, tetapi yang disetujui hanya 5 CD. Tak apalah, shipit tetap luar biasa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting LAMPP di Ubuntu</title>
+      <link>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</link>
+      <pubDate>Fri, 03 Apr 2009 17:27:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</guid>
+      <description>&lt;p&gt;Waktu lagi ngerjain proyek bikin web sekolah (mudahan kelar), Windows ngadat berat, nggak bisa copy file dan buka gambar. Bikin kesel minta ampun. akhirnya saya libas partisi windows tanpa belas kasihan dan langsung di merge ke Ubuntu. bagaimana saya ngerjain web berbasis joomla di ubuntu? Saya sudah install php apache mysql dan tetek bengeknya, tetep nggak bisa. Lalu saya dikasih tahu sama ketua seumur hidup KPLI NTB, mas Amrinz, kalo tutorial webserver tu ada di situs yang dikelolanya, &lt;a href=&#34;http://linuxindo.web.id&#34;&gt;linuxindo.web.id.&lt;/a&gt; setelah ngenet berjam-jam buat donlot paketnya (maklum, fakir benwit. waa&amp;hellip;.), akhirnya bisa juga. Tutorial aslinya bahasa inggris, ini sudah saya terjemahin amburadul.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Backtrack dalam Satu Partisi dengan Ubuntu</title>
+      <link>//localhost:1313/post/2009/04/03/install-backtrack-dalam-satu-partisi-dengan-ubuntu/</link>
+      <pubDate>Fri, 03 Apr 2009 17:22:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/install-backtrack-dalam-satu-partisi-dengan-ubuntu/</guid>
+      <description>&lt;p&gt;Mungkinkah? Mungkin saja kalau kita mau berpikir sedikit. Saya begitu ingin menginstall ke harddisk supaya tidak perlu repot booting cd  (yang saya duga penggunaan cd mendukung percepatan habisnya baterai laptop) dan bisa langsung berlama-lama main-main dengan hotspot-hotspot. Sedikit basa-basi, pada awalnya saya membuat partisi tersendiri untuk bt3 sebesar satu giga, dan itu benar-benar mengacaukan susunan partisi di harddisk Macbook yang cuma 60GB ini. Saya mempelajari isi file menu.lst dari grub dan slax.cfg di cd distribusi Slax. Ternyata bukan partisinya yang penting, tapi keberadaan file kernelnya (atau apa mungkin, saya nggak ngerti) yang biasanya bernama vmlinuz dan initrid. Kita harus mendefinisikan letaknya dengan benar di mana pun  kumpulan berkas itu berada. Nah, Anda perlu sebuah partisi ubuntu dengan space kosong lebih dari 1GB, karena Backtrack menghabiskan seukuran 1 CD.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Surat Terbuka Mas Onno W. Purbo</title>
+      <link>//localhost:1313/post/2009/03/03/surat-terbuka-mas-onno-w.-purbo/</link>
+      <pubDate>Tue, 03 Mar 2009 12:33:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/surat-terbuka-mas-onno-w.-purbo/</guid>
+      <description>&lt;p&gt;Jakarta, 2 Maret 2009&lt;/p&gt;&#xA;&lt;p&gt;Redaksi Yth.&lt;/p&gt;&#xA;&lt;p&gt;Dengan Hormat,&lt;/p&gt;&#xA;&lt;p&gt;Microsoft tampaknya melakukan monopoli di Republik Indonesia.&lt;/p&gt;&#xA;&lt;p&gt;Saya bersama istri saya berkunjung ke Megabazar di JHCC pada tanggal 1 Maret 2009. Kami dengan terpaksa membatalkan niat kami untuk membeli netbook / laptop dengan prosesor Atom. Praktis semua netbook / laptop dengan prosesor Atom yang kami temui telah di bundel / pre-install dengan Microsoft &amp;amp; harga yang harus di bayar sudah termasuk Microsoft di dalam-nya. Artinya, pembeli dipaksa untuk membayar Microsoft bersama netbook tersebut tidak peduli walaupun tidak akan digunakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Masalah Instalasi VirtualBox</title>
+      <link>//localhost:1313/post/2009/03/03/masalah-instalasi-virtualbox/</link>
+      <pubDate>Tue, 03 Mar 2009 01:46:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/masalah-instalasi-virtualbox/</guid>
+      <description>&lt;p&gt;Saya ingin sedikit share pengalaman saya menginstal virtualbox versi binary (dari majalah InfoLinux) dan versi open source (dari repo ubuntu). Mungkin sebagian dari Anda yang pernah menginstallnya tidak mengalami masalah. Tapi saya mengalami hal-hal yang menjengkelkan dari keduanya.&lt;/p&gt;&#xA;&lt;p&gt;Pada versi binary, setelah anda menginstallnya Anda tidak dapat menjalankannya. Klik saja ikonnya berkali-kali, tidak ada bedanya. Bukalah terminal dan ketikkan VirtualBox. Akan muncul penjelasan bahwa ada paket ketergantungan (dependensi) yang belum terinstall yaitu, libstdc+5. bila memakai ubuntu Hardy atau Intrepid, kita menemukan libstdc yang terbaru sudah terinstall, versi 6. Install versi 5-nya. apt-get install libstdc+5. Jalankan virtualbox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buku Resmi Panduan Lengkap Distribusi BlankOn</title>
+      <link>//localhost:1313/post/2009/03/03/buku-resmi-panduan-lengkap-distribusi-blankon/</link>
+      <pubDate>Tue, 03 Mar 2009 01:45:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/buku-resmi-panduan-lengkap-distribusi-blankon/</guid>
+      <description>&lt;p&gt;Buku panduan penggunaan blankon sudah dirilis, silakan dapatkan di sini&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf%5D(http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf)&#34;&gt;http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf](http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ShipIt Ubuntu Intrepid Ibex : Nyampe Euy!</title>
+      <link>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</link>
+      <pubDate>Tue, 03 Feb 2009 06:13:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</guid>
+      <description>&lt;p&gt;Mungkin sudah termasuk telat menerima intrepid ibex karena jaunty bentar lagi kelar. Tapi saya tetap senang. Suatu hal yang sangat jarang saya terbangun dari tidur dalam keadaan gembira. Pagi itu saya terbangun karena hp yang bergetar. SMS dari kakak saya : ko, qta kaya raya, dpt kiriman dari belanda!. akh&amp;hellip;akh&amp;hellip; Dia kira itu hadiah apalah, dia kira kiriman hadiah uang atau emas batangan (emang otaknya cenderung kesitu). Tapi dalam sepersekian detik saya sudah sadar kalau itu kiriman dari Canonical. Saya pernah baca di sebuah milis, kalau shipit ubuntu itu dikirim dari Belanda. Dari situs resminya, katanya akan sampai rata-rata 6 minggu, tergantung daerah pengirimannya. Saya mengemis merequest di shipit tanggal 24 november 2008, dan sampai di saya tanggal 28 Januari 2009, itu hampir 2 bulan. Esoknya saya meluncur ke kantor pos untuk ambil barangnya. Di sana katanya bakal dimintai tanda pengenal apa saja dan uang lima ribu rupiah. Karena kartu pelajar saya hilang, semalam saya sibuk ngoprek pakek gimp di slax usb buat kartu pelajar palsu dan langsung diprint dengan laserjet. Jadi deh fotokopi pelajar palsu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Slax ke USB Flashdisk</title>
+      <link>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</link>
+      <pubDate>Tue, 27 Jan 2009 05:16:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</guid>
+      <description>&lt;p&gt;Install linux ke harddisk? Itu sih udah biasa. Bagaimana kalau ke USB Flashdisk? Kebanyakan orang sudah tahu tetapi tidak ada salahnya mencoba. Slax adalah distribusi linux turunan Slackware yang dikustomasi untuk live system. Dibanding distro lain, saya berani bertaruh menginstall slax ke USB paling mudah. O ya, hanya komputer yang mendukung booting USB yang bisa menjalankan slax di flashdisk kita. Ok, langsung saja.&lt;/p&gt;&#xA;&lt;p&gt;Yang diperlukan :&lt;/p&gt;&#xA;&lt;p&gt;a. Flashdisk minimal 256 MB, file-file slax keseluruhan sebesar 200 MB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alasan Mengapa Kita Musti Hijrah dari Windows ke Linux</title>
+      <link>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</link>
+      <pubDate>Sat, 03 Jan 2009 14:28:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</guid>
+      <description>&lt;p&gt;Kok Linux doang yang ditulis?&lt;/p&gt;&#xA;&lt;p&gt;Wekwekwek&amp;hellip;.Saya cuma ingin menyadarkan lebih banyak orang mengenai DOSA kita di sektor IT (dunia komputer maksudnya, mengutip istilah riyogarta). Kalau anda sekuler (mudahan tidak), mungkin anda pikir, &amp;lsquo;dosa di sektor IT&amp;rsquo; itu tidak valid. Mungkin berlebihan saya menyebutnya dosa. Namun, MENGINGAT sebagian besar masyarakat kita (Indonesia) menggunakan Windows bajakan atau tidak asli, saya rasa saya boleh menyebutnya dosa. Bukankah berdosa kalau kita membajak seperti itu? Membajak karya hak cipta adalah pelanggaran hukum dan anda bisa ditahan bertahun-tahun karenanya. Di sekitar lingkungan saya, tidak pernah saya temukan komputer yang terinstall Windows asli KECUALI perusahaan-perusahaan (seperti warnet kelas atas dan perusahaan IT, banyak lagi) dan komputer-komputer desktop dan laptotp yang built-up (biasanya otomatis sudah terinstall Windows asli). Komputer desktop dan laptop itu, sudah saya pastikan, bila rusak softwarenya entah terserang virus atau kenapa, pasti yang diinstall adalah Windows BAJAKAN alias tidak asli. Komputer-komputer rakitan, saya jamin juga, pasti terinstall Windows bajakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BlankOn 4 Meuligoe : Linux Untuk dan Oleh Anak Negeri</title>
+      <link>//localhost:1313/post/2008/12/23/blankon-4-meuligoe-linux-untuk-dan-oleh-anak-negeri/</link>
+      <pubDate>Tue, 23 Dec 2008 14:55:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/blankon-4-meuligoe-linux-untuk-dan-oleh-anak-negeri/</guid>
+      <description>&lt;p&gt;Pertama kali mendengar &amp;lsquo;pengembangan blankon&amp;rsquo; di wikipedia, saya agak heran. Saya pikir itu blangkon beneran, blangkon kok pake dikembang-kembangin. Ternyata BlankOn itu sebuah distro Linux yang dikembangkan oleh orang Indonesia, yaitu YPLI, dan pemerintah. Saya kira BlankOn tidak terlalu bagus, karena buatan anak negeri jadi kurang maju. Tapi seiring pemahaman saya mengenai Linux, ternyata bagusnya sebuah distro itu bukanlah dari penyusun distro itu sendiri, tapi dari paket-paket yang diinstall ke dalamnya. Saya bisa mengubah sebuah distro yang tidak terlalu besar macam BlankOn menjadi lebih baik dan lebih menyenangkan dari pada distro besar paling user friendly seperti Mandriva hanya dengan DVD Repository atau koneksi Internet ke server repository.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Makanya pake LINUX!</title>
+      <link>//localhost:1313/post/2008/12/23/makanya-pake-linux/</link>
+      <pubDate>Tue, 23 Dec 2008 14:48:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/makanya-pake-linux/</guid>
+      <description>&lt;p&gt;Pertama kali saya mengenal Linux adalah saat saya masih kelas 2 SMP. Waktu itu saya baru belajar chatting pakai YM. Di sebuah chatting room saya nyeletuk &amp;lsquo;komputku virusan trus&amp;hellip;&amp;rsquo;, seseorang membalas dengan huruf besar-besar ditambah smile icon &amp;lsquo;MAKANYA PAKE LINUX!&amp;rsquo;. Saya mengira Linux itu sebuah antivirus dan langsung googling untuk download Linux. Ternyata antivirus Linux itu file nya besar sekali, rata-rata seukuran 1 CD dan punya banyak nama. Pastilah antivirus hebat, pikir saya dan saya tidak tertarik lagi karena harddisk saya waktu itu hanya 6GB dan space tersisa tinggal 300MB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Komunikasi antar User dengan GNU/Linux</title>
+      <link>//localhost:1313/post/2008/11/26/komunikasi-antar-user-dengan-gnu/linux/</link>
+      <pubDate>Wed, 26 Nov 2008 09:10:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/26/komunikasi-antar-user-dengan-gnu/linux/</guid>
+      <description>&lt;p&gt;note : Mungkin ada beberapa perintah yang tidak dikenal sistem anda, tergantung distronya. Di tutorial ini digunakan damnsmalllinux, freeBSD, dan Knoppix 3.6.&#xA;Sorry buat yang udah expert kalau tulisan ini sudah basi. Ditujukan untuk newbie yang punya ketertarikan pada linux seperti snivelus.&#xA;Tidak seperti windows yang ditelurkan om bilgate dari redmon, sistem operasi linux selalu hadir dengan kelengkapan, bahkan saat linux masih dalam mode text/prompt, di dalamnya sudah ada program-program hebat yang tidak pernah terpikirkan oleh microsoft. Apa hebatnya DOS? DOS hampir tidak terlalu berguna bila belum ditambahkan program. Hal ini masih diikuti sang adik, serial windows, yang hadir hampir telanjang (maksudnya tidak ada program-program sering kita butuhkan). Program Officer seperti Ms. Office dijual terpisah, jadiah microsoft terkesan pelit. Beda dengan linux yang terbagi-bagi dalam banyak distro. Dalam satu distro, kamu bisa dapatkan banyak program luar biasa yang dikembangkan komunitas.&#xA;Dan dalam distro itu, ada program-program komunikasi yang tidak terpikirkan ada di windows. Sebagaimana dikenal luas, linux adalah operasi sistem multiuser. Bisakah windows menjalankan muliuser? Switch user mungkin jawabannya tapi itu tidak terlalu banyak berguna soalnya kita harus pura-pura logout supaya bisa login di user lain.&#xA;Ini contoh dalam damnsmalllinux, distro super mini. Dalam satu sesi desktop, snivelus login sebagai dua user, yaitu dsl (default user) dan root (super user). Pada jendela di belakang, tanda $ berarti kamu login sebagai user yang tergolong user biasa, limited user. Dalam hal ini, nama usernya dsl.&#xA;Lalu snivel buka prompt/terminal baru (jendela di depan), di awal baris masih berstatus $, limited user. Jalankan perintah ‘su’ (tanpa tanda petik) diikuti nama user untuk login ke user lain. Karena mau login sebagai root, ditulis su root atau cukup su . Masukan password ketika diminta. Apa yang kamu ketik di form password tidak akan terlihat jadi hati-hati (hal-hal kecil berbau keamanan seperti ini diperhatikan oleh varian unix, kalo windows?). Tekan enter dan snivelus bisa bekerja sebagai root dengan tanda #, misalnya melakukan echo seperti ini.&#xA;&lt;a href=&#34;http://pikopages.files.wordpress.com/2008/11/1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

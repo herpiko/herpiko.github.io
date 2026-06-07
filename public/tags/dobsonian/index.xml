@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dobsonian on Blog</title>
+    <link>//localhost:1313/tags/dobsonian/</link>
+    <description>Recent content in Dobsonian on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jul 2010 20:45:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/dobsonian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>next atm project : dobsonian!</title>
+      <link>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</link>
+      <pubDate>Sat, 31 Jul 2010 20:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</guid>
+      <description>&lt;p&gt;sebelumnya, &lt;a href=&#34;http://pikopages.wordpress.com/2010/07/03/rancangan-mikroteleskop/&#34;&gt;proyek yang ini &lt;/a&gt;saya nyatakan selesai dan gagal. dalam artian, target tidak terpenuhi, perbesarannya memang bertambah, tapi saya sama sekali tidak bisa lihat kawah bulan dengan jelas. sebenarnya, saya harus menyalahkan lensa-lensa yang jelek ini.&lt;/p&gt;&#xA;&lt;p&gt;sekarang saatnya coba bentuk newtonian. dinamakan demikian karena sir newton yang temukan cara ini. tapi kok saya tulis dobsonian di atas? istilah itu merujuk ke desian inovatif dari teleskop newtonian yang easy made, low cost, and portable by john dobson. silakan baca wikipedia untuk keterangan lebih lanjut.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

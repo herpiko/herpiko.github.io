@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>//localhost:1313/tags/blog/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 May 2012 15:10:03 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pindah Blog</title>
+      <link>//localhost:1313/post/2012/05/14/pindah-blog/</link>
+      <pubDate>Mon, 14 May 2012 15:10:03 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/05/14/pindah-blog/</guid>
+      <description>&lt;p&gt;Sekarang saya dapat dikunjungi di &lt;strong&gt;&lt;a href=&#34;http://blog.pdft.net&#34;&gt;blog.pdft.net&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Post Wordpress</title>
+      <link>//localhost:1313/post/2012/01/29/new-post-wordpress/</link>
+      <pubDate>Sun, 29 Jan 2012 01:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/29/new-post-wordpress/</guid>
+      <description>&lt;p&gt;coba klik new post dari bar di atas (jika sudah login wordpress). dapatkan ini :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2012/01/snapshot2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/snapshot2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;atau pergi ke http://wordpress.com/#!/post/&lt;/p&gt;&#xA;&lt;p&gt;keren dan ringan. sayangnya saat saya coba, tombol upload foto tidak bekerja.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HBD my blog!</title>
+      <link>//localhost:1313/post/2011/11/04/hbd-my-blog/</link>
+      <pubDate>Fri, 04 Nov 2011 00:20:45 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/04/hbd-my-blog/</guid>
+      <description>&lt;p&gt;yah, 3 tahun ini gitu-gitu doang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wp : single frontpage</title>
+      <link>//localhost:1313/post/2011/01/06/wp-single-frontpage/</link>
+      <pubDate>Thu, 06 Jan 2011 17:46:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/06/wp-single-frontpage/</guid>
+      <description>&lt;p&gt;ini buat wotpres yang dihosting di luar ye (org). setelah googling, sebagian besar ngasih cara yang sama, yaitu :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;buat sebuah page dengan judul home (atau semacam itu) dan diisi dengan tulisan untuk halaman depan.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;buat sebuah page lagi, dengan judul apasajalah, dan isinya kosong.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;di sini https://blablabla/wp-admin/options-reading.php, pilih static, frontpage : halaman home, post page : halaman kosong tadi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;nah, kendalanya untuk tema yang punya menu bar yang berbasis halaman, halaman2 itu akan muncul juga dan sangat mengganggu. gimana dong?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HBD my blog!</title>
+      <link>//localhost:1313/post/2010/11/01/hbd-my-blog/</link>
+      <pubDate>Mon, 01 Nov 2010 04:16:46 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/01/hbd-my-blog/</guid>
+      <description>&lt;p&gt;wah, agak bertepatan pula dengan pesta blogger (sayang ndak bisa nggembel keliling jawa kayak &lt;a href=&#34;http://blackclaw.wordpress.com&#34;&gt;blek&lt;/a&gt; ). saya peringati hari  ini dengan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nulis postingan ini&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;backup isi blog&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baca-baca isi blog dari awal.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;makang-makang sendiri.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;keep blogging!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ehem</title>
+      <link>//localhost:1313/post/2010/09/09/ehem/</link>
+      <pubDate>Thu, 09 Sep 2010 16:04:20 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/09/ehem/</guid>
+      <description>&lt;p&gt;launching photoblog baru di &lt;a href=&#34;http://pikopics.wordpress.com&#34;&gt;pikopics.wordpress.com&lt;/a&gt;. selamat menikmati. :)&lt;/p&gt;&#xA;&lt;p&gt;edit : di sini ajah. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/herpiko&#34;&gt;http://www.flickr.com/herpiko&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

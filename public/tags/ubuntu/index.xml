@@ -1,3 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Blog</title><link>/tags/ubuntu/</link><description>Recent content in Ubuntu on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 00:03:00 +0000</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>LibreOffice Conf.Asia x UbuCon Asia 2023</title><link>/post/2023/10/18/libreoffice-conf.asia-x-ubucon-asia-2023/</link><pubDate>Wed, 18 Oct 2023 00:03:00 +0000</pubDate><guid>/post/2023/10/18/libreoffice-conf.asia-x-ubucon-asia-2023/</guid><description>&lt;h2 id="the-rejection-and-acceptance"&gt;The Rejection and Acceptance&lt;/h2&gt;
-&lt;p&gt;When I first heard about Louca 2023, I was very excited and immediately submit two abstracts. I was convinced that one my submissions is interesting enough to be accepted, except is was not. None of my submissions made it but I am in no doubt that the accepted topics that was listed in the Louca webiste were a lot more interesting.&lt;/p&gt;
-&lt;p&gt;Then one month before the event, I was contacted by one of the organizer. I was asked whether I still want to talk in the event. Maybe someone has to stepped down from the position. They said the topic that they accepted is the one that is less preferable for me (because it&amp;rsquo;s quite a heavy topic). I have to made the proof of concept in less than a month. So it was a bit roller coaster here but the second excitement is real here! :D&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Blog</title>
+    <link>//localhost:1313/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Oct 2023 00:03:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LibreOffice Conf.Asia x UbuCon Asia 2023</title>
+      <link>//localhost:1313/post/2023/10/18/libreoffice-conf.asia-x-ubucon-asia-2023/</link>
+      <pubDate>Wed, 18 Oct 2023 00:03:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/10/18/libreoffice-conf.asia-x-ubucon-asia-2023/</guid>
+      <description>&lt;h2 id=&#34;the-rejection-and-acceptance&#34;&gt;The Rejection and Acceptance&lt;/h2&gt;&#xA;&lt;p&gt;When I first heard about Louca 2023, I was very excited and immediately submit two abstracts. I was convinced that one my submissions is interesting enough to be accepted, except is was not. None of my submissions made it but I am in no doubt that the accepted topics that was listed in the Louca webiste were a lot more interesting.&lt;/p&gt;&#xA;&lt;p&gt;Then one month before the event, I was contacted by one of the organizer. I was asked whether I still want to talk in the event. Maybe someone has to stepped down from the position. They said the topic that they accepted is the one that is less preferable for me (because it&amp;rsquo;s quite a heavy topic). I have to made the proof of concept in less than a month. So it was a bit roller coaster here but the second excitement is real here! :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>shipit has closed</title>
+      <link>//localhost:1313/post/2011/04/14/shipit-has-closed/</link>
+      <pubDate>Thu, 14 Apr 2011 10:25:15 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/14/shipit-has-closed/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/04/shipit.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/shipit.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ah telat. pantes sepuluh sepuluh kemarin tidak dateng2. makasih shipit. :)&lt;/p&gt;&#xA;&lt;p&gt;*diposting sebagai pengingat agar ndak mikir lagi buat ngemis di shipit&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>good bye ubuntu, nice to meet you!</title>
+      <link>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</link>
+      <pubDate>Thu, 17 Feb 2011 22:46:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</guid>
+      <description>&lt;p&gt;kemarin-kemarin malam syukur-syukur dapat ngenet sampai pagi, kesempatan itu saya gunakan untuk mengunduh si natty alpha sekalian paket zimbra yang lumayan besar itu, dan betapa kecewanya saya setelah mencobanya. mungkin memang iya, hal-hal baru yang dibawa ubuntu akan memudahkan pengguna baru, tetapi sungguh membuat frustasi pengguna lama. sungguh!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;awal dari kekecewaan.&lt;/strong&gt;**&#xA;adalah rilis LTS lucid, yang mulai membuat saya kurang sreg sama ubuntu. penggantian semua skema warna serta logo dan pemindahan tombol jendela ke sebelah kiri. mengenai logo itu, benar-benar kecewa berat, karena setahun sebelumnya saya sudah kadung membordir jaket kesayangan saya dengan logo cokelat-jingga-oranye khas ubuntu plus tulisannya yang serba rounded itu. sekarang warna-warna menggoda itu dihilangkan dan jadilah jaket saya ketinggalan jaman. saya dengar linux for human being bukan lagi kata-kata untuk ubuntu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengatur sendiri resolusi layar di ubuntu</title>
+      <link>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</link>
+      <pubDate>Mon, 08 Nov 2010 01:15:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</guid>
+      <description>&lt;p&gt;kemarin saya ketemuan sama komputer desktop dengan VGA SIS, pakai lucid dan resolusinya tidak proposional, mentok 800x600. berhubung tidak sedang koneksi internet untuk unduh driver, kita bisa mengakalinya, dengan xrandr, cvt, dan berkas konfigurasi X, xorg.conf. secara default, xrandr dan cvt sudah terinstall di ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;pertama-tama, musti diperkirakan dulu resolusi yang tepat. misalnya, kita sudah tahu bahwa komputer/laptop ini resolusinya yang paling pas adalah 1368x768 (misalnya). kita bisa coba langsung dengan xrandr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>oprek modem DT8 di ubuntu lucid</title>
+      <link>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</link>
+      <pubDate>Tue, 02 Nov 2010 23:59:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</guid>
+      <description>&lt;p&gt;alkisah, seorang teman dari seorang teman bernama mas isat datang bawa netbook acerone dan bilang modem GSM 3G (advan dt8 telkomsel flash) ndak mau konek, bahkan tidak terdeteksi di ubuntu lucidnya. mas isat ini teman dari mas ook (mas ook itu siapa ya? o yang itu).&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, dari sore sampai malam saya gagal oprekin. dengan merasa kalah dan malu berat,  saya bilang, agar modemnya saya bawa pulang karena masih penasaran kenapa ndak bisa dan supaya besok datang lagi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.10 Maverick Meerkat di Indonesia</title>
+      <link>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</link>
+      <pubDate>Mon, 25 Oct 2010 03:49:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</guid>
+      <description>&lt;p&gt;yak, ini dia repo si maverick. selamat kopas ke sources.list!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;#Buaya&lt;/strong&gt;**&#xA;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;h1 id=&#34;cbn&#34;&gt;CBN****&lt;/h1&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tangkapan kamera : ubuntu di supermarket niaga</title>
+      <link>//localhost:1313/post/2010/09/26/tangkapan-kamera-ubuntu-di-supermarket-niaga/</link>
+      <pubDate>Sun, 26 Sep 2010 02:19:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/26/tangkapan-kamera-ubuntu-di-supermarket-niaga/</guid>
+      <description>&lt;p&gt;kebetulan lagi belanja di supermarket Niaga, jalan  sriwijaya dekat kantor Pos Indonesia, Mataram. dan mumpung bawa SLR,  langsung jepret.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/dsc_0242.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0242.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;masih bingung dengan nama perangkat lunak ini. sudah tanya2 sama kasir tapi kasirnya yang manis cuma angkat bahu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/penjualan-pos.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/penjualan-pos.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sayang gagal jepret kasirnya, padahal manis. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/dsc_0244.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0244.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ini dia. satu kata : gede.&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;HIDOP FOSS!**&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perang netcut</title>
+      <link>//localhost:1313/post/2010/07/19/perang-netcut/</link>
+      <pubDate>Mon, 19 Jul 2010 16:58:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/19/perang-netcut/</guid>
+      <description>&lt;p&gt;bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;komputernya banyak ngadat &amp;amp; deepfreezenya kebobol &amp;gt; install linux install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.&lt;/li&gt;&#xA;&lt;li&gt;ada komputer yang sama sekali ndak konek &amp;gt; ganti konektor RJ45&lt;/li&gt;&#xA;&lt;li&gt;banyak yang netcut &amp;gt; bingung euy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nvidia di ubuntu</title>
+      <link>//localhost:1313/post/2010/07/12/nvidia-di-ubuntu/</link>
+      <pubDate>Mon, 12 Jul 2010 18:27:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/12/nvidia-di-ubuntu/</guid>
+      <description>&lt;p&gt;sejak jaman gutsi gibon, selesai install selalu saja harus sibuk ngoprek ini itu untuk install vga dan dapatkan resolusi layar yang baik. hardy, intrepid, jaunty, karmic, selalu saja. dan parahnya, setelah berhasil install sukses, saya malah melupakan caranya (karena sibuk main game). selalu terulang, haha. menyebalkan sih, karena monitor saya 17 inchi dan resolusi 1024x768 sama sekali tidak menyenangkan. dan barusan instal lucid lagi, lupa lagi. buntu lagi di driver vga. tidak ada yang dideteksi di hardware driver. terus gimana?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.04 Lucid Lynx di Indonesia</title>
+      <link>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</link>
+      <pubDate>Wed, 09 Jun 2010 21:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</guid>
+      <description>&lt;p&gt;silakan. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;**deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.ac.id (UI, Telkom, Indosat, OpenIXP, INHERENT**&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KPLI NTB : Lucid Relase Party</title>
+      <link>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</link>
+      <pubDate>Mon, 17 May 2010 08:15:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</guid>
+      <description>&lt;p&gt;Ubuntu 10.04 telah di rilis 29 April lalu. KPLI NTB bekerjasama dengan  KSL Bumigora mengadakan acara menyambut peluncuran sistem operasi  tersebut. Acara akan dirangkai dalam:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seminar dengan tema  &amp;ldquo;Mengupas Tuntas Ubuntu 10.04 LTS Lucid Lynx&amp;rdquo; oleh Bapak Olan  Wardiansyah, Kepala ICT Kota Bima.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Instalasi Ubuntu 10.04 yang akan  dipandu oleh Amrin Zulkarnain, Ketua KPLI NTB dan Team&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tanya Jawab  dan Troubleshooting&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Doorprize&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HTM Rp 10.000,-&lt;/p&gt;&#xA;&lt;p&gt;(makalah,  snack, cd ubuntu, sertifikat, dll)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lucid Fail : driver wireless broadcom tidak otomatis terinstall (emachine)</title>
+      <link>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</link>
+      <pubDate>Sun, 02 May 2010 02:47:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</guid>
+      <description>&lt;p&gt;29 april dirilis, langsung donglot, install, sempurna. lalu saya coba install di sebuah emachine punya teman (cepul). sempurna, kecuali satu. driver wireless tidak bisa. padahal ini kan broadcom! jah! :(&lt;/p&gt;&#xA;&lt;p&gt;mau donglot driver? bagaimana konek inet kalau waerles ndak bisa? (selain dengan UTP LAN dan akses broadband).&lt;/p&gt;&#xA;&lt;p&gt;saya yakin drivernya ada di dalam CD live lucid, hanya saja tidak terinstall dengan otomatis. jika anda mengalamai masalah ini, jangan khawatir. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Ubuntu 9.10 Karmic Koala di Indonesia</title>
+      <link>//localhost:1313/post/2009/12/30/daftar-repository-ubuntu-9.10-karmic-koala-di-indonesia/</link>
+      <pubDate>Wed, 30 Dec 2009 14:55:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/30/daftar-repository-ubuntu-9.10-karmic-koala-di-indonesia/</guid>
+      <description>&lt;p&gt;Bagi anda yang ingin install atau upgrade aplikasi-aplikasi ubuntu 9.10 karmic koala, berikut ini daftar repository lokal yang bisa anda manfaatkan. Atau jangan-jangan anda malah belum upgrade ke ubuntu 9.10 karmic koala ? Buruan.. segera upgrade. Seperti biasanya taruhlah salah satu list alamat repo ini ke &lt;strong&gt;/etc/apt/sources.list&lt;/strong&gt;. Jika anda pengguna telkomflash, pilihlah repo dari telkom, akses nya mungkin bisa lebih cepat dibanding kan dengan yang lain.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; karmic main restricted universe multiverse**&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repositori Ubuntu 9.04 Jaunty Jackalope di Indonesia</title>
+      <link>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</link>
+      <pubDate>Thu, 25 Jun 2009 06:28:19 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</guid>
+      <description>&lt;p&gt;Just Share!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo gedit /ect/apt/sources.list&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;tambahin daftar reponya, habis itu reload&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo apt-get update&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;nyedot dah sepuas-puasnya&amp;hellip; :D**&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.edu (UI, Telkom, Indosat, OpenIXP, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;ftp.itb.ac.id (ITB, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BlankOn 5 &#34;Nanggar&#34; Dirilis!</title>
+      <link>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</link>
+      <pubDate>Thu, 18 Jun 2009 09:56:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</guid>
+      <description>&lt;p&gt;Jakarta 16 Juni 2009 - Pada hari ini Pengembang BlankOn resmi meluncurkan BlankOn versi 5.0 dengan kode rilis Nanggar, budaya yang diangkat pada versi ini adalah budaya dari Batak, nama “Nanggar” diambil dari bahasa batak yang mempunyai arti “Palu”.&lt;/p&gt;&#xA;&lt;p&gt;Beberapa fitur khas baru yang dibawa oleh Nanggar di antaranya adalah Desktop Berkonteks yang dikembangkan oleh Tim Pengembang BlankOn, yang mampu mengganti tema serta gambar latar desktop sesuai jam komputer atau kondisi cuaca yang sedang berlaku saat itu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otak-atik Artwork BlankOn</title>
+      <link>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</link>
+      <pubDate>Wed, 03 Jun 2009 16:33:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</guid>
+      <description>&lt;p&gt;Saya baru mengerti sekarang dan merasakan betul apa itu arti free dalam filosofi GNU/Linux. Benar-benar menyenangkan. Saya melakukan sendiri : memodifikasi karya orang lain yang berlisensi GPL. Meski hanya sedikit coding dan sebagian besar mengolah gambar, saya senang bisa memodifikasi dan mendistribusikan kembali dengan &amp;rsquo;legal&amp;rsquo;. Ini hanya intro.&lt;/p&gt;&#xA;&lt;p&gt;Meski saya pakai blankon, orang lain akan menyangka saya sedang pakai ubuntu. Ya, saya sedang mencoba membohongi diri sendiri. Mulai dari ikon sampai usplash, saya menggunakan artwork ubuntu asli. Why? Apakah rasa ke-indonesia-an saya kurang?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shipit Kubuntu...oalah....</title>
+      <link>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</link>
+      <pubDate>Fri, 03 Apr 2009 17:31:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</guid>
+      <description>&lt;p&gt;Hmmm, kali ini request saya ke shipit direspon lebih cepat dari sebelumnya. Bahkan itu belum enam minggu, sudah sampai. Sayangnya, saya meminta 10 CD kubuntu, tetapi yang disetujui hanya 5 CD. Tak apalah, shipit tetap luar biasa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting LAMPP di Ubuntu</title>
+      <link>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</link>
+      <pubDate>Fri, 03 Apr 2009 17:27:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</guid>
+      <description>&lt;p&gt;Waktu lagi ngerjain proyek bikin web sekolah (mudahan kelar), Windows ngadat berat, nggak bisa copy file dan buka gambar. Bikin kesel minta ampun. akhirnya saya libas partisi windows tanpa belas kasihan dan langsung di merge ke Ubuntu. bagaimana saya ngerjain web berbasis joomla di ubuntu? Saya sudah install php apache mysql dan tetek bengeknya, tetep nggak bisa. Lalu saya dikasih tahu sama ketua seumur hidup KPLI NTB, mas Amrinz, kalo tutorial webserver tu ada di situs yang dikelolanya, &lt;a href=&#34;http://linuxindo.web.id&#34;&gt;linuxindo.web.id.&lt;/a&gt; setelah ngenet berjam-jam buat donlot paketnya (maklum, fakir benwit. waa&amp;hellip;.), akhirnya bisa juga. Tutorial aslinya bahasa inggris, ini sudah saya terjemahin amburadul.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mengaktifkan iSight di Ubuntu Intrepid</title>
+      <link>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</link>
+      <pubDate>Tue, 03 Mar 2009 01:50:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</guid>
+      <description>&lt;p&gt;Mungkin komputer terbaik di dunia adalah produk Apple (hehehe&amp;hellip;mentang2 pakek Mac). Sudah jadi rahasia umum produk Apple selalu menetapkan standar sendiri yang berbeda dengan vendor hardware maupun software lain. Lihat saja sebuah Macbook atau Powerbook. Anda tidak akan melihat yang namanya &amp;lsquo;BIOS&amp;rsquo;. Aneh sekali kan, komputer tanpa bios? Hardware di mesin mac juga dikhususkan untuk mac os, meski beberapa bisa untuk os lain. Nah, ini ada sedikit info cara mengaktifkan isight, webcam bawaan macbook, sistem operasi Linux Ubuntu. Sampai matipun tidak akan ketemu driver khusus untuk windows atau linux, kecuali mengambil file driver asli isight di Mac OSX, dan driver ini untungnya sudah disediakan di internet. Kalau punya Mac OSX, mungkin tidak terlalu sulit, bagaimana kalau tidak punya Mac OSX? Seperti saya&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ShipIt Ubuntu Intrepid Ibex : Nyampe Euy!</title>
+      <link>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</link>
+      <pubDate>Tue, 03 Feb 2009 06:13:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/02/03/shipit-ubuntu-intrepid-ibex-nyampe-euy/</guid>
+      <description>&lt;p&gt;Mungkin sudah termasuk telat menerima intrepid ibex karena jaunty bentar lagi kelar. Tapi saya tetap senang. Suatu hal yang sangat jarang saya terbangun dari tidur dalam keadaan gembira. Pagi itu saya terbangun karena hp yang bergetar. SMS dari kakak saya : ko, qta kaya raya, dpt kiriman dari belanda!. akh&amp;hellip;akh&amp;hellip; Dia kira itu hadiah apalah, dia kira kiriman hadiah uang atau emas batangan (emang otaknya cenderung kesitu). Tapi dalam sepersekian detik saya sudah sadar kalau itu kiriman dari Canonical. Saya pernah baca di sebuah milis, kalau shipit ubuntu itu dikirim dari Belanda. Dari situs resminya, katanya akan sampai rata-rata 6 minggu, tergantung daerah pengirimannya. Saya mengemis merequest di shipit tanggal 24 november 2008, dan sampai di saya tanggal 28 Januari 2009, itu hampir 2 bulan. Esoknya saya meluncur ke kantor pos untuk ambil barangnya. Di sana katanya bakal dimintai tanda pengenal apa saja dan uang lima ribu rupiah. Karena kartu pelajar saya hilang, semalam saya sibuk ngoprek pakek gimp di slax usb buat kartu pelajar palsu dan langsung diprint dengan laserjet. Jadi deh fotokopi pelajar palsu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alasan Mengapa Kita Musti Hijrah dari Windows ke Linux</title>
+      <link>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</link>
+      <pubDate>Sat, 03 Jan 2009 14:28:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/03/alasan-mengapa-kita-musti-hijrah-dari-windows-ke-linux/</guid>
+      <description>&lt;p&gt;Kok Linux doang yang ditulis?&lt;/p&gt;&#xA;&lt;p&gt;Wekwekwek&amp;hellip;.Saya cuma ingin menyadarkan lebih banyak orang mengenai DOSA kita di sektor IT (dunia komputer maksudnya, mengutip istilah riyogarta). Kalau anda sekuler (mudahan tidak), mungkin anda pikir, &amp;lsquo;dosa di sektor IT&amp;rsquo; itu tidak valid. Mungkin berlebihan saya menyebutnya dosa. Namun, MENGINGAT sebagian besar masyarakat kita (Indonesia) menggunakan Windows bajakan atau tidak asli, saya rasa saya boleh menyebutnya dosa. Bukankah berdosa kalau kita membajak seperti itu? Membajak karya hak cipta adalah pelanggaran hukum dan anda bisa ditahan bertahun-tahun karenanya. Di sekitar lingkungan saya, tidak pernah saya temukan komputer yang terinstall Windows asli KECUALI perusahaan-perusahaan (seperti warnet kelas atas dan perusahaan IT, banyak lagi) dan komputer-komputer desktop dan laptotp yang built-up (biasanya otomatis sudah terinstall Windows asli). Komputer desktop dan laptop itu, sudah saya pastikan, bila rusak softwarenya entah terserang virus atau kenapa, pasti yang diinstall adalah Windows BAJAKAN alias tidak asli. Komputer-komputer rakitan, saya jamin juga, pasti terinstall Windows bajakan.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

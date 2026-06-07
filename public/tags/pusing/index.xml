@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pusing on Blog</title>
+    <link>//localhost:1313/tags/pusing/</link>
+    <description>Recent content in Pusing on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jan 2011 04:32:53 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pusing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bahasa</title>
+      <link>//localhost:1313/post/2011/01/07/bahasa/</link>
+      <pubDate>Fri, 07 Jan 2011 04:32:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/07/bahasa/</guid>
+      <description>&lt;p&gt;sungguh saya benar-benar katak dalam tempurung. selama ini saya merasa nyaman saja duduk-duduk ala sofa di atas bahasa sendiri, bahasa indonesia. sambil mencibir beberapa bahasa yang saya kira menjijikkan dan memuja beberapa bahasa dari bangsa-bangsa tertentu. sungguh pikiran yang benar-benar jelek!&lt;/p&gt;&#xA;&lt;p&gt;ada kalanya saya memandang rendah bahasa lain, misalnya bahasa malaysia (sesungguhnya ini bukan misalnya, saya pernah merasa demikian, entah mungkin pengaruh sentimen terhadap malaysia perihal masalah yang itu tu lho). dan menyukai bahasa jepang padahal tak mengerti sepatah kata pun (karena saya suka nonton j-drama dan semacamnya). tidak adil ya?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

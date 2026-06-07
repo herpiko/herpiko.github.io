@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add Device Loop on Blog</title>
+    <link>//localhost:1313/tags/add-device-loop/</link>
+    <description>Recent content in Add Device Loop on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Dec 2010 22:36:12 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/add-device-loop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>menambah loop device di debian</title>
+      <link>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</link>
+      <pubDate>Thu, 09 Dec 2010 22:36:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</guid>
+      <description>&lt;p&gt;on progress, migrasi ke debian. jadi saya mengunduh 30 keping CD (baru selesai setengahnya). tapi saat mencoba mount semua file iso tersebut (akan dijadikan sebagai repositori), hanya 8 file yang bisa di-mount. ternyata karena loop device-nya dibatasi segitu. nah?&lt;/p&gt;&#xA;&lt;p&gt;cari file /etc/modules dan tambahkan&lt;/p&gt;&#xA;&lt;p&gt;loop max_loop=64&lt;/p&gt;&#xA;&lt;p&gt;reboot. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

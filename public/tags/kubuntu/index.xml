@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubuntu on Blog</title>
+    <link>//localhost:1313/tags/kubuntu/</link>
+    <description>Recent content in Kubuntu on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2009 17:31:30 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/kubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shipit Kubuntu...oalah....</title>
+      <link>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</link>
+      <pubDate>Fri, 03 Apr 2009 17:31:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/shipit-kubuntu...oalah..../</guid>
+      <description>&lt;p&gt;Hmmm, kali ini request saya ke shipit direspon lebih cepat dari sebelumnya. Bahkan itu belum enam minggu, sudah sampai. Sayangnya, saya meminta 10 CD kubuntu, tetapi yang disetujui hanya 5 CD. Tak apalah, shipit tetap luar biasa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

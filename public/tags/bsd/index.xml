@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bsd on Blog</title>
+    <link>//localhost:1313/tags/bsd/</link>
+    <description>Recent content in Bsd on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Aug 2011 04:36:16 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bsd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash sebagai shell default di BSD</title>
+      <link>//localhost:1313/post/2011/08/31/bash-sebagai-shell-default-di-bsd/</link>
+      <pubDate>Wed, 31 Aug 2011 04:36:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/31/bash-sebagai-shell-default-di-bsd/</guid>
+      <description>&lt;p&gt;cari port bash&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;#echo /usr/ports/*/&lt;em&gt;bash&lt;/em&gt;*&#xA;dari hasilnya kita pindah ke direktori port bash dan pasang&#xA;&lt;em&gt;#cd /usr/ports/shells/bash&lt;/em&gt;&#xA;&lt;em&gt;#make install clean&lt;/em&gt;&#xA;cari dimana bash berada&#xA;&lt;em&gt;#whereis bash&lt;/em&gt;&#xA;set bash sebagai shell default&#xA;&lt;em&gt;#chsh -s /usr/local/bin/bash namauser&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;silakan logout dan login kembali. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Berkeley System Distribution (BSD)</title>
+      <link>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</link>
+      <pubDate>Wed, 31 Aug 2011 03:25:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</guid>
+      <description>&lt;p&gt;Ada banyak sekali tulisan-tulisan yang membahas tentang BSD, baik tulisan mengenai sejarah, system administrasi, sampai penggunaan BSD kepada end-user sebagai desktop. Tulisan ini memperkenalkan BSD sebagai alternatif lain dari Linux untuk memenuhi kebutuhan akan UNIX-like operating system di Indonesia. Dalam tulisan ini pula, dibahas mengenai beberapa hal yang membedakan antara Linux dan BSD, namun tidak memutuskan mana yang paling baik, karena untuk menentukan mana operating system yang paling baik digunakan adalah Anda sendiri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

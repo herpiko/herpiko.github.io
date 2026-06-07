@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>LXmed : Menu Editor untuk XFCE di Slackware 13.37 | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">LXmed : Menu Editor untuk XFCE di Slackware 13.37</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/04/07</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/slackware">slackware</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/linux">linux</a>, 
+        <a href="/tags/lxmed">lxmed</a>, 
+        <a href="/tags/menu-editor">menu editor</a>, 
+        <a href="/tags/planet-slackware">planet-slackware</a>, 
+        <a href="/tags/slackware">slackware</a>, 
+        <a href="/tags/xfce">xfce</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Saat masih pakai arch, saya menggunakan openbox dan nyaman dengan obmenuconfig. Bagaimana dengan XFCE di slackware (64 multilib)? Yep, LXmed adalah piranti lunak untuk menyunting menu pada LXDE, sebuah desktop manager yang lebih ringan dari pada XFCE, dan juga bekerja untuk XFCE. Silakan unduh paketnya di <a href="http://lxmed.sourceforge.net/">http://lxmed.sourceforge.net/</a></p>
+<p>Ekstrak dan jalankan ./install.sh. mudah dan cepat, tetapi tidak berhenti sampai di sini. Kita membutuhkan gksu dan jre untuk bisa menjalankan lxmed. jre bisa diinstall dari dvd slackware, terletak di source/l/jre. Umm, yeah, normalnya pasang jre dulu. hehe. Sementara paket gksu (sesuaikan versi slackware dan arsitektur) bisa ditemukan di belantara internet dengan mudah, google always be our friend.</p>
+<p>Bangun paket dengan slackbuild.</p>
+<p>[code]sudo ./jre.Slackbuild[/code]</p>
+<p>paket akan terbentuk di /tmp/</p>
+<p>[code]sudo installpkg /tmp/jre-6u27-x86_64-1.txz[/code]</p>
+<p>jalankan lxmed dari xfcemenu&gt;settings&gt;main menu editor. kita akan mendapati lxmed tidak bekerja karena pengembang lxmed menganaktirikan Slackware.</p>
+<p>cari dimana binary lxmed.</p>
+<p>[code]which lxmed[/code]</p>
+<p>kita akan tahu bahwa ternyata itu bukan berkas binary, melainkan shell script, dengan melihat dalemannya.</p>
+<p>[code]#!/bin/bash</p>
+<h1 id="discovered-distro-debian-by-default">discovered distro; Debian by default</h1>
+<p>DISTRO=&lsquo;Debian&rsquo;</p>
+<h1 id="distro-names">distro names</h1>
+<p>DEBIAN=&lsquo;Debian&rsquo;</p>
+<p>SUSE=&lsquo;SuSe&rsquo;</p>
+<p>REDHAT=&lsquo;RedHat&rsquo;</p>
+<p>MANDRAKE=&lsquo;Mandrake&rsquo;[/code]</p>
+<p>Slackware tidak ada, hahaha. dan di baris akhir :</p>
+<p>[code]if [ &ldquo;${DISTRO}&rdquo; = &ldquo;${SUSE}&rdquo; ];</p>
+<p>then</p>
+<p>gnomesu &ndash;command &ldquo;java -jar /opt/lxmed/LXMenuEditor.jar&rdquo;</p>
+<p>else</p>
+<p>gksu &ndash;message &ldquo;Please enter password to run lxmed in fully operational mode:&rdquo; &lsquo;java -jar /opt/lxmed/LXMenuEditor.jar&rsquo;</p>
+<p>fi[/code]</p>
+<p>Nyatanya perintah gksu tersebut tidak jalan di Slackware. hapus saja semua barisnya dan masukkan satu baris berikut</p>
+<p>[code]java -jar /opt/lxmed/LXMenuEditor.jar[/code]</p>
+<p>Simpan dan jalankan di terminal</p>
+<p>[code]sudo lxmed[/code]</p>
+<p>Sebuah jendela aplikasi java akan muncul, itulah lxmed. Sampai di sini semua sudah bekerja dengan baik. Tinggal langkah terakhir, edit menu settings&gt;main menu editor. ganti command &rsquo;lxmed&rsquo; menjadi &lsquo;gksu lxmed&rsquo;. tanpa tanda petik.</p>
+<p>Sekarang kita bisa mengakses lxmed dari menu xfce dan gksu bekerja untuk menanyakan password root. :)</p>
+<p>no pict = hoax :P</p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/lxmed.png"><img src="/assets/lxmed.png" alt=""></a></p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

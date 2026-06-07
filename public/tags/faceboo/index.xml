@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faceboo on Blog</title>
+    <link>//localhost:1313/tags/faceboo/</link>
+    <description>Recent content in Faceboo on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2011 20:10:24 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/faceboo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>akun chat.facebook di iChat</title>
+      <link>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</link>
+      <pubDate>Sun, 21 Aug 2011 20:10:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</guid>
+      <description>&lt;p&gt;bisakah? bisa.&lt;/p&gt;&#xA;&lt;p&gt;pilih jabber account. isikan usernya dengan &lt;a href=&#34;mailto:user@chat.facebook.com&#34;&gt;user@chat.facebook.com&lt;/a&gt;. string user di sini adalah string user halaman profil kita, misal &lt;a href=&#34;http://facebook.com/herpikodwiaguno&#34;&gt;http://facebook.com/herpikodwiaguno&lt;/a&gt;. isikan password. klik server option dan isi servernya dengan chat.facebook.com dan port 5222.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/ichatsetup.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/ichatsetup.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;sayangnya ichat ndak mendukung YM. :(&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

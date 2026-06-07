@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvidia on Blog</title>
+    <link>//localhost:1313/tags/nvidia/</link>
+    <description>Recent content in Nvidia on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jul 2010 18:27:26 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nvidia di ubuntu</title>
+      <link>//localhost:1313/post/2010/07/12/nvidia-di-ubuntu/</link>
+      <pubDate>Mon, 12 Jul 2010 18:27:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/12/nvidia-di-ubuntu/</guid>
+      <description>&lt;p&gt;sejak jaman gutsi gibon, selesai install selalu saja harus sibuk ngoprek ini itu untuk install vga dan dapatkan resolusi layar yang baik. hardy, intrepid, jaunty, karmic, selalu saja. dan parahnya, setelah berhasil install sukses, saya malah melupakan caranya (karena sibuk main game). selalu terulang, haha. menyebalkan sih, karena monitor saya 17 inchi dan resolusi 1024x768 sama sekali tidak menyenangkan. dan barusan instal lucid lagi, lupa lagi. buntu lagi di driver vga. tidak ada yang dideteksi di hardware driver. terus gimana?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

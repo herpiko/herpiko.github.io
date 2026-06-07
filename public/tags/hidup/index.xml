@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hidup on Blog</title>
+    <link>//localhost:1313/tags/hidup/</link>
+    <description>Recent content in Hidup on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jun 2011 22:27:11 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hidup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>buku</title>
+      <link>//localhost:1313/post/2011/06/14/buku/</link>
+      <pubDate>Tue, 14 Jun 2011 22:27:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/14/buku/</guid>
+      <description>&lt;p&gt;di sela-sela putaran semesta&lt;/p&gt;&#xA;&lt;p&gt;kuharap bukuku habis lebih dahulu&lt;/p&gt;&#xA;&lt;p&gt;hingga ku tak perlu tahu halaman terakhir bukumu&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Putus Nyambung</title>
+      <link>//localhost:1313/post/2009/12/21/putus-nyambung/</link>
+      <pubDate>Mon, 21 Dec 2009 09:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/21/putus-nyambung/</guid>
+      <description>&lt;p&gt;ngetik lagi nih&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;saya lupa cerita sedikit tentang keseharian. yah, memang bukan kebiasaan saya untuk berbagi cerita, tapi kawan-kawan bilang saya harus menumpahkan gelas. jadi, inilah dia, toh blog jadi terupdate.&lt;/p&gt;&#xA;&lt;p&gt;setelah 5 bulan jadi disener grapis di sebuah perusahaan percetakan, saya berhenti mendadak. tanya kenapa? tetangga kanan kiri ribut, ayam berkokok malam-malam, dan ban sepeda saya gembos. akhirnya Big Bos saya bertanya takzim, “Kau kenapa berhenti?”&lt;/p&gt;&#xA;&lt;p&gt;“Capek,” saya bilang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dimakan Waktu</title>
+      <link>//localhost:1313/post/2009/05/01/dimakan-waktu/</link>
+      <pubDate>Fri, 01 May 2009 09:00:32 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/05/01/dimakan-waktu/</guid>
+      <description>&lt;p&gt;Aneh sekali liat orang ngerayain ultah. Senang umur semakin pendek. Saya? Ah, tidak ada yang memperhatikan. Jadi sadar, tahun ini tidak jauh lebih baik dari tahun kemarin. Kenapa begini?&lt;/p&gt;&#xA;&lt;p&gt;Sekarang usia badan ini sudah tujuh belas. Di budaya barat, sudah boleh minum miras dll. Tapi saya tidak melihat perbedaan, apa yang boleh dan tidak boleh saya lakukan jika belum dan sudah berusia tujuh belas, untuk saya. Hidup serasa datar&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Ummm&amp;hellip; Mau makan bakso dulu&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

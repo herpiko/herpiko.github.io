@@ -1,11 +1,10 @@
 ---
-layout: post
-title: Taman Baca Kesiman
+title: "Taman Baca Kesiman"
 date: 2018-07-11 00:00:00 +0700
 categories:
-    - Blog
+  - Blog
 tags:
-    - random
+  - random
 ---
 
 

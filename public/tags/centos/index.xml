@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Centos on Blog</title>
+    <link>//localhost:1313/tags/centos/</link>
+    <description>Recent content in Centos on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2011 11:17:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>server kantor</title>
+      <link>//localhost:1313/post/2011/02/26/server-kantor/</link>
+      <pubDate>Sat, 26 Feb 2011 11:17:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/26/server-kantor/</guid>
+      <description>&lt;p&gt;salah satu mesin ibm disini isinya centos. kalau ada masalah jaringan, langsung lari kesini dan berdiri menggigil kedinginan. kalau sudah selesai kaki sakit sekali. kursi tak setinggi ini (atau saya yang kurang tinggi?).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small4.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small4.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

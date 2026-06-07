@@ -1,4 +1,218 @@
-<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>Quarantine PC Build | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/now/>~/now</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><div class=article-meta><h1><span class=title>Quarantine PC Build</span></h1><div style=font-size:.8em;color:grey;line-height:1.2em><span class=date>Date: 2020/04/10</span><br><span class=terms>Categories:
-<a href=/categories/personal-computer>personal computer</a>,
-<a href=/categories/pc>pc</a>,
-<a href=/categories/build>build</a><br><br></span></div></div><div class=content-wrapper><main><p>My wife has an old wish: a gaming platform to play both old games (e.g. Heroes of Annihilated Empires) and new games (e.g. The Witcher 3). I’ve setup a trial version VMWare Fusion on her Macbook Air to let her playing HoAE there but that old game does not run smoothly under VMWare DirectX 11 driver. Our Nintendo 3DS is not with us for now and our old Xbox 360 has been dead for a while (but the controllers still run well). On the other hand, self-quarantine easily gets us bored.</p><p>We already considered to buy a new gaming console but after some researches we reached a conclusion. It&rsquo;s still cheaper to gaming on PC platfrom instead of console.</p><p>So I thought about building a budget PC gaming for her during this coronavirus quarantine period. PC Master Race subreddit call this Quarantine Build. The PC is mainly for my wife but sometimes I can use it. My goals are:</p><ul><li>The budget should be less than 8 million rupiahs.</li><li>It should be able to play recent games (low setting is no problem for us)</li><li>It can support my job occasionally (huge RAM capacity, faster storage, minimum of 4 core processors for compiling purpose).</li></ul><p>Let’s dive into the detail.</p><h3 id=cpu-and-gpu-ryzen-5-3400g-with-radeon-rx-vega-11-graphics>CPU and GPU: Ryzen 5 3400G with Radeon RX Vega 11 Graphics</h3><img src=/assets/ryzen53400g.jpg width=450><p>After doing research on CPU and GPU, I decided to pick a Ryzen processor with iGPU. Radeon name still sounds great for me. If I bought a discrete GPU it&rsquo;ll add at least another 4 millions to the budget. I&rsquo;ll not make it. The CPU has 4 cores with 8 threads and 3.7Ghz base frequency. Some reviews said that this iGPU can run The Witcher 3 smoothly on low or medium settings. Should be ok for her. The CPU package provides stock CPU cooler named Wraith Spire.</p><p>Its price was almost at the same level as Ryzen 5 2500X (same core, thread and frequency), but with integrated GPU. The CPU has a 3 years warranty from EMD.</p><h3 id=motherboard-asus-prime-a320m-k>Motherboard: ASUS Prime A320M-K</h3><img src=/assets/quarantine_build_motherboard.jpg width=450><p>ASUS said this motherboard has an overclocking feature. It’s conflicted with the fact that A320 chipset is not capable of OC. The recommended motherboards for 4500 series Ryzen are the A450, A550, and the X series chipsets. Some motherboard vendor updated their A320 motherboard to support the recent processors. This is a risky bet. If I got the outdated BIOS version, my build will not turn on correctly and show no display at all. At worst, I’ll have to:</p><ul><li>find another old processor like Atlhon 200GE or</li><li>submit a request to AMD to send me a bootkit (also an Athlon 200GE) or</li><li>return the motherboard to the retailer and ask them to update the BIOS first.</li></ul><p>The last one is not so convincing. I took the bet anyway and be prepared for bad luck.</p><p>The motherboard has a 3 years warranty as well.</p><h3 id=ram-32gb-v-gen-platinum-ddr-4-2666mhz-2x16gb>RAM: 32GB V-Gen Platinum DDR 4 2666Mhz (2x16GB)</h3><img src=/assets/quarantine_build_ram.jpg width=450><p>I want to play with k8s and be able to open hundreds of tabs on Firefox. My original plan is to buy a single 16GB RAM then add another 16GB several month later. But after seeing rupiah position going bad recently, I decided to pick 2 sticks at once instead. It will be 32GB RAM with dual channel activated. The processor supports up to 2933MHz and the motherboard supports it up to 3200Mhz. I see no cheap 2933Mhz at the market place and grab a pair of 2666Mhz RAM.</p><p>My first choice is the Klevv Bolt series but they are out of stocks everywhere. I got VGEN instead. This V-Gen RAM has no heatsink, just like the Klevv Value series. At least it’s black, matched with the mainboard.</p><h3 id=storage-intel-ssd-660p-512gb-nvme-2280-pcie-gen-3-x4>Storage: Intel SSD 660P 512GB NVMe 2280 PCIe Gen 3 x4</h3><img src=/assets/quarantine_build_nvme.jpg width=450><p>My portable computer (X1 Carbon Gen 3) is fast enough with its NVME storage and I want NMVE SSD too in this build. At first Samsung EVO 970 is on my list but then this will not be a budget build. So I choose Intel 660p series for half of the price of Samsung EVO 970.</p><h3 id=power-supply-unit>Power Supply Unit</h3><img src=/assets/quarantine_build_psu.jpg width=450><p>I do care about PSU after a plurker gave a piece of advice so I pick a Cooler Master MWE 450W, an 80 plus PSU. Cheap enough but it has decent cable socket configuration, like 8 pins cable to power CPU and could handle most of the midrange graphic cards for future upgrade. The cables are in black color. I’ve no intent for overclocking, 450 watts should be enough.</p><h3 id=case-micro-atx-aigo-darkflash-dlm22-titanium>Case: Micro ATX aigo darkFlash DLM22 Titanium</h3><img src=/assets/quarantine_build_case.jpg width=450><p>It’s a cheap minimalist but elegant case. Until now I don’t know if PC case has evolved to having the PSU on the bottom instead of the top.</p><h3 id=fans>Fans</h3><p>Cheap fans with blue LED. I expected a modern fan with 3 pins small socket but I got otherwise. But that’s not a problem since the PSU has plenty of standard 4 pins unused.</p><h3 id=precaution-on-coronavirus>Precaution on coronavirus</h3><p>I cleaned then quarantined all the arrived packages for hours before opening them.</p><h3 id=building>Building</h3><p>Just like the old days, PC building is always fun.</p><img src=/assets/quarantine_build_boot_up.png width=450><p>After some digging, it turned out that this motherboard has X370 chipset instead of A320! No wonder if it has overclocking feature in the BIOS. The motherboard recognizes the Ryzen 5 3400G with no issue.</p><img src=/assets/quarantine_build_bios.jpg width=450><p>The bad part is the motherboard has some defects: it does not recognize the LAN port and the third PCIe lane. After all this coronavirus is over, I’ll look after the warranty.</p><img src=/assets/quarantine_build_finished.jpg width=450><p>Honestly, I was surprised by how the PC component has evolved since I was not following it for years.</p><h3 id=future-upgrade-plan>Future Upgrade Plan</h3><p>The motherboard has wide support for new Ryzen CPUs. My plan is after a year or more, I want to upgrade the CPU to non-APU with eight cores or more (maybe a zen 3 generation) and add a good graphic card (a GPU that equals with NVidia 1660 Ti or 2060).</p><h3 id=pc-building-in-the-past>PC Building in the past</h3><p>I used to be a PC person. My first PC (actually it&rsquo;s my dad&rsquo;s PC) was an Intel 486. In 2015 I gave up my PC to my friend (a Pentium IV, 3.06GHz with hyperthreading and 4GB RAM) then moved to a bigger city. Since then my life depends on a portable computer/laptop. My PC was considered old at that time. PSU cables used to be yellow and red. PSU was placed on the top instead of the bottom. Cable management? There was no room on the back of the motherboard, you supposed to ties the cable manually. Even the best cable management was not neat enough for today’s standard. Boards are green, so are the RAM sticks. Graphic cards were used to be fanless. If it has a fan, it’s a small fan. Fans are loud compared to today’s fans that have a modern bearing. I have a small LCD screen but I preferred the CRT screen. Long live the CRT. PC cases were strong and heavy. It has front slots for CD/DVD ROMs and a floppy disk. BIOS user interface used to be plain just like the ncursed based UI, blue and white pixels.</p><img src=/assets/pc_build_old_2.png width=450><p>I used to play with various operating systems, included Hackintosh.</p><img src=/assets/pc_build_old_3.png width=450><p>The motherboard was placed on the table just like that.</p><img src=/assets/pc_build_old_1.png width=450><p>Once I got a case, there was an apple sticker as I was dreaming of owning a Mac computer.</p><h3 id=conclusion>Conclusion</h3><p>If you&rsquo;re planning to build a PC, take a look at <a href=https://pcpartpicker.com/>https://pcpartpicker.com/</a>. It&rsquo;ll help you to find the compatibility information and also the estimated watt needed for your build. Do not forget take some precautions while handling the packages and components. Wash your hand frequently.</p><h3 id=update-20200419>Update: 2020/04/19</h3><p>It was an early birthday present from my wife. It&rsquo;s a bit silly to have two-but-not-scalable GPUs in one system but I&rsquo;m happy with them. The Ryzen GPU can be used as spare if this discrete GPU gone wrong. At the time of this writing, 1660Ti is the latest GTX of NVidia. It has Turing architecture but without ray tracing feature (RTX). Any AAA games run well.</p><h3 id=update-20200429>Update: 2020/04/29</h3><h4 id=my-dream-pc>My Dream PC</h4><p>So I thought about what if I got a huge amount of cash to build my dream PC. Then it should be consist of:</p><ul><li>Motherboard: ASUS ROG Strix AMD AM4 X570 Mini-ITX</li><li>CPU: Ryzen 9 3950X (3.5 GHz,105 Watt,64M L3 Cache,16 Cores)</li><li>GPU: AMD Radeon 5700 XT</li><li>HSF: Noctua NH-D15</li><li>RAM: G.Skill Trident Z RGB 32GB (16gb x 2) 3200mhz</li><li>Storage 1: Samsung 970 EVO NVMe M.2 SSD 500GB</li><li>Storage 2: Samsung 860 Pro 2TB x 2 (RAID 1/Mirroring)</li><li>PSU: Corsair CX650M 650 Watt 80+ Bronze</li><li>Monitor: Dell UltraSharp 25 inch U2518D x 2</li><li>Keyboard: Ultimate Hacking Keyboard Blue Switch with trackpad module.</li><li>Mouse: Logitech G304</li><li>Case: NZXT H200 - Mini-ITX</li></ul><br><br><a href=/>>> Home</a></main></div><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Quarantine PC Build | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Quarantine PC Build</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2020/04/10</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/personal-computer">personal computer</a>, 
+        <a href="/categories/pc">pc</a>, 
+        <a href="/categories/build">build</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>My wife has an old wish: a gaming platform to play both old games (e.g. Heroes of Annihilated Empires) and new games (e.g. The Witcher 3). I’ve  setup a trial version VMWare Fusion on her Macbook Air to let her playing HoAE there but that old game does not run smoothly under VMWare DirectX 11 driver. Our Nintendo 3DS is not with us for now and our old Xbox 360 has been dead for a while (but the controllers still run well). On the other hand, self-quarantine easily gets us bored.</p>
+<p>We already considered to buy a new gaming console but after some researches we reached a conclusion. It&rsquo;s still cheaper to gaming on PC platfrom instead of console.</p>
+<p>So I thought about building a budget PC gaming for her during this coronavirus quarantine period. PC Master Race subreddit call this Quarantine Build. The PC is mainly for my wife but sometimes I can use it. My goals are:</p>
+<ul>
+<li>The budget should be less than 8 million rupiahs.</li>
+<li>It should be able to play recent games (low setting is no problem for us)</li>
+<li>It can support my job occasionally (huge RAM capacity, faster storage, minimum of 4 core processors for compiling purpose).</li>
+</ul>
+<p>Let’s dive into the detail.</p>
+<h3 id="cpu-and-gpu-ryzen-5-3400g-with-radeon-rx-vega-11-graphics">CPU and GPU: Ryzen 5 3400G with Radeon RX Vega 11 Graphics</h3>
+<img src="/assets/ryzen53400g.jpg" width="450">
+<p>After doing research on CPU and GPU, I decided to pick a Ryzen processor with iGPU. Radeon name still sounds great for me. If I bought a discrete GPU it&rsquo;ll add at least another 4 millions to the budget. I&rsquo;ll not make it. The CPU has 4 cores with 8 threads and 3.7Ghz base frequency. Some reviews said that this iGPU can run The Witcher 3 smoothly on low or medium settings. Should be ok for her. The CPU package provides stock CPU cooler named Wraith Spire.</p>
+<p>Its price was almost at the same level as Ryzen 5 2500X (same core, thread and frequency), but with integrated GPU. The CPU has a 3 years warranty from EMD.</p>
+<h3 id="motherboard-asus-prime-a320m-k">Motherboard: ASUS Prime A320M-K</h3>
+<img src="/assets/quarantine_build_motherboard.jpg" width="450">
+<p>ASUS said this motherboard has an overclocking feature. It’s conflicted with the fact that A320 chipset is not capable of OC. The recommended motherboards for 4500 series Ryzen are the A450, A550, and the X series chipsets. Some motherboard vendor updated their A320 motherboard to support the recent processors. This is a risky bet. If I got the outdated BIOS version, my build will not turn on correctly and show no display at all. At worst, I’ll have to:</p>
+<ul>
+<li>find another old processor like Atlhon 200GE or</li>
+<li>submit a request to AMD to send me a bootkit (also an Athlon 200GE) or</li>
+<li>return the motherboard to the retailer and ask them to update the BIOS first.</li>
+</ul>
+<p>The last one is not so convincing. I took the bet anyway and be prepared for bad luck.</p>
+<p>The motherboard has a 3 years warranty as well.</p>
+<h3 id="ram-32gb-v-gen-platinum-ddr-4-2666mhz-2x16gb">RAM: 32GB V-Gen Platinum DDR 4 2666Mhz (2x16GB)</h3>
+<img src="/assets/quarantine_build_ram.jpg" width="450">
+<p>I want to play with k8s and be able to open hundreds of tabs on Firefox. My original plan is to buy a single 16GB RAM then add another 16GB several month later. But after seeing rupiah position going bad recently, I decided to pick 2 sticks at once instead. It will be 32GB RAM with dual channel activated. The processor supports up to 2933MHz and the motherboard supports it up to 3200Mhz. I see no cheap 2933Mhz at the market place and grab a pair of 2666Mhz RAM.</p>
+<p>My first choice is the Klevv Bolt series but they are out of stocks everywhere. I got VGEN instead. This V-Gen RAM has no heatsink, just like the Klevv Value series. At least it’s black, matched with the mainboard.</p>
+<h3 id="storage-intel-ssd-660p-512gb-nvme-2280-pcie-gen-3-x4">Storage: Intel SSD 660P 512GB NVMe 2280 PCIe Gen 3 x4</h3>
+<img src="/assets/quarantine_build_nvme.jpg" width="450">
+<p>My portable computer (X1 Carbon Gen 3) is fast enough with its NVME storage and I want NMVE SSD too in this build. At first Samsung EVO 970 is on my list but then this will not be a budget build. So I choose Intel 660p series for half of the price of Samsung EVO 970.</p>
+<h3 id="power-supply-unit">Power Supply Unit</h3>
+<img src="/assets/quarantine_build_psu.jpg" width="450">
+<p>I do care about PSU after a plurker gave a piece of advice so I pick a Cooler Master MWE 450W, an 80 plus PSU. Cheap enough but it has decent cable socket configuration, like 8 pins cable to power CPU and could handle most of the midrange graphic cards for future upgrade. The cables are in black color. I’ve no intent for overclocking, 450 watts should be enough.</p>
+<h3 id="case-micro-atx-aigo-darkflash-dlm22-titanium">Case: Micro ATX aigo darkFlash DLM22 Titanium</h3>
+<img src="/assets/quarantine_build_case.jpg" width="450">
+<p>It’s a cheap minimalist but elegant case. Until now I don’t know if PC case has evolved to having the PSU on the bottom instead of the top.</p>
+<h3 id="fans">Fans</h3>
+<p>Cheap fans with blue LED. I expected a modern fan with 3 pins small socket but I got otherwise. But that’s not a problem since the PSU has plenty of standard 4 pins unused.</p>
+<h3 id="precaution-on-coronavirus">Precaution on coronavirus</h3>
+<p>I cleaned then quarantined all the arrived packages for hours before opening them.</p>
+<h3 id="building">Building</h3>
+<p>Just like the old days, PC building is always fun.</p>
+<img src="/assets/quarantine_build_boot_up.png" width="450">
+<p>After some digging, it turned out that this motherboard has X370 chipset instead of A320! No wonder if it has overclocking feature in the BIOS. The motherboard recognizes the Ryzen 5 3400G with no issue.</p>
+<img src="/assets/quarantine_build_bios.jpg" width="450">
+<p>The bad part is the motherboard has some defects: it does not recognize the LAN port and the third PCIe lane. After all this coronavirus is over, I’ll look after the warranty.</p>
+<img src="/assets/quarantine_build_finished.jpg" width="450">
+<p>Honestly, I was surprised by how the PC component has evolved since I was not following it for years.</p>
+<h3 id="future-upgrade-plan">Future Upgrade Plan</h3>
+<p>The motherboard has wide support for new Ryzen CPUs. My plan is after a year or more, I want to upgrade the CPU to non-APU with eight cores or more (maybe a zen 3 generation) and add a good graphic card (a GPU that equals with NVidia 1660 Ti or 2060).</p>
+<h3 id="pc-building-in-the-past">PC Building in the past</h3>
+<p>I used to be a PC person. My first PC (actually it&rsquo;s my dad&rsquo;s PC) was an Intel 486. In 2015 I gave up my PC to my friend (a Pentium IV, 3.06GHz with hyperthreading and 4GB RAM) then moved to a bigger city. Since then my life depends on a portable computer/laptop. My PC was considered old at that time. PSU cables used to be yellow and red. PSU was placed on the top instead of the bottom. Cable management? There was no room on the back of the motherboard, you supposed to ties the cable manually. Even the best cable management was not neat enough for today’s standard. Boards are green, so are the RAM sticks. Graphic cards were used to be fanless. If it has a fan, it’s a small fan. Fans are loud compared to today’s fans that have a modern bearing. I have a small LCD screen but I preferred the CRT screen. Long live the CRT. PC cases were strong and heavy. It has front slots for CD/DVD ROMs and a floppy disk. BIOS user interface used to be plain just like the ncursed based UI, blue and white pixels.</p>
+<img src="/assets/pc_build_old_2.png" width="450">
+<p>I used to play with various operating systems, included Hackintosh.</p>
+<img src="/assets/pc_build_old_3.png" width="450">
+<p>The motherboard was placed on the table just like that.</p>
+<img src="/assets/pc_build_old_1.png" width="450">
+<p>Once I got a case, there was an apple sticker as I was dreaming of owning a Mac computer.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>If you&rsquo;re planning to build a PC, take a look at <a href="https://pcpartpicker.com/">https://pcpartpicker.com/</a>. It&rsquo;ll help you to find the compatibility information and also the estimated watt needed for your build. Do not forget take some precautions while handling the packages and components. Wash your hand frequently.</p>
+<h3 id="update-20200419">Update: 2020/04/19</h3>
+<p>It was an early birthday present from my wife. It&rsquo;s a bit silly to have two-but-not-scalable GPUs in one system but I&rsquo;m happy with them. The Ryzen GPU can be used as spare if this discrete GPU gone wrong. At the time of this writing, 1660Ti is the latest GTX of NVidia. It has Turing architecture but without ray tracing feature (RTX). Any AAA games run well.</p>
+<h3 id="update-20200429">Update: 2020/04/29</h3>
+<h4 id="my-dream-pc">My Dream PC</h4>
+<p>So I thought about what if I got a huge amount of cash to build my dream PC. Then it should be consist of:</p>
+<ul>
+<li>Motherboard: ASUS ROG Strix AMD AM4 X570 Mini-ITX</li>
+<li>CPU: Ryzen 9 3950X (3.5 GHz,105 Watt,64M L3 Cache,16 Cores)</li>
+<li>GPU: AMD Radeon 5700 XT</li>
+<li>HSF: Noctua NH-D15</li>
+<li>RAM: G.Skill Trident Z RGB 32GB (16gb x 2) 3200mhz</li>
+<li>Storage 1: Samsung 970 EVO NVMe M.2 SSD 500GB</li>
+<li>Storage 2: Samsung 860 Pro 2TB x 2 (RAID 1/Mirroring)</li>
+<li>PSU: Corsair CX650M 650 Watt 80+ Bronze</li>
+<li>Monitor: Dell UltraSharp 25 inch U2518D x 2</li>
+<li>Keyboard: Ultimate Hacking Keyboard Blue Switch with trackpad module.</li>
+<li>Mouse: Logitech G304</li>
+<li>Case: NZXT H200 - Mini-ITX</li>
+</ul>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,17 @@
+---
+draft: true
+title: "Perpusda Prov NTB Goes Open Source"
+date: 2011-04-24 12:13:48Z
+categories:
+  - linux-opensource
+tags:
+  - kaipang
+  - kpli ntb
+  - linux
+  - ntb go open source
+---
+Kabar yang menggembirakan memang, Perpusda Prov NTB sudah menggunakan linux di ruangan Warintek Bumigora-nya. Saat kunjungan saya kesana, banyak pengunjung yang sedang menggunakan komputer bersistem operasi super OS tersebut. Bahkan billingnya (menggunakan billinghotspot, setiap klien langsung diredirect ke halaman login saat membuka browser) juga menggunakan Linux.
+
+Sedikit bercakap2 dengan bapak yang saya lupa namanya (dari STMIK Bumigora dan kenal mas Wibi), katanya linux itu sudah dipasang berminggu2 yang lalu dan yang memasangnya adalah pihak perpusda sendiri, bukan tim migrasi NTB gOS. tetap saja, ini adalah sebuah kemajuan. terima kasih perpusda NTB! Semoga dengan bergantinya sistem operasi di komputer2 Warintek, semakin banyak yang mengenal OSS/linux.
+
+[gallery link="file"]

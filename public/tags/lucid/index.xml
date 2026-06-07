@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucid on Blog</title>
+    <link>//localhost:1313/tags/lucid/</link>
+    <description>Recent content in Lucid on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Nov 2010 23:59:25 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/lucid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>oprek modem DT8 di ubuntu lucid</title>
+      <link>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</link>
+      <pubDate>Tue, 02 Nov 2010 23:59:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</guid>
+      <description>&lt;p&gt;alkisah, seorang teman dari seorang teman bernama mas isat datang bawa netbook acerone dan bilang modem GSM 3G (advan dt8 telkomsel flash) ndak mau konek, bahkan tidak terdeteksi di ubuntu lucidnya. mas isat ini teman dari mas ook (mas ook itu siapa ya? o yang itu).&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, dari sore sampai malam saya gagal oprekin. dengan merasa kalah dan malu berat,  saya bilang, agar modemnya saya bawa pulang karena masih penasaran kenapa ndak bisa dan supaya besok datang lagi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.04 Lucid Lynx di Indonesia</title>
+      <link>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</link>
+      <pubDate>Wed, 09 Jun 2010 21:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</guid>
+      <description>&lt;p&gt;silakan. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;**deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.ac.id (UI, Telkom, Indosat, OpenIXP, INHERENT**&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KPLI NTB : Lucid Relase Party</title>
+      <link>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</link>
+      <pubDate>Mon, 17 May 2010 08:15:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</guid>
+      <description>&lt;p&gt;Ubuntu 10.04 telah di rilis 29 April lalu. KPLI NTB bekerjasama dengan  KSL Bumigora mengadakan acara menyambut peluncuran sistem operasi  tersebut. Acara akan dirangkai dalam:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seminar dengan tema  &amp;ldquo;Mengupas Tuntas Ubuntu 10.04 LTS Lucid Lynx&amp;rdquo; oleh Bapak Olan  Wardiansyah, Kepala ICT Kota Bima.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Instalasi Ubuntu 10.04 yang akan  dipandu oleh Amrin Zulkarnain, Ketua KPLI NTB dan Team&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tanya Jawab  dan Troubleshooting&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Doorprize&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HTM Rp 10.000,-&lt;/p&gt;&#xA;&lt;p&gt;(makalah,  snack, cd ubuntu, sertifikat, dll)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lucid Fail : driver wireless broadcom tidak otomatis terinstall (emachine)</title>
+      <link>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</link>
+      <pubDate>Sun, 02 May 2010 02:47:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</guid>
+      <description>&lt;p&gt;29 april dirilis, langsung donglot, install, sempurna. lalu saya coba install di sebuah emachine punya teman (cepul). sempurna, kecuali satu. driver wireless tidak bisa. padahal ini kan broadcom! jah! :(&lt;/p&gt;&#xA;&lt;p&gt;mau donglot driver? bagaimana konek inet kalau waerles ndak bisa? (selain dengan UTP LAN dan akses broadband).&lt;/p&gt;&#xA;&lt;p&gt;saya yakin drivernya ada di dalam CD live lucid, hanya saja tidak terinstall dengan otomatis. jika anda mengalamai masalah ini, jangan khawatir. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

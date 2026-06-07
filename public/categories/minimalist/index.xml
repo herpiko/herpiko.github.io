@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minimalist on Blog</title><link>/categories/minimalist/</link><description>Recent content in Minimalist on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2019 00:00:00 +0700</lastBuildDate><atom:link href="/categories/minimalist/index.xml" rel="self" type="application/rss+xml"/><item><title>Mindstorages' Minimalist Wallet</title><link>/post/2019/05/20/mindstorages-minimalist-wallet/</link><pubDate>Mon, 20 May 2019 00:00:00 +0700</pubDate><guid>/post/2019/05/20/mindstorages-minimalist-wallet/</guid><description>&lt;p&gt;In late January 2019, I purchased a minimalist wallet from mindstorages.com. It&amp;rsquo;s handmade, looks cheap, err yeah, literally cheap. It advertised as long-lasting with durable stitching. I didn&amp;rsquo;t immediately write a review and want to use the wallet first for months before writing about it.&lt;/p&gt;
-&lt;p&gt;My previous wallet is an ordinary foldable wallet and I was not happy with that.&lt;/p&gt;
-&lt;img src="/assets/wallet-1.jpeg"&gt;
-&lt;img src="/assets/wallet-2.jpeg"&gt;
-&lt;img src="/assets/wallet-3.jpeg"&gt;
-&lt;p&gt;My entire stuff in the previous wallet:&lt;/p&gt;
-&lt;img src="/assets/wallet-4.jpeg"&gt;
-&lt;p&gt;What comes to my mind when purchasing the minimalist wallet was I&amp;rsquo;ve to get rid of some of the stuff. The wallet will contain only a few cards, they&amp;rsquo;ll be my identity card, ATM card and cashless card that I used for public transportation. I&amp;rsquo;ll leave the security smartcard (I used to develop an app with these cards) and a cafes member card in my backpack. The USB security key will be on the new wallet.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimalist on Blog</title>
+    <link>//localhost:1313/categories/minimalist/</link>
+    <description>Recent content in Minimalist on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/minimalist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mindstorages&#39; Minimalist Wallet</title>
+      <link>//localhost:1313/post/2019/05/20/mindstorages-minimalist-wallet/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2019/05/20/mindstorages-minimalist-wallet/</guid>
+      <description>&lt;p&gt;In late January 2019, I purchased a minimalist wallet from mindstorages.com. It&amp;rsquo;s handmade, looks cheap, err yeah, literally cheap. It advertised as long-lasting with durable stitching. I didn&amp;rsquo;t immediately write a review and want to use the wallet first for months before writing about it.&lt;/p&gt;&#xA;&lt;p&gt;My previous wallet is an ordinary foldable wallet and I was not happy with that.&lt;/p&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/wallet-1.jpeg&#34;&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/wallet-2.jpeg&#34;&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/wallet-3.jpeg&#34;&gt;&#xA;&lt;p&gt;My entire stuff in the previous wallet:&lt;/p&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/wallet-4.jpeg&#34;&gt;&#xA;&lt;p&gt;What comes to my mind when purchasing the minimalist wallet was I&amp;rsquo;ve to get rid of some of the stuff. The wallet will contain only a few cards, they&amp;rsquo;ll be my identity card, ATM card and cashless card that I used for public transportation. I&amp;rsquo;ll leave the security smartcard (I used to develop an app with these cards) and a cafes member card in my backpack. The USB security key will be on the new wallet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

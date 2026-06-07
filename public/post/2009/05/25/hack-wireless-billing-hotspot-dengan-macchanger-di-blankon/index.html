@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Hack Wireless Billing Hotspot dengan MacChanger di BlankOn | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Hack Wireless Billing Hotspot dengan MacChanger di BlankOn</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2009/05/25</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/pikiran">pikiran</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/hack-billing-hotspot">hack billing hotspot</a>, 
+        <a href="/tags/hack-wireless">hack wireless</a>, 
+        <a href="/tags/ngoprek">ngoprek</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Satu hal, saya bukan heker (meski judul postingnya &lsquo;hack&rsquo;, &lsquo;hack&rsquo;, &lsquo;hack&rsquo;) tapi cuma orang yang mencoba belajar.</p>
+<p>Korban : Warnet milik Badan Perpustakaan Daerah NTB, access point &ldquo;warintek1&rdquo;, 00:22:6B:54:04:F2.</p>
+<p>(saya sengaja terang-terangan supaya admin warinteknya kalo baca ini jadi nyadar dan perbaiki jaringannya supaya lebih aman).</p>
+<p>Pelaku : Anggota Badan Perpustakaan sendiri, nama disensor (kode etik pers)</p>
+<p>BB (barang bukti) pelaku : mekbuk+blankon, dvd repo ubuntu (buat nginstal2 aplikasi tambahan), cd backtrack, dan kopi baru seduh.</p>
+<p>Senjata spesifik : aircrack-ng + macchanger</p>
+<p>Kisahnya begini. Di tempat saya ada banyak AP yang berkeliaran. Hanya satu yang terbuka dan bisa akses internet, yaitu milik tetangga sebelah. Sayang, jadwalnya nggak tentu jadi bikin kesel dan boring. Nah, di sebelah tempat saya, berdiri gedung besar milik Perpustakaan Provinsi. Ada dua Access Point dari gedung tersebut. Setelah sedikit survey, saya tahu kalau dua AP itu terhalang sekitar dua sampai tiga tembok ke tempat saya berada, tapi sinyalnya cukup buat chipset atheros ini. Awalnya, dua AP ini diproteksi, satu dengan WEP, satu dengan WPA. Saya sudah coba-coba dengan aircrack, di WEP mekbuk saya malah heng. Kalo WPA, proses brute attack lama sekali selesainya, duluan batere habis.</p>
+<p>Setelah beberapa minggu, tiba-tiba secara mengejutkan, proteksi WEP-nya hilang dan konsepnya berganti wujud menjadi &ldquo;Billing hotspot&rdquo;. Waw&hellip; Rupanya si admin warintek mencoba berganti teknik, dari enkripsi WEP menjadi redirect via web.</p>
+<p>Maksudnya begini. Kita bisa saja konek dan tersambung ke share foldernya, siapapun yang mencoba pasti bisa karena memang tidak diprotek. Tapi ketika buka halaman web dengan web browser manapun, halaman akan dialihkan ke server hotspot. Yaitu sebuah halaman login dengan user dan password. Toeng!</p>
+<p>Pada kasus ini, halaman dialihkan ke http://192.168.3.1/iblogin.php&ndash;blablablabla-&lt;mac_address&gt;. Mac addressnya tentu saja terisi mac address saya. Berikut skrinsutnya, saya coba buka google.</p>
+<ul>
+<li></li>
+</ul>
+<p>Hebat deh&hellip; saya menduga pasti pakai apache&hellip; coba http://192.168.3.1/</p>
+<p><img src="/assets/itworks1.png" alt=""></p>
+<p>Itu adalah tulisan khas server apache. It works! It works! Joget pisang.</p>
+<p>Setelah mondar-mandir, ternyata ketemu, mac address saya tercatat di sana. 00-1B-63-08-62-4D</p>
+<p><img src="/assets/mac.png" alt=""></p>
+<p>Saya mencoba nama2 direktori-direktori di bawah /var/www yang mungkin. Ternyata dapat, yaitu http://192.168.3.1/billing/. Isinya adalah form login untuk kustomisasi billing hotspot.</p>
+<p><img src="/assets/login.png" alt=""></p>
+<p>Hmmm, dia bilang&hellip; &lsquo;melindungi password anda dari brute attack&rsquo;&hellip; lumayan&hellip;</p>
+<p>Saya coba-coba user passwdnya sampe boring semaput, kagak ketemu. teknik bodoh ini saya tinggalkan.</p>
+<p>Analisis (alah..) : karena mac address saya dicatat di address bar ketika buka google.com, saya kira &rsquo;token&rsquo; (istilah saya untuk semacam kredensial pengenal) ada di mac address, bukan di cookies login di web browser. Artinya, hotspot ini menggunakan mac filtering. Hanya mac address yang pernah sah konek ke sana atau yang didaftarkan yang bisa melewati proteksi billing. Jadi, saya harus mencoba konek dengan mac address yang &lsquo;pernah&rsquo; konek ke AP ini.</p>
+<p>Nah, bagaimana mendapatkan mac address ini?</p>
+<p>TOENG! aircrack-ng!. Aplikasi hebat ini bisa menampilkan semua mac address client maupun access point, dan menunjukkan siapa sedang berhubungan dengan siapa. Pakai Backtrack3 Final, atau install aircrack</p>
+<p>sudo apt-get install aircrack-ng*</p>
+<p>Sebagai contoh, saya pakai bactrack</p>
+<p>ketik :</p>
+<p><em>airmon-ng start wifi0</em></p>
+<p>(wifi0 bisa diganti dengan device wireless anda yang sesuai, bisa wlan0 atau ath0)</p>
+<p>Saya kira maksud perintah ini adalah menjalankan kloning monitor, dan kita dapatkan ath1 (monitor mode enable)</p>
+<p><em>airodump-ng ath1</em></p>
+<p>perintah ini untuk memonitor sinyal wireless di sekeliling kita.</p>
+<ul>
+<li></li>
+</ul>
+<p>Toeng! Got it!</p>
+<p><img src="/assets/airodump.png" alt=""></p>
+<p>Penjelasan :</p>
+<p>Yang tertulis di kolom BSSID di bagian atas adalah mac address Access Point yang tersedia di sekeliling anda. kolom BSSID di bagian bawah adalah mac address Access Point yang sedang konek dengan klien. Nah, kliennya itu ada di sampingnya, yaitu di kolom STATION.</p>
+<p>Kita jadi tahu bahwa leptop yang sedang konek dengan hotspot warintek1 (00:22:6B:54:04:F2) adalah 00-1B-63-08-62-4D (ini punya saya) dan 00:21:00:94:5A:09 (ini klien yang jadi korban). Catat maknyus..</p>
+<p>Sekarang giliran macchanger beraksi. Install dulu kalo belum diinstall.</p>
+<p>sudo apt-get install macchanger*</p>
+<p>Saatnya menyamar&hellip;.</p>
+<p><img src="/assets/macchanger.png" alt=""></p>
+<p>Voila! Sekarang ID(pengenal) leptop saya sudah berubah dari yang semula menjadi 00:21:00:94:5a:09, yaitu mac address milik leptop yang sudah dikenal oleh access point. Secara logika, kalau saya coba konek, maka pemilik mac address tadi akan terputus, bila dia coba konek, saya akan terputus. Tidak efektif memang, tapi saat si klien korban sudah boring dan pulang, giliran saya yang ngenet. Joget pisang&hellip;</p>
+<p>Coba disable wireless, kemudian aktifkan lagi. Lalu coba konek. mungkin gagal untuk beberapa kali (ini kalau pemilik mac address masih di tempat), coba terus sampai akhirnya bisa. Terus buka halaman gogel.</p>
+<p><img src="/assets/google.png" alt=""></p>
+<p>Tadaaaaaaaaaaaaaaa! Billing hotspot sudah tersingkir, dadah. Toeng! Toeng!</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

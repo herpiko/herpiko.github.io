@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual on Blog</title>
+    <link>//localhost:1313/tags/virtual/</link>
+    <description>Recent content in Virtual on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2012 10:02:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/virtual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</title>
+      <link>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</link>
+      <pubDate>Thu, 26 Jan 2012 10:02:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</guid>
+      <description>&lt;p&gt;perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.&lt;/p&gt;&#xA;&lt;p&gt;jadi kondisinya begini.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya tidak punya routerboard&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

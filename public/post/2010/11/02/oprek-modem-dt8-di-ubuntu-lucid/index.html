@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>oprek modem DT8 di ubuntu lucid | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">oprek modem DT8 di ubuntu lucid</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2010/11/02</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/05c60015">05c6:0015</a>, 
+        <a href="/tags/3g">3G</a>, 
+        <a href="/tags/dt-8">DT 8</a>, 
+        <a href="/tags/gsm">GSM</a>, 
+        <a href="/tags/linux">linux</a>, 
+        <a href="/tags/lucid">lucid</a>, 
+        <a href="/tags/modem">modem</a>, 
+        <a href="/tags/oprek">oprek</a>, 
+        <a href="/tags/sakis3g">sakis3g</a>, 
+        <a href="/tags/telkomsel-flash">telkomsel flash</a>, 
+        <a href="/tags/ubuntu">ubuntu</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>alkisah, seorang teman dari seorang teman bernama mas isat datang bawa netbook acerone dan bilang modem GSM 3G (advan dt8 telkomsel flash) ndak mau konek, bahkan tidak terdeteksi di ubuntu lucidnya. mas isat ini teman dari mas ook (mas ook itu siapa ya? o yang itu).</p>
+<p>pendek kata, dari sore sampai malam saya gagal oprekin. dengan merasa kalah dan malu berat,  saya bilang, agar modemnya saya bawa pulang karena masih penasaran kenapa ndak bisa dan supaya besok datang lagi.</p>
+<p>di komputer lab di rumah, langsung saya resize partisi buat install lucid. dari googling, cara yang saya gunakan adalah sebagai berikut :</p>
+<p>install wvdial dan usb-modeswitch</p>
+<p>sudo apt-get install wvdial usb-modeswitch</p>
+<p>habis itu coloki modem. buka terminal dan :</p>
+<p>lsusb</p>
+<p>modem itu terdeteksi sebagai 05c6:2000</p>
+<p>sebenarnya, 2000 itu identifikasi untuk storage zeroCD. bagi yang belum tahu, zeroCD itu ruang untuk file bawaan driver. misal untuk modem ini, kita akan temukan drive/partisi khusus dari sana, yang isinya file autorun dan instaler driver (untuk windows). nah, kita musti eject storage ini agar gantian yang teridentifikasi adalah modemnya.</p>
+<p>tunggu 2-3 detik terus jalankan lsusb lagi</p>
+<p>modem itu terdeteksi sebagai 05c6:0015</p>
+<p>nah, ini dia identifikasi yang benar. err, kalau tidak salah sih, fungsi usb-modeswitch itu buat menukar identifikasinya dari storage ke modem, jadi tanpa perlu eject. tapi saya coba kok ndak mau ya?</p>
+<p>langkah selanjutnya meload drivernya ke kernel</p>
+<p>modprobe usbserial -vendor 0x05c6 -product 0x0015</p>
+<p>NB : sebaiknya mengetik ulang perintah ini dibanding copy paste, karena perintahnya kadang tidak jalan.</p>
+<p>yak! cek applet network managernya. broadband connetctionnya muncul. selamat bermodem ria!</p>
+<p>eee tapi itu netbook memang suck, tetep ndak mau. di coba di rumah bisa, di situ ndak bisa. bagi yang masih gagal, silaken lari ke sini sambil angkat bendera putih. dan berhubung saya juga gagal :</p>
+<p><a href="http://sakis3g.org">http://sakis3g.org</a></p>
+<p>unduh paketnya di sana. bisa dalam bentuk source maupun binary. jalankan. interfacenya cukup mudah dipahami. saat mau meload driver, pilih opsi kedua (option_module kernel). isi apn, user, pass providernya. konek! bahkan kita bisa buat shortcutnya di desktop. sakis3g jalan sempurna di netbook mas isat.</p>
+<p>sakis3g adalah all-in-one script untuk deteksi dan konek modem 3G, dengan catatan, koneksnya tidak menggunakan network manager sistem kita. kalau kita ingin menggunakan network manager, hentikan langkah setelah memilih opsi load driver ke kernel.</p>
+<p>yah, sekian.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

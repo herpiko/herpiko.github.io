@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lockpicking on Blog</title><link>/tags/lockpicking/</link><description>Recent content in Lockpicking on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Jan 2019 00:01:00 +0000</lastBuildDate><atom:link href="/tags/lockpicking/index.xml" rel="self" type="application/rss+xml"/><item><title>Paper Clip Lockpicking</title><link>/post/2019/01/10/paper-clip-lockpicking/</link><pubDate>Thu, 10 Jan 2019 00:01:00 +0000</pubDate><guid>/post/2019/01/10/paper-clip-lockpicking/</guid><description>&lt;p&gt;I first learned about lockpicking during highschool. A locksmith introduced me to the basic understanding of how most locks work and how to break them. So, I tried it again with a transparent training padlock. It seems easy but on real locks, it really hard and needs patience as you can&amp;rsquo;t see the pin tumbler. Instead of using lock picking toolset, bending your own paper clip is more challenging.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/orISHZZfhDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;For more exploration, I found this documentation is excellent and quite detailed, &lt;a href="http://www.blurofinsanity.com/mit/lockpick.html"&gt;&lt;a href="http://www.blurofinsanity.com/mit/lockpick.html"&gt;http://www.blurofinsanity.com/mit/lockpick.html&lt;/a&gt;&lt;/a&gt;. Chapter 9 is very interesting.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lockpicking on Blog</title>
+    <link>//localhost:1313/tags/lockpicking/</link>
+    <description>Recent content in Lockpicking on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jan 2019 00:01:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/lockpicking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Clip Lockpicking</title>
+      <link>//localhost:1313/post/2019/01/10/paper-clip-lockpicking/</link>
+      <pubDate>Thu, 10 Jan 2019 00:01:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2019/01/10/paper-clip-lockpicking/</guid>
+      <description>&lt;p&gt;I first learned about lockpicking during highschool. A locksmith introduced me to the basic understanding of how most locks work and how to break them. So, I tried it again with a transparent training padlock. It seems easy but on real locks, it really hard and needs patience as you can&amp;rsquo;t see the pin tumbler. Instead of using lock picking toolset, bending your own paper clip is more challenging.&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/orISHZZfhDQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;For more exploration, I found this documentation is excellent and quite detailed, &lt;a href=&#34;http://www.blurofinsanity.com/mit/lockpick.html&#34;&gt;&lt;a href=&#34;http://www.blurofinsanity.com/mit/lockpick.html&#34;&gt;http://www.blurofinsanity.com/mit/lockpick.html&lt;/a&gt;&lt;/a&gt;. Chapter 9 is very interesting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

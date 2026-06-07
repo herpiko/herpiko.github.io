@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Dasar Mikrotik Plus Manajemen Bandwith | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Dasar Mikrotik Plus Manajemen Bandwith</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/01/27</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/networking">networking</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/bandwith-management">bandwith management</a>, 
+        <a href="/tags/jaringan">jaringan</a>, 
+        <a href="/tags/mikrotik">mikrotik</a>, 
+        <a href="/tags/networking">networking</a>, 
+        <a href="/tags/router">router</a>, 
+        <a href="/tags/routing">routing</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>ditulis sebagai catatan pengingat. asumsi, menggunakan modem speedy (192.168.1.1) dan jaringan lokal 192.168.10.xx. salah satu client yang diatur bandwithnya adalah 192.168.10.2</p>
+<ol>
+<li>Menambahkan password</li>
+</ol>
+<p>[code]$/password</p>
+<p>old password:</p>
+<p>new password:*****</p>
+<p>retype password:******[/code]</p>
+<ol start="2">
+<li>Memberi nama pada interface</li>
+</ol>
+<p>[code]/interface set 0 name=speedy</p>
+<p>/interface set 1 name=local[/code]</p>
+<ol start="3">
+<li>Memberi nama hostname</li>
+</ol>
+<p>[code]/system identity set name=routermikrotik[/code]</p>
+<ol start="4">
+<li>Set IP Address</li>
+</ol>
+<p>[code]/ip address add interface=speedy address 192.168.1.2 netmask 255.255.255.0</p>
+<p>/ip address add interface=local address 192.168.10.1 netmask 255.255.255.0[/code]</p>
+<p>5.Set Gateway</p>
+<p>[code]/ip route add gateway=192.168.1.1[/code]</p>
+<ol start="6">
+<li>Set NAT</li>
+</ol>
+<p>[code]/ip firewall nat add chain=srcnat action=masquerade out-interface=speedy[/code]</p>
+<ol start="7">
+<li>DNS server</li>
+</ol>
+<p>[code]/ip dns set primary-dns=8.8.8.8 allow-remoterequests=yes[/code]</p>
+<ol start="8">
+<li>Manajemen Bandwith</li>
+</ol>
+<p>[code]/ip firewall mangle add chain=prerouting src-address=192.168.10.2 dst-address=0.0.0.0/0 action=mark-connection new-connection-mark=client01-con passthrough=yes</p>
+<p>/ip firewall mangle add chain=prerouting action=mark-packet new-packet-mark=client01 passthrough=yes connection-mark=client01-con</p>
+<p>/queue tree add name=client01-up parent=speedy packet-mark=client01 limit-at=64k max-limit=512k</p>
+<p>/queue tree add name=client01-down parent=local packet-mark=client01 limit-at=64k max-limit=512k[/code]</p>
+<p>4 perintah diatas diulang untuk alamat IP lain dengan penyesuaian.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

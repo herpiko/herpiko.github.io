@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repo Ubuntu Jaunty on Blog</title>
+    <link>//localhost:1313/tags/repo-ubuntu-jaunty/</link>
+    <description>Recent content in Repo Ubuntu Jaunty on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jun 2009 06:28:19 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/repo-ubuntu-jaunty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daftar Repositori Ubuntu 9.04 Jaunty Jackalope di Indonesia</title>
+      <link>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</link>
+      <pubDate>Thu, 25 Jun 2009 06:28:19 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/25/daftar-repositori-ubuntu-9.04-jaunty-jackalope-di-indonesia/</guid>
+      <description>&lt;p&gt;Just Share!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo gedit /ect/apt/sources.list&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;tambahin daftar reponya, habis itu reload&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;sudo apt-get update&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;nyedot dah sepuas-puasnya&amp;hellip; :D**&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.edu (UI, Telkom, Indosat, OpenIXP, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/ubuntu&#34;&gt;http://kambing.ui.edu/ubuntu&lt;/a&gt; jaunty-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;ftp.itb.ac.id (ITB, INHERENT)**&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty main restricted universe multiverse**&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;ftp://ftp.itb.ac.id/pub/ubuntu&#34;&gt;ftp://ftp.itb.ac.id/pub/ubuntu&lt;/a&gt; jaunty-security main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

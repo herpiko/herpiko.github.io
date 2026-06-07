@@ -1,2 +1,145 @@
-<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>Solusi Suspend di GNU/Linux Debian (BlankOn) MBA Mid 2013 | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/now/>~/now</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><div class=article-meta><h1><span class=title>Solusi Suspend di GNU/Linux Debian (BlankOn) MBA Mid 2013</span></h1><div style=font-size:.8em;color:grey;line-height:1.2em><span class=date>Date: 2015/12/16</span><br><span class=terms>Categories:
-<a href=/categories/blog>blog</a><br><br></span></div></div><div class=content-wrapper><main><p>Didorong oleh rasa malu pada diri sendiri melihat orang-orang seperti Pak Rus (masih menggunakan BlankOn untuk mengajar sehari-hari), atau Pak Ahmad Haris (atas nama harga diri) atau Pak MDAMT dan teman-teman BlankOn lainnya, saya berusaha bertobat buat balik ke BlankOn untuk sistem operasi sehari-hari.</p><p>Banyak sih orang-orang yang berkontribusi ke proyek X tapi menggunakan Y untuk sehari-hari. Banyak. Atas nama iseng atau kesenangan <em>heking</em> dan sebagainya. Tapi tetap saja rasanya saya tidak bisa menjiwai esensi kontribusi bila tidak menggunakannya dalam sehari-hari. Gak bakal tahu masalah sebenarnya bila tidak dipakai sehari-hari.</p><p>Salah satu penghalang kemarin (kemudian jadi alasan buat menunda-nunda selama berbulan-bulan) adalah, suspend di MBA tidak jalan mulus. Baik di Zulfiqar maupun si Japra. Setelah bangun dari suspend, kecerahan layar diset ke 0 atau 100 persen dan tidak bisa diubah-ubah lagi. Tapi lebih sering ke 0 alias gelap total. Ini menyebalkan sekali.</p><p>Sejak awal sudah ketemu obatnya, <a href=https://github.com/patjak/mba6x_bl>https://github.com/patjak/mba6x_bl</a>.</p><p>Karena kebiasaan jelek <em>pengen</em> serba instant, saya pasang dari berkas .deb-nya yang entah saya dapat dari mana. Tapi tidak bisa dipasang.</p><p>Baru saja sesaat sebelum tulisan ini diketik, saya nemu ini, <a href=https://github.com/patjak/mba6x_bl/pull/34>https://github.com/patjak/mba6x_bl/pull/34</a>.</p><p>Akhirnya tinggal kloning ulang, <code>make</code>, <code>sudo make install</code>, <code>sudo modprobe mba6x_bl</code>, kelar.</p><p>Pelajaran yang didapat, jika menemukan suatu masalah dari perangkat lunak, selain mencari di Google / forum-form, jangan lupa mampir ke <em>issue tracker</em> di lumbung git/svn perangkat lunak yang bersangkutan.</p><br><br><a href=/>>> Home</a></main></div><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Solusi Suspend di GNU/Linux Debian (BlankOn) MBA Mid 2013 | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Solusi Suspend di GNU/Linux Debian (BlankOn) MBA Mid 2013</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2015/12/16</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Didorong oleh rasa malu pada diri sendiri melihat orang-orang seperti Pak Rus (masih menggunakan BlankOn untuk mengajar sehari-hari), atau Pak Ahmad Haris (atas nama harga diri) atau Pak MDAMT dan teman-teman BlankOn lainnya, saya berusaha bertobat buat balik ke BlankOn untuk sistem operasi sehari-hari.</p>
+<p>Banyak sih orang-orang yang berkontribusi ke proyek X tapi menggunakan Y untuk sehari-hari. Banyak. Atas nama iseng atau kesenangan <em>heking</em> dan sebagainya. Tapi tetap saja rasanya saya tidak bisa menjiwai esensi kontribusi bila tidak menggunakannya dalam sehari-hari. Gak bakal tahu masalah sebenarnya bila tidak dipakai sehari-hari.</p>
+<p>Salah satu penghalang kemarin (kemudian jadi alasan buat menunda-nunda selama berbulan-bulan) adalah, suspend di MBA tidak jalan mulus. Baik di Zulfiqar maupun si Japra. Setelah bangun dari suspend, kecerahan layar diset ke 0 atau 100 persen dan tidak bisa diubah-ubah lagi. Tapi lebih sering ke 0 alias gelap total. Ini menyebalkan sekali.</p>
+<p>Sejak awal sudah ketemu obatnya, <a href="https://github.com/patjak/mba6x_bl">https://github.com/patjak/mba6x_bl</a>.</p>
+<p>Karena kebiasaan jelek <em>pengen</em> serba instant, saya pasang dari berkas .deb-nya yang entah saya dapat dari mana. Tapi tidak bisa dipasang.</p>
+<p>Baru saja sesaat sebelum tulisan ini diketik, saya nemu ini, <a href="https://github.com/patjak/mba6x_bl/pull/34">https://github.com/patjak/mba6x_bl/pull/34</a>.</p>
+<p>Akhirnya tinggal kloning ulang, <code>make</code>, <code>sudo make install</code>, <code>sudo modprobe mba6x_bl</code>, kelar.</p>
+<p>Pelajaran yang didapat, jika menemukan suatu masalah dari perangkat lunak, selain mencari di Google / forum-form, jangan lupa mampir ke <em>issue tracker</em> di lumbung git/svn perangkat lunak yang bersangkutan.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

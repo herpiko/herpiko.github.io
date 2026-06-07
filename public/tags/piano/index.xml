@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Piano on Blog</title>
+    <link>//localhost:1313/tags/piano/</link>
+    <description>Recent content in Piano on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Mar 2010 17:02:39 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/piano/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cause you will hate yourself in the end</title>
+      <link>//localhost:1313/post/2010/03/22/cause-you-will-hate-yourself-in-the-end/</link>
+      <pubDate>Mon, 22 Mar 2010 17:02:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/22/cause-you-will-hate-yourself-in-the-end/</guid>
+      <description>&lt;p&gt;versi piano, seneng denger yang ini. =))&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=XjKJ_8__Hc4]&lt;/p&gt;&#xA;&lt;p&gt;video akeboshi yg asli.&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=ZUYzX5LjRr4]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

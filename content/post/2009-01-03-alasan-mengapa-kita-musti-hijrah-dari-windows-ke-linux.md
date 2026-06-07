@@ -1,0 +1,101 @@
+---
+draft: true
+title: "Alasan Mengapa Kita Musti Hijrah dari Windows ke Linux"
+date: 2009-01-03 14:28:31Z
+categories:
+  - linux-opensource
+tags:
+  - distro
+  - komputer
+  - linux-opensource
+  - opensource
+  - ubuntu
+  - unix
+---
+Kok Linux doang yang ditulis?
+
+Wekwekwek....Saya cuma ingin menyadarkan lebih banyak orang mengenai DOSA kita di sektor IT (dunia komputer maksudnya, mengutip istilah riyogarta). Kalau anda sekuler (mudahan tidak), mungkin anda pikir, 'dosa di sektor IT' itu tidak valid. Mungkin berlebihan saya menyebutnya dosa. Namun, MENGINGAT sebagian besar masyarakat kita (Indonesia) menggunakan Windows bajakan atau tidak asli, saya rasa saya boleh menyebutnya dosa. Bukankah berdosa kalau kita membajak seperti itu? Membajak karya hak cipta adalah pelanggaran hukum dan anda bisa ditahan bertahun-tahun karenanya. Di sekitar lingkungan saya, tidak pernah saya temukan komputer yang terinstall Windows asli KECUALI perusahaan-perusahaan (seperti warnet kelas atas dan perusahaan IT, banyak lagi) dan komputer-komputer desktop dan laptotp yang built-up (biasanya otomatis sudah terinstall Windows asli). Komputer desktop dan laptop itu, sudah saya pastikan, bila rusak softwarenya entah terserang virus atau kenapa, pasti yang diinstall adalah Windows BAJAKAN alias tidak asli. Komputer-komputer rakitan, saya jamin juga, pasti terinstall Windows bajakan.
+
+Ternyata, kebanyakan SEBAGIAN BESAR pengguna komputer tidak tahu kalau software-software di komputernya adalah sebuah produk usaha dan bernilai jual (tidak bisa dijual sih) seperti halnya kaset-kaset lagu. Mereka juga tidak tahu bahwa mereka sebenarnya melanggar HUKUM dan tidak punya HAK menggunakan software-software tersebut. Mereka bisa ditindak PIDANA.
+
+Tapi bila anda adalah pengguna Windows ASLI (oh, saya tulis besar-besar yah?), itu BAGUS. Anda pecinta Windows? BAGUS, kita sama-sama maniak komputer tapi saya pake LINUX. Apakah saya anti produk Microsoft? Ini pertanyaan bodoh. Sungguh, kalau saya mampu membeli Windows asli (sebagai kebutuhan sekunder), pasti saya akan membelinya. Saya juga sangat mencintai Windows, karena Windowslah (bajakan) yang pertama membimbing saya hingga saya menjadi seperti sekarang. Terima kasih untuk Pak Bill Gates untuk Windowsnya yang hebat. Terima kasih juga untuk Linus Torvalds untuk Linuxnya yang luar biasa. Bagi saya kedua Operasi Sistem adalah sama, sama-sama untuk komputer, sama-sama punya banyak kelebihan, sama-sama punya banyak kelemahan. Tapi saya akan membahas variabel-variabel yang lebih sempit. Perbedaan mendasar di antara keduanya yang mana kebanyakan dari kita tidak mau tahu tentang hal itu. Kita mengambil yang termudah. Meski punya banyak kelemahan, saya selalu kagum pada para pembuatnya dan berpikir mengapa bukan saya yang membuat hal seperti itu (weleh, saya mah telat lahir). Tapi saya BERSYUKUR saya sudah sadar mengenai hal ini. Semoga anda juga sadar setelah membaca tulisan tidak bermutu ini. Saya terlalu banyak basa-basi, jadi langsung saja.
+
+**FREE
+
+Kue-kue yang tidak dijual.****
+Windows adalah sebuah produk komersial sedangkan Linux adalah gratis. Mengerti kau sampai di sini? (Ini kata Lintang loh, baca Laskar Pelangi). Linux terlindung di bawah lisensi GPL (General Public License).  Linux dikembangkan oleh Linus agar bisa dipakai sebagai OS yang bisa ia modifikasi sesukanya selayaknya sebuah program biasa. Linux yang berbentuk kernel ini kemudian disebarkan di Internet dan memperbolehkan orang lain mengembangkan. Akhirnya Linux menjadi gratis. Ditambah lagi hampir semua software yang berjalan di atas Linux, juga bernaung di bawah GPL. Apa itu GPL? GPL adalah lisensi yang memperbolehkan kita mencopy, menyebarluaskan, memodifikasi, kemudian menyebarluaskan, tanpa mengubah attribut pembuat. Lebih lanjut, jelajah internet untuk baca lisensinya yang lengkap.
+
+Jadi, tidak seperti Windows yang dilisensi untuk dagang, Linux bebas kita copy. Tapi beberapa distro Linux dikomersialkan. Jangan takut, masih banyak yang lain. Saya berani bertaruh anda tidak akan tersentuh hukum bila mencopy Linux, bahkan bila sampai ribuan copy. Tidak akan ada bedanya. Apakah anda belum tertarik sampai di sini? Mengapa anda lebih suka pakai bajakan? Pasti menyakitkan ketika anda mendesain sebuah kaos kaki lalu mematenkan tapi kemudian melihat orang lain menggunakan desain anda seenak jidat tanpa membayar royalti. Desain anda inovatif, tapi patennya dilanggar orang lain. Sedih ya? Jangan membuat Pak Bill Gates bersedih.
+
+Oke, kita analogikan OS itu adalah sebuah kue. Kue yang sama-sama enak, juga sama-sama ada kekurangannya. Kue A dijual dengan harga Rp. 500. Sedang anda membaca papan kecil di sebelah Kue B, Gratis. Bila anda membeli kue A, anda tidak boleh membagi secuil pun ke teman anda, sesuai perjanjian, maka anda akan terkesan pelit. Bila anda membeli (bukan, tapi mengambil) kue B, anda boleh membagi kue tersebut kepada teman anda. Bahkan, anda bisa memfotokopi kue tersebut menjadi banyak, kemudian membagikan kepada orang banyak. Anda akan dikenal dermawan. Nah, manakah yang akan anda pilih? Jangan munafik, kita selalu suka yang gratis-gratis.
+
+Software-software di atas linux juga selalu gratis. Anda tidak akan menemukan cara instalasi khas Windows. Serial Number dan KeyGen. Kebanyakan orang tidak tahu bahwa kedua istilah ini adalah jalan menuju pembajakan. Setiap mereka menginstall aplikasi, mereka menulis SN dengan hati-hati, kemudian proses instalasi boleh dilanjutkan. Anda tidak akan menemukan hal seperti ini di Linux. Serial Number adalah kode yang diberikan kepada pembeli software untuk verifikasi bahwa pembeli tersebut memang punya hak untuk menginstall aplikasi tersebut di komputernya. SN di sekeliling kita ini adalah SN yang disebarluaskan dan SN yang algoritma kodenya sudah pernah dipecahkan, yakni dengan program kecil bernama keygen (key generator). Sekali lagi anda tidak akan menemukan hal seperti ini di Linux, karena semua aplikasi GPL di Linux adalah gratis. Penghalang instalasi hanyalah pertanyaan tentang apakah anda menyetujui lisensi GPL dan pertanyaan teknis software, itupun sangat jarang.
+
+Gratis itu tidak selalu murahan dan tidak berkualitas. Baca dulu sampai selesai.
+
+OPEN SOURCE
+
+Resep-resep rahasia si Kue****
+Windows adalah software sumber tertutup sedangkan Linux adalah software sumber terbuka. Sumber? Maksud di sini adalah source code atau kode-kode asal program atau software. Bagi yang belum tahu, setiap program atau software komputer, dibuat di atas sebuah bahasa pemrograman, yaitu bahasa perantara antara bahasa manusia dan bahasa mesin komputer (biner), kemudian dikompilasi menjadi sebuah program yang bisa dieksekusi. Kalau anda melihat bahasa kode macam ini, pasti otak anda njelimet (kecuali anda programmer, salut). Nah, kode-kode inilah yang dimaksudkan terbuka. Microsoft menutup rapat-rapat source code mereka karena itu merupakan rahasia dagang, milik perusahaan. Tapi siapapun bisa mendapatkan source code Linux.
+
+Memangnya kenapa dengan kode-kode itu?
+
+Wadoooh.... Inilah kehebatan Linux. Karena kode-kodenya bisa diketahui siapa saja, maka siapa pun bisa memodifikasi dan yang lebih penting lagi, mengembangkan. Ada ribuan programmer yang berdedikasi untuk Linux dan itulah sebabnya Linux berkembang sangat pesat. Sekali lagi, di bawah lisensi GPL, Anda bisa memodifikasi dan mengembangkan Linux untuk kebutuhan anda, bisa juga kemudian menjualnya. Anda bisa meremaster (membuat ulang) sebuah distro Linux, memasukkan logo sekolah atau organisasi, dan mengubah hal-hal lain. Kemudian anda bilang., “Weks, ini loh, distro Linux sekolahku”. Bodoh ya? Tapi itu menyenangkan. Anda harus menyertakan informasi mengenai pembuat awalnya. Itu sebabnya Linux terpecah menjadi banyak distribusi, dikenal dengan Distro. Anda bebas memilih yang mana, tergantung kebutuhan.
+
+Kita pake analogi lagi. Kue A ternyata banyak yang makan, karena ada orang yang membagikannya dengan diam-diam. Si pembuat kue A marah, tapi senang karena terkenal dan menjaga rapat-rapat rahasia resep kuenya. Sedangkan pembuat kue B, menempelkan selembar kertas di setiap tiang listrik di jalanan. Isi kertas itu adalah resep kue B yang seenak kue A. Nah, siapapun bisa membuat kue seperti kue B, mengurangkan garam, menambahkan gula. Kue B semakin enak, lebih dari kue A. Ada rasa coklat, vanila, buah, sampai bawang. Variasinya lengkap. Nah, kue manakah yang akan anda pilih?
+
+AMAN
+
+Ini Kue kesukaan Hacker! Virus? No.****
+Windows tidak aman sedang Linux itu aman. Aman dari apa? Di dunia internet (khususnya server), keamanan adalah nomor satu. Pemilik server selalu wanti-wanti akan serangan Hacker. Hacker adalah maniak komputer yang pintar. Kebanyakan orang memandang hacker itu buruk padahal tidak begitu, meski banyak hacker menerobos server orang lain. Nah, di sinilah linux mendominasi. Dari seluruh dunia, lebih dari 50% server menggunakan Linux. Karena apa? Aman. Saya tidak bilang server linux tidak bisa ditembus. Tapi setidaknya jauh lebih sulit ditembus dari pada server dengan Windows, tergantung Adminnya, si pengurus server. Sudah menjadi rahasia umum, bahwa server Windows paling sering menjadi bulan-bulanan para hacker, sebagai pemanasan sebelum menerobos system server varian UNIX/Linux.
+
+Apa hubungannya? Saya cuma pengguna komputer pentium 3 di kamar saya, bukan sebuah server. Nah, disinilah perbedaan yang menguntungkan kita jika menggunakan Linux.
+
+Kita tahu bahwa virus komputer yang selama ini mengganggu kita adalah buatan para hacker. Nah, kita juga tahu bahwa Linux adalah Operating System kesukaan para hacker. Buat apa orang yang suka kue donat menaruh racun di donat yang ingin ia makan saat itu juga? Setidaknya itulah analisis saya mengapa hampir tidak ada virus untuk Linux. Alasan lain adalah karena struktur sistem Linux sangat berbeda dengan Windows. Virus Windows TIDAK MEMPAN untuk Linux. Dalam Linux dikenal aturan permission. Anda ingin menginstall perangkat lunak tertentu yang mungkin mempengaruhi sistem atau user lain di Linux. Sistem akan bertanya : Apakah anda punya hak?
+
+Ini sebuah perlindungan. Dalam Linux, dikenal user super dan user biasa. User di sini maksudnya account pengguna. User super disebut juga root, adalah user yang berhak mengutak-atik sistem seenak udelnya dan dia bertanggung jawab atas kelangsungan hidup sistem. User biasa ya user biasa, hanya berhak menggunakan aplikasi yang sudah diinstall dan mengelola filenya sendiri. Definisi ini sangat kental di server dan jaringan. Di desktop agak lunak. Anda sendirilah root. Siapa user biasa? Anda sendiri. Jadi kalau ada virus yang mau masuk, ia akan di tanya 'Apakah anda punya hak?'. Kalau anda mau virus itu aktif, anda harus menjalankannya sebagai root (ini mah bodoh namanya). Itulah sebabnya mengapa semua virus Windows tidak mempan di Linux. Lagi pula virus Windows dikompilasi untuk Windows, bukan Linux.
+
+Anda masih belum tertarik sejauh ini? Baiklah.
+
+STABIL DAN CEPAT
+
+No more CTRL + ALT + DEL. So, no more bengong.****
+Windows sering hang sedangkan Linux sangat bandel. Tidak tertarik? Anda pasti tahu apa itu hang. Istilah saya adalah 'bengong'. Hang adalah kondisi dimana hardware sedang tertatih-tatih agar software tetap berjalan. Aktifitas harus dikerjakan CPU melewati kapasitas dan RAM hampir penuh. Anda pasti kesal sekali bila hang terjadi. Tidak pernahkah anda menghitung beberapa kali komputer anda hang dalam sebulan? Dan berapa kali anda harus (dengan terpaksa) menekan tombol 'restart' atau 'reboot' karenanya? Saya sudah menghitung ketika saya masih memakai Windows tercinta, saya mengalami 24 kali dalam sebulan, 15 kali harus mereset paksa. Komputer saya mungkin lambat, karena bertitel Celeron. Tapi boleh dibilang cepat karena clock 3Ghz dan RAM 1.5 GB. Nah, kalau anda berapa kali? Itu tergantung speksifikasi komputer kita dan apa aplikasi yang kita jalankan. Tapi setidaknya sudah bisa ditarik kesimpulan bahwa Windows anda sering hang. Selama 7 bulan saya menggunakan Linux, saya mengalami kondisi 'bengong' hanya sekali, itupun hanya 9 detik.
+
+Bagaimana di dunia server? Lagi-lagi, Linux mendominasi di sektor ini karena alasan stabil dan cepat. Server-server yang berbasis Windows, harus direstart atau dinyalakan ulang dalam beberapa hari sekali, biasanya seminggu. Pasti merepotkan harus menyalakan ulang sebuah sistem yang kompleks dan dituntut hidup 24 jam 7 hari seminggu 12 bulan setahun, sampai servernya tidak digunakan lagi. Bagaimana kalau Linux? Linux bisa bertahan hidup terus sampai berbulan-bulan, bahkan selamanya, kecuali ada bagian hardware yang rusak dan harus diganti. Windows hanya bisa untuk CPU beberapa core saja, sedangkan Linux sudah bisa untuk ribuan core. Hampir semua superkomputer (komputer yang biasanya untuk kalkulasi data raksasa, biasa berukuran seperempat lapangan sepak bola) menggunakan Unix untuk OS-nya. Unix adalah Ayah dari Linux, dan Linux mewarisi segala kelebihannya.
+
+Kalau anda tidak percaya Linux itu cepat dan ringan, anda bisa coba efek-efek desktop ala Windows Vista di Linux. Baca di 'Kelezatan kue yang tak tertandingi'.
+
+Mengapa Linux lebih stabil? Karena Linux dibangun di atas bahasa C. Sebuah bahasa pemograman yang tua, handal, dan sangat populer serta cross-platform. Virus-virus hebat untuk Windows dibuat dalam bahasa C. Linux adalah operasi sistem yang dibuat untuk multitasking dan multiuser. Linux stabil karena banyak programmer dari seluruh dunia mengembangkan linux. Pengguna biasa melaporkan bug (kesalahan program) dan para programmer menambal bug tersebut dengan bersemangat. Sebuah kombinasi kerja sama yang luar biasa.
+
+MUDAH DAN USER FRIENDLY
+
+Kelezatan Kue yang tak tertandingi**
+
+Windows itu mudah dan User Friendly tapi Linux lebih mudah dan user friendly. Kaget? Kebanyakan orang beropini bahwa Linux itu susah, jauh dari dua istilah di atas. Tapi masa lalu sudah tertinggal jauh dan masa depan datang, impian para pengembang Linux menjadi kenyataan. Saya tidak menyarankan anda menginstall Linux yang masih telanjang, yakni hanya kernel, shell, dan sedikit aplikasi kuno. Anda pasti stress karena dipaksa kembali ke zaman DOS. Tapi bukan itu. Anda bisa temukan ada banyak Distribusi Linux di belantara Internet. Distribusi apapun bagus, yang penting anda punya paket-paket (istilah aplikasi dalam Linux) yang dibutuhkan. Dulu, Linux hanya dikhususkan untuk server, masih dalam mode teks yang sulit dan advanced. Kini Linux sudah merambah ke Desktop, untuk komputer yang sering kita pakai, termasuk laptop. Dan tuntutan bersaing, Linux menghadirkan mode grafis, biasa disebut GUI atau General User Interface. Aplikasi-aplikasi karya komunitas bermunculan, berunjuk gigi untuk bersaing dengan aplikasi sejenis untuk Windows. GNOME dan KDE adalah dua pilar zaman keemasan GUI sekarang di Linux. Dua desktop manager ini sama-sama inovatif. Anda akan menemukan sebuah 'Windows' yang lebih aneh, keren, dan hebat. Tidak ada bedanya dan hanya perlu sedikit adaptasi.
+
+Beberapa orang yang tidak suka Linux bertanya : Bagaimana dengan install aplikasi?
+
+Masa lalu sudah tertinggal jauh dan masa depan datang, impian para pengembang Linux menjadi kenyataan. Saya sudah pernah merasakan bagaimana rasanya menginstall aplikasi di Linux. Susah. Karena yang saya install itu versi OSE (open source Edition) dari masa lalu. Kita disediakan source code dan kita harus mengkompilasi sendiri sourcecode tersebut. Ketika saya berhasil, saya senang karena merasakan sesaat menjadi programmer, mengkompilasi sebuah program. Tapi tidak semua pengguna komputer mau bersusah payah seperti saya. Nah, di Linux sudah ada manajemen pemaketan yang baik dan canggih. Ada apt-get untuk paket deb di Distro Debian dan turunannya, dan ada rpm(redhat package manager) untuk Redhat dan turunannya. Masih banyak yang lain lagi. Syaratnya, kita harus mempunyai koneksi internet untuk repository atau memiliki CD/DVD repository. Repository adalah kumpulan paket yang sudah diatur sedemikian rupa dengan canggih. Bagi anda yang punya koneksi internet, semua pasti berjalan lancar. Tinggal ketik apt-get install namaaplikasi. Bagi yang merasa internet adalah sebuah kemewahan, bisa cari CD/DVD repository yang sudah banyak beredar. Meski aplikasi dalam kepingan itu tidak sebanyak di gudang internet, paling tidak sudah cukup untuk membuat Linux anda menjadi luar biasa.
+
+Windows Vista jauh lebih baik!
+
+Okeh, itu pendapat anda dan saya menghargainya. Tapi saya berani bertaruh saya pasti menang bila saya tanding keren-kerenan dengan anda, antara Linux saya dan Windows Vista anda tersayang.
+
+Sebuah aplikasi bernama compiz-fusion sudah cukup untuk membuat Vista terlihat biasa-biasa saja. Tidak percaya? Lihat Screenshot di bawah ini.
+
+Pernah tekan ALT+TAB di Windows? Di Linux, inilah yang direspon.
+
+![](/assets/screenshot-61.png)
+
+3D Desktop. Virtual Desktop ini bisa membentuk sebuah kubus atau segitiga. Karena Virtual Desktop saya atur cuma 2, jadi efeknya hanya 2 sisi. Anda bisa membolak-balik sesuka hati.
+
+![](/assets/efek2.png)
+
+Wow, anda mencoba memindahkan jendela? Inilah efeknya. Mouse sebenarnya terletak di ujung jendela, dekat ikon warna biru. Jendela terkesan ditarik seperti karet.
+
+![](/assets/efek3.png)Masih banyak lagi yang lain.
+
+Sebagaimana diketahui banyak orang sekarang, Vista berjalan normal dengan RAM 1GB, 2GB bila anda ingin mencoba aero dan efek 3D-nya tanpa banyak hambatan. Saat saya mencoba compiz keren ini, RAM yang saya gunakan hanya 512 dan memory VGA saya setting hanya 128MB. Efek yang dihasilkan dirender dengan halus. Tidak percaya? Coba sendiri deh.
+
+Cobalah menyentuh Linux sedikit demi sedikit, Anda tidak akan menyesal. Kalau ada yang salah dengan tulisan ini, atau mungkin anda tersinggung, email saya. Saya pasti siap membantu dengan segepok Distribusi Linux. He he he... Kalau ada fakta yang salah di sini, mohon komplain. Soalnya, seperti biasa, saya nulis sambil tidur.

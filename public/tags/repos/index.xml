@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repos on Blog</title>
+    <link>//localhost:1313/tags/repos/</link>
+    <description>Recent content in Repos on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jan 2011 04:26:32 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/repos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wikileaks</title>
+      <link>//localhost:1313/post/2011/01/13/wikileaks/</link>
+      <pubDate>Thu, 13 Jan 2011 04:26:32 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/13/wikileaks/</guid>
+      <description>&lt;p&gt;copas+repos. keren sih.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/01/wikileaks.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/wikileaks.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;dari sini : &lt;a href=&#34;http://xkcd.com/834/&#34;&gt;http://xkcd.com/834/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

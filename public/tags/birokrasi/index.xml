@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Birokrasi on Blog</title>
+    <link>//localhost:1313/tags/birokrasi/</link>
+    <description>Recent content in Birokrasi on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 May 2011 17:42:41 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/birokrasi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PNS dan DNS Nawala</title>
+      <link>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</link>
+      <pubDate>Fri, 20 May 2011 17:42:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya tidak bilang semua PNS tidak suka dengan DNS nawala. judul posting ini hanya gambaran secara umum yang saya temui di lingkungan kerja saya.&lt;/p&gt;&#xA;&lt;p&gt;jadi beginilah saya, kerja mengurusi komputer-komputer milik negara. menyenangkan memang, tapi selalu ada yang bikin muak.&lt;/p&gt;&#xA;&lt;p&gt;sudah dianggarkan, bahwa tahun ini akan didatangkan lisensi kaspersky untuk 50 client dan 10 server jangka waktu 2 tahun. bayangkan saja, saya tidak menyebutkan jumlah rupiah di sini, yang jelas itu teramat mahal hanya untuk menjaga agar komputer windows mereka aman. tetapi setidaknya itu buat pekerjaan saya lebih mudah dan terkontrol.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

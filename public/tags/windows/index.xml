@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Blog</title>
+    <link>//localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Sep 2011 01:53:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>windows installer built-in acer e-recovery management</title>
+      <link>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</link>
+      <pubDate>Fri, 10 Jun 2011 01:08:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</guid>
+      <description>&lt;p&gt;baru tau. tombolnya adalah alt-shift-f10. ditulis di sini sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;update : dan ternyata bekerja juga untuk toshiba dan lainnya dan lainnya. blah.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>laptopnya aziz</title>
+      <link>//localhost:1313/post/2010/08/24/laptopnya-aziz/</link>
+      <pubDate>Tue, 24 Aug 2010 16:38:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/24/laptopnya-aziz/</guid>
+      <description>&lt;p&gt;alkisah, ada seorang kawan, namanya aziz. punya keping video cd bajakan beli di emperan cd di surabaya. dan laptopnya diserahkan ke saya, rusak pula.&lt;/p&gt;&#xA;&lt;p&gt;tidak bisa regedit, commandline, taskmanager, etc. tidak bisa jalankan file ekstensi exe (otomatis ini ancur), dan file ntldr hilang.&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, itu leptop saya install ulang pake linux windosnya (merasa berdosa). install driver. install aplikasi (merasa berdosa). pasang antivirus (avast lisensi free). pokoke beres.&lt;/p&gt;&#xA;&lt;p&gt;tapi si aziz balik lagi keesokan harinya. tak lupa leptopnya dibawa juga. otomatis saya langsung sakit hati.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perang netcut</title>
+      <link>//localhost:1313/post/2010/07/19/perang-netcut/</link>
+      <pubDate>Mon, 19 Jul 2010 16:58:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/19/perang-netcut/</guid>
+      <description>&lt;p&gt;bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;komputernya banyak ngadat &amp;amp; deepfreezenya kebobol &amp;gt; install linux install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.&lt;/li&gt;&#xA;&lt;li&gt;ada komputer yang sama sekali ndak konek &amp;gt; ganti konektor RJ45&lt;/li&gt;&#xA;&lt;li&gt;banyak yang netcut &amp;gt; bingung euy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara install windos (kalo xpsp2 mogok sebelum pilih partisi)</title>
+      <link>//localhost:1313/post/2010/07/17/cara-install-windos-kalo-xpsp2-mogok-sebelum-pilih-partisi/</link>
+      <pubDate>Sat, 17 Jul 2010 09:05:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/17/cara-install-windos-kalo-xpsp2-mogok-sebelum-pilih-partisi/</guid>
+      <description>&lt;p&gt;sesekali tak apalah isinya windos, lagi  pula disuruh blek. &lt;img src=&#34;//localhost:1313/assets/icon_biggrin.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;kadang, di leptop2 keluaran baru, CD XP SP 2 sering mogok instal.&lt;/p&gt;&#xA;&lt;p&gt;how to : keluarin CD XP SP2-nya, masukkin CD XP SP1. lanjutkan.  balikin lagi CD XP SP2 setelah berhasil masuk tahap partisi. lanjut  sampai selesai.&lt;/p&gt;&#xA;&lt;p&gt;NB : Nasi Puyung itu pedas sekali.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

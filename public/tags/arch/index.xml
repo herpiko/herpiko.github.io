@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on Blog</title>
+    <link>//localhost:1313/tags/arch/</link>
+    <description>Recent content in Arch on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Sep 2011 05:26:33 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>menyalin update archlinux ke mesin lain</title>
+      <link>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</link>
+      <pubDate>Sat, 03 Sep 2011 05:26:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</guid>
+      <description>&lt;p&gt;pasti menyebalkan jika harus memelihara dua sistem archlinux selalu terupdate dengan koneksi pas-pasan (sebuah mesin desktop dan sebuah laptop). nah, saya menemukan cara yang praktis, hemat waktu dan bandwith. salah satu mesin terkoneksi internet, misal laptop, jalankan update pacman -Syu sampai selesai. kemudian salinlah /var/cache/pacman/pkg/* ke direktori yang sama ke mesin lain. komputer desktop juga mesti konek internet untuk mengunduh sisa-sisa yang mungkin tertinggal atau baru muncul updatenya. jalankan pacman -Syu dan komputer desktop akan menggunakan paket yang sudah ada di cache tadi dan mengunduh sisanya yang sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengapa arch linux?</title>
+      <link>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</link>
+      <pubDate>Mon, 22 Aug 2011 23:27:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</guid>
+      <description>&lt;p&gt;yah, sudah banyak mengapa-blabla lainnya, tapi kali ini saya menulis alasan mengapa saya memilih arch sebagai os utama. kalo ndak salah dari awal juni kemarin sejak pindah dari debian. itu makanya saya pasang logo arch di samping sedari kemarin-marin. (blush)&lt;/p&gt;&#xA;&lt;p&gt;apa itu arch? basisnya apa? arch itu distribusi yang mengadaptasi prinsip keep-it-simple-stupid dan tidak berbasis distribusi manapun. ya, memang tidak berbasis distribusi manapun, tidak ada deb atau rpm. beda.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ringan dan cepat. ah, masak. linux kan memang ringan, mana lebih ringan dibanding puppy linux? tentu saja arch lebih ringan karena instalasi dasar arch (core) hanya berisi terminal dan utility utama. itu doang. menginstall arch jauh lebih merepotkan ketimbang install slackware, karena kita menerima OSnya dalam keadaan kosong. dari sinilah kita membangun, memasang paket-paket yang kita pikir kita butuhkan. jadi paket-paket/service yang sebenarnya tidak perlu tidak akan terpasang. bahkan setelah desktopnya terpasang (kasus saya gnome3) saya masih mendapati arch ini sangat kencang dan responsif, kalah-kalah si mac. initnya kita mendapat apa yang benar-benar kita butuhkan. dari sini pula kita bisa belajar mengkonfigurasi sistem awal ala arch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>canterbury project</title>
+      <link>//localhost:1313/post/2011/04/01/canterbury-project/</link>
+      <pubDate>Fri, 01 Apr 2011 18:27:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/01/canterbury-project/</guid>
+      <description>&lt;p&gt;jadi begini bapak bapak ibu ibu sekalian. tadi bukak2 site arch tiba2 muncul beginian.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/04/screenshot.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/screenshot.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;setiap judul tetesan cat di atas itu ngelink ke masing2 distribusi debian, arch, opensuse, gentoo, dan gmrl. keren benar kalau beneran digabung, tetapi karena hari ini adalah satu april, kemungkinan besar itu cuma boongan. :)&lt;/p&gt;&#xA;&lt;p&gt;toh kalau dimerge beneran, paketnya kan beda, siapa  yang mau ngalah?&lt;/p&gt;&#xA;&lt;p&gt;dan saya penasaran, di antara kelima distribusi itu, pihak siapa sih yang ngusulin ide keren buat april mop ini?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

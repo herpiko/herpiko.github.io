@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>iPod Nano 4G hangs on boot. | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">iPod Nano 4G hangs on boot.</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/04/15</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/mac">mac</a>, 
+        <a href="/categories/uncategorized">uncategorized</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/apple">apple</a>, 
+        <a href="/tags/disk-mode">disk mode</a>, 
+        <a href="/tags/hang">hang</a>, 
+        <a href="/tags/ipod">ipod</a>, 
+        <a href="/tags/logo">logo</a>, 
+        <a href="/tags/restore">restore</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Malam ini saya tepok jidat karena salah memperlakukan iPod kesayangan (nano 4G). iPod ini baru balik dari pinjaman dan tidak bisa dideteksi oleh iTunes, baik di Mac maupun di Windows, malah iTunes-nya freeze. Partisinya masih terbaca, saya mencoba memformatnya dan gagal, akibatnya fatal, hasilnya seperti judul tulisan ini.</p>
+<p>Solusi pertama jika iPod nano saya bermasalah adalah menekan tombol menu dan ok selama sekitar 6-7 detik. Proses ini disebut reboot. Solusi kedua? Saya belum tahu solusi kedua sampai masalah ini terjadi. Saya pernah mencoba Diagnosis Mode dengan menahan tombol ok dan rew setelah logo apple muncul saat boot. Ternyata ada referensi lain : <a href="http://support.apple.com/kb/HT1363">http://support.apple.com/kb/HT1363</a>. Kombinasi tombol lain yaitu ok dan play sesaat setelah reboot. iPod akan masuk ke disk mode.</p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/2.png"><img src="/assets/2.png" alt=""></a></p>
+<p>Setelah masuk ke disk mode, bisa terdeteksi oleh iTunes dan tinggal merestore sistem iPod.</p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled.png"><img src="/assets/untitled.png" alt=""></a></p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled1.png"><img src="/assets/untitled1.png" alt=""></a></p>
+<p><a href="https://pikopages.files.wordpress.com/2012/04/untitled3.png"><img src="/assets/untitled3.png" alt=""></a></p>
+<p>iPod tidak akan bisa booting jika file system untuk data bukan primary FAT32.  Jangan gunakan Gparted, entah mengapa membuat iPod tidak bisa booting.</p>
+<p>[code]sudo fdisk /dev/sdb</p>
+<p>d (hapus semua partisi)</p>
+<p>1 (nomor partisi yang dipilih)</p>
+<p>n (buat partisi baru)</p>
+<p>p (pilih partisi primary)</p>
+<p>enter (dari sektor pertama)</p>
+<p>enter (sampai sektor terakhir)</p>
+<p>w (tulis tabel partisi baru ke iPod)</p>
+<p>q (keluar)</p>
+<p>[/code]</p>
+<p>tinggal format</p>
+<p>[code]mkfs.vfat -F 32 -n &ldquo;iPod&rdquo; /dev/sdb1[/code]</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

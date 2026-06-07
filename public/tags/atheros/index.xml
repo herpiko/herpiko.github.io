@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atheros on Blog</title>
+    <link>//localhost:1313/tags/atheros/</link>
+    <description>Recent content in Atheros on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Mar 2011 21:16:16 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/atheros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian squeeze &#43; WN322G v3 (atheros)</title>
+      <link>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</link>
+      <pubDate>Thu, 24 Mar 2011 21:16:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</guid>
+      <description>&lt;p&gt;yak, setelah seminggu lebih mondar-mandir akhirnya bisa juga. ternyata bukan dari paket firmware-atheros maupun madwifi (yang mana saya kira sudah discontinued mungkin).&lt;/p&gt;&#xA;&lt;p&gt;tapi langsung dari wireless.kernel.org. unduh paket compat-wireless terakhir.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;tar -zxvf compat*&lt;/p&gt;&#xA;&lt;p&gt;cd compat*&lt;/p&gt;&#xA;&lt;p&gt;make&lt;/p&gt;&#xA;&lt;p&gt;sudo make install&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;make-nya memang lama banget. setelah make install selesai, tinggal modprobe module-nya. ath9k ada 4 tapi saya ndak tau yang mana, yang jelas saya aktifkan semua module ini satu-satu, setelah selesai eh tau-tau network-manager sudah connected via wifi. agar diload saat booting, saya menuliskannya ke /etc/modules, semuanya.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

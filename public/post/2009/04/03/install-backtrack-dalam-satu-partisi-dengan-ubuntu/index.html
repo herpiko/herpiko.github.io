@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Install Backtrack dalam Satu Partisi dengan Ubuntu | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Install Backtrack dalam Satu Partisi dengan Ubuntu</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2009/04/03</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/backtrack">backtrack</a>, 
+        <a href="/tags/bt3">bt3</a>, 
+        <a href="/tags/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Mungkinkah? Mungkin saja kalau kita mau berpikir sedikit. Saya begitu ingin menginstall ke harddisk supaya tidak perlu repot booting cd  (yang saya duga penggunaan cd mendukung percepatan habisnya baterai laptop) dan bisa langsung berlama-lama main-main dengan hotspot-hotspot. Sedikit basa-basi, pada awalnya saya membuat partisi tersendiri untuk bt3 sebesar satu giga, dan itu benar-benar mengacaukan susunan partisi di harddisk Macbook yang cuma 60GB ini. Saya mempelajari isi file menu.lst dari grub dan slax.cfg di cd distribusi Slax. Ternyata bukan partisinya yang penting, tapi keberadaan file kernelnya (atau apa mungkin, saya nggak ngerti) yang biasanya bernama vmlinuz dan initrid. Kita harus mendefinisikan letaknya dengan benar di mana pun  kumpulan berkas itu berada. Nah, Anda perlu sebuah partisi ubuntu dengan space kosong lebih dari 1GB, karena Backtrack menghabiskan seukuran 1 CD.</p>
+<p>Anda perlu install dulu Ubuntu-nya kalau belum install. Tidak mesti Ubuntu sih, yang penting boot loadernya grub, kalo lilo saya kurang paham.</p>
+<p>Selanjutnya, booting dengan CD Backtrack, pada saat pemilihan mode boot, tekan tab untuk melihat cheatcode (parameter boot). Catat yang lengkap. Saya memilih yang BT3 Graphics Mode (KDE). Kalau anda suka fluxbox, pilih yang fluxbox.</p>
+<p>/boot/vmlinuz vga=0x317 initrd=/boot/initrd.gz ramdisk_size=6666 root=/dev/ram0 rw  autoexec=xconf;kde</p>
+<p>Kalau sudah selesai dicatat, restart komputer dan masuk ke ubuntu.</p>
+<p>Loginlah sebagai root agar lebih mudah, ketimbang melalui terminal. Copy isi cd backtrack 3 yaitu folder boot dan BT3 ke direktori root ( / ). Tabrakan dong dengan folder boot-nya ubuntu? Rename folder boot Backtrack, misal btboot. Hmm, sekarang isi di bawah / jadi semakin kotor, tak apa. Apakah kita perlu menjalankan bootinst.sh di btboot tersebut sebagaimana menginstall ke flashdisk? Tidak perlu, karena itu tindakan bodoh dan akan menghapus MBR harddisk.</p>
+<p>Sekarang, buka file /boot/grub/menu.lst, cari pada baris ini :</p>
+<p>title           Ubuntu 8.10 Intrepid Ibex, kernel 2.6.27-7-generic</p>
+<p>uuid         xxxxxxxxxxxxxxxxxxxxxxx</p>
+<p>kernel          /boot/vmlinuz-2.6.27-7-generic root=xxxxxxxxxxxxxxxxxxx ro quiet splash</p>
+<p>initrd          /boot/initrd.img-2.6.27-7-generic</p>
+<p>quiet</p>
+<p>Salin tulisan ini dan letakkan dua baris di bawahnya. Lalu ganti berdasarkan informasi dari boot parameter Backtrack.</p>
+<p>title              Back|Track 3 Final  [ ngoprek  mode ]</p>
+<p>kernel          /btboot/vmlinuz root=/dev/ram0 ramdisk_size=6666 rw autoexec=xconf;kde</p>
+<p>initrd          /btboot/initrd.gz</p>
+<p>Tulisan xxx dst yang saya tulis itu sebenarnya kumpulan acak angka dan huruf sebagai identitas partisi. Anda bisa ganti dengan /dev/sda1 misalnya, dan menghapus baris uuid. Saya melihat bahwa parameter-parameter dikumpulkan di baris kernel, maka saya meletakkan parameter boot backtrack di baris yang sama. Anda lihat kan kesamaannya? vmlinuz-2.6.27-7generic milik ubuntu dan vmlinuz milik slax. Pasti itu sesuatu yang sama. Tulis sesuai letaknya, misal tadi di bawah folder btboot. Demikian juga pada file initrd, backtrack juga punya yang sama namanya. Saya tetap menulis ramdisk_size=6666 karena backtrack ini tetap akan jalan sebagai sebuah livecd.</p>
+<p>Sekarang coba restart dan booting melalui pilihan baru tersebut. Anda akan mendapatkan sebuah backtrack live cd sedang berjalan tanpa cd. Kalau gagal misal kernel panic, jangan panik, mungkin Anda salah mengetiknya, periksa kembali. Hal yang sama bisa dilakukan dengan distribusi Slax, ayah dari Backtrack.</p>
+<p>Selamat mencoba dan ngoprek dengan bt3!</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

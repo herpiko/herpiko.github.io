@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xkcd on Blog</title>
+    <link>//localhost:1313/tags/xkcd/</link>
+    <description>Recent content in Xkcd on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jan 2010 12:23:59 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/xkcd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cheat (nachos)</title>
+      <link>//localhost:1313/post/2010/01/10/cheat-nachos/</link>
+      <pubDate>Sun, 10 Jan 2010 12:23:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/10/cheat-nachos/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_629&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;xkcd.com&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/01/nachos.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/nachos.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

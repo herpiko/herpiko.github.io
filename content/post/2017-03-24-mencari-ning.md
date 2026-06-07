@@ -4,10 +4,7 @@ date: 2017-03-24 00:01:00Z
 categories:
   - blog
 ---
-
 *Ditulis berdasarkan kisah nyata dari seorang kawan.*
-<br>
-<br>
 
 “Gol gol gol, ale ale ale”,
 

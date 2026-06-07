@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress Password on Blog</title>
+    <link>//localhost:1313/tags/wordpress-password/</link>
+    <description>Recent content in Wordpress Password on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Sep 2010 20:31:23 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wordpress-password/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to recover wordpress-redirect-hacked-by-a7sass</title>
+      <link>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</link>
+      <pubDate>Fri, 03 Sep 2010 20:31:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</guid>
+      <description>&lt;p&gt;alkisah, web milik seorang kawan kena hack. screenshoot :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/hek.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/hek.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;kondisi :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;webnya pakai wordpress&lt;/li&gt;&#xA;&lt;li&gt;halaman dialihkan ke halaman klaim hek blablabla.&lt;/li&gt;&#xA;&lt;li&gt;user dan password berubah.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; mengembalikan user dan password wordpress.&lt;/p&gt;&#xA;&lt;p&gt;saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

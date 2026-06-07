@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaringan on Blog</title>
+    <link>//localhost:1313/tags/jaringan/</link>
+    <description>Recent content in Jaringan on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2012 07:05:13 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/jaringan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squid Proxy &#43; Mikrotik</title>
+      <link>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</link>
+      <pubDate>Tue, 31 Jan 2012 07:05:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</guid>
+      <description>&lt;p&gt;I have installed a cache proxy to centos server and works with good TCP_HIT. i&amp;rsquo;m using centos 5.x. proxy took the data that we request from browsing activities and save it as cache. the second request will take from this cache, that means the connection uses full bandwith on the local network. we got two thing, reduce bandwith consumtion from the ISP and increase the speed. squid has other feature such as redirect, blocking, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dasar Mikrotik Plus Manajemen Bandwith</title>
+      <link>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</link>
+      <pubDate>Fri, 27 Jan 2012 02:09:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</guid>
+      <description>&lt;p&gt;ditulis sebagai catatan pengingat. asumsi, menggunakan modem speedy (192.168.1.1) dan jaringan lokal 192.168.10.xx. salah satu client yang diatur bandwithnya adalah 192.168.10.2&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Menambahkan password&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]$/password&lt;/p&gt;&#xA;&lt;p&gt;old password:&lt;/p&gt;&#xA;&lt;p&gt;new password:*****&lt;/p&gt;&#xA;&lt;p&gt;retype password:******[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Memberi nama pada interface&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/interface set 0 name=speedy&lt;/p&gt;&#xA;&lt;p&gt;/interface set 1 name=local[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Memberi nama hostname&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/system identity set name=routermikrotik[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Set IP Address&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/ip address add interface=speedy address 192.168.1.2 netmask 255.255.255.0&lt;/p&gt;&#xA;&lt;p&gt;/ip address add interface=local address 192.168.10.1 netmask 255.255.255.0[/code]&lt;/p&gt;&#xA;&lt;p&gt;5.Set Gateway&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</title>
+      <link>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</link>
+      <pubDate>Thu, 26 Jan 2012 10:02:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</guid>
+      <description>&lt;p&gt;perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.&lt;/p&gt;&#xA;&lt;p&gt;jadi kondisinya begini.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya tidak punya routerboard&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>file transfer over ssh</title>
+      <link>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</link>
+      <pubDate>Mon, 29 Aug 2011 03:20:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</guid>
+      <description>&lt;p&gt;namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.&lt;/p&gt;&#xA;&lt;p&gt;mentrasfer berkas dari komputer remot ke komputer lokal&lt;/p&gt;&#xA;&lt;p&gt;scp user@hostname:/path/ /path/&lt;/p&gt;&#xA;&lt;p&gt;user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wireless Networking in the Developing World</title>
+      <link>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</link>
+      <pubDate>Mon, 18 Jul 2011 22:08:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://wndw.net/&#34;&gt;http://wndw.net/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perang netcut</title>
+      <link>//localhost:1313/post/2010/07/19/perang-netcut/</link>
+      <pubDate>Mon, 19 Jul 2010 16:58:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/19/perang-netcut/</guid>
+      <description>&lt;p&gt;bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;komputernya banyak ngadat &amp;amp; deepfreezenya kebobol &amp;gt; install linux install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.&lt;/li&gt;&#xA;&lt;li&gt;ada komputer yang sama sekali ndak konek &amp;gt; ganti konektor RJ45&lt;/li&gt;&#xA;&lt;li&gt;banyak yang netcut &amp;gt; bingung euy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengakses Samba dengan CLI</title>
+      <link>//localhost:1313/post/2010/01/02/mengakses-samba-dengan-cli/</link>
+      <pubDate>Sat, 02 Jan 2010 18:32:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/02/mengakses-samba-dengan-cli/</guid>
+      <description>&lt;p&gt;kisah berawal ketika saya menginstal ubuntu karmic di mesin vmware yang berjalan di atas komputer server billing warnet dengan os windos. jaringan guest-host sudah berjalan baik. sharing file dan akses internet juga lancar. nah, gnome tu cukup  berat juga di mesin vmware, meski ram-nya sudah tak kasih 512. jadi, saya memilih mengganti ke xfce yang agak ringan. sayangnya, file manager defaultnya (thunar) tidak bisa mengakses samba. pada nautilus ada akses ke network, sedangkan di thunar tidak ada. bodoh sekali rasanya menjalankan nautilus di xfce. saya butuh yang ringan! dan rasanya malas install thunar-plugin.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

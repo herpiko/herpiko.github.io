@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Tutorial Scribus | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Tutorial Scribus</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2011/01/28</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/design">design</a>, 
+        <a href="/tags/layout-design">layout design</a>, 
+        <a href="/tags/open-source">open source</a>, 
+        <a href="/tags/scribus">scribus</a>, 
+        <a href="/tags/wartalinux">wartalinux</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>yoi, ini tulisan lama di wartalinux, sayang sudah tidak aktif. direpost disini untuk arsip. saya bahkan lupa bagaimana lanjutin tutorial ini.</p>
+<p>Hmm, dengan apa versi pdf wartalinux dibuat? Infonya sudah nongol di  rubrik paket. Adalah Scribus, sebuah aplikasi publising opensource yang  cukup lengkap. Bukan OpenOffice? Dengan fitur export pdf-nya, OpenOffice  memungkinkan kita membuat file pdf dari dokumen kita tapi sayangnya  banyak kekurangan dan bug yang menyertainya. Maka kembali ke Scribus  yang telah menjadi pilihan tepat. Selain mendukung PDF, Scribus bisa  mengimport file gambar (tentu saja), SVG, Postscript, dan banyak fitur  lainnya.</p>
+<p>Scribus menekankan bahwa dirinya bukanlah sebuah ‘word processor’, tidak  mengelompokkan diri dengan aplikasi officesuite lainnya. Tapi Scribus  adalah sebuah ‘page layout’ program. Jika mencari perbandingan di  Windows, mungkin Adobe Pagemaker adalah jawabannya. Apa yang bisa dibuat  dengan Scribus, bisa apa saja tergantung kreatifitas dan imajinasi  pengguna. Bisa kover CD, kartu ucapan, brosur, newsletter, koran, sampai  poster. Pendek kata hasil Scribus adalah untuk diprinting (meski tidak  semua, seperti pdf wartalinux), bukan untuk ditampilkan di website.  Jadi, kita harus memperhatikan resolusi dan juga ketajaman DPI. Dalam  pembuatan dokumen publising semacam ini, anda perlu memperhatikan  hal-hal berikut.</p>
+<ul>
+<li>
+<p>Penting untuk membuat sketsa layout atau paling tidak anda mempunyai  gambaran untuk itu. Ini akan membantu bagaimana mengatur semua konten  (tulisan, gambar, dan lainnya) dengan baik.</p>
+</li>
+<li>
+<p>Kumpulkan file gambar (dengan resolusi sebaiknya minimal 200 DPI) dan  file yang mungkin diimport lainnya dalam satu folder. Dan jangan ubah  letak file atau mengubah namanya sementara file dokumen scribus ini  (berektensi sla) akan dibuka atau diubah kedepannya. Hal ini dikarenakan  Scribus hanya membuat link ke file gambar, tidak seperti CorelDraw yang  memasukkan semuanya dalam filenya sehingga ukurannya lebih besar.</p>
+</li>
+<li>
+<p>Tulis lebih dahulu teks-teks yang akan dimasukkan di editor lain dan  kumpulkan dalam satu folder. Cek kesalahan-kesalahan yang terlihat.  Akhirnya kita hanya perlu copy paste ke dalam area kerja scribus.</p>
+</li>
+</ul>
+<p>Kita mulai saja langsung. Diasumsikan anda telah menginstal Scribus dan  aplikasi tersebut dapat berjalan dengan baik di sistem anda.</p>
+<p>Misalnya anda akan membuat pdf yang agak serupa dengan wartalinux. Saat  pertama menjalankan Scribus, akan muncul jendela dialog untuk  konfigurasi dokumen publishing baru (atau bisa juga membuka dokumen yang  sudah ada).</p>
+<p><img src="/assets/gambar1.png" alt=""></p>
+<p>Atur ukuran, margin, dan lainnya seperlunya. Klik ok dan tibalah di  area kerja Scribus. Beberapa orang mungkin akan frustasi melihat  interface ini; sangat-sangat asing. Adaptasi memang tidak mudah, tapi  juga tidak sulit.</p>
+<p><img src="/assets/gambar2-besar.png" alt=""></p>
+<p>Pertama mungkin kita perlu menyusun sketsa dengan garis panduan.  Tarik dengan drag n drop garis ruler yang ada di atas dan kiri ke area  kerja. Untuk menghapusnya, drag kembali ke garis ruler. Bila butuh opsi  properties untuk sebuah objek, tekan F2 dan jendela kecil akan muncul  membantu anda.</p>
+<p>Sekarang kita bisa menggambar dasarnya, misal seperti blok warna yang  berbeda pada sampul setiap edisi wartalinux. Ada tiga pilihan untuk  melakukannya. Menggambar dengan vektor di scribus (yang mungkin agak  membingungkan), mengimport file vektor (SVG dan EPS), dan mengimport  file gambar bitmap. Pilihan akhir terlalu tolol karena ukuran file pada  akhirnya (misal diekspor ke PDF) akan membengkak tak karuan. Saya lebih  memilih untuk membuat gambar vektornya dengan inkscape atau editor  vektor lain, baru diimpor di scribus.</p>
+<p>Sebelum bereksperimen, ada baiknya berkenalan lebih lanjut dengan alat-alat. Berikut kegunaan Toolbar di Scribus.</p>
+<p><img src="/assets/toolbar.png" alt=""></p>
+<p>Select Item &gt; menggunakan kursor normal</p>
+<p>Insert Text Frame &gt; membuat frame untuk teks</p>
+<p>Kini kita coba menulis teks judul. Klik ikon Insert Text Frame pada  toolbar dan drag di area kerja sebesar area yang akan membatasi teks  tersebut. Ketik sesuatu. Bila ingin mengubah ukuran dan lainnya, silakan  berkomunikasi dengan kotak dialog Properties. Jendela ini lebih dari  cukup untuk mengatur banyak hal.</p>
+<p>Kita coba menulis sebuah paragraf. Lakukan hal yang sama seperti membuat  frame judul tersebut. Ketikan sesuatu atau copy dari teks yang sudah  disiapkan. Kita bisa mengatur rata teks, warna, ukuran, dan lainnya di  kotak properties. Kolom juga bisa dibuat dengan mengatur ukuran dan  posisi frame teks.</p>
+<p>Insert Image Frame &gt; membuat frame untuk file gambar</p>
+<p>Sekarang masukan sebuah file gambar bitmap. Klik ikon Insert Image Frame  dan drag ke area kerja sebesar area yang akan membatasi gambar  tersebut. Bila gambar kebesaran atau tidak pas, anda bisa mengeditnya  dengan GIMP. Klik kanan dan pilih edit images. Perubahan yang dilakukan  akan berdampak pada file yang diimport.</p>
+<p>Insert Table &gt; membuat tabel</p>
+<p>Setelah mengklik ikonnya, drag di area kerja. Sebelum tabel itu  dibentuk, akan ditanyakan berapa jumlah kolom dan baris. Isikan form dan  klik ok. Ukuran dan jarak bisa diatur dengan mengklik garis-garisnya.</p>
+<p><img src="/assets/gambar4.png" alt=""></p>
+<p>Insert Shape &gt; membuat bentuk2 yang telah disediakan Scribus</p>
+<p>Klik tanda segitiga di samping ikon untuk memilih bentuk lain.</p>
+<p><img src="/assets/gambar5.png" alt=""></p>
+<p>Insert Polygon &gt; membuat bentuk teratur yang jumlah sisinya bisa kita tentukan.</p>
+<p><img src="/assets/gambar6.png" alt=""></p>
+<p>Insert Line &gt; membuat garis</p>
+<p>.</p>
+<p>Insert Bezier Curve &gt; membuat garis yang bisa diatur bentuknya (curve)</p>
+<p>. Akan muncul kotak jendela Node yang membantu mengatur kurva yang ingin dibentuk.</p>
+<p><img src="/assets/gambar7.png" alt=""></p>
+<p>Insert Freehand Line &gt; menggambar garis dengan bebas.</p>
+<p>Rotation &gt; memutar posisi objek</p>
+<p>Klik objek lalu klik ikon. Klik dan tahan pada objek untuk memutarnya.</p>
+<p><img src="/assets/gambar8.png" alt=""></p>
+<p>Zoom in or Out &gt; kaca pembesar</p>
+<p>Linx Text Frame &gt; membuat sebuah tulisan berlanjut di text frame lain.</p>
+<p>Bila pernah baca koran atau semacamnya, pasti mengerti bahwa beberapa  kolom yang satu tulisan, saling menyambung dan ukuran mereka selalu  rapi. Kita bisa saja membuat beberapa teks frame terpisah menjadi kolom  yang juga memisahkan tulisannya, tentunya itu agak merepotkan dan  panjang tulisan sulit diatur. Fitur Link Text Frame mengizinkan kita  untuk membuat sebuah teks dalam frame yang terlalu kecil untuknya, akan  bersambung ke frame lain yang telah ditentukan. Spasi antar baris bisa  diatur pada Kotak Properties &gt; Text, lalu ubah angka pada Line  Spacing.</p>
+<p><img src="/assets/gambar9.png" alt=""></p>
+<p>Unlink Text Frame &gt; mengembalikan tindakan dari Link Text Frame</p>
+<p>Measurement &gt; menampilkan jarak dari kursor yang kita drag di area kerja.</p>
+<p>Copy Item Properties &gt; menyamakan aturan sebuah objek ke objek lain.</p>
+<p>Eye Dropper &gt; menyamakan warna dari objek lain.</p>
+<p>Klik objek yang bersangkutan, lalu klik ikon dan klik warna di area kerja (objek lain) yang ingin ditiru.</p>
+<p>Sampai di sini dulu pembahasan kita. Pada edisi selanjutnya, akan  dibahas tentang jendela Properties yang serbaguna, memanipulasi halaman,  membuat link (sebagai file PDF) baik ke halaman lain, maupun ke alamat  internet, dan tip trick lainnya.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  Tensorflow GPU on Nvidia 1660 Ti
-date:   2020-05-05 00:00:00 +0700
+title: "Tensorflow GPU on Nvidia 1660 Ti"
+date: 2020-05-05 00:00:00 +0700
 categories:
   - Tech
 tags:

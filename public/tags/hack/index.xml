@@ -1,3 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hack on Blog</title><link>/tags/hack/</link><description>Recent content in Hack on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Jan 2019 00:01:00 +0000</lastBuildDate><atom:link href="/tags/hack/index.xml" rel="self" type="application/rss+xml"/><item><title>Paper Clip Lockpicking</title><link>/post/2019/01/10/paper-clip-lockpicking/</link><pubDate>Thu, 10 Jan 2019 00:01:00 +0000</pubDate><guid>/post/2019/01/10/paper-clip-lockpicking/</guid><description>&lt;p&gt;I first learned about lockpicking during highschool. A locksmith introduced me to the basic understanding of how most locks work and how to break them. So, I tried it again with a transparent training padlock. It seems easy but on real locks, it really hard and needs patience as you can&amp;rsquo;t see the pin tumbler. Instead of using lock picking toolset, bending your own paper clip is more challenging.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/orISHZZfhDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;For more exploration, I found this documentation is excellent and quite detailed, &lt;a href="http://www.blurofinsanity.com/mit/lockpick.html"&gt;&lt;a href="http://www.blurofinsanity.com/mit/lockpick.html"&gt;http://www.blurofinsanity.com/mit/lockpick.html&lt;/a&gt;&lt;/a&gt;. Chapter 9 is very interesting.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on Blog</title>
+    <link>//localhost:1313/tags/hack/</link>
+    <description>Recent content in Hack on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jan 2019 00:01:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Clip Lockpicking</title>
+      <link>//localhost:1313/post/2019/01/10/paper-clip-lockpicking/</link>
+      <pubDate>Thu, 10 Jan 2019 00:01:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2019/01/10/paper-clip-lockpicking/</guid>
+      <description>&lt;p&gt;I first learned about lockpicking during highschool. A locksmith introduced me to the basic understanding of how most locks work and how to break them. So, I tried it again with a transparent training padlock. It seems easy but on real locks, it really hard and needs patience as you can&amp;rsquo;t see the pin tumbler. Instead of using lock picking toolset, bending your own paper clip is more challenging.&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/orISHZZfhDQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;For more exploration, I found this documentation is excellent and quite detailed, &lt;a href=&#34;http://www.blurofinsanity.com/mit/lockpick.html&#34;&gt;&lt;a href=&#34;http://www.blurofinsanity.com/mit/lockpick.html&#34;&gt;http://www.blurofinsanity.com/mit/lockpick.html&lt;/a&gt;&lt;/a&gt;. Chapter 9 is very interesting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how to recover wordpress-redirect-hacked-by-a7sass</title>
+      <link>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</link>
+      <pubDate>Fri, 03 Sep 2010 20:31:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</guid>
+      <description>&lt;p&gt;alkisah, web milik seorang kawan kena hack. screenshoot :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/hek.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/hek.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;kondisi :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;webnya pakai wordpress&lt;/li&gt;&#xA;&lt;li&gt;halaman dialihkan ke halaman klaim hek blablabla.&lt;/li&gt;&#xA;&lt;li&gt;user dan password berubah.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; mengembalikan user dan password wordpress.&lt;/p&gt;&#xA;&lt;p&gt;saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to : mendapatkan saluran TV kabel (ilegal)</title>
+      <link>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</link>
+      <pubDate>Thu, 18 Feb 2010 02:45:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</guid>
+      <description>&lt;p&gt;sedikit kisah lama, 5-6 bulan lalu, saya sudah mencoba keduanya. di ruang depan, ada TV dengan saluran TV kabel lengkap. sedangkan di kamar, ada seperangkat komputer dengan tv tunner. aduh, saya kepingin nongton HBO sambil tidur-tiduran di kasur. kakak saya punya ide bagus.&lt;/p&gt;&#xA;&lt;p&gt;jadi ini dia idenya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;peringatan : resiko ditanggung sendiri&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;CARA PERTAMA : cara kasar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;tepat di atas kamar saya, di atas plafon, kabel TVnya melintang. jadi saya memotongnya dan menyambungnya. jika anda pernah membongkar kabel antena TV, anda akan tahu bahwa kabel ini berbeda dengan kebanyakan kabel. ada lapisan luar dan ada lapisan inti. keduanya tidak boleh bersentuhan saat disambungkan. saya menggunakan jarum untuk menyambungkan ke lapisan dalam kabel. silakan lihat gambar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

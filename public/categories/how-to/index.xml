@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How To on Blog</title>
+    <link>//localhost:1313/categories/how-to/</link>
+    <description>Recent content in How To on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 21:00:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Error Alsactl</title>
+      <link>//localhost:1313/post/2012/04/15/error-alsactl/</link>
+      <pubDate>Sun, 15 Apr 2012 21:00:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/error-alsactl/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #1 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #2 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #25 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;/usr/sbin/alsactl: set_control:1328: failed to obtain info for control #26 (No such file or directory)&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;selalu muncul beberapa baris sebelum login. solusi di wiki Archlinux bekerja untuk Slackware&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Squid Proxy &#43; Mikrotik</title>
+      <link>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</link>
+      <pubDate>Tue, 31 Jan 2012 07:05:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</guid>
+      <description>&lt;p&gt;I have installed a cache proxy to centos server and works with good TCP_HIT. i&amp;rsquo;m using centos 5.x. proxy took the data that we request from browsing activities and save it as cache. the second request will take from this cache, that means the connection uses full bandwith on the local network. we got two thing, reduce bandwith consumtion from the ISP and increase the speed. squid has other feature such as redirect, blocking, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</title>
+      <link>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</link>
+      <pubDate>Thu, 26 Jan 2012 10:02:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</guid>
+      <description>&lt;p&gt;perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.&lt;/p&gt;&#xA;&lt;p&gt;jadi kondisinya begini.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya tidak punya routerboard&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sinkron waktu di mikrotik dengan NTP</title>
+      <link>//localhost:1313/post/2011/12/20/sinkron-waktu-di-mikrotik-dengan-ntp/</link>
+      <pubDate>Tue, 20 Dec 2011 10:06:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/20/sinkron-waktu-di-mikrotik-dengan-ntp/</guid>
+      <description>&lt;p&gt;awalnya dari blokir fb dan socmed lain di kantor, tapi setiap mati lampu, jamnya ter-reset dan jadwal blokir fb jadi kacau. rekan kantor pada senyum kembang-kembang buka facebook. gobloknya saya ndak googling dulu, langsung bongkar mikrotiknya buat liat2 siapa tahu ada baterai jamnya (semacam baterai bios di PC), ternyata tidak. UPS juga tidak bisa bertahan lebih lama dari yang diharapkan.&lt;/p&gt;&#xA;&lt;p&gt;solusinya, pengaturan waktu di mikrotik bisa diatur agar sinkron dengan server NTP. dalam hal ini, saya menggunakan server NTP dari LIPI : ntp.kim.lipi.go.id&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BIOS hilang?</title>
+      <link>//localhost:1313/post/2011/11/17/bios-hilang/</link>
+      <pubDate>Thu, 17 Nov 2011 15:10:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/17/bios-hilang/</guid>
+      <description>&lt;p&gt;begitu notebook dinyalakan, tidak muncul apa pun. di PC desktop, hal seperti ini biasanya disebabkan oleh RAM. tetapi RAMnya baik-baik saja ketika dicoba di notebook lain. konektor VGA pun tidak masalah.&lt;/p&gt;&#xA;&lt;p&gt;ketika dibawa ke toko/service kesana kemari, mereka semua menolak. notebook itu gag bakalan bisa diapa-apakan kalau ndak ada bios, begitu pendapat mereka, rusak pabriklah, atau apalah.&lt;/p&gt;&#xA;&lt;p&gt;hal seperti ini sudah 3 kali saya alami, pada toshiba, acer, dan dell. tetapi sebenarnya bukan biosnya hilang, tetapi entah bagaimana, bios tidak muncul karena suatu hal, mungkin data korup yang tersimpan di memori sementara (yang disupport oleh baterai bios). tetapi perlu diingat bahwa settingan default bios sudah ada di flash memory yang gag bakalan berubah bagaimana pun juga. jadi jalan keluarnya adalah reset bios, dan itu berhasil.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>file transfer over ssh</title>
+      <link>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</link>
+      <pubDate>Mon, 29 Aug 2011 03:20:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</guid>
+      <description>&lt;p&gt;namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.&lt;/p&gt;&#xA;&lt;p&gt;mentrasfer berkas dari komputer remot ke komputer lokal&lt;/p&gt;&#xA;&lt;p&gt;scp user@hostname:/path/ /path/&lt;/p&gt;&#xA;&lt;p&gt;user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>akun chat.facebook di iChat</title>
+      <link>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</link>
+      <pubDate>Sun, 21 Aug 2011 20:10:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</guid>
+      <description>&lt;p&gt;bisakah? bisa.&lt;/p&gt;&#xA;&lt;p&gt;pilih jabber account. isikan usernya dengan &lt;a href=&#34;mailto:user@chat.facebook.com&#34;&gt;user@chat.facebook.com&lt;/a&gt;. string user di sini adalah string user halaman profil kita, misal &lt;a href=&#34;http://facebook.com/herpikodwiaguno&#34;&gt;http://facebook.com/herpikodwiaguno&lt;/a&gt;. isikan password. klik server option dan isi servernya dengan chat.facebook.com dan port 5222.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/ichatsetup.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/ichatsetup.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;sayangnya ichat ndak mendukung YM. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>masalah mysql di XAMPP 1.7.3 for mac</title>
+      <link>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</link>
+      <pubDate>Sat, 06 Aug 2011 02:27:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</guid>
+      <description>&lt;p&gt;berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koneksi vpn di debian squeeze</title>
+      <link>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</link>
+      <pubDate>Mon, 20 Jun 2011 22:39:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;saya memerlukan vpnclient di debian untuk koneksi ke kantor. jadi bisa nitip2 donglot seabrek hanya dari koneksi 30kbps di rumah. :P&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install network-manager-pptp network-manager-pptp-gnome&lt;/p&gt;&#xA;&lt;p&gt;edit connection &amp;gt; vpn &amp;gt; add.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;berikan nama koneksi. isikan ip publik tujuan vpn berikut user name dan password. btw, available to all users-nya jangan dicentang. entah kenapa itu menyebabkan gagal konek. NT domain biarkan kosong dan ipv4 biarkan otomatis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/4.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/4.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;jika berhasil konek akan ada gambar gembok kecil di ikon network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>windows installer built-in acer e-recovery management</title>
+      <link>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</link>
+      <pubDate>Fri, 10 Jun 2011 01:08:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/10/windows-installer-built-in-acer-e-recovery-management/</guid>
+      <description>&lt;p&gt;baru tau. tombolnya adalah alt-shift-f10. ditulis di sini sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;update : dan ternyata bekerja juga untuk toshiba dan lainnya dan lainnya. blah.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>locale error</title>
+      <link>//localhost:1313/post/2011/02/04/locale-error/</link>
+      <pubDate>Fri, 04 Feb 2011 18:27:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/04/locale-error/</guid>
+      <description>&lt;p&gt;ada suatu ketika terminal saya jadi agak menjengkelkan. saya biasa menggunakan tab untuk operasi terminal yang efektif. nah, kali ini muncul error setelah menekan tombol tab : warning: setlocale: LC_CTYPE: blabla en_US.UTF-8&lt;/p&gt;&#xA;&lt;p&gt;saya lupa lengkapnya pesan error tersebut karena sudah berhasil dipecahkan. caranya :&lt;/p&gt;&#xA;&lt;p&gt;$ sudo locale-gen en_US.UTF-8$ sudo update-locale LANG=en_US.UTF-8&lt;/p&gt;&#xA;&lt;p&gt;habis itu reboot. tada!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>snow leopard hazard 10.6.2 installation guide for G31 chipset / intel P4 /</title>
+      <link>//localhost:1313/post/2010/12/21/snow-leopard-hazard-10.6.2-installation-guide-for-g31-chipset-/-intel-p4-/</link>
+      <pubDate>Tue, 21 Dec 2010 23:39:45 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/21/snow-leopard-hazard-10.6.2-installation-guide-for-g31-chipset-/-intel-p4-/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;IF YOU LIKE MAC, PLEASE BUY IT.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;setelah 3 hari berjuang dan akhirnya berhasil, barulah saya berani tulis postingan. berikut laporannya.&lt;/p&gt;&#xA;&lt;p&gt;spesifikasi : intel PIV 3.00Ghz HT (SSE2), 1GB RAM DDR2, ECS G31 chipset motherboard (ICH7 family), VGA onboard intel GMA3100, ICH7 hdaudio, realtek LAN, 320GB WD HDD SATA, lite-on DVD-RW PATA.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;persiapan. saya menggunakan SL-hazard, silakan unduh menggunakan torrent. &lt;a href=&#34;http://leohazard.com/Download/Snow_Leopard_Client_Server_10.6.2_SSE2_SSE3_Intel_AMD_by_Hazard.torrent.zip&#34;&gt;klik di sini&lt;/a&gt;. agar aman, sebaiknya backup dulu data anda. sisakan partisi primary kosong di tempat pertama.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengakses gmail di wap browser jadul</title>
+      <link>//localhost:1313/post/2010/12/16/mengakses-gmail-di-wap-browser-jadul/</link>
+      <pubDate>Thu, 16 Dec 2010 17:02:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/16/mengakses-gmail-di-wap-browser-jadul/</guid>
+      <description>&lt;p&gt;awal cerita, saya dikasih hape bekas cuma2 sama seseorang. saya kira itu motorala apa gitu, habis tombol2nya mirip sekali, taunya hape china. isinya, katrok ah. :(&lt;/p&gt;&#xA;&lt;p&gt;tapi tak apa, toh dikasih, gratis pula, lumayan buat cadangan.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya coba cari2 fasilitas yang penting : platform java dan wap browser. fakta parah, java tidak ada. wap browser ada, tapi jadul. koneksi maksimal hape ini adalah gprs.&lt;/p&gt;&#xA;&lt;p&gt;saat saya coba buka gmail, langsung muncul peringatan bahwa hanpon ini tidak mensupport gmail. silakan mengunduh versi java-nya. lha, java ndak ada kok.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengatur sendiri resolusi layar di ubuntu</title>
+      <link>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</link>
+      <pubDate>Mon, 08 Nov 2010 01:15:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</guid>
+      <description>&lt;p&gt;kemarin saya ketemuan sama komputer desktop dengan VGA SIS, pakai lucid dan resolusinya tidak proposional, mentok 800x600. berhubung tidak sedang koneksi internet untuk unduh driver, kita bisa mengakalinya, dengan xrandr, cvt, dan berkas konfigurasi X, xorg.conf. secara default, xrandr dan cvt sudah terinstall di ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;pertama-tama, musti diperkirakan dulu resolusi yang tepat. misalnya, kita sudah tahu bahwa komputer/laptop ini resolusinya yang paling pas adalah 1368x768 (misalnya). kita bisa coba langsung dengan xrandr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>perang netcut</title>
+      <link>//localhost:1313/post/2010/07/19/perang-netcut/</link>
+      <pubDate>Mon, 19 Jul 2010 16:58:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/19/perang-netcut/</guid>
+      <description>&lt;p&gt;bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;komputernya banyak ngadat &amp;amp; deepfreezenya kebobol &amp;gt; install linux install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.&lt;/li&gt;&#xA;&lt;li&gt;ada komputer yang sama sekali ndak konek &amp;gt; ganti konektor RJ45&lt;/li&gt;&#xA;&lt;li&gt;banyak yang netcut &amp;gt; bingung euy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara install windos (kalo xpsp2 mogok sebelum pilih partisi)</title>
+      <link>//localhost:1313/post/2010/07/17/cara-install-windos-kalo-xpsp2-mogok-sebelum-pilih-partisi/</link>
+      <pubDate>Sat, 17 Jul 2010 09:05:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/17/cara-install-windos-kalo-xpsp2-mogok-sebelum-pilih-partisi/</guid>
+      <description>&lt;p&gt;sesekali tak apalah isinya windos, lagi  pula disuruh blek. &lt;img src=&#34;//localhost:1313/assets/icon_biggrin.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;kadang, di leptop2 keluaran baru, CD XP SP 2 sering mogok instal.&lt;/p&gt;&#xA;&lt;p&gt;how to : keluarin CD XP SP2-nya, masukkin CD XP SP1. lanjutkan.  balikin lagi CD XP SP2 setelah berhasil masuk tahap partisi. lanjut  sampai selesai.&lt;/p&gt;&#xA;&lt;p&gt;NB : Nasi Puyung itu pedas sekali.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To : Berforum dengan baik</title>
+      <link>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</link>
+      <pubDate>Sun, 25 Apr 2010 20:08:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</guid>
+      <description>&lt;p&gt;yap, to the point saja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;aturan pertama&lt;/strong&gt; : carilah lebih dulu sebelum anda menanyakan atau membuat thread.&lt;/p&gt;&#xA;&lt;p&gt;aturan kedua : lihat aturan pertama dan abaikan aturan kedua dan lain-lain (kecuali tentang menghormati member lain, tidak berlaku buruk, dan hal-hal semacam itu)&lt;/p&gt;&#xA;&lt;p&gt;anda tidak repost dan menjengkelkan, maka anda akan jadi anggota forum yang baik.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya pernah melakukan kesalahan lho. salah satu forum pertama yang saya masuki adalah milis KPLI NTB. lihat apa yang saya lakukan di sini.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to : mendapatkan saluran TV kabel (ilegal)</title>
+      <link>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</link>
+      <pubDate>Thu, 18 Feb 2010 02:45:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</guid>
+      <description>&lt;p&gt;sedikit kisah lama, 5-6 bulan lalu, saya sudah mencoba keduanya. di ruang depan, ada TV dengan saluran TV kabel lengkap. sedangkan di kamar, ada seperangkat komputer dengan tv tunner. aduh, saya kepingin nongton HBO sambil tidur-tiduran di kasur. kakak saya punya ide bagus.&lt;/p&gt;&#xA;&lt;p&gt;jadi ini dia idenya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;peringatan : resiko ditanggung sendiri&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;CARA PERTAMA : cara kasar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;tepat di atas kamar saya, di atas plafon, kabel TVnya melintang. jadi saya memotongnya dan menyambungnya. jika anda pernah membongkar kabel antena TV, anda akan tahu bahwa kabel ini berbeda dengan kebanyakan kabel. ada lapisan luar dan ada lapisan inti. keduanya tidak boleh bersentuhan saat disambungkan. saya menggunakan jarum untuk menyambungkan ke lapisan dalam kabel. silakan lihat gambar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stupid Cubetimer ver. 0.1 Beta, Replika Stackmat Timer</title>
+      <link>//localhost:1313/post/2010/02/05/stupid-cubetimer-ver.-0.1-beta-replika-stackmat-timer/</link>
+      <pubDate>Fri, 05 Feb 2010 18:09:10 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/05/stupid-cubetimer-ver.-0.1-beta-replika-stackmat-timer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://rubikku.ning.com/xn/detail/2718326:Topic:68697?xg_source=activity&#34;&gt;also posted on rubikku.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;saya serius untuk jadi speedsolver, tapi membeli stackmat tetaplah terlalu mahal bagi saya. empat ratus ribu coba! saya lebih memilih melengkapi koleksi puzzle dari pada beli timer ini. dengan sebuah komputer dan aplikasi timer dengan tombol spasi keyboard saya rasa sudah cukup. tapi&amp;hellip;, ada tapinya&amp;hellip; saya tetap kepingin.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/cz02.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;saya nongton video-video sub 20 dengan stackmat timer. mereka semua membanting cube mereka saat solve dan menyentuh stackmat timer keren itu. saya pikir itu keren sekali. jadi saya sering membanting rubik ori saya ke keyboard. hasilnya fatal, rubik kesayangan itu memang kuat dan tidak patah, tapi edge dan cornernya pada bengkok semua (dan dinamakan si kotak bengkok). pakai bantal? taruh bantal di belakang keyboard? sama sekali tidak keren.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clue MatiBeku.com Stage 1</title>
+      <link>//localhost:1313/post/2010/01/23/clue-matibeku.com-stage-1/</link>
+      <pubDate>Sat, 23 Jan 2010 05:45:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/23/clue-matibeku.com-stage-1/</guid>
+      <description>&lt;p&gt;yah, mungkin sudah telat sekali, karena matibeku sudah lama sekali dibuat. tapi masih banyak pemain mayatbeku yang baru. :)&lt;/p&gt;&#xA;&lt;p&gt;awalnya saya main notpron, tapi langsung nyerah. terus main matigosong, langsung gosong. dan tempo hari, si anggarda kasi tahu soal matibeku.com. woof, saya cobain dan akhirnya  ketagihan. teka-tekinya menyenangkan bagi saya.&lt;/p&gt;&#xA;&lt;p&gt;Stage 1 sangat-sangat mudah dan menyenangkan. Tapi ujian naik kelasnya agak sedikit berbeda. Stage 2 lumayan dan lebih menyenangkan. Stage 3? Nah, disinilah saya stuck, mabok, matibeku total pada level 32. Untuk saat ini, clue stage 1 dulu. saya akan memberikan &lt;strong&gt;petunjuk yang mengarah pada cara mendapatkan jawaban,&lt;/strong&gt; bukan jawaban itu sendiri. ntar takut dimarah pak wangsa. hehehe. kalo belum pernah buka matibeku, coba dulu deh. ini sekilasnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To : Menyelesaikan Rubik 3x3 dengan Mata Tertutup (Blindfold)</title>
+      <link>//localhost:1313/post/2009/10/11/how-to-menyelesaikan-rubik-3x3-dengan-mata-tertutup-blindfold/</link>
+      <pubDate>Sun, 11 Oct 2009 14:01:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/10/11/how-to-menyelesaikan-rubik-3x3-dengan-mata-tertutup-blindfold/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/blind.jpg&#34; alt=&#34;&#34;&gt;Dear all&amp;hellip;**&#xA;Catatan :** BLD bukanlah sesuatu yang sangat luar biasa, misterius, jenius, atau sebagainya seperti yang ditampilkan di acara-acara sulap atau mentalis, seperti dedy corbuzer misal, di samping fakta bahwa dedy ngintip. BLD bisa dipelajari dan siapapun bisa melakukannya, entah dia bodoh atau cerdas, asal ada kemauan siapa pun pasti bisa. saya tidak bilang BLD itu mudah, tapi saya juga tidak bilang BLD itu sulit. Ini hanya sebuah permainan rubik&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikroblogging on Blog</title>
+    <link>//localhost:1313/tags/mikroblogging/</link>
+    <description>Recent content in Mikroblogging on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Feb 2011 17:03:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mikroblogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>reboot</title>
+      <link>//localhost:1313/post/2011/02/09/reboot/</link>
+      <pubDate>Wed, 09 Feb 2011 17:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/09/reboot/</guid>
+      <description>&lt;p&gt;ngapdet kernel euy! *makanbakso&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>buntu</title>
+      <link>//localhost:1313/post/2011/01/26/buntu/</link>
+      <pubDate>Wed, 26 Jan 2011 23:59:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/26/buntu/</guid>
+      <description>&lt;p&gt;ya ampun saya duduk di depan layar hampir 20 menit tapi hanya kalimat ini yang saya tulis. :(&lt;/p&gt;&#xA;&lt;p&gt;*lanjutin makan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>blah</title>
+      <link>//localhost:1313/post/2011/01/20/blah/</link>
+      <pubDate>Thu, 20 Jan 2011 23:01:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/20/blah/</guid>
+      <description>&lt;p&gt;hari ini buruk&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

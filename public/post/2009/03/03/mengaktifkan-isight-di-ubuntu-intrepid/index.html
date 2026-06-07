@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Mengaktifkan iSight di Ubuntu Intrepid | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Mengaktifkan iSight di Ubuntu Intrepid</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2009/03/03</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/mac">mac</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/apple">apple</a>, 
+        <a href="/tags/isight">isight</a>, 
+        <a href="/tags/mac">mac</a>, 
+        <a href="/tags/macbook">macbook</a>, 
+        <a href="/tags/ubuntu">ubuntu</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Mungkin komputer terbaik di dunia adalah produk Apple (hehehe&hellip;mentang2 pakek Mac). Sudah jadi rahasia umum produk Apple selalu menetapkan standar sendiri yang berbeda dengan vendor hardware maupun software lain. Lihat saja sebuah Macbook atau Powerbook. Anda tidak akan melihat yang namanya &lsquo;BIOS&rsquo;. Aneh sekali kan, komputer tanpa bios? Hardware di mesin mac juga dikhususkan untuk mac os, meski beberapa bisa untuk os lain. Nah, ini ada sedikit info cara mengaktifkan isight, webcam bawaan macbook, sistem operasi Linux Ubuntu. Sampai matipun tidak akan ketemu driver khusus untuk windows atau linux, kecuali mengambil file driver asli isight di Mac OSX, dan driver ini untungnya sudah disediakan di internet. Kalau punya Mac OSX, mungkin tidak terlalu sulit, bagaimana kalau tidak punya Mac OSX? Seperti saya&hellip;.</p>
+<p>Ok. Pertama donlot dulu drivernya :</p>
+<p><a href="http://download232.mediafire.com/ysx20cdde2yg/81xtkqyttjt/AppleUSBVideoSupport">http://download232.mediafire.com/ysx20cdde2yg/81xtkqyttjt/AppleUSBVideoSupport</a></p>
+<p>Install isight-firmware.</p>
+<p>apt-get install isight-firmware-tools</p>
+<p>Jika isight-firmware tools sudah terinstall, copy file AppleUSBVideoSupport ke /lib/firmware/</p>
+<p>jalankan</p>
+<p>ift-extract -a /lib/firmware/AppleUSBVideoSupport</p>
+<p>kita akan melihat baris-baris ini :</p>
+<p>** Message: Found Mac OS X.4 intel driver</p>
+<p>** Message: Firmware extracted successfully in /lib/firmware/isight.fw</p>
+<p>** Message: Apply patch 0 : Fix video control interface descriptor</p>
+<p>** Message: Apply patch 1 : Fix video streaming interface descriptor</p>
+<p>** Message: Apply patch 2 : Fix video streaming device qualifier</p>
+<p>** Message: Firmware patched successfully</p>
+<p>Sejauh ini Anda boleh jingkrak2. shutdown ubuntu (bukan restart) lalu nyalakan kembali</p>
+<p>install dan jalankan cheese</p>
+<p>apt-get install cheese</p>
+<p>Wajah bloon Anda akan nongol di layar. Jangan sampe kena narsis syndrom tingkat 5.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikrotik on Blog</title>
+    <link>//localhost:1313/tags/mikrotik/</link>
+    <description>Recent content in Mikrotik on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2012 07:05:13 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squid Proxy &#43; Mikrotik</title>
+      <link>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</link>
+      <pubDate>Tue, 31 Jan 2012 07:05:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/31/squid-proxy--mikrotik/</guid>
+      <description>&lt;p&gt;I have installed a cache proxy to centos server and works with good TCP_HIT. i&amp;rsquo;m using centos 5.x. proxy took the data that we request from browsing activities and save it as cache. the second request will take from this cache, that means the connection uses full bandwith on the local network. we got two thing, reduce bandwith consumtion from the ISP and increase the speed. squid has other feature such as redirect, blocking, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dasar Mikrotik Plus Manajemen Bandwith</title>
+      <link>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</link>
+      <pubDate>Fri, 27 Jan 2012 02:09:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/27/dasar-mikrotik-plus-manajemen-bandwith/</guid>
+      <description>&lt;p&gt;ditulis sebagai catatan pengingat. asumsi, menggunakan modem speedy (192.168.1.1) dan jaringan lokal 192.168.10.xx. salah satu client yang diatur bandwithnya adalah 192.168.10.2&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Menambahkan password&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]$/password&lt;/p&gt;&#xA;&lt;p&gt;old password:&lt;/p&gt;&#xA;&lt;p&gt;new password:*****&lt;/p&gt;&#xA;&lt;p&gt;retype password:******[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Memberi nama pada interface&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/interface set 0 name=speedy&lt;/p&gt;&#xA;&lt;p&gt;/interface set 1 name=local[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Memberi nama hostname&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/system identity set name=routermikrotik[/code]&lt;/p&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Set IP Address&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;[code]/ip address add interface=speedy address 192.168.1.2 netmask 255.255.255.0&lt;/p&gt;&#xA;&lt;p&gt;/ip address add interface=local address 192.168.10.1 netmask 255.255.255.0[/code]&lt;/p&gt;&#xA;&lt;p&gt;5.Set Gateway&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</title>
+      <link>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</link>
+      <pubDate>Thu, 26 Jan 2012 10:02:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/26/lingkungan-praktik-jaringan-mikrotik-dengan-2-komputer/</guid>
+      <description>&lt;p&gt;perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.&lt;/p&gt;&#xA;&lt;p&gt;jadi kondisinya begini.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya tidak punya routerboard&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

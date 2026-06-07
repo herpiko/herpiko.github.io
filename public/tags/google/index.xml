@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Blog</title>
+    <link>//localhost:1313/tags/google/</link>
+    <description>Recent content in Google on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2011 22:40:30 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>verifikasi 2 langkah dari Google</title>
+      <link>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</link>
+      <pubDate>Sun, 20 Nov 2011 22:40:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/20/verifikasi-2-langkah-dari-google/</guid>
+      <description>&lt;p&gt;Suatu pagi, belum mandi dan sikat gigi, saya menemukan notifikasi aneh di halaman gmail saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Saya pikir menarik maka saya mencobanya. Verifikasi 2 langkah adalah cara baru dari Google untuk melindungi pengguna layanan akun Google (gmail, youtube, etc) dari pembajakan akun.  Cara bekerjanya adalah :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Jika kita ingin login, kita memasukkan username dan password seperti biasa, lalu Google akan mengirimi kita sms yang berisi kode verifikasi.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kita dialihkan ke halaman verifikasi dan di ponsel kita telah tiba kodenya. kita tinggal memasukkan kode verifikasi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>google&#43; vs facebook</title>
+      <link>//localhost:1313/post/2011/07/02/google-vs-facebook/</link>
+      <pubDate>Sat, 02 Jul 2011 17:51:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/02/google-vs-facebook/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/ops.gif&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/ops.gif&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>thanks google!</title>
+      <link>//localhost:1313/post/2010/08/17/thanks-google/</link>
+      <pubDate>Tue, 17 Aug 2010 16:04:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/17/thanks-google/</guid>
+      <description>&lt;p&gt;akhirnya ada juga bahan buat ngapdet blog, sekalian pamer ah. :P&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1342&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;218&amp;rdquo; caption=&amp;ldquo;nama dan alamat saya lho. :P&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/scanned-documsent-1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/scanned-documsent-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1343&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;218&amp;rdquo; caption=&amp;ldquo;stikernya ciamik &amp;gt;.&amp;lt;&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/scanned-documsent1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/scanned-documsent1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;saya tidak ingat pernah jadi fan google chrome dan merequest stiker laptop, tapi kalo ndak request ndak bakalan dikirimin. kesimpulan? saya adalah pelupa. T.T&lt;/p&gt;&#xA;&lt;p&gt;dan yang paling bikin saya seneng sama google, di bagian paling bawah surat itu, ada tulisan,&lt;/p&gt;&#xA;&lt;p&gt;printed on 100% post-consumer waster recycled paper&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To : Berforum dengan baik</title>
+      <link>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</link>
+      <pubDate>Sun, 25 Apr 2010 20:08:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</guid>
+      <description>&lt;p&gt;yap, to the point saja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;aturan pertama&lt;/strong&gt; : carilah lebih dulu sebelum anda menanyakan atau membuat thread.&lt;/p&gt;&#xA;&lt;p&gt;aturan kedua : lihat aturan pertama dan abaikan aturan kedua dan lain-lain (kecuali tentang menghormati member lain, tidak berlaku buruk, dan hal-hal semacam itu)&lt;/p&gt;&#xA;&lt;p&gt;anda tidak repost dan menjengkelkan, maka anda akan jadi anggota forum yang baik.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya pernah melakukan kesalahan lho. salah satu forum pertama yang saya masuki adalah milis KPLI NTB. lihat apa yang saya lakukan di sini.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

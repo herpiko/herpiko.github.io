@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on Blog</title><link>/categories/open-source/</link><description>Recent content in Open Source on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0700</lastBuildDate><atom:link href="/categories/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Siklus Kontribusi Kode ke Proyek Upstream: Mozilla Firefox</title><link>/post/2019/06/28/siklus-kontribusi-kode-ke-proyek-upstream-mozilla-firefox/</link><pubDate>Fri, 28 Jun 2019 00:00:00 +0700</pubDate><guid>/post/2019/06/28/siklus-kontribusi-kode-ke-proyek-upstream-mozilla-firefox/</guid><description>&lt;p&gt;Hai,&lt;/p&gt;
-&lt;p&gt;Awalnya dimulai pada suatu waktu di penghujung hari Jumat yang agak jenuh, saya mencoba mencari-cari sesuatu yang bisa dikerjakan dan tetiba kepikiran bagaimana sih kalau mau kontribusi kode ke proyek-proyek upstream skala besar seperti kernel Linux, peramban Mozilla Firefox atau Chromium? Mari saya mulai dengan Firefox.&lt;/p&gt;
-&lt;h2 id="harus-bisa-apa"&gt;Harus bisa apa?&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Codebase&lt;/em&gt; Mozilla terdiri dari berbagai macam bahasa pemrograman, mulai dari C, C++, Java, JavaScript, HTML/CSS, Swift, Python dan lainnya. Jika menguasai salah satu dari mereka, lanjut!&lt;/p&gt;</description></item><item><title>Rewriting The IRGSH</title><link>/post/2019/04/05/rewriting-the-irgsh/</link><pubDate>Fri, 05 Apr 2019 00:00:00 +0700</pubDate><guid>/post/2019/04/05/rewriting-the-irgsh/</guid><description>&lt;p&gt;The reasons behind my decision to rewrite IRGSH are ranged from personal motivation to BlankOn project direction.&lt;/p&gt;
-&lt;p&gt;After Uluwatu released, a hard disk died in one of BlankOn development server. Unfortunately, the machine is the important one. The hard disk contains IRGSH, the backbone of BlankOn Linux development. The fortunate side is this happened after Uluwatu released. A year before this incident, Estu and I have tried to put IRGSH into production from scratch and it is really hard to do so. IRGSH was written in Python 2.6.x and it depends on some old and deprecated libraries. Even one of them (in a specific version, respectively) is no longer exist on the internet. A real dependency hell. It&amp;rsquo;s hard to deploy IRGSH in a modern operating system and it keeps alynne.blankonlinux.or.id from a system upgrade. The IRGSH was also very modular but combining them into a working distributed cluster takes time and quite steep learning curve. We still need to prepare a lot of things before doing that. Pbuilder needs to be configured and setup. Which also true for the repository. No easy way. Even, there is a dedicated page on our wiki for &amp;ldquo;IRGSH troubleshooting&amp;rdquo;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Blog</title>
+    <link>//localhost:1313/categories/open-source/</link>
+    <description>Recent content in Open Source on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Siklus Kontribusi Kode ke Proyek Upstream: Mozilla Firefox</title>
+      <link>//localhost:1313/post/2019/06/28/siklus-kontribusi-kode-ke-proyek-upstream-mozilla-firefox/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2019/06/28/siklus-kontribusi-kode-ke-proyek-upstream-mozilla-firefox/</guid>
+      <description>&lt;p&gt;Hai,&lt;/p&gt;&#xA;&lt;p&gt;Awalnya dimulai pada suatu waktu di penghujung hari Jumat yang agak jenuh, saya mencoba mencari-cari sesuatu yang bisa dikerjakan dan tetiba kepikiran bagaimana sih kalau mau kontribusi kode ke proyek-proyek upstream skala besar seperti kernel Linux, peramban Mozilla Firefox atau Chromium? Mari saya mulai dengan Firefox.&lt;/p&gt;&#xA;&lt;h2 id=&#34;harus-bisa-apa&#34;&gt;Harus bisa apa?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Codebase&lt;/em&gt; Mozilla terdiri dari berbagai macam bahasa pemrograman, mulai dari C, C++, Java, JavaScript, HTML/CSS, Swift, Python dan lainnya. Jika menguasai salah satu dari mereka, lanjut!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rewriting The IRGSH</title>
+      <link>//localhost:1313/post/2019/04/05/rewriting-the-irgsh/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2019/04/05/rewriting-the-irgsh/</guid>
+      <description>&lt;p&gt;The reasons behind my decision to rewrite IRGSH are ranged from personal motivation to BlankOn project direction.&lt;/p&gt;&#xA;&lt;p&gt;After Uluwatu released, a hard disk died in one of BlankOn development server. Unfortunately, the machine is the important one. The hard disk contains IRGSH, the backbone of BlankOn Linux development. The fortunate side is this happened after Uluwatu released. A year before this incident, Estu and I have tried to put IRGSH into production from scratch and it is really hard to do so. IRGSH was written in Python 2.6.x and it depends on some old and deprecated libraries. Even one of them (in a specific version, respectively) is no longer exist on the internet. A real dependency hell. It&amp;rsquo;s hard to deploy IRGSH in a modern operating system and it keeps alynne.blankonlinux.or.id from a system upgrade. The IRGSH was also very modular but combining them into a working distributed cluster takes time and quite steep learning curve. We still need to prepare a lot of things before doing that. Pbuilder needs to be configured and setup. Which also true for the repository. No easy way. Even, there is a dedicated page on our wiki for &amp;ldquo;IRGSH troubleshooting&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

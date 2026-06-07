@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iwlist on Blog</title>
+    <link>//localhost:1313/tags/iwlist/</link>
+    <description>Recent content in Iwlist on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jun 2011 14:23:14 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/iwlist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>koneksi wireless via terminal</title>
+      <link>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</link>
+      <pubDate>Sun, 12 Jun 2011 14:23:14 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</guid>
+      <description>&lt;p&gt;yak, kemarin baru nyoba, ditulis sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;pastikan interfacenya aktif :ifconfig wlan0 up&lt;/p&gt;&#xA;&lt;p&gt;pindai sinyal di sekitar kita : iwlist wlan0 scan&lt;/p&gt;&#xA;&lt;p&gt;pilih access point : iwconfig wlan0 essid &amp;ldquo;namaAP&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;minta ip dari dhcp server : dhclient wlan0&lt;/p&gt;&#xA;&lt;p&gt;ketik ifconfig untuk melihat apakah interface sudah benar-benar mendapatkan IP address.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

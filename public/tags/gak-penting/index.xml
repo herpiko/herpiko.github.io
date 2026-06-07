@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gak Penting on Blog</title>
+    <link>//localhost:1313/tags/gak-penting/</link>
+    <description>Recent content in Gak Penting on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2008 14:05:07 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gak-penting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>posted by k300i</title>
+      <link>//localhost:1313/post/2008/12/14/posted-by-k300i/</link>
+      <pubDate>Sun, 14 Dec 2008 14:05:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/14/posted-by-k300i/</guid>
+      <description>&lt;p&gt;lgi coba-coba posting pke hp 200ribuan &amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

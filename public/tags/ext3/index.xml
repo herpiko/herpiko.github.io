@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ext3 on Blog</title>
+    <link>//localhost:1313/tags/ext3/</link>
+    <description>Recent content in Ext3 on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 16:55:59 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ext3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EXT3-fs: sdaX couldn&#39;&#39;t mount because of unsupported optional features (240)</title>
+      <link>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</link>
+      <pubDate>Sun, 15 Apr 2012 16:55:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</guid>
+      <description>&lt;p&gt;Pesan galat ini muncul di awal booting, tetapi bisa diabaikan dan masih bisa masuk sistem. Tapi tidak enak juga melihat pesan galat seperti itu setiap booting. Saya temukan solusinya di sini : &lt;a href=&#34;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&#34;&gt;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hal ini terjadi karena kernel mendahulukan ext2 dan ext3 sebelum ext4. Tambahkan rootfstype=ext4 di baris append di /etc/lilo.conf&lt;/p&gt;&#xA;&lt;p&gt;[code]append=&amp;ldquo;quiet vt.default_utf8=0 rootfstype=ext4&amp;rdquo;[/code]&lt;/p&gt;&#xA;&lt;p&gt;Kemudian tulis konfigurasi lilo ke MBR.&lt;/p&gt;&#xA;&lt;p&gt;[code]sudo lilo[/code]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Squid Proxy &#43; Mikrotik | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Squid Proxy + Mikrotik</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/01/31</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/how-to">how to</a>, 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/networking">networking</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/cache">cache</a>, 
+        <a href="/tags/jaringan">jaringan</a>, 
+        <a href="/tags/mikrotik">mikrotik</a>, 
+        <a href="/tags/networking">networking</a>, 
+        <a href="/tags/proxy">proxy</a>, 
+        <a href="/tags/squid">squid</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>I have installed a cache proxy to centos server and works with good TCP_HIT. i&rsquo;m using centos 5.x. proxy took the data that we request from browsing activities and save it as cache. the second request will take from this cache, that means the connection uses full bandwith on the local network. we got two thing, reduce bandwith consumtion from the ISP and increase the speed. squid has other feature such as redirect, blocking, etc.</p>
+<p>on this case, the proxy&rsquo;s IP set to 192.168.168.12, the same level to client computers.</p>
+<p>install squid package from repository.</p>
+<p>[code]yum -y install[/code]</p>
+<p>edit /etc/squid/squid.conf</p>
+<p>change/add some.</p>
+<p>[code]#change the proxy port to 3128 and set as transparent. The transparent parameter means, this proxy can be used over the IP with port redirect.</p>
+<p>http_port 3128 transparent</p>
+<p>#add the hostname</p>
+<p>visible_hostname proxyserver</p>
+<p>#the TCP_HIT quantities depends on the refresh pattern parameter.</p>
+<p>refresh_pattern ^ftp:        1440    20%    10080</p>
+<p>refresh_pattern ^gopher:        1440    0%    1440</p>
+<p>refresh_pattern ^http:        720    90%    432000</p>
+<p>refresh_pattern -i (/cgi-bin/|?) 0    0%    0</p>
+<p>refresh_pattern (Release|Package(.gz)*)$    0    20%    2880</p>
+<p>refresh_pattern -i .(gif|png|jpg|jpeg|ico)$ 10080 90% 43200 override-expire ignore-no-cache ignore-private</p>
+<p>refresh_pattern -i .(iso|avi|wav|mp3|mp4|mpeg|mpg|swf|flv|x-flv)$ 43200 90% 432000 override-expire ignore-no-cache ignore-private</p>
+<p>refresh_pattern -i .(deb|rpm|exe|ram|bin|pdf|ppt|doc|tiff)$ 10080 90% 43200 override-expire ignore-no-cache ignore-private</p>
+<p>refresh_pattern -i .(zip|gz|arj|lha|lzh|tar|tgz|cab|rar)$ 10080 95% 43200 override-expire ignore-no-cache ignore-private</p>
+<p>refresh_pattern -i .(html|htm|css|js|php|asp|aspx|cgi) 1440 40% 40320</p>
+<p>refresh_pattern .        0    20%    4320[/code]</p>
+<p>save the file. then, create a swap directory</p>
+<p>[code]/usr/sbin/squid -z #swap[/code]</p>
+<p>Check squid configuration. If there is an output, something wrong with squid.config, otherwise, all&rsquo;s ok.</p>
+<p>[code]/usr/sbin/squid -k parse[/code]</p>
+<p>start squid service</p>
+<p>[code]/etc/rc.d/init.d/squid start[/code]</p>
+<p>use chkconfig to set squid to load on boot.</p>
+<p>[code]/sbin/chkconfig squid on[/code]</p>
+<p>now, configure browser&rsquo;s proxy to IP port 3128. open some static webpages and check log file.</p>
+<p>[code]tail /var/log/squid/access.log[/code]</p>
+<p>if success, the webpage will loaded and squid will generate TCP_MISS to the logfile. we need to check again. give attention to logfile. clear the browser cache or use other computer to load the same pages. if TCP_HIT appears on the log, then your squid server is working fine. TCP_MISS means the data is not exist on cache and proxy server will load it from the internet. You will get TCP_HIT when data is exists and client load it from cache. the more you get TCP_IP, the more browsing speed increased for lots of data.</p>
+<p>this is not yet complete. we need to enable the proxy server on router and setup it to redirect to 192.168.168.12:3128 using parent-proxy parameter.</p>
+<p>[code]set enabled=yes src-address=0.0.0.0 port=3328 parent-proxy=192.168.168.12 parent-proxy-port=3128[/code]</p>
+<p>then, add a nat rule to force all request to router&rsquo;s proxy (port 3328). strike the command bellow.</p>
+<p>[code]chain=dstnat action=redirect to-ports=3328 protocol=tcp src-address=!192.168.168.12 dst-port=80[/code]</p>
+<p>voila. :)</p>
+<p>NB : ini tulisan pertama dengan bahasa inggris. saya harap banyak yang salah dan seseorang memberitahu sehingga saya bisa belajar dari itu.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

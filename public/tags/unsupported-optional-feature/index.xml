@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unsupported Optional Feature on Blog</title>
+    <link>//localhost:1313/tags/unsupported-optional-feature/</link>
+    <description>Recent content in Unsupported Optional Feature on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 16:55:59 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/unsupported-optional-feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EXT3-fs: sdaX couldn&#39;&#39;t mount because of unsupported optional features (240)</title>
+      <link>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</link>
+      <pubDate>Sun, 15 Apr 2012 16:55:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ext3-fs-sdax-couldnt-mount-because-of-unsupported-optional-features-240/</guid>
+      <description>&lt;p&gt;Pesan galat ini muncul di awal booting, tetapi bisa diabaikan dan masih bisa masuk sistem. Tapi tidak enak juga melihat pesan galat seperti itu setiap booting. Saya temukan solusinya di sini : &lt;a href=&#34;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&#34;&gt;http://www.linuxquestions.org/questions/slackware-14/couldnt-mount-because-of-unsupported-optional-features-240-a-843675/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hal ini terjadi karena kernel mendahulukan ext2 dan ext3 sebelum ext4. Tambahkan rootfstype=ext4 di baris append di /etc/lilo.conf&lt;/p&gt;&#xA;&lt;p&gt;[code]append=&amp;ldquo;quiet vt.default_utf8=0 rootfstype=ext4&amp;rdquo;[/code]&lt;/p&gt;&#xA;&lt;p&gt;Kemudian tulis konfigurasi lilo ke MBR.&lt;/p&gt;&#xA;&lt;p&gt;[code]sudo lilo[/code]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

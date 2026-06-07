@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Squirrelmail on Blog</title>
+    <link>//localhost:1313/tags/squirrelmail/</link>
+    <description>Recent content in Squirrelmail on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Dec 2009 06:29:01 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/squirrelmail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pasang squirrelmail</title>
+      <link>//localhost:1313/post/2009/12/18/pasang-squirrelmail/</link>
+      <pubDate>Fri, 18 Dec 2009 06:29:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/18/pasang-squirrelmail/</guid>
+      <description>&lt;p&gt;ehem&amp;hellip; maaf kalo ini sudah basi. cuma mau sharing. :)&lt;/p&gt;&#xA;&lt;p&gt;karena penasaran dengan pengelolaan webmail, saya coba-coba menginstall salah satu aplikasi webmail, yakni squirrel si tupai&amp;hellip; (bener ndak?)&lt;/p&gt;&#xA;&lt;p&gt;to the point dah&amp;hellip; mula-mula, anda harus punya webserver yang jalan mulus, apache misalnya. langkah pertama, anda harus install paket-paket pendukung : POP3, IMAP, dan SMTP Server. saya mengabaikan hal pertama ini dan mendapatkan squirrelmail tanpa akun. tuh, bloon sekali saiah!&lt;/p&gt;&#xA;&lt;h1 id=&#34;apt-get-install-dovecot-common-dovecot-imapd-dovecot-pop3d-postfix-&#34;&gt;apt-get install dovecot-common dovecot-imapd dovecot-pop3d postfix \&lt;/h1&gt;&#xA;&lt;p&gt;squirrelmail squirrelmail-decode&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

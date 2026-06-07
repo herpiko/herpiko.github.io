@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movie on Blog</title>
+    <link>//localhost:1313/tags/movie/</link>
+    <description>Recent content in Movie on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2011 12:55:18 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/movie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>star wars IV : new hope</title>
+      <link>//localhost:1313/post/2011/06/22/star-wars-iv-new-hope/</link>
+      <pubDate>Wed, 22 Jun 2011 12:55:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/22/star-wars-iv-new-hope/</guid>
+      <description>&lt;p&gt;just type this and enter on your terminal. :)&lt;/p&gt;&#xA;&lt;p&gt;$telnet towel.blinkenlights.nl&lt;/p&gt;&#xA;&lt;p&gt;note : butuh koneksi internet&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prison break</title>
+      <link>//localhost:1313/post/2011/02/03/prison-break/</link>
+      <pubDate>Thu, 03 Feb 2011 03:16:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/03/prison-break/</guid>
+      <description>&lt;p&gt;yah, kesimpulannya, ini adalah film drama barat terbaik yang pernah saya tonton. tapi endingnya bikin saya murung. scofield meninggal, dan penyebab meninggalnya dijelaskan di 2 episode terakhir, the final break. pokoke tetap rekomendet!&lt;/p&gt;&#xA;&lt;p&gt;meski tetap saja ada beberapa kesalahan-kesalahan logika (yang sepertinya sudah merupakan konsekuensi dari sebuah plot yang rumit), bagi saya prison break jauh lebih baik dari heroes maupun 24 (yang ini cuma nonton sedikit).&lt;/p&gt;&#xA;&lt;p&gt;ok, sedikit sinopsis ngasal :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pikoawards : Pilem dan tetek bengeknya.</title>
+      <link>//localhost:1313/post/2009/07/12/pikoawards-pilem-dan-tetek-bengeknya./</link>
+      <pubDate>Sun, 12 Jul 2009 17:36:19 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/12/pikoawards-pilem-dan-tetek-bengeknya./</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/cz41.gif&#34; alt=&#34;&#34;&gt; buahahahaha&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;dear all, anda semua terlambat menongton acaranya kemarin malam. tak masalah, tak ada yang sudi menyaksikannya karena memang tak pantas. fall in the hole**&#xA;baiklah. awards kali ini diberikan hanya pada pilem-pilem yang hebat di kategori masing-masing. dan jurinya adalah saya sendiri, seorang diri.&lt;/p&gt;&#xA;&lt;p&gt;ok, jangan perhatikan kalimat terakhr, langsung saja. pilem-pilem yang saya seleksi hanyalah pilem-pilem yang pernah saya tongton. tapi jangan khawatir, saya adalah pilemania. TV adalah hidup saya (bukan sinetron bodoh dan acara tak mendidik lainnya, tapi hanya pada HBO dan nickelodeon plus berita-berita di metrotv). jadi, pesertanya tidak sedikit. :D. tapi saya minta maaf karena pada beberapa kategori, pemenangnya ada dua, bahkan tiga. tapi adil kan?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

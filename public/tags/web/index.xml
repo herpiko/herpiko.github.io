@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Blog</title>
+    <link>//localhost:1313/tags/web/</link>
+    <description>Recent content in Web on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2009 17:27:43 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting LAMPP di Ubuntu</title>
+      <link>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</link>
+      <pubDate>Fri, 03 Apr 2009 17:27:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/setting-lampp-di-ubuntu/</guid>
+      <description>&lt;p&gt;Waktu lagi ngerjain proyek bikin web sekolah (mudahan kelar), Windows ngadat berat, nggak bisa copy file dan buka gambar. Bikin kesel minta ampun. akhirnya saya libas partisi windows tanpa belas kasihan dan langsung di merge ke Ubuntu. bagaimana saya ngerjain web berbasis joomla di ubuntu? Saya sudah install php apache mysql dan tetek bengeknya, tetep nggak bisa. Lalu saya dikasih tahu sama ketua seumur hidup KPLI NTB, mas Amrinz, kalo tutorial webserver tu ada di situs yang dikelolanya, &lt;a href=&#34;http://linuxindo.web.id&#34;&gt;linuxindo.web.id.&lt;/a&gt; setelah ngenet berjam-jam buat donlot paketnya (maklum, fakir benwit. waa&amp;hellip;.), akhirnya bisa juga. Tutorial aslinya bahasa inggris, ini sudah saya terjemahin amburadul.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

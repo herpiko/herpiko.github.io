@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trend on Blog</title>
+    <link>//localhost:1313/tags/trend/</link>
+    <description>Recent content in Trend on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jun 2011 00:57:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/trend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fixie</title>
+      <link>//localhost:1313/post/2011/06/26/fixie/</link>
+      <pubDate>Sun, 26 Jun 2011 00:57:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/26/fixie/</guid>
+      <description>&lt;p&gt;awal tahun kemarin, kata ini mulai mendengung2 di internet (atau saya yang terlambat?). saya pikir memang fixie, mahluk peri di harry potter ketiga. yang bener, ini adalah sepeda yang gear-nya fix, mati, mentok. roda akan berputar mengikuti arah pedal. beda dengan torpedo yang kalau ditahan atau putar ke belakang berarti rem.&lt;/p&gt;&#xA;&lt;p&gt;setelah baca2, ternyata fixie dipakai sebagai olah raga ekstrem yang relatif berbahaya karena remnya menggunakan kekuatan otot kaki (ditahan pelan2) jadi menggunakan sepeda fixie dalam kecepatan tinggi adalah tindakan konyol. keren jugak. dan dalam beberapa minggu trendnya sudah menyebar di Indonesia. luar biasa memang indonesia, termasuk di kota saya, mataram. wah, saya jadi pingin bikin juga, sayangnya awal januari sepeda kesayangan saya hilang dicuri atau lupa taruh dimana (or both?)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

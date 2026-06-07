@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natty on Blog</title>
+    <link>//localhost:1313/tags/natty/</link>
+    <description>Recent content in Natty on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Feb 2011 22:46:23 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/natty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>good bye ubuntu, nice to meet you!</title>
+      <link>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</link>
+      <pubDate>Thu, 17 Feb 2011 22:46:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</guid>
+      <description>&lt;p&gt;kemarin-kemarin malam syukur-syukur dapat ngenet sampai pagi, kesempatan itu saya gunakan untuk mengunduh si natty alpha sekalian paket zimbra yang lumayan besar itu, dan betapa kecewanya saya setelah mencobanya. mungkin memang iya, hal-hal baru yang dibawa ubuntu akan memudahkan pengguna baru, tetapi sungguh membuat frustasi pengguna lama. sungguh!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;awal dari kekecewaan.&lt;/strong&gt;**&#xA;adalah rilis LTS lucid, yang mulai membuat saya kurang sreg sama ubuntu. penggantian semua skema warna serta logo dan pemindahan tombol jendela ke sebelah kiri. mengenai logo itu, benar-benar kecewa berat, karena setahun sebelumnya saya sudah kadung membordir jaket kesayangan saya dengan logo cokelat-jingga-oranye khas ubuntu plus tulisannya yang serba rounded itu. sekarang warna-warna menggoda itu dihilangkan dan jadilah jaket saya ketinggalan jaman. saya dengar linux for human being bukan lagi kata-kata untuk ubuntu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

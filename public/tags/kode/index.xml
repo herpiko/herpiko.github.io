@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kode on Blog</title>
+    <link>//localhost:1313/tags/kode/</link>
+    <description>Recent content in Kode on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2011 17:25:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/kode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kamus kode v.0.0.3</title>
+      <link>//localhost:1313/post/2011/07/22/kamus-kode-v.0.0.3/</link>
+      <pubDate>Fri, 22 Jul 2011 17:25:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/22/kamus-kode-v.0.0.3/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;def morse(input):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;end=&#39;0&#39;&#xA;&#xA;v=str&#xA;&#xA;x=str&#xA;&#xA;kata=input+end&#xA;&#xA;katalist=list(input)&#xA;&#xA;nol=0&#xA;&#xA;dict={&#39; &#39;:&#39; &#39;,&#39;a&#39;:&#39;.-&#39;,&#39;b&#39;:&#39;-...&#39;,&#39;c&#39;:&#39;-.-.&#39;,&#39;d&#39;:&#39;-..&#39;,&#39;e&#39;:&#39;.&#39;,&#39;f&#39;:&#39;..-.&#39;,&#39;g&#39;:&#39;--.&#39;,&#39;h&#39;:&#39;....&#39;,&#39;i&#39;:&#39;..&#39;,&#39;j&#39;:&#39;.---&#39;,&#39;k&#39;:&#39;-.-&#39;,&#39;l&#39;:&#39;.-..&#39;,&#39;m&#39;:&#39;--&#39;,&#39;n&#39;:&#39;-.&#39;,&#39;o&#39;:&#39;---&#39;,&#39;p&#39;:&#39;.--.&#39;,&#39;q&#39;:&#39;--.-&#39;,&#39;r&#39;:&#39;.-.&#39;,&#39;s&#39;:&#39;...&#39;,&#39;t&#39;:&#39;-&#39;,&#39;u&#39;:&#39;..-&#39;,&#39;v&#39;:&#39;...-&#39;,&#39;w&#39;:&#39;.--&#39;,&#39;x&#39;:&#39;-..-&#39;,&#39;y&#39;:&#39;-.--&#39;,&#39;z&#39;:&#39;--..&#39;}&#xA;&#xA;while kata[nol] is not &#39;0&#39; :&#xA;&#xA;    v=kata[nol]&#xA;&#xA;    x=dict[v]&#xA;&#xA;    katalist[nol]=x&#xA;&#xA;    nol += 1&#xA;&#xA;hasil=&#39; &#39; .join(katalist)&#xA;&#xA;print hasil&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;inputkata=raw_input (&amp;lsquo;masukan kata atau kalimat : &amp;lsquo;)&lt;/p&gt;&#xA;&lt;p&gt;hurufkecil=inputkata.lower()&lt;/p&gt;&#xA;&lt;p&gt;morse(hurufkecil)&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;sekarang saya sudah pakai def (fungsi), yang ternyata ini berguna sekali untuk memanggil bagian perintah tertentu. oya sekarang juga sudah bisa huruf besar maupun huruf kecil. :)&lt;/p&gt;&#xA;&lt;p&gt;oya kemarin saya belum sempat jelasin alur program ini.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

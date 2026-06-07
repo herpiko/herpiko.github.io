@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating System on Blog</title>
+    <link>//localhost:1313/tags/operating-system/</link>
+    <description>Recent content in Operating System on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2011 04:32:11 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNU/Linux Distribution Timeline</title>
+      <link>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</link>
+      <pubDate>Thu, 01 Dec 2011 04:32:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&#34;&gt;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Berkeley System Distribution (BSD)</title>
+      <link>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</link>
+      <pubDate>Wed, 31 Aug 2011 03:25:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/31/berkeley-system-distribution-bsd/</guid>
+      <description>&lt;p&gt;Ada banyak sekali tulisan-tulisan yang membahas tentang BSD, baik tulisan mengenai sejarah, system administrasi, sampai penggunaan BSD kepada end-user sebagai desktop. Tulisan ini memperkenalkan BSD sebagai alternatif lain dari Linux untuk memenuhi kebutuhan akan UNIX-like operating system di Indonesia. Dalam tulisan ini pula, dibahas mengenai beberapa hal yang membedakan antara Linux dan BSD, namun tidak memutuskan mana yang paling baik, karena untuk menentukan mana operating system yang paling baik digunakan adalah Anda sendiri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>instant-on linux di netbook hp</title>
+      <link>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</link>
+      <pubDate>Sat, 19 Feb 2011 00:16:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</guid>
+      <description>&lt;p&gt;oya, alkisah saya nemuin netbuk hape (baca hp:hewlet-packard) yang begitu dinyalakan langsung muncul interface yang bisa digunakan untuk browsing, multimedia dan lainnya. langsung muncul bok! gak ada proses booting! keren benar. kalau mau booting OS yang ada di hardis, tinggal klik di pojok kiri bawah.&lt;/p&gt;&#xA;&lt;p&gt;lumayan lengkap untuk kebutuhan akses cepat.&lt;/p&gt;&#xA;&lt;p&gt;nah, sistem operasi macam apa yang nyelonong paksa sebelum booting hardis ini? saya kira varian unix/linux karena :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ikonnya itu loh, rada familiar&lt;/li&gt;&#xA;&lt;li&gt;path dengan slash, bukan backslash, saat saya masukin UFD, bahkan ada tempat mountingnya, yaitu /media/UFD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;nah, hayo, apa lagi itu kalau bukan itu?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

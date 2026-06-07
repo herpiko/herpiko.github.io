@@ -7,19 +7,30 @@ tags:
   - poem
   - puisi
 ---
+Kupinggirkan sepeda dan hampiri tukang koran
 
-Kupinggirkan sepeda dan hampiri tukang koran<br>
-Apa iya hidup memang aneh begini<br>
-Atau ke mana<br>
-Atau diapakan seharusnya masa lalu itu<br>
-Atau kapan<br>
-Atau di mana sang waktu titip rahasia<br>
-Atau mengapa<br>
-Atau siapa yang kau pelihara di anganmu<br>
-Atau apa itu cinta<br>
+Apa iya hidup memang aneh begini
 
-Tak hendak aku cari jawabnya di koran<br>
-Tapi aku beli juga ah<br>
-Tak hendak juga aku beranjak pulang<br>
-Tukang koran punya kisah-kisah<br>
-Tentang memelihara angan dan resah<br>
+Atau ke mana
+
+Atau diapakan seharusnya masa lalu itu
+
+Atau kapan
+
+Atau di mana sang waktu titip rahasia
+
+Atau mengapa
+
+Atau siapa yang kau pelihara di anganmu
+
+Atau apa itu cinta
+
+Tak hendak aku cari jawabnya di koran
+
+Tapi aku beli juga ah
+
+Tak hendak juga aku beranjak pulang
+
+Tukang koran punya kisah-kisah
+
+Tentang memelihara angan dan resah

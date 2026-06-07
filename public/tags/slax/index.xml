@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slax on Blog</title>
+    <link>//localhost:1313/tags/slax/</link>
+    <description>Recent content in Slax on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2009 05:16:52 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/slax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Slax ke USB Flashdisk</title>
+      <link>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</link>
+      <pubDate>Tue, 27 Jan 2009 05:16:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/27/install-slax-ke-usb-flashdisk/</guid>
+      <description>&lt;p&gt;Install linux ke harddisk? Itu sih udah biasa. Bagaimana kalau ke USB Flashdisk? Kebanyakan orang sudah tahu tetapi tidak ada salahnya mencoba. Slax adalah distribusi linux turunan Slackware yang dikustomasi untuk live system. Dibanding distro lain, saya berani bertaruh menginstall slax ke USB paling mudah. O ya, hanya komputer yang mendukung booting USB yang bisa menjalankan slax di flashdisk kita. Ok, langsung saja.&lt;/p&gt;&#xA;&lt;p&gt;Yang diperlukan :&lt;/p&gt;&#xA;&lt;p&gt;a. Flashdisk minimal 256 MB, file-file slax keseluruhan sebesar 200 MB.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

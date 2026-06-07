@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prov NTB on Blog</title>
+    <link>//localhost:1313/tags/prov-ntb/</link>
+    <description>Recent content in Prov NTB on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Oct 2010 17:37:01 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/prov-ntb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>peran kaipang dalam migasi FOSS prov NTB</title>
+      <link>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</link>
+      <pubDate>Mon, 11 Oct 2010 17:37:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Seperti yang telah disebutkan di atas bahwasanya Kementerian Riset dan Teknologi bersama-sama dengan seluruh stakeholder IT dan dalam kesempatan pelaksanaan kegiatan model migrasi OSS di 15 titik Provinsi/kota/kabupaten (di jadwalkan Bulan Agustus 2010 sampai dengan November 2010) RISTEK bekerjasama dengan Makara UI yang didukung oleh PT. Ardelindo Aples, POSS UI, NF dan Komunitas OSS Lokal.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;entah tulisan ini tujukan kepada siapa, saya cuma mau curhat sejenak.&lt;/p&gt;&#xA;&lt;p&gt;sejak agustus dulu, koar-koar tentang migrasi perangkat lunak terbuka di lingkungan pemerintah provinsi NTB sempat membuat saya bersemangat. akhirnya, migrasi itu dilaksanakan tanggal 4-9 oktober 2010 yang mana isinya adalah tidak sesuai dengan apa yang saya perkirakan.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

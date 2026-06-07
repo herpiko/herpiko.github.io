@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrip Perusak on Blog</title>
+    <link>//localhost:1313/tags/skrip-perusak/</link>
+    <description>Recent content in Skrip Perusak on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Aug 2010 16:38:18 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/skrip-perusak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>laptopnya aziz</title>
+      <link>//localhost:1313/post/2010/08/24/laptopnya-aziz/</link>
+      <pubDate>Tue, 24 Aug 2010 16:38:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/24/laptopnya-aziz/</guid>
+      <description>&lt;p&gt;alkisah, ada seorang kawan, namanya aziz. punya keping video cd bajakan beli di emperan cd di surabaya. dan laptopnya diserahkan ke saya, rusak pula.&lt;/p&gt;&#xA;&lt;p&gt;tidak bisa regedit, commandline, taskmanager, etc. tidak bisa jalankan file ekstensi exe (otomatis ini ancur), dan file ntldr hilang.&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, itu leptop saya install ulang pake linux windosnya (merasa berdosa). install driver. install aplikasi (merasa berdosa). pasang antivirus (avast lisensi free). pokoke beres.&lt;/p&gt;&#xA;&lt;p&gt;tapi si aziz balik lagi keesokan harinya. tak lupa leptopnya dibawa juga. otomatis saya langsung sakit hati.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

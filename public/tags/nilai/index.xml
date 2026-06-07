@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nilai on Blog</title>
+    <link>//localhost:1313/tags/nilai/</link>
+    <description>Recent content in Nilai on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2009 14:11:48 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/nilai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catatan Akhir Sekolah</title>
+      <link>//localhost:1313/post/2009/07/07/catatan-akhir-sekolah/</link>
+      <pubDate>Tue, 07 Jul 2009 14:11:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/07/catatan-akhir-sekolah/</guid>
+      <description>&lt;p&gt;Masa sekolah saya sudah selesai, begitu juga masa remaja. Fiuh, cepat sekali semuanya berlalu.&lt;/p&gt;&#xA;&lt;p&gt;Waktu saya berpas-pasan dengan teman sekelas saya di jalan (dua minggu setelah pengumuman kelulusan) dia berteriak memanggil. Dia bilang, buku rapot (atau rapor, atau report (laporan) atau apa kata yang benar? Tertulis ‘laporan hasil belajar’) milik saya belum diambil dan guru menitipkan padanya. Dia tanya kenapa saya tidak pernah datang ke sekolah, setidaknya mengurus tetek bengek kelulusan. Saya bilang saya sakit. Hohohoho.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

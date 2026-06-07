@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gimananih? on Blog</title>
+    <link>//localhost:1313/tags/gimananih/</link>
+    <description>Recent content in Gimananih? on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2010 19:30:09 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gimananih/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>munafik</title>
+      <link>//localhost:1313/post/2010/12/18/munafik/</link>
+      <pubDate>Sat, 18 Dec 2010 19:30:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/18/munafik/</guid>
+      <description>&lt;p&gt;ini isi pikiran selang beberapa waktu lalu.&lt;/p&gt;&#xA;&lt;p&gt;saat itu ada trit yang tidak biasa di salah satu milis FOSS yang menanyakan tentang dimana mengunduh film pirate of silicon valley. bagi yang belum tahu, film ini mengisahkan tentang persaingan apple dan microsoft, ada bill gates, steve jobs, dan lainnya. geek wajib nonton ini. saya langsung membalas email ini dan menyarankan sebuah alamat. ada balasan email lain dari salah satu pengembang blankon yang mengingatkan agar jangan membajak film (mengunduh film secara ilegal). saya langsung malu dan meminta maaf.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

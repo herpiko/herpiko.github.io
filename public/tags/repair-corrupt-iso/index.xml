@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repair Corrupt Iso on Blog</title>
+    <link>//localhost:1313/tags/repair-corrupt-iso/</link>
+    <description>Recent content in Repair Corrupt Iso on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2011 23:08:48 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/repair-corrupt-iso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>memperbaiki iso yang corrupt (md5sum mismatch)</title>
+      <link>//localhost:1313/post/2011/05/05/memperbaiki-iso-yang-corrupt-md5sum-mismatch/</link>
+      <pubDate>Thu, 05 May 2011 23:08:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/05/memperbaiki-iso-yang-corrupt-md5sum-mismatch/</guid>
+      <description>&lt;p&gt;setelah berkali2 download iso dvd slackware64 13.37, md5-nya tidak pernah sama. itu bikin saya patah hati, karena sudah dicoba 4 kali : wget, axel, prozgui, dan freedownloadmanager (windows), tetap saja isonya korup.&lt;/p&gt;&#xA;&lt;p&gt;ternyata iso corrupt itu bisa diperbaiki dengan client torrent apa saja, asalkan iso tersebut punya torrent-nya juga di internet, berikut seedernya masih ada. caranya, timpa file iso tersebut dengan unduhan torrent, secara otomatis, progressnya meluncur cepat lompat2 dan si torrent client akan memperbaiki bagian-bagian yang korup.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

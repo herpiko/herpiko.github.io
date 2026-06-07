@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fat on Blog</title>
+    <link>//localhost:1313/tags/fat/</link>
+    <description>Recent content in Fat on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jan 2011 04:05:10 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/fat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>defragment fat di linux</title>
+      <link>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</link>
+      <pubDate>Thu, 27 Jan 2011 04:05:10 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</guid>
+      <description>&lt;p&gt;sejauh saya googling sana sini sampai kesandung, saya belum temukan tool untuk defragment partisi fat di linux. yeah, ada partition logic tapi saya kira itu livecd. di filesystem varian unix tidak ada istilah defragment karena konsepnya berbeda dengan ntfs/fat, dan itu saya kurang ngerti.&lt;/p&gt;&#xA;&lt;p&gt;nah, belajar dari pengalaman sebelumnya, ada cara untuk defragment di fat. mungkin ini bukan defragment tapi konsepnya sama, yaitu mengisi kekosongan dan merapikan file2.&lt;/p&gt;&#xA;&lt;p&gt;karena yang saya perlukan untuk didefrag adalah sebuah MMC yang hanya berukuran 512MB, ini mudah. caranya adalah, kita mennyalin semua isi partisi tersebut ke folder di partisi lain, lalu memformat partisi fat dengan gparted, kemudian menyalin kembali isi partisi MMC ke tempat semula.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

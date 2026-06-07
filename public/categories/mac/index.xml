@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Blog</title>
+    <link>//localhost:1313/categories/mac/</link>
+    <description>Recent content in Mac on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 16:49:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPod Nano 4G hangs on boot.</title>
+      <link>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</link>
+      <pubDate>Sun, 15 Apr 2012 16:49:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</guid>
+      <description>&lt;p&gt;Malam ini saya tepok jidat karena salah memperlakukan iPod kesayangan (nano 4G). iPod ini baru balik dari pinjaman dan tidak bisa dideteksi oleh iTunes, baik di Mac maupun di Windows, malah iTunes-nya freeze. Partisinya masih terbaca, saya mencoba memformatnya dan gagal, akibatnya fatal, hasilnya seperti judul tulisan ini.&lt;/p&gt;&#xA;&lt;p&gt;Solusi pertama jika iPod nano saya bermasalah adalah menekan tombol menu dan ok selama sekitar 6-7 detik. Proses ini disebut reboot. Solusi kedua? Saya belum tahu solusi kedua sampai masalah ini terjadi. Saya pernah mencoba Diagnosis Mode dengan menahan tombol ok dan rew setelah logo apple muncul saat boot. Ternyata ada referensi lain : &lt;a href=&#34;http://support.apple.com/kb/HT1363&#34;&gt;http://support.apple.com/kb/HT1363&lt;/a&gt;. Kombinasi tombol lain yaitu ok dan play sesaat setelah reboot. iPod akan masuk ke disk mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>akun chat.facebook di iChat</title>
+      <link>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</link>
+      <pubDate>Sun, 21 Aug 2011 20:10:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/akun-chat.facebook-di-ichat/</guid>
+      <description>&lt;p&gt;bisakah? bisa.&lt;/p&gt;&#xA;&lt;p&gt;pilih jabber account. isikan usernya dengan &lt;a href=&#34;mailto:user@chat.facebook.com&#34;&gt;user@chat.facebook.com&lt;/a&gt;. string user di sini adalah string user halaman profil kita, misal &lt;a href=&#34;http://facebook.com/herpikodwiaguno&#34;&gt;http://facebook.com/herpikodwiaguno&lt;/a&gt;. isikan password. klik server option dan isi servernya dengan chat.facebook.com dan port 5222.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/ichatsetup.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/ichatsetup.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;sayangnya ichat ndak mendukung YM. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cara bodoh koneksi wifi TP-LINK WN322G di Mac OS X Snow Leopard</title>
+      <link>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</link>
+      <pubDate>Thu, 11 Aug 2011 23:00:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</guid>
+      <description>&lt;p&gt;Saya punya mesin Mac dan sebuah adapter USB wireless TP-LINK WN322G (Atheros ath9k). Adapter wireless ini tidak terdeteksi di Mac. Kext-nya dicari-cari ke ujung dunia tidak ketemu. Nah. Jadi saya punya beberapa opsi yaitu sebagai berikut:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Menggunakan komputer atau laptop lain yang punya wifi dan bekerja baik di sistem operasinya, kemudian membagi akses internetnya (Internet Connection Sharing, di Windows atau Linux ini bekerja dengan baik) ke mesin Mac via LAN.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>masalah mysql di XAMPP 1.7.3 for mac</title>
+      <link>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</link>
+      <pubDate>Sat, 06 Aug 2011 02:27:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</guid>
+      <description>&lt;p&gt;berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>booting mac via grub dan mount rw partisi hfs</title>
+      <link>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</link>
+      <pubDate>Sun, 27 Mar 2011 01:06:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</guid>
+      <description>&lt;p&gt;btw, grub debian juga bisa ngedetek mac sepertihalnya ubuntu, dan bobroknya juga sama = mac-nya tetep ndak bisa dibooting. *ngapain detek kalau ndak bisa dibooting?&lt;/p&gt;&#xA;&lt;p&gt;di grub.cfg, baris entry mac yang panjang itu tinggal diganti :&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;menuentry &amp;ldquo;macosx&amp;rdquo; {&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;insmod hfsplus&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;set root=(hd0,X)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;multiboot /boot&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;}&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;X = lokasi partisi mac&lt;/p&gt;&#xA;&lt;p&gt;untuk mount rw partisi mac, hfsnya harus non journal. kalau sudah terlanjur ya di-disable. install paket hfsprogs, hfsutils, dan hfsplus. tinggal jalankan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>osx86 di emachines D720 (intel GMAX4500)</title>
+      <link>//localhost:1313/post/2010/12/23/osx86-di-emachines-d720-intel-gmax4500/</link>
+      <pubDate>Thu, 23 Dec 2010 21:32:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/23/osx86-di-emachines-d720-intel-gmax4500/</guid>
+      <description>&lt;p&gt;sukses lagi. gunakan snow leopard hazard. booting dvd dengan option -v cpus=1&lt;/p&gt;&#xA;&lt;p&gt;saat custom install pilih legacy kernel dan chameleon (bootloadernya salah satu). setelah selesai installasi akan ada kernel panic.&lt;/p&gt;&#xA;&lt;p&gt;solusi : hapus semua kext yang tidak diperlukan.&lt;/p&gt;&#xA;&lt;p&gt;booting macosx dengan option -s (single user)&lt;/p&gt;&#xA;&lt;p&gt;mount -uw /&lt;/p&gt;&#xA;&lt;p&gt;mv &lt;em&gt;GMAX3100&lt;/em&gt; ..&lt;/p&gt;&#xA;&lt;p&gt;kenapa mv bukan rm? agar nanti kelak bisa dipakai lagi, bekap gitu.&lt;/p&gt;&#xA;&lt;p&gt;asumsi sudah masuk desktop macosx, . unduh chameleon khusus : &lt;a href=&#34;http://www.multiupload.com/DQ49G457JL&#34;&gt;http://www.multiupload.com/DQ49G457JL&lt;/a&gt; , lalu pasang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rapi-rapi macosx86</title>
+      <link>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</link>
+      <pubDate>Wed, 22 Dec 2010 18:06:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;resolusi layar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;nah, ini wajib. karena vga onboard saya tidak support qe ci, resolusi mentok 1024-768. tapi sebenarnya macosx dukung vesa. vesa bisa resolusi berapa saja asal rasio 4:3**. **nah, berhubung monitor butut saya (mesti dipukul2 biar warna yang muncul bener, kapan meledaknya ya?) rasionya 4:3 14 inchi, 1280x1024 adalah resolusi yang tepat.&lt;/p&gt;&#xA;&lt;p&gt;lihat di /Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/p&gt;&#xA;&lt;p&gt;tambahkan&lt;/p&gt;&#xA;&lt;p&gt;&lt;string&gt;graphic mode=1280x1024x32&lt;/string&gt;&lt;/p&gt;&#xA;&lt;p&gt;reboot dan tada!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ntfs readwrite&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;secara default, kita bisa mount ntfs tapi tidak bisa menulis di atasnya. macosx itu varian unix kan? apakah punya fstab? tentu punya :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hackintosh euy!</title>
+      <link>//localhost:1313/post/2010/12/20/hackintosh-euy/</link>
+      <pubDate>Mon, 20 Dec 2010 23:26:14 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/20/hackintosh-euy/</guid>
+      <description>&lt;p&gt;secara saya penggembar apple gitu (tapi sumpah gak punya satupun produk apel, dulu punya mekbuk tapi ilang). btw ini masih gagal install. :(&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_00211.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_00211.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Saya Tidak Menyarankan Macbook</title>
+      <link>//localhost:1313/post/2009/04/02/saya-tidak-menyarankan-macbook/</link>
+      <pubDate>Thu, 02 Apr 2009 12:49:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/02/saya-tidak-menyarankan-macbook/</guid>
+      <description>&lt;p&gt;Tidak ada yang salah dengan judul ini tetapi bukan berarti maksudnya menjelek-jelekkan Apple. Tapi, bukankah semua orang selalu ingin memiliki produk apple yang mewah dan penuh kejutan? Tapi saya tidak berbohong kalau saya bilang saya tidak bisa membanggakannya. Tidak bisa di sekeliling saya yang rata-rata komunitas IT. Why?&lt;/p&gt;&#xA;&lt;p&gt;Salah satu yang saya kagumi dari komputer yang dirilis Apple adalah  keberanian mereka dalam membuat inovasi dan menetapkan standar yang berbeda. Siapa pelopor aplikasi komputer dengan mode grafis (general user interface)? Beberapa orang mungkin akan menunjuk si raksasa Microsoft. Tapi jawaban itu kurang teap karena Apple-lah yang punya inovasi (yang mencuri dari Xerox?). Di masa lalu, Apple sempat menggugat microsoft karena ikut-ikutan menggunakan GUI, tapi pihak Apple kalah dalam sengketa tersebut. Lihat saja waktu floppy disk masih dipasang di PC, apple sudah membuang perangkat yang kurang efesien tersebut dan menambah port USB dan firewire. Sistem operasi? Meski sama-sama turunan Ynix ada beberapa kesamaan, di sisi lain Mac OS X benar-benar berbeda dengan operasi sistem Unix lain semisal GNU/Linux dan BSD. Lihat saja destop KDE dan Gnome di Linux. Pada Mac OS X, Anda akan menemukan dunia yang lain sekali, tidak mirip Linux, apa lagi Windows. Hardware? Apa lagi bagian yang ini&amp;hellip; Baru beberapa tahun lalu Apple mau bekerja sama dengan Intel sehingga tercipta lah beberapa seri komputer Apple dengan prosesor Intel dan dapat diinstall sistem operasi lain. Bagian ini membuat banyak orang lega karena masalah kompatibilitas bisa sedikit diatasi. Tetapi tetap saja sebuah &amp;lsquo;mesin Apple&amp;rsquo; sangatlah berbeda dengan sebuah komputer biasa. Bahkan beberapa orang menganggap komputer Apple (ibook, imac, macbook, G4) bukanlah sebuah komputer, tetapi hanya mainan mahal yang aneh. Bagaimana apple bisa berkembang bila selalu berbeda? Bukankah masalah kompatibilitas selalu mengganggu? Di sinilah Apple berkuasa sendiri dalam standarnya sendiri. Hebatnya banyak orang tertarik untuk ikut menjadi berbeda dan masuk ke dalam lingkaran standar &amp;lsquo;berbeda&amp;rsquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Surat Terbuka Mas Onno W. Purbo</title>
+      <link>//localhost:1313/post/2009/03/03/surat-terbuka-mas-onno-w.-purbo/</link>
+      <pubDate>Tue, 03 Mar 2009 12:33:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/surat-terbuka-mas-onno-w.-purbo/</guid>
+      <description>&lt;p&gt;Jakarta, 2 Maret 2009&lt;/p&gt;&#xA;&lt;p&gt;Redaksi Yth.&lt;/p&gt;&#xA;&lt;p&gt;Dengan Hormat,&lt;/p&gt;&#xA;&lt;p&gt;Microsoft tampaknya melakukan monopoli di Republik Indonesia.&lt;/p&gt;&#xA;&lt;p&gt;Saya bersama istri saya berkunjung ke Megabazar di JHCC pada tanggal 1 Maret 2009. Kami dengan terpaksa membatalkan niat kami untuk membeli netbook / laptop dengan prosesor Atom. Praktis semua netbook / laptop dengan prosesor Atom yang kami temui telah di bundel / pre-install dengan Microsoft &amp;amp; harga yang harus di bayar sudah termasuk Microsoft di dalam-nya. Artinya, pembeli dipaksa untuk membayar Microsoft bersama netbook tersebut tidak peduli walaupun tidak akan digunakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mengaktifkan iSight di Ubuntu Intrepid</title>
+      <link>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</link>
+      <pubDate>Tue, 03 Mar 2009 01:50:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</guid>
+      <description>&lt;p&gt;Mungkin komputer terbaik di dunia adalah produk Apple (hehehe&amp;hellip;mentang2 pakek Mac). Sudah jadi rahasia umum produk Apple selalu menetapkan standar sendiri yang berbeda dengan vendor hardware maupun software lain. Lihat saja sebuah Macbook atau Powerbook. Anda tidak akan melihat yang namanya &amp;lsquo;BIOS&amp;rsquo;. Aneh sekali kan, komputer tanpa bios? Hardware di mesin mac juga dikhususkan untuk mac os, meski beberapa bisa untuk os lain. Nah, ini ada sedikit info cara mengaktifkan isight, webcam bawaan macbook, sistem operasi Linux Ubuntu. Sampai matipun tidak akan ketemu driver khusus untuk windows atau linux, kecuali mengambil file driver asli isight di Mac OSX, dan driver ini untungnya sudah disediakan di internet. Kalau punya Mac OSX, mungkin tidak terlalu sulit, bagaimana kalau tidak punya Mac OSX? Seperti saya&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gov on Blog</title>
+    <link>//localhost:1313/categories/gov/</link>
+    <description>Recent content in Gov on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Apr 2011 21:54:36 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/gov/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sarang yang nyaman</title>
+      <link>//localhost:1313/post/2011/04/28/sarang-yang-nyaman/</link>
+      <pubDate>Thu, 28 Apr 2011 21:54:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/28/sarang-yang-nyaman/</guid>
+      <description>&lt;p&gt;sebagai disklaimer, saya menulis ini tidak bermaksud untuk memojokkan atau memburuk-burukkan pns, hanya curahan hati yang gelisah.&lt;/p&gt;&#xA;&lt;p&gt;dulu, kalau lihat mahasiswa-mahasiswa berdemo memenuhi jalan, saya kagum dan selalu ingin memotretnya. tapi sekarang, tidak lagi (tapi masih suka motret orang demo lho :)). bukannya saya hilang respek sama semangatnya, tetapi lebih kepada hasilnya.&lt;/p&gt;&#xA;&lt;p&gt;soal kebobrokan birokrasi pemerintah, mereka boleh saja berdemo di DPR, di kejaksaan, berorasi menghadang barisan panjang kendaraan, dan memang iya, setidaknya suaranya akan didengar minimal oleh utusan humas dari lembaga yang didemo, ditambah publik bila aksi itu direkam media massa. tetapi sungguh, kami tak tersentuh, kami sangat nyaman meringkuk di kantor kami, tak ada yang berubah.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

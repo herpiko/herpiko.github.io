@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kde on Blog</title>
+    <link>//localhost:1313/tags/kde/</link>
+    <description>Recent content in Kde on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jun 2011 19:45:05 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/kde/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mengatasi gagal mount di desktop slackware (setelah debian, lagi-lagi)</title>
+      <link>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</link>
+      <pubDate>Sun, 12 Jun 2011 19:45:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</guid>
+      <description>&lt;p&gt;ah, serasa debian dan slackware sama saja, setelah fresh install tidak bisa mount otomatis dari user biasa (masalah di debian kemarin karena ada entry salah di /etc/fstab).&lt;/p&gt;&#xA;&lt;p&gt;saya menggunakan slackware 13.37 dan desktop KDE. pada saat mencolokan removable storage, partisi gagal dimount dan di notifikasi ada pesan error yang saya lupa apa lengkapnya, berkaitan dengan HAL.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya menemukan solusinya di forum arch linux dan bekerja untuk slackware. yang perlu dilakukan adalah mengedit file /etc/dbus-1/system.d/hal.conf, tambahkan user kita di kelompok haldaemon&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>libxine1-ffmpeg</title>
+      <link>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</link>
+      <pubDate>Thu, 10 Feb 2011 16:30:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</guid>
+      <description>&lt;p&gt;sejak lama saya tidak menyukai kde hanya karena amarok tidak mau memutar mp3 setelah menginstall komplit kde. apa yang salah? saya menggunakan lucid dengan gnome bawaan, bukan kubuntu. meski sudah memasang semua codec gstreamer,tetap saja.&lt;/p&gt;&#xA;&lt;p&gt;ternyata oh ternyata, backend amarok adalah xine, bukan gstreamer, so?&lt;/p&gt;&#xA;&lt;p&gt;tinggal pasang nama paket yang judulnya tertera di atas. dan, tada! :D&lt;/p&gt;&#xA;&lt;p&gt;NB : btw, amarok dan rythmbox tidak bisa memutar lagu bersamaan, entah kenapa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

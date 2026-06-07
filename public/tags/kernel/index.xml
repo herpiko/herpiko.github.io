@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kernel on Blog</title>
+    <link>//localhost:1313/tags/kernel/</link>
+    <description>Recent content in Kernel on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Mar 2012 19:06:10 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>noexec on fstab</title>
+      <link>//localhost:1313/post/2012/03/01/noexec-on-fstab/</link>
+      <pubDate>Thu, 01 Mar 2012 19:06:10 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/01/noexec-on-fstab/</guid>
+      <description>&lt;p&gt;kompail kernel lagi plus patch dari con kolivas. tapi nemu error.&lt;/p&gt;&#xA;&lt;p&gt;[code]patching file drivers/cpufreq/cpufreq.c&lt;/p&gt;&#xA;&lt;p&gt;patching file drivers/cpufreq/cpufreq_ondemand.c&lt;/p&gt;&#xA;&lt;p&gt;patching file drivers/cpufreq/cpufreq_conservative.c&lt;/p&gt;&#xA;&lt;p&gt;==&amp;gt; Running make mrproper to clean source tree&lt;/p&gt;&#xA;&lt;p&gt;==&amp;gt; Running make prepare for you to enable patched options of your choosing&lt;/p&gt;&#xA;&lt;p&gt;HOSTCC scripts/basic/fixdep&lt;/p&gt;&#xA;&lt;p&gt;/bin/sh: scripts/basic/fixdep: Permission denied&lt;/p&gt;&#xA;&lt;p&gt;make[2]: *** [scripts/basic/fixdep] Error 1&lt;/p&gt;&#xA;&lt;p&gt;make[1]: *** [scripts_basic] Error 2&lt;/p&gt;&#xA;&lt;p&gt;make: *** No rule to make target &lt;code&gt;include/config/auto.conf&#39;, needed by &lt;/code&gt;include/config/kernel.release&amp;rsquo;. Stop.&lt;/p&gt;&#xA;&lt;p&gt;==&amp;gt; ERROR: A failure occurred in build().&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

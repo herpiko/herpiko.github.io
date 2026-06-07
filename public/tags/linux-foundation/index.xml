@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Foundation on Blog</title>
+    <link>//localhost:1313/tags/linux-foundation/</link>
+    <description>Recent content in Linux Foundation on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Apr 2012 22:49:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/linux-foundation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how linux is built</title>
+      <link>//localhost:1313/post/2012/04/05/how-linux-is-built/</link>
+      <pubDate>Thu, 05 Apr 2012 22:49:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/05/how-linux-is-built/</guid>
+      <description>&lt;p&gt;dari Linux Foundation.&lt;/p&gt;&#xA;&lt;div style=&#34;position:relative;padding-bottom:56.25%;height:0;overflow:hidden;&#34;&gt;&#xA;&lt;iframe src=&#34;https://www.youtube.com/embed/yVpbFMhOAwE&#34; style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

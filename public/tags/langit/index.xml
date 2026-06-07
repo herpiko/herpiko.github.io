@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Langit on Blog</title>
+    <link>//localhost:1313/tags/langit/</link>
+    <description>Recent content in Langit on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jun 2011 22:03:49 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/langit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lunar eclipse phase</title>
+      <link>//localhost:1313/post/2011/06/16/lunar-eclipse-phase/</link>
+      <pubDate>Thu, 16 Jun 2011 22:03:49 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/16/lunar-eclipse-phase/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/249630_1704461145558_1658902589_1450676_1596199_n.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/249630_1704461145558_1658902589_1450676_1596199_n.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sangat-sangat sulit mendapatkan foto ini dikarenakan rasa kantuk yang luar bisa. tapi alhamdulillah dapat foto menjelang total eclipse-nya dan saya langsung tertidur. pagi-pagi ingusan di atap kantor dan mata bengkak seharian.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>next atm project : dobsonian!</title>
+      <link>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</link>
+      <pubDate>Sat, 31 Jul 2010 20:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</guid>
+      <description>&lt;p&gt;sebelumnya, &lt;a href=&#34;http://pikopages.wordpress.com/2010/07/03/rancangan-mikroteleskop/&#34;&gt;proyek yang ini &lt;/a&gt;saya nyatakan selesai dan gagal. dalam artian, target tidak terpenuhi, perbesarannya memang bertambah, tapi saya sama sekali tidak bisa lihat kawah bulan dengan jelas. sebenarnya, saya harus menyalahkan lensa-lensa yang jelek ini.&lt;/p&gt;&#xA;&lt;p&gt;sekarang saatnya coba bentuk newtonian. dinamakan demikian karena sir newton yang temukan cara ini. tapi kok saya tulis dobsonian di atas? istilah itu merujuk ke desian inovatif dari teleskop newtonian yang easy made, low cost, and portable by john dobson. silakan baca wikipedia untuk keterangan lebih lanjut.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

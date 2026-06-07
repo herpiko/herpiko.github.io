@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Perintah Dasar di Shell Linux | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Perintah Dasar di Shell Linux</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2008/12/25</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Untuk generasi sekarang (kebanyakan), menggunakan Windows tidak harus bisa menggunakan DOS (Disk Operating System, bukan Denial of Service), yang hampir ditinggalkan. Kesan orang tentang : &lsquo;Wah, kuno&rsquo;, &lsquo;Susah&rsquo;, &lsquo;Apaan tuh?&rsquo;. Kita memang tidak perlu mempelajari DOS kecuali bagi advanced user. Ilmu itu kan bebas.**
+Bagaimana dengan Linux. Linux ada DOS-nya nggak? Ada dong, lingkungan prompt di Linux namanya shell. Dan satu hal yang perlu diingat, kebanyakan kasus, menggunakan Linux adalah mutlak menguasai perintah-perintah shell. Kalau Linux anda diinstall di PC (bukan server) maka anda sendirilah root atau administratornya. Mutlak bagi administrator Linux untuk mengenal perintah dasar Shell. Karena kalau systemnya bermasalah, administrator (anda sendiri) harus bertanggung jawab membereskan. Di sini letak keasyikannya, kita akan meninggalkan GUI (general user interface) untuk sementara waktu. Diasumsikan anda sudah menginstal Linux distro apa saja yang sekiranya terinstall paket-paket yang standar. Saya pake Blankon 4 Meuligo sebagai contoh, sebuah distro Linux yang dikembangkan anak negeri (bangga dong!).</p>
+<p>Shell dalam Linux ada banyak jenisnya tapi yang paling populer dan sering dijadikan default shell dalam banyak distro adalah Bash (bourne again shell). Jadi, di tutorial ini kita pake Bash. Tinggalkan sepenuhnya mode X anda. Caranya restart lalu edit (kalo pake GRUB) option GRUB, tambahin single, maka kita masuk ke root, masukan password bila diminta. Atau su root, masukin password, kemudian berikan perintah init 1 atau telinit 1. Yah&hellip;jadi seperti DOS deh. Atau kalau males meninggalkan GUI, pake konsole atau terminal (cari aja yang iconnya gambar monitor tok).</p>
+<p>Cara memberikan perintah dalam Shell</p>
+<p>$ command <option> [argumen] <enter></p>
+<p>$ maksudnya menunjukan status user. Kalo anda dalam posisi root, tandanya #.</p>
+<p>command diganti dengan nama perintah. Option ya option, biasanya diawali awalan -. Argumen diisi parameter yang akan diproses. Apa bila nama parameter ada spasinya tambahkan kutip satu (&rsquo;) di awal dan akhir parameter.</p>
+<p><enter> maksudnya tekan enter. Jalan deh tu perintah.</p>
+<p><em>System</em>**</p>
+<p><strong>who : mencari tahu siapa saja yang login</strong></p>
+<p>**anda@localhost:/home/anda$who</p>
+<p>root    tty0</p>
+<p>anda    tty1</p>
+<p>whoami : mencari tahu dengan account siapa anda login**</p>
+<p>**anda@localhost:/home/anda$whoami</p>
+<p>anda</p>
+<p>hostname : melihat nama hostname**</p>
+<p>**anda@localhost:/home/anda$hostname</p>
+<p>localhost</p>
+<p>passwd : mengganti password**</p>
+<p>**anda@localhost:/home/anda$passwd</p>
+<p>(current) password :</p>
+<p>enter new UNIX password :</p>
+<p>retype new UNIX pasword :</p>
+<p>password succesfully canged</p>
+<p>anda@localhost:/home/anda$</p>
+<p>Anda tidak akan melihat karakter yang anda ketik, ini salah satu ciri keamanan linux. Jadi hati-hati salah ketik.</p>
+<p>su : mengganti user****
+Misal anda login sebagai anda, ingin menggunakan root.</p>
+<p>anda@localhost:/home/anda$su root</p>
+<p>atau</p>
+<p>anda@localhost:/home/anda$su</p>
+<p>Masukkan password bila diminta. Ini bukti bahwa linux adalah komputer multiuser.</p>
+<p>sudo : melakukan perintah atas kuasa root.**</p>
+<p>**anda@localhost:/home/anda$sudo rm /root/file_punya_root.txt</p>
+<p>Masukkan password root ketika diminta, tekan enter dan perintah akan dieksekusi.</p>
+<p>top : melihat proses**</p>
+<p>**anda@localhost:/home/anda$top</p>
+<p>Lihat aja hasilnya sendiri.</p>
+<p>kill : membunuh proses**</p>
+<p>**anda@localhost:/home/anda$kill nomorPID</p>
+<p>Dapatkan nomor PID dari perintah top.</p>
+<p>date : informasi waktu**</p>
+<p>**anda@localhost:/home/anda$date</p>
+<p>Thu Dec 25 17:16:47 CIT 2008</p>
+<p>! : history perintah shell**</p>
+<p>**anda@localhost:/home/anda$!</p>
+<p>ls</p>
+<p>cd</p>
+<p>who</p>
+<p>ketik !5 jika ingin mengeksekusi perintah kelima sebelumnya dari sekarang.</p>
+<p>alias : membuat alias****
+Kita bisa mengindonesiakan perintah shell. Lihat contoh.</p>
+<p>anda@localhost:/home/anda$alias hapus=&lsquo;rm&rsquo;</p>
+<p>anda@localhost:/home/anda$hapus puisiku.txt</p>
+<p>Berikan alias saja untuk melihat daftar alias yang sudah ada. Gunakan unalias untuk menghilangkan alias</p>
+<ul>
+<li></li>
+</ul>
+<p>Pengelolaan Direktori dan File***</p>
+<p><strong>pwd : melihat di direktori mana kita berada.</strong> Kalau kita ada di /home/anda/ maka hasilnya</p>
+<p>**$pwd</p>
+<p>/home/anda</p>
+<p>tapi biasanya tertulis di depan tanda $, misal</p>
+<p>anda@localhost:/home/anda$</p>
+<p>cd : mengganti direktori**</p>
+<p>misal kita mau pindah ke direktori /etc</p>
+<p>**anda@localhost:/home/anda$cd /etc</p>
+<p>anda@localhost:/etc$</p>
+<p>atau kalau direktori yang ingin dituju ada dalam direktori dimana kita berada,langsung saja tulis nama direktorinya, tanpa menulis path yang lengkap. Misal nama direktorinya</p>
+<p>anda@localhost:/home/anda$cd pictures</p>
+<p>anda@localhost:/home/anda/pictures$</p>
+<p>Kalau kita ingin kembali ke direktori home kita sedang kita berada di direktori lain dan kita malas menulis path /home/anda, maka berikan perintah</p>
+<p>anda@localhost:/media/sda3$cd ~</p>
+<p>cd ~ artinya pindah ke direktori home kita sendiri. ~ ada dibawah tanda escape [esc].</p>
+<p>mkdir : membuat direktori**</p>
+<p>**anda@localhost:/home/anda$ls</p>
+<p>documents/    pictures/    musics/</p>
+<p>anda@localhost:/home/anda$mkdir coba</p>
+<p>anda@localhost:/home/anda$ls</p>
+<p>documents/    pictures/    musics/    /coba</p>
+<p>yah, muncul tuh direktori buatan kita.</p>
+<p>rmdir : menghapus direktori****
+direktorinya harus kosong, kalau tidak tambahkan option -f (force) atau –ignore-fail-on-non-empty</p>
+<p>anda@localhost:/home/anda$rmdir pictures</p>
+<p>ls : melihat direktori dimana kita berada**</p>
+<p>**anda@localhost:/home/anda$ls</p>
+<p>document/        pictures/        musics/</p>
+<p>peterpan.ogg        doraemon.png</p>
+<p>nama yang berakhiran / berarti sebuah direktori. Di beberapa distro direktori biasanya ditulis tebal atau berwarna biru.</p>
+<p>Option perintah ls :</p>
+<p>-a berarti all, menampilkan semua file dan direktori, termasuk file dan direktori hidden (file dan direktori hidden biasanya diawali titik, misal .rahasia. Secara default tidak terlihat di shell. Ada banyak file hidden di bawah direktori home kita, coba saja telusuri)</p>
+<p>-l berarti long, menampilkan isi direktori secara lengkap termasuk permission (hak akses), tanggal pembuatan, pemilik, dan lainnya</p>
+<p>-s berarti size, menampilkan isi ditambah informasi ukurannya dalam kilobyte.</p>
+<p>-R berarti recursive, menampilkan seluruh isi direktori berikut sub direktorinya.</p>
+<p>-d berarti direktori. Menampilkan direktori saja.</p>
+<p>cat : melihat isi file****
+cat di sini bukan berarti kucing, tapi concatenate. File yang dimaksud di sini hanyalah file txt karena pada zaman purba, file txt merupakan format dokumen paling populer.</p>
+<p>Misal anda punya sebuah puisi yang ditulis dalam puisiku.txt dan diletakkan di bawah direktori /home/anda. Kita coba lihat isinya.</p>
+<p>anda@localhost:/home/anda$cat puisiku.txt</p>
+<p>akulah binatang jalang</p>
+<p>dari kumpulan yang terbuang</p>
+<p>wah&hellip;lupa&hellip;</p>
+<p>Kalau ingin kembali ke shell, tekan ctrl+d.</p>
+<p>Perintah cat juga bisa digunakan untuk melihat dua file sekaligus dengan menggabungkannya. Misal anda punya file bernama passwordroot.txt</p>
+<p>anda@localhost:/home/anda$cat puisiku.txt passwordroot.txt</p>
+<p>atau menggabungkannya</p>
+<p>anda@localhost:/home/anda$cat puisiku.txt passwordroot.txt &gt; gabungan.txt</p>
+<p>more : melihat isi file****
+less : melihat isi file****
+Keduanya sama saja hanya more lebih interaktif karena bisa menggeser halaman ke atas sementara less tidak. Coba sendiri.</p>
+<p>touch : membuat file kosong****
+format file disini adalah txt. Tak mesti memberi ekstensi .txt karena system akan mengenalnya dengan otomatis</p>
+<p>anda@localhost:/home/anda$touch namafile</p>
+<p>Bisa juga mendefinisikan tanggal pembuatan file, tambahkan option -t 200805231102 sebelum nama file. Formatnya yyyymmddhhmm (year-month-day-hour-minute).</p>
+<p>cp : menyalin file****
+cp berarti copy. Caranya :</p>
+<p>anda@localhost:/home/anda$cp fileasli filesalinan</p>
+<p>mv :mengganti nama file atau direktori**</p>
+<p>**anda@localhost:/home/anda$mv puisiku.txt puisi_jelek.txt</p>
+<p>mv :memindahkan file atau direktori**</p>
+<p>**anda@localhost:/home/anda$mv puisiku.txt  /home/anda/document/puisiku.txt</p>
+<p>rm : menghapus file**</p>
+<p>**anda@localhost:/home/anda$rm puisiku.txt</p>
+<p>remove puisiku.txt? <tekan y></p>
+<p>anda@localhost:/home/anda$</p>
+<p>find : mencari file**</p>
+<p>anda@localhost:/home/anda$find /home/anda/ -name puisiku.txt</p>
+<p>/home/anda/ maksudnya area pencarian dilakukan di bawah direktori tersebut</p>
+<p>-name maksudnya dicari berdasarkan nama puisiku.txt.</p>
+<p>Cukup deh sampai di sini. Sebenarnya perintahnya banyak sekali tapi cuma segini aja yang saya inget.  Kalau ingin mengetahui lebih lanjut tentang sebuah perintah, ketik &rsquo;namaperintah –help&rsquo;. Kalau ada yang salah, mohon komplain. Semoga berguna.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

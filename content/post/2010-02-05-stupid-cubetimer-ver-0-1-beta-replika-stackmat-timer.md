@@ -1,0 +1,131 @@
+---
+draft: true
+title: "Stupid Cubetimer ver. 0.1 Beta, Replika Stackmat Timer"
+date: 2010-02-05 18:09:10Z
+categories:
+  - how to
+  - pikiran
+  - rubik&#039;s cube
+tags:
+  - rubik
+  - stackmat
+  - stackmat timer
+  - timer
+---
+[also posted on rubikku.](http://rubikku.ning.com/xn/detail/2718326:Topic:68697?xg_source=activity)
+
+saya serius untuk jadi speedsolver, tapi membeli stackmat tetaplah terlalu mahal bagi saya. empat ratus ribu coba! saya lebih memilih melengkapi koleksi puzzle dari pada beli timer ini. dengan sebuah komputer dan aplikasi timer dengan tombol spasi keyboard saya rasa sudah cukup. tapi..., ada tapinya... saya tetap kepingin.
+
+![](/assets/cz02.gif)
+
+saya nongton video-video sub 20 dengan stackmat timer. mereka semua membanting cube mereka saat solve dan menyentuh stackmat timer keren itu. saya pikir itu keren sekali. jadi saya sering membanting rubik ori saya ke keyboard. hasilnya fatal, rubik kesayangan itu memang kuat dan tidak patah, tapi edge dan cornernya pada bengkok semua (dan dinamakan si kotak bengkok). pakai bantal? taruh bantal di belakang keyboard? sama sekali tidak keren.
+
+sungguh, ingin sekali punya stackmat timer. (*_*)
+
+dengan teman-teman cuber saya yang lain? di [mataram rubiks club](http://www.facebook.com/home.php?#%21/group.php?gid=285564069528&ref=ts), tak seorang pun punya stackmat asli. kalo kopdar, kami saling ngitungin waktu dengan jam tangan, atau leptop. menyedihkan.
+
+dan, berawal dari sini, [http://rubikku.ning.com/group/pojokhardware/forum/topics/bikin-stacktimer-benual-bener2](http://rubikku.ning.com/group/pojokhardware/forum/topics/bikin-stacktimer-benual-bener2)
+
+itu ide kreatif, tapi saya butuh stackmat timer seperti yang dimiliki kebanyakan cuber!
+
+jadi, saya membuat ini, stupidcubetimer versi 0.1 beta, creative common licensed (ah, kayak software saja). intinya memanfaatkan fasilitas timer pada jam digital biasa. terima kasih buat kakak saya yang merelakan jam digitalnya diperkosa (toh dia sudah punya swiss army baru :)). terima kasih juga buat mas wicak yang sudah kasih gambaran ukuran stackmat timer, meski hanya perkiraan saja dan saya bahkan membuatnya lebih pendek lagi.
+
+![](/assets/CA350281.JPG)
+
+bagaimana membuatnya?
+
+bahan :
+
+1. gabus setengah karet, susah jelasin ini bahan apaan, saya susun lapis tiga. anda bisa pakai bahan lain sesuai kreatifitas anda.
+
+2. mika bening. anda bisa pakai yang lain, ini untuk touchpad.
+
+4. kabel kecil. yang banyak warna dan panjang, agar bisa bedakan.
+
+5. kartu bekas kartu SIM perdana ponsel, buat panel warna kuning tersebut, anda bisa pakai bahan lain, lagi-lagi tergantung kreatifitas anda.
+
+6. jam digital bekas. kalau bisa yang agak besar, jadi angkanya mudah dilihat.
+
+7. mouse bekas. untuk apa? saya tidak memakai sensor sentuh untuk touchpad, tapi tombol kecil yang diambil dari tombol klik mouse, cukup sensitif dan hasilnya sangat memuaskan.
+
+![](/assets/mouse.jpg)
+
+mouse! ini penting loh
+
+alat :
+
+1. isolasi bening biasa
+
+2. isolasi bolak-balik atau double tip.
+
+3. solder dan timah, perlu sedikit skill elektronika. saya belajar otodidak elektronika, mudah kok.
+
+4. cutter, gunting
+
+saya tidak bisa menjelaskan langkah detail pembuatan (karena sedikit memusingkan), hanya garis besarnya saja.
+
+step :
+
+1. pertama anda harus mendapatkan mouse, dua buah. karena butuh empat tombol kecilnya. cabut tombol kecil itu dengan solder.
+
+2. potong bahan gabus setengah karet (atau bahan lain) sesuai bentuk yang anda inginkan, seperti stackmat asli misalnya. lubangi kanan kirinya, untuk tombol touchpad, dan tengah agak besar, untuk tempat jam.
+
+3. buka jam digitalnya, bengkokkan setiap lempengan tombol dan solder ke kabel kecil, juga ke sirkuit pasangannya.
+
+4. sambungkan setiap kabel tombol jam ke tombol kecil mouse. ada empat, yaitu tombol light (anda bisa abaikan), tombol mode, tombol reset, dan tombol start. paralelkan tombol start ke dua tombol, dan letakkan di kanan kiri sebagai touchpad. tombol mode dan reset letakkan di depan. tes tombol2 tersebut, apakah berfungsi. jika tidak, cek lagi solderannya. jangan terlalu lama menyolder karena jika terlalu panas, jam digital itu akan rusak.
+
+5. lem atau isolasi semuanya, agar tidak mudah bergerak atau lepas. tergantung bagaimanapun cara anda.
+
+6. pada mika (sebagai touchpad), saya menambahkan sedikit tonjolan plastik kecil di tempat ia menyentuh tombol touchpad.
+
+7. saya menempelnya, lalu di tengah, ada potongan bekas kartu perdana ponsel (saya mengaturnya juga sebagai tutup tombol untuk reset dan mode), baru setelahnya mika berada di atasnya. tujuan saya adalah memberi jarak sekitar 1-2 mili antara mika touchpad dengan tombol mouse di bawahnya.
+
+8. tempel atau lem erat-erat.
+
+9. tes touchpad. atur jarak-jarak ukuran. bereskan yang kurang pas.
+
+10. jadi.
+
+ini sedikit gambaran.
+
+![](/assets/CA350275.JPG)
+
+kabel putih itu adalah kabel dari tombol light, sementara, saya tidak menggunakannya. lalu kabel biru hijau itu adalah untuk baterai, saya membawanya keluar agar nanti bisa gonta-ganti baterai jika habis tanpa harus bongkar semuanya.
+
+KELEBIHAN PRODUK :
+
+1. saya berterima kasih pada tikus-tikus yang sudah saya bantai. tombol-tombol kecil itu sangat sensitif dan menghasilkan touchpad yang sensitif dan luar biasa sempurna. saya menekannya pelan atau bahkan memukulnya keras-keras, tombol itu berfungsi dengan baik. jadi saya merasa benar-benar sedang menggunakan stackmat asli, meski belum pernah menyentuh yang asli.
+
+2. tahan banting dan ringan. bahan gabus setengah karet warna hitam ini sangat kuat, ringan, dan fleksibel. saya bisa membengkokkannya secara elastis.
+
+KELEMAHAN PRODUK :
+
+1. saya tahu bahwa cara kerja stackmat asli adalah, menyentuh touchpad, dan waktu akan berjalan ketika kita mengangkat tangan kita. tapi buatan saya tidak bisa seperti ini. jika saya menekan dan menahannya, timernya sudah jalan duluan. jadi, saya harus menekannya sebentar cepat-cepat, lalu mengambil cube untuk disolve. mungkin keakuratan waktunya jadi kurang.
+
+![](/assets/cz01.gif)
+
+2. tidak punya fungsi-fungsi utama stackmat asli, seperti port display atau history.
+
+dan alhamdulillah, ini bukan produk gagal. =))
+
+yah, jika anda membuatnya sendiri, mungkin akan berbeda, kembangkan kreatifitas anda!
+
+saya bahkan berpikir untuk membuat switch dari touchpad ke FCB sirkuit keyboard bekas, disolder ke kombinasi untuk tombol spasi. jadi bisa dipakai untuk aplikasi timer di komputer. woof, tunggu saja versi berikutnya. =))
+
+bagaimana pun juga, saya senang sekali berhasil membuatnya dan semangat cubing saya meningkat drastis (meski progres cubing menurun drastis, jarang tembus 30).
+
+ini gambar-gambar lain.
+
+![](/assets/CA350279.JPG)
+
+jika tombol light diaktifkan. berguna di tempat yang kurang cahaya.
+
+![](/assets/CA350276.JPG)
+
+![](/assets/CA350278.JPG)
+
+yang item itu si kotak bengkok,bener-bener bengkok kan?
+
+wow, saya dapat 39 detik! (malu)
+
+sekarang, saya punya stackmat timer full handmade! =))

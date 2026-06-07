@@ -1,1 +1,3827 @@
-<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>Tags | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/now/>~/now</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><h1>Tags</h1><ul class=terms><li><a href=/tags/aaronsw/>Aaronsw</a> (1)</li><li><a href=/tags/ai/>AI</a> (1)</li><li><a href=/tags/amd/>AMD</a> (1)</li><li><a href=/tags/apple/>Apple</a> (1)</li><li><a href=/tags/cerpen/>Cerpen</a> (1)</li><li><a href=/tags/cloudnative/>CloudNative</a> (1)</li><li><a href=/tags/community/>Community</a> (3)</li><li><a href=/tags/cryptocurrency/>Cryptocurrency</a> (1)</li><li><a href=/tags/datadog/>Datadog</a> (1)</li><li><a href=/tags/ejbca/>EJBCA</a> (1)</li><li><a href=/tags/embedded/>Embedded</a> (1)</li><li><a href=/tags/ethereum/>Ethereum</a> (1)</li><li><a href=/tags/firmware/>Firmware</a> (1)</li><li><a href=/tags/gnome/>GNOME</a> (4)</li><li><a href=/tags/golang/>Golang</a> (1)</li><li><a href=/tags/hack/>Hack</a> (1)</li><li><a href=/tags/hacktivist/>Hacktivist</a> (1)</li><li><a href=/tags/hardware/>Hardware</a> (2)</li><li><a href=/tags/lockpicking/>Lockpicking</a> (1)</li><li><a href=/tags/machine-learning/>Machine Learning</a> (1)</li><li><a href=/tags/management/>Management</a> (1)</li><li><a href=/tags/mechanical-keyboard/>Mechanical Keyboard</a> (3)</li><li><a href=/tags/minimalist/>Minimalist</a> (2)</li><li><a href=/tags/mining/>Mining</a> (1)</li><li><a href=/tags/onboarding/>Onboarding</a> (1)</li><li><a href=/tags/opentracing/>Opentracing</a> (1)</li><li><a href=/tags/overclock/>Overclock</a> (1)</li><li><a href=/tags/pki/>PKI</a> (1)</li><li><a href=/tags/poem/>Poem</a> (17)</li><li><a href=/tags/poetry/>Poetry</a> (1)</li><li><a href=/tags/productivity/>Productivity</a> (1)</li><li><a href=/tags/puisi/>Puisi</a> (17)</li><li><a href=/tags/qmk/>QMK</a> (1)</li><li><a href=/tags/random/>Random</a> (3)</li><li><a href=/tags/short-story/>Short-Story</a> (1)</li><li><a href=/tags/sre/>SRE</a> (1)</li><li><a href=/tags/steam-deck/>Steam Deck</a> (1)</li><li><a href=/tags/ubuntu/>Ubuntu</a> (1)</li><li><a href=/tags/vim/>Vim</a> (1)</li><li><a href=/tags/work/>Work</a> (2)</li><li><a href=/tags/x509/>X509</a> (1)</li><li><a href=/tags/yuna/>Yuna</a> (1)</li></ul><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Tags | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+
+<h1>Tags</h1>
+
+<ul class="terms">
+  
+  <li>
+    <a href="//localhost:1313/tags/05c60015/">05c6:0015</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/16-juni-2011/">16 Juni 2011</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/2-step-verification/">2 Step Verification</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/2-tahun/">2 Tahun</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/2010/">2010</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/2011/">2011</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/24-wajah-billy/">24 Wajah Billy</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/3d/">3D</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/3g/">3G</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/7/">7</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/">:(</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/">?</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/a7sass/">A7sass</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/aaronsw/">Aaronsw</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/abel-brata/">Abel Brata</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/account/">Account</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/acer/">Acer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/acer-erecovery-management/">Acer Erecovery Management</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/acpi/">Acpi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/add-device-loop/">Add Device Loop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/aduh/">Aduh</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ah-capek/">Ah Capek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ai/">AI</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/air-laut/">Air Laut</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/air-terjun/">Air Terjun</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/akeboshi/">Akeboshi</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/aku-ingin/">Aku Ingin</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/akun/">Akun</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/algoritma/">Algoritma</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/alsactl/">Alsactl</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/alur-logika/">Alur Logika</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/amarok/">Amarok</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/amateur-telescope-making/">Amateur Telescope Making</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/amd/">AMD</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/anak/">Anak</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/anak-semua-bangsa/">Anak Semua Bangsa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/android/">Android</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/anggarda-bayangkara/">Anggarda Bayangkara</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/angin-besar/">Angin Besar</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/animasi/">Animasi</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/animation/">Animation</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/anime/">Anime</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/anugerah/">Anugerah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/apache/">Apache</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/apakah-saya-sendiri/">Apakah Saya Sendiri?</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/aperture/">Aperture</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/apple/">Apple</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/april-mop/">April Mop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/arai/">Arai</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/arch/">Arch</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/arch-linux/">Arch Linux</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/archlinux/">Archlinux</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/art/">Art</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ascii-art/">Ascii Art</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/asound.state/">Asound.state</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/astronomi/">Astronomi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ath9k/">Ath9k</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ath9k_htc/">Ath9k_htc</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/atheros/">Atheros</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/atk/">ATK</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/award/">Award</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/awards/">Awards</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/axioo/">Axioo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/backtrack/">Backtrack</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bahasa/">Bahasa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/baik/">Baik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bajakan/">Bajakan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bali/">Bali</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bali-cube-day-2010/">Bali Cube Day 2010</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bandara/">Bandara</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bandara-internasional-lombok/">Bandara Internasional Lombok</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bandwith-management/">Bandwith Management</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bank-century/">Bank Century</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/barisan-nisan/">Barisan Nisan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/baru-tahu/">Baru Tahu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bash/">Bash</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/battery/">Battery</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/battery-check/">Battery Check</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bbc/">BBC</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bebek-mercon/">Bebek Mercon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/belum-merdeka/">Belum Merdeka</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ben-lee/">Ben Lee</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/berkeley-system-distribution/">Berkeley System Distribution</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/best/">Best</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bil/">BIL</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bind/">Bind</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bintang/">Bintang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bios/">Bios</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/birokrasi/">Birokrasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bitmap/">Bitmap</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bkp/">Bkp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blababla/">Blababla</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blablaba/">Blablaba</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blablabla/">Blablabla</a> (13)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blankon/">BlankOn</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blankon-5/">Blankon 5</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blankon-7.0/">Blankon 7.0</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blankon-linux/">Blankon Linux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bld/">BLD</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blek/">Blek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blender/">Blender</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blindfold/">Blindfold</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blindfolded/">Blindfolded</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blog/">Blog</a> (6)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blog.pdft.net/">Blog.pdft.net</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blogger/">Blogger</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blokir/">Blokir</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blokir-situs-porno/">Blokir Situs Porno</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/blongas/">Blongas</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bloon/">Bloon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bodoh/">Bodoh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bolos/">Bolos</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bongkar/">Bongkar</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/book/">Book</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/books/">Books</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/boot/">Boot</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/booting/">Booting</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/broadcom/">Broadcom</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bsd/">Bsd</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bt3/">Bt3</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bug/">Bug</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bukaan/">Bukaan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bukan-virus/">Bukan Virus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bukit/">Bukit</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bukit-sahabat-sepi/">Bukit Sahabat Sepi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/buku/">Buku</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/buku-panduan-linux/">Buku Panduan Linux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/bulan/">Bulan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/byousoku-5-centimeter-per-second/">Byousoku 5 Centimeter per Second</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cache/">Cache</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/canon/">Canon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/canonical/">Canonical</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/canterbury-project/">Canterbury Project</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cantik/">Cantik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/catatan/">Catatan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cd/">Cd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cdrom/">Cdrom</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/centos/">Centos</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cerita-pendek/">Cerita Pendek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cerpen/">Cerpen</a> (8)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cerpen-islami/">Cerpen Islami</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cerpen.-lomba/">Cerpen. Lomba</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/charlie-si-dungu-jenius/">Charlie Si Dungu Jenius</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/chat/">Chat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/checksum/">Checksum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/chntpw/">Chntpw</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/chrome/">Chrome</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cifs/">Cifs</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ck/">Ck</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/closed/">Closed</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cloudnative/">CloudNative</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/clue/">Clue</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/clue-matibeku/">Clue Matibeku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/coba-coba/">Coba-Coba</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/codec/">Codec</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/colemak/">Colemak</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/comic/">Comic</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/command-line/">Command Line</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/command-line-interface/">Command Line Interface</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/community/">Community</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/compat-wireless/">Compat-Wireless</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/competition/">Competition</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/compilation/">Compilation</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/copas/">Copas</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/copy-paste/">Copy Paste</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/corrupt/">Corrupt</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cryptocurrency/">Cryptocurrency</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cube/">Cube</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cucian/">Cucian</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/curhat/">Curhat</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/cvt/">Cvt</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/d5000/">D5000</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dahlan-iskan/">Dahlan Iskan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/danbo/">Danbo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/daniel-keyes/">Daniel Keyes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dasar-fotografi/">Dasar Fotografi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/data/">Data</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/datadog/">Datadog</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/david/">David</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/debian/">Debian</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/debian-squeeze/">Debian Squeeze</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/defragment/">Defragment</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/defragment-di-linux/">Defragment Di Linux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/demo/">Demo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/demokrasi/">Demokrasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/desember/">Desember</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/design/">Design</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/detektif/">Detektif</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/device-loop/">Device Loop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/diafragma/">Diafragma</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/diafragma-macet/">Diafragma Macet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dibuang-sayang/">Dibuang Sayang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dictionary/">Dictionary</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dilema/">Dilema</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/directory/">Directory</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/direktori/">Direktori</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/disk-mode/">Disk Mode</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/disosiasi-kepribadian/">Disosiasi Kepribadian</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/distribusi/">Distribusi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/distribution/">Distribution</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/distro/">Distro</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/djiraf/">Djiraf</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dnf/">DNF</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dns/">DNS</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dns-nawala/">DNS Nawala</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dobson/">Dobson</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dobsonian/">Dobsonian</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/domain/">Domain</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/downgrade/">Downgrade</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/download/">Download</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dr188le/">Dr188le</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/driver/">Driver</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/drupal/">Drupal</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dt-8/">DT 8</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dua-tangis-ribuan-tawa/">Dua Tangis Ribuan Tawa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dvd/">Dvd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/dvorak/">Dvorak</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/e-book-daniel-keyes/">E-Book Daniel Keyes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/e63/">E63</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/easyhotspot/">Easyhotspot</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ebook/">Ebook</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/eclipse/">Eclipse</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/edukasi/">Edukasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/efek-rumah-kaca/">Efek Rumah Kaca</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ejbca/">EJBCA</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/eksposur/">Eksposur</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/el-parkour/">El-Parkour</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/emachines/">Emachines</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/emachines-d720/">Emachines D720</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/email/">Email</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/embedded/">Embedded</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/erk/">Erk</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ethereum/">Ethereum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/exposure/">Exposure</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ext3/">Ext3</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fck/">F*ck</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/faceboo/">Faceboo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/facebook/">Facebook</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fahmy-asyari/">Fahmy Asy&#39;ari</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fail/">Fail</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fajar-indah/">Fajar Indah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fast-boot/">Fast Boot</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fat/">Fat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fatwa-pujangga/">Fatwa Pujangga</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fb/">Fb</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/festival-film/">Festival Film</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fiksi/">Fiksi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/file-system/">File System</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/filesystem/">Filesystem</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/film/">Film</a> (9)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/film-indie/">Film Indie</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/film-kartun-jadul/">Film Kartun Jadul</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/firmware/">Firmware</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fixie/">Fixie</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/flashdisk/">Flashdisk</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/flim-drama/">Flim Drama</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/format/">Format</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/forum/">Forum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/foss/">Foss</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/foto/">Foto</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fotografi/">Fotografi</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fox-river/">Fox River</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fraxis/">Fraxis</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/free/">Free</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/free-sticker-google-chrome/">Free Sticker Google Chrome</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/freedesktop/">Freedesktop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/from-novice-to-professional/">From Novice to Professional</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/frontpage/">Frontpage</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fsck/">Fsck</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/fstab/">Fstab</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gak-penting/">Gak Penting</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/galau/">Galau</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/game/">Game</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gangguan/">Gangguan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gdm-theme/">Gdm Theme</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/geek/">Geek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/genset/">Genset</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gentoo/">Gentoo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/george-junus-aditjondro/">George Junus Aditjondro</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gerhana/">Gerhana</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gimananih/">Gimananih?</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gmail/">Gmail</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gmax4500/">GMAX4500</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gmrl/">Gmrl</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gnome/">GNOME</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/golang/">Golang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/google/">Google</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/google-chrome/">Google Chrome</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/google-plus/">Google Plus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/google.com/">Google.com</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gpl/">GPL</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gramedia/">Gramedia</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/grub/">Grub</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gsm/">GSM</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gugel/">Gugel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gurita-cikeas/">Gurita Cikeas</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/gusur/">Gusur</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hack/">Hack</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hack-billing-hotspot/">Hack Billing Hotspot</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hack-wireless/">Hack Wireless</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hacked/">Hacked</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hackintosh/">Hackintosh</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hacktivist/">Hacktivist</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hakcintosh/">Hakcintosh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hal/">HAL</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/halah/">Halah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hang/">Hang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/harddisk/">Harddisk</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hardware/">Hardware</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/harvard/">Harvard</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hbd/">Hbd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hbo/">HBO</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hdd/">Hdd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hek/">Hek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hello/">Hello!</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/heroes/">Heroes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hewlet-packard/">Hewlet Packard</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hey-there/">Hey There</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hfs/">Hfs</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hfsplus/">Hfsplus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hidup/">Hidup</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/holmes/">Holmes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/homicide/">Homicide</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hotspot/">Hotspot</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/how-to/">How To</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hp/">Hp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hujan/">Hujan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/hutan/">Hutan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ibm/">IBM</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ichat/">Ichat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ics/">ICS</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ikon/">Ikon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/imstupidandyounormal/">Imstupidandyounormal</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/indie/">Indie</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/indoleaks/">Indoleaks</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/indonesia/">Indonesia</a> (11)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ingatan/">Ingatan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/inggris/">Inggris</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ininamanyamikrobogbukanblog/">Ininamanyamikrobogbukanblog</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/install/">Install</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/instan-on/">Instan-On</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/integrity/">Integrity</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/interface/">Interface</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/internet/">Internet</a> (8)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/internet-sehat/">Internet Sehat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/interview/">Interview</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/introvert/">Introvert</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ip-address/">IP Address</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ipod/">Ipod</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/isight/">Isight</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/islam/">Islam</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/iso/">Iso</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/iwconfig/">Iwconfig</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/iwlist/">Iwlist</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jadul/">Jadul</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jaka-mandala/">Jaka Mandala</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jalan2/">Jalan2</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jam-tangan/">Jam Tangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jaringan/">Jaringan</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jejaring-sosial/">Jejaring Sosial</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jepang/">Jepang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/joke/">Joke</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/joomla/">Joomla</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/justanotherpoem/">Justanotherpoem</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/jw_sig_cfu/">JW_SIG_CFU</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kaca-mata/">Kaca Mata</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kaipang/">Kaipang</a> (6)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kaleng/">Kaleng</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kamar/">Kamar</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kambing/">Kambing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kamera/">Kamera</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kampanye-gagal-dan-tidak-guna/">Kampanye Gagal Dan Tidak Guna</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kamus/">Kamus</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kantong-plastik/">Kantong Plastik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kantor/">Kantor</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kartun/">Kartun</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kde/">Kde</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keamanan/">Keamanan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kecelakaan-pesawat/">Kecelakaan Pesawat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kecepatan/">Kecepatan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kecewa/">Kecewa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kelelep/">Kelelep</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kenangan/">Kenangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kendaraan-bermotor/">Kendaraan Bermotor</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kenduri/">Kenduri</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keren/">Keren</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kerja/">Kerja</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kernel/">Kernel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kesalahan/">Kesalahan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keseleo/">Keseleo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kesetrum/">Kesetrum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keyboard/">Keyboard</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keyboard-layout/">Keyboard Layout</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/keylogger./">Keylogger.</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/khayalan/">Khayalan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kodangan/">Kodangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kode/">Kode</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kolomkita/">Kolomkita</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kompetisi/">Kompetisi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/komputer/">Komputer</a> (13)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/komunikasi/">Komunikasi</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/koneksi/">Koneksi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/konten-pornografi/">Konten Pornografi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kpli/">Kpli</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kpli-ntb/">Kpli Ntb</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kriminal/">Kriminal</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kubuntu/">Kubuntu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kuliah/">Kuliah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/kurang-tidur/">Kurang Tidur</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lagu/">Lagu</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/laki-laki-pemalu/">Laki-Laki Pemalu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lalu-lintas/">Lalu Lintas</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lampp/">Lampp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lampu-siang-hari/">Lampu Siang Hari</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/langit/">Langit</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/laptop/">Laptop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/laskar-pelangi/">Laskar Pelangi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lay-it-down-slow/">Lay It Down Slow</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/layar/">Layar</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/layout/">Layout</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/layout-design/">Layout Design</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lebaran/">Lebaran</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lemari/">Lemari</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lensa/">Lensa</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/liburan/">Liburan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/libxine1-ffmpeg/">Libxine1-Ffmpeg</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/liff/">LIFF</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lilo/">Lilo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lincoln-burrow/">Lincoln Burrow</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/linus-torvalds/">Linus Torvalds</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/linux/">Linux</a> (50)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/linux-foundation/">Linux Foundation</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/linux-opensource/">Linux-Opensource</a> (18)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lirik/">Lirik</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lisensi/">Lisensi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/listrik/">Listrik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/livecd/">Livecd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lockpicking/">Lockpicking</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/logo/">Logo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lokal/">Lokal</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lomba/">Lomba</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lombok/">Lombok</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lombok-indie-film-festival/">Lombok Indie Film Festival</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lombok-parkour/">Lombok Parkour</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/low-level-format/">Low Level Format</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lrp/">Lrp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lucid/">Lucid</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lucid-release-party/">Lucid Release Party</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lulus/">Lulus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lumpur/">Lumpur</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lunar/">Lunar</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lupa/">Lupa</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/lxmed/">Lxmed</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/m2/">M2</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mac/">Mac</a> (11)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mac-os-x/">Mac Os X</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mac-os-x-86/">Mac OS X 86</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/macbook/">Macbook</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/machine-learning/">Machine Learning</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/macintosh/">Macintosh</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/macosx/">Macosx</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/macosx86/">Macosx86</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/madness/">Madness</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/madwifi/">Madwifi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/makan2/">Makan2</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/malesnulis/">Malesnulis</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/maling/">Maling</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/maling-benwit/">Maling Benwit</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/management/">Management</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/masa-kecil/">Masa Kecil</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/masyarakat/">Masyarakat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mata/">Mata</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mata-tertutup/">Mata Tertutup</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mataram/">Mataram</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mati/">Mati</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mati-beku/">Mati Beku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mati-lampu/">Mati Lampu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mati-membeku/">Mati Membeku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/matibeku/">Matibeku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/maverick/">Maverick</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/maverick-meerkat/">Maverick Meerkat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/md5sum/">Md5sum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mechanical-keyboard/">Mechanical Keyboard</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/meerkat/">Meerkat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mejik/">Mejik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mek/">Mek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mekbuk/">Mekbuk</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/membongkar-gurita-cikeas/">Membongkar Gurita Cikeas</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/memorial/">Memorial</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/memory-card-corrupted/">Memory Card Corrupted</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menambah-device-loop/">Menambah Device Loop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menang/">Menang</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mengapa-linux-lebih-baik/">Mengapa Linux Lebih Baik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menolak-lupa/">Menolak Lupa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menu-editor/">Menu Editor</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menulis/">Menulis</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/menyelesaikan-rubik-dengan-mata-tertutup/">Menyelesaikan Rubik Dengan Mata Tertutup</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/merge/">Merge</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/michael-scofield/">Michael Scofield</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/microblogging/">Microblogging</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/microscope/">Microscope</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/microsoft/">Microsoft</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/migrasi/">Migrasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/migrasi-ui/">Migrasi UI</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mikroblogging/">Mikroblogging</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mikroskop/">Mikroskop</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mikrotik/">Mikrotik</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/minimalist/">Minimalist</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mining/">Mining</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mirror/">Mirror</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mirror-cube/">Mirror Cube</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mmc/">MMC</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/modeling/">Modeling</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/modem/">Modem</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/modifikasi/">Modifikasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mogok/">Mogok</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/monyet/">Monyet</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/morse/">Morse</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mount/">Mount</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/movie/">Movie</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/multimedia-art-community/">Multimedia Art Community</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/multiple-personality-disorder/">Multiple Personality Disorder</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/munafik/">Munafik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/music/">Music</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/musik/">Musik</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/musikalisasi-puisi/">Musikalisasi Puisi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/mysql/">Mysql</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/n-gage/">N-Gage</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/n-gage-qd/">N-Gage QD</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nanggar/">Nanggar</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/naruto/">Naruto</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nasi-puyung/">Nasi Puyung</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nasi-puyung-bebek-mercon-battle/">Nasi Puyung Bebek Mercon Battle</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/natty/">Natty</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nawala/">Nawala</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/negara/">Negara</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/netbook/">Netbook</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/netcut/">Netcut</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/network/">Network</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/network-manager-pptp/">Network-Manager-Pptp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/networking/">Networking</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/new-hope/">New Hope</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/new-post/">New Post</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/newbie/">Newbie</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ngeblog/">Ngeblog</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ngeh/">Ngeh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ngenet/">Ngenet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ngoprek/">Ngoprek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nikon/">Nikon</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nilai/">Nilai</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nlight/">Nlight</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/noah-bennet/">Noah Bennet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nominasi-awards/">Nominasi Awards</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nonton/">Nonton</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nostalgia/">Nostalgia</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/november/">November</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ntb/">NTB</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ntb-go-open-source/">Ntb Go Open Source</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ntfs/">Ntfs</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nvidia/">Nvidia</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/nyampah/">Nyampah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/observasi/">Observasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/official/">Official</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/olah-digital/">Olah Digital</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/olimpiade/">Olimpiade</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/olimpiade-teknik/">Olimpiade Teknik</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ombilin/">Ombilin</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/onboarding/">Onboarding</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/onno-w-purbo/">Onno W Purbo</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ontel/">Ontel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/open-source/">Open Source</a> (9)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/open-suse/">Open Suse</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/opensource/">Opensource</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/opentracing/">Opentracing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/operating-system/">Operating System</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/oprek/">Oprek</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/os/">Os</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/osx86/">Osx86</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/otak-beku/">Otak Beku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/otaku/">Otaku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/overclock/">Overclock</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pacman/">Pacman</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pacman--syu/">Pacman -Syu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pamer/">Pamer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/panduan-linux/">Panduan Linux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pantai/">Pantai</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/parallel-synchronized-randomness/">Parallel Synchronized Randomness</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/parkour/">Parkour</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/partisi/">Partisi</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/partisi-hilang/">Partisi Hilang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/partition/">Partition</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/partition-tabel/">Partition Tabel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/patch/">Patch</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/path/">PATH</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/path-environment/">PATH Environment</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pattimura/">Pattimura</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pc/">PC</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pde-ntb/">PDE NTB</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pedas/">Pedas</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/peer-to-peer/">Peer to Peer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pegawa-negeri-sipil/">Pegawa Negeri Sipil</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pelanggaran-uu/">Pelanggaran UU</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pelebaran-jalan/">Pelebaran Jalan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pemerintah/">Pemerintah</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pemograman/">Pemograman</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pemula/">Pemula</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pencuri/">Pencuri</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pendidikan/">Pendidikan</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pendrivelinux/">Pendrivelinux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/penggalang/">Penggalang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/penggusuran/">Penggusuran</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/penghargaan/">Penghargaan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pengumuman/">Pengumuman</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pensil/">Pensil</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/penting/">Penting</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/penulis/">Penulis</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/perjalanan/">Perjalanan</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/perkembangan/">Perkembangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pernikahan/">Pernikahan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/perpus/">Perpus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/personality/">Personality</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pertarungan-jiwa-billi/">Pertarungan Jiwa Billi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pesawat/">Pesawat</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pesta-blogger/">Pesta Blogger</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/photo/">Photo</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/photoblog/">Photoblog</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/photoblogging/">Photoblogging</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/photography/">Photography</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/piano/">Piano</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/picassa/">Picassa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pico/">Pico</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pijat/">Pijat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pikiran/">Pikiran</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/piko/">Piko</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pilem/">Pilem</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pindah/">Pindah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pjm1110m/">PJM1110M</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pki/">PKI</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/planet-slackware/">Planet-Slackware</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pln/">PLN</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pns/">Pns</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pochmann/">Pochmann</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/poem/">Poem</a> (19)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/poet/">Poet</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/poetry/">Poetry</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/poets/">Poets</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pohon/">Pohon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/polda/">Polda</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/polisi/">Polisi</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/politik/">Politik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ports/">Ports</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/postaday/">Postaday</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/postaday2011/">Postaday2011</a> (44)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/postaweek2011/">Postaweek2011</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pptp/">Pptp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pramoedya-ananta-toer/">Pramoedya Ananta Toer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pramuka/">Pramuka</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/prison-break/">Prison Break</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/productivity/">Productivity</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/program/">Program</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/programming/">Programming</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/prosa/">Prosa</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/prov-ntb/">Prov NTB</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/proxy/">Proxy</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/proyek/">Proyek</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/psikolog/">Psikolog</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/psikologi/">Psikologi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/puisi/">Puisi</a> (42)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pusing/">Pusing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pusuk/">Pusuk</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/putu-wijaya/">Putu Wijaya</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/puzzle/">Puzzle</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pyraminx/">Pyraminx</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/pyraminx-blindfolded/">Pyraminx Blindfolded</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/python/">Python</a> (8)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/python-beginning/">Python Beginning</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/qmk/">QMK</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/qwerty/">Qwerty</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/radiohead/">Radiohead</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/random/">Random</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rapot/">Rapot</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rawr/">Rawr</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/read/">Read</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/recovery/">Recovery</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/redirect/">Redirect</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/removable-storage/">Removable Storage</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/renungan/">Renungan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repair/">Repair</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repair-corrupt-iso/">Repair Corrupt Iso</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repo/">Repo</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repo-ubuntu-jaunty/">Repo Ubuntu Jaunty</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repos/">Repos</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repositori/">Repositori</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repositori-ubuntu-indonesia/">Repositori Ubuntu Indonesia</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/repository/">Repository</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/resensi/">Resensi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/resensi-sampah/">Resensi Sampah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/resolusi/">Resolusi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/resolution/">Resolution</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/restore/">Restore</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/review/">Review</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ri/">RI</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/riddle/">Riddle</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rilis/">Rilis</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rilis-blankon/">Rilis Blankon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rolling-release/">Rolling-Release</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/router/">Router</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/routing/">Routing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/roy-suryo/">Roy Suryo</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rtfm/">RTFM</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rubik/">Rubik</a> (12)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rubik-finger-syndrom/">Rubik Finger Syndrom</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rubik%23039s-cube/">Rubik&amp;#039;s Cube</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rubikku/">Rubikku</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rubiks/">Rubiks</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ruby-alamsyah/">Ruby Alamsyah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rusak/">Rusak</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/rw/">Rw</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/s.i.g.i.t/">S.I.G.I.T</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sajak/">Sajak</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sakis3g/">Sakis3g</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sakit/">Sakit</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sakit-perut/">Sakit Perut</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/samba/">Samba</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sampah/">Sampah</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sang-pemimpi/">Sang Pemimpi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sapardi-djoko-darmono/">Sapardi Djoko Darmono</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sastra/">Sastra</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/save-our-earth/">Save Our Earth</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sayembara-cerpen/">Sayembara Cerpen</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/scan/">Scan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/scp/">Scp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/scribus/">Scribus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sdb1/">Sdb1</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sehari-tanpa-tv/">Sehari Tanpa Tv</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sehat/">Sehat</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sejarah/">Sejarah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sekolah/">Sekolah</a> (7)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sekolah-dodol/">Sekolah Dodol</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sekotong/">Sekotong</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/selamat-ulang-tahun/">Selamat Ulang Tahun</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/semesta/">Semesta</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/semut/">Semut</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sendang-gile/">Sendang Gile</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/seni-foto/">Seni Foto</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sepeda/">Sepeda</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sepeda-fixie/">Sepeda Fixie</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sepeda-ontel/">Sepeda Ontel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/seri/">Seri</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/series/">Series</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/server/">Server</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/service/">Service</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/service-pack-2/">Service Pack 2</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/setrum/">Setrum</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sharing/">Sharing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/shell/">Shell</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sherlock/">Sherlock</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sherlock-holmes/">Sherlock Holmes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/shipit/">Shipit</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/short-story/">Short-Story</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/shutter-speed/">Shutter Speed</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sialan/">Sialan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/silinder/">Silinder</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/single-post-on-front-page/">Single Post on Front Page</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sinyal/">Sinyal</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sir-arthur-conan-doyle/">Sir Arthur Conan Doyle</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sistem-operasi/">Sistem Operasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/skrip-perusak/">Skrip Perusak</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/slackpkg/">Slackpkg</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/slackware/">Slackware</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/slackware-current/">Slackware-Current</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/slax/">Slax</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sleep-paralys/">Sleep Paralys</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sman-2-mataram/">SMAN 2 Mataram</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/smanda/">Smanda</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/snow-leopard/">Snow Leopard</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/social-media/">Social Media</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/socmed/">Socmed</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/song-for-the-divine-mother-of-the-universe/">Song for the Divine Mother of the Universe</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/source-code/">Source Code</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/speedcubing/">Speedcubing</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/square-1/">Square-1</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/squeeze/">Squeeze</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/squid/">Squid</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/squirrelmail/">Squirrelmail</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sre/">SRE</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ssh/">Ssh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/stackmat/">Stackmat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/stackmat-timer/">Stackmat Timer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/stanford/">Stanford</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/star-wars/">Star Wars</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/status/">Status</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/steam-deck/">Steam Deck</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/stiker/">Stiker</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/story-of-ondol/">Story of Ondol</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/stress/">Stress</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/string/">String</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/strip/">Strip</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/subnet/">Subnet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/supermarket/">Supermarket</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/supermoon/">Supermoon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/sux/">Sux</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/swiss-army/">Swiss Army</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/symbian/">Symbian</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tabrakan/">Tabrakan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tahun-baru/">Tahun Baru</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tangan/">Tangan</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tantangan/">Tantangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tanya/">Tanya</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/taon/">Taon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teguh/">Teguh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teka-teki/">Teka-Teki</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teknik/">Teknik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teknik-panning/">Teknik Panning</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teledor/">Teledor</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/telepon-selular/">Telepon Selular</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teleportasi/">Teleportasi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/telescope/">Telescope</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teleskop/">Teleskop</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/telkomsel/">Telkomsel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/telkomsel-flash/">Telkomsel Flash</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teluk-sepi/">Teluk Sepi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tema-blankon/">Tema Blankon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tender/">Tender</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teori-fotografi/">Teori Fotografi</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/terminal/">Terminal</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/terminated-status-4/">Terminated Status 4</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/teropong/">Teropong</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tersesat/">Tersesat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tes/">Tes</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/thanks-google/">Thanks Google</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/think-pad/">Think Pad</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/thread/">Thread</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tidak-lulus/">Tidak Lulus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tilang/">Tilang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/time-line/">Time Line</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/timer/">Timer</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tindihan/">Tindihan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tip-menulis/">Tip Menulis</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tiu-kelep/">Tiu Kelep</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tiu-pupus/">Tiu Pupus</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tokusatsu/">Tokusatsu</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tong-sampah/">Tong Sampah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/torrent/">Torrent</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tour-de-pusuk/">Tour De Pusuk</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/traceur/">Traceur</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/transfer-file-over-ssh/">Transfer File Over Ssh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/translator/">Translator</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tren/">Tren</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/trend/">Trend</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/true-story/">True Story</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tukang-pijat/">Tukang Pijat</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tulis/">Tulis</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tulis-tangan/">Tulis Tangan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tutorial/">Tutorial</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tv/">Tv</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/tv-kabel/">Tv Kabel</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/twist-puzzle/">Twist Puzzle</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/uang/">Uang</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/uang-jatuh/">Uang Jatuh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ubuntu/">Ubuntu</a> (22)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ujian/">Ujian</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ujian-nasional/">Ujian Nasional</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ulang-tahun/">Ulang Tahun</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ultah/">Ultah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/un/">UN</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/unity/">Unity</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/unix/">Unix</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/unsupported-optional-feature/">Unsupported Optional Feature</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/update/">Update</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/usb/">Usb</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/user-sialan/">User Sialan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/usplash-blankon/">Usplash Blankon</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/utak-atik/">Utak-Atik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/verifikasi-2-langkah/">Verifikasi 2 Langkah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/video-cd-bajakan/">Video Cd Bajakan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/vim/">Vim</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/virtual/">Virtual</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/virtual-private-network/">Virtual Private Network</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/virtualbox/">Virtualbox</a> (3)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/vpn/">Vpn</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/vpnclient/">Vpnclient</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wadoh/">Wadoh</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/waerles/">Waerles</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wajan-bolik/">Wajan Bolik</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/war-driving/">War Driving</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/warnet/">Warnet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wartalinux/">Wartalinux</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/warung-internet/">Warung Internet</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/waterfall/">Waterfall</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wawancara/">Wawancara</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wca/">WCA</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/web/">Web</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/web-design/">Web Design</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/webmail/">Webmail</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/webserver/">Webserver</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wget/">Wget</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/where-in-the-world/">Where in the World</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/why-linux-is-better/">Why Linux Is Better</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wifi/">Wifi</a> (5)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wikileaks/">Wikileaks</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/william-milligan/">William Milligan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/william-stanley-milligan/">William Stanley Milligan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wind/">Wind</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/windows/">Windows</a> (6)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/windows-recovery/">Windows Recovery</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wireless/">Wireless</a> (9)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wisata/">Wisata</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wlan/">Wlan</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wn322g/">WN322G</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wordpress/">Wordpress</a> (4)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wordpress-password/">Wordpress Password</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/work/">Work</a> (2)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/wp/">Wp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/write/">Write</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/x/">X</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/x509/">X509</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/xampp/">Xampp</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/xfce/">Xfce</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/xkcd/">Xkcd</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/xorg.conf/">Xorg.conf</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/xrandr/">Xrandr</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/yang-tumpah/">Yang Tumpah</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/yenni-kusuma/">Yenni Kusuma</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/yenni-kusumawati/">Yenni Kusumawati</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ym/">Ym</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/ypli/">YPLI</a> (1)
+  </li>
+  
+  <li>
+    <a href="//localhost:1313/tags/yuna/">Yuna</a> (1)
+  </li>
+  
+</ul>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

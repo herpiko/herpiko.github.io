@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on Blog</title>
+    <link>//localhost:1313/tags/debian/</link>
+    <description>Recent content in Debian on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2011 22:39:55 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>koneksi vpn di debian squeeze</title>
+      <link>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</link>
+      <pubDate>Mon, 20 Jun 2011 22:39:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;saya memerlukan vpnclient di debian untuk koneksi ke kantor. jadi bisa nitip2 donglot seabrek hanya dari koneksi 30kbps di rumah. :P&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install network-manager-pptp network-manager-pptp-gnome&lt;/p&gt;&#xA;&lt;p&gt;edit connection &amp;gt; vpn &amp;gt; add.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;berikan nama koneksi. isikan ip publik tujuan vpn berikut user name dan password. btw, available to all users-nya jangan dicentang. entah kenapa itu menyebabkan gagal konek. NT domain biarkan kosong dan ipv4 biarkan otomatis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/4.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/4.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;jika berhasil konek akan ada gambar gembok kecil di ikon network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bug removable storage sdb1 di debian squeeze</title>
+      <link>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</link>
+      <pubDate>Sat, 30 Apr 2011 13:34:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;sudah sebulanan ngeloni debian baru sekarang ngeh.&lt;/p&gt;&#xA;&lt;p&gt;Error mounting: mount exited with exit code 1: helper failed with:mount: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error In some cases useful info is found in syslog - try dmesg | tail or so&lt;/p&gt;&#xA;&lt;p&gt;pesan itu selalu muncul kalau saya nyolokin usb, sd card, ataupun hdd eksternal. anehnya, usb/sd card/hdd ext tersebut tetap bisa dimout dengan perintah sudo mount di terminal dan bisa digunakan seperti biasa. tapi tentu saja hal itu sangat merepotkan. dan lebih aneh lagi, perangkat removable storage kedua yang dicolokkan akan dimount otomatis tanpa masalah, yang berarti itu akan lari ke dev setelah sdb, mungkin sdf atau sdg.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>daftar repositori debian squeeze di Indonesia</title>
+      <link>//localhost:1313/post/2011/04/03/daftar-repositori-debian-squeeze-di-indonesia/</link>
+      <pubDate>Sun, 03 Apr 2011 10:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/03/daftar-repositori-debian-squeeze-di-indonesia/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Universitas Indonesia (Kambing)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PENS ITS – Surabaya&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kebo.vlsm.org/debian&#34;&gt;http://kebo.vlsm.org/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Institut Teknologi Sepuluh Nopember – Surabaya&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://mirror.its.ac.id/debian&#34;&gt;http://mirror.its.ac.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;UGM&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://repo.ugm.ac.id/debian&#34;&gt;http://repo.ugm.ac.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Indika&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://debian.indika.net.id/debian&#34;&gt;http://debian.indika.net.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;KLAS&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/debian&#34;&gt;http://buaya.klas.or.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;sebenarnya di lenny ada lagi, stable-proposed-updates, debian-security, debian-volatile. tapi saya coba kok gag konek gitu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>canterbury project</title>
+      <link>//localhost:1313/post/2011/04/01/canterbury-project/</link>
+      <pubDate>Fri, 01 Apr 2011 18:27:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/01/canterbury-project/</guid>
+      <description>&lt;p&gt;jadi begini bapak bapak ibu ibu sekalian. tadi bukak2 site arch tiba2 muncul beginian.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/04/screenshot.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/screenshot.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;setiap judul tetesan cat di atas itu ngelink ke masing2 distribusi debian, arch, opensuse, gentoo, dan gmrl. keren benar kalau beneran digabung, tetapi karena hari ini adalah satu april, kemungkinan besar itu cuma boongan. :)&lt;/p&gt;&#xA;&lt;p&gt;toh kalau dimerge beneran, paketnya kan beda, siapa  yang mau ngalah?&lt;/p&gt;&#xA;&lt;p&gt;dan saya penasaran, di antara kelima distribusi itu, pihak siapa sih yang ngusulin ide keren buat april mop ini?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>debian squeeze &#43; WN322G v3 (atheros)</title>
+      <link>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</link>
+      <pubDate>Thu, 24 Mar 2011 21:16:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</guid>
+      <description>&lt;p&gt;yak, setelah seminggu lebih mondar-mandir akhirnya bisa juga. ternyata bukan dari paket firmware-atheros maupun madwifi (yang mana saya kira sudah discontinued mungkin).&lt;/p&gt;&#xA;&lt;p&gt;tapi langsung dari wireless.kernel.org. unduh paket compat-wireless terakhir.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;tar -zxvf compat*&lt;/p&gt;&#xA;&lt;p&gt;cd compat*&lt;/p&gt;&#xA;&lt;p&gt;make&lt;/p&gt;&#xA;&lt;p&gt;sudo make install&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;make-nya memang lama banget. setelah make install selesai, tinggal modprobe module-nya. ath9k ada 4 tapi saya ndak tau yang mana, yang jelas saya aktifkan semua module ini satu-satu, setelah selesai eh tau-tau network-manager sudah connected via wifi. agar diload saat booting, saya menuliskannya ke /etc/modules, semuanya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>menambah loop device di debian</title>
+      <link>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</link>
+      <pubDate>Thu, 09 Dec 2010 22:36:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</guid>
+      <description>&lt;p&gt;on progress, migrasi ke debian. jadi saya mengunduh 30 keping CD (baru selesai setengahnya). tapi saat mencoba mount semua file iso tersebut (akan dijadikan sebagai repositori), hanya 8 file yang bisa di-mount. ternyata karena loop device-nya dibatasi segitu. nah?&lt;/p&gt;&#xA;&lt;p&gt;cari file /etc/modules dan tambahkan&lt;/p&gt;&#xA;&lt;p&gt;loop max_loop=64&lt;/p&gt;&#xA;&lt;p&gt;reboot. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repositori Debian Lenny di Indonesia</title>
+      <link>//localhost:1313/post/2010/03/25/daftar-repositori-debian-lenny-di-indonesia/</link>
+      <pubDate>Thu, 25 Mar 2010 19:40:47 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/25/daftar-repositori-debian-lenny-di-indonesia/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_941&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;netinst&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/03/netinst.jpg&#34;&gt;*&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;karena terlalu lama keracunan ubuntu, saya coba tengok bokapnya ubuntu, si debian. langsung install via netinst (netinst kurang dari 200mb, abis males donglot n bakar dvd). silakan tengok.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.debian.org/distrib/netinst&#34;&gt;http://www.debian.org/distrib/netinst&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;untuk sementara lagi asik sama kakeknya blankon ini.  nah, ini dia daftar repositori debian di indonesia.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Universitas Indonesia  (Kambing)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; lenny main non-free contrib**&#xA;deb &lt;a href=&#34;http://kambing.ui.edu/debian-volatile&#34;&gt;http://kambing.ui.edu/debian-volatile&lt;/a&gt; lenny/volatile main contrib&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian-security&#34;&gt;http://kambing.ui.edu/debian-security&lt;/a&gt; lenny/updates main non-free  contrib&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; stable-proposed-updates main non-free  contrib&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

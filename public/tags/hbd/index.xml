@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hbd on Blog</title>
+    <link>//localhost:1313/tags/hbd/</link>
+    <description>Recent content in Hbd on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Nov 2010 04:16:46 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hbd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HBD my blog!</title>
+      <link>//localhost:1313/post/2010/11/01/hbd-my-blog/</link>
+      <pubDate>Mon, 01 Nov 2010 04:16:46 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/01/hbd-my-blog/</guid>
+      <description>&lt;p&gt;wah, agak bertepatan pula dengan pesta blogger (sayang ndak bisa nggembel keliling jawa kayak &lt;a href=&#34;http://blackclaw.wordpress.com&#34;&gt;blek&lt;/a&gt; ). saya peringati hari  ini dengan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nulis postingan ini&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;backup isi blog&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baca-baca isi blog dari awal.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;makang-makang sendiri.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;keep blogging!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

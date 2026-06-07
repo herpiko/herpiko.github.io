@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scribus on Blog</title>
+    <link>//localhost:1313/tags/scribus/</link>
+    <description>Recent content in Scribus on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jan 2011 16:58:06 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/scribus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Scribus</title>
+      <link>//localhost:1313/post/2011/01/28/tutorial-scribus/</link>
+      <pubDate>Fri, 28 Jan 2011 16:58:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/28/tutorial-scribus/</guid>
+      <description>&lt;p&gt;yoi, ini tulisan lama di wartalinux, sayang sudah tidak aktif. direpost disini untuk arsip. saya bahkan lupa bagaimana lanjutin tutorial ini.&lt;/p&gt;&#xA;&lt;p&gt;Hmm, dengan apa versi pdf wartalinux dibuat? Infonya sudah nongol di  rubrik paket. Adalah Scribus, sebuah aplikasi publising opensource yang  cukup lengkap. Bukan OpenOffice? Dengan fitur export pdf-nya, OpenOffice  memungkinkan kita membuat file pdf dari dokumen kita tapi sayangnya  banyak kekurangan dan bug yang menyertainya. Maka kembali ke Scribus  yang telah menjadi pilihan tepat. Selain mendukung PDF, Scribus bisa  mengimport file gambar (tentu saja), SVG, Postscript, dan banyak fitur  lainnya.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

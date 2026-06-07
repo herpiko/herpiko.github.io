@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codec on Blog</title>
+    <link>//localhost:1313/tags/codec/</link>
+    <description>Recent content in Codec on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Feb 2011 16:30:02 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/codec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>libxine1-ffmpeg</title>
+      <link>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</link>
+      <pubDate>Thu, 10 Feb 2011 16:30:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</guid>
+      <description>&lt;p&gt;sejak lama saya tidak menyukai kde hanya karena amarok tidak mau memutar mp3 setelah menginstall komplit kde. apa yang salah? saya menggunakan lucid dengan gnome bawaan, bukan kubuntu. meski sudah memasang semua codec gstreamer,tetap saja.&lt;/p&gt;&#xA;&lt;p&gt;ternyata oh ternyata, backend amarok adalah xine, bukan gstreamer, so?&lt;/p&gt;&#xA;&lt;p&gt;tinggal pasang nama paket yang judulnya tertera di atas. dan, tada! :D&lt;/p&gt;&#xA;&lt;p&gt;NB : btw, amarok dan rythmbox tidak bisa memutar lagu bersamaan, entah kenapa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

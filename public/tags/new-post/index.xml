@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Post on Blog</title>
+    <link>//localhost:1313/tags/new-post/</link>
+    <description>Recent content in New Post on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jan 2012 01:38:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/new-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Post Wordpress</title>
+      <link>//localhost:1313/post/2012/01/29/new-post-wordpress/</link>
+      <pubDate>Sun, 29 Jan 2012 01:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/29/new-post-wordpress/</guid>
+      <description>&lt;p&gt;coba klik new post dari bar di atas (jika sudah login wordpress). dapatkan ini :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2012/01/snapshot2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/snapshot2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;atau pergi ke http://wordpress.com/#!/post/&lt;/p&gt;&#xA;&lt;p&gt;keren dan ringan. sayangnya saat saya coba, tombol upload foto tidak bekerja.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

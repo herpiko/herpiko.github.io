@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menu Editor on Blog</title>
+    <link>//localhost:1313/tags/menu-editor/</link>
+    <description>Recent content in Menu Editor on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Apr 2012 01:39:33 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/menu-editor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LXmed : Menu Editor untuk XFCE di Slackware 13.37</title>
+      <link>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</link>
+      <pubDate>Sat, 07 Apr 2012 01:39:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</guid>
+      <description>&lt;p&gt;Saat masih pakai arch, saya menggunakan openbox dan nyaman dengan obmenuconfig. Bagaimana dengan XFCE di slackware (64 multilib)? Yep, LXmed adalah piranti lunak untuk menyunting menu pada LXDE, sebuah desktop manager yang lebih ringan dari pada XFCE, dan juga bekerja untuk XFCE. Silakan unduh paketnya di &lt;a href=&#34;http://lxmed.sourceforge.net/&#34;&gt;http://lxmed.sourceforge.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ekstrak dan jalankan ./install.sh. mudah dan cepat, tetapi tidak berhenti sampai di sini. Kita membutuhkan gksu dan jre untuk bisa menjalankan lxmed. jre bisa diinstall dari dvd slackware, terletak di source/l/jre. Umm, yeah, normalnya pasang jre dulu. hehe. Sementara paket gksu (sesuaikan versi slackware dan arsitektur) bisa ditemukan di belantara internet dengan mudah, google always be our friend.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

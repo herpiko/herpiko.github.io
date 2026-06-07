@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack Wireless on Blog</title>
+    <link>//localhost:1313/tags/hack-wireless/</link>
+    <description>Recent content in Hack Wireless on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 May 2009 05:57:29 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hack-wireless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hack Wireless Billing Hotspot dengan MacChanger di BlankOn</title>
+      <link>//localhost:1313/post/2009/05/25/hack-wireless-billing-hotspot-dengan-macchanger-di-blankon/</link>
+      <pubDate>Mon, 25 May 2009 05:57:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/05/25/hack-wireless-billing-hotspot-dengan-macchanger-di-blankon/</guid>
+      <description>&lt;p&gt;Satu hal, saya bukan heker (meski judul postingnya &amp;lsquo;hack&amp;rsquo;, &amp;lsquo;hack&amp;rsquo;, &amp;lsquo;hack&amp;rsquo;) tapi cuma orang yang mencoba belajar.&lt;/p&gt;&#xA;&lt;p&gt;Korban : Warnet milik Badan Perpustakaan Daerah NTB, access point &amp;ldquo;warintek1&amp;rdquo;, 00:22:6B:54:04:F2.&lt;/p&gt;&#xA;&lt;p&gt;(saya sengaja terang-terangan supaya admin warinteknya kalo baca ini jadi nyadar dan perbaiki jaringannya supaya lebih aman).&lt;/p&gt;&#xA;&lt;p&gt;Pelaku : Anggota Badan Perpustakaan sendiri, nama disensor (kode etik pers)&lt;/p&gt;&#xA;&lt;p&gt;BB (barang bukti) pelaku : mekbuk+blankon, dvd repo ubuntu (buat nginstal2 aplikasi tambahan), cd backtrack, dan kopi baru seduh.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

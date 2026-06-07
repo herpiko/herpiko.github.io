@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on Blog</title>
+    <link>//localhost:1313/tags/ssh/</link>
+    <description>Recent content in Ssh on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2011 03:20:29 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>file transfer over ssh</title>
+      <link>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</link>
+      <pubDate>Mon, 29 Aug 2011 03:20:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</guid>
+      <description>&lt;p&gt;namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.&lt;/p&gt;&#xA;&lt;p&gt;mentrasfer berkas dari komputer remot ke komputer lokal&lt;/p&gt;&#xA;&lt;p&gt;scp user@hostname:/path/ /path/&lt;/p&gt;&#xA;&lt;p&gt;user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

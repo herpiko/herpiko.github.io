@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Blog</title>
+    <link>//localhost:1313/tags/mysql/</link>
+    <description>Recent content in Mysql on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2011 02:27:02 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>masalah mysql di XAMPP 1.7.3 for mac</title>
+      <link>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</link>
+      <pubDate>Sat, 06 Aug 2011 02:27:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</guid>
+      <description>&lt;p&gt;berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>memindahkan database mysql dengan kopas</title>
+      <link>//localhost:1313/post/2010/12/19/memindahkan-database-mysql-dengan-kopas/</link>
+      <pubDate>Sun, 19 Dec 2010 23:28:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/19/memindahkan-database-mysql-dengan-kopas/</guid>
+      <description>&lt;p&gt;kondisi : sebuah komputer spesifikasi tinggi milik pemerintah dengan sistem operasi windows 2000 server, di dalamnya terinstall wamp server (windows-apache-mysql-php) dan diatasnya berjalan aplikasi cms milik pemerintah, yaitu pendataan warga keluarga berencana seluruh indonesia, namanya BKKBN. komputer ini bisa diakses via jaringan untuk memasukkan data dari komputer lain. nah, pendek kata, komputer ini rusak, blue screen dan ada pesan error not exist or corrupt blablabla. keren!&lt;/p&gt;&#xA;&lt;p&gt;nah, bagaimana cara memindahkan cms+databasenya di komputer lain dan jalan lancar? &lt;em&gt;bisakah langsung copy paste&lt;/em&gt;? saya pikir tidak bisa ngasal begitu, tetapi ternyata bisa. perlu diingat, paket aplikasi yang digunakan di sini adalah wamp, bukan xamp (pakai xamp juga bisa). wamp tidak menyediakan phpmyadmin (meski ada folder bernama phpmyadmin di dalamnya) sehingga bagi saya yang masih awam soal mysql, kesulitan mengexport databasenya. jadi, yang kepikiran di otak saya adalah langsung kopas di komputer lain yang ada apache-mysql-php.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

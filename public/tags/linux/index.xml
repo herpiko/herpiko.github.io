@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Blog</title>
+    <link>//localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2012 23:12:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Downgrade Slackware Current</title>
+      <link>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</link>
+      <pubDate>Mon, 07 May 2012 23:12:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</guid>
+      <description>&lt;p&gt;Konsekuensi menggunakan Slackware Current adalah paket bleeding edge dan belum tentu stabil. Seperti yang terjadi hari ini, setelah menjalankan slackpkg upgrade-all, (kalau tidak salah ingat beberapa paket berkaitan dengan X) keyboard dan mouse tidak berfungsi sama sekali. Saya tentunya punya waktu cari solusinya, tapi kalau butuh solusi cepat karena komputer mau dipakai buat kerja?&lt;/p&gt;&#xA;&lt;p&gt;Balik ke topik. Slackware bisa didowngrade bila kita punya repository lokal lengkap sebelumnya. Saya selalu pakai &lt;a href=&#34;http://www.slackware.com/~alien/tools/mirror-slackware-current.sh&#34;&gt;skrip dari Eric&lt;/a&gt; ketimbang langsung pakai slackpkg (yah, hari ini lupa, langsung slackpkg) dengan tujuan repositori tersebut bisa saya gunakan untuk PC di rumah yang notabene tidak punya akses internet. Beruntunglah karena siklus ini. Tinggal arahkan mirror slackpkg ke repository lokal. Slackpkg akan memberitahu bahwa repositori yang akan digunakan sekarang lebih lawas dari pada yang sebelumnya, tekan Y karena kita memang menggunakan repository yang lebih lawas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LXmed : Menu Editor untuk XFCE di Slackware 13.37</title>
+      <link>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</link>
+      <pubDate>Sat, 07 Apr 2012 01:39:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/07/lxmed-menu-editor-untuk-xfce-di-slackware-13.37/</guid>
+      <description>&lt;p&gt;Saat masih pakai arch, saya menggunakan openbox dan nyaman dengan obmenuconfig. Bagaimana dengan XFCE di slackware (64 multilib)? Yep, LXmed adalah piranti lunak untuk menyunting menu pada LXDE, sebuah desktop manager yang lebih ringan dari pada XFCE, dan juga bekerja untuk XFCE. Silakan unduh paketnya di &lt;a href=&#34;http://lxmed.sourceforge.net/&#34;&gt;http://lxmed.sourceforge.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ekstrak dan jalankan ./install.sh. mudah dan cepat, tetapi tidak berhenti sampai di sini. Kita membutuhkan gksu dan jre untuk bisa menjalankan lxmed. jre bisa diinstall dari dvd slackware, terletak di source/l/jre. Umm, yeah, normalnya pasang jre dulu. hehe. Sementara paket gksu (sesuaikan versi slackware dan arsitektur) bisa ditemukan di belantara internet dengan mudah, google always be our friend.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how linux is built</title>
+      <link>//localhost:1313/post/2012/04/05/how-linux-is-built/</link>
+      <pubDate>Thu, 05 Apr 2012 22:49:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/05/how-linux-is-built/</guid>
+      <description>&lt;p&gt;dari Linux Foundation.&lt;/p&gt;&#xA;&lt;div style=&#34;position:relative;padding-bottom:56.25%;height:0;overflow:hidden;&#34;&gt;&#xA;&lt;iframe src=&#34;https://www.youtube.com/embed/yVpbFMhOAwE&#34; style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Skema Papan Ketik Colemak Permanen di Slackware</title>
+      <link>//localhost:1313/post/2012/03/22/skema-papan-ketik-colemak-permanen-di-slackware/</link>
+      <pubDate>Thu, 22 Mar 2012 23:52:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/22/skema-papan-ketik-colemak-permanen-di-slackware/</guid>
+      <description>&lt;p&gt;Saya menemukan bahwa Colemak didukung di XFCE pada Slackware 13.37. Tetapi ketika pindah ke mode terminal/tty, saya mendapatkan QWERTY lagi.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://colemak.com/wiki/index.php?title=Unix&#34;&gt;Halaman di colemak.org &lt;/a&gt;menjelaskan caranya :&lt;/p&gt;&#xA;&lt;p&gt;Silakan unduh berkas keymap colemak.&lt;/p&gt;&#xA;&lt;p&gt;Ekstrak dan pindah ke direktori hasil ekstrak.&lt;/p&gt;&#xA;&lt;p&gt;Ketik dan jalankan : setxkbmap us; xmodmap xmodmap/xmodmap.colemak &amp;amp;&amp;amp; xset r 66&lt;/p&gt;&#xA;&lt;p&gt;Atau cara kedua : letakkan berkas colemak.iso15.kmap di /usr/share/kbd/keymaps dan jalankan loadkeys /usr/share/kbd/keymaps/colemak.iso15.kmap&lt;/p&gt;&#xA;&lt;p&gt;Tetapi itu tidak permanen, setiap login kembali mesti menjalankan lagi. Saya mempertimbangkan penerapan colemak yang lebih luas, yang bahkan login console pun pakai colemak. Saya dapatkan petunjuk ini &lt;a href=&#34;http://www.linuxquestions.org/questions/slackware-14/how-to-change-the-keyboard-layout-for-the-entire-system-930785/&#34;&gt;di sini.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GNU/Linux Distribution Timeline</title>
+      <link>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</link>
+      <pubDate>Thu, 01 Dec 2011 04:32:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/01/gnu/linux-distribution-timeline/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&#34;&gt;http://upload.wikimedia.org/wikipedia/commons/8/8c/Gldt.svg&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>axioo pico PJM 1110</title>
+      <link>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</link>
+      <pubDate>Fri, 16 Sep 2011 01:53:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/16/axioo-pico-pjm-1110/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-mac.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-mac.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/09/skrinsut-arch.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/skrinsut-arch.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;yak, ini dia komputer jinjing kedua yang saya miliki, beli seken murah dan dadakan, tapi alhamdulillah ini benar-benar benda yang keren. dikatakan komputer jinjing kedua karena dulu saya pernah punya sebuah komputer jinjing warna putih dan ada gambar buah apel yang sudah digigit sebagian. tapi sudah hilang. :&#39;(&lt;/p&gt;&#xA;&lt;p&gt;mari sejenak mengheningkan cipta.&lt;/p&gt;&#xA;&lt;p&gt;anu, banyak orang bilang axioo itu jelek. kabar yang saya dengar adalah, axioo cepat panas, spesifikasi rendahan, boardnya mudah kebakar (mengerikan sekali yang ini), kualitas ringkih, dan itu produk lokal asia. memang benar saya pernah menemukan notebook axioo yang panas sekali, laporan board rusak, kualitas ringkih juga iya karena saya sudah pegang sendiri, spesifikasi rendahan juga memang iya laptop axioo seri dulu kebanyakan vganya VIA atau SIS, dan ini memang produk lokal asia yang beredar di singapura dan indonesia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>menyalin update archlinux ke mesin lain</title>
+      <link>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</link>
+      <pubDate>Sat, 03 Sep 2011 05:26:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</guid>
+      <description>&lt;p&gt;pasti menyebalkan jika harus memelihara dua sistem archlinux selalu terupdate dengan koneksi pas-pasan (sebuah mesin desktop dan sebuah laptop). nah, saya menemukan cara yang praktis, hemat waktu dan bandwith. salah satu mesin terkoneksi internet, misal laptop, jalankan update pacman -Syu sampai selesai. kemudian salinlah /var/cache/pacman/pkg/* ke direktori yang sama ke mesin lain. komputer desktop juga mesti konek internet untuk mengunduh sisa-sisa yang mungkin tertinggal atau baru muncul updatenya. jalankan pacman -Syu dan komputer desktop akan menggunakan paket yang sudah ada di cache tadi dan mengunduh sisanya yang sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>file transfer over ssh</title>
+      <link>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</link>
+      <pubDate>Mon, 29 Aug 2011 03:20:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/29/file-transfer-over-ssh/</guid>
+      <description>&lt;p&gt;namanya scp dan biasanya sudah dipaketkan di sebagian besar distribusi.&lt;/p&gt;&#xA;&lt;p&gt;mentrasfer berkas dari komputer remot ke komputer lokal&lt;/p&gt;&#xA;&lt;p&gt;scp user@hostname:/path/ /path/&lt;/p&gt;&#xA;&lt;p&gt;user adalah user ssh di komputer remote, hostname adalah hostname atau ip yang digunakan komputer remote. path pertama dalah path di komputer remote. path kedua adalah path di komputer lokal, bisa juga didefinisikan dengan titik (path dimana kita sedang bekerja di komputer lokal, yang sama dengan pwd) atau ~/ (folder home kita)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>memeriksa status baterai melalui terminal</title>
+      <link>//localhost:1313/post/2011/08/27/memeriksa-status-baterai-melalui-terminal/</link>
+      <pubDate>Sat, 27 Aug 2011 15:06:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/27/memeriksa-status-baterai-melalui-terminal/</guid>
+      <description>&lt;p&gt;ya, saya sedang menginstall arch dan membutuhkan waktu lama untuk mengupdate paketnya. kurang bijak kalau laptop dicharger terus menerus. nah, kita bisa memeriksa status baterai melalui terminal, yaitu dengan acpi. pasang dulu acpi dengan paket manajer bawaan. tapi biasanya sistem yang sudah ada GUI-nya sudah mengikutkan acpi.&lt;/p&gt;&#xA;&lt;p&gt;$acpi&lt;/p&gt;&#xA;&lt;p&gt;Battery 0 : Discharging, 89%, rate information unavailable&lt;/p&gt;&#xA;&lt;p&gt;sebenarnya baris rate information unavailable itu berisi estimasi waktu hidup baterai kita. cuma itu baterai saya kurang beres. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengapa arch linux?</title>
+      <link>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</link>
+      <pubDate>Mon, 22 Aug 2011 23:27:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</guid>
+      <description>&lt;p&gt;yah, sudah banyak mengapa-blabla lainnya, tapi kali ini saya menulis alasan mengapa saya memilih arch sebagai os utama. kalo ndak salah dari awal juni kemarin sejak pindah dari debian. itu makanya saya pasang logo arch di samping sedari kemarin-marin. (blush)&lt;/p&gt;&#xA;&lt;p&gt;apa itu arch? basisnya apa? arch itu distribusi yang mengadaptasi prinsip keep-it-simple-stupid dan tidak berbasis distribusi manapun. ya, memang tidak berbasis distribusi manapun, tidak ada deb atau rpm. beda.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ringan dan cepat. ah, masak. linux kan memang ringan, mana lebih ringan dibanding puppy linux? tentu saja arch lebih ringan karena instalasi dasar arch (core) hanya berisi terminal dan utility utama. itu doang. menginstall arch jauh lebih merepotkan ketimbang install slackware, karena kita menerima OSnya dalam keadaan kosong. dari sinilah kita membangun, memasang paket-paket yang kita pikir kita butuhkan. jadi paket-paket/service yang sebenarnya tidak perlu tidak akan terpasang. bahkan setelah desktopnya terpasang (kasus saya gnome3) saya masih mendapati arch ini sangat kencang dan responsif, kalah-kalah si mac. initnya kita mendapat apa yang benar-benar kita butuhkan. dari sini pula kita bisa belajar mengkonfigurasi sistem awal ala arch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Catatan Rilis BlankOn Pattimura 7.0</title>
+      <link>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</link>
+      <pubDate>Sun, 21 Aug 2011 22:25:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</guid>
+      <description>&lt;p&gt;Disalin langsung dari &lt;a href=&#34;http://blankonlinux.or.id&#34;&gt;situs resmi BlankOn Linux&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;BlankOn 7.0 Pattimura  merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. BlankOn merupakan distribusi linux khas Indonesia yang menyertakan beragam perangkat lunak yang sering digunakan oleh masyarakat pada umumnya, seperti program perkantoran, aplikasi keuangan, aplikasi Internet, menggambar (baik vektor maupun bitmap), dukungan untuk memainkan beragam format berkas multimedia, serta aplikasi menarik lainnya.&lt;/p&gt;&#xA;&lt;p&gt;Pengembangan BlankOn bukan semata-mata ingin membuat distribusi Linux baru, namun lebih dimotivasi oleh keinginan untuk meningkatkan kualitas dan kuantitas dalam kemampuan pengembangan perangkat lunak bebas/terbuka. Yang pada hakikatnya merupakan salah ciri khas bangsa Indonesia yang memiliki semangat bergotong-royong.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamusiden v.0.0.1</title>
+      <link>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</link>
+      <pubDate>Fri, 22 Jul 2011 17:52:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;h1 id=&#34;untuk-dijalankan-di-python-2xx&#34;&gt;untuk dijalankan di python 2.xx&lt;/h1&gt;&#xA;&lt;p&gt;def id2en(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teks=open(&#39;id.dict&#39;,&#39;r&#39;)&#xA;&#xA;for line in teks:&#xA;&#xA;&#x9;x=line.split()&#xA;&#xA;&#x9;y=x[0]&#xA;&#xA;&#x9;if y == kataid:&#xA;&#xA;&#x9;&#x9;print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;def en2id(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    teks=open(&#39;en.dict&#39;,&#39;r&#39;)&#xA;&#xA;    for line in teks:&#xA;&#xA;            x=line.split()&#xA;&#xA;            y=x[0]&#xA;&#xA;            if y == kataid:&#xA;&#xA;                    print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(1) : bahasa indonesia -&amp;gt; english&#39;)&lt;/p&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(2) : english -&amp;gt; bahasa indonesia&#39;)&lt;/p&gt;&#xA;&lt;p&gt;pilih=input(&amp;lsquo;pilih : &amp;lsquo;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koneksi vpn di debian squeeze</title>
+      <link>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</link>
+      <pubDate>Mon, 20 Jun 2011 22:39:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;saya memerlukan vpnclient di debian untuk koneksi ke kantor. jadi bisa nitip2 donglot seabrek hanya dari koneksi 30kbps di rumah. :P&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install network-manager-pptp network-manager-pptp-gnome&lt;/p&gt;&#xA;&lt;p&gt;edit connection &amp;gt; vpn &amp;gt; add.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;berikan nama koneksi. isikan ip publik tujuan vpn berikut user name dan password. btw, available to all users-nya jangan dicentang. entah kenapa itu menyebabkan gagal konek. NT domain biarkan kosong dan ipv4 biarkan otomatis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/4.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/4.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;jika berhasil konek akan ada gambar gembok kecil di ikon network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengatasi gagal mount di desktop slackware (setelah debian, lagi-lagi)</title>
+      <link>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</link>
+      <pubDate>Sun, 12 Jun 2011 19:45:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</guid>
+      <description>&lt;p&gt;ah, serasa debian dan slackware sama saja, setelah fresh install tidak bisa mount otomatis dari user biasa (masalah di debian kemarin karena ada entry salah di /etc/fstab).&lt;/p&gt;&#xA;&lt;p&gt;saya menggunakan slackware 13.37 dan desktop KDE. pada saat mencolokan removable storage, partisi gagal dimount dan di notifikasi ada pesan error yang saya lupa apa lengkapnya, berkaitan dengan HAL.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya menemukan solusinya di forum arch linux dan bekerja untuk slackware. yang perlu dilakukan adalah mengedit file /etc/dbus-1/system.d/hal.conf, tambahkan user kita di kelompok haldaemon&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koneksi wireless via terminal</title>
+      <link>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</link>
+      <pubDate>Sun, 12 Jun 2011 14:23:14 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</guid>
+      <description>&lt;p&gt;yak, kemarin baru nyoba, ditulis sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;pastikan interfacenya aktif :ifconfig wlan0 up&lt;/p&gt;&#xA;&lt;p&gt;pindai sinyal di sekitar kita : iwlist wlan0 scan&lt;/p&gt;&#xA;&lt;p&gt;pilih access point : iwconfig wlan0 essid &amp;ldquo;namaAP&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;minta ip dari dhcp server : dhclient wlan0&lt;/p&gt;&#xA;&lt;p&gt;ketik ifconfig untuk melihat apakah interface sudah benar-benar mendapatkan IP address.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>konfigurasi slackware</title>
+      <link>//localhost:1313/post/2011/05/21/konfigurasi-slackware/</link>
+      <pubDate>Sat, 21 May 2011 18:27:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/21/konfigurasi-slackware/</guid>
+      <description>&lt;p&gt;awal bulan kemarin saya memasang slackware. orang bilang masang slackware itu susah. ndak juga. yang susah itu kalau mau pasang paket dan berjibaku dengan dependensi, dan itu merupakan tantangan.&lt;/p&gt;&#xA;&lt;p&gt;awalnya saya pikir juga begitu, pasang slackware ribet, mungkin mirip2 arch. ternyata tidak. kalau teliti baca, pastilah sukses. dan pada saat pasang tidak ada progress barnya, jadi kita tidak bisa kira2 kapan instalasinya selesai. tapi cepat kok. 15 menit kelar.&lt;/p&gt;&#xA;&lt;p&gt;jadi, apa yang saya lakukan setelah slackware terpasang?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>memperbaiki iso yang corrupt (md5sum mismatch)</title>
+      <link>//localhost:1313/post/2011/05/05/memperbaiki-iso-yang-corrupt-md5sum-mismatch/</link>
+      <pubDate>Thu, 05 May 2011 23:08:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/05/memperbaiki-iso-yang-corrupt-md5sum-mismatch/</guid>
+      <description>&lt;p&gt;setelah berkali2 download iso dvd slackware64 13.37, md5-nya tidak pernah sama. itu bikin saya patah hati, karena sudah dicoba 4 kali : wget, axel, prozgui, dan freedownloadmanager (windows), tetap saja isonya korup.&lt;/p&gt;&#xA;&lt;p&gt;ternyata iso corrupt itu bisa diperbaiki dengan client torrent apa saja, asalkan iso tersebut punya torrent-nya juga di internet, berikut seedernya masih ada. caranya, timpa file iso tersebut dengan unduhan torrent, secara otomatis, progressnya meluncur cepat lompat2 dan si torrent client akan memperbaiki bagian-bagian yang korup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bug removable storage sdb1 di debian squeeze</title>
+      <link>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</link>
+      <pubDate>Sat, 30 Apr 2011 13:34:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;sudah sebulanan ngeloni debian baru sekarang ngeh.&lt;/p&gt;&#xA;&lt;p&gt;Error mounting: mount exited with exit code 1: helper failed with:mount: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error In some cases useful info is found in syslog - try dmesg | tail or so&lt;/p&gt;&#xA;&lt;p&gt;pesan itu selalu muncul kalau saya nyolokin usb, sd card, ataupun hdd eksternal. anehnya, usb/sd card/hdd ext tersebut tetap bisa dimout dengan perintah sudo mount di terminal dan bisa digunakan seperti biasa. tapi tentu saja hal itu sangat merepotkan. dan lebih aneh lagi, perangkat removable storage kedua yang dicolokkan akan dimount otomatis tanpa masalah, yang berarti itu akan lari ke dev setelah sdb, mungkin sdf atau sdg.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perpusda Prov NTB Goes Open Source</title>
+      <link>//localhost:1313/post/2011/04/24/perpusda-prov-ntb-goes-open-source/</link>
+      <pubDate>Sun, 24 Apr 2011 12:13:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/24/perpusda-prov-ntb-goes-open-source/</guid>
+      <description>&lt;p&gt;Kabar yang menggembirakan memang, Perpusda Prov NTB sudah menggunakan linux di ruangan Warintek Bumigora-nya. Saat kunjungan saya kesana, banyak pengunjung yang sedang menggunakan komputer bersistem operasi super OS tersebut. Bahkan billingnya (menggunakan billinghotspot, setiap klien langsung diredirect ke halaman login saat membuka browser) juga menggunakan Linux.&lt;/p&gt;&#xA;&lt;p&gt;Sedikit bercakap2 dengan bapak yang saya lupa namanya (dari STMIK Bumigora dan kenal mas Wibi), katanya linux itu sudah dipasang berminggu2 yang lalu dan yang memasangnya adalah pihak perpusda sendiri, bukan tim migrasi NTB gOS. tetap saja, ini adalah sebuah kemajuan. terima kasih perpusda NTB! Semoga dengan bergantinya sistem operasi di komputer2 Warintek, semakin banyak yang mengenal OSS/linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>canterbury project</title>
+      <link>//localhost:1313/post/2011/04/01/canterbury-project/</link>
+      <pubDate>Fri, 01 Apr 2011 18:27:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/01/canterbury-project/</guid>
+      <description>&lt;p&gt;jadi begini bapak bapak ibu ibu sekalian. tadi bukak2 site arch tiba2 muncul beginian.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/04/screenshot.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/screenshot.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;setiap judul tetesan cat di atas itu ngelink ke masing2 distribusi debian, arch, opensuse, gentoo, dan gmrl. keren benar kalau beneran digabung, tetapi karena hari ini adalah satu april, kemungkinan besar itu cuma boongan. :)&lt;/p&gt;&#xA;&lt;p&gt;toh kalau dimerge beneran, paketnya kan beda, siapa  yang mau ngalah?&lt;/p&gt;&#xA;&lt;p&gt;dan saya penasaran, di antara kelima distribusi itu, pihak siapa sih yang ngusulin ide keren buat april mop ini?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>debian squeeze &#43; WN322G v3 (atheros)</title>
+      <link>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</link>
+      <pubDate>Thu, 24 Mar 2011 21:16:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</guid>
+      <description>&lt;p&gt;yak, setelah seminggu lebih mondar-mandir akhirnya bisa juga. ternyata bukan dari paket firmware-atheros maupun madwifi (yang mana saya kira sudah discontinued mungkin).&lt;/p&gt;&#xA;&lt;p&gt;tapi langsung dari wireless.kernel.org. unduh paket compat-wireless terakhir.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;tar -zxvf compat*&lt;/p&gt;&#xA;&lt;p&gt;cd compat*&lt;/p&gt;&#xA;&lt;p&gt;make&lt;/p&gt;&#xA;&lt;p&gt;sudo make install&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;make-nya memang lama banget. setelah make install selesai, tinggal modprobe module-nya. ath9k ada 4 tapi saya ndak tau yang mana, yang jelas saya aktifkan semua module ini satu-satu, setelah selesai eh tau-tau network-manager sudah connected via wifi. agar diload saat booting, saya menuliskannya ke /etc/modules, semuanya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>server kantor</title>
+      <link>//localhost:1313/post/2011/02/26/server-kantor/</link>
+      <pubDate>Sat, 26 Feb 2011 11:17:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/26/server-kantor/</guid>
+      <description>&lt;p&gt;salah satu mesin ibm disini isinya centos. kalau ada masalah jaringan, langsung lari kesini dan berdiri menggigil kedinginan. kalau sudah selesai kaki sakit sekali. kursi tak setinggi ini (atau saya yang kurang tinggi?).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small4.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small4.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>instant-on linux di netbook hp</title>
+      <link>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</link>
+      <pubDate>Sat, 19 Feb 2011 00:16:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/19/instant-on-linux-di-netbook-hp/</guid>
+      <description>&lt;p&gt;oya, alkisah saya nemuin netbuk hape (baca hp:hewlet-packard) yang begitu dinyalakan langsung muncul interface yang bisa digunakan untuk browsing, multimedia dan lainnya. langsung muncul bok! gak ada proses booting! keren benar. kalau mau booting OS yang ada di hardis, tinggal klik di pojok kiri bawah.&lt;/p&gt;&#xA;&lt;p&gt;lumayan lengkap untuk kebutuhan akses cepat.&lt;/p&gt;&#xA;&lt;p&gt;nah, sistem operasi macam apa yang nyelonong paksa sebelum booting hardis ini? saya kira varian unix/linux karena :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ikonnya itu loh, rada familiar&lt;/li&gt;&#xA;&lt;li&gt;path dengan slash, bukan backslash, saat saya masukin UFD, bahkan ada tempat mountingnya, yaitu /media/UFD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;nah, hayo, apa lagi itu kalau bukan itu?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>good bye ubuntu, nice to meet you!</title>
+      <link>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</link>
+      <pubDate>Thu, 17 Feb 2011 22:46:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/17/good-bye-ubuntu-nice-to-meet-you/</guid>
+      <description>&lt;p&gt;kemarin-kemarin malam syukur-syukur dapat ngenet sampai pagi, kesempatan itu saya gunakan untuk mengunduh si natty alpha sekalian paket zimbra yang lumayan besar itu, dan betapa kecewanya saya setelah mencobanya. mungkin memang iya, hal-hal baru yang dibawa ubuntu akan memudahkan pengguna baru, tetapi sungguh membuat frustasi pengguna lama. sungguh!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;awal dari kekecewaan.&lt;/strong&gt;**&#xA;adalah rilis LTS lucid, yang mulai membuat saya kurang sreg sama ubuntu. penggantian semua skema warna serta logo dan pemindahan tombol jendela ke sebelah kiri. mengenai logo itu, benar-benar kecewa berat, karena setahun sebelumnya saya sudah kadung membordir jaket kesayangan saya dengan logo cokelat-jingga-oranye khas ubuntu plus tulisannya yang serba rounded itu. sekarang warna-warna menggoda itu dihilangkan dan jadilah jaket saya ketinggalan jaman. saya dengar linux for human being bukan lagi kata-kata untuk ubuntu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nostalgia pramuka</title>
+      <link>//localhost:1313/post/2011/02/14/nostalgia-pramuka/</link>
+      <pubDate>Mon, 14 Feb 2011 23:22:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/14/nostalgia-pramuka/</guid>
+      <description>&lt;p&gt;kebetulan sekali, tadi ada teman yang minta tolong format recovery, mumpung sudah pernah ngalamin ya gayung pun bersambut dan tempatnya adalah di bumi perkemahan jaka mandala. saya langsung semangat empat lima!&lt;/p&gt;&#xA;&lt;p&gt;dan kebetulan lagi, di jakamandala ada anak-anak sd lagi kemah! akhirnya saya bisa ninggalin proses scanning dan angkat data buat nontonin anak-anak pramuka itu. saat saya menghampiri sekelompok anak-anak dengan pembinanya, saya langsung nyahok.&lt;/p&gt;&#xA;&lt;p&gt;ternyata pembina itu adalah teman satu satuan saya saat masih pramuka di smp dulu. huahaha, kebetulan yang menyenangkan!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>libxine1-ffmpeg</title>
+      <link>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</link>
+      <pubDate>Thu, 10 Feb 2011 16:30:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/10/libxine1-ffmpeg/</guid>
+      <description>&lt;p&gt;sejak lama saya tidak menyukai kde hanya karena amarok tidak mau memutar mp3 setelah menginstall komplit kde. apa yang salah? saya menggunakan lucid dengan gnome bawaan, bukan kubuntu. meski sudah memasang semua codec gstreamer,tetap saja.&lt;/p&gt;&#xA;&lt;p&gt;ternyata oh ternyata, backend amarok adalah xine, bukan gstreamer, so?&lt;/p&gt;&#xA;&lt;p&gt;tinggal pasang nama paket yang judulnya tertera di atas. dan, tada! :D&lt;/p&gt;&#xA;&lt;p&gt;NB : btw, amarok dan rythmbox tidak bisa memutar lagu bersamaan, entah kenapa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>terminated status 4</title>
+      <link>//localhost:1313/post/2011/01/30/terminated-status-4/</link>
+      <pubDate>Sun, 30 Jan 2011 17:31:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/30/terminated-status-4/</guid>
+      <description>&lt;p&gt;oke, solusinya adalah menjalankan fsck. hasil mencari sana sini, jawabannya sederhana, fsck, itu saja. nah, kalau masalahnya tetap tidak terselesaikan?&lt;/p&gt;&#xA;&lt;p&gt;ternyata ada hal lain. bios-nya tereset dan otomatis pengaturan waktunya kembali ke jaman jadul, jadi sistem operasi kebingungan karena mengenali tanggal terakhir penulisan ke partisi, adalah tanggal di masa depan.&lt;/p&gt;&#xA;&lt;p&gt;yak, atur waktu di bios dan kembali jalankan fsck. done! :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>defragment fat di linux</title>
+      <link>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</link>
+      <pubDate>Thu, 27 Jan 2011 04:05:10 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</guid>
+      <description>&lt;p&gt;sejauh saya googling sana sini sampai kesandung, saya belum temukan tool untuk defragment partisi fat di linux. yeah, ada partition logic tapi saya kira itu livecd. di filesystem varian unix tidak ada istilah defragment karena konsepnya berbeda dengan ntfs/fat, dan itu saya kurang ngerti.&lt;/p&gt;&#xA;&lt;p&gt;nah, belajar dari pengalaman sebelumnya, ada cara untuk defragment di fat. mungkin ini bukan defragment tapi konsepnya sama, yaitu mengisi kekosongan dan merapikan file2.&lt;/p&gt;&#xA;&lt;p&gt;karena yang saya perlukan untuk didefrag adalah sebuah MMC yang hanya berukuran 512MB, ini mudah. caranya adalah, kita mennyalin semua isi partisi tersebut ke folder di partisi lain, lalu memformat partisi fat dengan gparted, kemudian menyalin kembali isi partisi MMC ke tempat semula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sendang gile waterfall</title>
+      <link>//localhost:1313/post/2010/12/15/sendang-gile-waterfall/</link>
+      <pubDate>Wed, 15 Dec 2010 06:43:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/15/sendang-gile-waterfall/</guid>
+      <description>&lt;p&gt;diajak mbak yenni dkk jalan2 lagi. :mrgreen: ok. ini pertama kalinya saya pergi ke sendang gile, senaru, di kaki gunung rinjani. dari mataram, sangat jauuuuuuuuuuuuuuuuuuuuuuuh. dan parahnya, ini salah musim!&lt;/p&gt;&#xA;&lt;p&gt;jadi kami basah kuyup dan kelelahan. sampai di air terjunnya (btw, air terjunnya memang mantab), dinginnya luar biasa. kena butiran2 airnya saja saya sudah menggigil, apalagi timbul tenggelam di kolamnya. semua nyemplung tak terkecuali.&lt;/p&gt;&#xA;&lt;p&gt;pas balik, kaki saya kram. malunya. jempol saya bengkok gak karuan. dan blek pun mencicipi pengalaman ciuman pertamanya, jempol kaki saya diemut2 sampai hangat dan bisa digerakan. thanks master!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nasi puyung bebek mercon battle</title>
+      <link>//localhost:1313/post/2010/12/13/nasi-puyung-bebek-mercon-battle/</link>
+      <pubDate>Mon, 13 Dec 2010 23:21:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/13/nasi-puyung-bebek-mercon-battle/</guid>
+      <description>&lt;p&gt;saya ditilpon. diajak jalan-jalan makan malam sama rombongan kemarin, ada blek, mbak yenni, cepul, dan &lt;a href=&#34;http://coffeedrip.wordpress.com/&#34;&gt;aduhmaafnamanyasiapaya&lt;/a&gt;. ya ikutlah.&lt;/p&gt;&#xA;&lt;p&gt;kami makan nasi puyung di Nasi Puyung I. sebenarnya ini pertarungan 3 orang. tapi blek dieliminasi karena tidak bisa makan bebek. *tendang blek&lt;/p&gt;&#xA;&lt;p&gt;akhirnya hanya saya dan cepul. aturannya : makan terus gak boleh minum, yang duluan minum yang kalah. pedesnya? luar biasa bok, suap pertama sudah bikin klenger. oya, ceritanya hanya sampai di sini karena saya kalah. T.T&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>menambah loop device di debian</title>
+      <link>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</link>
+      <pubDate>Thu, 09 Dec 2010 22:36:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/09/menambah-loop-device-di-debian/</guid>
+      <description>&lt;p&gt;on progress, migrasi ke debian. jadi saya mengunduh 30 keping CD (baru selesai setengahnya). tapi saat mencoba mount semua file iso tersebut (akan dijadikan sebagai repositori), hanya 8 file yang bisa di-mount. ternyata karena loop device-nya dibatasi segitu. nah?&lt;/p&gt;&#xA;&lt;p&gt;cari file /etc/modules dan tambahkan&lt;/p&gt;&#xA;&lt;p&gt;loop max_loop=64&lt;/p&gt;&#xA;&lt;p&gt;reboot. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kopdar kaipang 7 desember 2010</title>
+      <link>//localhost:1313/post/2010/12/07/kopdar-kaipang-7-desember-2010/</link>
+      <pubDate>Tue, 07 Dec 2010 23:39:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/07/kopdar-kaipang-7-desember-2010/</guid>
+      <description>&lt;p&gt;yak, barusan kopdar kaipang (KPLI NTB) di seven wonder (berugak pak ajoeh). bintang tamu : blek dengan wajah ceria dan DSLR sony-minolta-nya. acara : makang-makang, ngalor ngidul, moto-moto, ngerampok film/anime, 5 persennya omongin linux. yah, begitulah kaipang.&lt;/p&gt;&#xA;&lt;p&gt;yang ingin mencium lensa kamera adalah blek aka farhan perdana. :D&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_0254.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0254.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_0266.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0266.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_0255.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0255.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_0270.jpg&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_0292.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0292.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/dsc_02611.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_02611.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengatur sendiri resolusi layar di ubuntu</title>
+      <link>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</link>
+      <pubDate>Mon, 08 Nov 2010 01:15:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</guid>
+      <description>&lt;p&gt;kemarin saya ketemuan sama komputer desktop dengan VGA SIS, pakai lucid dan resolusinya tidak proposional, mentok 800x600. berhubung tidak sedang koneksi internet untuk unduh driver, kita bisa mengakalinya, dengan xrandr, cvt, dan berkas konfigurasi X, xorg.conf. secara default, xrandr dan cvt sudah terinstall di ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;pertama-tama, musti diperkirakan dulu resolusi yang tepat. misalnya, kita sudah tahu bahwa komputer/laptop ini resolusinya yang paling pas adalah 1368x768 (misalnya). kita bisa coba langsung dengan xrandr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>oprek modem DT8 di ubuntu lucid</title>
+      <link>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</link>
+      <pubDate>Tue, 02 Nov 2010 23:59:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/02/oprek-modem-dt8-di-ubuntu-lucid/</guid>
+      <description>&lt;p&gt;alkisah, seorang teman dari seorang teman bernama mas isat datang bawa netbook acerone dan bilang modem GSM 3G (advan dt8 telkomsel flash) ndak mau konek, bahkan tidak terdeteksi di ubuntu lucidnya. mas isat ini teman dari mas ook (mas ook itu siapa ya? o yang itu).&lt;/p&gt;&#xA;&lt;p&gt;pendek kata, dari sore sampai malam saya gagal oprekin. dengan merasa kalah dan malu berat,  saya bilang, agar modemnya saya bawa pulang karena masih penasaran kenapa ndak bisa dan supaya besok datang lagi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>peran kaipang dalam migasi FOSS prov NTB</title>
+      <link>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</link>
+      <pubDate>Mon, 11 Oct 2010 17:37:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Seperti yang telah disebutkan di atas bahwasanya Kementerian Riset dan Teknologi bersama-sama dengan seluruh stakeholder IT dan dalam kesempatan pelaksanaan kegiatan model migrasi OSS di 15 titik Provinsi/kota/kabupaten (di jadwalkan Bulan Agustus 2010 sampai dengan November 2010) RISTEK bekerjasama dengan Makara UI yang didukung oleh PT. Ardelindo Aples, POSS UI, NF dan Komunitas OSS Lokal.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;entah tulisan ini tujukan kepada siapa, saya cuma mau curhat sejenak.&lt;/p&gt;&#xA;&lt;p&gt;sejak agustus dulu, koar-koar tentang migrasi perangkat lunak terbuka di lingkungan pemerintah provinsi NTB sempat membuat saya bersemangat. akhirnya, migrasi itu dilaksanakan tanggal 4-9 oktober 2010 yang mana isinya adalah tidak sesuai dengan apa yang saya perkirakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tukang tilang</title>
+      <link>//localhost:1313/post/2010/10/05/tukang-tilang/</link>
+      <pubDate>Tue, 05 Oct 2010 03:30:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/05/tukang-tilang/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;hari ini, pagi-pagi saya sudah nongol di perempatan kompleks pemerintahan prov NTB dan Kota Mataram, mau hadiri acara Migrasi NTB Go Open Source (Akhirnya! diadakan oleh ristek, kerjasama dengan makara UI, ardelindo, dan POSS UI) sebagai asisten pendamping dari komunitas lokal (KPLI NTB). Tutornya mas Rizky, admin dari Kambing.ui.ac. Siapa sangka saya bisa ketemu sama admin server kambing? gudang terbesar dan tercepat repository linux di indonesia. :)&lt;/p&gt;&#xA;&lt;p&gt;di sana ada pos polisi, ketupang belum datang dan menunggulah saya di sana. lalu 3 polisi datang menempati dan mulai bertugas. saya asyik memperhatikan pohon super gede nan unik yang ada di perempatan itu (pohonnya adalah dua pohon berbeda yang sangat besar dan batangnya saling melilit, daramatis pokoke). tiba-tiba seorang pengendara motor dicegat karena ndak pakai helm. saya menahan diri untuk tidak mengeluarkan kamera.  saya hanya menonton sambil tersenyum dalam hati, sampai transaksi tilang selesai. si pengendara motor dipersilakan ngeloyor pergi sambil menyumpah-nyumpah. keras baget lho, sampai polisinya noleh.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tangkapan kamera : ubuntu di supermarket niaga</title>
+      <link>//localhost:1313/post/2010/09/26/tangkapan-kamera-ubuntu-di-supermarket-niaga/</link>
+      <pubDate>Sun, 26 Sep 2010 02:19:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/26/tangkapan-kamera-ubuntu-di-supermarket-niaga/</guid>
+      <description>&lt;p&gt;kebetulan lagi belanja di supermarket Niaga, jalan  sriwijaya dekat kantor Pos Indonesia, Mataram. dan mumpung bawa SLR,  langsung jepret.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/dsc_0242.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0242.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;masih bingung dengan nama perangkat lunak ini. sudah tanya2 sama kasir tapi kasirnya yang manis cuma angkat bahu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/penjualan-pos.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/penjualan-pos.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sayang gagal jepret kasirnya, padahal manis. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/dsc_0244.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0244.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ini dia. satu kata : gede.&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;HIDOP FOSS!**&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>selamat ulang tahun, linux</title>
+      <link>//localhost:1313/post/2010/08/24/selamat-ulang-tahun-linux/</link>
+      <pubDate>Tue, 24 Aug 2010 22:08:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/24/selamat-ulang-tahun-linux/</guid>
+      <description>&lt;p&gt;ah, ini posting spesial. ^^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.04 Lucid Lynx di Indonesia</title>
+      <link>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</link>
+      <pubDate>Wed, 09 Jun 2010 21:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</guid>
+      <description>&lt;p&gt;silakan. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;**deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.ac.id (UI, Telkom, Indosat, OpenIXP, INHERENT**&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KPLI NTB : Lucid Relase Party</title>
+      <link>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</link>
+      <pubDate>Mon, 17 May 2010 08:15:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</guid>
+      <description>&lt;p&gt;Ubuntu 10.04 telah di rilis 29 April lalu. KPLI NTB bekerjasama dengan  KSL Bumigora mengadakan acara menyambut peluncuran sistem operasi  tersebut. Acara akan dirangkai dalam:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seminar dengan tema  &amp;ldquo;Mengupas Tuntas Ubuntu 10.04 LTS Lucid Lynx&amp;rdquo; oleh Bapak Olan  Wardiansyah, Kepala ICT Kota Bima.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Instalasi Ubuntu 10.04 yang akan  dipandu oleh Amrin Zulkarnain, Ketua KPLI NTB dan Team&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tanya Jawab  dan Troubleshooting&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Doorprize&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HTM Rp 10.000,-&lt;/p&gt;&#xA;&lt;p&gt;(makalah,  snack, cd ubuntu, sertifikat, dll)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lucid Fail : driver wireless broadcom tidak otomatis terinstall (emachine)</title>
+      <link>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</link>
+      <pubDate>Sun, 02 May 2010 02:47:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</guid>
+      <description>&lt;p&gt;29 april dirilis, langsung donglot, install, sempurna. lalu saya coba install di sebuah emachine punya teman (cepul). sempurna, kecuali satu. driver wireless tidak bisa. padahal ini kan broadcom! jah! :(&lt;/p&gt;&#xA;&lt;p&gt;mau donglot driver? bagaimana konek inet kalau waerles ndak bisa? (selain dengan UTP LAN dan akses broadband).&lt;/p&gt;&#xA;&lt;p&gt;saya yakin drivernya ada di dalam CD live lucid, hanya saja tidak terinstall dengan otomatis. jika anda mengalamai masalah ini, jangan khawatir. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mirror cepat arch linux</title>
+      <link>//localhost:1313/post/2010/04/26/mirror-cepat-arch-linux/</link>
+      <pubDate>Mon, 26 Apr 2010 19:25:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/26/mirror-cepat-arch-linux/</guid>
+      <description>&lt;p&gt;sekarang lagi semangat-semangatnya nunggu rilis lucid, kok saya kepincut archlinux. =.=&lt;/p&gt;&#xA;&lt;p&gt;dari semua mirrorlist yang ada di /etc/pacman.d/mirrorlist, repo yang di &lt;a href=&#34;http://mirror.rit.edu/archlinux&#34;&gt;http://mirror.rit.edu/archlinux&lt;/a&gt;**/** yang paling kenceng (dicoba satu-satu yang di US, bego). bisa pakai rankmirror untuk cari yang kecepatannya maksimal. tapi ini sudah cukup cepat, setidaknya bagi saya dan di komputer virtual saya. 100 kbps euy&amp;hellip; =))&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/04/repoarch.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/repoarch.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;nunggu mirror yang dari unej stabil lagi. kalo dari kambing ndak tau sering terupdate atau ndak.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repositori Debian Lenny di Indonesia</title>
+      <link>//localhost:1313/post/2010/03/25/daftar-repositori-debian-lenny-di-indonesia/</link>
+      <pubDate>Thu, 25 Mar 2010 19:40:47 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/25/daftar-repositori-debian-lenny-di-indonesia/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_941&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;netinst&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/03/netinst.jpg&#34;&gt;*&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;karena terlalu lama keracunan ubuntu, saya coba tengok bokapnya ubuntu, si debian. langsung install via netinst (netinst kurang dari 200mb, abis males donglot n bakar dvd). silakan tengok.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.debian.org/distrib/netinst&#34;&gt;http://www.debian.org/distrib/netinst&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;untuk sementara lagi asik sama kakeknya blankon ini.  nah, ini dia daftar repositori debian di indonesia.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Universitas Indonesia  (Kambing)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; lenny main non-free contrib**&#xA;deb &lt;a href=&#34;http://kambing.ui.edu/debian-volatile&#34;&gt;http://kambing.ui.edu/debian-volatile&lt;/a&gt; lenny/volatile main contrib&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian-security&#34;&gt;http://kambing.ui.edu/debian-security&lt;/a&gt; lenny/updates main non-free  contrib&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; stable-proposed-updates main non-free  contrib&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Linux is Better | Mengapa Linux Lebih Baik</title>
+      <link>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</link>
+      <pubDate>Mon, 22 Mar 2010 22:05:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</guid>
+      <description>&lt;p&gt;disadur dari &lt;a href=&#34;http://www.whylinuxisbetter.net/index_id.php?lang=id&#34;&gt;http://www.whylinuxisbetter.net/index_id.php?lang=id&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;lupakan-tentang-virus&#34;&gt;Lupakan tentang virus.&lt;/h2&gt;&#xA;&lt;p&gt;Bila komputermu mati dengan sendirinya tanpa bertanya padamu, jika  sebuah jendela dengan teks yang tidak jelas dan segala jenis iklan  muncul tanpa kehendakmu, jika email terkirim ke seluruh kontak yang kamu  punyai tanpa sepengetahuanmu, maka kemungkinan besar komputermu sedang  terinfeksi virus. Alasan utamanya adalah karena sistem Windows berjalan  di komputermu.&lt;/p&gt;&#xA;&lt;p&gt;Linux hampir tidak memiliki virus. Dan itu bukan berarti &amp;ldquo;Yah,  sebenarnya sih tidak terlalu sering&amp;rdquo;, tetapi berarti &amp;ldquo;Jika kamu pernah  mendengar tentang virus Linux &lt;em&gt;betulan&lt;/em&gt;, beritahu saya&amp;rdquo;. Tentu  saja, bukan tidak mungkin Linux terserang virus. Hanya saja, Linux  membuatnya sangat sulit terjadi, karena beberapa alasan berikut:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koleksi distro</title>
+      <link>//localhost:1313/post/2010/01/29/koleksi-distro/</link>
+      <pubDate>Fri, 29 Jan 2010 12:51:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/29/koleksi-distro/</guid>
+      <description>&lt;p&gt;sampai januari ini, koleksi saya ndak bertambah banyak.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;opensuse 10.2 (4 cd)&lt;/li&gt;&#xA;&lt;li&gt;opensuse 10.3 (dvd)&lt;/li&gt;&#xA;&lt;li&gt;opensuse 11 KDE&lt;/li&gt;&#xA;&lt;li&gt;PC-BSD (ndak tau versi berapa)&lt;/li&gt;&#xA;&lt;li&gt;FreeBSd&lt;/li&gt;&#xA;&lt;li&gt;Archlinux&lt;/li&gt;&#xA;&lt;li&gt;RHEL AS 4 (ngapain punya ini? salah beli waktu jalan-jalan di bali)&lt;/li&gt;&#xA;&lt;li&gt;fedora 8&lt;/li&gt;&#xA;&lt;li&gt;fedora 9&lt;/li&gt;&#xA;&lt;li&gt;fedora 12&lt;/li&gt;&#xA;&lt;li&gt;debian lenny (woof! bangga banget punya ini. hahahaha)&lt;/li&gt;&#xA;&lt;li&gt;knoppix 3.6 (ini distribusi linux kedua yang saya sentuh)&lt;/li&gt;&#xA;&lt;li&gt;knoppix 5.x&lt;/li&gt;&#xA;&lt;li&gt;PCLinuxOS dari Majalah PC Media (ini distribusi linux kedua yang saya sentuh)&lt;/li&gt;&#xA;&lt;li&gt;IGOS Nusantara 3 RC2&lt;/li&gt;&#xA;&lt;li&gt;Ubuntu 7.04, 7.10, 8.04, 8.10, 9.04, 9.10.&lt;/li&gt;&#xA;&lt;li&gt;Kubuntu 8.10, 9.04, 9.10.&lt;/li&gt;&#xA;&lt;li&gt;Xubuntu 8.10&lt;/li&gt;&#xA;&lt;li&gt;Ubuntu Me&lt;/li&gt;&#xA;&lt;li&gt;Zenwalk 5.2&lt;/li&gt;&#xA;&lt;li&gt;Backtrack final 3&lt;/li&gt;&#xA;&lt;li&gt;Slax&lt;/li&gt;&#xA;&lt;li&gt;Slackware 12.1&lt;/li&gt;&#xA;&lt;li&gt;Blankon Lontara, Meuligo, Nanggar&lt;/li&gt;&#xA;&lt;li&gt;Vixta&lt;/li&gt;&#xA;&lt;li&gt;Linux mint 4.0&lt;/li&gt;&#xA;&lt;li&gt;Linux mint 6 KDE&lt;/li&gt;&#xA;&lt;li&gt;Vector Linux 5 SOHO&lt;/li&gt;&#xA;&lt;li&gt;Moolux&lt;/li&gt;&#xA;&lt;li&gt;Puppy Linux seamongkey&lt;/li&gt;&#xA;&lt;li&gt;Damnsmalllinux 3.3 dan 4.4&lt;/li&gt;&#xA;&lt;li&gt;symphony linux&lt;/li&gt;&#xA;&lt;li&gt;centOS 5.2&lt;/li&gt;&#xA;&lt;li&gt;Mandriva 2008, 2009, 2010&lt;/li&gt;&#xA;&lt;li&gt;Sam linux&lt;/li&gt;&#xA;&lt;li&gt;PCLinuxOS 2007&lt;/li&gt;&#xA;&lt;li&gt;elive&lt;/li&gt;&#xA;&lt;li&gt;PCOS&lt;/li&gt;&#xA;&lt;li&gt;Tinycore 1.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Repository&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengakses Samba dengan CLI</title>
+      <link>//localhost:1313/post/2010/01/02/mengakses-samba-dengan-cli/</link>
+      <pubDate>Sat, 02 Jan 2010 18:32:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/02/mengakses-samba-dengan-cli/</guid>
+      <description>&lt;p&gt;kisah berawal ketika saya menginstal ubuntu karmic di mesin vmware yang berjalan di atas komputer server billing warnet dengan os windos. jaringan guest-host sudah berjalan baik. sharing file dan akses internet juga lancar. nah, gnome tu cukup  berat juga di mesin vmware, meski ram-nya sudah tak kasih 512. jadi, saya memilih mengganti ke xfce yang agak ringan. sayangnya, file manager defaultnya (thunar) tidak bisa mengakses samba. pada nautilus ada akses ke network, sedangkan di thunar tidak ada. bodoh sekali rasanya menjalankan nautilus di xfce. saya butuh yang ringan! dan rasanya malas install thunar-plugin.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Ubuntu 9.10 Karmic Koala di Indonesia</title>
+      <link>//localhost:1313/post/2009/12/30/daftar-repository-ubuntu-9.10-karmic-koala-di-indonesia/</link>
+      <pubDate>Wed, 30 Dec 2009 14:55:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/30/daftar-repository-ubuntu-9.10-karmic-koala-di-indonesia/</guid>
+      <description>&lt;p&gt;Bagi anda yang ingin install atau upgrade aplikasi-aplikasi ubuntu 9.10 karmic koala, berikut ini daftar repository lokal yang bisa anda manfaatkan. Atau jangan-jangan anda malah belum upgrade ke ubuntu 9.10 karmic koala ? Buruan.. segera upgrade. Seperti biasanya taruhlah salah satu list alamat repo ini ke &lt;strong&gt;/etc/apt/sources.list&lt;/strong&gt;. Jika anda pengguna telkomflash, pilihlah repo dari telkom, akses nya mungkin bisa lebih cepat dibanding kan dengan yang lain.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; karmic main restricted universe multiverse**&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

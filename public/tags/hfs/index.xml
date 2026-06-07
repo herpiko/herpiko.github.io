@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hfs on Blog</title>
+    <link>//localhost:1313/tags/hfs/</link>
+    <description>Recent content in Hfs on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 09:57:58 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/hfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>booting mac via grub dan mount rw partisi hfs</title>
+      <link>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</link>
+      <pubDate>Sun, 27 Mar 2011 01:06:18 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/27/booting-mac-via-grub-dan-mount-rw-partisi-hfs/</guid>
+      <description>&lt;p&gt;btw, grub debian juga bisa ngedetek mac sepertihalnya ubuntu, dan bobroknya juga sama = mac-nya tetep ndak bisa dibooting. *ngapain detek kalau ndak bisa dibooting?&lt;/p&gt;&#xA;&lt;p&gt;di grub.cfg, baris entry mac yang panjang itu tinggal diganti :&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;menuentry &amp;ldquo;macosx&amp;rdquo; {&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;insmod hfsplus&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;set root=(hd0,X)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;multiboot /boot&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;}&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;X = lokasi partisi mac&lt;/p&gt;&#xA;&lt;p&gt;untuk mount rw partisi mac, hfsnya harus non journal. kalau sudah terlanjur ya di-disable. install paket hfsprogs, hfsutils, dan hfsplus. tinggal jalankan.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stress on Blog</title>
+    <link>//localhost:1313/tags/stress/</link>
+    <description>Recent content in Stress on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2012 13:35:42 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/stress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dilema Colemak</title>
+      <link>//localhost:1313/post/2012/02/02/dilema-colemak/</link>
+      <pubDate>Thu, 02 Feb 2012 13:35:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/02/02/dilema-colemak/</guid>
+      <description>&lt;p&gt;adalah ketika saya sudah mulai lancar menggunakan komputer sendiri dengan keyboard colemak, tetapi ketika balik ke qwerty di komputer orang lain, saya mendapatkan banyak sekali typo dan kecepatan mengetik yang memalukan.&lt;/p&gt;&#xA;&lt;p&gt;entah ini hanya masalah waktu atau benar-benar tidak bisa dikendalikan. :(&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

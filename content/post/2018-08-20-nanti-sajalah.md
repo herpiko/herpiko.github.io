@@ -7,24 +7,28 @@ tags:
   - poem
   - puisi
 ---
+Kulihat orang-orang buru-buru
 
-
-Kulihat orang-orang buru-buru<br>
 Kejar, sepak, sikut dan menyaru
 
-Kulihat pojok taman yang pengap<br>
+Kulihat pojok taman yang pengap
+
 Sulur belukar enggan rajut harap
 
-Kulihat di tepi sungai yang surut<br>
+Kulihat di tepi sungai yang surut
+
 Pancing putus nihil guna terlucut
 
-Kulihat kelopak langit malu merah<br>
+Kulihat kelopak langit malu merah
+
 Senja tergelincir lupa hatur sembah
 
-Kulihat diriku di sini bermenung<br>
+Kulihat diriku di sini bermenung
+
 Sangsi kalau jantung masih berhitung
 
-Harusnya kemarin, tapi nanti sajalah<br>
+Harusnya kemarin, tapi nanti sajalah
+
 Darah menghangat sungkan menyerah
 
 Nanti!

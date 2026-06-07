@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ombilin on Blog</title>
+    <link>//localhost:1313/tags/ombilin/</link>
+    <description>Recent content in Ombilin on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2009 09:56:38 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ombilin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BlankOn 5 &#34;Nanggar&#34; Dirilis!</title>
+      <link>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</link>
+      <pubDate>Thu, 18 Jun 2009 09:56:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</guid>
+      <description>&lt;p&gt;Jakarta 16 Juni 2009 - Pada hari ini Pengembang BlankOn resmi meluncurkan BlankOn versi 5.0 dengan kode rilis Nanggar, budaya yang diangkat pada versi ini adalah budaya dari Batak, nama “Nanggar” diambil dari bahasa batak yang mempunyai arti “Palu”.&lt;/p&gt;&#xA;&lt;p&gt;Beberapa fitur khas baru yang dibawa oleh Nanggar di antaranya adalah Desktop Berkonteks yang dikembangkan oleh Tim Pengembang BlankOn, yang mampu mengganti tema serta gambar latar desktop sesuai jam komputer atau kondisi cuaca yang sedang berlaku saat itu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

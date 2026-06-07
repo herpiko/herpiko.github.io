@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless on Blog</title>
+    <link>//localhost:1313/tags/wireless/</link>
+    <description>Recent content in Wireless on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 21:03:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wireless Networking in the Developing World</title>
+      <link>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</link>
+      <pubDate>Mon, 18 Jul 2011 22:08:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://wndw.net/&#34;&gt;http://wndw.net/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koneksi wireless via terminal</title>
+      <link>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</link>
+      <pubDate>Sun, 12 Jun 2011 14:23:14 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/koneksi-wireless-via-terminal/</guid>
+      <description>&lt;p&gt;yak, kemarin baru nyoba, ditulis sebagai arsip pengingat.&lt;/p&gt;&#xA;&lt;p&gt;pastikan interfacenya aktif :ifconfig wlan0 up&lt;/p&gt;&#xA;&lt;p&gt;pindai sinyal di sekitar kita : iwlist wlan0 scan&lt;/p&gt;&#xA;&lt;p&gt;pilih access point : iwconfig wlan0 essid &amp;ldquo;namaAP&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;minta ip dari dhcp server : dhclient wlan0&lt;/p&gt;&#xA;&lt;p&gt;ketik ifconfig untuk melihat apakah interface sudah benar-benar mendapatkan IP address.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>baladawajanbolik</title>
+      <link>//localhost:1313/post/2011/05/10/baladawajanbolik/</link>
+      <pubDate>Tue, 10 May 2011 14:19:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/10/baladawajanbolik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/05/untitled.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/untitled.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>debian squeeze &#43; WN322G v3 (atheros)</title>
+      <link>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</link>
+      <pubDate>Thu, 24 Mar 2011 21:16:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</guid>
+      <description>&lt;p&gt;yak, setelah seminggu lebih mondar-mandir akhirnya bisa juga. ternyata bukan dari paket firmware-atheros maupun madwifi (yang mana saya kira sudah discontinued mungkin).&lt;/p&gt;&#xA;&lt;p&gt;tapi langsung dari wireless.kernel.org. unduh paket compat-wireless terakhir.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;tar -zxvf compat*&lt;/p&gt;&#xA;&lt;p&gt;cd compat*&lt;/p&gt;&#xA;&lt;p&gt;make&lt;/p&gt;&#xA;&lt;p&gt;sudo make install&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;make-nya memang lama banget. setelah make install selesai, tinggal modprobe module-nya. ath9k ada 4 tapi saya ndak tau yang mana, yang jelas saya aktifkan semua module ini satu-satu, setelah selesai eh tau-tau network-manager sudah connected via wifi. agar diload saat booting, saya menuliskannya ke /etc/modules, semuanya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mainan kaleng</title>
+      <link>//localhost:1313/post/2011/02/18/mainan-kaleng/</link>
+      <pubDate>Fri, 18 Feb 2011 23:48:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/18/mainan-kaleng/</guid>
+      <description>&lt;p&gt;yak, siap tempur!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>easyhotspot dengan virtualbox : solusi murah dan tepat untuk billing hotspot</title>
+      <link>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</link>
+      <pubDate>Wed, 26 May 2010 18:54:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/26/easyhotspot-dengan-virtualbox-solusi-murah-dan-tepat-untuk-billing-hotspot/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;kemarin saya lompat dari kursi saking senangnya mendapati easyhotspot bekerja dengan baik. apa itu easyhotspot? easyhotspot adalah sistem billing yang dibuat untuk keperluan hotspotan (itu lho, yang kalau mau ngenet hotspotan harus login dulu di browser, baru bisa ngenet). sebelumnya, ditawarkan untuk menggunakan mikrotik (sebuah OS router berbasis linux), sayangnya, harga jasa dan lisensinya sangat mahal. saat itu ditawarkan 1.6 juta. blah, ada cara untuk menghemat.&lt;/p&gt;&#xA;&lt;p&gt;setelah googling untuk cari alternatif, saya temukan easyhotspot. &lt;a href=&#34;http://easyhotspot.inov.asia&#34;&gt;silakan kemari.&lt;/a&gt; easyhotspot ini adalah paduan dari chillispot (captive portal), radius, apache, mysql dan lainnya, anda bisa menginstallnya di sistem operasi linux, dan bisa juga menginstall dengan distro linux easyhotspot (dari ubuntu) yang sudah siap pakai. saya menggunakan distro easyhotspot siap pakai.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lucid Fail : driver wireless broadcom tidak otomatis terinstall (emachine)</title>
+      <link>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</link>
+      <pubDate>Sun, 02 May 2010 02:47:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</guid>
+      <description>&lt;p&gt;29 april dirilis, langsung donglot, install, sempurna. lalu saya coba install di sebuah emachine punya teman (cepul). sempurna, kecuali satu. driver wireless tidak bisa. padahal ini kan broadcom! jah! :(&lt;/p&gt;&#xA;&lt;p&gt;mau donglot driver? bagaimana konek inet kalau waerles ndak bisa? (selain dengan UTP LAN dan akses broadband).&lt;/p&gt;&#xA;&lt;p&gt;saya yakin drivernya ada di dalam CD live lucid, hanya saja tidak terinstall dengan otomatis. jika anda mengalamai masalah ini, jangan khawatir. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lagi... Ngenet Gretongan di Halaman Rumah</title>
+      <link>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</link>
+      <pubDate>Wed, 15 Apr 2009 05:22:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</guid>
+      <description>&lt;p&gt;Siapa sangka di halaman rumah sendiri ada access point yang tidak diproteksi? Saya tidak perlu lagi capek-capek ke XXX (yang saya ceritakan sebelumya). Hanya saja ap yang satu ini hanya aktif pada pukul 12 sampae 17.30. si frxs jadi sering-sering numpang di sini buat maling benwit dari pada dia pigi ke XXX yang rada jauh. Saya tidak bisa bercerita banyak, ntar ditau sama yang poenya.&lt;/p&gt;&#xA;&lt;p&gt;Ini skrinsut si frxs lagi maling benwit, diambil diam2 dari cctv di dalam celana.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -7,31 +7,40 @@ tags:
   - poem
   - puisi
 ---
+No seat is empty
 
-<br>No seat is empty
-<br>Except the one beside mine
-<br>Poor heart so empty
+Except the one beside mine
 
-<br>The train move so fast
-<br>Breaking my sole emptiness
-<br>Except it can not
+Poor heart so empty
 
-<br>As you are not here
-<br>But your vague shadow is
-<br>Imaginable
+The train move so fast
 
-<br>Tremendously sad
-<br>Our broken promises and dreams
-<br>Almost empty now
+Breaking my sole emptiness
 
-<br>So what is empty
-<br>If sadness fails to fill it
-<br>This, I shall answer
+Except it can not
 
-<br>A little pain here
-<br>Pure loneliness, my dear friend
-<br>Everyone's fear
-<br>
-<br>
-<hr>
-<br>What I can not avoided when writing haikus is counting the syllables using my fingers. It may cause fatigue on my hand as I've to rewrite it many times. Haikus is fun but sometimes it's hard to achieve both sharp meanings and obeyed rules.
+As you are not here
+
+But your vague shadow is
+
+Imaginable
+
+Tremendously sad
+
+Our broken promises and dreams
+
+Almost empty now
+
+So what is empty
+
+If sadness fails to fill it
+
+This, I shall answer
+
+A little pain here
+
+Pure loneliness, my dear friend
+
+Everyone's fear
+
+What I can not avoided when writing haikus is counting the syllables using my fingers. It may cause fatigue on my hand as I've to rewrite it many times. Haikus is fun but sometimes it's hard to achieve both sharp meanings and obeyed rules.

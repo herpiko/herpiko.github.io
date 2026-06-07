@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  Vim's Native Multiple Cursors Feature
-date:   2020-05-15 00:00:00 +0700
+title: "Vim's Native Multiple Cursors Feature"
+date: 2020-05-15 00:00:00 +0700
 categories:
   - Tech
 tags:

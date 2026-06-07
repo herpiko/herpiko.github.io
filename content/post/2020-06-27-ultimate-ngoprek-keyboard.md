@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  'My First Custom Handwired Keyboard Build: UNK'
-date:   2020-06-27 00:00:00 +0700
+title: "My First Custom Handwired Keyboard Build: UNK"
+date: 2020-06-27 00:00:00 +0700
 categories:
   - Tech
 tags:

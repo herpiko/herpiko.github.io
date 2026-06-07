@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usplash Blankon on Blog</title>
+    <link>//localhost:1313/tags/usplash-blankon/</link>
+    <description>Recent content in Usplash Blankon on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jun 2009 16:33:06 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/usplash-blankon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otak-atik Artwork BlankOn</title>
+      <link>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</link>
+      <pubDate>Wed, 03 Jun 2009 16:33:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</guid>
+      <description>&lt;p&gt;Saya baru mengerti sekarang dan merasakan betul apa itu arti free dalam filosofi GNU/Linux. Benar-benar menyenangkan. Saya melakukan sendiri : memodifikasi karya orang lain yang berlisensi GPL. Meski hanya sedikit coding dan sebagian besar mengolah gambar, saya senang bisa memodifikasi dan mendistribusikan kembali dengan &amp;rsquo;legal&amp;rsquo;. Ini hanya intro.&lt;/p&gt;&#xA;&lt;p&gt;Meski saya pakai blankon, orang lain akan menyangka saya sedang pakai ubuntu. Ya, saya sedang mencoba membohongi diri sendiri. Mulai dari ikon sampai usplash, saya menggunakan artwork ubuntu asli. Why? Apakah rasa ke-indonesia-an saya kurang?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

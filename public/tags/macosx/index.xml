@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macosx on Blog</title>
+    <link>//localhost:1313/tags/macosx/</link>
+    <description>Recent content in Macosx on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 21:03:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/macosx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rapi-rapi macosx86</title>
+      <link>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</link>
+      <pubDate>Wed, 22 Dec 2010 18:06:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/22/rapi-rapi-macosx86/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;resolusi layar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;nah, ini wajib. karena vga onboard saya tidak support qe ci, resolusi mentok 1024-768. tapi sebenarnya macosx dukung vesa. vesa bisa resolusi berapa saja asal rasio 4:3**. **nah, berhubung monitor butut saya (mesti dipukul2 biar warna yang muncul bener, kapan meledaknya ya?) rasionya 4:3 14 inchi, 1280x1024 adalah resolusi yang tepat.&lt;/p&gt;&#xA;&lt;p&gt;lihat di /Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/p&gt;&#xA;&lt;p&gt;tambahkan&lt;/p&gt;&#xA;&lt;p&gt;&lt;string&gt;graphic mode=1280x1024x32&lt;/string&gt;&lt;/p&gt;&#xA;&lt;p&gt;reboot dan tada!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ntfs readwrite&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;secara default, kita bisa mount ntfs tapi tidak bisa menulis di atasnya. macosx itu varian unix kan? apakah punya fstab? tentu punya :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

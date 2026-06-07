@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dvorak on Blog</title>
+    <link>//localhost:1313/tags/dvorak/</link>
+    <description>Recent content in Dvorak on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2012 04:14:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/dvorak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colemak</title>
+      <link>//localhost:1313/post/2012/01/23/colemak/</link>
+      <pubDate>Mon, 23 Jan 2012 04:14:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/23/colemak/</guid>
+      <description>&lt;p&gt;Siilakan kunjungi :  &lt;a href=&#34;http://colemak.com&#34;&gt;http://colemak.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/Colemak_layout_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dulu saya keras kepala, masih bertahan dengan cara mengetik lompat-lompat, tanpa menggunakan kelingking dan jempol, dan meraih sekitar 40 kata per menit. Setelah chatting langsung dengan seorang kenalan dan menyaksikan secara realtime kecepatan mengetiknya mencapai 120 WPM (dulu ada apps di facebook untuk balapan mengetik dengan ilustrasi mobil balap) dalam bahasa Inggris, saya mulai belajar mengetik 10 jari. Saya sering menganggap masalah ketik-mengetik ini sebagai sebuah permainan, mencoba menantang diri sendiri. Saya suka gtypist, yang banyak membantu saya meningkatkan kecepatan mengetik dan juga apps2 untuk menantang seseorang di internet dalam adu cepat. Mungkin kebawa2 kebiasaan bermain rubik&amp;rsquo;s cube. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

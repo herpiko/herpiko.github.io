@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>konfigurasi slackware | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">konfigurasi slackware</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2011/05/21</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/tong-sampah">tong sampah</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/linux">linux</a>, 
+        <a href="/tags/samba">samba</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>awal bulan kemarin saya memasang slackware. orang bilang masang slackware itu susah. ndak juga. yang susah itu kalau mau pasang paket dan berjibaku dengan dependensi, dan itu merupakan tantangan.</p>
+<p>awalnya saya pikir juga begitu, pasang slackware ribet, mungkin mirip2 arch. ternyata tidak. kalau teliti baca, pastilah sukses. dan pada saat pasang tidak ada progress barnya, jadi kita tidak bisa kira2 kapan instalasinya selesai. tapi cepat kok. 15 menit kelar.</p>
+<p>jadi, apa yang saya lakukan setelah slackware terpasang?</p>
+<ol>
+<li>konfigurasi layar.</li>
+</ol>
+<p>saya membuat konfigurasi xorg.conf dengan xorgsetup, dijalankan di CLI mode dan tidak ada server X yang jalan. (init3)</p>
+<ol start="2">
+<li>runlevel ke login grafis</li>
+</ol>
+<p>ubah runlevel agar langsung masuk ke login grafis begitu booting. edit file /etc/inittab</p>
+<p>pada baris d:3:initdefault:, ganti angka 3 ke 4.</p>
+<ol start="3">
+<li>user dan host</li>
+</ol>
+<p>adduser, dan ganti nama darkstar. ganti di /etc/hosts</p>
+<ol start="4">
+<li>network</li>
+</ol>
+<p>gunakan netconfig pada root mode.</p>
+<ol start="5">
+<li>konfigurasi samba.</li>
+</ol>
+<p>ubah permission untuk eksekusi di /etc/rc.d/rc.samba</p>
+<p>edit konfigurasi /etc/samba/smb.conf. saya menggunakan konfigurasi di bawah ini untuk membatasi akses ke sharing file dengan menggunakan user password dari smbpasswd. niatnya sih, supaya bisa nyimpen2 file (terutama film) sewaktu2 di server, mumpung hddnya kosong 200gb. gunakan smbpasswd untuk membuat password user yang bersangkutan.</p>
+<p>[global]</p>
+<p>workgroup = SLACKWARE_FILESERVER</p>
+<p>server string = %h server (Samba, Slackware)</p>
+<p>log file = /var/log/samba/%m.log</p>
+<p>log level = 2</p>
+<p>max log size = 0</p>
+<p>security = user</p>
+<p>encrypt passwords = yes</p>
+<p>smb passwd file = /etc/samba/smbpasswd</p>
+<p>dns proxy = no</p>
+<p>client lanman auth = yes</p>
+<p>lanman auth = yes</p>
+<p>[pikofiles]</p>
+<p>path = /home/piko/share</p>
+<p>public = yes</p>
+<p>guest ok = yes</p>
+<p>browsable = yes</p>
+<p>writable = yes</p>
+<p>printable = no</p>
+<p>create mask = 0777</p>
+<p>force user = piko</p>
+<p>create mode = 0664</p>
+<p>directory mode = 0775</p>
+<p>yah, selesai sudah. sampai di sini slackbox saya sudah siap pakai, tinggal dioprek sesuka hati. :)</p>
+<p>oya saya lebih suka pakai xfce jadi tetek bengek kde tidak dibahas di sini.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

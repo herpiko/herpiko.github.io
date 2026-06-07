@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch Linux on Blog</title>
+    <link>//localhost:1313/tags/arch-linux/</link>
+    <description>Recent content in Arch Linux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Sep 2011 05:26:33 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>menyalin update archlinux ke mesin lain</title>
+      <link>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</link>
+      <pubDate>Sat, 03 Sep 2011 05:26:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</guid>
+      <description>&lt;p&gt;pasti menyebalkan jika harus memelihara dua sistem archlinux selalu terupdate dengan koneksi pas-pasan (sebuah mesin desktop dan sebuah laptop). nah, saya menemukan cara yang praktis, hemat waktu dan bandwith. salah satu mesin terkoneksi internet, misal laptop, jalankan update pacman -Syu sampai selesai. kemudian salinlah /var/cache/pacman/pkg/* ke direktori yang sama ke mesin lain. komputer desktop juga mesti konek internet untuk mengunduh sisa-sisa yang mungkin tertinggal atau baru muncul updatenya. jalankan pacman -Syu dan komputer desktop akan menggunakan paket yang sudah ada di cache tadi dan mengunduh sisanya yang sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengapa arch linux?</title>
+      <link>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</link>
+      <pubDate>Mon, 22 Aug 2011 23:27:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/22/mengapa-arch-linux/</guid>
+      <description>&lt;p&gt;yah, sudah banyak mengapa-blabla lainnya, tapi kali ini saya menulis alasan mengapa saya memilih arch sebagai os utama. kalo ndak salah dari awal juni kemarin sejak pindah dari debian. itu makanya saya pasang logo arch di samping sedari kemarin-marin. (blush)&lt;/p&gt;&#xA;&lt;p&gt;apa itu arch? basisnya apa? arch itu distribusi yang mengadaptasi prinsip keep-it-simple-stupid dan tidak berbasis distribusi manapun. ya, memang tidak berbasis distribusi manapun, tidak ada deb atau rpm. beda.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ringan dan cepat. ah, masak. linux kan memang ringan, mana lebih ringan dibanding puppy linux? tentu saja arch lebih ringan karena instalasi dasar arch (core) hanya berisi terminal dan utility utama. itu doang. menginstall arch jauh lebih merepotkan ketimbang install slackware, karena kita menerima OSnya dalam keadaan kosong. dari sinilah kita membangun, memasang paket-paket yang kita pikir kita butuhkan. jadi paket-paket/service yang sebenarnya tidak perlu tidak akan terpasang. bahkan setelah desktopnya terpasang (kasus saya gnome3) saya masih mendapati arch ini sangat kencang dan responsif, kalah-kalah si mac. initnya kita mendapat apa yang benar-benar kita butuhkan. dari sini pula kita bisa belajar mengkonfigurasi sistem awal ala arch.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

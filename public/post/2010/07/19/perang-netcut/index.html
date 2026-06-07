@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>perang netcut | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">perang netcut</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2010/07/19</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/how-to">how to</a>, 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/easyhotspot">easyhotspot</a>, 
+        <a href="/tags/hotspot">hotspot</a>, 
+        <a href="/tags/ip-address">IP address</a>, 
+        <a href="/tags/jaringan">jaringan</a>, 
+        <a href="/tags/netcut">netcut</a>, 
+        <a href="/tags/subnet">subnet</a>, 
+        <a href="/tags/ubuntu">ubuntu</a>, 
+        <a href="/tags/warnet">warnet</a>, 
+        <a href="/tags/windows">windows</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>bermula ketika saya sedang kerja di warnet lain, di narmada. saya ditugasi maintenance setiap bulannya. saya dipanggil, keluhannya :</p>
+<ul>
+<li>komputernya banyak ngadat &amp; deepfreezenya kebobol &gt; install linux install ulang windows, kloning, ganti versi deepfreeze. fresh. clean.</li>
+<li>ada komputer yang sama sekali ndak konek &gt; ganti konektor RJ45</li>
+<li>banyak yang netcut &gt; bingung euy.</li>
+</ul>
+<p>sebagai catatan, baru pertama kali ini saya googling apa itu netcut dan coba programnya (contoh orang kuper windos). kejam. ada antinetcut, antiarp, port monster, tapi semuanya sama sekali tidak memuaskan. tetep saja jaringan jadi lamban. saya tidak mau pasang tool aneh itu di klien.</p>
+<p>nah, ceritanya gini, ada orang yang sudah diduga berat sering netcut. setiap datang hotspotan, selalu saja semua jadi putus, ndak bisa ping-pingan apalagi pesbukan browsing. hotspotnya tidak memakai mikrotik, untuk pengamanan, hanya memakai password dari access point dan password ini diganti setiap harinya. so weak.</p>
+<p>jadi saya <a href="http://pikopages.wordpress.com/2010/05/26/easyhotspot-dengan-virtualbox/">pasangin easyhotspot</a>. dhcp di access point dimatikan, dialihkan ke ubuntu (easyhotspot). setelah semua selesai. orang itu mencoba konek dan masuk via easyhotspot (pake login). ketika dia jalanin netcut (saya lihat layar), dia cuma temukan 2 buah IP, keduanya adalah IP milik server easyhotspot. hahaha. kapok deh, mau ngapain lu?</p>
+<p>eh, ternyata. dia langsung buka network connection dan ganti IP-nya dengan IP sah jaringan nyata yang kira2 tidak dipakai. dia buka netcut lagi dan dapatkan semua IP server dan klien warnet. wadoooh! ndak guna bener dah.</p>
+<p>satu-satunya jalan adalah, tidak membolehkan komputer lain (yang hotspotan) mengatur IP address secara manual. itu berarti IP harus dari easyhotspot, IP address yang mau dipakai manual harus sudah dipakai oleh komputer lain. saya harus mengisi penuh IP-nya dari 1-254 atau mengganti subnet untuk 14 atau 30 IP (jadi lebih sedikit mengisi IP lagi, cara memilih subnet silakan pakai <a href="http://www.subnet-calculator.com/">subnet-calculator</a>. saya memilih yang pertama karena mengganti subnet di setiap klien benar2 menyita waktu karena dideepfreeze.</p>
+<p>saya memilih server untuk diisi IP-IP tersebut (lebih dari 200 IP). caranya, di jendela pengaturan IP (network connection : klik kanan &gt; properties : TCP/IP &gt; properties), klik advanced, tambahkan semua IP yang tersisa di sana. beres.</p>
+<p>pelaku hanya bisa saling netcut dengan hotspoter lain, tidak bisa masuk ke jaringan warnet di dalam.</p>
+<p>mungkin ada cara lain (mikrotik mungkin atau apalah), tapi inilah yang kepikir waktu itu. saya masih awam untuk bidang jaringan tapi ini lancar dan bekerja dengan baik.</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/07/hotspot.jpg"><img src="/assets/hotspot.jpg" alt=""></a></p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

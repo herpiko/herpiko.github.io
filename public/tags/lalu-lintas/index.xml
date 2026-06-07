@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lalu Lintas on Blog</title>
+    <link>//localhost:1313/tags/lalu-lintas/</link>
+    <description>Recent content in Lalu Lintas on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Oct 2010 20:38:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/lalu-lintas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cara polisi edukasi masyarakat</title>
+      <link>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</link>
+      <pubDate>Tue, 19 Oct 2010 20:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0034.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0034.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0031.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0031.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

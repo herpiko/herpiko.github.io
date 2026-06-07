@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blender on Blog</title>
+    <link>//localhost:1313/tags/blender/</link>
+    <description>Recent content in Blender on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Nov 2011 15:58:54 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>seminggu dengan blender jilid 2</title>
+      <link>//localhost:1313/post/2011/11/17/seminggu-dengan-blender-jilid-2/</link>
+      <pubDate>Thu, 17 Nov 2011 15:58:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/17/seminggu-dengan-blender-jilid-2/</guid>
+      <description>&lt;p&gt;sebenarnya sih sekarang sudah sebulan dengan blender. tapi ini dibuat pada di minggu pertama, dan minggu selanjutnya saya nganggurin blender karena kesibukan (sok ae).&lt;/p&gt;&#xA;&lt;p&gt;lanjutan kemarin, sedikit permainan lighting.&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=YH06zVvFSB0]&lt;/p&gt;&#xA;&lt;p&gt;ternyata blender itu mudah. yang sulit adalah bagaimana menyelesaikan apa yang kita mulai. saya harap ada orang yang mahir blender  di sekitar saya sehingga kami bisa membentuk tim. membuat animasi dengan tim saya rasa lebih mudah. cukup satu orang memikirkan model dan yang lain sebagai animator (penggerak model). saya pikir menjadi animator jauh lebih sulit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>minggu pertama dengan blender</title>
+      <link>//localhost:1313/post/2011/11/02/minggu-pertama-dengan-blender/</link>
+      <pubDate>Wed, 02 Nov 2011 16:21:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/02/minggu-pertama-dengan-blender/</guid>
+      <description>&lt;p&gt;yep, juga ada sedikit animasi pendek (cuma 3 detik tapi renderingnya 10 menit bok), tapi benwit belum memungkinkan untuk diunggah. moga-moga bisa buat film animasi 10 menitan di tahun 2012.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/first-blender.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/first-blender.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

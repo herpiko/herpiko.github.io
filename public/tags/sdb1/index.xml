@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sdb1 on Blog</title>
+    <link>//localhost:1313/tags/sdb1/</link>
+    <description>Recent content in Sdb1 on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Apr 2011 13:34:26 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/sdb1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bug removable storage sdb1 di debian squeeze</title>
+      <link>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</link>
+      <pubDate>Sat, 30 Apr 2011 13:34:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;sudah sebulanan ngeloni debian baru sekarang ngeh.&lt;/p&gt;&#xA;&lt;p&gt;Error mounting: mount exited with exit code 1: helper failed with:mount: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error In some cases useful info is found in syslog - try dmesg | tail or so&lt;/p&gt;&#xA;&lt;p&gt;pesan itu selalu muncul kalau saya nyolokin usb, sd card, ataupun hdd eksternal. anehnya, usb/sd card/hdd ext tersebut tetap bisa dimout dengan perintah sudo mount di terminal dan bisa digunakan seperti biasa. tapi tentu saja hal itu sangat merepotkan. dan lebih aneh lagi, perangkat removable storage kedua yang dicolokkan akan dimount otomatis tanpa masalah, yang berarti itu akan lari ke dev setelah sdb, mungkin sdf atau sdg.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

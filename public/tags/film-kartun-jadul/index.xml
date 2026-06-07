@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Film Kartun Jadul on Blog</title>
+    <link>//localhost:1313/tags/film-kartun-jadul/</link>
+    <description>Recent content in Film Kartun Jadul on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Feb 2010 21:05:15 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/film-kartun-jadul/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ada yang ingat?</title>
+      <link>//localhost:1313/post/2010/02/15/ada-yang-ingat/</link>
+      <pubDate>Mon, 15 Feb 2010 21:05:15 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/15/ada-yang-ingat/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=z7kA9bzKkOY]&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://www.youtube.com/watch?v=pkYPD9xje2E]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

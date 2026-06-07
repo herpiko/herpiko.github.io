@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bt3 on Blog</title>
+    <link>//localhost:1313/tags/bt3/</link>
+    <description>Recent content in Bt3 on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2009 17:22:09 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bt3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Backtrack dalam Satu Partisi dengan Ubuntu</title>
+      <link>//localhost:1313/post/2009/04/03/install-backtrack-dalam-satu-partisi-dengan-ubuntu/</link>
+      <pubDate>Fri, 03 Apr 2009 17:22:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/03/install-backtrack-dalam-satu-partisi-dengan-ubuntu/</guid>
+      <description>&lt;p&gt;Mungkinkah? Mungkin saja kalau kita mau berpikir sedikit. Saya begitu ingin menginstall ke harddisk supaya tidak perlu repot booting cd  (yang saya duga penggunaan cd mendukung percepatan habisnya baterai laptop) dan bisa langsung berlama-lama main-main dengan hotspot-hotspot. Sedikit basa-basi, pada awalnya saya membuat partisi tersendiri untuk bt3 sebesar satu giga, dan itu benar-benar mengacaukan susunan partisi di harddisk Macbook yang cuma 60GB ini. Saya mempelajari isi file menu.lst dari grub dan slax.cfg di cd distribusi Slax. Ternyata bukan partisinya yang penting, tapi keberadaan file kernelnya (atau apa mungkin, saya nggak ngerti) yang biasanya bernama vmlinuz dan initrid. Kita harus mendefinisikan letaknya dengan benar di mana pun  kumpulan berkas itu berada. Nah, Anda perlu sebuah partisi ubuntu dengan space kosong lebih dari 1GB, karena Backtrack menghabiskan seukuran 1 CD.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

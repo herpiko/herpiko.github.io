@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service on Blog</title>
+    <link>//localhost:1313/tags/service/</link>
+    <description>Recent content in Service on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2011 02:27:02 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>masalah mysql di XAMPP 1.7.3 for mac</title>
+      <link>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</link>
+      <pubDate>Sat, 06 Aug 2011 02:27:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</guid>
+      <description>&lt;p&gt;berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

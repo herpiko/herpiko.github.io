@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blankon Linux on Blog</title>
+    <link>//localhost:1313/tags/blankon-linux/</link>
+    <description>Recent content in Blankon Linux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2011 22:25:29 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/blankon-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catatan Rilis BlankOn Pattimura 7.0</title>
+      <link>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</link>
+      <pubDate>Sun, 21 Aug 2011 22:25:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</guid>
+      <description>&lt;p&gt;Disalin langsung dari &lt;a href=&#34;http://blankonlinux.or.id&#34;&gt;situs resmi BlankOn Linux&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;BlankOn 7.0 Pattimura  merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. BlankOn merupakan distribusi linux khas Indonesia yang menyertakan beragam perangkat lunak yang sering digunakan oleh masyarakat pada umumnya, seperti program perkantoran, aplikasi keuangan, aplikasi Internet, menggambar (baik vektor maupun bitmap), dukungan untuk memainkan beragam format berkas multimedia, serta aplikasi menarik lainnya.&lt;/p&gt;&#xA;&lt;p&gt;Pengembangan BlankOn bukan semata-mata ingin membuat distribusi Linux baru, namun lebih dimotivasi oleh keinginan untuk meningkatkan kualitas dan kuantitas dalam kemampuan pengembangan perangkat lunak bebas/terbuka. Yang pada hakikatnya merupakan salah ciri khas bangsa Indonesia yang memiliki semangat bergotong-royong.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

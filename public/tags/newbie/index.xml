@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newbie on Blog</title>
+    <link>//localhost:1313/tags/newbie/</link>
+    <description>Recent content in Newbie on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Apr 2010 20:08:02 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/newbie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To : Berforum dengan baik</title>
+      <link>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</link>
+      <pubDate>Sun, 25 Apr 2010 20:08:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</guid>
+      <description>&lt;p&gt;yap, to the point saja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;aturan pertama&lt;/strong&gt; : carilah lebih dulu sebelum anda menanyakan atau membuat thread.&lt;/p&gt;&#xA;&lt;p&gt;aturan kedua : lihat aturan pertama dan abaikan aturan kedua dan lain-lain (kecuali tentang menghormati member lain, tidak berlaku buruk, dan hal-hal semacam itu)&lt;/p&gt;&#xA;&lt;p&gt;anda tidak repost dan menjengkelkan, maka anda akan jadi anggota forum yang baik.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya pernah melakukan kesalahan lho. salah satu forum pertama yang saya masuki adalah milis KPLI NTB. lihat apa yang saya lakukan di sini.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

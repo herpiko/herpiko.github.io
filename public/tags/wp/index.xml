@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wp on Blog</title>
+    <link>//localhost:1313/tags/wp/</link>
+    <description>Recent content in Wp on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Aug 2011 10:34:53 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tes posting via wordpress for android.</title>
+      <link>//localhost:1313/post/2011/08/23/tes-posting-via-wordpress-for-android./</link>
+      <pubDate>Tue, 23 Aug 2011 10:34:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/23/tes-posting-via-wordpress-for-android./</guid>
+      <description>&lt;p&gt;Keren jugak. 8-)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

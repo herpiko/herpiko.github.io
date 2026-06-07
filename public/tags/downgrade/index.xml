@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downgrade on Blog</title>
+    <link>//localhost:1313/tags/downgrade/</link>
+    <description>Recent content in Downgrade on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2012 23:12:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/downgrade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Downgrade Slackware Current</title>
+      <link>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</link>
+      <pubDate>Mon, 07 May 2012 23:12:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/05/07/downgrade-slackware-current/</guid>
+      <description>&lt;p&gt;Konsekuensi menggunakan Slackware Current adalah paket bleeding edge dan belum tentu stabil. Seperti yang terjadi hari ini, setelah menjalankan slackpkg upgrade-all, (kalau tidak salah ingat beberapa paket berkaitan dengan X) keyboard dan mouse tidak berfungsi sama sekali. Saya tentunya punya waktu cari solusinya, tapi kalau butuh solusi cepat karena komputer mau dipakai buat kerja?&lt;/p&gt;&#xA;&lt;p&gt;Balik ke topik. Slackware bisa didowngrade bila kita punya repository lokal lengkap sebelumnya. Saya selalu pakai &lt;a href=&#34;http://www.slackware.com/~alien/tools/mirror-slackware-current.sh&#34;&gt;skrip dari Eric&lt;/a&gt; ketimbang langsung pakai slackpkg (yah, hari ini lupa, langsung slackpkg) dengan tujuan repositori tersebut bisa saya gunakan untuk PC di rumah yang notabene tidak punya akses internet. Beruntunglah karena siklus ini. Tinggal arahkan mirror slackpkg ke repository lokal. Slackpkg akan memberitahu bahwa repositori yang akan digunakan sekarang lebih lawas dari pada yang sebelumnya, tekan Y karena kita memang menggunakan repository yang lebih lawas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

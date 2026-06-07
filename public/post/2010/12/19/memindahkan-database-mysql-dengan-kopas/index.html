@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>memindahkan database mysql dengan kopas | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">memindahkan database mysql dengan kopas</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2010/12/19</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>, 
+        <a href="/categories/pikiran">pikiran</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/mysql">mysql</a>, 
+        <a href="/tags/server">server</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>kondisi : sebuah komputer spesifikasi tinggi milik pemerintah dengan sistem operasi windows 2000 server, di dalamnya terinstall wamp server (windows-apache-mysql-php) dan diatasnya berjalan aplikasi cms milik pemerintah, yaitu pendataan warga keluarga berencana seluruh indonesia, namanya BKKBN. komputer ini bisa diakses via jaringan untuk memasukkan data dari komputer lain. nah, pendek kata, komputer ini rusak, blue screen dan ada pesan error not exist or corrupt blablabla. keren!</p>
+<p>nah, bagaimana cara memindahkan cms+databasenya di komputer lain dan jalan lancar? <em>bisakah langsung copy paste</em>? saya pikir tidak bisa ngasal begitu, tetapi ternyata bisa. perlu diingat, paket aplikasi yang digunakan di sini adalah wamp, bukan xamp (pakai xamp juga bisa). wamp tidak menyediakan phpmyadmin (meski ada folder bernama phpmyadmin di dalamnya) sehingga bagi saya yang masih awam soal mysql, kesulitan mengexport databasenya. jadi, yang kepikiran di otak saya adalah langsung kopas di komputer lain yang ada apache-mysql-php.</p>
+<p>karena pada akhirnya windows 2000 servernya tidak bisa dibooting, saya menggunakan slax via usb dan mengakses harddisknya.</p>
+<p>pertama, saya mencari letaknya folder wamp, aplikasi cms-nya pastilah ada di sana berikut databasenya. terletak di C:\wamp\ dan saya salin ke  media lain, misal flashdisk. di komputer lain, saya menyalin wamp di tempat yang sama, yaitu C:\wamp.</p>
+<p>kemudian saya cari file yang bisa dieksekusi untuk menginstall service apache dan mysql. filenya bernama install_service_auto.bat. setelah dijalankan dan selesai, akan ada dua service baru di windows, bisa dilihat dengan klik kanan my computer &gt; manage. cari service. cari apache dan mysql, jalankan kedua service tersebut.</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/12/3.jpg"><img src="/assets/3.jpg" alt=""></a><a href="http://pikopages.files.wordpress.com/2010/12/2.jpg"><img src="/assets/2.jpg" alt=""></a></p>
+<p>sekarang tinggal cek di browser, http://localhost. bisa! :D</p>
+<p>cek apakah cms dan databasenya jalan, di sini, cmsnya bernama mdk, http://localhost/mdk/. bisa juga! :D</p>
+<p><a href="http://pikopages.files.wordpress.com/2010/12/5.jpg"><img src="/assets/5.jpg" alt=""></a><a href="http://pikopages.files.wordpress.com/2010/12/untitled.jpg"><img src="/assets/untitled.jpg" alt=""></a></p>
+<p>nah, karena ini aplikasi berbasis web yang cross-platform, saya merencanakan untuk memasang linux sebagai server httpnya, disamping kehandalannya juga tidak mudah kena virus dan rusak. sayangnya, saat saya menawarkan ke orangnya, dia menolak dengan alasan takut tidak bisa mengontrol. tapi dia meminta instal dualboot. syukurlah. *ngupil</p>
+<p>btw, saya dapat kopian database, lebih dari seratus ribu data kepala keluarga, lengkap anak pinaknya juga. ehem2 &gt;:) *apasih, gak guna</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,28 @@
+---
+draft: true
+title: "BTS telkomsel"
+date: 2011-02-13 05:13:48Z
+categories:
+  - tong sampah
+  - uncategorized
+tags:
+  - gangguan
+  - komunikasi
+  - postaday2011
+  - sinyal
+  - telepon selular
+  - telkomsel
+---
+kemarin saya beruntung sekali, tak disangka diajak seorang kawan untuk jalan-jalan nengok salah satu BTS telkomsel. beliau bekerja sebagai teknisi perbaikan 24 jam siaga untuk telkomsel. apakah itu artinya saya akan ikut manjat tower yang tinggi itu?
+
+ternyata tidak, saya diajak masuk ke ruangan aneh dan super (menurut saya). ada tiga lapis pintu yang saling berjarak sekitar 1 meter. 3 pintu! gemboknya gede pula, apalagi rantainya, mirip rantai di pelabuhan kapal. di setiap pintu, bahkan pintu lemari mesin, ada pendeteksi, yang kalau dibuka, orang dari pusat tahu bahwa lemari itu sedang dibuka, yang berarti sedang ada yang maintenance. maling kampung gak bakalan bisa masuk dalam semalam. katanya, memang musti begini karena apa yang ada di dalam ruangan ini adalah barang mahal semua. kalau orang yang ndak kuat iman yang ngerjain, bakal lain perkara.
+
+begitu saya masuk langsung kedinginan karena AC. lemari-lemari server yang pernah saya lihat tidaklah seberapa dibanding kengerian ngelihat tumpukan kabel antah berantah di antara kotak antah berantah dalam ruangan itu. saya cuma berdiri di tengah sambil muter-muter. ajaib bener!
+
+saya dijelaskan satu-satu fungsi benda-benda tersebut, dan beberapa fakta menarik lain yang bikin saya bilang woah.
+
+saking lengkap dan rumitnya fungsi benda-benda tersebut, mungkin saya bisa nyadap telepon siapa saja hanya dengan memasuki ruangan tersebut, atau bahkan bikin orang sekecamatan kelabakan karena gak bisa gunakan telkomsel mereka (ini mungkin mudah, tinggal potong kabel2, hehe).
+
+tau kenapa sinyal telkomsel jarang gangguan? karena jumlah teknisinya seimbang dengan jumlah bts. pasti kita mikirnya bts telkomsel lebih banyak dari pada xl, malah sebaliknya, xl lebih banyak namun jumlah teknisinya tidak memadai dibanding jumlah btsnya, itu sebabnya xl sering gangguan di tempat saya.
+
+wah! saya mau juga jadi teknisi kabel2 begitu! *lupakan yang lain. err, jadi pingin pindah operator ke telkomsel nih.

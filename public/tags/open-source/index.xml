@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Blog</title>
+    <link>//localhost:1313/tags/open-source/</link>
+    <description>Recent content in Open Source on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Nov 2011 16:21:28 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>minggu pertama dengan blender</title>
+      <link>//localhost:1313/post/2011/11/02/minggu-pertama-dengan-blender/</link>
+      <pubDate>Wed, 02 Nov 2011 16:21:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/02/minggu-pertama-dengan-blender/</guid>
+      <description>&lt;p&gt;yep, juga ada sedikit animasi pendek (cuma 3 detik tapi renderingnya 10 menit bok), tapi benwit belum memungkinkan untuk diunggah. moga-moga bisa buat film animasi 10 menitan di tahun 2012.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/11/first-blender.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/first-blender.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>koneksi vpn di debian squeeze</title>
+      <link>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</link>
+      <pubDate>Mon, 20 Jun 2011 22:39:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/20/koneksi-vpn-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;saya memerlukan vpnclient di debian untuk koneksi ke kantor. jadi bisa nitip2 donglot seabrek hanya dari koneksi 30kbps di rumah. :P&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install network-manager-pptp network-manager-pptp-gnome&lt;/p&gt;&#xA;&lt;p&gt;edit connection &amp;gt; vpn &amp;gt; add.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/2.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;berikan nama koneksi. isikan ip publik tujuan vpn berikut user name dan password. btw, available to all users-nya jangan dicentang. entah kenapa itu menyebabkan gagal konek. NT domain biarkan kosong dan ipv4 biarkan otomatis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/4.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/4.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;jika berhasil konek akan ada gambar gembok kecil di ikon network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mengatasi gagal mount di desktop slackware (setelah debian, lagi-lagi)</title>
+      <link>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</link>
+      <pubDate>Sun, 12 Jun 2011 19:45:05 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/12/mengatasi-gagal-mount-di-desktop-slackware-setelah-debian-lagi-lagi/</guid>
+      <description>&lt;p&gt;ah, serasa debian dan slackware sama saja, setelah fresh install tidak bisa mount otomatis dari user biasa (masalah di debian kemarin karena ada entry salah di /etc/fstab).&lt;/p&gt;&#xA;&lt;p&gt;saya menggunakan slackware 13.37 dan desktop KDE. pada saat mencolokan removable storage, partisi gagal dimount dan di notifikasi ada pesan error yang saya lupa apa lengkapnya, berkaitan dengan HAL.&lt;/p&gt;&#xA;&lt;p&gt;nah, saya menemukan solusinya di forum arch linux dan bekerja untuk slackware. yang perlu dilakukan adalah mengedit file /etc/dbus-1/system.d/hal.conf, tambahkan user kita di kelompok haldaemon&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial Scribus</title>
+      <link>//localhost:1313/post/2011/01/28/tutorial-scribus/</link>
+      <pubDate>Fri, 28 Jan 2011 16:58:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/28/tutorial-scribus/</guid>
+      <description>&lt;p&gt;yoi, ini tulisan lama di wartalinux, sayang sudah tidak aktif. direpost disini untuk arsip. saya bahkan lupa bagaimana lanjutin tutorial ini.&lt;/p&gt;&#xA;&lt;p&gt;Hmm, dengan apa versi pdf wartalinux dibuat? Infonya sudah nongol di  rubrik paket. Adalah Scribus, sebuah aplikasi publising opensource yang  cukup lengkap. Bukan OpenOffice? Dengan fitur export pdf-nya, OpenOffice  memungkinkan kita membuat file pdf dari dokumen kita tapi sayangnya  banyak kekurangan dan bug yang menyertainya. Maka kembali ke Scribus  yang telah menjadi pilihan tepat. Selain mendukung PDF, Scribus bisa  mengimport file gambar (tentu saja), SVG, Postscript, dan banyak fitur  lainnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>indoleaks : perjanjian RI - Microsoft</title>
+      <link>//localhost:1313/post/2010/12/12/indoleaks-perjanjian-ri-microsoft/</link>
+      <pubDate>Sun, 12 Dec 2010 23:02:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/12/indoleaks-perjanjian-ri-microsoft/</guid>
+      <description>&lt;p&gt;coba simak link ini. (&lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=explorer&amp;amp;chrome=true&amp;amp;srcid=0BwVqdUkMNopWZmY2ZmNjZTctYTkyMi00OTI2LWI2MjQtZjAwZDFjYmIxYjg0&amp;amp;hl=en&#34;&gt;pdf dalam google doc&lt;/a&gt;). benar-benar dah. tapi itu ndak tau itu tahun  berapa.&lt;/p&gt;&#xA;&lt;p&gt;sayangnya, indoleaks mati dan saya tidak pernah sempat lihat online sejak pertama kali dengar.&lt;/p&gt;&#xA;&lt;p&gt;apdet : &lt;a href=&#34;http://www.indoleaks.org&#34;&gt;www.indoleaks.org&lt;/a&gt; (ternyata musti pakai wewewe baru konek :D )&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.10 Maverick Meerkat di Indonesia</title>
+      <link>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</link>
+      <pubDate>Mon, 25 Oct 2010 03:49:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</guid>
+      <description>&lt;p&gt;yak, ini dia repo si maverick. selamat kopas ke sources.list!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;#Buaya&lt;/strong&gt;**&#xA;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;h1 id=&#34;cbn&#34;&gt;CBN****&lt;/h1&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>peran kaipang dalam migasi FOSS prov NTB</title>
+      <link>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</link>
+      <pubDate>Mon, 11 Oct 2010 17:37:01 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/11/peran-kaipang-dalam-migasi-foss-prov-ntb/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Seperti yang telah disebutkan di atas bahwasanya Kementerian Riset dan Teknologi bersama-sama dengan seluruh stakeholder IT dan dalam kesempatan pelaksanaan kegiatan model migrasi OSS di 15 titik Provinsi/kota/kabupaten (di jadwalkan Bulan Agustus 2010 sampai dengan November 2010) RISTEK bekerjasama dengan Makara UI yang didukung oleh PT. Ardelindo Aples, POSS UI, NF dan Komunitas OSS Lokal.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;entah tulisan ini tujukan kepada siapa, saya cuma mau curhat sejenak.&lt;/p&gt;&#xA;&lt;p&gt;sejak agustus dulu, koar-koar tentang migrasi perangkat lunak terbuka di lingkungan pemerintah provinsi NTB sempat membuat saya bersemangat. akhirnya, migrasi itu dilaksanakan tanggal 4-9 oktober 2010 yang mana isinya adalah tidak sesuai dengan apa yang saya perkirakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.04 Lucid Lynx di Indonesia</title>
+      <link>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</link>
+      <pubDate>Wed, 09 Jun 2010 21:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/09/daftar-repository-lokal-ubuntu-10.04-lucid-lynx-di-indonesia/</guid>
+      <description>&lt;p&gt;silakan. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mirror.cbn.net.id (OpenIXP)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;**deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;kambing.ui.ac.id (UI, Telkom, Indosat, OpenIXP, INHERENT**&lt;/p&gt;&#xA;&lt;p&gt;**&#xA;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-backports main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.ac.id/ubuntu&#34;&gt;http://kambing.ui.ac.id/ubuntu&lt;/a&gt; lucid-proposed main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Linux is Better | Mengapa Linux Lebih Baik</title>
+      <link>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</link>
+      <pubDate>Mon, 22 Mar 2010 22:05:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/22/why-linux-is-better-mengapa-linux-lebih-baik/</guid>
+      <description>&lt;p&gt;disadur dari &lt;a href=&#34;http://www.whylinuxisbetter.net/index_id.php?lang=id&#34;&gt;http://www.whylinuxisbetter.net/index_id.php?lang=id&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;lupakan-tentang-virus&#34;&gt;Lupakan tentang virus.&lt;/h2&gt;&#xA;&lt;p&gt;Bila komputermu mati dengan sendirinya tanpa bertanya padamu, jika  sebuah jendela dengan teks yang tidak jelas dan segala jenis iklan  muncul tanpa kehendakmu, jika email terkirim ke seluruh kontak yang kamu  punyai tanpa sepengetahuanmu, maka kemungkinan besar komputermu sedang  terinfeksi virus. Alasan utamanya adalah karena sistem Windows berjalan  di komputermu.&lt;/p&gt;&#xA;&lt;p&gt;Linux hampir tidak memiliki virus. Dan itu bukan berarti &amp;ldquo;Yah,  sebenarnya sih tidak terlalu sering&amp;rdquo;, tetapi berarti &amp;ldquo;Jika kamu pernah  mendengar tentang virus Linux &lt;em&gt;betulan&lt;/em&gt;, beritahu saya&amp;rdquo;. Tentu  saja, bukan tidak mungkin Linux terserang virus. Hanya saja, Linux  membuatnya sangat sulit terjadi, karena beberapa alasan berikut:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Decluttering on Blog</title><link>/categories/decluttering/</link><description>Recent content in Decluttering on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 08 Apr 2021 00:00:00 +0700</lastBuildDate><atom:link href="/categories/decluttering/index.xml" rel="self" type="application/rss+xml"/><item><title>Upgrade PC Tanpa Menggoncang Tabungan</title><link>/post/2021/04/08/upgrade-pc-tanpa-menggoncang-tabungan/</link><pubDate>Thu, 08 Apr 2021 00:00:00 +0700</pubDate><guid>/post/2021/04/08/upgrade-pc-tanpa-menggoncang-tabungan/</guid><description>&lt;p&gt;Suatu ketika saya ingin meng-upgrade PC saya tapi kok rasanya berat hati untuk menyentuh tabungan. Rasanya kok keinginan tersebut tidak pada prioritas yang betul kalau sampai tabungan terkorek. Apa lagi sebentar lagi saya akan punya anak, tentu tidak betul kalau sampai pundi-pundi yang sudah diatur sedemikian rupa jadi terganggu. Terus bagaimana dong?&lt;/p&gt;
-&lt;h2 id="decluttering"&gt;Decluttering&lt;/h2&gt;
-&lt;p&gt;Ada orang-orang yang dengan mudah menyingkirkan barang yang tidak mereka perlukan, ada pula orang yang perlu arahan/motivasi lebih untuk melakukan itu. Saya adalah jenis orang yang kedua.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decluttering on Blog</title>
+    <link>//localhost:1313/categories/decluttering/</link>
+    <description>Recent content in Decluttering on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Apr 2021 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/decluttering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrade PC Tanpa Menggoncang Tabungan</title>
+      <link>//localhost:1313/post/2021/04/08/upgrade-pc-tanpa-menggoncang-tabungan/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2021/04/08/upgrade-pc-tanpa-menggoncang-tabungan/</guid>
+      <description>&lt;p&gt;Suatu ketika saya ingin meng-upgrade PC saya tapi kok rasanya berat hati untuk menyentuh tabungan. Rasanya kok keinginan tersebut tidak pada prioritas yang betul kalau sampai tabungan terkorek. Apa lagi sebentar lagi saya akan punya anak, tentu tidak betul kalau sampai pundi-pundi yang sudah diatur sedemikian rupa jadi terganggu. Terus bagaimana dong?&lt;/p&gt;&#xA;&lt;h2 id=&#34;decluttering&#34;&gt;Decluttering&lt;/h2&gt;&#xA;&lt;p&gt;Ada orang-orang yang dengan mudah menyingkirkan barang yang tidak mereka perlukan, ada pula orang yang perlu arahan/motivasi lebih untuk melakukan itu. Saya adalah jenis orang yang kedua.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

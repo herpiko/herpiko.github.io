@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pochmann on Blog</title>
+    <link>//localhost:1313/tags/pochmann/</link>
+    <description>Recent content in Pochmann on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Apr 2010 00:00:56 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pochmann/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rubiks Blindfolded Solving dengan metode M2 (Edge)</title>
+      <link>//localhost:1313/post/2010/04/04/rubiks-blindfolded-solving-dengan-metode-m2-edge/</link>
+      <pubDate>Sun, 04 Apr 2010 00:00:56 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/04/rubiks-blindfolded-solving-dengan-metode-m2-edge/</guid>
+      <description>&lt;p&gt;dipersembahkan untuk cuber indonesia, khususnya keluarga &lt;a href=&#34;http://rubikku.ning.com&#34;&gt;rubikku&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;dear all,&lt;/p&gt;&#xA;&lt;p&gt;setelah lama berkutat dengan old pochmann (yang sangat mudah dipahami namun membuat pegal jari-jari), akhirnya saya mulai belajar M2, yang membingungkan namun eksekusinya jauh lebih cepat.  sampai saat ini, dengan old pochmann saya masih sub 6 dan  PB saya 4.32.03. akurasi masih sangat rendah, 70 persen DNF. meskipun masih goblok, saya tetap memaksakan diri pahami M2 (belajar dari situsnya &lt;a href=&#34;http://www.stefan-pochmann.de/spocc/blindsolving/M2R2/&#34;&gt;pak stefan&lt;/a&gt; dan sedikit tambahan dari video tutorial mas wicak, terima kasih untuk keduanya).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

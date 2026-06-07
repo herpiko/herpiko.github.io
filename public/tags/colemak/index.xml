@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colemak on Blog</title>
+    <link>//localhost:1313/tags/colemak/</link>
+    <description>Recent content in Colemak on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Mar 2012 23:52:09 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/colemak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skema Papan Ketik Colemak Permanen di Slackware</title>
+      <link>//localhost:1313/post/2012/03/22/skema-papan-ketik-colemak-permanen-di-slackware/</link>
+      <pubDate>Thu, 22 Mar 2012 23:52:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/22/skema-papan-ketik-colemak-permanen-di-slackware/</guid>
+      <description>&lt;p&gt;Saya menemukan bahwa Colemak didukung di XFCE pada Slackware 13.37. Tetapi ketika pindah ke mode terminal/tty, saya mendapatkan QWERTY lagi.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://colemak.com/wiki/index.php?title=Unix&#34;&gt;Halaman di colemak.org &lt;/a&gt;menjelaskan caranya :&lt;/p&gt;&#xA;&lt;p&gt;Silakan unduh berkas keymap colemak.&lt;/p&gt;&#xA;&lt;p&gt;Ekstrak dan pindah ke direktori hasil ekstrak.&lt;/p&gt;&#xA;&lt;p&gt;Ketik dan jalankan : setxkbmap us; xmodmap xmodmap/xmodmap.colemak &amp;amp;&amp;amp; xset r 66&lt;/p&gt;&#xA;&lt;p&gt;Atau cara kedua : letakkan berkas colemak.iso15.kmap di /usr/share/kbd/keymaps dan jalankan loadkeys /usr/share/kbd/keymaps/colemak.iso15.kmap&lt;/p&gt;&#xA;&lt;p&gt;Tetapi itu tidak permanen, setiap login kembali mesti menjalankan lagi. Saya mempertimbangkan penerapan colemak yang lebih luas, yang bahkan login console pun pakai colemak. Saya dapatkan petunjuk ini &lt;a href=&#34;http://www.linuxquestions.org/questions/slackware-14/how-to-change-the-keyboard-layout-for-the-entire-system-930785/&#34;&gt;di sini.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sebulan bersama colemak : antara colemak dan qwerty</title>
+      <link>//localhost:1313/post/2012/02/28/sebulan-bersama-colemak-antara-colemak-dan-qwerty/</link>
+      <pubDate>Tue, 28 Feb 2012 17:51:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/02/28/sebulan-bersama-colemak-antara-colemak-dan-qwerty/</guid>
+      <description>&lt;p&gt;hari-hari belakangan ini saya merasa jari2 saya benar2 baik. di colemak maupun qwerty, sama cepatnya. hanya butuh sedikit waktu untuk beradaptasi, hanya perlu menahan pusing sebentar saja sebelum jari2 meluncur cepat di atas tombol2.&lt;/p&gt;&#xA;&lt;p&gt;dan tentu saja, masih lebih cepat di qwerty ketimbang colemak. mungkin perlu 2-3 bulan lagi agar bisa menggunakan colemak pada kecepatan penuh out of the box. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dilema Colemak</title>
+      <link>//localhost:1313/post/2012/02/02/dilema-colemak/</link>
+      <pubDate>Thu, 02 Feb 2012 13:35:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/02/02/dilema-colemak/</guid>
+      <description>&lt;p&gt;adalah ketika saya sudah mulai lancar menggunakan komputer sendiri dengan keyboard colemak, tetapi ketika balik ke qwerty di komputer orang lain, saya mendapatkan banyak sekali typo dan kecepatan mengetik yang memalukan.&lt;/p&gt;&#xA;&lt;p&gt;entah ini hanya masalah waktu atau benar-benar tidak bisa dikendalikan. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Colemak</title>
+      <link>//localhost:1313/post/2012/01/23/colemak/</link>
+      <pubDate>Mon, 23 Jan 2012 04:14:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/23/colemak/</guid>
+      <description>&lt;p&gt;Siilakan kunjungi :  &lt;a href=&#34;http://colemak.com&#34;&gt;http://colemak.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/Colemak_layout_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dulu saya keras kepala, masih bertahan dengan cara mengetik lompat-lompat, tanpa menggunakan kelingking dan jempol, dan meraih sekitar 40 kata per menit. Setelah chatting langsung dengan seorang kenalan dan menyaksikan secara realtime kecepatan mengetiknya mencapai 120 WPM (dulu ada apps di facebook untuk balapan mengetik dengan ilustrasi mobil balap) dalam bahasa Inggris, saya mulai belajar mengetik 10 jari. Saya sering menganggap masalah ketik-mengetik ini sebagai sebuah permainan, mencoba menantang diri sendiri. Saya suka gtypist, yang banyak membantu saya meningkatkan kecepatan mengetik dan juga apps2 untuk menantang seseorang di internet dalam adu cepat. Mungkin kebawa2 kebiasaan bermain rubik&amp;rsquo;s cube. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

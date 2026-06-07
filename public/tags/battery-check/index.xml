@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Battery Check on Blog</title>
+    <link>//localhost:1313/tags/battery-check/</link>
+    <description>Recent content in Battery Check on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Aug 2011 15:06:11 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/battery-check/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>memeriksa status baterai melalui terminal</title>
+      <link>//localhost:1313/post/2011/08/27/memeriksa-status-baterai-melalui-terminal/</link>
+      <pubDate>Sat, 27 Aug 2011 15:06:11 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/27/memeriksa-status-baterai-melalui-terminal/</guid>
+      <description>&lt;p&gt;ya, saya sedang menginstall arch dan membutuhkan waktu lama untuk mengupdate paketnya. kurang bijak kalau laptop dicharger terus menerus. nah, kita bisa memeriksa status baterai melalui terminal, yaitu dengan acpi. pasang dulu acpi dengan paket manajer bawaan. tapi biasanya sistem yang sudah ada GUI-nya sudah mengikutkan acpi.&lt;/p&gt;&#xA;&lt;p&gt;$acpi&lt;/p&gt;&#xA;&lt;p&gt;Battery 0 : Discharging, 89%, rate information unavailable&lt;/p&gt;&#xA;&lt;p&gt;sebenarnya baris rate information unavailable itu berisi estimasi waktu hidup baterai kita. cuma itu baterai saya kurang beres. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

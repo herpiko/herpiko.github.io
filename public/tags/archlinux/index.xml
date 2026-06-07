@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on Blog</title>
+    <link>//localhost:1313/tags/archlinux/</link>
+    <description>Recent content in Archlinux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Sep 2011 05:26:33 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>menyalin update archlinux ke mesin lain</title>
+      <link>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</link>
+      <pubDate>Sat, 03 Sep 2011 05:26:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/09/03/menyalin-update-archlinux-ke-mesin-lain/</guid>
+      <description>&lt;p&gt;pasti menyebalkan jika harus memelihara dua sistem archlinux selalu terupdate dengan koneksi pas-pasan (sebuah mesin desktop dan sebuah laptop). nah, saya menemukan cara yang praktis, hemat waktu dan bandwith. salah satu mesin terkoneksi internet, misal laptop, jalankan update pacman -Syu sampai selesai. kemudian salinlah /var/cache/pacman/pkg/* ke direktori yang sama ke mesin lain. komputer desktop juga mesti konek internet untuk mengunduh sisa-sisa yang mungkin tertinggal atau baru muncul updatenya. jalankan pacman -Syu dan komputer desktop akan menggunakan paket yang sudah ada di cache tadi dan mengunduh sisanya yang sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mirror cepat arch linux</title>
+      <link>//localhost:1313/post/2010/04/26/mirror-cepat-arch-linux/</link>
+      <pubDate>Mon, 26 Apr 2010 19:25:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/26/mirror-cepat-arch-linux/</guid>
+      <description>&lt;p&gt;sekarang lagi semangat-semangatnya nunggu rilis lucid, kok saya kepincut archlinux. =.=&lt;/p&gt;&#xA;&lt;p&gt;dari semua mirrorlist yang ada di /etc/pacman.d/mirrorlist, repo yang di &lt;a href=&#34;http://mirror.rit.edu/archlinux&#34;&gt;http://mirror.rit.edu/archlinux&lt;/a&gt;**/** yang paling kenceng (dicoba satu-satu yang di US, bego). bisa pakai rankmirror untuk cari yang kecepatannya maksimal. tapi ini sudah cukup cepat, setidaknya bagi saya dan di komputer virtual saya. 100 kbps euy&amp;hellip; =))&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/04/repoarch.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/repoarch.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;nunggu mirror yang dari unej stabil lagi. kalo dari kambing ndak tau sering terupdate atau ndak.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

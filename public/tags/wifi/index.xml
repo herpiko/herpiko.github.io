@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wifi on Blog</title>
+    <link>//localhost:1313/tags/wifi/</link>
+    <description>Recent content in Wifi on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2011 23:00:16 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara bodoh koneksi wifi TP-LINK WN322G di Mac OS X Snow Leopard</title>
+      <link>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</link>
+      <pubDate>Thu, 11 Aug 2011 23:00:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/11/cara-bodoh-koneksi-wifi-tp-link-wn322g-di-mac-os-x-snow-leopard/</guid>
+      <description>&lt;p&gt;Saya punya mesin Mac dan sebuah adapter USB wireless TP-LINK WN322G (Atheros ath9k). Adapter wireless ini tidak terdeteksi di Mac. Kext-nya dicari-cari ke ujung dunia tidak ketemu. Nah. Jadi saya punya beberapa opsi yaitu sebagai berikut:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Menggunakan komputer atau laptop lain yang punya wifi dan bekerja baik di sistem operasinya, kemudian membagi akses internetnya (Internet Connection Sharing, di Windows atau Linux ini bekerja dengan baik) ke mesin Mac via LAN.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wifi oh wifi...</title>
+      <link>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</link>
+      <pubDate>Wed, 10 Aug 2011 21:03:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/wifi-oh-wifi.../</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/08/g4623.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/g4623.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;masalahnya, wifi adapter tidak dikenali mac. mesti numpang leptop lain, ngoprek vmware/vbox, atau beli pciwifi yang kompatibel. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>baladawajanbolik</title>
+      <link>//localhost:1313/post/2011/05/10/baladawajanbolik/</link>
+      <pubDate>Tue, 10 May 2011 14:19:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/10/baladawajanbolik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/05/untitled.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/untitled.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mainan kaleng</title>
+      <link>//localhost:1313/post/2011/02/18/mainan-kaleng/</link>
+      <pubDate>Fri, 18 Feb 2011 23:48:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/18/mainan-kaleng/</guid>
+      <description>&lt;p&gt;yak, siap tempur!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lagi... Ngenet Gretongan di Halaman Rumah</title>
+      <link>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</link>
+      <pubDate>Wed, 15 Apr 2009 05:22:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</guid>
+      <description>&lt;p&gt;Siapa sangka di halaman rumah sendiri ada access point yang tidak diproteksi? Saya tidak perlu lagi capek-capek ke XXX (yang saya ceritakan sebelumya). Hanya saja ap yang satu ini hanya aktif pada pukul 12 sampae 17.30. si frxs jadi sering-sering numpang di sini buat maling benwit dari pada dia pigi ke XXX yang rada jauh. Saya tidak bisa bercerita banyak, ntar ditau sama yang poenya.&lt;/p&gt;&#xA;&lt;p&gt;Ini skrinsut si frxs lagi maling benwit, diambil diam2 dari cctv di dalam celana.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

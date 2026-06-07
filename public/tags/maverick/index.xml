@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maverick on Blog</title>
+    <link>//localhost:1313/tags/maverick/</link>
+    <description>Recent content in Maverick on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Oct 2010 03:49:23 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/maverick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daftar Repository Lokal Ubuntu 10.10 Maverick Meerkat di Indonesia</title>
+      <link>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</link>
+      <pubDate>Mon, 25 Oct 2010 03:49:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/25/daftar-repository-lokal-ubuntu-10.10-maverick-meerkat-di-indonesia/</guid>
+      <description>&lt;p&gt;yak, ini dia repo si maverick. selamat kopas ke sources.list!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;#Buaya&lt;/strong&gt;**&#xA;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://buaya.klas.or.id/ubuntu/&#34;&gt;http://buaya.klas.or.id/ubuntu/&lt;/a&gt; maverick-security main restricted universe multiverse&lt;/p&gt;&#xA;&lt;h1 id=&#34;cbn&#34;&gt;CBN****&lt;/h1&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;&#xA;&lt;p&gt;deb-src &lt;a href=&#34;http://ubuntu.cbn.net.id/Ubuntu/&#34;&gt;http://ubuntu.cbn.net.id/Ubuntu/&lt;/a&gt; maverick-updates main restricted universe multiverse&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -9,19 +9,15 @@ date: 2025-01-01
 
 ## Work
 
-I'm currently working at [Noctua Games](https://noctuagames.com) as Head of Engineering. It's a busy, rewarding role, navigating the interesting intersection of game publishing, backend infrastructure, and building a team that ships things well.
+I'm currently working at [Noctua Games](https://noctuagames.com) as Head of Engineering, navigating the interesting intersection of game publishing, tech architecture & infrastructure, and building a team that ships things well.
 
 ## Communities
 
-I maintain two communities that are close to my heart.
-
-The first is [BlankOn Linux](https://blankonlinux.or.id), an Indonesian GNU/Linux distribution, along with its foundation organization. It's a long-running project I've been involved with for years and still feel strongly about.
-
-The second is [Lombok Dev](https://lombokdev.github.io), a tech community based in my hometown of Lombok. Getting people in smaller cities access to the same kind of knowledge-sharing and networking that folks in big cities take for granted, that's the whole point.
+I maintain and am active in two communities: [BlankOn Linux](https://blankonlinux.or.id) (an Indonesian GNU/Linux distribution and its foundation) and [Lombok Dev](https://lombokdev.github.io) (a tech community in my hometown of Lombok).
 
 ## Fun
 
-At the moment I'm juggling four things: reading, drawing, sim racing, and camping with the family.
+At the moment I'm juggling four things from time to time: reading, drawing (sketching and watercolor painting), sim racing, and camping with my family.
 
 ## Interests
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Broadcom on Blog</title>
+    <link>//localhost:1313/tags/broadcom/</link>
+    <description>Recent content in Broadcom on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 May 2010 02:47:57 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/broadcom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lucid Fail : driver wireless broadcom tidak otomatis terinstall (emachine)</title>
+      <link>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</link>
+      <pubDate>Sun, 02 May 2010 02:47:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/02/lucid-fail-driver-wireless-broadcom-tidak-otomatis-terinstall-emachine/</guid>
+      <description>&lt;p&gt;29 april dirilis, langsung donglot, install, sempurna. lalu saya coba install di sebuah emachine punya teman (cepul). sempurna, kecuali satu. driver wireless tidak bisa. padahal ini kan broadcom! jah! :(&lt;/p&gt;&#xA;&lt;p&gt;mau donglot driver? bagaimana konek inet kalau waerles ndak bisa? (selain dengan UTP LAN dan akses broadband).&lt;/p&gt;&#xA;&lt;p&gt;saya yakin drivernya ada di dalam CD live lucid, hanya saja tidak terinstall dengan otomatis. jika anda mengalamai masalah ini, jangan khawatir. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

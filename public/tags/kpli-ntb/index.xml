@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kpli Ntb on Blog</title>
+    <link>//localhost:1313/tags/kpli-ntb/</link>
+    <description>Recent content in Kpli Ntb on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Apr 2011 12:13:48 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/kpli-ntb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perpusda Prov NTB Goes Open Source</title>
+      <link>//localhost:1313/post/2011/04/24/perpusda-prov-ntb-goes-open-source/</link>
+      <pubDate>Sun, 24 Apr 2011 12:13:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/24/perpusda-prov-ntb-goes-open-source/</guid>
+      <description>&lt;p&gt;Kabar yang menggembirakan memang, Perpusda Prov NTB sudah menggunakan linux di ruangan Warintek Bumigora-nya. Saat kunjungan saya kesana, banyak pengunjung yang sedang menggunakan komputer bersistem operasi super OS tersebut. Bahkan billingnya (menggunakan billinghotspot, setiap klien langsung diredirect ke halaman login saat membuka browser) juga menggunakan Linux.&lt;/p&gt;&#xA;&lt;p&gt;Sedikit bercakap2 dengan bapak yang saya lupa namanya (dari STMIK Bumigora dan kenal mas Wibi), katanya linux itu sudah dipasang berminggu2 yang lalu dan yang memasangnya adalah pihak perpusda sendiri, bukan tim migrasi NTB gOS. tetap saja, ini adalah sebuah kemajuan. terima kasih perpusda NTB! Semoga dengan bergantinya sistem operasi di komputer2 Warintek, semakin banyak yang mengenal OSS/linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KPLI NTB : Lucid Relase Party</title>
+      <link>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</link>
+      <pubDate>Mon, 17 May 2010 08:15:52 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/17/kpli-ntb-lucid-relase-party/</guid>
+      <description>&lt;p&gt;Ubuntu 10.04 telah di rilis 29 April lalu. KPLI NTB bekerjasama dengan  KSL Bumigora mengadakan acara menyambut peluncuran sistem operasi  tersebut. Acara akan dirangkai dalam:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seminar dengan tema  &amp;ldquo;Mengupas Tuntas Ubuntu 10.04 LTS Lucid Lynx&amp;rdquo; oleh Bapak Olan  Wardiansyah, Kepala ICT Kota Bima.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Instalasi Ubuntu 10.04 yang akan  dipandu oleh Amrin Zulkarnain, Ketua KPLI NTB dan Team&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tanya Jawab  dan Troubleshooting&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Doorprize&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HTM Rp 10.000,-&lt;/p&gt;&#xA;&lt;p&gt;(makalah,  snack, cd ubuntu, sertifikat, dll)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

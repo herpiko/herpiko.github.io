@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Blog</title>
+    <link>//localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Dec 2011 01:42:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lanjutan program kamus</title>
+      <link>//localhost:1313/post/2011/12/30/lanjutan-program-kamus/</link>
+      <pubDate>Fri, 30 Dec 2011 01:42:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/30/lanjutan-program-kamus/</guid>
+      <description>&lt;p&gt;kode sudah disesuaikan untuk python3, sehingga bisa jalan langsung di kebanyakan OS linux modern.&lt;/p&gt;&#xA;&lt;p&gt;yoi, saya sudah menemukan cara agar apapun kata yang kita masukkan, indonesia maupun english, otomatis dicarikan. kelihatannya seperti mendeteksi kata, tetapi sebenarnya tidak. melainkan dengan menggabungkan berkas bahasa indonesia dan english ke dalam satu berkas dan pencarian dimulai dari awal sampai akhir, jika tidak ditemukan diberikan pesan &amp;lsquo;kata yang dimaksud tidak ditemukan&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;ternyata ini mudah, cuma gegara rendahnya tingkat inteligensi dan sedikitnya waktu buat main-main, baru ketemu sekarang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamus menggunakan dict (python2.x)</title>
+      <link>//localhost:1313/post/2011/12/20/kamus-menggunakan-dict-python2.x/</link>
+      <pubDate>Tue, 20 Dec 2011 23:37:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/20/kamus-menggunakan-dict-python2.x/</guid>
+      <description>&lt;p&gt;cara sebelumnya, saya menggunakan perulangan untuk mencari kata di setiap baris pada berkas id.dict (id.dict adalah berkas kamus, kata pertama adalah sebuah karakter atau kata dalam bahasa indonesia, kata-kata selanjutnya dalam baris yang sama adalah terjemahannya. berkas ini bisa didapatkan dari program gkamus)&lt;/p&gt;&#xA;&lt;p&gt;bagaimana kalau menggunakan dict? barangkali pencariannya bisa lebih cepat karena tinggal print key (kata) untuk mendapatkan value (terjemahan). tapi sebenarnya lebih lambat, karena mengkonvers sebuah berkas teks kamus ke bentuk dict benar-benar memakan waktu. kali ini juga pakai perulangan untuk membuat dict dari setiap baris berkas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamusiden v.0.0.1</title>
+      <link>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</link>
+      <pubDate>Fri, 22 Jul 2011 17:52:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;h1 id=&#34;untuk-dijalankan-di-python-2xx&#34;&gt;untuk dijalankan di python 2.xx&lt;/h1&gt;&#xA;&lt;p&gt;def id2en(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teks=open(&#39;id.dict&#39;,&#39;r&#39;)&#xA;&#xA;for line in teks:&#xA;&#xA;&#x9;x=line.split()&#xA;&#xA;&#x9;y=x[0]&#xA;&#xA;&#x9;if y == kataid:&#xA;&#xA;&#x9;&#x9;print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;def en2id(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    teks=open(&#39;en.dict&#39;,&#39;r&#39;)&#xA;&#xA;    for line in teks:&#xA;&#xA;            x=line.split()&#xA;&#xA;            y=x[0]&#xA;&#xA;            if y == kataid:&#xA;&#xA;                    print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(1) : bahasa indonesia -&amp;gt; english&#39;)&lt;/p&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(2) : english -&amp;gt; bahasa indonesia&#39;)&lt;/p&gt;&#xA;&lt;p&gt;pilih=input(&amp;lsquo;pilih : &amp;lsquo;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamus kode v.0.0.3</title>
+      <link>//localhost:1313/post/2011/07/22/kamus-kode-v.0.0.3/</link>
+      <pubDate>Fri, 22 Jul 2011 17:25:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/22/kamus-kode-v.0.0.3/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;def morse(input):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;end=&#39;0&#39;&#xA;&#xA;v=str&#xA;&#xA;x=str&#xA;&#xA;kata=input+end&#xA;&#xA;katalist=list(input)&#xA;&#xA;nol=0&#xA;&#xA;dict={&#39; &#39;:&#39; &#39;,&#39;a&#39;:&#39;.-&#39;,&#39;b&#39;:&#39;-...&#39;,&#39;c&#39;:&#39;-.-.&#39;,&#39;d&#39;:&#39;-..&#39;,&#39;e&#39;:&#39;.&#39;,&#39;f&#39;:&#39;..-.&#39;,&#39;g&#39;:&#39;--.&#39;,&#39;h&#39;:&#39;....&#39;,&#39;i&#39;:&#39;..&#39;,&#39;j&#39;:&#39;.---&#39;,&#39;k&#39;:&#39;-.-&#39;,&#39;l&#39;:&#39;.-..&#39;,&#39;m&#39;:&#39;--&#39;,&#39;n&#39;:&#39;-.&#39;,&#39;o&#39;:&#39;---&#39;,&#39;p&#39;:&#39;.--.&#39;,&#39;q&#39;:&#39;--.-&#39;,&#39;r&#39;:&#39;.-.&#39;,&#39;s&#39;:&#39;...&#39;,&#39;t&#39;:&#39;-&#39;,&#39;u&#39;:&#39;..-&#39;,&#39;v&#39;:&#39;...-&#39;,&#39;w&#39;:&#39;.--&#39;,&#39;x&#39;:&#39;-..-&#39;,&#39;y&#39;:&#39;-.--&#39;,&#39;z&#39;:&#39;--..&#39;}&#xA;&#xA;while kata[nol] is not &#39;0&#39; :&#xA;&#xA;    v=kata[nol]&#xA;&#xA;    x=dict[v]&#xA;&#xA;    katalist[nol]=x&#xA;&#xA;    nol += 1&#xA;&#xA;hasil=&#39; &#39; .join(katalist)&#xA;&#xA;print hasil&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;inputkata=raw_input (&amp;lsquo;masukan kata atau kalimat : &amp;lsquo;)&lt;/p&gt;&#xA;&lt;p&gt;hurufkecil=inputkata.lower()&lt;/p&gt;&#xA;&lt;p&gt;morse(hurufkecil)&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;sekarang saya sudah pakai def (fungsi), yang ternyata ini berguna sekali untuk memanggil bagian perintah tertentu. oya sekarang juga sudah bisa huruf besar maupun huruf kecil. :)&lt;/p&gt;&#xA;&lt;p&gt;oya kemarin saya belum sempat jelasin alur program ini.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>morse.py di symbian v1</title>
+      <link>//localhost:1313/post/2011/02/08/morse.py-di-symbian-v1/</link>
+      <pubDate>Tue, 08 Feb 2011 21:36:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/08/morse.py-di-symbian-v1/</guid>
+      <description>&lt;p&gt;yah, akhirnya bisa sempetin ngenet, meski sebentar. :(&lt;/p&gt;&#xA;&lt;p&gt;kode morse.py yang saya tulis selang beberapa waktu lalu akhirnya berhasil di jalankan pada symbian jadul v1 di n-gage saya. waha, menyenangkan sekali melihat sebuah program yang saya tulis bisa jalan dimana-mana. :D&lt;/p&gt;&#xA;&lt;p&gt;python untuk symbiannya silakan diunduh di sini. &lt;a href=&#34;http://sourceforge.net/projects/pys60/&#34;&gt;http://sourceforge.net/projects/pys60/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;memang sih, symbian jadul dapetnya python versi jadul juga, tapi mau bagaimana lagi. awalnya saya kira tidak bisa karena morse.py ini tidak jalan. saya pikir karena beda versi python, eh tapi ternyata bukan, ada sedikit kesalahan syntax. :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamus kode v.0.0.2</title>
+      <link>//localhost:1313/post/2011/01/02/kamus-kode-v.0.0.2/</link>
+      <pubDate>Sun, 02 Jan 2011 01:49:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/02/kamus-kode-v.0.0.2/</guid>
+      <description>&lt;p&gt;huff. pantaslah para programmer disanjung tinggi, ternyata mikir sebagai programmer itu sulit! (keluar dari mulut orang goblok).&lt;/p&gt;&#xA;&lt;p&gt;nah, setelah saya mikir seharian duduk di depan layar monitor sambil corat-coret, akhirnya saya nemu algoritma yang tepat untuk mentranslasi karakter ke karakter lain. sebagai catatan, saya ndak nyontek lho, tapi mikir sendiri alur logikanya dari kemarin sore. kelamaan ya? namanya juga orang bego.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;input=raw_input(&#39;&lt;/p&gt;&#xA;&lt;pre&gt;kamus kode v.0.0.2, silakan ketik kata atau kalimat, karakter huruf saja : &#39;)&#xA;&#xA;&lt;/pre&gt;&#xA;&lt;p&gt;end=&amp;lsquo;0&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamus kode v.0.0.1</title>
+      <link>//localhost:1313/post/2011/01/01/kamus-kode-v.0.0.1/</link>
+      <pubDate>Sat, 01 Jan 2011 05:52:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/01/kamus-kode-v.0.0.1/</guid>
+      <description>&lt;p&gt;belajar jadi uler. gegara ndak pernah belajar dan buka buku lupa lagi sama python. main-main sebentar, terlintas ide buat kamus morse. memang sudah banyak aplikasi penerjemahnya (googling sebentar nemu banyak), tapi bagaimana kalau buat sendiri pakai algoritma sendiri? :)&lt;/p&gt;&#xA;&lt;p&gt;in baru permulaan, masih main-main.&lt;/p&gt;&#xA;&lt;p&gt;morse.py&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;input=raw_input(&amp;lsquo;kamus kode v.0.0.1, masukkan huruf (a-j): &amp;lsquo;)&lt;/p&gt;&#xA;&lt;p&gt;jumlah=len(input)&lt;/p&gt;&#xA;&lt;p&gt;if jumlah &amp;gt; 1 :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;print &#39;masukkan satu huruf saja&#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;else :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;dict={&#39;a&#39;:&#39;.-&#39;,&#39;b&#39;:&#39;-...&#39;,&#39;c&#39;:&#39;-.-.&#39;,&#39;d&#39;:&#39;-..&#39;,&#39;e&#39;:&#39;.&#39;,&#39;f&#39;:&#39;..-.&#39;,&#39;g&#39;:&#39;--.&#39;,&#39;h&#39;:&#39;....&#39;,&#39;i&#39;:&#39;..&#39;,&#39;j&#39;:&#39;.---&#39;}&#xA;&#xA;print dict[input]&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>beginning python - from novice to professional</title>
+      <link>//localhost:1313/post/2010/06/22/beginning-python-from-novice-to-professional/</link>
+      <pubDate>Tue, 22 Jun 2010 22:06:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/22/beginning-python-from-novice-to-professional/</guid>
+      <description>&lt;p&gt;banyak membantu saya belajar python. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ziddu.com/download/10400985/beginning-python-novice-to-professional.pdf.html&#34;&gt;unduh&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

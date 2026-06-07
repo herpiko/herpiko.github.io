@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roy Suryo on Blog</title>
+    <link>//localhost:1313/tags/roy-suryo/</link>
+    <description>Recent content in Roy Suryo on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jan 2010 12:33:12 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/roy-suryo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>roy suryo [censored]!</title>
+      <link>//localhost:1313/post/2010/01/25/roy-suryo-censored/</link>
+      <pubDate>Mon, 25 Jan 2010 12:33:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/25/roy-suryo-censored/</guid>
+      <description>&lt;p&gt;gw sebagai blogger mengutuk si roy suryo. si ahli &amp;ldquo;telematika&amp;rdquo; banyak tingkah dan sok tahu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.detikinet.com/read/2010/01/25/111139/1285328/398/roy-suryo-serang-ruby-alamsyah-lewat-sms&#34;&gt;http://www.detikinet.com/read/2010/01/25/111139/1285328/398/roy-suryo-serang-ruby-alamsyah-lewat-sms&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

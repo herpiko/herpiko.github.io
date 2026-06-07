@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aduh on Blog</title>
+    <link>//localhost:1313/tags/aduh/</link>
+    <description>Recent content in Aduh on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jun 2011 00:57:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/aduh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fixie</title>
+      <link>//localhost:1313/post/2011/06/26/fixie/</link>
+      <pubDate>Sun, 26 Jun 2011 00:57:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/26/fixie/</guid>
+      <description>&lt;p&gt;awal tahun kemarin, kata ini mulai mendengung2 di internet (atau saya yang terlambat?). saya pikir memang fixie, mahluk peri di harry potter ketiga. yang bener, ini adalah sepeda yang gear-nya fix, mati, mentok. roda akan berputar mengikuti arah pedal. beda dengan torpedo yang kalau ditahan atau putar ke belakang berarti rem.&lt;/p&gt;&#xA;&lt;p&gt;setelah baca2, ternyata fixie dipakai sebagai olah raga ekstrem yang relatif berbahaya karena remnya menggunakan kekuatan otot kaki (ditahan pelan2) jadi menggunakan sepeda fixie dalam kecepatan tinggi adalah tindakan konyol. keren jugak. dan dalam beberapa minggu trendnya sudah menyebar di Indonesia. luar biasa memang indonesia, termasuk di kota saya, mataram. wah, saya jadi pingin bikin juga, sayangnya awal januari sepeda kesayangan saya hilang dicuri atau lupa taruh dimana (or both?)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bahasa</title>
+      <link>//localhost:1313/post/2011/01/07/bahasa/</link>
+      <pubDate>Fri, 07 Jan 2011 04:32:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/07/bahasa/</guid>
+      <description>&lt;p&gt;sungguh saya benar-benar katak dalam tempurung. selama ini saya merasa nyaman saja duduk-duduk ala sofa di atas bahasa sendiri, bahasa indonesia. sambil mencibir beberapa bahasa yang saya kira menjijikkan dan memuja beberapa bahasa dari bangsa-bangsa tertentu. sungguh pikiran yang benar-benar jelek!&lt;/p&gt;&#xA;&lt;p&gt;ada kalanya saya memandang rendah bahasa lain, misalnya bahasa malaysia (sesungguhnya ini bukan misalnya, saya pernah merasa demikian, entah mungkin pengaruh sentimen terhadap malaysia perihal masalah yang itu tu lho). dan menyukai bahasa jepang padahal tak mengerti sepatah kata pun (karena saya suka nonton j-drama dan semacamnya). tidak adil ya?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>munafik</title>
+      <link>//localhost:1313/post/2010/12/18/munafik/</link>
+      <pubDate>Sat, 18 Dec 2010 19:30:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/18/munafik/</guid>
+      <description>&lt;p&gt;ini isi pikiran selang beberapa waktu lalu.&lt;/p&gt;&#xA;&lt;p&gt;saat itu ada trit yang tidak biasa di salah satu milis FOSS yang menanyakan tentang dimana mengunduh film pirate of silicon valley. bagi yang belum tahu, film ini mengisahkan tentang persaingan apple dan microsoft, ada bill gates, steve jobs, dan lainnya. geek wajib nonton ini. saya langsung membalas email ini dan menyarankan sebuah alamat. ada balasan email lain dari salah satu pengembang blankon yang mengingatkan agar jangan membajak film (mengunduh film secara ilegal). saya langsung malu dan meminta maaf.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

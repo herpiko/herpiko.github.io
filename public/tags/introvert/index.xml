@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introvert on Blog</title>
+    <link>//localhost:1313/tags/introvert/</link>
+    <description>Recent content in Introvert on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Dec 2009 02:51:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/introvert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bukit Sahabat Sepi</title>
+      <link>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</link>
+      <pubDate>Fri, 11 Dec 2009 02:51:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_486&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;768&amp;rdquo; caption=&amp;ldquo;Bukit Sahabat Sepi&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2009/12/10122009601.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/10122009601.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

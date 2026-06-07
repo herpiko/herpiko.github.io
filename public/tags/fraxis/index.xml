@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fraxis on Blog</title>
+    <link>//localhost:1313/tags/fraxis/</link>
+    <description>Recent content in Fraxis on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2008 14:32:54 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/fraxis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olimpiade Teknik 2008 UNUD Bali : Web Design</title>
+      <link>//localhost:1313/post/2008/11/13/olimpiade-teknik-2008-unud-bali-web-design/</link>
+      <pubDate>Thu, 13 Nov 2008 14:32:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/13/olimpiade-teknik-2008-unud-bali-web-design/</guid>
+      <description>&lt;p&gt;Pagi tadi benar-benar menegangkan. Kondisi : saya diutus sekolah ke bali (mengutuskan diri) sama teman saya (frxs). Ada acara olimpiade teknik 2008 yang diadakan Universitas Udayana Bali. Saya ikut mata lomba web design (sebenarnya nggak tahu apa-apa). alhasil 1 bulan sebelumnya saya tidak pernah belajar (pelajaran sekolah), pulang sekolah langsung gigit komputer ngerjain web (isinya amburadul).&lt;/p&gt;&#xA;&lt;p&gt;Kami (saya dan teman saya serta seorang guru dari sekolah) berangkat ke Bali dari Mataram, NTB, Naik kapal ferry yang lambat. Habis tu nungguin rombongan dari Selong (Lombok Timur) yang katanya mau ikut juga. Dari teman saya, dia bilang peserta web design ada 18 orang, otomatis saya jadi pesimis. Karya saya hanya biasa-biasa saja. Saya menaruh harapan pada menu flash drop down yang beda dengan peserta lain juga sedikit CSS dan Javascript.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -4,20 +4,22 @@ date: 2017-04-24 00:01:00Z
 categories:
   - blog
 ---
-
 Sebelum memulai tulisan berseri ini, saya ingin mengucapkan terima kasih ke para pengembang BlankOn, terutama senior dan pensiunan, pak Aftian dan pak MHY. Tanpa mereka, kami tidak tahu IRGSH mau diapakan lagi. Terima kasih! Terima kasih juga untuk teman-teman pengembang generasi baru, terutama tim Infra, tim Pemaket dan tim Riset.
 
 Kisah dimulai setelah Tambora rilis, dimana beberapa pengembang kunci memilih pensiun. Keputusan ini sangat penting karena terkait erat dengan regenerasi. Dan apa yang ditinggalkan untuk generasi penerus sangat menarik. Mesin-mesin, layanan-layanan yang perlu dipetakan ulang, dan lainnya. Namun yang paling menarik dan salah satu yang terpenting untuk kelangsungan distribusi BlankOn Linux adalah IRGSH.
 
 Apa itu IRGSH? Dibangun oleh pak MDAMT, pak Fajran, pak Somat dan pengembang-pengembang lain, IRGSH adalah salah satu karya penting di komunitas BlankOn. IRGSH adalah perkakas yang membantu pengembang (khususnya tim pemaket) untuk meng-otomatisasi pembangunan paket-paket sampai masuk ke lumbung paket dan siap dikonsumsi. Jadi pemaket tinggal menyetor sumber kode dari paket tertentu, IRGSH akan mengolah dan membangunnya untuk arsitektur-arsitektur yang ditentukan. Jika sukses, paketnya akan tersedia di lumbung paket. IRGSH terdiri dari 3 komponen utama :
 
-- `irgsh-web` ([github.com/blankon/irgsh-web](github.com/blankon/irgsh-web))<br>Antar muka web yang diakses oleh pemaket dan pengelola tugas-tugas yang akan diserahkan ke pekerjanya
-- `irgsh-node` ([github.com/blankon/irgsh-node](github.com/blankon/irgsh-node))<br>Salah satu pekerja irgsh (builder), membangun paket-paket dengan arsitektur tertentu. Satu ekosistem IRGSH bisa memiliki beberapa builder.
-- `irgsh-repo` ([github.com/blankon/irgsh-repo](github.com/blankon/irgsh-repo))<br>Salah satu pekerja irgsh (repository), menerima paket yang sudah dibangun dan memasukkannya ke lumbung paket.
+- `irgsh-web` ([github.com/blankon/irgsh-web](github.com/blankon/irgsh-web))
+Antar muka web yang diakses oleh pemaket dan pengelola tugas-tugas yang akan diserahkan ke pekerjanya
+- `irgsh-node` ([github.com/blankon/irgsh-node](github.com/blankon/irgsh-node))
+Salah satu pekerja irgsh (builder), membangun paket-paket dengan arsitektur tertentu. Satu ekosistem IRGSH bisa memiliki beberapa builder.
+- `irgsh-repo` ([github.com/blankon/irgsh-repo](github.com/blankon/irgsh-repo))
+Salah satu pekerja irgsh (repository), menerima paket yang sudah dibangun dan memasukkannya ke lumbung paket.
 
 Sisanya dibantu oleh perkakas lain seperti reprepro, pbuilder, chroot dan lainnya. Secara garis besar, alur kerja IRGSH adalah sebagai berikut :
 
-<img src="/assets/irgsh-workflow.jpg">
+![](/assets/irgsh-workflow.jpg)
 
 Lalu, kepanjangan IRGSH apa? Disadur dari [thread lama di milis BlankOn-dev](https://groups.google.com/forum/#!searchin/blankon-dev/irgsh$20nama%7Csort:relevance/blankon-dev/yvceclWjSw8/uegzjGGPEOAJ) :
 
@@ -26,15 +28,14 @@ Sender: mohammad.damt@gmail.com
 Received: by 10.223.103.133 with SMTP id k5mr4079075fao.23.1245567549549; Sat,
         20 Jun 2009 23:59:09 -0700 (PDT)
 Date: Sun, 21 Jun 2009 13:59:09 +0700
-Message-ID: <f5c139650906202359t535e9e62r95916d746c0961cf@mail.gmail.com>
+Message-ID: 
 Subject: Re: [BlankOn-dev] Latar belakang nama yeyen, robot gedek
-From: Mohammad Anwari <mdamt@mnots.eu>
+From: Mohammad Anwari 
 To: BlankOn-dev@googlegroups.com
 Content-Type: text/plain; charset=ISO-8859-1
 Content-Transfer-Encoding: 7bit
 
-
-2009/6/18, Akhmat Safrudin <akhmat.safrudin@gmail.com>:
+2009/6/18, Akhmat Safrudin :
 >  mau bertanya, kalo latar belakang nama irgsh (robot gedek) yeyen (server pengembangan)
 
 irgsh:

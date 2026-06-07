@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sajak on Blog</title>
+    <link>//localhost:1313/tags/sajak/</link>
+    <description>Recent content in Sajak on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Jan 2011 23:17:02 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/sajak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aku seperti senja</title>
+      <link>//localhost:1313/post/2011/01/05/aku-seperti-senja/</link>
+      <pubDate>Wed, 05 Jan 2011 23:17:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/05/aku-seperti-senja/</guid>
+      <description>&lt;p&gt;aku seperti senja&lt;/p&gt;&#xA;&lt;p&gt;mengakhiri&lt;/p&gt;&#xA;&lt;p&gt;terangnya hari&lt;/p&gt;&#xA;&lt;p&gt;pengiring malam kelabu&lt;/p&gt;&#xA;&lt;p&gt;tapi kau bilang&lt;/p&gt;&#xA;&lt;p&gt;senja itu tak setia&lt;/p&gt;&#xA;&lt;p&gt;hanya sesaat&lt;/p&gt;&#xA;&lt;p&gt;tidak indah&lt;/p&gt;&#xA;&lt;p&gt;bukankah sudah kubilang&lt;/p&gt;&#xA;&lt;p&gt;aku selalu muncul&lt;/p&gt;&#xA;&lt;p&gt;tak ingkar janji&lt;/p&gt;&#xA;&lt;p&gt;setiap hari&lt;/p&gt;&#xA;&lt;p&gt;mengakhiri&lt;/p&gt;&#xA;&lt;p&gt;terangnya hari&lt;/p&gt;&#xA;&lt;p&gt;pengiring malam kelabu&lt;/p&gt;&#xA;&lt;p&gt;hanya sesaat&lt;/p&gt;&#xA;&lt;p&gt;tidak indah&lt;/p&gt;&#xA;&lt;p&gt;ya&lt;/p&gt;&#xA;&lt;p&gt;aku seperti senja&lt;/p&gt;&#xA;&lt;p&gt;namun tak sanggup lebih dari itu&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

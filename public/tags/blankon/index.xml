@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BlankOn on Blog</title>
+    <link>//localhost:1313/tags/blankon/</link>
+    <description>Recent content in BlankOn on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2011 22:25:29 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/blankon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catatan Rilis BlankOn Pattimura 7.0</title>
+      <link>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</link>
+      <pubDate>Sun, 21 Aug 2011 22:25:29 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/21/catatan-rilis-blankon-pattimura-7.0/</guid>
+      <description>&lt;p&gt;Disalin langsung dari &lt;a href=&#34;http://blankonlinux.or.id&#34;&gt;situs resmi BlankOn Linux&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;BlankOn 7.0 Pattimura  merupakan versi terbaru distribusi BlankOn. Distribusi ini dikembangkan oleh Yayasan Penggerak Linux Indonesia (YPLI) dan Tim Pengembang BlankOn. BlankOn merupakan distribusi linux khas Indonesia yang menyertakan beragam perangkat lunak yang sering digunakan oleh masyarakat pada umumnya, seperti program perkantoran, aplikasi keuangan, aplikasi Internet, menggambar (baik vektor maupun bitmap), dukungan untuk memainkan beragam format berkas multimedia, serta aplikasi menarik lainnya.&lt;/p&gt;&#xA;&lt;p&gt;Pengembangan BlankOn bukan semata-mata ingin membuat distribusi Linux baru, namun lebih dimotivasi oleh keinginan untuk meningkatkan kualitas dan kuantitas dalam kemampuan pengembangan perangkat lunak bebas/terbuka. Yang pada hakikatnya merupakan salah ciri khas bangsa Indonesia yang memiliki semangat bergotong-royong.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panduan BlankOn 5.0 Nanggar</title>
+      <link>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</link>
+      <pubDate>Fri, 03 Jul 2009 17:32:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/03/panduan-blankon-5.0-nanggar/</guid>
+      <description>&lt;p&gt;Nyam&amp;hellip; hanya ingin bagi2 info. Tantangan BlankOn bagian dokumentasi telah diselesaikan dengan baik oleh Putu Wiramaswara dan Alit Sudarsana. Sekarang, buku panduan lengkap Nanggar sudah bisa diunduh dalam format pdf.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dev.blankonlinux.or.id/browser/dokumentasi/buku-panduan/buku-panduan.pdf&#34;&gt;silakan sedot di sini :D&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BlankOn 5 &#34;Nanggar&#34; Dirilis!</title>
+      <link>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</link>
+      <pubDate>Thu, 18 Jun 2009 09:56:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/18/blankon-5-nanggar-dirilis/</guid>
+      <description>&lt;p&gt;Jakarta 16 Juni 2009 - Pada hari ini Pengembang BlankOn resmi meluncurkan BlankOn versi 5.0 dengan kode rilis Nanggar, budaya yang diangkat pada versi ini adalah budaya dari Batak, nama “Nanggar” diambil dari bahasa batak yang mempunyai arti “Palu”.&lt;/p&gt;&#xA;&lt;p&gt;Beberapa fitur khas baru yang dibawa oleh Nanggar di antaranya adalah Desktop Berkonteks yang dikembangkan oleh Tim Pengembang BlankOn, yang mampu mengganti tema serta gambar latar desktop sesuai jam komputer atau kondisi cuaca yang sedang berlaku saat itu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otak-atik Artwork BlankOn</title>
+      <link>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</link>
+      <pubDate>Wed, 03 Jun 2009 16:33:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/03/otak-atik-artwork-blankon/</guid>
+      <description>&lt;p&gt;Saya baru mengerti sekarang dan merasakan betul apa itu arti free dalam filosofi GNU/Linux. Benar-benar menyenangkan. Saya melakukan sendiri : memodifikasi karya orang lain yang berlisensi GPL. Meski hanya sedikit coding dan sebagian besar mengolah gambar, saya senang bisa memodifikasi dan mendistribusikan kembali dengan &amp;rsquo;legal&amp;rsquo;. Ini hanya intro.&lt;/p&gt;&#xA;&lt;p&gt;Meski saya pakai blankon, orang lain akan menyangka saya sedang pakai ubuntu. Ya, saya sedang mencoba membohongi diri sendiri. Mulai dari ikon sampai usplash, saya menggunakan artwork ubuntu asli. Why? Apakah rasa ke-indonesia-an saya kurang?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buku Resmi Panduan Lengkap Distribusi BlankOn</title>
+      <link>//localhost:1313/post/2009/03/03/buku-resmi-panduan-lengkap-distribusi-blankon/</link>
+      <pubDate>Tue, 03 Mar 2009 01:45:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/buku-resmi-panduan-lengkap-distribusi-blankon/</guid>
+      <description>&lt;p&gt;Buku panduan penggunaan blankon sudah dirilis, silakan dapatkan di sini&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf%5D(http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf)&#34;&gt;http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf](http://dl.getdropbox.com/u/546932/Binder_Buku_BlankOn.pdf)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

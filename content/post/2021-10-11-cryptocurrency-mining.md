@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  Cryptocurrency Mining
-date:   2021-10-11 00:00:00 +0700
+title: "Cryptocurrency Mining"
+date: 2021-10-11 00:00:00 +0700
 categories:
   - Tech
 tags:

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Restore on Blog</title>
+    <link>//localhost:1313/tags/restore/</link>
+    <description>Recent content in Restore on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2012 16:49:17 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/restore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPod Nano 4G hangs on boot.</title>
+      <link>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</link>
+      <pubDate>Sun, 15 Apr 2012 16:49:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</guid>
+      <description>&lt;p&gt;Malam ini saya tepok jidat karena salah memperlakukan iPod kesayangan (nano 4G). iPod ini baru balik dari pinjaman dan tidak bisa dideteksi oleh iTunes, baik di Mac maupun di Windows, malah iTunes-nya freeze. Partisinya masih terbaca, saya mencoba memformatnya dan gagal, akibatnya fatal, hasilnya seperti judul tulisan ini.&lt;/p&gt;&#xA;&lt;p&gt;Solusi pertama jika iPod nano saya bermasalah adalah menekan tombol menu dan ok selama sekitar 6-7 detik. Proses ini disebut reboot. Solusi kedua? Saya belum tahu solusi kedua sampai masalah ini terjadi. Saya pernah mencoba Diagnosis Mode dengan menahan tombol ok dan rew setelah logo apple muncul saat boot. Ternyata ada referensi lain : &lt;a href=&#34;http://support.apple.com/kb/HT1363&#34;&gt;http://support.apple.com/kb/HT1363&lt;/a&gt;. Kombinasi tombol lain yaitu ok dan play sesaat setelah reboot. iPod akan masuk ke disk mode.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desember on Blog</title>
+    <link>//localhost:1313/tags/desember/</link>
+    <description>Recent content in Desember on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2010 21:33:23 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/desember/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>e.r.k. - desember</title>
+      <link>//localhost:1313/post/2010/04/12/e.r.k.-desember/</link>
+      <pubDate>Mon, 12 Apr 2010 21:33:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/12/e.r.k.-desember/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=D3gdylnJJg4&amp;amp;feature=related]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

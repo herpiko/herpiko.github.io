@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status on Blog</title>
+    <link>//localhost:1313/tags/status/</link>
+    <description>Recent content in Status on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jan 2011 03:28:34 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sukar</title>
+      <link>//localhost:1313/post/2011/01/07/sukar/</link>
+      <pubDate>Fri, 07 Jan 2011 03:28:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/07/sukar/</guid>
+      <description>&lt;p&gt;ugh, belajar programming seperti belajar matematika. *banting ebook&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

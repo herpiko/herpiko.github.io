@@ -7,19 +7,26 @@ tags:
   - poem
   - puisi
 ---
+Ibuku bilang itu puisi-puisi di bawah bantal
 
-Ibuku bilang itu puisi-puisi di bawah bantal<br>
-Yang dikirim padanya namun bukan untuknya<br>
+Yang dikirim padanya namun bukan untuknya
+
 Yang mengusiknya saban malam
 
-Ibuku bilang itu puisi-puisi di bawah bantal<br>
-Yang tak sempat kuhantarkan juga padamu<br>
-Yang membuatnya ketawa runyam<br>
+Ibuku bilang itu puisi-puisi di bawah bantal
 
-Ibuku bilang itu puisi-puisi di bawah bantal<br>
-Yang tak ada nyali buat kubacakan padamu<br>
-Yang kadang makna ia tak paham<br>
+Yang tak sempat kuhantarkan juga padamu
 
-Kalut ia punya anak lanang pengecut<br>
-Namun tersipu dan melempar tanya maut<br>
-"Siapa namanya?" Aku hening<br>
+Yang membuatnya ketawa runyam
+
+Ibuku bilang itu puisi-puisi di bawah bantal
+
+Yang tak ada nyali buat kubacakan padamu
+
+Yang kadang makna ia tak paham
+
+Kalut ia punya anak lanang pengecut
+
+Namun tersipu dan melempar tanya maut
+
+"Siapa namanya?" Aku hening

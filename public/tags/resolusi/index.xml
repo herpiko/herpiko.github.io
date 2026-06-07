@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resolusi on Blog</title>
+    <link>//localhost:1313/tags/resolusi/</link>
+    <description>Recent content in Resolusi on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Nov 2010 01:15:12 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/resolusi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mengatur sendiri resolusi layar di ubuntu</title>
+      <link>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</link>
+      <pubDate>Mon, 08 Nov 2010 01:15:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/08/mengatur-sendiri-resolusi-layar-di-ubuntu/</guid>
+      <description>&lt;p&gt;kemarin saya ketemuan sama komputer desktop dengan VGA SIS, pakai lucid dan resolusinya tidak proposional, mentok 800x600. berhubung tidak sedang koneksi internet untuk unduh driver, kita bisa mengakalinya, dengan xrandr, cvt, dan berkas konfigurasi X, xorg.conf. secara default, xrandr dan cvt sudah terinstall di ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;pertama-tama, musti diperkirakan dulu resolusi yang tepat. misalnya, kita sudah tahu bahwa komputer/laptop ini resolusinya yang paling pas adalah 1368x768 (misalnya). kita bisa coba langsung dengan xrandr.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

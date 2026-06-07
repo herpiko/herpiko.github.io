@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Direktori on Blog</title>
+    <link>//localhost:1313/tags/direktori/</link>
+    <description>Recent content in Direktori on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Mar 2012 21:00:41 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/direktori/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>unduh direktori secara rekursif dengan wget.</title>
+      <link>//localhost:1313/post/2012/03/24/unduh-direktori-secara-rekursif-dengan-wget./</link>
+      <pubDate>Sat, 24 Mar 2012 21:00:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/24/unduh-direktori-secara-rekursif-dengan-wget./</guid>
+      <description>&lt;p&gt;ditulis sebagai catatan pengingat. caranya? simpel. contoh :&lt;/p&gt;&#xA;&lt;p&gt;[code]wget -r &amp;ndash;no-parent &lt;a href=&#34;http://ck.kolivas.org/patches/3.0/3.3/%5B/code%5D&#34;&gt;http://ck.kolivas.org/patches/3.0/3.3/[/code]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

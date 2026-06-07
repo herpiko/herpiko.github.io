@@ -7,35 +7,52 @@ tags:
   - poem
   - puisi
 ---
+Duduk perempuan itu
 
-Duduk perempuan itu<br>
-Hening di bibir pantai<br>
-Wajahnya adalah bunga<br>
-Matanya berbayang duka<br>
-Maka hatinya serupa badai<br>
-Diamuk ombak bimbang<br>
-Dihantam ragu dan petir<br>
-Dipecah belah asa sendiri<br>
+Hening di bibir pantai
 
-Bagai pohon ia<br>
-Kuat baja dahannya<br>
-Namun dalam kepalanya adalah angin<br>
-Cadas menghempas kapal<br>
-Deras merajam pulau<br>
-Lupa pada ikan-ikan<br>
-Ingat pada janji-janji<br>
+Wajahnya adalah bunga
 
-Bagai pohon ia<br>
-Diam dalam suburnya<br>
-Namun dalam dirinya adalah laut<br>
-Kelam sunyi tak berdasar<br>
-Mengerami rahasia liar<br>
-Perempuan sendirian<br>
-Memaki diri sesorean<br>
+Matanya berbayang duka
 
-Untuk lautmu yang indah itu<br>
-Aku minta maaf<br>
+Maka hatinya serupa badai
 
+Diamuk ombak bimbang
 
-<br><br><br>
+Dihantam ragu dan petir
+
+Dipecah belah asa sendiri
+
+Bagai pohon ia
+
+Kuat baja dahannya
+
+Namun dalam kepalanya adalah angin
+
+Cadas menghempas kapal
+
+Deras merajam pulau
+
+Lupa pada ikan-ikan
+
+Ingat pada janji-janji
+
+Bagai pohon ia
+
+Diam dalam suburnya
+
+Namun dalam dirinya adalah laut
+
+Kelam sunyi tak berdasar
+
+Mengerami rahasia liar
+
+Perempuan sendirian
+
+Memaki diri sesorean
+
+Untuk lautmu yang indah itu
+
+Aku minta maaf
+
 Terinspirasi dari Lelaki Sendirian-nya WS Rendra

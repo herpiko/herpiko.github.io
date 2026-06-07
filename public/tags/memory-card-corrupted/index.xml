@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory Card Corrupted on Blog</title>
+    <link>//localhost:1313/tags/memory-card-corrupted/</link>
+    <description>Recent content in Memory Card Corrupted on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jan 2011 02:49:08 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/memory-card-corrupted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mengatasi RS-MMC corrupt di N-Gage</title>
+      <link>//localhost:1313/post/2011/01/24/mengatasi-rs-mmc-corrupt-di-n-gage/</link>
+      <pubDate>Mon, 24 Jan 2011 02:49:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/24/mengatasi-rs-mmc-corrupt-di-n-gage/</guid>
+      <description>&lt;p&gt;seharusnya ini ditulis 4-5 tahun lalu. sekarang, mendapatkan MMC sangat sulit di samping standar ini sudah kalah telak dengan standar SD card, yang bisa saya dapatkan hanya RS-MMC (reduce size, berukuran setengah dari MMC), itu pun jarang yang bergaransi, yang berarti kualitasnya kurang dijamin. karena keadaan tersebut, saya terpaksa beli RS-MMC V-GEN 512 MB. yang mana kata orang ukuran 512 adalah yang paling sering bermasalah, apalagi ini MMC murahan, bukan plus.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

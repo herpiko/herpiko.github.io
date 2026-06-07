@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sampah on Blog</title>
+    <link>//localhost:1313/tags/sampah/</link>
+    <description>Recent content in Sampah on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Nov 2010 19:34:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/sampah/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>yang saya lakukan jika bertemu keylogger di warnet</title>
+      <link>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</link>
+      <pubDate>Sat, 27 Nov 2010 19:34:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/27/yang-saya-lakukan-jika-bertemu-keylogger-di-warnet/</guid>
+      <description>&lt;p&gt;terlambat dan saya panik karena sudah login dengan gmail. sampai keringat saya bercucuran dan jengkel sekali sambil sesekali melirik ke meja operator. keji benar. :(&lt;/p&gt;&#xA;&lt;p&gt;nah, apa yang saya lakukan?&lt;/p&gt;&#xA;&lt;p&gt;komputer tidak dideepfreeze maupun shadow. jelas, saya merusak windowsnya. saya menghapus ntldr, semua file di bawah system32 selain folder yang mungkin terhapus. membuat file .bat shutdown -r -t 00 dan memasang di startup all user via registry. mudahan saja diinstall ulang, amin. terakhir, mereset kasar PC-nya kemudian membayar billing dan tidak pernah muncul lagi di warnet itu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara polisi edukasi masyarakat</title>
+      <link>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</link>
+      <pubDate>Tue, 19 Oct 2010 20:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0034.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0034.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0031.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0031.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kalau teledor megang drupal</title>
+      <link>//localhost:1313/post/2010/08/19/kalau-teledor-megang-drupal/</link>
+      <pubDate>Thu, 19 Aug 2010 19:43:47 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/19/kalau-teledor-megang-drupal/</guid>
+      <description>&lt;p&gt;uh, saya harus lebih banyak belajar dan berhati-hati.&lt;/p&gt;&#xA;&lt;p&gt;kalo anda menggunakan drupal dan tidak berniat membuat akun untuk orang lain (hanya admin), cek halaman ini.&lt;/p&gt;&#xA;&lt;p&gt;http://domain/admin/user/settings&lt;/p&gt;&#xA;&lt;p&gt;pada tab public registration, centangkan paling atas. selebihnya, perhatikan dan atur baik-baik semua user rules. jangan ada satupun yang terlewat. penting!&lt;/p&gt;&#xA;&lt;p&gt;saya melakukan kesalahan di web yang saya rawat, tiga orang meregistrasikan diri dan membuat halaman dalam jumlah yang sangat banyak, lebih dari 500-an! f*ck dah. akibatnya, benwit dan space membengkak. yang awalnya hanya sekitar 50Mb membengkak jadi 200-an. semua  halaman sialan itu berisi link download lagu ke mp3way.info (sialan kamu!). jadi dah itu empetriweysialan dapet trafik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>anti kantong plastik</title>
+      <link>//localhost:1313/post/2010/06/30/anti-kantong-plastik/</link>
+      <pubDate>Wed, 30 Jun 2010 17:53:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/30/anti-kantong-plastik/</guid>
+      <description>&lt;p&gt;kalau pergi kemana-mana, saya selalu lewat &amp;lsquo;jalan belakang&amp;rsquo;. artinya, dari titik A ke titik B, saya menghindari jalan besar atau jalan raya. saya suka lewat jalan2 kecil rumah penduduk, meski jalannya berkelok2 dan jadi lebih jauh. saya menghindari asap kendaraan bermotor.&lt;/p&gt;&#xA;&lt;p&gt;nah, setiap pulang pergi kerja, jalan yang saya pilih, melewati salah satu TPS (tempat pembuangan sementara), letaknya persis di samping jembatan di kota ampenan. bau? iya. bau tak masalah, saya bisa tahan nafas lewat sana. tapi yang bikin dada sesak, terlalu banyak sampah, terlalu banyak. kenapa terlalu banyak sampah? terlalu banyak manusia yang hidup kurangnya kesadaran masyarakat.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

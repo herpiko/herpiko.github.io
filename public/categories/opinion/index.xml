@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Opinion on Blog</title><link>/categories/opinion/</link><description>Recent content in Opinion on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0700</lastBuildDate><atom:link href="/categories/opinion/index.xml" rel="self" type="application/rss+xml"/><item><title>Anak dan Video Gim</title><link>/post/2021/07/03/anak-dan-video-gim/</link><pubDate>Sat, 03 Jul 2021 00:00:00 +0700</pubDate><guid>/post/2021/07/03/anak-dan-video-gim/</guid><description>&lt;p&gt;Saya dan saudara-saudara saya tumbuh di keluarga pengusaha yang ketat tentang apa yang boleh dan tidak boleh dilakukan oleh anak mereka. Bapak saya membolehkan apa pun selama hal itu terkait dengan sekolah. Pilihan atau keputusan-keputusan orang tua saya itu adalah hak mereka. Saya patut mematuhi mereka sampai saya diizinkan untuk mengambil keputusan penting sendirian. Namun saya menyayangkan satu hal yaitu betapa tidak sukanya orang tua saya terhadap video gim, apa pun bentuknya. Orang tua saya pastinya memiliki alasan tersendiri.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinion on Blog</title>
+    <link>//localhost:1313/categories/opinion/</link>
+    <description>Recent content in Opinion on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anak dan Video Gim</title>
+      <link>//localhost:1313/post/2021/07/03/anak-dan-video-gim/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0700</pubDate>
+      <guid>//localhost:1313/post/2021/07/03/anak-dan-video-gim/</guid>
+      <description>&lt;p&gt;Saya dan saudara-saudara saya tumbuh di keluarga pengusaha yang ketat tentang apa yang boleh dan tidak boleh dilakukan oleh anak mereka. Bapak saya membolehkan apa pun selama hal itu terkait dengan sekolah. Pilihan atau keputusan-keputusan orang tua saya itu adalah hak mereka. Saya patut mematuhi mereka sampai saya diizinkan untuk mengambil keputusan penting sendirian. Namun saya menyayangkan satu hal yaitu betapa tidak sukanya orang tua saya terhadap video gim, apa pun bentuknya. Orang tua saya pastinya memiliki alasan tersendiri.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

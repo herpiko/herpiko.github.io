@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Squeeze on Blog</title>
+    <link>//localhost:1313/tags/squeeze/</link>
+    <description>Recent content in Squeeze on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Apr 2011 13:34:26 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/squeeze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bug removable storage sdb1 di debian squeeze</title>
+      <link>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</link>
+      <pubDate>Sat, 30 Apr 2011 13:34:26 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/30/bug-removable-storage-sdb1-di-debian-squeeze/</guid>
+      <description>&lt;p&gt;sudah sebulanan ngeloni debian baru sekarang ngeh.&lt;/p&gt;&#xA;&lt;p&gt;Error mounting: mount exited with exit code 1: helper failed with:mount: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error In some cases useful info is found in syslog - try dmesg | tail or so&lt;/p&gt;&#xA;&lt;p&gt;pesan itu selalu muncul kalau saya nyolokin usb, sd card, ataupun hdd eksternal. anehnya, usb/sd card/hdd ext tersebut tetap bisa dimout dengan perintah sudo mount di terminal dan bisa digunakan seperti biasa. tapi tentu saja hal itu sangat merepotkan. dan lebih aneh lagi, perangkat removable storage kedua yang dicolokkan akan dimount otomatis tanpa masalah, yang berarti itu akan lari ke dev setelah sdb, mungkin sdf atau sdg.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>daftar repositori debian squeeze di Indonesia</title>
+      <link>//localhost:1313/post/2011/04/03/daftar-repositori-debian-squeeze-di-indonesia/</link>
+      <pubDate>Sun, 03 Apr 2011 10:15:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/04/03/daftar-repositori-debian-squeeze-di-indonesia/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Universitas Indonesia (Kambing)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kambing.ui.edu/debian&#34;&gt;http://kambing.ui.edu/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PENS ITS – Surabaya&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://kebo.vlsm.org/debian&#34;&gt;http://kebo.vlsm.org/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Institut Teknologi Sepuluh Nopember – Surabaya&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://mirror.its.ac.id/debian&#34;&gt;http://mirror.its.ac.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;UGM&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://repo.ugm.ac.id/debian&#34;&gt;http://repo.ugm.ac.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Indika&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://debian.indika.net.id/debian&#34;&gt;http://debian.indika.net.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;KLAS&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;deb &lt;a href=&#34;http://buaya.klas.or.id/debian&#34;&gt;http://buaya.klas.or.id/debian&lt;/a&gt; squeeze main non-free contrib&lt;/p&gt;&#xA;&lt;p&gt;sebenarnya di lenny ada lagi, stable-proposed-updates, debian-security, debian-volatile. tapi saya coba kok gag konek gitu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>debian squeeze &#43; WN322G v3 (atheros)</title>
+      <link>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</link>
+      <pubDate>Thu, 24 Mar 2011 21:16:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/03/24/debian-squeeze--wn322g-v3-atheros/</guid>
+      <description>&lt;p&gt;yak, setelah seminggu lebih mondar-mandir akhirnya bisa juga. ternyata bukan dari paket firmware-atheros maupun madwifi (yang mana saya kira sudah discontinued mungkin).&lt;/p&gt;&#xA;&lt;p&gt;tapi langsung dari wireless.kernel.org. unduh paket compat-wireless terakhir.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;tar -zxvf compat*&lt;/p&gt;&#xA;&lt;p&gt;cd compat*&lt;/p&gt;&#xA;&lt;p&gt;make&lt;/p&gt;&#xA;&lt;p&gt;sudo make install&lt;/p&gt;&#xA;&lt;p&gt;[/code]&lt;/p&gt;&#xA;&lt;p&gt;make-nya memang lama banget. setelah make install selesai, tinggal modprobe module-nya. ath9k ada 4 tapi saya ndak tau yang mana, yang jelas saya aktifkan semua module ini satu-satu, setelah selesai eh tau-tau network-manager sudah connected via wifi. agar diload saat booting, saya menuliskannya ke /etc/modules, semuanya.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

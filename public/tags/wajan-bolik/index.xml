@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wajan Bolik on Blog</title>
+    <link>//localhost:1313/tags/wajan-bolik/</link>
+    <description>Recent content in Wajan Bolik on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 May 2011 14:19:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wajan-bolik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>baladawajanbolik</title>
+      <link>//localhost:1313/post/2011/05/10/baladawajanbolik/</link>
+      <pubDate>Tue, 10 May 2011 14:19:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/10/baladawajanbolik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/05/untitled.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/untitled.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

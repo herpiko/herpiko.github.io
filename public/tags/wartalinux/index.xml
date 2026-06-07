@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wartalinux on Blog</title>
+    <link>//localhost:1313/tags/wartalinux/</link>
+    <description>Recent content in Wartalinux on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jan 2011 16:58:06 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wartalinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Scribus</title>
+      <link>//localhost:1313/post/2011/01/28/tutorial-scribus/</link>
+      <pubDate>Fri, 28 Jan 2011 16:58:06 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/28/tutorial-scribus/</guid>
+      <description>&lt;p&gt;yoi, ini tulisan lama di wartalinux, sayang sudah tidak aktif. direpost disini untuk arsip. saya bahkan lupa bagaimana lanjutin tutorial ini.&lt;/p&gt;&#xA;&lt;p&gt;Hmm, dengan apa versi pdf wartalinux dibuat? Infonya sudah nongol di  rubrik paket. Adalah Scribus, sebuah aplikasi publising opensource yang  cukup lengkap. Bukan OpenOffice? Dengan fitur export pdf-nya, OpenOffice  memungkinkan kita membuat file pdf dari dokumen kita tapi sayangnya  banyak kekurangan dan bug yang menyertainya. Maka kembali ke Scribus  yang telah menjadi pilihan tepat. Selain mendukung PDF, Scribus bisa  mengimport file gambar (tentu saja), SVG, Postscript, dan banyak fitur  lainnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versi PDF Wartalinuk</title>
+      <link>//localhost:1313/post/2009/06/28/versi-pdf-wartalinuk/</link>
+      <pubDate>Sun, 28 Jun 2009 16:47:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/28/versi-pdf-wartalinuk/</guid>
+      <description>&lt;p&gt;Hohoho, udah ada versi pdf dari wartalinuk, doakan tetap maju&amp;hellip;:D&lt;/p&gt;&#xA;&lt;p&gt;Setelah mempertimbangkan beberapa hal, kami memutuskan untuk merilis versi PDF dari setiap edisi yang bersangkutan. Untuk sementara ini, baru Wartalinux edisi perdana yang sudah dibuatkan PDF-nya. Edisi-edisi selanjutnya segera menyusul dan akan diupayakan versi PDF dirilis bersamaan versi single html-nya.&lt;/p&gt;&#xA;&lt;p&gt;Silakan unduh &lt;a href=&#34;http://www.ziddu.com/downloadlink/5354391/wartalinux-0.pdf&#34;&gt;versi PDF Wartalinux #0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kirimkan masukan saran dan kritik anda mengenai versi PDF ini ke &lt;a href=&#34;mailto:wartalinux@gmail.com&#34;&gt;wartalinux@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Redaksi,&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

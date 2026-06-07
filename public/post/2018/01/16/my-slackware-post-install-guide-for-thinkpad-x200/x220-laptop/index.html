@@ -1,11 +1,120 @@
-<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>My Slackware Post Install Guide for Thinkpad X200/X220 Laptop | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/now/>~/now</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><div class=article-meta><h1><span class=title>My Slackware Post Install Guide for Thinkpad X200/X220 Laptop</span></h1><div style=font-size:.8em;color:grey;line-height:1.2em><span class=date>Date: 2018/01/16</span><br><span class=terms>Categories:
-<a href=/categories/blog>blog</a><br><br></span></div></div><div class=content-wrapper><main><p>There are times where I flushed the Slackware partition for another purpose. Especially when I have to hack on BlankOn project. I always want to reinstall Slackware, and reinstall and reinstall again. It&rsquo;s tiring. So, this is my fast post install guide for my Slackware setup to get the machine work-ready. This applied for Slackware 14.2.</p><h1 id=pre-installation>Pre-installation</h1><pre tabindex=0><code>dd if=slackware-14.2-install-dvd.iso of=/dev/sdX
-</code></pre><h1 id=installation>Installation</h1><p>I just exclude <code>kde*</code> packages since I use XFCE4 instead.</p><h1 id=post-installation>Post-installation</h1><h2 id=wicd>wicd</h2><p><code>wicd</code> is a network manager that just works. It is located in <code>/extra/wicd/</code> in the ISO image.</p><pre tabindex=0><code># installpkg pkgname.txz
-</code></pre><h2 id=colemak-keyboard>Colemak keyboard</h2><p>No need to download Colemak kmap file from Colemak.com. Colemak layout is already installed in the system. Just put the line :</p><pre tabindex=0><code># echo &#34;loadkeys /usr/share/kbd/keymaps/i386/colemak/en-latin9.map.gz&#34; &gt;&gt; /etc/rc.d/rc.local
-</code></pre><p>If you use XFCE4, add this command line to startup applications :</p><pre tabindex=0><code>setxkbmap us -variant colemak
-</code></pre><h2 id=trackpoint>Trackpoint</h2><p>One line to rule them all :</p><pre tabindex=0><code># cat /etc/udev/rules.d/10-trackpoint.rules
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>My Slackware Post Install Guide for Thinkpad X200/X220 Laptop | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">My Slackware Post Install Guide for Thinkpad X200/X220 Laptop</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2018/01/16</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/blog">blog</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>There are times where I flushed the Slackware partition for another purpose. Especially when I have to hack on BlankOn project. I always want to reinstall Slackware, and reinstall and reinstall again. It&rsquo;s tiring. So, this is my fast post install guide for my Slackware setup to get the machine work-ready. This applied for Slackware 14.2.</p>
+<h1 id="pre-installation">Pre-installation</h1>
+<pre tabindex="0"><code>dd if=slackware-14.2-install-dvd.iso of=/dev/sdX
+</code></pre><h1 id="installation">Installation</h1>
+<p>I just exclude <code>kde*</code> packages since I use XFCE4 instead.</p>
+<h1 id="post-installation">Post-installation</h1>
+<h2 id="wicd">wicd</h2>
+<p><code>wicd</code> is a network manager that just works. It is located in <code>/extra/wicd/</code> in the ISO image.</p>
+<pre tabindex="0"><code># installpkg pkgname.txz
+</code></pre><h2 id="colemak-keyboard">Colemak keyboard</h2>
+<p>No need to download Colemak kmap file from Colemak.com. Colemak layout is already installed in the system. Just put the line :</p>
+<pre tabindex="0"><code># echo &#34;loadkeys /usr/share/kbd/keymaps/i386/colemak/en-latin9.map.gz&#34; &gt;&gt; /etc/rc.d/rc.local
+</code></pre><p>If you use XFCE4, add this command line to startup applications :</p>
+<pre tabindex="0"><code>setxkbmap us -variant colemak
+</code></pre><h2 id="trackpoint">Trackpoint</h2>
+<p>One line to rule them all :</p>
+<pre tabindex="0"><code># cat /etc/udev/rules.d/10-trackpoint.rules
 ACTION==&#34;add&#34;, SUBSYSTEM==&#34;input&#34;, ATTR{name}==&#34;TPPS/2 IBM TrackPoint&#34;, ATTR{device/sensitivity}=&#34;250&#34;, ATTR{device/press_to_select}=&#34;1&#34;
-</code></pre><p>Nay, it needs more for scrolling page. Trackpoint should not be called <code>trackpoint</code> if it doesn&rsquo;t work together with the middle blue button.</p><pre tabindex=0><code># cat /etc/X11/xorg.conf.d/20-thinkpad.conf
+</code></pre><p>Nay, it needs more for scrolling page. Trackpoint should not be called <code>trackpoint</code> if it doesn&rsquo;t work together with the middle blue button.</p>
+<pre tabindex="0"><code># cat /etc/X11/xorg.conf.d/20-thinkpad.conf
 Section &#34;InputClass&#34;
 	Identifier	&#34;Trackpoint Wheel Emulation&#34;
 	MatchProduct	&#34;TPPS/2 IBM TrackPoint|DualPoint Stick|Synaptics Inc. Composite TouchPad / TrackPoint|ThinkPad USB Keyboard with TrackPoint|USB Trackpoint pointing device|Composite TouchPad / TrackPoint&#34;
@@ -16,15 +125,79 @@ Section &#34;InputClass&#34;
 	Option		&#34;XAxisMapping&#34;		&#34;6 7&#34;
 	Option		&#34;YAxisMapping&#34;		&#34;4 5&#34;
 EndSection
-</code></pre><h2 id=user-and-groups>User and groups</h2><pre tabindex=0><code>adduser herpiko
-</code></pre><p>Make sure the user has the required groups, in case you forgot to add when creating new user.</p><pre tabindex=0><code># groups herpiko
+</code></pre><h2 id="user-and-groups">User and groups</h2>
+<pre tabindex="0"><code>adduser herpiko
+</code></pre><p>Make sure the user has the required groups, in case you forgot to add when creating new user.</p>
+<pre tabindex="0"><code># groups herpiko
 herpiko : users lp wheel floppy audio video cdrom plugdev power netdev scanner
-</code></pre><p>How to add a grup,</p><pre tabindex=0><code># usermod -a -G power herpiko
+</code></pre><p>How to add a grup,</p>
+<pre tabindex="0"><code># usermod -a -G power herpiko
 # usermod -a -G wheel herpiko
-</code></pre><p>Add the user to sudoers and some commands to support suspend.</p><pre tabindex=0><code>herpiko ALL=(ALL) ALL
+</code></pre><p>Add the user to sudoers and some commands to support suspend.</p>
+<pre tabindex="0"><code>herpiko ALL=(ALL) ALL
 herpiko ALL=(ALL) NOPASSWD:/usr/sbin/pm-suspend-hybrid
 herpiko ALL=(ALL) NOPASSWD:/usr/bin/xfce4-power-manager
-</code></pre><h2 id=power-and-suspend>Power and Suspend</h2><p>Now you can do <code>sudo /usr/bin/xfce4-power-manager</code> without password. Suspend and other power settings are disabled in normal user, even if the user are in <code>power</code> group. Disable <code>Power Manager</code> related item in Settings > Startup, then add new item, <code>Power manager by sudo</code> with the command <code>sudo /usr/bin/xfce4-power-manager</code>. Then reboot. Now you shoud can do suspend flawlessly.</p><p>But only for the first suspend, in second suspend attempt the computer will be crashed. Sorry. The culprit is TXT feature in the BIOS of X200 (see in Security section). Disable it.</p><h2 id=escape-key-on-x200>Escape key on X200</h2><p>I depend my life on Vim heavily. There is alternative like <code>Ctrl + [</code> but I just love striking the Esc key. Thinkpad X200 has a trolling-layout on its keyboard. Lets fix this with :</p><pre tabindex=0><code>$ echo &#39;xmodmap -e &#34;keycode 67 = Escape&#34;&#39; &gt;&gt; ~/.bashrc
-</code></pre><h2 id=slackbuild-and-sbopkg>Slackbuild and sbopkg</h2><p>Please consult to <a href=https://www.sbopkg.org/downloads.php>https://www.sbopkg.org/downloads.php</a></p><h2 id=docker>Docker</h2><p>You need to install some packages from Sbopkg :</p><ul><li>google-go-lang</li></ul><p>Run this, <code>/etc/etc/profile.d/go.sh</code>, then install another package from Sbopkg :</p><ul><li>containerd</li></ul><p>Then install this prebuild packages (from my Dropbox folder) : <a href="https://www.dropbox.com/sh/ki8nngtzjh2v6ay/AADFfvA0iX1lMkFRY9mJZHRIa?dl=0">https://www.dropbox.com/sh/ki8nngtzjh2v6ay/AADFfvA0iX1lMkFRY9mJZHRIa?dl=0</a></p><p>Add the <code>docker</code> group, then add the group to current user</p><pre tabindex=0><code># groupadd docker
+</code></pre><h2 id="power-and-suspend">Power and Suspend</h2>
+<p>Now you can do <code>sudo /usr/bin/xfce4-power-manager</code> without password. Suspend and other power settings are disabled in normal user, even if the user are in <code>power</code> group. Disable <code>Power Manager</code> related item in Settings &gt; Startup, then add new item, <code>Power manager by sudo</code> with the command <code>sudo /usr/bin/xfce4-power-manager</code>. Then reboot. Now you shoud can do suspend flawlessly.</p>
+<p>But only for the first suspend, in second suspend attempt the computer will be crashed. Sorry. The culprit is TXT feature in the BIOS of X200 (see in Security section). Disable it.</p>
+<h2 id="escape-key-on-x200">Escape key on X200</h2>
+<p>I depend my life on Vim heavily. There is alternative like <code>Ctrl + [</code> but I just love striking the Esc key. Thinkpad X200 has a trolling-layout on its keyboard. Lets fix this with :</p>
+<pre tabindex="0"><code>$ echo &#39;xmodmap -e &#34;keycode 67 = Escape&#34;&#39; &gt;&gt; ~/.bashrc
+</code></pre><h2 id="slackbuild-and-sbopkg">Slackbuild and sbopkg</h2>
+<p>Please consult to <a href="https://www.sbopkg.org/downloads.php">https://www.sbopkg.org/downloads.php</a></p>
+<h2 id="docker">Docker</h2>
+<p>You need to install some packages from Sbopkg :</p>
+<ul>
+<li>google-go-lang</li>
+</ul>
+<p>Run this, <code>/etc/etc/profile.d/go.sh</code>, then install another package from Sbopkg :</p>
+<ul>
+<li>containerd</li>
+</ul>
+<p>Then install this prebuild packages (from my Dropbox folder) : <a href="https://www.dropbox.com/sh/ki8nngtzjh2v6ay/AADFfvA0iX1lMkFRY9mJZHRIa?dl=0">https://www.dropbox.com/sh/ki8nngtzjh2v6ay/AADFfvA0iX1lMkFRY9mJZHRIa?dl=0</a></p>
+<p>Add the <code>docker</code> group, then add the group to current user</p>
+<pre tabindex="0"><code># groupadd docker
 # usermod -a -G docker herpiko
-</code></pre><p>Reboot, run <code>dockerd</code> as root then you can use <code>docker</code> as non-root user.</p><h2 id=internet-browser>Internet Browser</h2><p>Just install the blazingly fast Firefox Quantum (>57).</p><br><br><a href=/>>> Home</a></main></div><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>
+</code></pre><p>Reboot, run <code>dockerd</code> as root then you can use <code>docker</code> as non-root user.</p>
+<h2 id="internet-browser">Internet Browser</h2>
+<p>Just install the blazingly fast Firefox Quantum (&gt;57).</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

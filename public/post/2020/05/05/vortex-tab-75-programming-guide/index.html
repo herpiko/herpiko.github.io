@@ -1,2 +1,179 @@
-<!doctype html><html lang=en-us><head><link rel=apple-touch-icon sizes=57x57 href=/images/favicon.ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/images/favicon.ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/images/favicon.ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/images/favicon.ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/images/favicon.ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/images/favicon.ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon.ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/images/favicon.ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/images/favicon.ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/images/favicon.ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/images/favicon.ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon.ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/images/favicon.ico/favicon-16x16.png><link rel=manifest href=/images/favicon.ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/images/favicon.ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=manifest href=/images/site.webmanifest><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A simple, minimal blog for those who love text."><title>Vortex Tab 75 Programming Guide | Blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/theme-override.css><header><nav><ul><li class=pull-left><a href=/>~/blog</a></li><li class=pull-left><a href=/now/>~/now</a></li><li class=pull-left><a href=/tech_talks/>~/tech_talks</a></li><li class=pull-left><a href=/photographs/>~/photographs</a></li><li class=pull-right><a href=/index.xml>~/subscribe</a></li></ul></nav></header></head><body><br><div class=article-meta><h1><span class=title>Vortex Tab 75 Programming Guide</span></h1><div style=font-size:.8em;color:grey;line-height:1.2em><span class=date>Date: 2020/05/05</span><br><span class=terms>Categories:
-<a href=/categories/mechanical-keyboard>mechanical keyboard</a><br><br></span></div></div><div class=content-wrapper><main><p>I need to write it down here so there will be no need to visit Vortex Gears&rsquo;s incomplete documentation in the future.</p><h3 id=programming>Programming</h3><ul><li>Plug in the cable, you need the LED to guide you</li><li><code>PN</code> + <code>LEFT_CTRL</code> (original position) to enter programming mode</li><li>Press the key that want to be programmed</li><li>Press the target key</li><li><code>PN</code> to apply</li><li><code>PN</code> + <code>LEFT_CTRL</code> to exit</li></ul><p>It&rsquo;s possible to lose a key. Sometimes you need to backup it first. Be careful.</p><h3 id=reset>Reset</h3><ul><li>Reset the current layer key-codes: Hold <code>PN</code> + <code>R</code> (original position)</li><li>Reset all layers’ key-codes and restore it to default: Hold <code>LEFT_ALT</code> + <code>RIGHT_ALT</code> (original position)</li></ul><h3 id=bluetooth>Bluetooth</h3><ul><li><code>PN</code> + <code>LEFT_ALT</code> (on the left of the space bar key) for 3 seconds</li><li><code>PN</code> + <code>J</code> or <code>K</code> or <code>L</code> (current position)</li><li>Pair the device</li></ul><h3 id=fn-swap>Fn swap</h3><ul><li>Hit <code>FN</code> + <code>LEFT_SHIFT</code> for 3 seconds then select new <code>FN</code> key directly</li></ul><h3 id=pn-swap>Pn swap</h3><ul><li>Hit <code>PN</code> + <code>LEFT_SHIFT</code> for 3 seconds then select new <code>PN</code> key directly</li></ul><h3 id=layer>Layer</h3><ul><li><code>PN</code> + <code>M</code> or <code>&lt;</code> or <code>></code> (original position), indicator on left LED.</li></ul><h3 id=layout>Layout</h3><ul><li><code>PN</code> + <code>RIGHT_SHIFT</code> (cycle) to change layout, indicator on right LED. No LED for Qwerty, red for Colemak, green for Dvorak</li></ul><h3 id=operating-system>Operating system</h3><ul><li><code>PN</code> + <code>Q</code> or <code>W</code> or <code>E</code> (original position) for Windows, Mac and Linux respectively</li></ul><br><br><a href=/>>> Home</a></main></div><footer><script>(function(){function n(e){var t,n,o,s=document.getElementsByTagName(e);for(n=0;n<s.length;n++)if(o=s[n],t=o.parentElement,t.childNodes.length===1){if(t.nodeName==="A"&&(t=t.parentElement,t.childNodes.length!=1))continue;t.nodeName==="P"&&(t.style.textAlign="center")}}for(var t=["img","embed","object"],e=0;e<t.length;e++)n(t[e])})()</script><hr><a href=https://github.com/herpiko>Github</a> | <a href=https://www.linkedin.com/in/herpiko/>LinkedIn</a></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Vortex Tab 75 Programming Guide | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Vortex Tab 75 Programming Guide</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2020/05/05</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/mechanical-keyboard">mechanical keyboard</a>
+      
+    <br/>
+    
+    
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>I need to write it down here so there will be no need to visit Vortex Gears&rsquo;s incomplete documentation in the future.</p>
+<h3 id="programming">Programming</h3>
+<ul>
+<li>Plug in the cable, you need the LED to guide you</li>
+<li><code>PN</code> + <code>LEFT_CTRL</code> (original position) to enter programming mode</li>
+<li>Press the key that want to be programmed</li>
+<li>Press the target key</li>
+<li><code>PN</code> to apply</li>
+<li><code>PN</code> + <code>LEFT_CTRL</code> to exit</li>
+</ul>
+<p>It&rsquo;s possible to lose a key. Sometimes you need to backup it first. Be careful.</p>
+<h3 id="reset">Reset</h3>
+<ul>
+<li>Reset the current layer key-codes: Hold <code>PN</code> + <code>R</code> (original position)</li>
+<li>Reset all layers’ key-codes and restore it to default: Hold <code>LEFT_ALT</code> + <code>RIGHT_ALT</code> (original position)</li>
+</ul>
+<h3 id="bluetooth">Bluetooth</h3>
+<ul>
+<li><code>PN</code> + <code>LEFT_ALT</code> (on the left of the space bar key) for 3 seconds</li>
+<li><code>PN</code> + <code>J</code> or <code>K</code> or <code>L</code> (current position)</li>
+<li>Pair the device</li>
+</ul>
+<h3 id="fn-swap">Fn swap</h3>
+<ul>
+<li>Hit <code>FN</code> + <code>LEFT_SHIFT</code> for 3 seconds then select new <code>FN</code> key directly</li>
+</ul>
+<h3 id="pn-swap">Pn swap</h3>
+<ul>
+<li>Hit <code>PN</code> + <code>LEFT_SHIFT</code> for 3 seconds then select new <code>PN</code> key directly</li>
+</ul>
+<h3 id="layer">Layer</h3>
+<ul>
+<li><code>PN</code> + <code>M</code> or <code>&lt;</code> or <code>&gt;</code> (original position), indicator on left LED.</li>
+</ul>
+<h3 id="layout">Layout</h3>
+<ul>
+<li><code>PN</code> + <code>RIGHT_SHIFT</code> (cycle) to change layout, indicator on right LED. No LED for Qwerty, red for Colemak, green for Dvorak</li>
+</ul>
+<h3 id="operating-system">Operating system</h3>
+<ul>
+<li><code>PN</code> + <code>Q</code> or <code>W</code> or <code>E</code> (original position) for Windows, Mac and Linux respectively</li>
+</ul>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

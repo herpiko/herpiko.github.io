@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on Blog</title>
+    <link>//localhost:1313/tags/server/</link>
+    <description>Recent content in Server on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2011 11:17:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>server kantor</title>
+      <link>//localhost:1313/post/2011/02/26/server-kantor/</link>
+      <pubDate>Sat, 26 Feb 2011 11:17:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/26/server-kantor/</guid>
+      <description>&lt;p&gt;salah satu mesin ibm disini isinya centos. kalau ada masalah jaringan, langsung lari kesini dan berdiri menggigil kedinginan. kalau sudah selesai kaki sakit sekali. kursi tak setinggi ini (atau saya yang kurang tinggi?).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small4.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small4.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>memindahkan database mysql dengan kopas</title>
+      <link>//localhost:1313/post/2010/12/19/memindahkan-database-mysql-dengan-kopas/</link>
+      <pubDate>Sun, 19 Dec 2010 23:28:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/19/memindahkan-database-mysql-dengan-kopas/</guid>
+      <description>&lt;p&gt;kondisi : sebuah komputer spesifikasi tinggi milik pemerintah dengan sistem operasi windows 2000 server, di dalamnya terinstall wamp server (windows-apache-mysql-php) dan diatasnya berjalan aplikasi cms milik pemerintah, yaitu pendataan warga keluarga berencana seluruh indonesia, namanya BKKBN. komputer ini bisa diakses via jaringan untuk memasukkan data dari komputer lain. nah, pendek kata, komputer ini rusak, blue screen dan ada pesan error not exist or corrupt blablabla. keren!&lt;/p&gt;&#xA;&lt;p&gt;nah, bagaimana cara memindahkan cms+databasenya di komputer lain dan jalan lancar? &lt;em&gt;bisakah langsung copy paste&lt;/em&gt;? saya pikir tidak bisa ngasal begitu, tetapi ternyata bisa. perlu diingat, paket aplikasi yang digunakan di sini adalah wamp, bukan xamp (pakai xamp juga bisa). wamp tidak menyediakan phpmyadmin (meski ada folder bernama phpmyadmin di dalamnya) sehingga bagi saya yang masih awam soal mysql, kesulitan mengexport databasenya. jadi, yang kepikiran di otak saya adalah langsung kopas di komputer lain yang ada apache-mysql-php.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

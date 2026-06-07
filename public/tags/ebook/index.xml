@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ebook on Blog</title>
+    <link>//localhost:1313/tags/ebook/</link>
+    <description>Recent content in Ebook on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jul 2011 22:08:51 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wireless Networking in the Developing World</title>
+      <link>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</link>
+      <pubDate>Mon, 18 Jul 2011 22:08:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/18/wireless-networking-in-the-developing-world/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://wndw.net/&#34;&gt;http://wndw.net/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ebook daniel keyes</title>
+      <link>//localhost:1313/post/2010/07/25/ebook-daniel-keyes/</link>
+      <pubDate>Sun, 25 Jul 2010 09:35:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/25/ebook-daniel-keyes/</guid>
+      <description>&lt;p&gt;keduanya sudah masuk ke daftar &amp;lsquo;wajib baca&amp;rsquo; saya. tidak terlalu buruk kok. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ziddu.com/download/10877960/PertarunganJiwaBilly.zip.html&#34;&gt;http://www.ziddu.com/download/10877960/PertarunganJiwaBilly.zip.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ziddu.com/download/10877961/Charlie.zip.html&#34;&gt;http://www.ziddu.com/download/10877961/Charlie.zip.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>beginning python - from novice to professional</title>
+      <link>//localhost:1313/post/2010/06/22/beginning-python-from-novice-to-professional/</link>
+      <pubDate>Tue, 22 Jun 2010 22:06:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/22/beginning-python-from-novice-to-professional/</guid>
+      <description>&lt;p&gt;banyak membantu saya belajar python. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ziddu.com/download/10400985/beginning-python-novice-to-professional.pdf.html&#34;&gt;unduh&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

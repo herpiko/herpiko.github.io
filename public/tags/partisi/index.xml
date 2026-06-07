@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partisi on Blog</title>
+    <link>//localhost:1313/tags/partisi/</link>
+    <description>Recent content in Partisi on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Nov 2011 01:45:43 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/partisi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rekoper tabel partisi</title>
+      <link>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</link>
+      <pubDate>Thu, 10 Nov 2011 01:45:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</guid>
+      <description>&lt;p&gt;pernah ndak ngalamin partisi hdd kita jadi aneh? saat mau diinstall sistem operasi, installernya (baik linux, mac, maupun windows) mendeteksi bawah hdd itu tidak punya partisi, kosong. padahal kalau booting ke sistem operasi yang sudah ada, partisinya masih ada, lengkap dengan data.&lt;/p&gt;&#xA;&lt;p&gt;yep, itu bisa diperbaiki hanya dengan memformat ulang salah satu partisi. mumpung masih bisa booting dan bisa dideteksi oleh sistem operasi, gunakan partisi manager (gparted, diskutility, maupun partition magic, semua bisa) dan format salah satu partisi yang ndak penting. kalau semua penting, backup salah satu kemudian format. saya kira itu akan mengembalikan informasi tabel partisi ke MBR. tapi bener kok, di saya masalahnya solved. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NTFS</title>
+      <link>//localhost:1313/post/2011/08/10/ntfs/</link>
+      <pubDate>Wed, 10 Aug 2011 09:57:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/10/ntfs/</guid>
+      <description>&lt;p&gt;mengapa NTFS? sebagai pengguna linux yang konsisten (halah belakangan juga poligami sama mac), saya pernah merasa bahwa memasang semua hal yang berbau windows sebagai bagian fundamental dari komputer saya adalah tabu. saya tidak menggunakan fat maupun ntfs sebagai filesystem data.&lt;/p&gt;&#xA;&lt;p&gt;tapi sekarang pemikiran saya berubah karena beberapa alasan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;universal. linux memang universal untuk mengakses semua jenis filesystem, tapi ntfs lebih universal untuk diakses semua OS. ada ntfs-3g untuk linux maupun mac. sebagai pengguna triple os windows linux mac dalam satu komputer, saya pikir ntfs adalah pilihan yang tepat. dibanding menggunakan ext atau hfs. fat mungkin lebih universal ketimbang ntfs tapi ntfs punya penutup kekurangan fat yang saya kira terlalu sayang untuk diabaikan.&lt;/li&gt;&#xA;&lt;li&gt;recovery ability. entah terformat atau terhapus, jauh lebih mudah merecovery data-data yang hilang di ntfs ketimbang filesystem lain. saya pernah kehilangan data karena tidak sengaja mengganti tabel MBR ke GPT saat memasang mac, tapi semua data saya bisa diangkat kembali. ah&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;seperti idealis yang harus realis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>defragment fat di linux</title>
+      <link>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</link>
+      <pubDate>Thu, 27 Jan 2011 04:05:10 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/27/defragment-fat-di-linux/</guid>
+      <description>&lt;p&gt;sejauh saya googling sana sini sampai kesandung, saya belum temukan tool untuk defragment partisi fat di linux. yeah, ada partition logic tapi saya kira itu livecd. di filesystem varian unix tidak ada istilah defragment karena konsepnya berbeda dengan ntfs/fat, dan itu saya kurang ngerti.&lt;/p&gt;&#xA;&lt;p&gt;nah, belajar dari pengalaman sebelumnya, ada cara untuk defragment di fat. mungkin ini bukan defragment tapi konsepnya sama, yaitu mengisi kekosongan dan merapikan file2.&lt;/p&gt;&#xA;&lt;p&gt;karena yang saya perlukan untuk didefrag adalah sebuah MMC yang hanya berukuran 512MB, ini mudah. caranya adalah, kita mennyalin semua isi partisi tersebut ke folder di partisi lain, lalu memformat partisi fat dengan gparted, kemudian menyalin kembali isi partisi MMC ke tempat semula.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Slackpkg | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Slackpkg</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/03/22</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/path">PATH</a>, 
+        <a href="/tags/path-environment">PATH environment</a>, 
+        <a href="/tags/repo">repo</a>, 
+        <a href="/tags/repository">repository</a>, 
+        <a href="/tags/slackpkg">slackpkg</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Slackware tidak seburuk yang dibayangkan. Ada sisi mudahnya, salah satunya slackpkg, paket manajer semacam apt-get. Slackpkg ada di direktori slackware$arch/ap/. Pasang slackpkg.</p>
+<p>[code]#installpkg slackpkg*[/code]</p>
+<p>Sunting berkas /etc/slackpkg/mirrors dan masukkan server repositori yang ingin digunakan. saya menggunakan repo UKDW yang dikelola Mas Willy. Berikan simbol comment (#) di semua baris dan tambahkan baris ini.</p>
+<p>[code]# Indonesia,</p>
+<p><a href="http://repo.ukdw.ac.id/slackware/slackware64t/%5B/code%5D">http://repo.ukdw.ac.id/slackware/slackware64t/[/code]</a></p>
+<p>Kemudian perbarui slackpkg anda. Hal ini mirip dengan &lsquo;apt-get update&rsquo;, untuk mendapatkan informasi paket terbaru. Sekarang tinggal pasang paket yang diinginkan.</p>
+<p>[code]#slackpkg install mozilla-firefox[/code]</p>
+<p>atau memperbarui paket</p>
+<p>[code]#slackpkg upgrade mozilla-firefox[/code]</p>
+<p>atau mencari nama paket bila anda bingung apa nama paket di repo slackpkg. Kadang-kadang nama paket berbeda di setiap disribusi.</p>
+<p>[code]#slackpkg search firefox</p>
+<p>Looking for firefox in package list. Please wait&hellip; DONE</p>
+<p>The list below shows all packages with name matching &ldquo;firefox&rdquo;.</p>
+<p>[ installed ] - mozilla-firefox-11.0-x86_64-1_slack13.37</p>
+<p>You can search specific files using &ldquo;slackpkg file-search file&rdquo;.[/code]</p>
+<p>Kalau update semua paket seperti pacman -Syu, gunakan :</p>
+<p>[code]#slackpkg upgrade-all[/code]</p>
+<p>Di Slackware, apakah saya akan kehilangan bahagia seperti saat setiap kali menjalankan pacman -Syu di Arch? Tidak. :)</p>
+<p>UPDATE :</p>
+<p>Oya, setelah fresh install, slackpkg , installpkg, pkgtool, dan lainnya tidak bisa dijalankan oleh user biasa. Masalahnya karena PATH environmentnya belum dimasukkan. Coba lihat dengan user root</p>
+<p>[code]#which slackpkg</p>
+<p>/usr/sbin/slackpkg</p>
+<h1 id="echo-path">echo $PATH</h1>
+<p>/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Sementara jika pakai user biasa,</p>
+<p>[code]$echo $PATH</p>
+<p>/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Yoi, path /usr/sbin tidak ada. Masukkan /usr/bin dan lihat lagi PATH environment-nya/</p>
+<p>[code]$export PATH=/usr/sbin:$PATH</p>
+<p>$export PATH=/sbin:$PATH</p>
+<p>$echo $PATH</p>
+<p>/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/java/bin:/usr/lib64/kde4/libexec:/usr/lib64/qt/bin:/usr/share/texmf/bin:.[/code]</p>
+<p>Termasuk juga perintah reboot, halt, ifconfig dan perintah-perintah lainnya yang berkaitan dengan sistem</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

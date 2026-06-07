@@ -7,11 +7,14 @@ tags:
   - poem
   - puisi
 ---
+Barangkali engkau jemu juga dengarnya, Adinda
 
-Barangkali engkau jemu juga dengarnya, Adinda<br>
-Gesekan asah yang begitu-begitu saja<br>
-Konstan mengusik benak<br>
-Siapa yang tidak?<br>
+Gesekan asah yang begitu-begitu saja
 
-Aku masih dengan pisauku<br>
-Mengukir doa, bukan rayu<br>
+Konstan mengusik benak
+
+Siapa yang tidak?
+
+Aku masih dengan pisauku
+
+Mengukir doa, bukan rayu

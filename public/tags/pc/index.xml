@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PC on Blog</title>
+    <link>//localhost:1313/tags/pc/</link>
+    <description>Recent content in PC on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Dec 2008 14:48:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makanya pake LINUX!</title>
+      <link>//localhost:1313/post/2008/12/23/makanya-pake-linux/</link>
+      <pubDate>Tue, 23 Dec 2008 14:48:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/makanya-pake-linux/</guid>
+      <description>&lt;p&gt;Pertama kali saya mengenal Linux adalah saat saya masih kelas 2 SMP. Waktu itu saya baru belajar chatting pakai YM. Di sebuah chatting room saya nyeletuk &amp;lsquo;komputku virusan trus&amp;hellip;&amp;rsquo;, seseorang membalas dengan huruf besar-besar ditambah smile icon &amp;lsquo;MAKANYA PAKE LINUX!&amp;rsquo;. Saya mengira Linux itu sebuah antivirus dan langsung googling untuk download Linux. Ternyata antivirus Linux itu file nya besar sekali, rata-rata seukuran 1 CD dan punya banyak nama. Pastilah antivirus hebat, pikir saya dan saya tidak tertarik lagi karena harddisk saya waktu itu hanya 6GB dan space tersisa tinggal 300MB.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

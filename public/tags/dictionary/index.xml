@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dictionary on Blog</title>
+    <link>//localhost:1313/tags/dictionary/</link>
+    <description>Recent content in Dictionary on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2011 17:52:04 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kamusiden v.0.0.1</title>
+      <link>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</link>
+      <pubDate>Fri, 22 Jul 2011 17:52:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/22/kamusiden-v.0.0.1/</guid>
+      <description>&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;h1 id=&#34;untuk-dijalankan-di-python-2xx&#34;&gt;untuk dijalankan di python 2.xx&lt;/h1&gt;&#xA;&lt;p&gt;def id2en(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teks=open(&#39;id.dict&#39;,&#39;r&#39;)&#xA;&#xA;for line in teks:&#xA;&#xA;&#x9;x=line.split()&#xA;&#xA;&#x9;y=x[0]&#xA;&#xA;&#x9;if y == kataid:&#xA;&#xA;&#x9;&#x9;print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;def en2id(kataid):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    teks=open(&#39;en.dict&#39;,&#39;r&#39;)&#xA;&#xA;    for line in teks:&#xA;&#xA;            x=line.split()&#xA;&#xA;            y=x[0]&#xA;&#xA;            if y == kataid:&#xA;&#xA;                    print line&#xA;&#xA;else :&#xA;&#xA;&#x9;print (&#39;kata tidak ditemukan dalam kamus&#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(1) : bahasa indonesia -&amp;gt; english&#39;)&lt;/p&gt;&#xA;&lt;p&gt;print(&amp;rsquo;(2) : english -&amp;gt; bahasa indonesia&#39;)&lt;/p&gt;&#xA;&lt;p&gt;pilih=input(&amp;lsquo;pilih : &amp;lsquo;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kamus kode v.0.0.2</title>
+      <link>//localhost:1313/post/2011/01/02/kamus-kode-v.0.0.2/</link>
+      <pubDate>Sun, 02 Jan 2011 01:49:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/02/kamus-kode-v.0.0.2/</guid>
+      <description>&lt;p&gt;huff. pantaslah para programmer disanjung tinggi, ternyata mikir sebagai programmer itu sulit! (keluar dari mulut orang goblok).&lt;/p&gt;&#xA;&lt;p&gt;nah, setelah saya mikir seharian duduk di depan layar monitor sambil corat-coret, akhirnya saya nemu algoritma yang tepat untuk mentranslasi karakter ke karakter lain. sebagai catatan, saya ndak nyontek lho, tapi mikir sendiri alur logikanya dari kemarin sore. kelamaan ya? namanya juga orang bego.&lt;/p&gt;&#xA;&lt;p&gt;[code]&lt;/p&gt;&#xA;&lt;p&gt;input=raw_input(&#39;&lt;/p&gt;&#xA;&lt;pre&gt;kamus kode v.0.0.2, silakan ketik kata atau kalimat, karakter huruf saja : &#39;)&#xA;&#xA;&lt;/pre&gt;&#xA;&lt;p&gt;end=&amp;lsquo;0&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

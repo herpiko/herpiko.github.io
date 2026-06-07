@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partisi Hilang on Blog</title>
+    <link>//localhost:1313/tags/partisi-hilang/</link>
+    <description>Recent content in Partisi Hilang on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Nov 2011 01:45:43 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/partisi-hilang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rekoper tabel partisi</title>
+      <link>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</link>
+      <pubDate>Thu, 10 Nov 2011 01:45:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/10/rekoper-tabel-partisi/</guid>
+      <description>&lt;p&gt;pernah ndak ngalamin partisi hdd kita jadi aneh? saat mau diinstall sistem operasi, installernya (baik linux, mac, maupun windows) mendeteksi bawah hdd itu tidak punya partisi, kosong. padahal kalau booting ke sistem operasi yang sudah ada, partisinya masih ada, lengkap dengan data.&lt;/p&gt;&#xA;&lt;p&gt;yep, itu bisa diperbaiki hanya dengan memformat ulang salah satu partisi. mumpung masih bisa booting dan bisa dideteksi oleh sistem operasi, gunakan partisi manager (gparted, diskutility, maupun partition magic, semua bisa) dan format salah satu partisi yang ndak penting. kalau semua penting, backup salah satu kemudian format. saya kira itu akan mengembalikan informasi tabel partisi ke MBR. tapi bener kok, di saya masalahnya solved. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

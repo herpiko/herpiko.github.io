@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Booting on Blog</title>
+    <link>//localhost:1313/tags/booting/</link>
+    <description>Recent content in Booting on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2011 20:18:41 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/booting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cara darurat booting via CD-ROM jadul</title>
+      <link>//localhost:1313/post/2011/07/31/cara-darurat-booting-via-cd-rom-jadul/</link>
+      <pubDate>Sun, 31 Jul 2011 20:18:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/31/cara-darurat-booting-via-cd-rom-jadul/</guid>
+      <description>&lt;p&gt;posisikan vertikal, kecepatan putaran akan bertambah.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

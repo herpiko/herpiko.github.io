@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teledor on Blog</title>
+    <link>//localhost:1313/tags/teledor/</link>
+    <description>Recent content in Teledor on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Aug 2010 19:43:47 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/teledor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kalau teledor megang drupal</title>
+      <link>//localhost:1313/post/2010/08/19/kalau-teledor-megang-drupal/</link>
+      <pubDate>Thu, 19 Aug 2010 19:43:47 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/19/kalau-teledor-megang-drupal/</guid>
+      <description>&lt;p&gt;uh, saya harus lebih banyak belajar dan berhati-hati.&lt;/p&gt;&#xA;&lt;p&gt;kalo anda menggunakan drupal dan tidak berniat membuat akun untuk orang lain (hanya admin), cek halaman ini.&lt;/p&gt;&#xA;&lt;p&gt;http://domain/admin/user/settings&lt;/p&gt;&#xA;&lt;p&gt;pada tab public registration, centangkan paling atas. selebihnya, perhatikan dan atur baik-baik semua user rules. jangan ada satupun yang terlewat. penting!&lt;/p&gt;&#xA;&lt;p&gt;saya melakukan kesalahan di web yang saya rawat, tiga orang meregistrasikan diri dan membuat halaman dalam jumlah yang sangat banyak, lebih dari 500-an! f*ck dah. akibatnya, benwit dan space membengkak. yang awalnya hanya sekitar 50Mb membengkak jadi 200-an. semua  halaman sialan itu berisi link download lagu ke mp3way.info (sialan kamu!). jadi dah itu empetriweysialan dapet trafik.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kehidupan on Blog</title>
+    <link>//localhost:1313/categories/kehidupan/</link>
+    <description>Recent content in Kehidupan on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Apr 2012 22:57:37 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/kehidupan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trip to Tiu Pupus - Tiu Kelep</title>
+      <link>//localhost:1313/post/2012/04/10/trip-to-tiu-pupus-tiu-kelep/</link>
+      <pubDate>Tue, 10 Apr 2012 22:57:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/10/trip-to-tiu-pupus-tiu-kelep/</guid>
+      <description>&lt;p&gt;Yah, saya pernah kesana bareng Blek, Mbak Yeni, aduhmaafkamanyasiapaya, dan Cepul. Waktu itu musim hujan, waktu yang salah untuk mengunjungi air terjun gede. Lupakan.&lt;/p&gt;&#xA;&lt;p&gt;Mas Teguh datang &lt;em&gt;ngegembel&lt;/em&gt; dari Dompu. Kaipang sempat kopdar meski hambar karena yang datang sedikit. Setelah membuat keputusan mendadak untuk ikut jalan-jalan ke kawasan utara Lombok, saya tidak menyesal esoknya.&lt;/p&gt;&#xA;&lt;p&gt;Kami ke Tiu Pupus dulu sebelum ke Tiu Kelep, air terjunnya lumayan, lebih pendek dari Tiu Kelep, tapi lebih bagus dari Sendang Gile. Di sana sepi, hanya ada beberapa wisatawan lokal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Masa Kecil yang Diwariskan</title>
+      <link>//localhost:1313/post/2012/03/30/masa-kecil-yang-diwariskan/</link>
+      <pubDate>Fri, 30 Mar 2012 23:17:43 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/30/masa-kecil-yang-diwariskan/</guid>
+      <description>&lt;p&gt;Adalah Mr. D, umur 30&amp;lt;, seorang pegawai di kantor saya yang punya masa kecil yang dia tidak menyesal terkunci di sana, yaitu masa-masa dimana tokusatsu Kamen Rider dan anime jadul macam Saint Seiya masih tayang. Pengetahuannya tentang anime dan tokusatsu masa lalu cukup mengagumkan. Hampir setiap hari Mr. D menghabiskan seperempat bandwith internet kantor secara kontinyu untuk mengunduh berkas-berkas film tokusatsu dan anime, memenuhi &amp;lsquo;flashdisk dinas&amp;rsquo; nya dengan film-film tersebut, memburning berkeping-keping CD untuk ditonton di rumah. Wota?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In Memoriam : MekBuk</title>
+      <link>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</link>
+      <pubDate>Sat, 24 Mar 2012 18:00:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</guid>
+      <description>&lt;p&gt;Halo.&lt;/p&gt;&#xA;&lt;p&gt;Kemarin saya diundang resepsi pernikahan sepupu saya. Belum selesai saya berpikir tentang peledakan populasi di keluarga besar saya akibat perkawinan-perkawinan yang mendadak, saya melihat sebuah iBook G4 dipajang di samping sound system acara resepsi tersebut.&lt;/p&gt;&#xA;&lt;p&gt;Hahah, saya langsung terhenyak dan mengingat dengan cepat kenangan saya akan MacBook saya 3 tahun lalu. Well, saya bukan benar-benar Apple fanboy, saya tidak punya iMac besar, atau iPad atau kaos bergambar buah apel tergigit, tetapi saya sejujurnya saya mengagumi produk buatan mereka hampir dari segala segi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dilema Colemak</title>
+      <link>//localhost:1313/post/2012/02/02/dilema-colemak/</link>
+      <pubDate>Thu, 02 Feb 2012 13:35:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/02/02/dilema-colemak/</guid>
+      <description>&lt;p&gt;adalah ketika saya sudah mulai lancar menggunakan komputer sendiri dengan keyboard colemak, tetapi ketika balik ke qwerty di komputer orang lain, saya mendapatkan banyak sekali typo dan kecepatan mengetik yang memalukan.&lt;/p&gt;&#xA;&lt;p&gt;entah ini hanya masalah waktu atau benar-benar tidak bisa dikendalikan. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>jam kerja main facebook?</title>
+      <link>//localhost:1313/post/2012/01/16/jam-kerja-main-facebook/</link>
+      <pubDate>Mon, 16 Jan 2012 16:27:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/01/16/jam-kerja-main-facebook/</guid>
+      <description>&lt;p&gt;sedikit proyek kecil. kalau coba2 buka facebook di kantor &amp;ndash;&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2012/01/screenshot-at-2012-01-16-213909.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/screenshot-at-2012-01-16-213909.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sebuah server diaktifkan untuk http sekaligus DNS server (BIND) dengan domain facebook.com dan di mikrotik dibuat script terjadwal untuk mengganti DNS tersebut. :P&lt;/p&gt;&#xA;&lt;p&gt;update : kecuali bagian script terjadwal di mikrotik yang mengatur pergantian DNS, cara ini cocok untuk blokir permanen. penggantian DNS di mikrotik tidak langsung berpengaruh ke komputer klien. browser masih menyimpan dan menggunakan cache lama.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MENOLAK LUPA!</title>
+      <link>//localhost:1313/post/2011/12/23/menolak-lupa/</link>
+      <pubDate>Fri, 23 Dec 2011 15:40:22 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/12/23/menolak-lupa/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/12/menolak-lupa.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/menolak-lupa.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;klik untuk perbesar.&lt;/p&gt;&#xA;&lt;p&gt;gerakan ini dicetuskan oleh &lt;a href=&#34;http://antitankproject.wordpress.com&#34;&gt;antitankproject&lt;/a&gt; di jogja. gambar diambil di jalan udayana, Mataram. tidak seperti poster2 menolaklupa yang disebar di tempat lain dengan cara difotocopy kertas kemudian tempel, wajah Alm Munir ini dipilox langsung dengan teknik cutting mal, sehingga permanen sampai pihak PU kota Mataram mengecat kembali.&lt;/p&gt;&#xA;&lt;p&gt;barangkali poster2 ini tidak akan membantu mengangkat kembali kasus munir yang belum tuntas, tapi ia menjadi pengingat untuk kita bahwa keadilan di negara ini masih bobrok.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cahaya Bulan (Ost. GIE) - Eross SO7 &amp; Okta</title>
+      <link>//localhost:1313/post/2011/11/20/cahaya-bulan-ost.-gie-eross-so7-okta/</link>
+      <pubDate>Sun, 20 Nov 2011 22:10:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/11/20/cahaya-bulan-ost.-gie-eross-so7-okta/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=IRxh32bPS-s]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homicide - barisan nisan</title>
+      <link>//localhost:1313/post/2011/08/04/homicide-barisan-nisan/</link>
+      <pubDate>Thu, 04 Aug 2011 14:27:47 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/04/homicide-barisan-nisan/</guid>
+      <description>&lt;p&gt;matahari terlalu pagi mengkhianati&lt;/p&gt;&#xA;&lt;p&gt;pena terlalu cepat terbakar&lt;/p&gt;&#xA;&lt;p&gt;kemungkinan terbesar sekarang adalah memperbesar kemungkinan&lt;/p&gt;&#xA;&lt;p&gt;pada ruang ketidak-mungkinan&lt;/p&gt;&#xA;&lt;p&gt;sehingga setiap orang yang kami temui tak menemukan lagi satu pun&lt;/p&gt;&#xA;&lt;p&gt;sudut kemungkinan untuk berkata “Tidak mungkin”&lt;/p&gt;&#xA;&lt;p&gt;tanpa darah mereka mengering&lt;/p&gt;&#xA;&lt;p&gt;sebelum mata pena berkarat menolak kembali terisi&lt;/p&gt;&#xA;&lt;p&gt;sebelum semua paru disesaki tragedi&lt;/p&gt;&#xA;&lt;p&gt;dan pengulangan menemukan maknanya sendiri&lt;/p&gt;&#xA;&lt;p&gt;dalam pasar dan semerbak deodorant&lt;/p&gt;&#xA;&lt;p&gt;atau mungkin dalam limbah dan kotoran&lt;/p&gt;&#xA;&lt;p&gt;atau mungkin dalam seragam sederetan nisan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kerja IT</title>
+      <link>//localhost:1313/post/2011/07/21/kerja-it/</link>
+      <pubDate>Thu, 21 Jul 2011 20:22:12 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/07/21/kerja-it/</guid>
+      <description>&lt;p&gt;Jika anda sedang mempersiapkan diri berkarir di bidang IT atau masih baru bekerja dalam dunia IT. Ada 10 rahasia yang tidak menguntungkan yang harus anda ketahui, rahasia ini sebagian besar ditujukan untuk administrator jaringan, manajer IT, dan profesional destkop support.&lt;/p&gt;&#xA;&lt;p&gt;10.) Bayaran di bidang IT lebih besar dibandingkan dengan profesi lain, namun karena itulah perusahaan anda dapat mempekerjakan anda kapan saja diluar jam kerja&lt;/p&gt;&#xA;&lt;p&gt;Kebutuhan akan profesional IT akan terus meningkat bagi perusahaan, seriring berkembangnya teknologi dalam bisnis dan kehidupan masyarakat. Karena bayaran bagi profesional IT cukup besar, perusahaan sering kali menambah jam kerja anda sewenang-wenang, karena anda dianggap sebagai bagian inti dari perusahaan. Anda bisa saja bekerja lebih dari 6 jam pada akhir pekan untuk menyebarkan (deployment) update sebuah software, atau bahkan menerima telepon pada malam hari untuk mengatasi jaringan yang bermasalah. Tidak ada kompensasi waktu selama anda masih dibayar dengan baik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lunar eclipse phase</title>
+      <link>//localhost:1313/post/2011/06/16/lunar-eclipse-phase/</link>
+      <pubDate>Thu, 16 Jun 2011 22:03:49 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/16/lunar-eclipse-phase/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/06/249630_1704461145558_1658902589_1450676_1596199_n.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/249630_1704461145558_1658902589_1450676_1596199_n.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;sangat-sangat sulit mendapatkan foto ini dikarenakan rasa kantuk yang luar bisa. tapi alhamdulillah dapat foto menjelang total eclipse-nya dan saya langsung tertidur. pagi-pagi ingusan di atap kantor dan mata bengkak seharian.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>siklus</title>
+      <link>//localhost:1313/post/2011/06/10/siklus/</link>
+      <pubDate>Fri, 10 Jun 2011 00:59:59 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/06/10/siklus/</guid>
+      <description>&lt;p&gt;saking senangnya, saya bahkan tidak bisa menulis puisi untuk itu. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bagaimana seorang pengusaha memandang instansi pemerintah?</title>
+      <link>//localhost:1313/post/2011/05/22/bagaimana-seorang-pengusaha-memandang-instansi-pemerintah/</link>
+      <pubDate>Sun, 22 May 2011 17:55:03 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/22/bagaimana-seorang-pengusaha-memandang-instansi-pemerintah/</guid>
+      <description>&lt;p&gt;alkisah saya pergi ke sebuah toko yang memegang tender untuk pengadaan ATK di kantor saya. saya membutuhkan beberapa CD kosong jadi atasan saya menyuruh saya mengambil 1 paket CD kosong berisi 100 keping CD. dengan senang hati.&lt;/p&gt;&#xA;&lt;p&gt;di toko, saya langsung membuka segel dan mendapati bahwa CD-CD itu banyak yang berjamur, saya periksa satu per satu semuanya. ternyata lebih dari setengahnya sudah berjamur. saya langsung bilang ke pemilik toko, bisakah saya menukar paket CD ini dengan yang lebih baik, karena setengahnya sudah rusak, tidak mungkin bisa diburning lagi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PNS dan DNS Nawala</title>
+      <link>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</link>
+      <pubDate>Fri, 20 May 2011 17:42:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/05/20/pns-dan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya tidak bilang semua PNS tidak suka dengan DNS nawala. judul posting ini hanya gambaran secara umum yang saya temui di lingkungan kerja saya.&lt;/p&gt;&#xA;&lt;p&gt;jadi beginilah saya, kerja mengurusi komputer-komputer milik negara. menyenangkan memang, tapi selalu ada yang bikin muak.&lt;/p&gt;&#xA;&lt;p&gt;sudah dianggarkan, bahwa tahun ini akan didatangkan lisensi kaspersky untuk 50 client dan 10 server jangka waktu 2 tahun. bayangkan saja, saya tidak menyebutkan jumlah rupiah di sini, yang jelas itu teramat mahal hanya untuk menjaga agar komputer windows mereka aman. tetapi setidaknya itu buat pekerjaan saya lebih mudah dan terkontrol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>server kantor</title>
+      <link>//localhost:1313/post/2011/02/26/server-kantor/</link>
+      <pubDate>Sat, 26 Feb 2011 11:17:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/26/server-kantor/</guid>
+      <description>&lt;p&gt;salah satu mesin ibm disini isinya centos. kalau ada masalah jaringan, langsung lari kesini dan berdiri menggigil kedinginan. kalau sudah selesai kaki sakit sekali. kursi tak setinggi ini (atau saya yang kurang tinggi?).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small4.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small4.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lupa itu berkah</title>
+      <link>//localhost:1313/post/2011/02/24/lupa-itu-berkah/</link>
+      <pubDate>Thu, 24 Feb 2011 18:36:28 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/24/lupa-itu-berkah/</guid>
+      <description>&lt;p&gt;pernah tidak kawan-kawan ngambil baju atau celana dari lemari kemudian memakainya (dalam kasus saya, sering langsung dari jemuran XD ) dan menemukan sejumlah uang bau rinso yang sudah kering terlipat-lipat? saya menyebutnya keberuntungan. saya sering sekali mengalaminya dan mensyukuri kelupaan saya akan uang-uang itu. lah, kenapa cerita? karena kali ini jumlah yang tidak biasa dan saya bahkan tidak mengingatnya kalau saya kehilangan sejumlah itu. :)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2011/02/small2.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/small2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nostalgia pramuka</title>
+      <link>//localhost:1313/post/2011/02/14/nostalgia-pramuka/</link>
+      <pubDate>Mon, 14 Feb 2011 23:22:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/14/nostalgia-pramuka/</guid>
+      <description>&lt;p&gt;kebetulan sekali, tadi ada teman yang minta tolong format recovery, mumpung sudah pernah ngalamin ya gayung pun bersambut dan tempatnya adalah di bumi perkemahan jaka mandala. saya langsung semangat empat lima!&lt;/p&gt;&#xA;&lt;p&gt;dan kebetulan lagi, di jakamandala ada anak-anak sd lagi kemah! akhirnya saya bisa ninggalin proses scanning dan angkat data buat nontonin anak-anak pramuka itu. saat saya menghampiri sekelompok anak-anak dengan pembinanya, saya langsung nyahok.&lt;/p&gt;&#xA;&lt;p&gt;ternyata pembina itu adalah teman satu satuan saya saat masih pramuka di smp dulu. huahaha, kebetulan yang menyenangkan!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When teleportation is finally possible, where will you beam yourself first?</title>
+      <link>//localhost:1313/post/2011/02/11/when-teleportation-is-finally-possible-where-will-you-beam-yourself-first/</link>
+      <pubDate>Fri, 11 Feb 2011 16:24:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/02/11/when-teleportation-is-finally-possible-where-will-you-beam-yourself-first/</guid>
+      <description>&lt;p&gt;beh, karena ndak ada ide, saya mengambil satu poin dari dailypost. yang penting nulis.&lt;/p&gt;&#xA;&lt;p&gt;jika saya bisa berteleportasi, saya akan pergi ke museum louvre, mencuri benda-benda yang saya inginkan. haha, serius lho.&lt;/p&gt;&#xA;&lt;p&gt;dan jika ternyata teleportasi ini bisa dikembangkan, saya akan mengajari beberapa orang dan membuat perusahaan transportasi sekejap. pasti sukses. ;)&lt;/p&gt;&#xA;&lt;p&gt;btw saya jadi teringat sama hiro nakamura, selain bisa memanipulasi ruang, juga waktu. kalau itu memungkinkan, saya akan pergi ke masa dimana mata uang sekarang masih bisa dipergunakan dan membeli barang-barang yang masa sekarang lagi mahal-mahalnya. di masa depan pasti murah. seperti gadget android misalnya, saya mungkin akan mendapatkannya seharga ratusan ribu saja.*ngecek tabungan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>halo bukit, apa kabar?</title>
+      <link>//localhost:1313/post/2011/01/08/halo-bukit-apa-kabar/</link>
+      <pubDate>Sat, 08 Jan 2011 23:53:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/08/halo-bukit-apa-kabar/</guid>
+      <description>&lt;p&gt;hampir lupa posting hari ini.&lt;/p&gt;&#xA;&lt;p&gt;tadi saya ke &lt;a href=&#34;http://pikopages.wordpress.com/2009/12/11/bukit-sahabat-sepi/&#34;&gt;bukit&lt;/a&gt;. udah berapa bulan mungkin ndak ke sini. bukit ini sepesial karena :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;daerah terpencil dan sulit dicapai&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;dari sana bisa lihat kota mataram dari pantainya sampai bertais. luas lho. pemandangan paling maknyus kalau siang hari saat kabut pagi maupun sore tidak ada. apalagi kalau malam hari, seolah2 liat bintang2 ada di bawah, bukan di atas.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;dan ternyata sudah banyak yang berubah. makin jelek dan rusak. disini yang dulu ada kasur rumput hijau sekarang ada tanah bukaan yang kotor. plus sampah sana-sini. :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hidup sekedar hidup</title>
+      <link>//localhost:1313/post/2011/01/04/hidup-sekedar-hidup/</link>
+      <pubDate>Tue, 04 Jan 2011 19:00:22 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/04/hidup-sekedar-hidup/</guid>
+      <description>&lt;p&gt;pikiran ini benar-benar menyita waktu saya. setelah nonton film biografi &lt;a href=&#34;http://www.youtube.com/watch?v=2LAuzT_x8Ek&#34;&gt;into the wild&lt;/a&gt; (sedih loh) dan baca salah satu tulisan &lt;a href=&#34;http://www.google.co.id/url?sa=t&amp;amp;source=web&amp;amp;cd=1&amp;amp;sqi=2&amp;amp;ved=0CBsQFjAA&amp;amp;url=http%3A%2F%2Fid.wikipedia.org%2Fwiki%2FGuy_de_Maupassant&amp;amp;rct=j&amp;amp;q=guy%20de%20maupassant&amp;amp;ei=RhEiTZHbN4rrrQflwdD9Cw&amp;amp;usg=AFQjCNFyrzDSd2RxlxGC8v4UrVPggzxKNw&amp;amp;cad=rja&#34;&gt;guy de maupassant&lt;/a&gt; tentang kehidupan pulau korsika dan juga anak semua bangsa punya pram (itu lho, di episot tentang mengenal bangsa sendiri), saya langsung merasa hampa dan murung. dimulai dari sini, blog, jejaring sosial, game, jalan-jalan, berkelahi, nonton film, main catur, ponsel, celotehan warung kopi, dan lain sebagainya. ya ampun, hidup kita cerewet sekali!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>aduh, saya tidak bisa menulis</title>
+      <link>//localhost:1313/post/2011/01/03/aduh-saya-tidak-bisa-menulis/</link>
+      <pubDate>Mon, 03 Jan 2011 02:28:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/01/03/aduh-saya-tidak-bisa-menulis/</guid>
+      <description>&lt;p&gt;ndak bisa nulis? lho, ini kan ngeblog?&lt;/p&gt;&#xA;&lt;p&gt;maksud saya menulis tangan. sepanjang hari sepanjang tahun ketak ketok keyboard doang, beginilah jadinya. kemarin saya ngirim paket di kantor pos, lupa mencantumkan alamat. biasanya saya print dan tempel. tapi yasudahlah, terpaksa nulis pakai tangan. dan waktu itu, pokoknya = aduh kikuk dan tulisan saya seperti orang yang baru belajar menulis. :(&lt;/p&gt;&#xA;&lt;p&gt;dulu tulisan saya bagus kok, ndak cakar-cakar ayam banget. tapi seiring waktu saya kaget sendiri, semua berubah tanpa saya sadari langsung. lihat-lihat buku catatan, semua ditulis dengan kecepatan tinggi, yang mana hasilnya hancur dan saya sendiri kesulitan membaca. doh.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>taon baru?</title>
+      <link>//localhost:1313/post/2010/12/31/taon-baru/</link>
+      <pubDate>Fri, 31 Dec 2010 15:31:57 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/31/taon-baru/</guid>
+      <description>&lt;p&gt;ah, seperti taon-taon sebelumnya, datar-datar saja. saya lebih suka tengkurep di kasur atau ngeloni komputer dari pada jalan-jalan keluar. *apasih?&lt;/p&gt;&#xA;&lt;p&gt;jadi apa rencana-rencana untuk tahun 2011? ah, saya kira ndak ada. seiring waktu pasti ada rencana-rencana. masak hanya tahun baru rencana baru, semua baru, malah seorang kenalan bilang, wajah baru juga dong, janggutmu tu mbok dicukur. *tendang!&lt;/p&gt;&#xA;&lt;p&gt;btw, ini adalah posting terakhir tantangan ngeblog 31 hari. HORE! dari jumlah, saya memang menyelesaikan tantangan, tetapi dari kualitas, saya kalah telak. apa yang saya tulis sebagian besar ndak guna. haha. yasudahlah, besok saya mau libur ngeblog, berguling2 di atas kasur.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bacaan minggu ini : ngeh</title>
+      <link>//localhost:1313/post/2010/12/16/bacaan-minggu-ini-ngeh/</link>
+      <pubDate>Thu, 16 Dec 2010 04:24:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/16/bacaan-minggu-ini-ngeh/</guid>
+      <description>&lt;p&gt;tadi lagi jalan2 di perpustakaan daerah sambel petantang petenteng bawa kartu anggota baru, sebentar-sebentar dicium-cium, baunya masih baru. btw saya adalah blacklist perpusprov NTB karena pernah menghilangkan buku dan denda ratusan ribu. sangat paradoks karena saya juga pernah mendapat penghargaan anggota terbaik tahun 2007, meminjam buku terbanyak, ratusan buku dalam setahun (hadiahnya buku juga yang kalau ditumpuk hampir setinggi dada saya pada waktu itu). jadi, mendapat kartu anggota baru adalah hal yang sangat membahagiakan. kata mau cari buku bumi manusia, eh malah dapet ini. btw, di perpusprov ada banyak buku baru, termasuk semua karya pram. tapi buku bumi manusia ndak ada, mungkin dipinjam, padahal seri lain ada 2-3 buku jumlahnya. cepat juga, seminggu lalu  lihat di bookland, di sini sudah nongol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nasi puyung bebek mercon battle</title>
+      <link>//localhost:1313/post/2010/12/13/nasi-puyung-bebek-mercon-battle/</link>
+      <pubDate>Mon, 13 Dec 2010 23:21:50 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/13/nasi-puyung-bebek-mercon-battle/</guid>
+      <description>&lt;p&gt;saya ditilpon. diajak jalan-jalan makan malam sama rombongan kemarin, ada blek, mbak yenni, cepul, dan &lt;a href=&#34;http://coffeedrip.wordpress.com/&#34;&gt;aduhmaafnamanyasiapaya&lt;/a&gt;. ya ikutlah.&lt;/p&gt;&#xA;&lt;p&gt;kami makan nasi puyung di Nasi Puyung I. sebenarnya ini pertarungan 3 orang. tapi blek dieliminasi karena tidak bisa makan bebek. *tendang blek&lt;/p&gt;&#xA;&lt;p&gt;akhirnya hanya saya dan cepul. aturannya : makan terus gak boleh minum, yang duluan minum yang kalah. pedesnya? luar biasa bok, suap pertama sudah bikin klenger. oya, ceritanya hanya sampai di sini karena saya kalah. T.T&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kaipang : Gili Trawangan Go Open Source</title>
+      <link>//localhost:1313/post/2010/12/12/kaipang-gili-trawangan-go-open-source/</link>
+      <pubDate>Sun, 12 Dec 2010 23:50:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/12/kaipang-gili-trawangan-go-open-source/</guid>
+      <description>&lt;p&gt;karena koneksi internet sulit di pulau kecil, saya ndak bawa hp dengan koneksi inet dan warnetnya gila-gilaan, (400 rupiah per menit = 24000 rupiah per jam), kemarin ndak bisa ngapdet banyak2.&lt;/p&gt;&#xA;&lt;p&gt;judulnya boong ah. intinya, ini pertama kalinya kaipang (aka &lt;a href=&#34;http://ntb.linux.or.id&#34;&gt;KPLI NTB&lt;/a&gt;) liburan bersama ke suatu tempat dan kali ini pilihannya adalah gili trawangan, salah satu dari 3 pulau kecil di sebelah sana lombok. ide dari mas jeni. kebetulan blek baru pulang nggembel dari jakarta (habis bela-belain datang ILC 2010) dan kebetulan lagi ada tamu dari menristek yakni mbak yeni kusumawati. yang berangkat 6 orang, yakni yang mulia ketupang, blek, yeni, jeni, cepul, dan saya sendiri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bad day</title>
+      <link>//localhost:1313/post/2010/12/10/bad-day/</link>
+      <pubDate>Fri, 10 Dec 2010 22:04:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/10/bad-day/</guid>
+      <description>&lt;p&gt;benar-benar hari yang buruk. kurang tidur. gagal oprek mikrotik. banyak kerjaan. banyak yang tertunda. membuat kesalahan fatal. tapi syukurlah tadi habis jumatan hujan lebat jadi saya basah kuyup dan tidur nyenyak.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>polisi dan wth?</title>
+      <link>//localhost:1313/post/2010/12/02/polisi-dan-wth/</link>
+      <pubDate>Thu, 02 Dec 2010 21:10:36 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/02/polisi-dan-wth/</guid>
+      <description>&lt;p&gt;pagi2 ada badut di tengah jalan. ada zebra, ada bebek. dan saya ndak ngerti kenapa polisi-polisi itu biarin badut-badut lompat-lompat di tengah jalan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/csc_0033.jpg&#34;&gt;*&lt;/a&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/12/bla.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/bla.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;NB : foto di ambil di depan POLDA NTB, mataram.*&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bongkar-bongkar kamera canon powershot a480</title>
+      <link>//localhost:1313/post/2010/12/01/bongkar-bongkar-kamera-canon-powershot-a480/</link>
+      <pubDate>Wed, 01 Dec 2010 00:01:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/12/01/bongkar-bongkar-kamera-canon-powershot-a480/</guid>
+      <description>&lt;p&gt;kamera punya si tamul rusak karena pas tidak sengaja dimatikan lensanya malah ditahan pakai tangannya (pinter benar). alhasil, meski dimati-nyalakan-rendamair-lemparsanasini-diteken tetap lensanya ndak mau masuk. nongol abadi. lens error. selamat!&lt;/p&gt;&#xA;&lt;p&gt;dengan berat senang hati kamera saya terima untuk dioprek bareng kakak. ini kamera canon lho, canon! tidak main-main! (secara saya pengguna nikon lho :D)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/11/dsc_0066.jpg&#34;&gt;*&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;setelah alat-alat disiapkan (hanya sebatang obeng), mulai buka-buka baut sana-sini akhirnya semua kebongkar juga, kecuali lensanya yang ternyata menyatu sama dinamo kecil dan sensor CMOS. banyak kabel fleksibel warna oreng. paket hardware itu ada di balik LCD, jadi LCD musti dilepas dulu. idenya, satu paket lensa-dinamo-sensor itu dibuka sedikit, gear-nya dilepas satu, kemudian diputar pelan-pelan untuk memundurkan lensanya, baru gear yang tadi dipasang lagi. nah, masang gir-nya ini setengah mati. salut sama si kakak yang tidak putus asa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tour de pusuk</title>
+      <link>//localhost:1313/post/2010/11/01/tour-de-pusuk/</link>
+      <pubDate>Mon, 01 Nov 2010 15:09:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/01/tour-de-pusuk/</guid>
+      <description>&lt;p&gt;semalam tidak tidur dan paginya kabar buruk datang, sigit dengan sepedanya. ceritanya gini. kan subuh2 lagi naik sepeda bareng sama sigit. niatnya sih, hunting fotografi dekat-dekat. terus ada orang lewat pake sepeda balap, baju kuning keren.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;eh, bajunya tour de france, orang tu pernah ke prancis, git!&amp;rdquo;**&#xA;&amp;ldquo;dia mau ke pusuk mungkin&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;ke pusuk hayuk&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;hayuk!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;konsisten?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;konsisten!&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;ya sudah.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/11/untitled.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/untitled.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;meskipun di kelihatannya rutenya kecil, tapi luar biasa melelahkan bagi kami. jalan nanjak turun berkelok-kelok. sampai pemenang, kami masih semangat. namun di tengah pusuk, jujur kami putus asa menyeret sepeda abal-abal. sampai lebih memilih jalan kaki terseok-seok dari pada mengkayuhnya. dan air harus dihemat, sekali istirahat sekali teguk. dilema antara kelelahan, air dan mengejar waktu untuk shalat jumat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HBD my blog!</title>
+      <link>//localhost:1313/post/2010/11/01/hbd-my-blog/</link>
+      <pubDate>Mon, 01 Nov 2010 04:16:46 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/11/01/hbd-my-blog/</guid>
+      <description>&lt;p&gt;wah, agak bertepatan pula dengan pesta blogger (sayang ndak bisa nggembel keliling jawa kayak &lt;a href=&#34;http://blackclaw.wordpress.com&#34;&gt;blek&lt;/a&gt; ). saya peringati hari  ini dengan :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nulis postingan ini&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;backup isi blog&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baca-baca isi blog dari awal.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;makang-makang sendiri.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;keep blogging!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lombok Indie Film Festival 2010</title>
+      <link>//localhost:1313/post/2010/10/19/lombok-indie-film-festival-2010/</link>
+      <pubDate>Tue, 19 Oct 2010 20:55:35 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/19/lombok-indie-film-festival-2010/</guid>
+      <description>&lt;p&gt;akhirnya!&lt;/p&gt;&#xA;&lt;p&gt;sayang saya tidak boleh ikut karena bukan pelajar atau mahasiswa. yah, paling tidak ini bisa jadi ajang penyaluran, untuk kategori non-kompetisi.&lt;/p&gt;&#xA;&lt;p&gt;silakan dicek : &lt;a href=&#34;http://mac.stmikbumigora.ac.id/&#34;&gt;http://mac.stmikbumigora.ac.id/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;//localhost:1313/assets/csc_00121.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;](&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0001.jpg)%5B!%5B%5D(/assets/dsc_0055.jpg)%5D(http://pikopages.files.wordpress.com/2010/10/dsc_0055.jpg)%5B!%5B%5D(/assets/dsc_0001.jpg)%5D(http://pikopages.files.wordpress.com/2010/10/dsc_0001.jpg&#34;&gt;http://pikopages.files.wordpress.com/2010/10/dsc_0001.jpg)[![](/assets/dsc_0055.jpg)](http://pikopages.files.wordpress.com/2010/10/dsc_0055.jpg)[![](/assets/dsc_0001.jpg)](http://pikopages.files.wordpress.com/2010/10/dsc_0001.jpg&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cara polisi edukasi masyarakat</title>
+      <link>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</link>
+      <pubDate>Tue, 19 Oct 2010 20:38:37 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/19/cara-polisi-edukasi-masyarakat/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0034.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0034.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/10/dsc_0031.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc_0031.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tukang tilang</title>
+      <link>//localhost:1313/post/2010/10/05/tukang-tilang/</link>
+      <pubDate>Tue, 05 Oct 2010 03:30:13 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/10/05/tukang-tilang/</guid>
+      <description>&lt;p&gt;halo kawan.&lt;/p&gt;&#xA;&lt;p&gt;hari ini, pagi-pagi saya sudah nongol di perempatan kompleks pemerintahan prov NTB dan Kota Mataram, mau hadiri acara Migrasi NTB Go Open Source (Akhirnya! diadakan oleh ristek, kerjasama dengan makara UI, ardelindo, dan POSS UI) sebagai asisten pendamping dari komunitas lokal (KPLI NTB). Tutornya mas Rizky, admin dari Kambing.ui.ac. Siapa sangka saya bisa ketemu sama admin server kambing? gudang terbesar dan tercepat repository linux di indonesia. :)&lt;/p&gt;&#xA;&lt;p&gt;di sana ada pos polisi, ketupang belum datang dan menunggulah saya di sana. lalu 3 polisi datang menempati dan mulai bertugas. saya asyik memperhatikan pohon super gede nan unik yang ada di perempatan itu (pohonnya adalah dua pohon berbeda yang sangat besar dan batangnya saling melilit, daramatis pokoke). tiba-tiba seorang pengendara motor dicegat karena ndak pakai helm. saya menahan diri untuk tidak mengeluarkan kamera.  saya hanya menonton sambil tersenyum dalam hati, sampai transaksi tilang selesai. si pengendara motor dipersilakan ngeloyor pergi sambil menyumpah-nyumpah. keras baget lho, sampai polisinya noleh.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how to recover wordpress-redirect-hacked-by-a7sass</title>
+      <link>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</link>
+      <pubDate>Fri, 03 Sep 2010 20:31:23 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/09/03/how-to-recover-wordpress-redirect-hacked-by-a7sass/</guid>
+      <description>&lt;p&gt;alkisah, web milik seorang kawan kena hack. screenshoot :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/09/hek.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/hek.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;kondisi :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;webnya pakai wordpress&lt;/li&gt;&#xA;&lt;li&gt;halaman dialihkan ke halaman klaim hek blablabla.&lt;/li&gt;&#xA;&lt;li&gt;user dan password berubah.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;kalau seorang webmaster mungkin langsung tahu penyakitnya dimana. namun berhubung saya ndak ngerti, saya pakai cara saya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; rename index.php wordpressnya. paling tidak, menyingkirkan halaman klaim hack untuk sementara waktu.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; mengembalikan user dan password wordpress.&lt;/p&gt;&#xA;&lt;p&gt;saya masuk melalui cpanel dan merubah passwordnya lewat mysql (pakai phpmyadmin). cari di table wp_users. ganti user_login dengan admin dan user_pass dengan password baru (pilih md5). klik go!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>skuer wan</title>
+      <link>//localhost:1313/post/2010/08/31/skuer-wan/</link>
+      <pubDate>Tue, 31 Aug 2010 21:48:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/31/skuer-wan/</guid>
+      <description>&lt;p&gt;seperti halnya komitmen saya terhadap megaminx, menyelesaikannya tanpa melihat tutorial, clue, algoritma, etc (dan alhamdulilah berhasil dengan komutator, stuck di last layer hampir 4 bulan), begitu juga dengan square-1. ini hari pertama punya square-1, bikin sakit kepala. benar-benar puzzle yang aneh!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/square-1_half-turn.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/square-1_half-turn.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>thanks google!</title>
+      <link>//localhost:1313/post/2010/08/17/thanks-google/</link>
+      <pubDate>Tue, 17 Aug 2010 16:04:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/17/thanks-google/</guid>
+      <description>&lt;p&gt;akhirnya ada juga bahan buat ngapdet blog, sekalian pamer ah. :P&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1342&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;218&amp;rdquo; caption=&amp;ldquo;nama dan alamat saya lho. :P&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/scanned-documsent-1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/scanned-documsent-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1343&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;218&amp;rdquo; caption=&amp;ldquo;stikernya ciamik &amp;gt;.&amp;lt;&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/scanned-documsent1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/scanned-documsent1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;saya tidak ingat pernah jadi fan google chrome dan merequest stiker laptop, tapi kalo ndak request ndak bakalan dikirimin. kesimpulan? saya adalah pelupa. T.T&lt;/p&gt;&#xA;&lt;p&gt;dan yang paling bikin saya seneng sama google, di bagian paling bawah surat itu, ada tulisan,&lt;/p&gt;&#xA;&lt;p&gt;printed on 100% post-consumer waster recycled paper&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>internet sehat dengan DNS Nawala</title>
+      <link>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</link>
+      <pubDate>Wed, 11 Aug 2010 18:13:30 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/11/internet-sehat-dengan-dns-nawala/</guid>
+      <description>&lt;p&gt;saya makin heran sama anak-anak kecil sekarang. setelah kemarin sempat &lt;a href=&#34;http://pikopages.files.wordpress.com/2010/08/uang.jpg&#34;&gt;dikerjain dengan uang palsu&lt;/a&gt; (uang mainan sialan, untung cuma 2000 rupiah), sekarang mereka malah rajin buka situs porno di warnet, padahal sudah bulan puasa. tulisan ini diposting sesaat setelah saya menegur dua anak-anak masih SD karena membuka konten porno. saya suruh pulang saja sekalian. sekali-kali jadi operator yang galak. hehe.&lt;/p&gt;&#xA;&lt;p&gt;jadi bagaimana? &lt;a href=&#34;http://nawala.org&#34;&gt;pakai DNS nawala!&lt;/a&gt; *halah, saya juga baru tauk. &amp;gt;.&amp;lt;&lt;/p&gt;&#xA;&lt;p&gt;Nawala Nusantara adalah sebuah layanan yang bebas digunakan oleh   pengguna internet yang  membutuhkan saringan situs negatif. Nawala   Nusantara akan  membantu menapis jenis situs-situs negatif yang tidak   sesuai dengan peraturan  perundangan, nilai dan norma sosial, adat   istiadat dan kesusilaan bangsa  Indonesia seperti pornografi dan   perjudian. Selain itu, Nawala Nusantara juga akan menapis situs Internet   yang mengandung konten berbahaya  seperti malware, situs phising   (penyesatan) dan sejenisnya.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tindihan &gt; sleep paralys</title>
+      <link>//localhost:1313/post/2010/08/02/tindihan-sleep-paralys/</link>
+      <pubDate>Mon, 02 Aug 2010 22:00:56 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/08/02/tindihan-sleep-paralys/</guid>
+      <description>&lt;p&gt;pernah mengalami tindihan? dalam artian umum, ketika anda baru bangun tidur, badan tidak bisa digerakkan, sesak nafas dan semacam itu. orang-orang menyebutnya tindihan, badan kita ditindih sama mahluk halus.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya alami juga! saya cerita ke orang lain dan mereka rata-rata punya komentar yang sama, &amp;ldquo;ditindih hantu tu&amp;rdquo;, &amp;ldquo;kamarmu ada jinnya&amp;rdquo;, blablabla. saya jadi ragu.&lt;/p&gt;&#xA;&lt;p&gt;ceritanya begini. saya terbangun dengan posisi tengkurap dan kepala menghadap tembok. saat mata terbuka, saya tidak bisa gerakkan apapun. bahkan membuka mulut pun sulit, cuma bisa menggerakan kelopak mata, berkedip-kedip lihat tembok. dan ini berlangsung agak lama, 1-2 menit mungkin. saya benar-benar ketakutan saat itu. sulit menenangkan pikiran, benar-benar panik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>next atm project : dobsonian!</title>
+      <link>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</link>
+      <pubDate>Sat, 31 Jul 2010 20:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/31/next-atm-project-dobsonian/</guid>
+      <description>&lt;p&gt;sebelumnya, &lt;a href=&#34;http://pikopages.wordpress.com/2010/07/03/rancangan-mikroteleskop/&#34;&gt;proyek yang ini &lt;/a&gt;saya nyatakan selesai dan gagal. dalam artian, target tidak terpenuhi, perbesarannya memang bertambah, tapi saya sama sekali tidak bisa lihat kawah bulan dengan jelas. sebenarnya, saya harus menyalahkan lensa-lensa yang jelek ini.&lt;/p&gt;&#xA;&lt;p&gt;sekarang saatnya coba bentuk newtonian. dinamakan demikian karena sir newton yang temukan cara ini. tapi kok saya tulis dobsonian di atas? istilah itu merujuk ke desian inovatif dari teleskop newtonian yang easy made, low cost, and portable by john dobson. silakan baca wikipedia untuk keterangan lebih lanjut.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>the way</title>
+      <link>//localhost:1313/post/2010/07/30/the-way/</link>
+      <pubDate>Fri, 30 Jul 2010 08:26:56 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/30/the-way/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/07/peta1.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/peta1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kerja kerja kerja</title>
+      <link>//localhost:1313/post/2010/07/10/kerja-kerja-kerja/</link>
+      <pubDate>Sat, 10 Jul 2010 20:43:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/07/10/kerja-kerja-kerja/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://greatrendyman.wordpress.com/&#34;&gt;http://greatrendyman.wordpress.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;saya temukan saat blogwalking 2 bulan lalu. itu blog milik warga indonesia yang tinggal dan bekerja di jepang. banyak artikel menarik di dalamnya. salah satunya adalah fun fact tentang jepang (dibuat berseri). yah, saya tahu orang jepang punya semangat kerja yang tinggi. tapi saya jadi lebih heran setelah baca-baca di blog ini. orang jepang malu pulang cepat-cepat saat kerja, bahkan lebih memilih lembur!&lt;/p&gt;&#xA;&lt;p&gt;bisa ndak ya saya kayak gitu?  saya mulai kerja penuh hari sejak pertengahan juni lalu. jika ada waktu senggang, saya berusaha untuk mengisinya dengan bekerja di tempat lain. pendapatan oke dan tabungan gemuk tapi saya hampir mati saya terserang demam 3 hari karena tidak tidur lebih dari 24 jam dan kadang2 30 jam. awalnya, saya kira saya kuat tidur sedikit saja. pertama-tama, pusing2 dikit, terus pilek-pilek, habis itu lemes, habis itu panas, merangkak aja ndak bisa. hehe. jadi saya mulai mengatur jadwal tidur agar bisa tidur 4-5 jam sehari, ditambah tidur ayam-ayam di saat senggang.  seminggu kemudian demam lagi sebentar. selanjutnya berjalan normal tapi badan saya tidak pernah benar-benar fit, selalu lelah terus. yah, mudahan saja tidak karoshi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tolak penggusuran-pelebaran-jalan-secara-paksa</title>
+      <link>//localhost:1313/post/2010/06/19/tolak-penggusuran-pelebaran-jalan-secara-paksa/</link>
+      <pubDate>Sat, 19 Jun 2010 16:40:44 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/19/tolak-penggusuran-pelebaran-jalan-secara-paksa/</guid>
+      <description>&lt;p&gt;di pagi yang mendung itu, saya dipanggil ibu saya. masih pegang sikat gigi, saya menghadap. &amp;ldquo;eh, bilang itu sama masmu (kakak dan ibu saya tidak saling berbicara selama beberapa tahun meski tinggal serumah, jadi komunikasi musti pakai perantara). ada pelebaran jalan. setiap rumah diambil 1 meter dari jalan. jadi itu kamar digusur besok. pindah ke atas. bilang sama masmu.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;WAH!&lt;/p&gt;&#xA;&lt;p&gt;saya : wah, kok gitu, buk? kan rumah kita-kita. itu sampai ujung jalan?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>minta maaf</title>
+      <link>//localhost:1313/post/2010/06/08/minta-maaf/</link>
+      <pubDate>Tue, 08 Jun 2010 17:06:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/06/08/minta-maaf/</guid>
+      <description>&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;kesalahan-kesalahan saya&lt;/p&gt;&#xA;&lt;p&gt;berantakan, buah tangan saya sendiri&lt;/p&gt;&#xA;&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;kelancangan saya&lt;/p&gt;&#xA;&lt;p&gt;menginjak batas&lt;/p&gt;&#xA;&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;kepura-puraan saya&lt;/p&gt;&#xA;&lt;p&gt;yang saya kira seperti itulah wajah dunia&lt;/p&gt;&#xA;&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;ketidaktahuan saya&lt;/p&gt;&#xA;&lt;p&gt;alasan sebenarnya di balik semua ini&lt;/p&gt;&#xA;&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;janji yang diingkari&lt;/p&gt;&#xA;&lt;p&gt;karena takut&lt;/p&gt;&#xA;&lt;p&gt;saya minta maaf&lt;/p&gt;&#xA;&lt;p&gt;memiliki emosi seperti ini&lt;/p&gt;&#xA;&lt;p&gt;tak terkendali&lt;/p&gt;&#xA;&lt;p&gt;saya menyesal sekali&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kesetrum genset</title>
+      <link>//localhost:1313/post/2010/05/28/kesetrum-genset/</link>
+      <pubDate>Fri, 28 May 2010 21:11:35 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/28/kesetrum-genset/</guid>
+      <description>&lt;p&gt;halo kawan :(&lt;/p&gt;&#xA;&lt;p&gt;lebih dahulu, saya mau kasi tau penyebab semua ini : PLN sux!&lt;/p&gt;&#xA;&lt;p&gt;oke, jika untuk alasan penghematan, saya setuju pemadaman bergilir, tapi kalau pemadamannya **di luar jadwal dan 3 kali berturut-turut **dan jangka waktu sebentar, saya rasa itu tidak bisa ditoleransi.&lt;/p&gt;&#xA;&lt;p&gt;ceritanya begini. hari ini jadwalnya kota ampenan nyala, jadi warnet jalan terus dan saya ndak perlu ngurus genset. tapi, malam itu tiba-tiba mati lampu. dan genset pun saya nyalakan, 4 kali narik starternya yang lumayan berat. brrrr&amp;hellip;. brrrr&amp;hellip; (suara genset gitu ya?)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>yuhuuuuuuuuuuu!</title>
+      <link>//localhost:1313/post/2010/05/12/yuhuuuuuuuuuuu/</link>
+      <pubDate>Wed, 12 May 2010 19:36:39 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/05/12/yuhuuuuuuuuuuu/</guid>
+      <description>&lt;p&gt;modem nambah. capek ngoprek jaringan (windos sih :( ), crimping kabel UTP, bolak-balik, ping-ping, konfig-konfig, instlall-install, capek. tapi modem nambah satu, wireless pula, itu artinya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;:D :D :D&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_1066&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;yuhuuuuuuuuuuuu&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/05/dsc01426.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/dsc01426.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To : Berforum dengan baik</title>
+      <link>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</link>
+      <pubDate>Sun, 25 Apr 2010 20:08:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/04/25/how-to-berforum-dengan-baik/</guid>
+      <description>&lt;p&gt;yap, to the point saja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;aturan pertama&lt;/strong&gt; : carilah lebih dulu sebelum anda menanyakan atau membuat thread.&lt;/p&gt;&#xA;&lt;p&gt;aturan kedua : lihat aturan pertama dan abaikan aturan kedua dan lain-lain (kecuali tentang menghormati member lain, tidak berlaku buruk, dan hal-hal semacam itu)&lt;/p&gt;&#xA;&lt;p&gt;anda tidak repost dan menjengkelkan, maka anda akan jadi anggota forum yang baik.&lt;/p&gt;&#xA;&lt;p&gt;hei, saya pernah melakukan kesalahan lho. salah satu forum pertama yang saya masuki adalah milis KPLI NTB. lihat apa yang saya lakukan di sini.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>akhirnya... 8)</title>
+      <link>//localhost:1313/post/2010/03/11/akhirnya...-8/</link>
+      <pubDate>Thu, 11 Mar 2010 20:37:42 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/03/11/akhirnya...-8/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_910&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;hmm&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/03/foto003.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/foto003.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;setelah bertahan seminggu dalam kegelapan, akhirnya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;dan seperti biasa, silindernya nambah T____T&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>h.a.l.t.e</title>
+      <link>//localhost:1313/post/2010/02/26/h.a.l.t.e/</link>
+      <pubDate>Fri, 26 Feb 2010 17:08:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/26/h.a.l.t.e/</guid>
+      <description>&lt;p&gt;awalnya&lt;/p&gt;&#xA;&lt;p&gt;setiap tarikan nafas&lt;/p&gt;&#xA;&lt;p&gt;setiap hela&lt;/p&gt;&#xA;&lt;p&gt;aku lupa&lt;/p&gt;&#xA;&lt;p&gt;setiap sesak yang kutimbun bersama angin malam&lt;/p&gt;&#xA;&lt;p&gt;tetesan darah yang tersiakan&lt;/p&gt;&#xA;&lt;p&gt;atau lembaran surat yang dibatalkan&lt;/p&gt;&#xA;&lt;p&gt;seharusnya aku lupa&lt;/p&gt;&#xA;&lt;p&gt;jadi&lt;/p&gt;&#xA;&lt;p&gt;di sinilah aku menarik langkah, kawan&lt;/p&gt;&#xA;&lt;p&gt;menggulung semua yang sudah terulur&lt;/p&gt;&#xA;&lt;p&gt;membenarkan yang kusut menyambung yang putus&lt;/p&gt;&#xA;&lt;p&gt;(meski kau kacaukan lagi pada akhirnya)&lt;/p&gt;&#xA;&lt;p&gt;menyimpan rapi dendam dan benci di sudut hati&lt;/p&gt;&#xA;&lt;p&gt;seperti rak buku&lt;/p&gt;&#xA;&lt;p&gt;dan berdiri di sini seperti sedia kala&lt;/p&gt;&#xA;&lt;p&gt;seperti yang kau suka&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>photoblog : DNF</title>
+      <link>//localhost:1313/post/2010/02/20/photoblog-dnf/</link>
+      <pubDate>Sat, 20 Feb 2010 17:36:27 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/20/photoblog-dnf/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_882&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;510&amp;rdquo; caption=&amp;ldquo;MRC-gath&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/24297_348478775198_605305198_5252356_6186689_n.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/24297_348478775198_605305198_5252356_6186689_n.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/cz47.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;**TIMED BY CCT Ver. 0.9.3&lt;/p&gt;&#xA;&lt;p&gt;**&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Best timer ever : 24.42&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;50/50 solve average : 36.57&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;32.30    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.67    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.98    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;33.92    N/A    N/A&lt;/p&gt;&#xA;&lt;p&gt;35.91    N/A    35.17&lt;/p&gt;&#xA;&lt;p&gt;31.95    N/A    35.17&lt;/p&gt;&#xA;&lt;p&gt;37.48    N/A    35.27&lt;/p&gt;&#xA;&lt;p&gt;37.66    N/A    35.77&lt;/p&gt;&#xA;&lt;p&gt;32.75    N/A    35.38&lt;/p&gt;&#xA;&lt;p&gt;38.59    N/A    35.96&lt;/p&gt;&#xA;&lt;p&gt;36.25    N/A    37.13&lt;/p&gt;&#xA;&lt;p&gt;35.44    35.34    36.45&lt;/p&gt;&#xA;&lt;p&gt;38.58    35.96    36.76&lt;/p&gt;&#xA;&lt;p&gt;37.38    36.14    37.40&lt;/p&gt;&#xA;&lt;p&gt;36.09    36.15    36.57&lt;/p&gt;&#xA;&lt;p&gt;36.02    36.36    36.50&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to : mendapatkan saluran TV kabel (ilegal)</title>
+      <link>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</link>
+      <pubDate>Thu, 18 Feb 2010 02:45:33 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/18/how-to-mendapatkan-saluran-tv-kabel-ilegal/</guid>
+      <description>&lt;p&gt;sedikit kisah lama, 5-6 bulan lalu, saya sudah mencoba keduanya. di ruang depan, ada TV dengan saluran TV kabel lengkap. sedangkan di kamar, ada seperangkat komputer dengan tv tunner. aduh, saya kepingin nongton HBO sambil tidur-tiduran di kasur. kakak saya punya ide bagus.&lt;/p&gt;&#xA;&lt;p&gt;jadi ini dia idenya&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;peringatan : resiko ditanggung sendiri&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;CARA PERTAMA : cara kasar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;tepat di atas kamar saya, di atas plafon, kabel TVnya melintang. jadi saya memotongnya dan menyambungnya. jika anda pernah membongkar kabel antena TV, anda akan tahu bahwa kabel ini berbeda dengan kebanyakan kabel. ada lapisan luar dan ada lapisan inti. keduanya tidak boleh bersentuhan saat disambungkan. saya menggunakan jarum untuk menyambungkan ke lapisan dalam kabel. silakan lihat gambar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>snapshot minggu ini</title>
+      <link>//localhost:1313/post/2010/02/07/snapshot-minggu-ini/</link>
+      <pubDate>Sun, 07 Feb 2010 21:21:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/02/07/snapshot-minggu-ini/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_785&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;225&amp;rdquo; caption=&amp;ldquo;room&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/pap_0008.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/pap_0008.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_786&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;225&amp;rdquo; caption=&amp;ldquo;did not finish&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/pap_0013.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/pap_0013.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_787&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;ngerace&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2010/02/ca350277.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/ca350277.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ujung yang tak rata</title>
+      <link>//localhost:1313/post/2010/01/31/ujung-yang-tak-rata/</link>
+      <pubDate>Sun, 31 Jan 2010 00:59:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/31/ujung-yang-tak-rata/</guid>
+      <description>&lt;p&gt;kemarilah, dengar.&lt;/p&gt;&#xA;&lt;p&gt;buatlah aku mengerti, kawan, mengapa aku berdiri di ujung yang tak rata dan rentan patah ini? siapa yang membawaku kesini? mengapa?&lt;/p&gt;&#xA;&lt;p&gt;hanya kau yang tahu, dood. namun kenyataannya, aku tidak tahu atau pura-pura tidak tahu, atau&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;setiap pagi, atau mungkin siang, bahkan malam, aku terbangun dan selalu bertanya-tanya. mengapa aku masih hidup? mengapa aku bangun lagi? dan jika aku diharuskan mengulang hari-hari panjang, mengapa aku tidak boleh merubahnya sedikit saja? sedikit saja, kawan. hanya sedikit. sedikit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rubiks Finger Syndrom</title>
+      <link>//localhost:1313/post/2010/01/27/rubiks-finger-syndrom/</link>
+      <pubDate>Wed, 27 Jan 2010 18:26:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/27/rubiks-finger-syndrom/</guid>
+      <description>&lt;p&gt;woof, blog&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;awal kisahnya, temen saya minjem rubik storebrought saya tersayang, si kotak bengkok (namanya memang demikian karena cubiesnya pada bengkok sering saya banting kalo solved, purak-purak pakek stacktimer gitu -_-). saat rubik mahal ini balik ke tangan saya, putarannya jadi keras sekali dan saya kira rusak. saya hampir marah. teman saya bilang si kotak bengkok dikasi WD40 dan dia heran kok malah jadi macet, bukannya tambah smooth putarannya. WD40 man! jogang kamu&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lelaki Hujan</title>
+      <link>//localhost:1313/post/2010/01/21/lelaki-hujan/</link>
+      <pubDate>Thu, 21 Jan 2010 20:46:38 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/21/lelaki-hujan/</guid>
+      <description>&lt;p&gt;Di atas tembok, di sudut jalan ini, dia duduk seperti biasa.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Ini lain,&amp;rdquo; katanya, &amp;ldquo;Berbeda&amp;hellip;&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Lelaki itu tidak lagi mengeluh setelah hujan mengguyurnya lebih deras lagi.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Dimana perbedaannya?&amp;rdquo; kata hujan.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Sikapku&amp;rdquo;, lelaki itu menengadah puas, mengusap wajahnya, lalu membiarkannya diterpa deras hujan. Agak sakit, geli, tapi ia senang.&lt;/p&gt;&#xA;&lt;p&gt;Tetapi hujan tidak senang, ia hembuskan angin-angin dari utara dan lelaki itu menggigil sampai ke kakinya.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Oh&amp;hellip; Hentikan,&amp;rdquo; pinta lelaki itu. tangannya bersedekap dan rahangnya mengeras. Bajunya hanya kulit semu di tubuhnya, basah dan tidak berguna.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>semut merah semut hitam</title>
+      <link>//localhost:1313/post/2010/01/21/semut-merah-semut-hitam/</link>
+      <pubDate>Thu, 21 Jan 2010 19:02:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2010/01/21/semut-merah-semut-hitam/</guid>
+      <description>&lt;p&gt;dear blog.&lt;/p&gt;&#xA;&lt;p&gt;tadi saya digigit semut. dan ingatan masa kecil saya langsung terangkat. tahukah apa itu?&lt;/p&gt;&#xA;&lt;p&gt;saya mengobservasi semut.&lt;/p&gt;&#xA;&lt;p&gt;sebagai catatan : potongan ingatan kurang jelas ini adalah laporan masa kecil.&lt;/p&gt;&#xA;&lt;p&gt;waktu itu saya masih kelas 4 SD. menjelang liburan semester. di sekolah, saya dan beberapa teman saya berkumpul di bawah pohon ketapang raksasa, sedang menonton pertarungan seru, antara seekor semut hitam dan semut merah di atas sebuah bangku semen. pada akhirnya saya tahu bahwa semut merah adalah semut panas yang kecil namun gigitannya sangat menyakitkan dan semut hitamnya adalah semut hitam biasa yang kecil juga, dan larinya cepat (pasti tahu). mereka saling gigit dan kami berteriak-teriak. saya, tentu saja mendukung si semut merah.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Putus Nyambung</title>
+      <link>//localhost:1313/post/2009/12/21/putus-nyambung/</link>
+      <pubDate>Mon, 21 Dec 2009 09:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/21/putus-nyambung/</guid>
+      <description>&lt;p&gt;ngetik lagi nih&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;saya lupa cerita sedikit tentang keseharian. yah, memang bukan kebiasaan saya untuk berbagi cerita, tapi kawan-kawan bilang saya harus menumpahkan gelas. jadi, inilah dia, toh blog jadi terupdate.&lt;/p&gt;&#xA;&lt;p&gt;setelah 5 bulan jadi disener grapis di sebuah perusahaan percetakan, saya berhenti mendadak. tanya kenapa? tetangga kanan kiri ribut, ayam berkokok malam-malam, dan ban sepeda saya gembos. akhirnya Big Bos saya bertanya takzim, “Kau kenapa berhenti?”&lt;/p&gt;&#xA;&lt;p&gt;“Capek,” saya bilang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bukit Sahabat Sepi</title>
+      <link>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</link>
+      <pubDate>Fri, 11 Dec 2009 02:51:34 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/11/bukit-sahabat-sepi/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_486&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;768&amp;rdquo; caption=&amp;ldquo;Bukit Sahabat Sepi&amp;rdquo;]&lt;a href=&#34;http://pikopages.files.wordpress.com/2009/12/10122009601.jpg&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/10122009601.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Catatan Akhir Sekolah</title>
+      <link>//localhost:1313/post/2009/07/07/catatan-akhir-sekolah/</link>
+      <pubDate>Tue, 07 Jul 2009 14:11:48 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/07/07/catatan-akhir-sekolah/</guid>
+      <description>&lt;p&gt;Masa sekolah saya sudah selesai, begitu juga masa remaja. Fiuh, cepat sekali semuanya berlalu.&lt;/p&gt;&#xA;&lt;p&gt;Waktu saya berpas-pasan dengan teman sekelas saya di jalan (dua minggu setelah pengumuman kelulusan) dia berteriak memanggil. Dia bilang, buku rapot (atau rapor, atau report (laporan) atau apa kata yang benar? Tertulis ‘laporan hasil belajar’) milik saya belum diambil dan guru menitipkan padanya. Dia tanya kenapa saya tidak pernah datang ke sekolah, setidaknya mengurus tetek bengek kelulusan. Saya bilang saya sakit. Hohohoho.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hooreeee! Saya ndak Lulus UN!</title>
+      <link>//localhost:1313/post/2009/06/17/hooreeee-saya-ndak-lulus-un/</link>
+      <pubDate>Wed, 17 Jun 2009 03:52:16 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/06/17/hooreeee-saya-ndak-lulus-un/</guid>
+      <description>&lt;p&gt;Hei&amp;hellip;hei&amp;hellip; tentu saja saya lulus. judul itu saya tulis sebagai penghormatan saya terhadap calon entri postingan saya yang terselip di bawah. Di kota saya, kota Mataram yang kecil dan penuh polusi, pengumuman diundur sebanyak tiga kali sehingga bikin jengkel para peserta UN. Nah, karena saya yakin tidak lulus atau pendek kata, merencanakan diri untuk tidak lulus, maka pada malam sebelum pengumuman sesungguhnya, saya menulis sebuah tulisan untuk blog ini. Saya menulis apa yang kira-kira akan terjadi. Sebuah tulisan yang saya siapkan di belakang kenyataan bahwa saya tidak lulus. Sebuah tulisan yang ditulis dengan sepenuh hati, mengungkapkan isi otak saya tentang UN dan tetek bengeknya. yang mau muntah silakan muntah&amp;hellip;. :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dimakan Waktu</title>
+      <link>//localhost:1313/post/2009/05/01/dimakan-waktu/</link>
+      <pubDate>Fri, 01 May 2009 09:00:32 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/05/01/dimakan-waktu/</guid>
+      <description>&lt;p&gt;Aneh sekali liat orang ngerayain ultah. Senang umur semakin pendek. Saya? Ah, tidak ada yang memperhatikan. Jadi sadar, tahun ini tidak jauh lebih baik dari tahun kemarin. Kenapa begini?&lt;/p&gt;&#xA;&lt;p&gt;Sekarang usia badan ini sudah tujuh belas. Di budaya barat, sudah boleh minum miras dll. Tapi saya tidak melihat perbedaan, apa yang boleh dan tidak boleh saya lakukan jika belum dan sudah berusia tujuh belas, untuk saya. Hidup serasa datar&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Ummm&amp;hellip; Mau makan bakso dulu&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UN : Hari Keempat dan Terakhir</title>
+      <link>//localhost:1313/post/2009/04/24/un-hari-keempat-dan-terakhir/</link>
+      <pubDate>Fri, 24 Apr 2009 11:12:45 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/24/un-hari-keempat-dan-terakhir/</guid>
+      <description>&lt;p&gt;Geo?    Meragukan&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Ekonomi?    Apalagi&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Ah&amp;hellip;..&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;lega&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Akhirnya selese juga.&lt;/p&gt;&#xA;&lt;p&gt;Kalo enggak lulus? (dag dig dug dag dig dug)&amp;hellip;  Masa bodoh&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;lega lagi&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UN : Hari Kedua dan Ketiga</title>
+      <link>//localhost:1313/post/2009/04/22/un-hari-kedua-dan-ketiga/</link>
+      <pubDate>Wed, 22 Apr 2009 13:43:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/22/un-hari-kedua-dan-ketiga/</guid>
+      <description>&lt;p&gt;Bahasa Inggris = tidak ada yang perlu dikeluhkan, kecuali mata pengawas yang jelalatan. Kontrak yang sudah diteken berjalan lancar.&lt;/p&gt;&#xA;&lt;p&gt;Matematika = ?????????????????&lt;/p&gt;&#xA;&lt;p&gt;Kayaknya enggak lulus nih  &lt;sigh&gt;&lt;/p&gt;&#xA;&lt;p&gt;Memang dari lubuk hati terdalam, nggak usah lulus saja, biar balik sama teman-teman seangkatan yang dulu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UN : Hari Pertama</title>
+      <link>//localhost:1313/post/2009/04/20/un-hari-pertama/</link>
+      <pubDate>Mon, 20 Apr 2009 11:21:24 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/20/un-hari-pertama/</guid>
+      <description>&lt;p&gt;Mungkin bagi kebanyakan orang, UN adalah hal yang penting dalam hidup mereka. Saya juga merasakannya ketika ujian akhir waktu SMP. Tapi sekarang, kenapa pikiran itu hilang? Sejak pembinaan imtaq terakhir, saya tidak bisa belajar sama sekali. Seperti yang dibilang teman saya, makin mencoba tekun, makin tak karuan.&lt;/p&gt;&#xA;&lt;p&gt;Jadi, yang saya lakukan adalah tidur, kemudian bangun, pusing. saya bermain2 sedikit dengan komputer agar segar. Kemudian mencoba belajar, lapar. Jadi saya makan banyak biar tidak lapar. eh, malah jadi ngantuk kekenyangan. akhirnya tidur lagi. Sama sekali tidak bisa belajar. Saya heran, mengapa di saat genting ini muncul rasa malas yang amat sangat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lagi... Ngenet Gretongan di Halaman Rumah</title>
+      <link>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</link>
+      <pubDate>Wed, 15 Apr 2009 05:22:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/15/lagi...-ngenet-gretongan-di-halaman-rumah/</guid>
+      <description>&lt;p&gt;Siapa sangka di halaman rumah sendiri ada access point yang tidak diproteksi? Saya tidak perlu lagi capek-capek ke XXX (yang saya ceritakan sebelumya). Hanya saja ap yang satu ini hanya aktif pada pukul 12 sampae 17.30. si frxs jadi sering-sering numpang di sini buat maling benwit dari pada dia pigi ke XXX yang rada jauh. Saya tidak bisa bercerita banyak, ntar ditau sama yang poenya.&lt;/p&gt;&#xA;&lt;p&gt;Ini skrinsut si frxs lagi maling benwit, diambil diam2 dari cctv di dalam celana.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ngenet Gretongan di Hot Spot Bocor, Nyam...Nyam...</title>
+      <link>//localhost:1313/post/2009/04/04/ngenet-gretongan-di-hot-spot-bocor-nyam...nyam.../</link>
+      <pubDate>Sat, 04 Apr 2009 16:41:09 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/04/04/ngenet-gretongan-di-hot-spot-bocor-nyam...nyam.../</guid>
+      <description>&lt;p&gt;Yahuuuii!! Ini benar-benar menyenangkan. Saya tidak tahu apakah XXX (XXX adalah lembaga BUMN yang memiliki access point wireless tanpa proteksi ini) sengaja membuka hotspot atau adminnya sedang rada bego sehingga lupa pasang proteksi wpa atau wep. Mudah-mudahan saja sengaja agar tidak termasuk mencuri.&lt;/p&gt;&#xA;&lt;p&gt;Berita gembira ini diberitahu oleh frxs. tentu saja saya bersemangat. Rupanya disana sudah banyak yang sedang ngenet. Yang menjengkelkan, sementara orang lain sudah konek dan bersenang-senang. saya masih mondar-mandir tidak kedapatan sinyal. Untuk beberapa saat sinyalnya konek, tapi dengan cepat putus lagi. sampai kami pulang pun, saya hanya sempat buka halaman paman google sebanyak empat kali!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bonus dari Kolomkita.com</title>
+      <link>//localhost:1313/post/2009/03/07/bonus-dari-kolomkita.com/</link>
+      <pubDate>Sat, 07 Mar 2009 16:27:07 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/07/bonus-dari-kolomkita.com/</guid>
+      <description>&lt;p&gt;Wah&amp;hellip;wah&amp;hellip; Saya tidak menduga dapat hadiah dari &lt;a href=&#34;http://www.kolomkita.com&#34;&gt;kolomkita.com&lt;/a&gt;. Saya pernah menulis beberapa cerpen untuk kolomkita dan ternyata salah satunya berhasil masuk juara harapan. Cerpennya berjudul &lt;a href=&#34;http://www.kolomkita.com/2008/12/10/bukan-ismail/&#34;&gt;Bukan Ismail&lt;/a&gt;. Saya pikir cerpen ini tidak begitu bagus. Tahulah, pendapat setiap orang berbeda. Mungkin karena banyak komentar tentang cerpen saya. Meski hanya juara harapan, saya tetap senang karena dapat hadiah seratus ribu, ditambah bonus lima puluh ribu buat beli lensa kacamata yang pecah. Bagi Anda yang suka menulis, jangan sungkan menulis di kolomkita, entah itu cerpen, puisi, atau esay, Siapa tahu dapet hadiah seperti yang saya alami :D.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wah...Mataku jadi Ples</title>
+      <link>//localhost:1313/post/2009/01/05/wah...mataku-jadi-ples/</link>
+      <pubDate>Mon, 05 Jan 2009 04:00:49 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/01/05/wah...mataku-jadi-ples/</guid>
+      <description>&lt;p&gt;Setelah 2 tahun lepas kacamata, saya jadi nyesel. Waktu periksa di dokter, eh bukan min-nya turun, tapi malah jadi plus. Sudah plus, dimarahi ortu pula. Bener-bener nyesel. Saya kembali harus pakai kacamata bulat dan terlihat lebih bodoh dari sebelumnya. Jadi nobita deh. Mata kiri saya plus 2 sedangkan mata kanan plus 1,5. Kata si dokter, mata saya jadi plus karena terlalu sering dan dekat memandang layar monitor komputer atau TV tapi jarang melihat objek yang jauh. Memang, pada kenyataannya, saya menatap layar monitor komputer dalam jarak sekitar 15 cm dan lebih dari 5 jam sehari. Setelah kacamata bodoh ini saya pegang, saya baru sadar mata saya memang bermasalah. Kalau saya membaca buku atau layar monitor tanpa mata saya berakomodasi lebih (dipaksakan) atau dengan kata lain memandang dengan biasa-biasa, tulisannya terlihat blur atau kabur dan mata saya jadi cepat lelah. Tapi kalau lensa plus ini diletakkan di depan mata saya, semua terlihat lebih jelas dan jernih. Oh mataku.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Makanya pake LINUX!</title>
+      <link>//localhost:1313/post/2008/12/23/makanya-pake-linux/</link>
+      <pubDate>Tue, 23 Dec 2008 14:48:04 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/23/makanya-pake-linux/</guid>
+      <description>&lt;p&gt;Pertama kali saya mengenal Linux adalah saat saya masih kelas 2 SMP. Waktu itu saya baru belajar chatting pakai YM. Di sebuah chatting room saya nyeletuk &amp;lsquo;komputku virusan trus&amp;hellip;&amp;rsquo;, seseorang membalas dengan huruf besar-besar ditambah smile icon &amp;lsquo;MAKANYA PAKE LINUX!&amp;rsquo;. Saya mengira Linux itu sebuah antivirus dan langsung googling untuk download Linux. Ternyata antivirus Linux itu file nya besar sekali, rata-rata seukuran 1 CD dan punya banyak nama. Pastilah antivirus hebat, pikir saya dan saya tidak tertarik lagi karena harddisk saya waktu itu hanya 6GB dan space tersisa tinggal 300MB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review : Laskar Pelangi The Movie</title>
+      <link>//localhost:1313/post/2008/12/07/review-laskar-pelangi-the-movie/</link>
+      <pubDate>Sun, 07 Dec 2008 14:29:25 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/12/07/review-laskar-pelangi-the-movie/</guid>
+      <description>&lt;p&gt;Ini pertama kalinya saya menonton film yang baru keluar dengan cara yang legal. Biasanya saya nonton dari dvd bajakan yang pinjam di teman. Tapi film ‘Laskar Pelangi’ ini saya tonton di semacam ‘bioskop&amp;rsquo;. Sebenarnya bukan bioskop, cuma auditorium Universitas Mataram yang disulap di sana sini. Lembaga yang mengadakan acara adalah pihak Pertamina, lagi promosiin oli fastronnya yang lengket, sekaligus sebagai sponsor. Berapa beli tiketnya? Oh, saya dapat gratis. Tiketnya diberi oleh Wakasek kesiswaan di sekolah saya, frxs juga dapat. Kata Bu Wakasek, tiket ini hadiah dari dirinya pribadi untuk kami karena berhasil di olimpiade teknik di Bali. Senang bukan main memang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UN stress syndrome</title>
+      <link>//localhost:1313/post/2008/11/27/un-stress-syndrome/</link>
+      <pubDate>Thu, 27 Nov 2008 06:08:32 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/27/un-stress-syndrome/</guid>
+      <description>&lt;p&gt;Pagi ini saya benar-benar lesu. tugas-tugas sekolah yang menumpuk. Bayang-bayang ulangan semester. Catatan yang nggak lengkap. Lemes. Maunya main komputer terus. Mati. Mati.&lt;/p&gt;&#xA;&lt;p&gt;Benar-benar berat. Benar-benar berat rasanya bila harus mengurangi kegiatan di depan komputer. Tapi saya harus berbenah karena hasil Ujian Nasional menyangkut masa depan. Sudahlah. Komputer saya seperti permen saja, maunya diemut-emut terus. Mau dikata kerjain tugas pake komputer, eh, malah buka yang lain-lain. Susah benar. Mau dibuang tuh komputer, nggak tegaan. Mau dititip ke org lain, ntar kangenan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sayembara Cerpen Islami HMJKPI IAIN Mataram : I am winner again!</title>
+      <link>//localhost:1313/post/2008/11/18/sayembara-cerpen-islami-hmjkpi-iain-mataram-i-am-winner-again/</link>
+      <pubDate>Tue, 18 Nov 2008 13:55:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/18/sayembara-cerpen-islami-hmjkpi-iain-mataram-i-am-winner-again/</guid>
+      <description>&lt;p&gt;Waktu itu hari senin, hati saya masih mengambang-ambang karena baru pulang dari Bali memenangkan olimpiade teknik 2008 pada mata lomba web design. Pagi itu tidak upacara karena sekolah hanya mengadakan upacara 2 kali sebulan, selang-seling.  Saya berjalan masuk ke kelas, dan teman-teman saya menyambut saya dengan antusias dan merayu saya untuk mentraktir mereka karena mereka tahu saya dapat banyak uang dari kemenangan itu. Piala yang saya bawa—mau disimpan di sekolah—dibawa bergilir di tangan teman-teman saya. Rasanya sulit menjaga agar kepala saya tidak bertambah besar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Olimpiade Teknik UNUD Bali : I am Winner!</title>
+      <link>//localhost:1313/post/2008/11/15/olimpiade-teknik-unud-bali-i-am-winner/</link>
+      <pubDate>Sat, 15 Nov 2008 10:12:58 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/15/olimpiade-teknik-unud-bali-i-am-winner/</guid>
+      <description>&lt;p&gt;Alhamdulillah, yes…yes…yes…  Hanya itu yang saya ucapkan ketika pengumuman lomba Olimpiade Teknik 2008 UNUD Bali dibacakan. Nama saya disebut pada urutan kedua pada mata lomba web desain yang berarti saya meraih juara 2. Si fraxis dapet juara 1 (dia berhak masuk Universitas Udayana tanpa tes). Kami girang sekali. Prediksi fraxis benar, kami akan menang karena script-script kami yang keren. Kami saling bantu. Fraxis memberi saya script-script yang bagus dari javascript collector, sedang saya memberinya sedikit desain yang tidak begitu bagus dan sedikit animasi flash. Tidak sia-sia kami berjuang semalaman sampai jam 12 mempelajari script dan latihan menyusun layout web. Senangkah saya menang? Kadang senang kadang juga bingung, tapi saya akhirnya saya bisa menebus rasa malu saya terhadap pihak sekolah karena telah membiayai saya berlibur ke Bali. Saya berterimakasih kepada Pak Joko, pembimbing kami yang memberi saya izin untuk ikut seleksi di tingkat sekolah (waktu itu ada lima kandidat, saya dan fraxis berhasil lulus). Thanks juga buat fraxis atas segala bantuannya yang tulus. Dan terakhir kakak kandung saya (Yoga Septiandrei) yang membimbing saya tanpa pamrih, melatih saya mendesain sekreatif mungkin. Terima kasih buat panitia Olimpiade yang mau menuliskan nama saya sebagai juara kedua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Olimpiade Teknik 2008 UNUD Bali : Web Design</title>
+      <link>//localhost:1313/post/2008/11/13/olimpiade-teknik-2008-unud-bali-web-design/</link>
+      <pubDate>Thu, 13 Nov 2008 14:32:54 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/13/olimpiade-teknik-2008-unud-bali-web-design/</guid>
+      <description>&lt;p&gt;Pagi tadi benar-benar menegangkan. Kondisi : saya diutus sekolah ke bali (mengutuskan diri) sama teman saya (frxs). Ada acara olimpiade teknik 2008 yang diadakan Universitas Udayana Bali. Saya ikut mata lomba web design (sebenarnya nggak tahu apa-apa). alhasil 1 bulan sebelumnya saya tidak pernah belajar (pelajaran sekolah), pulang sekolah langsung gigit komputer ngerjain web (isinya amburadul).&lt;/p&gt;&#xA;&lt;p&gt;Kami (saya dan teman saya serta seorang guru dari sekolah) berangkat ke Bali dari Mataram, NTB, Naik kapal ferry yang lambat. Habis tu nungguin rombongan dari Selong (Lombok Timur) yang katanya mau ikut juga. Dari teman saya, dia bilang peserta web design ada 18 orang, otomatis saya jadi pesimis. Karya saya hanya biasa-biasa saja. Saya menaruh harapan pada menu flash drop down yang beda dengan peserta lain juga sedikit CSS dan Javascript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kenduri, Harga Diri, dan Hujan</title>
+      <link>//localhost:1313/post/2008/11/11/kenduri-harga-diri-dan-hujan/</link>
+      <pubDate>Tue, 11 Nov 2008 06:25:51 +0000</pubDate>
+      <guid>//localhost:1313/post/2008/11/11/kenduri-harga-diri-dan-hujan/</guid>
+      <description>&lt;p&gt;Ehm&amp;hellip; Ada cerita menarik, waktu ikut kendurian (syukuran) sama temen (Buntana?) hujan turun. Kondisinya begini, acaranya adalah syukuran naik haji dan tempatnya disediakan di dalam rumah empunya acara serta di halaman. Hanya tamu yang terhormat yang dipersilakan di dalam ruangan, kami dapat jatah di luar. Terop yang menaungi saya terbuat dari anyaman daun kelapa yang sudah kering dan di sangga bambu, bertumpuk-tumpuk dan kokoh. Akhirnya tiba waktu makan-makan.&lt;/p&gt;&#xA;&lt;p&gt;Tanpa disangka hujan turun gerimis namun saya dan Bun tidak terlalu menghiraukan karena lezatnya makanan itu; sate daging dan bakso yang besar-besar juga ayam suir-suir yang pedas. Saya baru menyadari hujan bertambah deras ketika tetesan air jatuh ke dalam piring saya, membuat enggan melanjutkan makan. Banyak tetesan jatuh di sana sini, para tamu jadi harus pindah-pindah tempat duduk agar tidak kena air. Tiba-tiba tetesan2 itu berubah menjadi kucuran yang deras, tak ayal baju kami semua jadi basah. Akhirnya saya dan Bun minggat bersama tamu-tamu lain untuk berteduh di teras empunya rumah (sebelumnya mencomot sepotong besar daging ayam).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

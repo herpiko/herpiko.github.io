@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rawr on Blog</title>
+    <link>//localhost:1313/tags/rawr/</link>
+    <description>Recent content in Rawr on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2009 09:45:31 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/rawr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Putus Nyambung</title>
+      <link>//localhost:1313/post/2009/12/21/putus-nyambung/</link>
+      <pubDate>Mon, 21 Dec 2009 09:45:31 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/12/21/putus-nyambung/</guid>
+      <description>&lt;p&gt;ngetik lagi nih&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;saya lupa cerita sedikit tentang keseharian. yah, memang bukan kebiasaan saya untuk berbagi cerita, tapi kawan-kawan bilang saya harus menumpahkan gelas. jadi, inilah dia, toh blog jadi terupdate.&lt;/p&gt;&#xA;&lt;p&gt;setelah 5 bulan jadi disener grapis di sebuah perusahaan percetakan, saya berhenti mendadak. tanya kenapa? tetangga kanan kiri ribut, ayam berkokok malam-malam, dan ban sepeda saya gembos. akhirnya Big Bos saya bertanya takzim, “Kau kenapa berhenti?”&lt;/p&gt;&#xA;&lt;p&gt;“Capek,” saya bilang.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

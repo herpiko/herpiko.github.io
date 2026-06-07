@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="//localhost:1313/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="//localhost:1313/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Lingkungan Praktik Jaringan Mikrotik dengan 2 Komputer</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2012/01/26</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/how-to">how to</a>, 
+        <a href="/categories/linux-opensource">linux-opensource</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/jaringan">jaringan</a>, 
+        <a href="/tags/mikrotik">mikrotik</a>, 
+        <a href="/tags/router">router</a>, 
+        <a href="/tags/virtual">virtual</a>, 
+        <a href="/tags/virtualbox">virtualbox</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>perangkat virtualisasi seperti virtualbox atau vmware sangat membantu dalam banyak hal. mari kita bermain-main sedikit.</p>
+<p>jadi kondisinya begini.</p>
+<ul>
+<li>
+<p>saya tidak punya routerboard</p>
+</li>
+<li>
+<p>saya hanya punya 2 komputer yang tidak kuat menjalankan vmware/virtualbox banyak2. sebuah PC-mac gadungan dan netbook berisi archlinux. asumsinya, setiap komputer hanya kuat menjalankan 1 OS virtual.</p>
+</li>
+</ul>
+<p>topologi yang ingin saya terapkan hanya routing sederhana dari 2 lingkungan berbeda, yang berarti membutuhkan minimal 3 komputer. 1 sebagai router, 1 sebagai komputer kelompok IP x, 1 lagi sebagai komputer kelompok IP y. sebenarnya, jika dipaksakan, komputer saya masih bisa dipasang 3 OS virtual dan jalan simultan. tapi sangat berat memang, lagi pula mempraktikkan sambil bermain bayang2 (karena perangkat mikrotik tidak benar-benar ada) lumayan bikin pusing. tentu saja tidak sulit mengubah PC biasa menjadi router, tapi yang saya maksud di sini, mikrotiknya virtual, tetapi port-port UTP-nya nyata, bisa kita sentuh dan OS host berikut data tidak terganggu.</p>
+<p>mengapa tidak menginstall mikrotik secara native?</p>
+<ul>
+<li>
+<p>karena ini komputer pribadi untuk keperluan sehari-hari, sebuah netbook dengan 1 port UTP dan 3 port USB.</p>
+</li>
+<li>
+<p>jika install native, hanya ada 1 port UTP, sementara USB2UTP tidak dikenal di mikrotik</p>
+</li>
+</ul>
+<p>dalam kasus ini, saya ingin punya sebuah &lsquo;routerboard&rsquo; dengan 4 port, itu setara RB750 dengan performa yang lebih baik, menggunakan routerOS 5.xx trial 24 jam. sebenarnya, untuk belajar, versi routerOS ini tidak terlalu merepotkan dengan limit waktunya. bisa diakali dengan backup konfigurasi. sesering mungkin backup sistem dan unduh berkasnya. jika lewat batas waktu hanya perlu 3 langkah kecil. install ulang &gt; konfigurasi IP salah satu interface &gt; upload dan restore berkas backup. dan semua kembali seperti sebelumnya.</p>
+<p>yang dibutuhkan untuk routerboard rakitan ini selain komputer adalah 2 atau 3 buah USB2UTP, jumlah tergantung kebutuhan.</p>
+<p><a href="http://pikopages.files.wordpress.com/2012/01/csc_0159.jpg"><img src="/assets/csc_0159.jpg" alt=""></a></p>
+<p>pastikan semua USB2UTP bekerja dan semua interface di-up, tetapi tutup semua koneksi. saya menggunakan arch linux, dan networkmanager bawaan gnome tidak bekerja normal dengan mode bridge di virtualbox. matikan daemon networkmanager dan gunakan netcfg. buat 4 berkas di /etc/network.d/, salah satunya misal bernama bridge0 yang isinya :</p>
+<p>[code]INTERFACE=&ldquo;br0&rdquo;</p>
+<p>CONNECTION=&ldquo;bridge&rdquo;</p>
+<p>DESCRIPTION=&ldquo;Virtualbox Bridge&rdquo;</p>
+<p>PRE_UP=&ldquo;ip link set dev eth0 promisc on&rdquo;</p>
+<p>BRIDGE_INTERFACES=&ldquo;eth0&rdquo;</p>
+<p>IP=&ldquo;no&rdquo;[/code]</p>
+<p>untuk berkas selanjutnya, ikuti penomoran, berkas bridge1 untuk eth1, bridge2 untuk eth2. kemudian aktifkan semuanya.</p>
+<p>[code]sudo netcfg bridge0[/code]</p>
+<p>dan seterusnya. ini bertujuan menjembatani interface virtual langsung ke perangkat kerasnya.</p>
+<p>buka virtualbox dan pilih mode bridge untuk jaringannya. Adapter network 1 dengan bridge0 dan seterusnya. setelah routerOS terpasang, kita akan mendapati semua interface mikrotik siap.</p>
+<p>[code]/interface print[/code]</p>
+<p><a href="http://pikopages.files.wordpress.com/2012/01/screenshot-at-2012-01-26-082020.png"><img src="/assets/screenshot-at-2012-01-26-082020.png" alt=""></a></p>
+<p>yep, mikrotik siap digunakan dan anda bisa memperlakukan setiap port sebagai &lsquo;routerboard&rsquo; sudah ada, bagaimana dengan lingkungan jaringan untuk routing? anda butuh 1 komputer lagi dengan 2 port UTP plus kabel2 UTP yang pendek dan menerapkan konsep yang sama. komputer host sebagai komputer kelompok IP x menggunakan eth0, sedangkan komputer guest (bridge ke eth1) sebagai komputer kelompok IP y. host dan guest tidak berhubungan langsung, melainkan melalu port mikrotik. tinggal diatur routingnya.</p>
+<p><a href="http://pikopages.files.wordpress.com/2012/01/screen-shot-2012-01-25-at-11-57-25-pm.png"><img src="/assets/screen-shot-2012-01-25-at-11-57-25-pm.png" alt=""></a></p>
+<p>yup, hanya dengan 2 komputer, kita punya mikrotik setengah nyata dan lingkungan jaringan kecil untuk praktek. :)</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

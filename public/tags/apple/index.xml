@@ -1,7 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apple on Blog</title><link>/tags/apple/</link><description>Recent content in Apple on Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/apple/index.xml" rel="self" type="application/rss+xml"/><item><title>QMK Firmware in M1</title><link>/post/2023/04/02/qmk-firmware-in-m1/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><guid>/post/2023/04/02/qmk-firmware-in-m1/</guid><description>&lt;p&gt;Running &lt;code&gt;./util/qmk_install.sh&lt;/code&gt; won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ arch -x86_64 /bin/bash -c &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, &lt;code&gt;qmk&lt;/code&gt; is accessible from anywhere, even from non-rosetta terminal session.&lt;/p&gt;
-&lt;p&gt;This is &lt;a href="https://github.com/herpiko/unk"&gt;UNK&lt;/a&gt; after being flashed directly from a M1 computer:&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/2023-04-02-unk.jpg" alt="UNK"&gt;&lt;/p&gt;
-&lt;p&gt;Happy hacking!&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on Blog</title>
+    <link>//localhost:1313/tags/apple/</link>
+    <description>Recent content in Apple on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMK Firmware in M1</title>
+      <link>//localhost:1313/post/2023/04/02/qmk-firmware-in-m1/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023/04/02/qmk-firmware-in-m1/</guid>
+      <description>&lt;p&gt;Running &lt;code&gt;./util/qmk_install.sh&lt;/code&gt; won&amp;rsquo;t work. You need rosetta-enabled terminal session then run these command below:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ arch -x86_64 /bin/bash -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ arch -x86_64 /usr/local/bin/brew install qmk/qmk/qmk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, &lt;code&gt;qmk&lt;/code&gt; is accessible from anywhere, even from non-rosetta terminal session.&lt;/p&gt;&#xA;&lt;p&gt;This is &lt;a href=&#34;https://github.com/herpiko/unk&#34;&gt;UNK&lt;/a&gt; after being flashed directly from a M1 computer:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2023-04-02-unk.jpg&#34; alt=&#34;UNK&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Happy hacking!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iPod Nano 4G hangs on boot.</title>
+      <link>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</link>
+      <pubDate>Sun, 15 Apr 2012 16:49:17 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/04/15/ipod-nano-4g-hangs-on-boot./</guid>
+      <description>&lt;p&gt;Malam ini saya tepok jidat karena salah memperlakukan iPod kesayangan (nano 4G). iPod ini baru balik dari pinjaman dan tidak bisa dideteksi oleh iTunes, baik di Mac maupun di Windows, malah iTunes-nya freeze. Partisinya masih terbaca, saya mencoba memformatnya dan gagal, akibatnya fatal, hasilnya seperti judul tulisan ini.&lt;/p&gt;&#xA;&lt;p&gt;Solusi pertama jika iPod nano saya bermasalah adalah menekan tombol menu dan ok selama sekitar 6-7 detik. Proses ini disebut reboot. Solusi kedua? Saya belum tahu solusi kedua sampai masalah ini terjadi. Saya pernah mencoba Diagnosis Mode dengan menahan tombol ok dan rew setelah logo apple muncul saat boot. Ternyata ada referensi lain : &lt;a href=&#34;http://support.apple.com/kb/HT1363&#34;&gt;http://support.apple.com/kb/HT1363&lt;/a&gt;. Kombinasi tombol lain yaitu ok dan play sesaat setelah reboot. iPod akan masuk ke disk mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In Memoriam : MekBuk</title>
+      <link>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</link>
+      <pubDate>Sat, 24 Mar 2012 18:00:40 +0000</pubDate>
+      <guid>//localhost:1313/post/2012/03/24/in-memoriam-mekbuk/</guid>
+      <description>&lt;p&gt;Halo.&lt;/p&gt;&#xA;&lt;p&gt;Kemarin saya diundang resepsi pernikahan sepupu saya. Belum selesai saya berpikir tentang peledakan populasi di keluarga besar saya akibat perkawinan-perkawinan yang mendadak, saya melihat sebuah iBook G4 dipajang di samping sound system acara resepsi tersebut.&lt;/p&gt;&#xA;&lt;p&gt;Hahah, saya langsung terhenyak dan mengingat dengan cepat kenangan saya akan MacBook saya 3 tahun lalu. Well, saya bukan benar-benar Apple fanboy, saya tidak punya iMac besar, atau iPad atau kaos bergambar buah apel tergigit, tetapi saya sejujurnya saya mengagumi produk buatan mereka hampir dari segala segi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>masalah mysql di XAMPP 1.7.3 for mac</title>
+      <link>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</link>
+      <pubDate>Sat, 06 Aug 2011 02:27:02 +0000</pubDate>
+      <guid>//localhost:1313/post/2011/08/06/masalah-mysql-di-xampp-1.7.3-for-mac/</guid>
+      <description>&lt;p&gt;berhubung saya sudah menemukan kext yang berjalan sempurna untuk perangkat LAN (Realtek RTL81xx) di mesin macosx86 (yang berarti si safari sudah bisa konek internet, meski terpaksa menjadikan laptop si frxs sebagai router, usb wireless adapter masih belum dikenali), jadi saya berkhianat untuk sementara, meninggalkan linux, berburu perangkat lunak mac bajakan di torrent, ini seperti bermain2 dengan aplikasi2 baru di android atau symbian. dan saya menikmati itu. :P (semoga dosa-dosa saya diampuni, amin)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mengaktifkan iSight di Ubuntu Intrepid</title>
+      <link>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</link>
+      <pubDate>Tue, 03 Mar 2009 01:50:55 +0000</pubDate>
+      <guid>//localhost:1313/post/2009/03/03/mengaktifkan-isight-di-ubuntu-intrepid/</guid>
+      <description>&lt;p&gt;Mungkin komputer terbaik di dunia adalah produk Apple (hehehe&amp;hellip;mentang2 pakek Mac). Sudah jadi rahasia umum produk Apple selalu menetapkan standar sendiri yang berbeda dengan vendor hardware maupun software lain. Lihat saja sebuah Macbook atau Powerbook. Anda tidak akan melihat yang namanya &amp;lsquo;BIOS&amp;rsquo;. Aneh sekali kan, komputer tanpa bios? Hardware di mesin mac juga dikhususkan untuk mac os, meski beberapa bisa untuk os lain. Nah, ini ada sedikit info cara mengaktifkan isight, webcam bawaan macbook, sistem operasi Linux Ubuntu. Sampai matipun tidak akan ketemu driver khusus untuk windows atau linux, kecuali mengambil file driver asli isight di Mac OSX, dan driver ini untungnya sudah disediakan di internet. Kalau punya Mac OSX, mungkin tidak terlalu sulit, bagaimana kalau tidak punya Mac OSX? Seperti saya&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
