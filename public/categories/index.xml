@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Art</title>
+      <link>//localhost:1313/categories/art/</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/art/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Books</title>
       <link>//localhost:1313/categories/books/</link>
