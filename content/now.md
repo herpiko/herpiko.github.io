@@ -11,6 +11,8 @@ date: 2025-01-01
 
 I'm currently working at [Noctua Games](https://noctuagames.com) as Head of Engineering, navigating the interesting intersection of game publishing, tech architecture & infrastructure, and building a team that ships things well.
 
+I also serve as director (part-time) for BlankOn Foundation (non-profit), which aiming to advance the open source technology ecosystem and technological independence in Indonesia. Through community collaboration and sustainable innovation, we build a more inclusive and sovereign digital future.
+
 ## Communities
 
 I maintain and am active in two communities: [BlankOn Linux](https://blankonlinux.or.id) (an Indonesian GNU/Linux distribution and its foundation) and [Lombok Dev](https://lombokdev.github.io) (a tech community in my hometown of Lombok).

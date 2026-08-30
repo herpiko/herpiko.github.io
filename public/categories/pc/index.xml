@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pc on Blog</title>
+    <title>PC on Blog</title>
     <link>//localhost:1313/categories/pc/</link>
-    <description>Recent content in Pc on Blog</description>
+    <description>Recent content in PC on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Apr 2021 00:00:00 +0700</lastBuildDate>
