@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Poetry on Blog</title>
-		<link>//localhost:1313/tags/poetry/</link>
+		<link>//localhost:41645/tags/poetry/</link>
 		<description>Recent content in Poetry on Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 02 Mar 2018 00:01:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:41645/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Statis</title>
-				<link>//localhost:1313/post/2018/03/02/statis/</link>
+				<link>//localhost:41645/post/2018/03/02/statis/</link>
 				<pubDate>Fri, 02 Mar 2018 00:01:00 +0000</pubDate>
-				<guid>//localhost:1313/post/2018/03/02/statis/</guid>
+				<guid>//localhost:41645/post/2018/03/02/statis/</guid>
 				<description>&lt;p&gt;Aku hanya tak ingin kau lupa, sayang&lt;/p&gt;&#xA;&lt;p&gt;Tentang debur ombak yang tenang&lt;/p&gt;&#xA;&lt;p&gt;Bisik-bisik&lt;/p&gt;&#xA;&lt;p&gt;Terik&lt;/p&gt;&#xA;&lt;p&gt;Aku hanya tak ingin kau pergi, sayang&lt;/p&gt;&#xA;&lt;p&gt;Dari gandengan yang mengambang&lt;/p&gt;&#xA;&lt;p&gt;Berlapis-lapis&lt;/p&gt;&#xA;&lt;p&gt;Romantis&lt;/p&gt;&#xA;&lt;p&gt;Aku ingin kita, selirik, statis&lt;/p&gt;</description>
 			</item>
 	</channel>

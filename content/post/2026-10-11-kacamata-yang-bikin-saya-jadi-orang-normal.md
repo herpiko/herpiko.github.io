@@ -22,6 +22,8 @@ Kemudian saya mendengar dari seorang teman bahwa ada kacamata pintar yang mampu 
 
 https://www.evenrealities.com/
 
+![](/images/2026-10-11-even-realities-conversate.jpg)
+
 Karena penasaran, istri saya sampai menyempatkan mengunjungi salah satu toko authorized seller-nya saat berlibur di Singapura (Zeiss Vision Center by K J Optometrists on Orchard road). Rasanya menakjubkan, rasanya seperti jadi Ironman dengan Jarvis mengambang di depan penglihatan kita.
 
 Sebulan kemudian, setelah saya menjadi tambah frustasi di pekerjaan karena tidak dapat mengikuti rapat luring dengan baik, saya memutuskan untuk membeli kacamata itu. Harganya $1000, atau sekitar 18jt rupiah. Dengan ongkir dan bea cukai, totalnya sekitar 21jt rupiah.
@@ -41,6 +43,8 @@ Hasil transcription-nya lumayan akurat. Dapat membedakan sumber suara dengan mem
 Hal lain yang saya apresiasi adalah, kacamata ini tidak memiliki kamera, jadi saya tidak perlu begitu khawatir dengan concern privasi, lagi pula bentuknya sangat lumrah, tidak semua orang mengenali kacamata ini sebagai gawai kacamata pintar. Memang masih ada beberapa concern terkait privasi karena percakapan orang lain jadi terekam di ponsel saya. Tapi saya bisa opt-out supaya datanya tidak tersimpan di server dan data di ponsel dapat saya hapus.
 
 Untuk jangka panjang, saya hanya berharap baterainya dapat bertahan lama untuk beberapa tahun mendatang, selama gawai ini mendukung saya sebagai hearing aid. Namun saya tidak begitu khawatir dengan platform-nya karena kacamata Even Realities generasi kedua ini ekosistemnya cukup terbuka / open. Saya bisa bikin custom app. Saya juga bisa membelokkan host app-nya ke app yang open soure seperti MentraOS (https://mentraglass.com/os). Masih banyak kemungkinan untuk dikembangkan secara mandiri.
+
+![](/images/2026-10-11-even-realities-wearing.jpg)
 
 Dan sejujurnya, kacamata ini benar-benar mengubah hidup saya. Saya sekarang lebih luwes berkomunikasi dan jauh lebih percaya diri.
 
