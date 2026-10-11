@@ -111,15 +111,15 @@
 <p>Before you starting, you need to install few softwares. Some of them are ready to use after install, some other requires adjustment to make it work. At some point you will have to pick a choice. This tutorial is using Ubuntu 22.04 LTS. If you are using different system, please adjust accordingly.</p>
 <h2 id="1-flatpak">1. FlatPak</h2>
 <p>Supposedly, this blog series will ended with packaging the app into a Snap package then publishing it to Snapcraft, but Flatpak become important here to support your development tool chain. To install Flatpak in Ubuntu, simply run,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install flatpak
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install flatpak
 </span></span></code></pre></div><p>Then restart your computer.</p>
 <h2 id="2-gnome-builder">2. GNOME Builder</h2>
 <p>GNOME Builder is an IDE (Integrated Development Environment) for crafting software in Linux environment. Unlike other advanced IDE like Android Studio, Eclipse, JetBrains, etc, GNOME Builder is a lot simpler. So simple that, if you have experience with these advanced IDE, you may found that GNOME Builder is not satisfying since it has less features. But fear not, the simplicity of the GNOME Builder will not hold you back from writing a beautiful GNOME native app.</p>
 <p>You can install GNOME Builder from Ubuntu repository or Flatpak but it&rsquo;s recommended to install from Ubuntu repository (version 42) because it&rsquo;s compatible with the latest version of Cambalache.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install gnome-builder
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install gnome-builder
 </span></span></code></pre></div><h3 id="the-target-system-of-the-gnome-builder">The target system of the GNOME Builder</h3>
 <p>By default, GNOME Builder will target your host system. If your system is using GNOME 40, then it will target GNOME 40 as well and using the existing SDK and Platform. If you want to target more modern system, let&rsquo;s say 45, then this is where Flatpak come in handy. You can just install a different target here. Let&rsquo;s say that you want to target GNOME 43, so be it.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install org.gnome.Platform/x86_64/43
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install org.gnome.Platform/x86_64/43
 </span></span><span style="display:flex;"><span>flatpak install org.gnome.Sdk/x86_64/43
 </span></span></code></pre></div><p>The GNOME 43 SDK and Platform will appear in the GNOME Builder build target option.</p>
 <h2 id="3-the-ui-designer-glade-vs-cambalache">3. The UI Designer: Glade vs Cambalache</h2>
@@ -130,15 +130,15 @@
 <p>The last choice is that you have to write the XML file manually by hand.</p>
 <p>My recommendation is to use the latest version of Cambalache. If it fails to meet your need, then you have to modify the XML file manually. At least, Cambalache will help you to design the base layout and as a reference of the supported GTK components.</p>
 <p>You can install Cambalache through Flatpak:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install flathub ar.xjuan.Cambalache
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>flatpak install flathub ar.xjuan.Cambalache
 </span></span></code></pre></div><h2 id="4-snapcraft">4. Snapcraft</h2>
 <p>Snap is a package manager from Cannonical and is already built in Ubuntu distribution. To publish app in Snap, you will need another software: Snapcraft. Snapcarft will help you to build and upload your Snap package to Snapcraft.io, and eventulally will be published there.</p>
 <p>You can install Snapcraft by using this command,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo snap install snapcraft --classic
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo snap install snapcraft --classic
 </span></span></code></pre></div><p>Snapcraft depends itself on LXD or MultiPass. Both of them are container technologies, like Docker. Snapcarft will build your app in the container and make sure it&rsquo;s an isolated environment. I suggest you to install LXD instead because it&rsquo;s more simple.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>snap install lxd --channel<span style="color:#f92672">=</span>latest/stable
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>snap install lxd --channel<span style="color:#f92672">=</span>latest/stable
 </span></span></code></pre></div><p>In my first attempt on building the Snap package, it fail because the container could not connect to the internet. If that happen to you, you may need to do a workaround:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow in on lxdbr0
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow in on lxdbr0
 </span></span><span style="display:flex;"><span>sudo ufw route allow in on lxdbr0
 </span></span><span style="display:flex;"><span>sudo ufw route allow out on lxdbr0
 </span></span><span style="display:flex;"><span>

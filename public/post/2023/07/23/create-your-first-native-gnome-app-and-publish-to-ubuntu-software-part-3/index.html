@@ -149,7 +149,7 @@
 <p>I know this is not an intuitive way to construct an UI design. In comparation, Glade and QtCreator is a lot better. But please remember the fact that Cambalache is newly born software.</p>
 <h2 id="expanding-the-basic-layout-manually">Expanding the basic layout manually</h2>
 <p>What we did in the Cambalache before is these lines of code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
 </span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
@@ -162,7 +162,7 @@
 </span></span><span style="display:flex;"><span>      <span style="color:#960050;background-color:#1e0010">&lt;</span>/object
 </span></span><span style="display:flex;"><span>...
 </span></span></code></pre></div><p>Since we need it to be expanded to 3 rows, we have to add more childrens to the grid. And for each child in the GtkLabel, let&rsquo;s set the label value and the row number. The row number start from 0, so we can set 1 for the second row and 2 for the third row.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
 </span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span>&gt;
@@ -203,7 +203,7 @@
 <li><code>vexpand</code> and <code>vexpand-set</code> - to expand the component verticaly.</li>
 <li><code>&lt;style&gt;</code> and <code>&lt;class&gt;</code> tag - to define the CSS style. Yes, we will be using CSS here! Feel like a web development, right?</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkGrid&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">child</span>&gt;
 </span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkLabel&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ScrambleNotation&#34;</span>&gt;
@@ -295,7 +295,7 @@
 </span></span></code></pre></div><p>At this point, your app will looks like this. This is enough for now. We will continue to write the CSS file.</p>
 <img src="/images/louca23part3-gnome-builder-preview-1.png"/>
 <p>From GNOME Builder template, we got Menu button and this menu button is the main/first focus of the window. We will manipulate this button later (disabling focus), so we need to add identifier for it. Let name it <code>Menu</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkMenuButton&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Menu&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>          &lt;<span style="color:#f92672">object</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;GtkMenuButton&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Menu&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon-name&#34;</span>&gt;open-menu-symbolic&lt;/<span style="color:#f92672">property</span>&gt;
 </span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">property</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;menu-model&#34;</span>&gt;primary_menu&lt;/<span style="color:#f92672">property</span>&gt;
 </span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">object</span>&gt;
@@ -303,7 +303,7 @@
 <p>Let&rsquo;s add new file (<code>style.css</code>) under the src directory.</p>
 <img src="/images/louca23part3-gnome-builder-css.png"/>
 <p>And then fill it with this CSS code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">scramble-label</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">scramble-label</span> {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
 </span></span><span style="display:flex;"><span>}
@@ -342,7 +342,7 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">lightgrey</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Then we need to register this CSS file to the resource file in <code>src/cubetimer.gresource.xml</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;gresources&gt;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;gresource</span> <span style="color:#a6e22e">prefix=</span><span style="color:#e6db74">&#34;/xyz/aguno/CubeTimer&#34;</span><span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;file&gt;</span>style.css<span style="color:#f92672">&lt;/file&gt;</span>
@@ -355,13 +355,13 @@
 <p>Enough about the UI and style, let&rsquo;s manipulate a component!</p>
 <h2 id="manipulating-a-component-from-python-code">Manipulating a component from Python code</h2>
 <p>We already have a <code>timer-grey</code> CSS class in <code>style.css</code> and we want to set this class programmatically at the start time of the app. In <code>src/window.py</code>, you have this Python class.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
 </span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, <span style="color:#f92672">**</span>kwargs):
 </span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span><span style="color:#a6e22e">__init__</span>(<span style="color:#f92672">**</span>kwargs)
 </span></span></code></pre></div><p>This is the class of your main window. To manipulate a GTK component, we need to call it by its identifier in the class, then manipulate it in the init function (if you want it to be triggered at start time). In this example, we will try to set two CSS classes to the component: <code>timer</code> and <code>timer-red</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
 </span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>) <span style="color:#75715e"># Register the component by identifier</span>
@@ -373,7 +373,7 @@
 </span></span></code></pre></div><p>Then you will get the timer label colored in grey.</p>
 <img src="/images/louca23part3-gnome-builder-preview-4.png"/>
 <p>To connect with other components, you need to add them as well.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
 </span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>)
 </span></span><span style="display:flex;"><span>    ScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;ScrambleNotation&#34;</span>)
 </span></span><span style="display:flex;"><span>    PrevScrambleNotation <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;PrevScrambleNotation&#34;</span>)
@@ -388,7 +388,7 @@
 <li>We create a function (on_key_pressed) to manipulate the Timer label by changing it to red color</li>
 <li>We add event listener (key press) then connect it to the function (on_key_pressed)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cubetimer2Window</span>(Gtk<span style="color:#f92672">.</span>ApplicationWindow):
 </span></span><span style="display:flex;"><span>    __gtype_name__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Cubetimer2Window&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    Timer <span style="color:#f92672">=</span> Gtk<span style="color:#f92672">.</span>Template<span style="color:#f92672">.</span>Child(<span style="color:#e6db74">&#34;Timer&#34;</span>)

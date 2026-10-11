@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Yuna on Blog</title>
-    <link>//localhost:1313/tags/yuna/</link>
-    <description>Recent content in Yuna on Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 18 Oct 2018 00:01:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/yuna/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The sea is the sea</title>
-      <link>//localhost:1313/post/2018/10/18/the-sea-is-the-sea/</link>
-      <pubDate>Thu, 18 Oct 2018 00:01:00 +0000</pubDate>
-      <guid>//localhost:1313/post/2018/10/18/the-sea-is-the-sea/</guid>
-      <description>&lt;p&gt;This is an intro from one of the Yuna&amp;rsquo;s songs. A deep parable.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes you find yourself trying to let go of something&lt;/p&gt;&#xA;&lt;p&gt;But it&amp;rsquo;s like, you have been swimming on the ocean for a very very long time&lt;/p&gt;&#xA;&lt;p&gt;And you feel like you belong there&lt;/p&gt;&#xA;&lt;p&gt;You are one with the waves&lt;/p&gt;&#xA;&lt;p&gt;The warmth of the water&lt;/p&gt;&#xA;&lt;p&gt;And your body moves in sync with the ocean&lt;/p&gt;&#xA;&lt;p&gt;And you swim around just trying to stay afloat&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Yuna on Blog</title>
+		<link>//localhost:1313/tags/yuna/</link>
+		<description>Recent content in Yuna on Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 18 Oct 2018 00:01:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/tags/yuna/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The sea is the sea</title>
+				<link>//localhost:1313/post/2018/10/18/the-sea-is-the-sea/</link>
+				<pubDate>Thu, 18 Oct 2018 00:01:00 +0000</pubDate>
+				<guid>//localhost:1313/post/2018/10/18/the-sea-is-the-sea/</guid>
+				<description>&lt;p&gt;This is an intro from one of the Yuna&amp;rsquo;s songs. A deep parable.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes you find yourself trying to let go of something&lt;/p&gt;&#xA;&lt;p&gt;But it&amp;rsquo;s like, you have been swimming on the ocean for a very very long time&lt;/p&gt;&#xA;&lt;p&gt;And you feel like you belong there&lt;/p&gt;&#xA;&lt;p&gt;You are one with the waves&lt;/p&gt;&#xA;&lt;p&gt;The warmth of the water&lt;/p&gt;&#xA;&lt;p&gt;And your body moves in sync with the ocean&lt;/p&gt;&#xA;&lt;p&gt;And you swim around just trying to stay afloat&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

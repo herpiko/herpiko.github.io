@@ -100,7 +100,7 @@
   <main>
     <img src="/images/2020-05-05-1660ti.jpg"/>
 <p>Although my GPU <a href="https://developer.nvidia.com/cuda-gpus#compute">is not listed here</a>, I can confirm that 1660 Ti works. The machine learning training is now significantly faster than using CPU.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>➜  imagerec git:<span style="color:#f92672">(</span>updated-deps<span style="color:#f92672">)</span> ✗ nvidia-smi
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>➜  imagerec git:<span style="color:#f92672">(</span>updated-deps<span style="color:#f92672">)</span> ✗ nvidia-smi
 </span></span><span style="display:flex;"><span>Tue May  <span style="color:#ae81ff">5</span> 15:00:40 <span style="color:#ae81ff">2020</span>
 </span></span><span style="display:flex;"><span>+-----------------------------------------------------------------------------+
 </span></span><span style="display:flex;"><span>| NVIDIA-SMI 440.33.01    Driver Version: 440.33.01    CUDA Version: 10.2     |
@@ -191,9 +191,9 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">]</span>
 </span></span><span style="display:flex;"><span>&gt;&gt;&gt;
 </span></span></code></pre></div><p>Using CPU,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python train.py  32,29s user 6,06s system 333% cpu 11,514 total
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python train.py  32,29s user 6,06s system 333% cpu 11,514 total
 </span></span></code></pre></div><p>Using GPU,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>GPU<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> python train.py  7,73s user 2,09s system 109% cpu 8,959 total
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>GPU<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> python train.py  7,73s user 2,09s system 109% cpu 8,959 total
 </span></span></code></pre></div><p>The setup is quite complex with various errors and version missmatches. I let myself to symlink different version of CUDA/cuDNN libraries.</p>
 <p>If you&rsquo;re planning to buy a GPU to support your machine learning project, I suggest you to pick a RTX graphics card. It&rsquo;s tremendously faster with built-in tensor cores. Unlimited budget? <a href="https://www.nvidia.com/en-us/data-center/dgx-station/">Here you go</a>.</p>
 

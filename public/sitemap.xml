@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/life/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/life/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/art/</loc>
     <lastmod>2026-08-02T00:00:00+00:00</lastmod>
@@ -11,16 +29,7 @@
     <loc>//localhost:1313/tags/art/</loc>
     <lastmod>2026-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
-    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/2026/08/02/rediscovering-the-passion-i-once-left-behind/</loc>
-    <lastmod>2026-08-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-08-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/books/</loc>
@@ -369,9 +378,6 @@
     <lastmod>2019-03-17T00:00:00+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/2019/01/28/leaving-gmail-1/</loc>
-    <lastmod>2019-01-28T00:00:00+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/life/</loc>
     <lastmod>2019-01-28T00:00:00+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/2019/01/27/2019-goals/</loc>
