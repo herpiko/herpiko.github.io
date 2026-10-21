@@ -63,7 +63,7 @@ Pikiran untuk menyiapkan full experience untuk sim racing saya coba buang jauh-j
 
 <img src="/assets/sim-racing-rig-2026.jpeg"/>
 
-Saya cukup membawa unit wheelbase yang dulu dibangun oleh teman-teman engineer dan saya di tim RSR (https://repas-sim-racing.github.io/), untuk menunjukkan bahwa ada firmware open source ( https://github.com/Ultrawipf/OpenFFBoard ) yang bisa kita gunakan untuk membangun wheelbase DIY dan juga bisa jalan di Linux. PS: Setelah berjalan 2 tahun, saya tidak lagi melanjutkan bisnis di RSR karena alasan sustainability.
+Saya cukup membawa unit wheelbase yang dulu dibangun oleh teman-teman engineer dan saya di tim RSR ( https://repas-sim-racing.github.io/ ), untuk menunjukkan bahwa ada firmware open source ( https://github.com/Ultrawipf/OpenFFBoard ) yang bisa kita gunakan untuk membangun wheelbase DIY dan juga bisa jalan di Linux. PS: Setelah berjalan 2 tahun, saya tidak lagi melanjutkan bisnis di RSR karena alasan sustainability.
 
 Selebihnya, kita tunjukkan saja bahwa Logitech G29 ini lancar digunakan di Linux, itu harusnya sudah cukup.
 
