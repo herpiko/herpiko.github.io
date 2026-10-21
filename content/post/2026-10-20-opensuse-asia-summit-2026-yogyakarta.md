@@ -26,7 +26,7 @@ Namun mempromosikan brand tanpa produk rasanya janggal. Saat itu visi saya menge
 
 ## Indonesia Linux Gaming
 
-Karena belakangan saya dan Sendy aktif ngoprek gaming di Linux dari waktu ke waktu, sampai kami iseng bikin komunitasnya di Telegram yang selama berbulan-bulan isinya cuma berdua saja.
+1-2 tahun belakangan saya dan Sendy aktif ngoprek gaming di Linux dari waktu ke waktu, sampai kami iseng bikin komunitasnya di Telegram yang selama berbulan-bulan isinya cuma berdua saja. Silakan bergabung melalui link ini: https://t.me/IndonesiaLinuxGaming
 
 <img src="/assets/indonesia-linux-gaming-founded.png"/>
 
