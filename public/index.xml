@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>openSUSE Asia Summit 2026 Yogyakarta</title>
+				<link>//localhost:1313/post/2026/10/20/opensuse-asia-summit-2026-yogyakarta/</link>
+				<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/post/2026/10/20/opensuse-asia-summit-2026-yogyakarta/</guid>
+				<description>&lt;p&gt;Awalnya saya berpikir bahwa saya tidak akan sempat mengikuti openSUSE Asia Summit 2026 yang akan diselenggarakan di Yogyakarta dikarenakan saya cukup kewalahan mengurus BlankOn, baik proyek maupun yayasannya, masih banyak sekali permasalahan yang harus diselesaikan. Namun beberapa orang mendorong saya untuk ikut serta. Persamaan mereka adalah mereka membawa kata-kata &amp;ldquo;reuni&amp;rdquo;, yang membuat saya berpikir ulang.&lt;/p&gt;&#xA;&lt;p&gt;Tidak banyak yang bisa saya bawakan ke sesi acara oSAS26 kecuali mungkin pemikiran dan perhatian saya selama beberapa tahun ke belakang tentang komunitas. Mungkin teman-teman bisa berangkat dari tulisan ini untuk memahami apa yang saya pikirkan: &lt;a href=&#34;https://aguno.xyz/post/2025/01/05/community/&#34;&gt;https://aguno.xyz/post/2025/01/05/community/&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Kacamata yang Bikin Saya Jadi Orang Normal</title>
 				<link>//localhost:1313/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</link>

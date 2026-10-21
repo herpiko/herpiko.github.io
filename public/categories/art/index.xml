@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Art on Blog</title>
-		<link>//localhost:41645/categories/art/</link>
+		<link>//localhost:1313/categories/art/</link>
 		<description>Recent content in Art on Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:41645/categories/art/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/categories/art/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Rediscovering the Passion I Once Left Behind</title>
-				<link>//localhost:41645/post/2026/08/02/rediscovering-the-passion-i-once-left-behind/</link>
+				<link>//localhost:1313/post/2026/08/02/rediscovering-the-passion-i-once-left-behind/</link>
 				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:41645/post/2026/08/02/rediscovering-the-passion-i-once-left-behind/</guid>
+				<guid>//localhost:1313/post/2026/08/02/rediscovering-the-passion-i-once-left-behind/</guid>
 				<description>&lt;p&gt;Both of my parents are artists, especially my mother, who has an incredible ability to draw and paint almost anything with remarkable realism in many media. Growing up surrounded by their work inspired my love for art, and I was known as a good sketcher as a child. Even then, I never came close to the level of skill my parents had.&lt;/p&gt;&#xA;&lt;p&gt;Although I dreamed of developing the same skills, I stopped drawing around the age of 10 as life took me in a different path.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Life on Blog</title>
-		<link>//localhost:41645/tags/life/</link>
+		<link>//localhost:1313/tags/life/</link>
 		<description>Recent content in Life on Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:41645/tags/life/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>openSUSE Asia Summit 2026 Yogyakarta</title>
+				<link>//localhost:1313/post/2026/10/20/opensuse-asia-summit-2026-yogyakarta/</link>
+				<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/post/2026/10/20/opensuse-asia-summit-2026-yogyakarta/</guid>
+				<description>&lt;p&gt;Awalnya saya berpikir bahwa saya tidak akan sempat mengikuti openSUSE Asia Summit 2026 yang akan diselenggarakan di Yogyakarta dikarenakan saya cukup kewalahan mengurus BlankOn, baik proyek maupun yayasannya, masih banyak sekali permasalahan yang harus diselesaikan. Namun beberapa orang mendorong saya untuk ikut serta. Persamaan mereka adalah mereka membawa kata-kata &amp;ldquo;reuni&amp;rdquo;, yang membuat saya berpikir ulang.&lt;/p&gt;&#xA;&lt;p&gt;Tidak ada yang bisa saya bawakan ke openSUSE kecuali mungkin pemikiran dan perhatian saya selama beberapa tahun ke belakang tentang komunitas. Mungkin teman-teman bisa berangkat dari tulisan ini untuk memahami apa yang saya pikirkan: &lt;a href=&#34;https://aguno.xyz/post/2025/01/05/community/&#34;&gt;https://aguno.xyz/post/2025/01/05/community/&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Kacamata yang Bikin Saya Jadi Orang Normal</title>
-				<link>//localhost:41645/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</link>
+				<link>//localhost:1313/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:41645/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</guid>
+				<guid>//localhost:1313/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</guid>
 				<description>&lt;p&gt;Saya ingin bercerita tentang sesuatu yang sedikit banyak mengubah hidup saya dalam beberapa bulan terakhir.&lt;/p&gt;&#xA;&lt;p&gt;Sebagai tambahan konteks, saya mempunyai disabilitas tidak terlihat (invisible disability), yaitu kekurangan pendengaran. Tidak sampai tuli, tapi cukup membuat saya kesulitan berkomunikasi. Tidak sampai orang langsung sadar bahwa saya kekurangan pendengaran, karena saya membekali diri saya dengan kemampuan membaca bibir (parsial) dan beberapa perangkat alat bantu dengar.&lt;/p&gt;&#xA;&lt;p&gt;Kekurangan pendengaran adalah masalah yang sangat kompleks dan kasusnya berbeda-beda untuk setiap penderitanya. Untuk kasus saya, masalah ini tidak hanya pada volume suara, tapi sudah mengarah ke urusan syaraf. Jadi solusinya tidak cukup hanya dengan membesarkan volume atau menyesuaikan frekuensi suara.&lt;/p&gt;</description>
 			</item>
 	</channel>
