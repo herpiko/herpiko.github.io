@@ -93,9 +93,9 @@ Saya merancang topologinya seperti berikut. Logistik lebih kecil secara volume, 
 
 <img src="/assets/linux-gaming-booth-topology.png"/>
 
-Saya dan istri saya menyewakan perangkat VR ini dari waktu ke waktu untuk tambahan penghasilan. Resikonya biasanya perangkat VR-nya kembali dengan bau keringat dan berwarna lebih cokelat wkwkwk.
+Saya dan istri saya menyewakan perangkat VR ini dari waktu ke waktu untuk tambahan penghasilan. Resikonya biasanya perangkat VR-nya kembali dengan bau keringat dan berwarna lebih cokelat wkwkwk. Resiko ini bisa dipahami dan kami bisa mencuci ulang foamnya setelahnya.
 
-Jadi kami menyiapkan disposable mask khusus VR, untuk melindungi kedua belah pihak, baik VR maupun pengunjung yang ingin mencoba.
+Namun karena perangkat VR-nya akan digunakan oleh banyak orangg secara bergantian dalam waktu yang sangat berdekatan, jadi kami menyiapkan disposable mask khusus VR, untuk melindungi kedua belah pihak agar tetap steril, baik VR maupun pengunjung yang ingin mencoba.
 
 <img src="/assets/linux-gaming-vr-mask.jpeg"/>
 
