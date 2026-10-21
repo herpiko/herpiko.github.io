@@ -218,3 +218,6 @@ Dalam perjalanan pulang, kami menyempatkan untuk berhenti sejenak di Semarang un
 Terima kasih kepada panitia oSAS26 dan komunitas openSUSE ID yang memberikan pengalaman ini untuk kami. Terima kasih juga kepada seluruh donatur, sponsor dan rekan-rekan di komunitas yang telah memberikan dukungan kepada kami dalam berbagai bentuk yang memungkinkan kehadiran kami di oSAS26.
 
 Semua dukungan tersebut memberikan pengalaman yang sulit dilupakan bagi kami, dan mudah-mudahan kontribusi kami dapat memberikan pengalaman yang serupa untuk yang lain.
+
+Hampir terlupa, ucapan terima kasih saya tujukan juga untuk <a href="https://id.wikipedia.org/wiki/Gabe_Newell">Lord Gaben</a>, engineer-engineer jeinus yang dihire oleh Valve, dan kontributor-kontributor open source pada umumnya yang memungkinkan pengalaman Linux Gaming di tahun ini terasa sangat berbeda.
+
