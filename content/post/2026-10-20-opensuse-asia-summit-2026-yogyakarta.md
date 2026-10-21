@@ -127,7 +127,7 @@ Saya membayangkan bagaimana mensimulasikan couch gaming yang nyaman di booth. Ar
 
 <img src="/assets/penyewaan-kursi-osas26-2.jpeg"/>
 
-Banyak juga yang perlu kami persiapkan seperti x-banner, alas pijakan kaki untuk VR, stand mini banner, dan lain-lain.
+Banyak juga yang perlu kami persiapkan seperti macam-macam sticker, x-banner, alas pijakan kaki untuk VR, stand mini banner, dan lain-lain.
 
 <img src="/assets/osas26-logistic-list.png"/>
 
