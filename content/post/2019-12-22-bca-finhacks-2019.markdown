@@ -1,6 +1,7 @@
 ---
 title: "BCA Finhacks 2019 #blockchainnovation"
 date: 2019-12-22 00:00:00 +0700
+slug: "bca-finhacks-2019-blockchainnovation"
 categories:
   - algorithm
 ---

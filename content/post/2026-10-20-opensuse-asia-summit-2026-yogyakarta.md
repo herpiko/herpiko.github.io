@@ -10,13 +10,17 @@ tags:
 
 Awalnya saya berpikir bahwa saya tidak akan sempat mengikuti openSUSE Asia Summit 2026 yang akan diselenggarakan di Yogyakarta dikarenakan saya cukup kewalahan mengurus BlankOn, baik proyek maupun yayasannya, masih banyak sekali permasalahan yang harus diselesaikan. Namun beberapa orang mendorong saya untuk ikut serta. Persamaan mereka adalah mereka membawa kata-kata "reuni", yang membuat saya berpikir ulang.
 
-Tidak banyak yang bisa saya bawakan ke sesi acara oSAS26 kecuali mungkin pemikiran dan perhatian saya selama beberapa tahun ke belakang tentang komunitas. Mungkin teman-teman bisa berangkat dari tulisan ini untuk memahami apa yang saya pikirkan: https://aguno.xyz/post/2025/01/05/community/.
+Tidak banyak yang bisa saya bawakan ke sesi acara oSAS26 kecuali mungkin sedikit pemikiran dan perhatian saya selama beberapa tahun belakangan tentang komunitas. Mungkin teman-teman bisa berangkat dari tulisan ini untuk memahami apa yang saya pikirkan: https://aguno.xyz/post/2025/01/05/community/.
 
-Saat BlankOn Foundation mendapat sedikit pendanaan lagi saat itu, beberapa orang mengusulkan supaya BlankOn Foundation dan GNOME ID turut serta mendukung oSAS26, yang mana segera kami sambut. Tetapi ternyata urusan ini berbuntut panjang: yaitu kami mendapatkan booth dan saya tidak tahu booth itu mau diisi apa. Saat itu BlankOn tidak punya apa pun untuk ditunjukkan dan tidak punya produk. BlankOn Linux Sinambung bahkan belum rilis dan masih tidak tahu arahnya ke mana.
+Saat BlankOn Foundation mendapat sedikit pendanaan lagi saat itu, beberapa orang mengusulkan supaya BlankOn Foundation dan GNOME ID turut serta mendukung oSAS26, yang mana segera kami sambut.
+
+Tetapi ternyata urusan ini berbuntut panjang: yaitu kami mendapatkan booth dan saya tidak tahu booth itu mau diisi apa. Saat itu BlankOn tidak punya apa pun untuk ditunjukkan dan tidak punya produk. BlankOn Linux Sinambung bahkan belum rilis dan kami masih tidak tahu ini arahnya ke mana.
 
 Ngomong-ngomong, openSUSE Asia Summit 2026 terselenggara dengan meriah. Saya rasa acara tersebut berhasil memenuhi ekspektasi orang-orang. Terlalu banyak yang bisa diceritakan.
 
-Namun tulisan kali ini saya ingin bercerita lebih banyak terkait apa yang kami (rekan-rekan di BlankOn Foundation dan GNOME ID) lakukan terkait booth tersebut. Saat kita mengelola booth di sebuah event, biasanya tujuannya ada beberapa, seperti:
+Namun di tulisan kali ini saya ingin bercerita lebih banyak terkait apa yang kami (rekan-rekan di BlankOn Foundation dan GNOME ID) lakukan terkait booth tersebut.
+
+Saat kita mengelola booth di sebuah event, biasanya tujuannya ada beberapa, seperti:
 
 1. Brand recognition dan marketing
 2. Product or campaign demonstration
@@ -59,7 +63,7 @@ Yang lebih mengejutkan lagi, Bazzite, salah satu distro khusus gaming, sudah mem
 
 Setelah memastikan lancar, saya bernegosiasi kepada panitia oSAS26 supaya saya bisa mendapatkan meja yang lebih kokoh untuk menahan setir Logitech ini.
 
-Pikiran untuk menyiapkan full experience untuk sim racing saya coba buang jauh-jauh, karena membawa simulator rig komplit yang beratnya lebih dari 120kg itu adalah logistic nightmare.
+Pikiran untuk menyiapkan full experience untuk sim racing saya coba buang jauh-jauh, karena membawa simulator rig komplit yang beratnya lebih dari 120kg dari Depok Jawa Barat ke Yogyakarta itu adalah sebuah logistic nightmare.
 
 <img src="/assets/sim-racing-rig-2026.jpeg"/>
 
@@ -73,14 +77,16 @@ Dan tentu saja, barang bawaan juga jadi bertambah. 1 kardus besar berisi paket l
 
 Setelah melihat istri saya yang rutin pakai VR untuk berolahraga, saya jadi kepikiran untuk mendemokan VR juga, jadi saya perlu membujuknya juga supaya mau meminjamkan VR dan seperangkat PC gamingnya.
 
-Tapi apakah VR jalan di Linux? Sekali lagi Bazzite menang di sini. Di BlankOn Linux, Ubuntu dan openSUSE, masih terkendala. Hambatannya ada di driver grafis yang fitur encoding/streamingnya didisable. Solusi ini pernah bekerja dengan dukungan paket dari Packman, namun saat dicoba, Packman sedang bermasalah. Di Bazzite, semua langsung berjalan lancar begitu saja tanpa harus diapa-apakan.
+Tapi apakah VR jalan di Linux?
+
+Sekali lagi Bazzite menang di sini. Di BlankOn Linux, Ubuntu dan openSUSE, masih terkendala. Hambatannya ada di driver grafis yang fitur encoding/streamingnya didisable. Solusi ini pernah bekerja dengan dukungan paket dari Packman, namun saat dicoba, Packman sedang bermasalah. Di Bazzite, semua langsung berjalan lancar begitu saja tanpa harus diapa-apakan.
 
 Sebelumnya, bahkan di Windows, urusan menghubungkan perangkat VR dengan PC ini cukup ribet. Kita harus memasang aplikasi pendamping bawaan perangkat VR di PC tersebut, dan aplikasi tersebut tidak mendukung Linux. Setelah terpasang, barulah kita dapat menghubungkannya, baik dengan kabel (yang sangat panjang tentunya) atau wifi. VR Gaming di Linux menjadi lebih mudah setelah Valve meningkatkan kualitas Steam Link dan mempublish Steam Link untuk perangkat VR seperti Pico 4 yang digunakan istri saya.
 
 Valve membangun abstraksi yang solid untuk membuat penghubung antara PC dan perangkat VR.
 <img src="/assets/steam-vr-steam-link.png"/>
 
-Namun tantangannya juga bertambah menjadi 4:
+Namun tantangannya juga bertambah menjadi empat:
 
 1. Saya harus negosiasi lagi dengan panitia oSAS26 untuk bisa mendapatkan ruang lebih di booth supaya bisa menggelar tempat untuk VR ini.
 2. Beban logistik menjadi bertambah juga. Barang bawaan menjadi semakin banyak. Saya perlu memikirkan moda transportasi selain pesawat.
@@ -89,11 +95,11 @@ Namun tantangannya juga bertambah menjadi 4:
 
 VR wireless juga ada tambahan logistik, meskipun lebih sedikit, urusannya lebih ribet karena harus memastikan koneksi wireless tersebut tidak terganggu oleh komunikasi di jaringan tersebut, dan juga oleh gangguan frekuensi dari luar jaringan.
 
-Saya merancang topologinya seperti berikut. Logistik lebih kecil secara volume, namun sangat banyak dan kecil-kecil.
+Saya merancang topologinya seperti berikut. Logistik lebih sedikit secara volume, namun sangat banyak dan kecil-kecil.
 
 <img src="/assets/linux-gaming-booth-topology.png"/>
 
-Saya dan istri saya menyewakan perangkat VR ini dari waktu ke waktu untuk tambahan penghasilan. Resikonya biasanya perangkat VR-nya kembali dengan bau keringat dan berwarna lebih cokelat wkwkwk. Resiko ini bisa dipahami dan kami bisa mencuci ulang foamnya setelahnya.
+Sebelumnya, saya dan istri saya menyewakan perangkat VR ini dari waktu ke waktu untuk tambahan penghasilan. Resikonya biasanya perangkat VR-nya kembali dengan bau keringat dan berwarna lebih cokelat wkwkwk. Resiko ini bisa dipahami dan kami bisa mencuci ulang foamnya setelahnya.
 
 Namun karena perangkat VR-nya akan digunakan oleh banyak orangg secara bergantian dalam waktu yang sangat berdekatan, jadi kami menyiapkan disposable mask khusus VR, untuk melindungi kedua belah pihak agar tetap steril, baik VR maupun pengunjung yang ingin mencoba.
 
@@ -107,7 +113,9 @@ Barangkali kita bisa berjumpa dengan pengguna Steam Deck yang lain, haha.
 
 ## BlankOn Linux Sinambung
 
-Sialnya, menjelang oSAS26, aroma rilis BlankOn Linux sudah mulai tercium berkat kontribusi teman-teman di tim pengembangan. Kami bahagia bisa rilis, tapi ini juga menambah tekanan ke persiapan logistik.
+Sialnya, menjelang oSAS26 beberapa hari lagi, aroma rilis BlankOn Linux sudah mulai tercium begitu pekat berkat kontribusi teman-teman di tim pengembangan.
+
+Kami bahagia bisa rilis, tapi ini juga menambah tekanan ke persiapan logistik.
 
 <img src="/assets/booth-blankon-preparation-1.jpeg"/>
 
@@ -121,7 +129,7 @@ Saat Sistiandy mengusulkan untuk pakai mobil dan gantian menyetir, saya rasa itu
 
 <img src="/assets/linux-gaming-logistic.jpeg"/>
 
-Ada faktor kehati-hatian juga di sini seperti GPU perlu dilepas dari PC saat sedang dalam transportasi.
+Ada faktor kehati-hatian juga di sini seperti GPU perlu dilepas dari PC saat sedang dalam transportasi dan beberapa hal lain yang perlu diurus dengan teliti.
 
 Saya membayangkan bagaimana mensimulasikan couch gaming yang nyaman di booth. Artinya saya perlu TV yang besar dan kursi yang nyaman. Atas bantuan Aji Kisworo Mukti aka Cengkaruk, kami berhasil mendapatkan pinjaman TV yang benar-benar besar dengan warna yang jernih. Lalu kami mencoba menyewa beberapa kursi puff dari usaha penyewaan lokal di Jogja supaya pengunjung bisa duduk dengan santai saat bermain gim.
 
@@ -197,7 +205,7 @@ Pak Fadil, mantan kontributor BlankOn Linux di tim Infrastruktur
 Pak Aftian, mantan kontributor BlankOn Linux, saya tidak yakin dengan pak Aftian itu di tim mana karena beliau palugada tudemax. He is the legendary mahadev.
 <img src="/assets/osas26-aftian.jpeg"/>
 
-Kemudian bertemu juga dengan beberapa mantan kontributor BlankOn Linux generasi lama lainnya.
+Kemudian bertemu juga dengan beberapa mantan kontributor BlankOn Linux generasi lama lainnya: Somat, Aftian, Utian, Levay, Cengkaruk
 <img src="/assets/osas26-old-gen.jpeg"/>
 
 Sebagian dari tim booth sempat berfoto dengan Pak Rusmanto
@@ -219,5 +227,5 @@ Terima kasih kepada panitia oSAS26 dan komunitas openSUSE ID yang memberikan pen
 
 Semua dukungan tersebut memberikan pengalaman yang sulit dilupakan bagi kami, dan mudah-mudahan kontribusi kami dapat memberikan pengalaman yang serupa untuk yang lain.
 
-Hampir terlupa, ucapan terima kasih saya tujukan juga untuk <a href="https://id.wikipedia.org/wiki/Gabe_Newell">Lord Gaben</a>, engineer-engineer jeinus yang dihire oleh Valve, dan kontributor-kontributor open source pada umumnya yang memungkinkan pengalaman Linux Gaming di tahun ini terasa sangat berbeda.
+Hampir terlupa, ucapan terima kasih saya tujukan juga untuk <a href="https://id.wikipedia.org/wiki/Gabe_Newell">Lord Gaben</a>, engineer-engineer jenius yang dihire oleh Valve, dan kontributor-kontributor open source pada umumnya yang memungkinkan pengalaman Linux Gaming di tahun ini terasa sangat berbeda.
 
