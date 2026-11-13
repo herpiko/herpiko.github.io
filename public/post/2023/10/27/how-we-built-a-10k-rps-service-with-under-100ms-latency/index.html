@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>How We Built a 10k RPS Service With Under-100ms Latency | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">How We Built a 10k RPS Service With Under-100ms Latency</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2023/10/27</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/golang">Golang</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p><em>Authors: Adnan Isnain N, Phill Imanius Winoto, Herpiko Dwi Aguno</em></p>
+<p>RTB (Real-Time Bidding) is a technology used in programmatic advertising that lets advertisers bid on and purchase ad impressions in real-time as they become available. This allows advertisers to target their ads to specific audiences and adjust their bids based on the value of those impressions.</p>
+<p>After diving into the OpenRTB specification and reviewing the technical documentation from one of the ad exchanges we wanted to integrate with, we thought we were ready for the challenge.</p>
+<blockquote>
+<p>It requires that the total latency be within 100 milliseconds, including connection establishment and bid response. If either of these independent thresholds are exceeded (connection and bid response time) during the transaction the bid is considered a &rsquo;timeout'.</p>
+</blockquote>
+<p>Then, we learned the traffic we&rsquo;d be dealing with in the RTB environment would range from 10,000 RPS to 500,000 RPS. That&rsquo;s almost 20 times the traffic of our direct supply ads network!</p>
+<p><img src="/images/10k-rps-under-100ms-1.png" alt=""></p>
+<h2 id="background">Background</h2>
+<p>When a bid request hits our system, we have to run through a lot before we can even bid: eligibility checks, pacing, filtering, budget management, targeting, optimization, experiments, pricing strategy, and more. All of these processes require data from our PostgreSQL database and Redis. From our experience with our exclusive direct supply ads network, we knew that handling 500 RPS could take around 200-400ms. That was &ldquo;okay-ish&rdquo; in our previous setup, but it&rsquo;s definitely not okay in the RTB world. We weren&rsquo;t sure if our existing processing pipeline could handle 10,000 RPS. Oh, and hello, PostgreSQL replication lags!</p>
+<p>Here&rsquo;s what we did to tackle the problem:</p>
+<h2 id="observability">Observability</h2>
+<p>We implemented APM (Application Performance Monitoring) early and integrated it into our messaging platform, allowing us to closely monitor performance dynamics. The screenshot below shows our ad pipeline in action, helping us track how much latency each function introduces. Once a latency threshold is reached, we can immediately pinpoint the bottleneck and address it.</p>
+<p>Tying this observability into alerting is essential, so we can quickly focus on fixing the right issues when they arise.</p>
+<p><img src="/images/10k-rps-under-100ms-2.png" alt=""></p>
+<h2 id="stress-load-design">Stress load design</h2>
+<p>We then moved forward with designing and building a stress load testing framework, leveraging Grafana&rsquo;s K6. To simulate 10k RPS, and even double it to 20k if bid callback URLs were included in the simulation, we needed a robust machine capable of allocating enough Virtual Users (VUs) to handle that kind of load.</p>
+<p>Instead of paying for an idle, overpowered machine, we started small, with modest machines and low RPS, scaling up as needed. To streamline this process, we created a simple framework that allowed anyone on the team to run a stress load test directly from the CLI. You could specify K6 parameters, our bid rate setup, and even the machine spec—ranging from a t3.small to a c5.xlarge.</p>
+<p>This CLI command triggers a job that spins up an AWS EC2 instance with the selected machine type, runs the test, grabs the results, and shuts the machine down as soon as the test is complete.</p>
+<p><img src="/images/10k-rps-under-100ms-3.png" alt=""></p>
+<p><img src="/images/10k-rps-under-100ms-4.png" alt=""></p>
+<p>So far, we&rsquo;ve run 503 stress load tests against the bidder service. Our best result? 9,141 RPS with latency results that still leave us plenty of room before hitting the 100ms limit.</p>
+<ul>
+<li>Average: 14.3ms</li>
+<li>Max: 343.09m</li>
+<li>p90: 37.25ms</li>
+<li>p95: 51.54ms</li>
+</ul>
+<p>We still have plenty of room for additional features before it reaches the 100ms limit.</p>
+<p><img src="/images/10k-rps-under-100ms-5.png" alt=""></p>
+<p>Having this tool in place has been a game-changer. It helps us fine-tune resource configurations and monitor automatic scaling.</p>
+<h2 id="in-memory-indexing-everywhere">In-Memory Indexing Everywhere</h2>
+<p>This approach turned out to be the first and most important trick we pulled off. By carefully designing the data model around the OpenRTB spec, we made sure the system wouldn&rsquo;t have to touch any database or storage during bid processing. Everything we need is loaded into memory, structured like indexed records in a database. When we need something, we just pull it by its key. Some of these keys are even designed like trees, which allows for flexible and in-depth queries when necessary.</p>
+<p>To make sure our PostgreSQL database reflected to this memory model, we maintain a dedicated go routine to sync them in interval basis. Fortunately, this sync process does not have to be real-time. A few minutes gap is fine.</p>
+<p><img src="/images/10k-rps-under-100ms-6.png" alt=""></p>
+<p>This in-memory approach might seem like a trick, but it&rsquo;s actually a pretty common practice. I even heard a funny story from another company where engineers were asked what they&rsquo;d do if there were too many objects to store in memory. They just shrugged and said, &ldquo;As long as it fits in memory, we&rsquo;re good.&rdquo;</p>
+<h2 id="benchmark-everything-and-use-the-best-that-is-available">Benchmark everything and use the best that is available</h2>
+<p>Sometimes, it catches us by surprise that latency happens not because of our logic or processing, but because of the libraries that we use. In our case, Golang&rsquo;s standard library for JSON encoding/decoding is not that good. We ended up using alternatives for various cases.</p>
+<ul>
+<li>JSON encoding/decoding: json-iterator/go</li>
+<li>Map: haxmap</li>
+<li>Cryptographic signature: ED25519</li>
+</ul>
+<p>In RTB, milliseconds matter. Small optimizations across the stack can make a huge difference, and sometimes, you need to go beyond default tools to hit your targets.</p>
+<p>But what happens when you benchmark all the available options and the &ldquo;best&rdquo; still doesn&rsquo;t meet your performance standards? That&rsquo;s exactly what happened when we started using Redis.</p>
+<h2 id="special-purpose-storage-a-database-with-fpga-in-mind">Special Purpose Storage, a database with FPGA in mind</h2>
+<p>This special-purpose storage is essentially an API service powered by <strong>haxmap</strong> for fast read-write operations. We don&rsquo;t worry about ACID principles in this case. We call it storage or a database because it operates as a single instance and scales vertically, much like a traditional database. And, just like an FPGA (a programmable integrated circuit), this database is built for specific purposes and data models.</p>
+<p>Before this, we used Redis, but it introduced unacceptable latency on the client side, even after we tweaked it and eventually migrated to AWS ElastiCache. We replaced Redis with a simple service that used a Golang map as in-memory storage. It performed almost twice as well as Redis until we encountered issues with concurrent read-write operations. Adding a mutex solved the concurrency issue, but unfortunately, it also slowed performance drastically, by order of magnitude.</p>
+<p>That&rsquo;s where <strong>haxmap</strong> saved us—it significantly reduced latency to just a few microseconds per service. We now use this approach to store data for frequency caps and heuristic pricing.</p>
+<p>This method does have some trade-offs, like single-instance limits and potential data availability issues. To prevent data loss, we created a Go routine that regularly backs up the map to S3 and restores it whenever a pod needs to be restarted or replaced.</p>
+<h2 id="the-data-stream">The data stream</h2>
+<p>All the data coming from the bid stream is valuable to us, even the data from bids we didn&rsquo;t win. But storing all of it isn&rsquo;t cost-effective. To make the most out of this massive data stream, we identified two types of data:</p>
+<h3 id="critical-business-metrics">Critical Business Metrics</h3>
+<p>This pipeline is our single source of truth from a business perspective. For this data:</p>
+<ul>
+<li>No sampling is allowed</li>
+<li>Data loss is not tolerable. Every single piece of data must be delivered with a 100% success rate.</li>
+<li>If there&rsquo;s a <strong>discrepancy</strong> with other systems or sources, it must be under 2%</li>
+</ul>
+<p>We carefully designed this system to ensure that any failed data transfers have a second chance to be successfully transmitted.</p>
+<h3 id="bid-log-history">Bid log history</h3>
+<p>The purpose of collecting bid logs is to analyze market trends. Here, we&rsquo;re more interested in the overall percentages, not exact figures. For this data:</p>
+<ul>
+<li><strong>Sampling</strong> is fine.</li>
+<li>We&rsquo;re okay with <strong>losing some data</strong>.</li>
+<li><strong>Small lag</strong> is acceptable.</li>
+</ul>
+<p>Interestingly, this bid log data is becoming one of our most valuable assets. The insights we extract from it help us understand the market better and adjust our strategies accordingly. Each new insight opens up more opportunities for growth and optimization.</p>
+<h2 id="security">Security</h2>
+<ul>
+<li>ED25519 signing</li>
+</ul>
+<h2 id="other-dirty-tricks">Other dirty tricks</h2>
+<ul>
+<li>Worker via chan</li>
+<li>Internal timeout</li>
+</ul>
+<p><img src="/images/10k-rps-under-100ms-7.png" alt=""></p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+
