@@ -15,6 +15,10 @@ Just want to share my journey of building a Steam Machine for the family. My wif
 
 We already had the hardware: a M920x. The missing piece was the GPU. The obvious choices were an NVIDIA RTX 3050 Low Profile or an AMD RX 6400/6500 Low Profile. Then this RX 7400 suddenly showed up on marketplace, and I grabbed it fast for $197 in my country.
 
+![](/images/family-steam-machine-5.webp)
+
+![](/images/family-steam-machine-6.webp)
+
 In Windows 11, it turns out it can not run AAA games like FC26 and Assassin's Creed Origins. The system would suddenly shut down after launching them. My initial guess was that the 135 W power adapter was the culprit. The CPU is an i7-9700, which can draw well over 100 W on its own peak.
 
 Surprisingly, the system handled games like Stray without any issues. That made me think the GPU wasn't the problem. So I decided to order a 230 W power adapter to see if the system could finally handle more demanding AAA titles without shutting down.
