@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>A Steam Machine Alternative: M920X &#43; i7 9700 &#43; RX 7400 Low Profile | Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/now/">~/now</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tech_talks/">~/tech_talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/photographs/">~/photographs</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">A Steam Machine Alternative: M920X + i7 9700 + RX 7400 Low Profile</span></h1>
+
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  <span class="date">Date: 2026/07/05</span>
+  <br/>
+  <span class="terms">
+    
+    
+      Categories: 
+        <a href="/categories/tech">Tech</a>
+      
+    <br/>
+    
+    
+      Tags: 
+        <a href="/tags/linux">Linux</a>, 
+        <a href="/tags/gaming">Gaming</a>
+      
+    <br/>
+    
+  </span>
+</div>
+</div>
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Just want to share my journey of building a Steam Machine for the family. My wife and I have invested heavily in Steam games over the past six years, so we decided it was finally time to build a couch &ldquo;console&rdquo;. Some people seem to be building their own Steam Machine lately, so here&rsquo;s ours.</p>
+<p><img src="/images/family-steam-machine-1.webp" alt=""></p>
+<p>We already had the hardware: a M920x. The missing piece was the GPU. The obvious choices were an NVIDIA RTX 3050 Low Profile or an AMD RX 6400/6500 Low Profile. Then this RX 7400 suddenly showed up on marketplace, and I grabbed it fast for $197 in my country.</p>
+<p>In Windows 11, it turns out it can not run AAA games like FC26 and Assassin&rsquo;s Creed Origins. The system would suddenly shut down after launching them. My initial guess was that the 135 W power adapter was the culprit. The CPU is an i7-9700, which can draw well over 100 W on its own peak.</p>
+<p>Surprisingly, the system handled games like Stray without any issues. That made me think the GPU wasn&rsquo;t the problem. So I decided to order a 230 W power adapter to see if the system could finally handle more demanding AAA titles without shutting down.</p>
+<p>Unfortunately, it still crashed even with the 230 watt power adapter. At that point, I felt incredibly stupid. I had just spent more money, only to end up with exactly the same problem.</p>
+<p>The only difference was that the game lasted a little longer before it crashed. Then, I decided to start logging the system with HWiNFO to see exactly what was happening with the power consumption. We can see that 230 W PSU should be able to handle this.</p>
+<p><img src="/images/family-steam-machine-3.png" alt=""></p>
+<p>I was still running Windows 11 because I wanted to play FC26 too. So I wiped the system and installed Bazzite instead. And the crashes were gone. It turns out Windows or the AMD Windows driver was the cause. I don&rsquo;t know which one is the real culprit.</p>
+<p><img src="/images/family-steam-machine-2.webp" alt=""></p>
+<p>Now I can play HZD smoothly without issues.</p>
+<p><img src="/images/family-steam-machine-4.webp" alt=""></p>
+<p>As for FC26, I&rsquo;ll just stream it from my gaming PC. The original goal was to build a couch console for the family. Since we don&rsquo;t have HDMI-CEC support, I use ADB commands to control the TV directly from the console instead.</p>
+<p>The final spec:</p>
+<ul>
+<li>Lenovo Tiny M920X with copper cooling</li>
+<li>Intel i7 9700 (non-T)</li>
+<li>AMD RX 7400 low profile</li>
+<li>1TB SSD</li>
+<li>16GB RAM</li>
+<li>230 watt Lenovo adapter</li>
+<li>OS: Bazzite</li>
+</ul>
+<p>It runs all games at stable 1080p 60fps, the graphics configuration is depending on the games.</p>
+<p>The only missing piece now is waking the system with just the controller. Once that&rsquo;s working, the whole experience will feel just like a real console. But that&rsquo;s a project for another tinkering session. :D</p>
+<p>This post was originally shared on <a href="https://www.reddit.com/r/sffpc/comments/1unzq6j/">r/sffpc</a>.</p>
+
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      <a href="https://github.com/herpiko">Github</a> | <a href="https://www.linkedin.com/in/herpiko/">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

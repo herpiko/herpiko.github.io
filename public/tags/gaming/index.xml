@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Gaming on Blog</title>
+		<link>/tags/gaming/</link>
+		<description>Recent content in Gaming on Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Steam Machine Alternative: M920X &#43; i7 9700 &#43; RX 7400 Low Profile</title>
+				<link>/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</link>
+				<pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</guid>
+				<description>&lt;p&gt;Just want to share my journey of building a Steam Machine for the family. My wife and I have invested heavily in Steam games over the past six years, so we decided it was finally time to build a couch &amp;ldquo;console&amp;rdquo;. Some people seem to be building their own Steam Machine lately, so here&amp;rsquo;s ours.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/family-steam-machine-1.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We already had the hardware: a M920x. The missing piece was the GPU. The obvious choices were an NVIDIA RTX 3050 Low Profile or an AMD RX 6400/6500 Low Profile. Then this RX 7400 suddenly showed up on marketplace, and I grabbed it fast for $197 in my country.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

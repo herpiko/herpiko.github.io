@@ -28,6 +28,13 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Tech</title>
+				<link>/categories/tech/</link>
+				<pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/tech/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Books</title>
 				<link>/categories/books/</link>
 				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
@@ -63,13 +70,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Tech</title>
-				<link>/categories/tech/</link>
-				<pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-				<guid>/categories/tech/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Memories</title>
 				<link>/categories/memories/</link>
 				<pubDate>Mon, 26 Jul 2021 00:00:00 +0700</pubDate>
@@ -98,7 +98,7 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Blankon</title>
+				<title>BlankOn</title>
 				<link>/categories/blankon/</link>
 				<pubDate>Fri, 04 Dec 2020 00:00:00 +0700</pubDate>
 				<guid>/categories/blankon/</guid>
