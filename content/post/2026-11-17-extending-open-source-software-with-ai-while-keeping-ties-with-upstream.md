@@ -29,9 +29,9 @@ My personal stance here is that I still want to explore the capabilities of AI, 
 
 Then I forked LiveCaptions because it had been unmaintained for 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macbook, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
 
-The default model from LiveCaptions is not good enough, and I want to hook up / try some other models that have better accuracy and can detect Bahasa Indonesia as well. I also want to add more control over how it works, and to show an indicator of voices / sound frequency so I would know if someone is speaking and I may expect some transcription text to be shown in the window.
+The default model from LiveCaptions is not good enough, and I want to hook up / try some other models that have better accuracy and can detect Bahasa Indonesia as well. I also want to add more control over how it works, and to show an indicator of voices / sound frequency so I would know if someone is speaking and I may expect some transcription text to be shown on the app.
 
-{{< figure src="/images/livecaptions-leap-16-1-release-party.webp" caption="My patched version of LiveCaptions performing at the hybrid openSUSE Leap 16.1 Release Party held in Yogyakarta." >}}
+{{< figure src="/images/livecaptions-leap-16-1-release-party.webp" caption="My patched version of LiveCaptions performing on my computer while joining the hybrid openSUSE Leap 16.1 Release Party held in Yogyakarta." >}}
 
 But what if LiveCaptions were well maintained? Would they receive my AI-generated patches? Would they be too tired to handle too many PRs from PR hunters?
 
