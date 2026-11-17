@@ -13,7 +13,7 @@ Beside my writing, I've not much to tell about myself: I took <a target="_blank"
 
 <blockquote style="color:grey;">I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone.</blockquote>
 
-I can be reached at herpiko@gmail.com.
+I can be reached at herpiko at gmail dot com.
 
 ---
 
