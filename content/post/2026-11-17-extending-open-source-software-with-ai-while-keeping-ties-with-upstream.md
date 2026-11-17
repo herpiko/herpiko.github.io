@@ -35,7 +35,7 @@ The default model from LiveCaptions is not good enough, and I want to hook up / 
 
 But what if LiveCaptions were well maintained? Would they receive my AI-generated patches? Would they be too tired to handle too many PRs from PR hunters?
 
-The new case comes from BlankOn Linux itself. When I was attempting GNOME translation work and stumbled upon Bazaar, I found it so perfect for replacing GNOME Software. The only shortfall is that it does not handle distro package management. It only works with Flathub.
+The new case comes from BlankOn Linux itself. When I was attempting GNOME translation work ( https://pelokalan.blankon.id/projects/gnome-id/files ) and stumbled upon Bazaar ( https://apps.gnome.org/Bazaar/ ), I found it so perfect for replacing GNOME Software. The only shortfall is that it does not handle distro package management. It only works with Flathub.
 
 {{< figure src="/images/bazaar-blankon-sinambung.webp" caption="Bazaar on BlankOn Linux Sinambung, simple yet powerful." >}}
 
