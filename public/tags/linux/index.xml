@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Linux on Blog</title>
-		<link>/tags/linux/</link>
+		<link>//localhost:1313/tags/linux/</link>
 		<description>Recent content in Linux on Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,20 +12,20 @@
 		
 			<lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Extending Open Source Software with AI While Keeping Ties with Upstream</title>
-				<link>/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</link>
+				<link>//localhost:1313/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</link>
 				<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-				<guid>/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</guid>
+				<guid>//localhost:1313/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</guid>
 				<description>&lt;p&gt;While maintaining BlankOn Linux for years, I used to patch upstream software in favor of:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Bug fixes&lt;/li&gt;&#xA;&lt;li&gt;Rebranding&lt;/li&gt;&#xA;&lt;li&gt;Extending some features / functionalities&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Bug fixes are usually already handled by our upstream (Debian Sid), and we rarely patch the software by ourselves. Rebranding tends to be easy too because the strings that need to be rebranded usually stay the same in the same file / line number for a long time. Both are maintained via Debian patches using quilt.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>A Steam Machine Alternative: M920X &#43; i7 9700 &#43; RX 7400 Low Profile</title>
-				<link>/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</link>
+				<link>//localhost:1313/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</link>
 				<pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</guid>
-				<description>&lt;p&gt;Just want to share my journey of building a Steam Machine for the family. My wife and I have invested heavily in Steam games over the past six years, so we decided it was finally time to build a couch &amp;ldquo;console&amp;rdquo;. Some people seem to be building their own Steam Machine lately, so here&amp;rsquo;s ours.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/family-steam-machine-1.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We already had the hardware: a M920x. The missing piece was the GPU. The obvious choices were an NVIDIA RTX 3050 Low Profile or an AMD RX 6400/6500 Low Profile. Then this RX 7400 suddenly showed up on marketplace, and I grabbed it fast for $197 in my country.&lt;/p&gt;</description>
+				<guid>//localhost:1313/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</guid>
+				<description>&lt;p&gt;Just want to share my journey of building a Steam Machine for the family. My wife and I have invested heavily in Steam games over the past six years, so we decided it was finally time to build a couch &amp;ldquo;console&amp;rdquo;. Some people seem to be building their own Steam Machine lately, so here&amp;rsquo;s ours.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/family-steam-machine-1.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We already had the hardware: a M920x. The missing piece was the GPU. The obvious choices were an NVIDIA RTX 3050 Low Profile or an AMD RX 6400/6500 Low Profile. Then this RX 7400 suddenly showed up on marketplace, and I grabbed it fast for $197 in my country.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

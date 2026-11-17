@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Blog</title>
-		<link>/categories/</link>
+		<link>//localhost:1313/categories/</link>
 		<description>Recent content in Categories on Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,292 +12,292 @@
 		
 			<lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Tech</title>
-				<link>/categories/tech/</link>
+				<link>//localhost:1313/categories/tech/</link>
 				<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/tech/</guid>
+				<guid>//localhost:1313/categories/tech/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Life</title>
-				<link>/categories/life/</link>
+				<link>//localhost:1313/categories/life/</link>
 				<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/life/</guid>
+				<guid>//localhost:1313/categories/life/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Art</title>
-				<link>/categories/art/</link>
+				<link>//localhost:1313/categories/art/</link>
 				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/art/</guid>
+				<guid>//localhost:1313/categories/art/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Books</title>
-				<link>/categories/books/</link>
+				<link>//localhost:1313/categories/books/</link>
 				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/books/</guid>
+				<guid>//localhost:1313/categories/books/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI</title>
-				<link>/categories/ai/</link>
+				<link>//localhost:1313/categories/ai/</link>
 				<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/ai/</guid>
+				<guid>//localhost:1313/categories/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Community</title>
-				<link>/categories/community/</link>
+				<link>//localhost:1313/categories/community/</link>
 				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/community/</guid>
+				<guid>//localhost:1313/categories/community/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Work</title>
-				<link>/categories/work/</link>
+				<link>//localhost:1313/categories/work/</link>
 				<pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>/categories/work/</guid>
+				<guid>//localhost:1313/categories/work/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Random</title>
-				<link>/categories/random/</link>
+				<link>//localhost:1313/categories/random/</link>
 				<pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-				<guid>/categories/random/</guid>
+				<guid>//localhost:1313/categories/random/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Memories</title>
-				<link>/categories/memories/</link>
+				<link>//localhost:1313/categories/memories/</link>
 				<pubDate>Mon, 26 Jul 2021 00:00:00 +0700</pubDate>
-				<guid>/categories/memories/</guid>
+				<guid>//localhost:1313/categories/memories/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Opinion</title>
-				<link>/categories/opinion/</link>
+				<link>//localhost:1313/categories/opinion/</link>
 				<pubDate>Sat, 03 Jul 2021 00:00:00 +0700</pubDate>
-				<guid>/categories/opinion/</guid>
+				<guid>//localhost:1313/categories/opinion/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Decluttering</title>
-				<link>/categories/decluttering/</link>
+				<link>//localhost:1313/categories/decluttering/</link>
 				<pubDate>Thu, 08 Apr 2021 00:00:00 +0700</pubDate>
-				<guid>/categories/decluttering/</guid>
+				<guid>//localhost:1313/categories/decluttering/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PC</title>
-				<link>/categories/pc/</link>
+				<link>//localhost:1313/categories/pc/</link>
 				<pubDate>Thu, 08 Apr 2021 00:00:00 +0700</pubDate>
-				<guid>/categories/pc/</guid>
+				<guid>//localhost:1313/categories/pc/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>BlankOn</title>
-				<link>/categories/blankon/</link>
+				<title>Blankon</title>
+				<link>//localhost:1313/categories/blankon/</link>
 				<pubDate>Fri, 04 Dec 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/blankon/</guid>
+				<guid>//localhost:1313/categories/blankon/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Debian</title>
-				<link>/categories/debian/</link>
+				<link>//localhost:1313/categories/debian/</link>
 				<pubDate>Fri, 04 Dec 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/debian/</guid>
+				<guid>//localhost:1313/categories/debian/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Jahitan</title>
-				<link>/categories/jahitan/</link>
+				<link>//localhost:1313/categories/jahitan/</link>
 				<pubDate>Fri, 04 Dec 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/jahitan/</guid>
+				<guid>//localhost:1313/categories/jahitan/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Diy</title>
-				<link>/categories/diy/</link>
+				<link>//localhost:1313/categories/diy/</link>
 				<pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/diy/</guid>
+				<guid>//localhost:1313/categories/diy/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Keyboard</title>
-				<link>/categories/keyboard/</link>
+				<link>//localhost:1313/categories/keyboard/</link>
 				<pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/keyboard/</guid>
+				<guid>//localhost:1313/categories/keyboard/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mechanical Keyboard</title>
-				<link>/categories/mechanical-keyboard/</link>
+				<link>//localhost:1313/categories/mechanical-keyboard/</link>
 				<pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/mechanical-keyboard/</guid>
+				<guid>//localhost:1313/categories/mechanical-keyboard/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Repair</title>
-				<link>/categories/repair/</link>
+				<link>//localhost:1313/categories/repair/</link>
 				<pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/repair/</guid>
+				<guid>//localhost:1313/categories/repair/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Book</title>
-				<link>/categories/book/</link>
+				<link>//localhost:1313/categories/book/</link>
 				<pubDate>Fri, 24 Apr 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/book/</guid>
+				<guid>//localhost:1313/categories/book/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Diary</title>
-				<link>/categories/diary/</link>
+				<link>//localhost:1313/categories/diary/</link>
 				<pubDate>Fri, 24 Apr 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/diary/</guid>
+				<guid>//localhost:1313/categories/diary/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Build</title>
-				<link>/categories/build/</link>
+				<link>//localhost:1313/categories/build/</link>
 				<pubDate>Fri, 10 Apr 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/build/</guid>
+				<guid>//localhost:1313/categories/build/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Personal Computer</title>
-				<link>/categories/personal-computer/</link>
+				<link>//localhost:1313/categories/personal-computer/</link>
 				<pubDate>Fri, 10 Apr 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/personal-computer/</guid>
+				<guid>//localhost:1313/categories/personal-computer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Algorithm</title>
-				<link>/categories/algorithm/</link>
+				<link>//localhost:1313/categories/algorithm/</link>
 				<pubDate>Sun, 09 Feb 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/algorithm/</guid>
+				<guid>//localhost:1313/categories/algorithm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hackathon</title>
-				<link>/categories/hackathon/</link>
+				<link>//localhost:1313/categories/hackathon/</link>
 				<pubDate>Sun, 09 Feb 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/hackathon/</guid>
+				<guid>//localhost:1313/categories/hackathon/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Weekend Project</title>
-				<link>/categories/weekend-project/</link>
+				<link>//localhost:1313/categories/weekend-project/</link>
 				<pubDate>Sun, 09 Feb 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/weekend-project/</guid>
+				<guid>//localhost:1313/categories/weekend-project/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Firefox</title>
-				<link>/categories/firefox/</link>
+				<link>//localhost:1313/categories/firefox/</link>
 				<pubDate>Sun, 12 Jan 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/firefox/</guid>
+				<guid>//localhost:1313/categories/firefox/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Moztalk</title>
-				<link>/categories/moztalk/</link>
+				<link>//localhost:1313/categories/moztalk/</link>
 				<pubDate>Sun, 12 Jan 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/moztalk/</guid>
+				<guid>//localhost:1313/categories/moztalk/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Review</title>
-				<link>/categories/review/</link>
+				<link>//localhost:1313/categories/review/</link>
 				<pubDate>Sun, 12 Jan 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/review/</guid>
+				<guid>//localhost:1313/categories/review/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Techtalk</title>
-				<link>/categories/techtalk/</link>
+				<link>//localhost:1313/categories/techtalk/</link>
 				<pubDate>Sun, 12 Jan 2020 00:00:00 +0700</pubDate>
-				<guid>/categories/techtalk/</guid>
+				<guid>//localhost:1313/categories/techtalk/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Poem</title>
-				<link>/categories/poem/</link>
+				<link>//localhost:1313/categories/poem/</link>
 				<pubDate>Sat, 07 Sep 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/poem/</guid>
+				<guid>//localhost:1313/categories/poem/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Code</title>
-				<link>/categories/code/</link>
+				<link>//localhost:1313/categories/code/</link>
 				<pubDate>Fri, 28 Jun 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/code/</guid>
+				<guid>//localhost:1313/categories/code/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mozilla</title>
-				<link>/categories/mozilla/</link>
+				<link>//localhost:1313/categories/mozilla/</link>
 				<pubDate>Fri, 28 Jun 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/mozilla/</guid>
+				<guid>//localhost:1313/categories/mozilla/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Open Source</title>
-				<link>/categories/open-source/</link>
+				<link>//localhost:1313/categories/open-source/</link>
 				<pubDate>Fri, 28 Jun 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/open-source/</guid>
+				<guid>//localhost:1313/categories/open-source/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Minimalist</title>
-				<link>/categories/minimalist/</link>
+				<link>//localhost:1313/categories/minimalist/</link>
 				<pubDate>Mon, 20 May 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/minimalist/</guid>
+				<guid>//localhost:1313/categories/minimalist/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Irgsh</title>
-				<link>/categories/irgsh/</link>
+				<link>//localhost:1313/categories/irgsh/</link>
 				<pubDate>Fri, 05 Apr 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/irgsh/</guid>
+				<guid>//localhost:1313/categories/irgsh/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Linux</title>
-				<link>/categories/linux/</link>
+				<link>//localhost:1313/categories/linux/</link>
 				<pubDate>Fri, 05 Apr 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/linux/</guid>
+				<guid>//localhost:1313/categories/linux/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Project</title>
-				<link>/categories/project/</link>
+				<link>//localhost:1313/categories/project/</link>
 				<pubDate>Fri, 05 Apr 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/project/</guid>
+				<guid>//localhost:1313/categories/project/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cctv</title>
-				<link>/categories/cctv/</link>
+				<link>//localhost:1313/categories/cctv/</link>
 				<pubDate>Sun, 17 Mar 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/cctv/</guid>
+				<guid>//localhost:1313/categories/cctv/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lifehack</title>
-				<link>/categories/lifehack/</link>
+				<link>//localhost:1313/categories/lifehack/</link>
 				<pubDate>Sun, 17 Mar 2019 00:00:00 +0700</pubDate>
-				<guid>/categories/lifehack/</guid>
+				<guid>//localhost:1313/categories/lifehack/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Blog</title>
-				<link>/categories/blog/</link>
+				<link>//localhost:1313/categories/blog/</link>
 				<pubDate>Thu, 10 Jan 2019 00:01:00 +0000</pubDate>
-				<guid>/categories/blog/</guid>
+				<guid>//localhost:1313/categories/blog/</guid>
 				<description></description>
 			</item>
 	</channel>

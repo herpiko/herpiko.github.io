@@ -81,7 +81,9 @@ If we use the patched version of the software for ourselves only, we don't need 
 
 ## Introducing Warsi (Experimental)
 
-Warsi is a modified Bazaar that suppor Debian APT package management. You can install it from our development repository here: https://arsip-dev.blankonlinux.id/sinambung/pool/main/w/warsi/
+Warsi is a modified Bazaar that support Debian APT package management. The name come from "Warung Aplikasi", a store-like app that developed by cengkaruk and tuanpembual circa 2014-2015.
+
+You can install it from our development repository here: https://arsip-dev.blankonlinux.id/sinambung/pool/main/w/warsi/
 
 - Bazaar patched code: https://github.com/blankOn/bazaar
 - The AI patches: https://github.com/blankOn/bazaar-ai-patches
