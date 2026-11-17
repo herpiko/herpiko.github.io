@@ -80,6 +80,7 @@ If we use the patched version of the software for ourselves only, we don't need 
 1. Rebranding - Rebranding is not a bad thing. It's a step to diversify the identity of the software because it has been changed a lot. Not doing any rebranding will make people think that the features we added actually come from upstream, which is very misleading.
 2. Bug report - We need to make a statement or be explicit about where people can report their bug findings. Not doing so will redirect every report (including the ones related to our patches) to upstream, which will cause trouble for the upstream maintainers.
 3. Attribution - We should credit the upstream properly, following the license (if any).
+4. Security - There is great responsibility to redistribute software, you need to keep watching for security vulnerabilities and upstream changes / responses against the vulnerabilities. it's your responsibility too to deliver the security patches to your users.
 
 ## Introducing Warsi (Experimental)
 
