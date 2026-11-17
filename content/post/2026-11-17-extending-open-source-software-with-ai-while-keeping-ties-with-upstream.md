@@ -14,9 +14,11 @@ While maintaining BlankOn Linux for years, I used to patch upstream software in 
 2. Rebranding
 3. Extending some features / functionalities
 
-Bug fixes are usually already handled by our upstream (Debian Sid), and we rarely patch the software by ourselves. Rebranding tends to be easy too because the strings that need to be rebranded usually stay the same in the same file / line number for a long time. Both are maintained via Debian patches using quilt.
+Bug fixes are usually already handled by our upstream (Debian Sid), and we rarely patch the software by ourselves. Rebranding tends to be easy too because the strings that need to be rebranded usually stay the same in the same file / line number for a long time. Both are maintained via Debian patches using quilt. But extending features / functionalities is another level of effort.
 
-But extending features / functionalities is another level of effort. We tend not to send the patches upstream for several reasons, such as:
+These patching efforts are important to deliver the best experience for our users.
+
+However, we tend not to send the patches upstream for several reasons, such as:
 
 * It may no longer be maintained (which happened with LiveCaptions, which I will tell you about later).
 * Our patches do not fit into upstream's goals.
@@ -30,8 +32,6 @@ These patching efforts are important to deliver the best experience for our user
 Then I forked LiveCaptions because it had been unmaintained for 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macOS, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
 
 The default model from LiveCaptions is not good enough, and I want to hook up / try some other models that have better accuracy and can detect Bahasa Indonesia as well. I also want to add more control over how it works, and to show an indicator of voices / sound frequency so I would know if someone is speaking and I may expect some transcription text to be shown in the window.
-
-Of course, I use AI to extend LiveCaptions into something that I would like. It's almost perfect. I feel great.
 
 {{< figure src="/images/livecaptions-leap-16-1-release-party.webp" caption="My patched version of LiveCaptions performing at the hybrid openSUSE Leap 16.1 Release Party held in Yogyakarta." >}}
 
