@@ -97,6 +97,6 @@ You can install it from our development repository here: https://arsip-dev.blank
 
 ## Benchmark
 
-If the patches can survive multiple re-implementations using different AI models with high score consistencies, then I will consider this experiment to be going well and I may deliver Warsi to the next BlankOn Linux Sinambung updates.
+If the patches can survive multiple re-implementations using different AI models with high score of consistencies, then I will consider this experiment to be going well and I may deliver Warsi to the next BlankOn Linux Sinambung updates.
 
 Benchmark plan and result TO BE WRITTEN.
