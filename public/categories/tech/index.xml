@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Extending Open Source Software with AI While Keeping Ties with Upstream</title>
+				<link>/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</link>
+				<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</guid>
+				<description>&lt;p&gt;While maintaining BlankOn Linux for years, I used to patch upstream software in favor of:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Bug fixes&lt;/li&gt;&#xA;&lt;li&gt;Rebranding&lt;/li&gt;&#xA;&lt;li&gt;Extending some features / functionalities&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Bug fixes are usually already handled by our upstream (Debian Sid), and we rarely patch the software by ourselves. Rebranding tends to be easy too because the strings that need to be rebranded usually stay the same in the same file / line number for a long time. Both are maintained via Debian patches using quilt.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>A Steam Machine Alternative: M920X &#43; i7 9700 &#43; RX 7400 Low Profile</title>
 				<link>/post/2026/07/05/a-steam-machine-alternative-m920x-i7-9700-rx-7400-low-profile/</link>

@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2026/11/17/extending-open-source-software-with-ai-while-keeping-ties-with-upstream/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tech/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/life/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
@@ -15,12 +33,6 @@
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2026/10/20/opensuse-asia-summit-2026-yogyakarta/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2026/10/11/kacamata-yang-bikin-saya-jadi-orang-normal/</loc>
@@ -41,12 +53,6 @@
     <loc>/tags/gaming/</loc>
     <lastmod>2026-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/books/</loc>
     <lastmod>2026-06-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,9 +63,6 @@
     <lastmod>2026-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/ai/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/ai/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2026/06/01/when-ai-makes-ordinary-life-feel-good/</loc>
