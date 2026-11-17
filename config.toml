@@ -44,5 +44,5 @@ url = "/index.xml"
 
 [params]
 custom_css = ["css/theme-override.css"]
-description = "A simple, minimal blog for those who love text."
+description = "I am a simple man, I see Gandalf, I follow him."
 footer = "[Github](https://github.com/herpiko) | [LinkedIn](https://www.linkedin.com/in/herpiko/)"
