@@ -29,7 +29,7 @@ My personal stance here is that I still want to explore the capabilities of AI, 
 
 These patching efforts are important to deliver the best experience for our users.
 
-Then I forked LiveCaptions because it had been unmaintained for 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macOS, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
+Then I forked LiveCaptions because it had been unmaintained for 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macbook, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
 
 The default model from LiveCaptions is not good enough, and I want to hook up / try some other models that have better accuracy and can detect Bahasa Indonesia as well. I also want to add more control over how it works, and to show an indicator of voices / sound frequency so I would know if someone is speaking and I may expect some transcription text to be shown in the window.
 
