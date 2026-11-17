@@ -27,7 +27,7 @@ Now, in the AI era, we have another reason: upstream may not accept AI-generated
 
 My personal stance here is that I still want to explore the capabilities of AI, especially the SOTA ones, but on the other side, I want to respect upstreams. I would not do something like forking Asahi Linux and then badmouthing the maintainer because they wouldn't accept AI contributions. I think that's not how open source works, or at least how it used to work. AI is now challenging many aspects of open source culture and traditions, and we can see this in many clashes, conflicts, and dramas around the internet.
 
-Then I forked LiveCaptions because it had been unmaintained for 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macbook, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
+Then I forked LiveCaptions ( https://github.com/abb128/LiveCaptions ) because it had been unmaintained for alomst 2 years. LiveCaptions is very essential to my daily life because I am hard of hearing. On macbook, I depend on the Live Caption feature from macOS, but on my Linux laptop, I need an equivalent.
 
 The default model from LiveCaptions is not good enough, and I want to hook up / try some other models that have better accuracy and can detect Bahasa Indonesia as well. I also want to add more control over how it works, and to show an indicator of voices / sound frequency so I would know if someone is speaking and I may expect some transcription text to be shown on the app.
 
