@@ -41,7 +41,7 @@ The new case comes from BlankOn Linux itself. When I was attempting GNOME transl
 
 Adding that functionality would not be a small patch that could be reviewed, but rather some hundred lines of code, and of course, at that time and with my current resources (effort, time, and money), it would be AI-generated code. I am not sure if it would align with the upstream goal (to be a store for Flathub only). Even if I could convince the maintainers to grow it into something like GNOME Software, I am not sure they would accept my AI-generated code. Whatever the reason, I will try to respect upstream.
 
-So, before entering the prompt, I made an experimental plan that might be reusable for future projects / patches. The AI would do the patches, and the process would be reproducible. It seems that this does not make sense because LLMs are actually black boxes, and you may get different results on the next retry.
+So, after a few iteration and tinkering, I made an experimental plan that might be reusable for future projects / patches. The AI would do the patches, and the process would be reproducible. It seems that this does not make sense because LLMs are actually black boxes, and you may get different results on the next retry.
 
 That's where I came to construct the harness for AI patching. I prepared a directory that could be treated as "patches". It contains 4 files and one directory:
 
