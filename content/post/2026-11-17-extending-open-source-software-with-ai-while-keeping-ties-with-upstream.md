@@ -21,7 +21,9 @@ But extending features / functionalities is another level of effort. We tend not
 * It may no longer be maintained (which happened with LiveCaptions, which I will tell you about later).
 * Our patches do not fit into upstream's goals.
 
-Now, in the AI era, we have another reason: upstream may not accept AI-generated patches. My personal stance here is that I still want to explore the capabilities of AI, especially the SOTA ones, but on the other side, I want to respect upstreams. I would not do something like forking Asahi Linux and then badmouthing the maintainer because they wouldn't accept AI contributions. I think that's not how open source works, or at least how it used to work. AI is now challenging many aspects of open source culture and traditions, and we can see this in many clashes, conflicts, and dramas around the internet.
+Now, in the AI era, we have another reason: upstream may not accept AI-generated patches easily. Open source projects have diverse stances against AI, from the most loosening to the most strict. The spectrum is quite interesting.
+
+My personal stance here is that I still want to explore the capabilities of AI, especially the SOTA ones, but on the other side, I want to respect upstreams. I would not do something like forking Asahi Linux and then badmouthing the maintainer because they wouldn't accept AI contributions. I think that's not how open source works, or at least how it used to work. AI is now challenging many aspects of open source culture and traditions, and we can see this in many clashes, conflicts, and dramas around the internet.
 
 These patching efforts are important to deliver the best experience for our users.
 
