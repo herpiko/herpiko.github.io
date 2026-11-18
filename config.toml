@@ -46,3 +46,9 @@ url = "/index.xml"
 custom_css = ["css/theme-override.css"]
 description = "I am a simple man, I see Gandalf, I follow him."
 footer = "[Github](https://github.com/herpiko) | [LinkedIn](https://www.linkedin.com/in/herpiko/)"
+
+[params.giscus]
+repo = "herpiko/herpiko.github.io"
+repo_id = "MDEwOlJlcG9zaXRvcnkxNDA0NjM4NjI="
+category = "Comments"
+category_id = "DIC_kwDOCF9O9s4DLZJ0"

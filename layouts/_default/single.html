@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+<div class="article-meta">
+<h1><span class="title">{{ .Title | markdownify }}</span></h1>
+<!-- 
+{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+-->
+<div style="font-size:0.8em; color: grey; line-height:1.2em">
+  {{ if .Params.date }}<span class="date">Date: {{ .Date.Format "2006/01/02" }}</span>{{ end }}
+  <br/>
+  <span class="terms">
+    {{ range $i := (slice "categories" "tags") }}
+    {{ with ($.Param $i) }}
+      {{ $i | title }}: {{ range $index, $k := . }}{{ if ne $index (0) }}, {{ end }}
+        <a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>{{ end }}
+      {{ end }}
+    <br/>
+    {{ end }}
+  </span>
+</div>
+</div>
+
+{{ if .Params.toc }}
+{{ .TableOfContents }}
+{{ end }}
+<div class="content-wrapper">
+  <main>
+    {{ .Content }}
+    {{ with site.Params.giscus }}
+    {{ if and .category_id (eq $.Section "post") (ne $.Params.comments false) }}
+    <section class="comments" style="margin-top:3em">
+      <script src="https://giscus.app/client.js"
+        data-repo="{{ .repo }}"
+        data-repo-id="{{ .repo_id }}"
+        data-category="{{ .category }}"
+        data-category-id="{{ .category_id }}"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="id"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </section>
+    {{ end }}
+    {{ end }}
+    <br/><br/>
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+{{ partial "footer.html" . }}
